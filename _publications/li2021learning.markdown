@@ -4,9 +4,9 @@ title: Learning Semantic-aligned Feature Representation For Text-based Person Se
 authors: Shiping Li, Min Cao, Min Zhang
 conference: ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech
   and Signal Processing (ICASSP)
-year: 2022
+year: 2021
 bibkey: li2021learning
-citations: 50
+citations: 70
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.06714'}]
 tags: ["Datasets", "ICASSP"]
 short_authors: Shiping Li, Min Cao, Min Zhang

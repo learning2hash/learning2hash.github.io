@@ -4,9 +4,9 @@ title: Local Citation Recommendation With Hierarchical-attention Text Encoder An
   Scibert-based Reranking
 authors: Nianlong Gu, Yingqiang Gao, Richard H. R. Hahnloser
 conference: Lecture Notes in Computer Science
-year: 2022
+year: 2021
 bibkey: gu2021local
-citations: 16
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.01206'}]
 tags: ["Datasets", "Evaluation", "Re-Ranking", "Recommender Systems", "Scalability"]
 short_authors: Nianlong Gu, Yingqiang Gao, Richard H. R. Hahnloser

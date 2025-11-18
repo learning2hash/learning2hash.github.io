@@ -3,9 +3,9 @@ layout: publication
 title: Cross-domain Image Matching With Deep Feature Maps
 authors: Bailey Kong, James Supancic, Deva Ramanan, Charless C. Fowlkes
 conference: International Journal of Computer Vision
-year: 2019
+year: 2018
 bibkey: kong2018cross
-citations: 22
+citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.02367'}]
 tags: ["Evaluation", "Image Retrieval"]
 short_authors: Kong et al.

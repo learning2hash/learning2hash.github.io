@@ -3,9 +3,9 @@ layout: publication
 title: Hierarchical Bloom Filter Trees For Approximate Matching
 authors: David Lillis, Frank Breitinger, Mark Scanlon
 conference: The Journal of Digital Forensics, Security and Law
-year: 2018
+year: 2017
 bibkey: lillis2017hierarchical
-citations: 5
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.04544'}]
 tags: ["Hashing Methods"]
 short_authors: David Lillis, Frank Breitinger, Mark Scanlon

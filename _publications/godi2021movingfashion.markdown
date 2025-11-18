@@ -3,9 +3,9 @@ layout: publication
 title: 'Movingfashion: A Benchmark For The Video-to-shop Challenge'
 authors: Marco Godi, Christian Joppi, Geri Skenderi, Marco Cristani
 conference: 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-year: 2022
+year: 2021
 bibkey: godi2021movingfashion
-citations: 12
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.02627'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Godi et al.

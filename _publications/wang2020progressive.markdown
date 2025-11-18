@@ -3,9 +3,9 @@ layout: publication
 title: Progressive Local Filter Pruning For Image Retrieval Acceleration
 authors: Xiaodong Wang, Zhedong Zheng, Yang He, Fei Yan, Zhiqiang Zeng, Yi Yang
 conference: IEEE Transactions on Multimedia
-year: 2023
+year: 2020
 bibkey: wang2020progressive
-citations: 51
+citations: 42
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.08878'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Wang et al.

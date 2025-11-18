@@ -4,9 +4,9 @@ title: 'Arnet: Self-supervised FG-SBIR With Unified Sample Feature Alignment And
   Token Recycling'
 authors: Jianan Jiang, Hao Tang, Zhilin Jiang, Weiren Yu, di Wu
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2025
+year: 2024
 bibkey: jiang2024arnet
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.11551'}]
 tags: ["AAAI", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Scalability", "Self-Supervised", "Supervised", "Tools & Libraries"]
 short_authors: Jiang et al.

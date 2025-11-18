@@ -4,10 +4,11 @@ title: 'MTEB: Massive Text Embedding Benchmark'
 authors: "Niklas Muennighoff, Nouamane Tazi, Lo\xEFc Magne, Nils Reimers"
 conference: Proceedings of the 17th Conference of the European Chapter of the Association
   for Computational Linguistics
-year: 2023
+year: 2022
 bibkey: muennighoff2022mteb
-citations: 189
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2210.07316'}]
+citations: 223
+additional_links: [{name: Code, url: 'https://github.com/embeddings-benchmark/mteb'},
+  {name: Paper, url: 'https://arxiv.org/abs/2210.07316'}]
 tags: ["Datasets", "Eacl", "Evaluation"]
 short_authors: Muennighoff et al.
 ---

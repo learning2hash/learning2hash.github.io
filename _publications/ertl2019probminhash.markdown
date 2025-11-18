@@ -4,9 +4,9 @@ title: Probminhash -- A Class Of Locality-sensitive Hash Algorithms For The (pro
   Jaccard Similarity
 authors: Otmar Ertl
 conference: IEEE Transactions on Knowledge and Data Engineering
-year: 2020
+year: 2019
 bibkey: ertl2019probminhash
-citations: 23
+citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.00675'}]
 tags: ["Evaluation", "Hashing Methods"]
 short_authors: Otmar Ertl

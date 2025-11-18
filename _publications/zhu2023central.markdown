@@ -3,9 +3,9 @@ layout: publication
 title: Central Similarity Multi-view Hashing For Multimedia Retrieval
 authors: Jian Zhu, Wen Cheng, Yu Cui, Chang Tang, Yuyang Dai, Yong Li, Lingfang Zeng
 conference: Lecture Notes in Computer Science
-year: 2024
+year: 2023
 bibkey: zhu2023central
-citations: 1
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.13774'}]
 tags: ["Evaluation", "Hashing Methods"]
 short_authors: Zhu et al.

@@ -3,7 +3,7 @@ layout: publication
 title: Video Editing For Video Retrieval
 authors: Bin Zhu, Kevin Flanagan, Adriano Fragomeni, Michael Wray, Dima Damen
 conference: Lecture Notes in Computer Science
-year: 2025
+year: 2024
 bibkey: zhu2024video
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.02335'}]

@@ -3,9 +3,9 @@ layout: publication
 title: End-to-end Supervised Product Quantization For Image Search And Retrieval
 authors: Benjamin Klein, Lior Wolf
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2019
+year: 2017
 bibkey: klein2017end
-citations: 59
+citations: 50
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08589'}]
 tags: ["CVPR", "Hashing Methods", "Image Retrieval", "Memory Efficiency", "Quantization", "Supervised", "Unsupervised"]
 short_authors: Benjamin Klein, Lior Wolf

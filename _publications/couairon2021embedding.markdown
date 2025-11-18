@@ -4,9 +4,9 @@ title: Embedding Arithmetic Of Multimodal Queries For Image Retrieval
 authors: Guillaume Couairon, Matthieu Cord, Matthijs Douze, Holger Schwenk
 conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
   (CVPRW)
-year: 2022
+year: 2021
 bibkey: couairon2021embedding
-citations: 14
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.03162'}]
 tags: ["CVPR", "Datasets", "Image Retrieval"]
 short_authors: Couairon et al.

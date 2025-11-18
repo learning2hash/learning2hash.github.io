@@ -4,7 +4,7 @@ title: 'Retrieve Fast, Rerank Smart: Cooperative And Joint Approaches For Improv
   Cross-modal Retrieval'
 authors: "Gregor Geigle, Jonas Pfeiffer, Nils Reimers, Ivan Vuli\u0107, Iryna Gurevych"
 conference: Transactions of the Association for Computational Linguistics
-year: 2022
+year: 2021
 bibkey: geigle2021retrieve
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.11920'}]

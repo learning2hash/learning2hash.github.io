@@ -5,10 +5,11 @@ title: 'TPCH: Tensor-interacted Projection And Cooperative Hashing For Multi-vie
 authors: Zhongwen Wang, Xingfeng Li, Yinghui Sun, Quansen Sun, Yuan Sun, Han Ling,
   Jian Dai, Zhenwen Ren
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2025
+year: 2024
 bibkey: wang2024tpch
-citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2412.18847'}]
+citations: 1
+additional_links: [{name: Code, url: 'https://github.com/jankin-wang/TPCH\'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2412.18847'}]
 tags: ["AAAI", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Scalability"]
 short_authors: Wang et al.
 ---

@@ -4,9 +4,9 @@ title: Multimodal Metric Learning For Tag-based Music Retrieval
 authors: Minz Won, Sergio Oramas, Oriol Nieto, Fabien Gouyon, Xavier Serra
 conference: ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech
   and Signal Processing (ICASSP)
-year: 2021
+year: 2020
 bibkey: won2020multimodal
-citations: 28
+citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.16030'}]
 tags: ["Datasets", "Distance Metric Learning", "ICASSP", "Multimodal Retrieval", "Scalability"]
 short_authors: Won et al.

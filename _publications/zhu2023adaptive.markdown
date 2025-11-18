@@ -3,13 +3,13 @@ layout: publication
 title: Adaptive Confidence Multi-view Hashing For Multimedia Retrieval
 authors: Jian Zhu, Yu Cui, Zhangmin Huang, Xingyu Li, Lei Liu, Lingfang Zeng, Li-Rong
   Dai
-conference: ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech
-  and Signal Processing (ICASSP)
-year: 2024
-bibkey: zhu2024adaptive
-citations: 2
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2312.07327'}]
-tags: ["Datasets", "Hashing Methods", "ICASSP"]
+conference: 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+year: 2023
+bibkey: zhu2023adaptive
+citations: 25
+additional_links: [{name: Code, url: 'https://github.com/HackerHyper/ACMVH'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2312.07327'}]
+tags: ["Datasets", "Hashing Methods"]
 short_authors: Zhu et al.
 ---
 The multi-view hash method converts heterogeneous data from multiple views

@@ -4,9 +4,9 @@ title: Learning-based Efficient Graph Similarity Computation Via Multi-scale Con
   Set Matching
 authors: Yunsheng Bai, Hao Ding, Yizhou Sun, Wei Wang
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2020
+year: 2018
 bibkey: bai2018learning
-citations: 68
+citations: 62
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.04440'}]
 tags: ["AAAI", "Datasets", "Evaluation", "Graph Based ANN", "Similarity Search"]
 short_authors: Bai et al.

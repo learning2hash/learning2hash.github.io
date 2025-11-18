@@ -3,9 +3,9 @@ layout: publication
 title: Stochastic Graphlet Embedding
 authors: Anjan Dutta, Hichem Sahbi
 conference: IEEE Transactions on Neural Networks and Learning Systems
-year: 2018
+year: 2017
 bibkey: dutta2017stochastic
-citations: 19
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.00156'}]
 tags: ["Evaluation", "Graph Based ANN", "Hashing Methods"]
 short_authors: Anjan Dutta, Hichem Sahbi

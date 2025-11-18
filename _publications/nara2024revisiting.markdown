@@ -4,7 +4,7 @@ title: Revisiting Relevance Feedback For Clip-based Interactive Image Retrieval
 authors: Ryoya Nara, Yu-Chieh Lin, Yuji Nozawa, Youyang Ng, Goh Itoh, Osamu Torii,
   Yusuke Matsui
 conference: Lecture Notes in Computer Science
-year: 2025
+year: 2024
 bibkey: nara2024revisiting
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.16398'}]

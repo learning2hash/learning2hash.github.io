@@ -3,7 +3,7 @@ layout: publication
 title: Fuzzy Logic Based Logical Query Answering On Knowledge Graphs
 authors: Xuelu Chen, Ziniu Hu, Yizhou Sun
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2022
+year: 2021
 bibkey: chen2021fuzzy
 citations: 40
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.02390'}]

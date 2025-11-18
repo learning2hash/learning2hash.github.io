@@ -4,9 +4,9 @@ title: On-device Text Representations Robust To Misspellings Via Projections
 authors: Chinnadhurai Sankar, Sujith Ravi, Zornitsa Kozareva
 conference: 'Proceedings of the 16th Conference of the European Chapter of the Association
   for Computational Linguistics: Main Volume'
-year: 2021
+year: 2019
 bibkey: sankar2019on
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.05763'}]
 tags: ["Eacl", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Chinnadhurai Sankar, Sujith Ravi, Zornitsa Kozareva

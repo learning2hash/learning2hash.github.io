@@ -5,11 +5,10 @@ title: In-memory Nearest Neighbor Search With Fefet Multi-bit Content-addressabl
 authors: "Arman Kazemi, Mohammad Mehdi Sharifi, Ann Franchesca Laguna, Franz M\xFC\
   ller, Ramin Rajaei, Ricardo Olivo, Thomas K\xE4mpfe, Michael Niemier, X. Sharon\
   \ Hu"
-conference: 2021 Design, Automation &amp; Test in Europe Conference &amp; Exhibition
-  (DATE)
-year: 2021
+conference: 2021 Design, Automation & Test in Europe Conference & Exhibition (DATE)
+year: 2020
 bibkey: kazemi2020in
-citations: 42
+citations: 33
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.07095'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Kazemi et al.

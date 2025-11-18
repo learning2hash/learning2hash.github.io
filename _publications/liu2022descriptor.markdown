@@ -4,7 +4,7 @@ title: 'Descriptor Distillation: A Teacher-student-regularized Framework For Lea
   Local Descriptors'
 authors: Yuzhen Liu, Qiulei Dong
 conference: International Journal of Computer Vision
-year: 2024
+year: 2022
 bibkey: liu2022descriptor
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.11795'}]

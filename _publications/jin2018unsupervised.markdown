@@ -3,9 +3,9 @@ layout: publication
 title: Unsupervised Semantic Deep Hashing
 authors: Sheng Jin
 conference: Neurocomputing
-year: 2019
+year: 2018
 bibkey: jin2018unsupervised
-citations: 25
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.06911'}]
 tags: ["Datasets", "Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Scalability", "Supervised", "Unsupervised"]
 short_authors: Sheng Jin

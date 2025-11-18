@@ -5,9 +5,9 @@ authors: Wei Zhang, Hao Wei, Bunyamin Sisman, Xin Luna Dong, Christos Faloutsos,
   Page
 conference: 'WSDM ''20: The Thirteenth ACM International Conference on Web Search
   and Data Mining'
-year: 2020
+year: 2019
 bibkey: zhang2019autoblock
-citations: 31
+citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.03417'}]
 tags: ["Datasets", "Scalability", "Tools & Libraries"]
 short_authors: Zhang et al.

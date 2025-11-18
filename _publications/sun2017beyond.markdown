@@ -4,9 +4,9 @@ title: 'Beyond Part Models: Person Retrieval With Refined Part Pooling (and A St
   Convolutional Baseline)'
 authors: Yifan Sun, Liang Zheng, Yi Yang, Qi Tian, Shengjin Wang
 conference: Lecture Notes in Computer Science
-year: 2018
+year: 2017
 bibkey: sun2017beyond
-citations: 2340
+citations: 1643
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.09349'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Sun et al.

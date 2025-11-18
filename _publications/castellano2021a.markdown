@@ -3,9 +3,9 @@ layout: publication
 title: A Deep Learning Approach To Clustering Visual Arts
 authors: Giovanna Castellano, Gennaro Vessio
 conference: International Journal of Computer Vision
-year: 2022
+year: 2021
 bibkey: castellano2021a
-citations: 12
+citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.06234'}]
 tags: ["Datasets", "Neural Hashing"]
 short_authors: Giovanna Castellano, Gennaro Vessio

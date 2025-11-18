@@ -3,9 +3,9 @@ layout: publication
 title: A Compact Embedding For Facial Expression Similarity
 authors: Raviteja Vemulapalli, Aseem Agarwala
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2019
+year: 2018
 bibkey: vemulapalli2018a
-citations: 103
+citations: 80
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.11283'}]
 tags: ["CVPR", "Datasets", "Scalability"]
 short_authors: Raviteja Vemulapalli, Aseem Agarwala

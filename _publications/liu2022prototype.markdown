@@ -4,9 +4,9 @@ title: Prototype-based Layered Federated Cross-modal Hashing
 authors: Jiale Liu, Yu-Wei Zhan, Xin Luo, Zhen-Duo Chen, Yongxin Wang, Xin-Shun Xu
 conference: ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech
   and Signal Processing (ICASSP)
-year: 2023
+year: 2022
 bibkey: liu2022prototype
-citations: 2
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.15678'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "ICASSP"]
 short_authors: Liu et al.

@@ -5,9 +5,9 @@ title: 'Online Enhanced Semantic Hashing: Towards Effective And Efficient Retrie
 authors: Xiao-Ming Wu, Xin Luo, Yu-Wei Zhan, Chen-Lu Ding, Zhen-Duo Chen, Xin-Shun
   Xu
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2022
+year: 2021
 bibkey: wu2021online
-citations: 5
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.04260'}]
 tags: ["AAAI", "Efficiency", "Hashing Methods", "Memory Efficiency", "Neural Hashing", "Scalability", "Similarity Search"]
 short_authors: Wu et al.

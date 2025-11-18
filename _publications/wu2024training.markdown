@@ -4,10 +4,11 @@ title: Training-free Zero-shot Composed Image Retrieval Via Weighted Modality Fu
   And Similarity
 authors: Ren-di Wu, Yu-Yen Lin, Huei-Fang Yang
 conference: Communications in Computer and Information Science
-year: 2025
+year: 2024
 bibkey: wu2024training
-citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2409.04918'}]
+citations: 2
+additional_links: [{name: Code, url: 'https://github.com/whats2000/WeiMoCIR'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2409.04918'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Scalability", "Supervised"]
 short_authors: Ren-di Wu, Yu-Yen Lin, Huei-Fang Yang
 ---

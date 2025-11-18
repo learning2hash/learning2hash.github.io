@@ -3,7 +3,7 @@ layout: publication
 title: Dual-reference Face Retrieval
 authors: Bingzhang Hu, Feng Zheng, Ling Shao
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2018
+year: 2017
 bibkey: hu2017dual
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.00631'}]

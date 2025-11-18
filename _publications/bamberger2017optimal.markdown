@@ -3,9 +3,9 @@ layout: publication
 title: Optimal Fast Johnson-lindenstrauss Embeddings For Large Data Sets
 authors: Stefan Bamberger, Felix Krahmer
 conference: Sampling Theory, Signal Processing, and Data Analysis
-year: 2021
+year: 2017
 bibkey: bamberger2017optimal
-citations: 3
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.01774'}]
 tags: ["Uncategorized"]
 short_authors: Stefan Bamberger, Felix Krahmer

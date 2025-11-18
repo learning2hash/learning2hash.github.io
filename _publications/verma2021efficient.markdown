@@ -3,9 +3,9 @@ layout: publication
 title: Efficient Binary Embedding Of Categorical Data Using Binsketch
 authors: Bhisham Dev Verma, Rameshwar Pratap, Debajyoti Bera
 conference: Data Mining and Knowledge Discovery
-year: 2022
+year: 2021
 bibkey: verma2021efficient
-citations: 4
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.07163'}]
 tags: ["Datasets", "Hashing Methods"]
 short_authors: Bhisham Dev Verma, Rameshwar Pratap, Debajyoti Bera

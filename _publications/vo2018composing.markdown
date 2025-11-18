@@ -3,9 +3,9 @@ layout: publication
 title: Composing Text And Image For Image Retrieval - An Empirical Odyssey
 authors: Nam Vo, Lu Jiang, Chen Sun, Kevin Murphy, Li-Jia Li, Li Fei-Fei, James Hays
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2019
+year: 2018
 bibkey: vo2018composing
-citations: 325
+citations: 286
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.07119'}]
 tags: ["CVPR", "Datasets", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Vo et al.

@@ -3,9 +3,9 @@ layout: publication
 title: Collaborative Learning For Extremely Low Bit Asymmetric Hashing
 authors: Yadan Luo, Zi Huang, Yang Li, Fumin Shen, Yang Yang, Peng Cui
 conference: IEEE Transactions on Knowledge and Data Engineering
-year: 2020
+year: 2018
 bibkey: luo2018collaborative
-citations: 14
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.09329'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Tools & Libraries"]
 short_authors: Luo et al.

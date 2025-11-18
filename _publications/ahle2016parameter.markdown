@@ -2,10 +2,11 @@
 layout: publication
 title: Parameter-free Locality Sensitive Hashing For Spherical Range Reporting
 authors: "Thomas D. Ahle, Martin Aum\xFCller, Rasmus Pagh"
-conference: Arxiv
-year: 2017
+conference: Proceedings of the Twenty-Eighth Annual ACM-SIAM Symposium on Discrete
+  Algorithms
+year: 2016
 bibkey: ahle2016parameter
-citations: 19
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.02673'}]
 tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
 short_authors: "Thomas D. Ahle, Martin Aum\xFCller, Rasmus Pagh"

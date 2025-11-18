@@ -3,11 +3,12 @@ layout: publication
 title: Tevis:translating Text Synopses To Video Storyboards
 authors: Xu Gu, Yuchong Sun, Feiyue Ni, Shizhe Chen, Xihua Wang, Ruihua Song, Boyuan
   Li, Xiang Cao
-conference: Arxiv
-year: 2023
+conference: 'MM ''23: The 31st ACM International Conference on Multimedia'
+year: 2022
 bibkey: gu2022tevis
-citations: 1
-additional_links: [{name: Code, url: 'https://ruc-aimind'}, {name: Paper, url: 'https://arxiv.org/abs/2301.00135'}]
+citations: 4
+additional_links: [{name: Code, url: 'https://ruc-aimind.github.io/projects/TeViS/'},
+  {name: Paper, url: 'https://arxiv.org/abs/2301.00135'}]
 tags: ["Datasets", "Evaluation", "Quantization"]
 short_authors: Gu et al.
 ---

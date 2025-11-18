@@ -3,9 +3,9 @@ layout: publication
 title: 'Fast Binary Embeddings With Gaussian Circulant Matrices: Improved Bounds'
 authors: Sjoerd Dirksen, Alexander Stollenwerk
 conference: Discrete &amp; Computational Geometry
-year: 2018
+year: 2016
 bibkey: dirksen2016fast
-citations: 13
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.06498'}]
 tags: ["Hashing Methods"]
 short_authors: Sjoerd Dirksen, Alexander Stollenwerk

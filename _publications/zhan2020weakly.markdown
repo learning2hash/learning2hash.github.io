@@ -3,7 +3,7 @@ layout: publication
 title: Weakly-supervised Online Hashing
 authors: Yu-Wei Zhan, Xin Luo, Yu Sun, Yongxin Wang, Zhen-Duo Chen, Xin-Shun Xu
 conference: 2021 IEEE International Conference on Multimedia and Expo (ICME)
-year: 2021
+year: 2020
 bibkey: zhan2020weakly
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.07436'}]

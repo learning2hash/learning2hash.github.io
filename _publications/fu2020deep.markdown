@@ -3,9 +3,9 @@ layout: publication
 title: Deep Momentum Uncertainty Hashing
 authors: Chaoyou Fu, Guoli Wang, Xiang Wu, Qian Zhang, Ran He
 conference: Pattern Recognition
-year: 2021
+year: 2020
 bibkey: fu2020deep
-citations: 16
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.08012'}]
 tags: ["CVPR", "Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Neural Hashing"]
 short_authors: Fu et al.

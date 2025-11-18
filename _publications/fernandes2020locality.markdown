@@ -3,9 +3,9 @@ layout: publication
 title: Locality Sensitive Hashing With Extended Differential Privacy
 authors: Natasha Fernandes, Yusuke Kawamoto, Takao Murakami
 conference: Lecture Notes in Computer Science
-year: 2021
+year: 2020
 bibkey: fernandes2020locality
-citations: 7
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.09393'}]
 tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Privacy & Security"]
 short_authors: Natasha Fernandes, Yusuke Kawamoto, Takao Murakami

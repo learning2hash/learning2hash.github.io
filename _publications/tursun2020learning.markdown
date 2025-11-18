@@ -3,7 +3,7 @@ layout: publication
 title: Learning Test-time Augmentation For Content-based Image Retrieval
 authors: Osman Tursun, Simon Denman, Sridha Sridharan, Clinton Fookes
 conference: Computer Vision and Image Understanding
-year: 2022
+year: 2020
 bibkey: tursun2020learning
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.01642'}]

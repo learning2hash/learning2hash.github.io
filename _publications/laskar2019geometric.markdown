@@ -4,9 +4,9 @@ title: Geometric Image Correspondence Verification By Dense Pixel Matching
 authors: Zakaria Laskar, Iaroslav Melekhov, Hamed R. Tavakoli, Juha Ylioinas, Juho
   Kannala
 conference: 2020 IEEE Winter Conference on Applications of Computer Vision (WACV)
-year: 2020
+year: 2019
 bibkey: laskar2019geometric
-citations: 12
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.06882'}]
 tags: ["Datasets", "Distance Metric Learning", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
 short_authors: Laskar et al.

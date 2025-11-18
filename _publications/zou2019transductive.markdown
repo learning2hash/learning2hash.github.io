@@ -3,9 +3,9 @@ layout: publication
 title: Transductive Zero-shot Hashing For Multilabel Image Retrieval
 authors: Qin Zou, Zheng Zhang, Ling Cao, Long Chen, Song Wang
 conference: IEEE Transactions on Neural Networks and Learning Systems
-year: 2020
+year: 2019
 bibkey: zou2019transductive
-citations: 14
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.07192'}]
 tags: ["Compact Codes", "Datasets", "Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Quantization", "Scalability"]
 short_authors: Zou et al.

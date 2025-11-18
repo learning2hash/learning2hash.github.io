@@ -2,10 +2,10 @@
 layout: publication
 title: Set Similarity Search Beyond Minhash
 authors: Tobias Christiani, Rasmus Pagh
-conference: Proceedings of the 49th Annual ACM SIGACT Symposium on Theory of Computing
-year: 2017
+conference: 'STOC ''17: Symposium on Theory of Computing'
+year: 2016
 bibkey: christiani2016set
-citations: 45
+citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.07710'}]
 tags: ["Distance Metric Learning", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search", "Tools & Libraries"]
 short_authors: Tobias Christiani, Rasmus Pagh

@@ -3,9 +3,9 @@ layout: publication
 title: Scalable Logo Recognition Using Proxies
 authors: Istvan Fehervari, Srikar Appalaraju
 conference: 2019 IEEE Winter Conference on Applications of Computer Vision (WACV)
-year: 2019
+year: 2018
 bibkey: fehervari2018scalable
-citations: 50
+citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.08009'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Istvan Fehervari, Srikar Appalaraju

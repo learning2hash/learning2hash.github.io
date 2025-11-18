@@ -3,9 +3,9 @@ layout: publication
 title: 'Featurebooster: Boosting Feature Descriptors With A Lightweight Neural Network'
 authors: Xinjiang Wang, Zeyu Liu, Yu Hu, Wei Xi, Wenxian Yu, Danping Zou
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2023
+year: 2022
 bibkey: wang2022featurebooster
-citations: 16
+citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.15069'}]
 tags: ["CVPR", "Evaluation"]
 short_authors: Wang et al.

@@ -3,9 +3,9 @@ layout: publication
 title: Fine-tuning CNN Image Retrieval With No Human Annotation
 authors: "Filip Radenovi\u0107, Giorgos Tolias, Ond\u0159ej Chum"
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
-year: 2018
+year: 2017
 bibkey: "radenovi\u01072017fine"
-citations: 1197
+citations: 978
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.02512'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: "Filip Radenovi\u0107, Giorgos Tolias, Ond\u0159ej Chum"

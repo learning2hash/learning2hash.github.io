@@ -4,9 +4,9 @@ title: Texture Synthesis Guided Deep Hashing For Texture Image Retrieval
 authors: Ayan Kumar Bhunia, Perla Sai Raj Kishore, Pranay Mukherjee, Abhirup Das,
   Partha Pratim Roy
 conference: 2019 IEEE Winter Conference on Applications of Computer Vision (WACV)
-year: 2019
+year: 2018
 bibkey: bhunia2018texture
-citations: 17
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.01401'}]
 tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Similarity Search"]
 short_authors: Bhunia et al.

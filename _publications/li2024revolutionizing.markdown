@@ -3,11 +3,11 @@ layout: publication
 title: Revolutionizing Text-to-image Retrieval As Autoregressive Token-to-voken Generation
 authors: Yongqi Li, Hongru Cai, Wenjie Wang, Leigang Qu, Yinwei Wei, Wenjie Li, Liqiang
   Nie, Tat-Seng Chua
-conference: Proceedings of the 48th International ACM SIGIR Conference on Research
-  and Development in Information Retrieval
-year: 2025
+conference: 'SIGIR ''25: The 48th International ACM SIGIR Conference on Research and
+  Development in Information Retrieval'
+year: 2024
 bibkey: li2024revolutionizing
-citations: 0
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.17274'}]
 tags: ["Efficiency", "Image Retrieval", "Multimodal Retrieval", "SIGIR", "Tools & Libraries"]
 short_authors: Li et al.

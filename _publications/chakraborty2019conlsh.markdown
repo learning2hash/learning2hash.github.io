@@ -3,10 +3,10 @@ layout: publication
 title: 'Conlsh: Context Based Locality Sensitive Hashing For Mapping Of Noisy SMRT
   Reads'
 authors: Angana Chakraborty, Sanghamitra Bandyopadhyay
-conference: Computational Biology and Chemistry
-year: 2020
+conference: Arxiv
+year: 2019
 bibkey: chakraborty2019conlsh
-citations: 13
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.04925'}]
 tags: ["Datasets", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Angana Chakraborty, Sanghamitra Bandyopadhyay

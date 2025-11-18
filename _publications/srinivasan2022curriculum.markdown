@@ -4,9 +4,9 @@ title: Curriculum Learning For Data-efficient Vision-language Alignment
 authors: Tejas Srinivasan, Xiang Ren, Jesse Thomason
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
   (CVPRW)
-year: 2023
+year: 2022
 bibkey: srinivasan2022curriculum
-citations: 3
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.14525'}]
 tags: ["CVPR", "Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised"]
 short_authors: Tejas Srinivasan, Xiang Ren, Jesse Thomason

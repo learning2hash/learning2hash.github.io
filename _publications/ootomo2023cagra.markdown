@@ -4,9 +4,9 @@ title: 'CAGRA: Highly Parallel Graph Construction And Approximate Nearest Neighb
   Search For Gpus'
 authors: Hiroyuki Ootomo, Akira Naruse, Corey Nolet, Ray Wang, Tamas Feher, Yong Wang
 conference: 2024 IEEE 40th International Conference on Data Engineering (ICDE)
-year: 2024
+year: 2023
 bibkey: ootomo2023cagra
-citations: 9
+citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.15136'}]
 tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Recommender Systems"]
 short_authors: Ootomo et al.

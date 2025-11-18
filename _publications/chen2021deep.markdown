@@ -1,21 +1,28 @@
 ---
 layout: publication
-title: Deep Learning To Ternary Hash Codes By Continuation
-authors: Mingrui Chen, Weiyu Li, Weizhi Lu
+title: 'Deep Learning For Instance Retrieval: A Survey'
+authors: Wei Chen, Yu Liu, Weiping Wang, Erwin Bakker, Theodoros Georgiou, Paul Fieguth,
+  Li Liu, Michael S. Lew
 conference: Electronics Letters
 year: 2021
 bibkey: chen2021deep
 citations: 2
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.07987'}]
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.11282'}]
 tags: ["Efficiency", "Evaluation", "Image Retrieval", "Neural Hashing", "Survey Paper"]
-short_authors: Mingrui Chen, Weiyu Li, Weizhi Lu
+short_authors: Chen et al.
 ---
-Recently, it has been observed that \{0,1,-1\}-ternary codes which are simply
-generated from deep features by hard thresholding, tend to outperform
-\{-1,1\}-binary codes in image retrieval. To obtain better ternary codes, we for
-the first time propose to jointly learn the features with the codes by
-appending a smoothed function to the networks. During training, the function
-could evolve into a non-smoothed ternary function by a continuation method. The
-method circumvents the difficulty of directly training discrete functions and
-reduces the quantization errors of ternary codes. Experiments show that the
-generated codes indeed could achieve higher retrieval accuracy.
+In recent years a vast amount of visual content has been generated and shared
+from many fields, such as social media platforms, medical imaging, and
+robotics. This abundance of content creation and sharing has introduced new
+challenges, particularly that of searching databases for similar
+content-Content Based Image Retrieval (CBIR)-a long-established research area
+in which improved efficiency and accuracy are needed for real-time retrieval.
+Artificial intelligence has made progress in CBIR and has significantly
+facilitated the process of instance search. In this survey we review recent
+instance retrieval works that are developed based on deep learning algorithms
+and techniques, with the survey organized by deep network architecture types,
+deep features, feature embedding and aggregation methods, and network
+fine-tuning strategies. Our survey considers a wide variety of recent methods,
+whereby we identify milestone work, reveal connections among various methods
+and present the commonly used benchmarks, evaluation results, common
+challenges, and propose promising future directions.

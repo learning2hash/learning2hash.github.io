@@ -4,9 +4,9 @@ title: Graph-based Non-linear Least Squares Optimization For Visual Place Recogn
   In Changing Environments
 authors: Stefan Schubert, Peer Neubert, Peter Protzel
 conference: IEEE Robotics and Automation Letters
-year: 2021
+year: 2020
 bibkey: schubert2020graph
-citations: 9
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.14766'}]
 tags: ["Datasets", "Evaluation", "Graph Based ANN", "Image Retrieval", "Tools & Libraries"]
 short_authors: Stefan Schubert, Peer Neubert, Peter Protzel

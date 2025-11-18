@@ -7,7 +7,7 @@ year: 2024
 bibkey: li2024imagine
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.16752'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: You Li, Fan Ma, Yi Yang
 ---
 The Zero-shot Composed Image Retrieval (ZSCIR) requires retrieving images

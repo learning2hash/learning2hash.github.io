@@ -4,7 +4,7 @@ title: Deep Saliency Hashing For Fine-grained Retrieval
 authors: Sheng Jin, Hongxun Yao, Xiaoshuai Sun, Shangchen Zhou, Lei Zhang, Xiansheng
   Hua
 conference: IEEE Transactions on Image Processing
-year: 2020
+year: 2025
 bibkey: jin2025deep
 citations: 61
 additional_links: [{name: Paper, url: 'https://arxiv.org/pdf/1807.01459.pdf'}]

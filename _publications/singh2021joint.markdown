@@ -4,7 +4,7 @@ title: Joint Triplet Autoencoder For Histopathological Colon Cancer Nuclei Retri
 authors: Satya Rajendra Singh, Shiv Ram Dubey, Shruthi Ms, Sairathan Ventrapragada,
   Saivamshi Salla Dasharatha
 conference: Multimedia Tools and Applications
-year: 2023
+year: 2021
 bibkey: singh2021joint
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.10262'}]

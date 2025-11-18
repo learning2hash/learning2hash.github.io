@@ -3,9 +3,9 @@ layout: publication
 title: Hamming Distributions Of Popular Perceptual Hashing Techniques
 authors: Sean McKeown, William J Buchanan
 conference: 'Forensic Science International: Digital Investigation'
-year: 2023
+year: 2022
 bibkey: mcKeown2022hamming
-citations: 9
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.08035'}]
 tags: ["Evaluation", "Hashing Methods", "Tools & Libraries"]
 short_authors: Sean McKeown, William J Buchanan

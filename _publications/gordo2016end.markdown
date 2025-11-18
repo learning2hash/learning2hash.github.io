@@ -3,9 +3,9 @@ layout: publication
 title: End-to-end Learning Of Deep Visual Representations For Image Retrieval
 authors: Albert Gordo, Jon Almazan, Jerome Revaud, Diane Larlus
 conference: International Journal of Computer Vision
-year: 2017
+year: 2016
 bibkey: gordo2016end
-citations: 532
+citations: 409
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.07940'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Neural Hashing", "Quantization", "Scalability"]
 short_authors: Gordo et al.

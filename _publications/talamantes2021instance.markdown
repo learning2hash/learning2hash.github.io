@@ -3,7 +3,7 @@ layout: publication
 title: Instance-based Learning Using The Half-space Proximal Graph
 authors: Ariana Talamantes, Edgar Chavez
 conference: Pattern Recognition Letters
-year: 2022
+year: 2021
 bibkey: talamantes2021instance
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.02755'}]

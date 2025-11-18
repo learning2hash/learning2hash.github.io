@@ -8,7 +8,7 @@ bibkey: chen2024document
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/Vision-CAIR/dochaystacks'},
   {name: Paper, url: 'https://arxiv.org/abs/2411.16740'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Scalability", "Text Retrieval", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Scalability", "Text Retrieval", "Tools & Libraries"]
 short_authors: Chen et al.
 ---
 Large multimodal models (LMMs) have achieved impressive progress in

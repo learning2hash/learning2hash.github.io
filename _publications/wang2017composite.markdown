@@ -3,9 +3,9 @@ layout: publication
 title: Composite Quantization
 authors: Jingdong Wang, Ting Zhang
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
-year: 2018
+year: 2017
 bibkey: wang2017composite
-citations: 27
+citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.00955'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Quantization", "Similarity Search", "Tools & Libraries", "Vector Indexing"]
 short_authors: Jingdong Wang, Ting Zhang

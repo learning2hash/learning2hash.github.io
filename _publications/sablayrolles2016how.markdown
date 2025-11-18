@@ -4,9 +4,9 @@ title: How Should We Evaluate Supervised Hashing?
 authors: "Alexandre Sablayrolles, Matthijs Douze, Herv\xE9 J\xE9gou, Nicolas Usunier"
 conference: 2017 IEEE International Conference on Acoustics, Speech and Signal Processing
   (ICASSP)
-year: 2017
+year: 2016
 bibkey: sablayrolles2016how
-citations: 97
+citations: 47
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.06753'}]
 tags: ["Compact Codes", "Evaluation", "Hashing Methods", "ICASSP", "Supervised", "Unsupervised"]
 short_authors: Sablayrolles et al.

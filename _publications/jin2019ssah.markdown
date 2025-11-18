@@ -5,9 +5,9 @@ title: 'SSAH: Semi-supervised Adversarial Deep Hashing With Self-paced Hard Samp
 authors: Sheng Jin, Shangchen Zhou, Yao Liu, Chao Chen, Xiaoshuai Sun, Hongxun Yao,
   Xiansheng Hua
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2020
+year: 2019
 bibkey: jin2019ssah
-citations: 28
+citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.08688'}]
 tags: ["AAAI", "Datasets", "Hashing Methods", "Neural Hashing", "Robustness", "Scalability", "Supervised", "Tools & Libraries"]
 short_authors: Jin et al.

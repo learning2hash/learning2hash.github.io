@@ -4,9 +4,9 @@ title: A Statutory Article Retrieval Dataset In French
 authors: Antoine Louis, Gerasimos Spanakis
 conference: 'Proceedings of the 60th Annual Meeting of the Association for Computational
   Linguistics (Volume 1: Long Papers)'
-year: 2022
+year: 2021
 bibkey: louis2021a
-citations: 21
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.11792'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Scalability", "Supervised"]
 short_authors: Antoine Louis, Gerasimos Spanakis

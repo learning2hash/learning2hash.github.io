@@ -4,9 +4,9 @@ title: 'Efficient Diffusion On Region Manifolds: Recovering Small Objects With C
   CNN Representations'
 authors: Ahmet Iscen, Giorgos Tolias, Yannis Avrithis, Teddy Furon, Ondrej Chum
 conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2017
+year: 2016
 bibkey: iscen2016efficient
-citations: 188
+citations: 124
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.05113'}]
 tags: ["CVPR", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Iscen et al.

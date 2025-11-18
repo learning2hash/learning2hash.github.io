@@ -3,10 +3,10 @@ layout: publication
 title: Approximate Near Neighbors For General Symmetric Norms
 authors: Alexandr Andoni, Huy L. Nguyen, Aleksandar Nikolov, Ilya Razenshteyn, Erik
   Waingarten
-conference: Proceedings of the 49th Annual ACM SIGACT Symposium on Theory of Computing
-year: 2017
+conference: 'STOC ''17: Symposium on Theory of Computing'
+year: 2016
 bibkey: andoni2016approximate
-citations: 24
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.06222'}]
 tags: ["Datasets", "Efficiency"]
 short_authors: Andoni et al.

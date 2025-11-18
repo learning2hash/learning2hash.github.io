@@ -3,9 +3,9 @@ layout: publication
 title: Visual Descriptors For Content-based Retrieval Of Remote Sensing Images
 authors: Paolo Napoletano
 conference: International Journal of Remote Sensing
-year: 2017
+year: 2016
 bibkey: napoletano2016visual
-citations: 118
+citations: 95
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.00970'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Paolo Napoletano

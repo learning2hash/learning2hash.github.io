@@ -4,7 +4,7 @@ title: Leveraging Local And Global Descriptors In Parallel To Search Corresponde
   For Visual Localization
 authors: Pengju Zhang, Yihong Wu, Bingxi Liu
 conference: Pattern Recognition
-year: 2021
+year: 2020
 bibkey: zhang2020leveraging
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.10891'}]

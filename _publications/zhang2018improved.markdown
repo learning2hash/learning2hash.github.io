@@ -3,9 +3,9 @@ layout: publication
 title: Improved Deep Hashing With Soft Pairwise Similarity For Multi-label Image Retrieval
 authors: Zheng Zhang, Qin Zou, Yuewei Lin, Long Chen, Song Wang
 conference: IEEE Transactions on Multimedia
-year: 2019
+year: 2018
 bibkey: zhang2018improved
-citations: 147
+citations: 160
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.02987'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Zhang et al.

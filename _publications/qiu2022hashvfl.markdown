@@ -4,9 +4,9 @@ title: 'Hashvfl: Defending Against Data Reconstruction Attacks In Vertical Feder
   Learning'
 authors: Pengyu Qiu, Xuhong Zhang, Shouling Ji, Chong Fu, Xing Yang, Ting Wang
 conference: IEEE Transactions on Information Forensics and Security
-year: 2024
+year: 2022
 bibkey: qiu2022hashvfl
-citations: 8
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.00325'}]
 tags: ["Evaluation", "Hashing Methods", "Robustness"]
 short_authors: Qiu et al.

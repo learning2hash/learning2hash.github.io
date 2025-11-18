@@ -4,9 +4,9 @@ title: Near-optimal Sample Complexity Bounds For Circulant Binary Embedding
 authors: Samet Oymak
 conference: 2017 IEEE International Conference on Acoustics, Speech and Signal Processing
   (ICASSP)
-year: 2017
+year: 2016
 bibkey: oymak2016near
-citations: 13
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.03178'}]
 tags: ["Hashing Methods", "ICASSP"]
 short_authors: Samet Oymak

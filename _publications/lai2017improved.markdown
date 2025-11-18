@@ -3,9 +3,9 @@ layout: publication
 title: Improved Search In Hamming Space Using Deep Multi-index Hashing
 authors: Hanjiang Lai, Yan Pan
 conference: IEEE Transactions on Circuits and Systems for Video Technology
-year: 2018
+year: 2017
 bibkey: lai2017improved
-citations: 12
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.06993'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability", "Vector Indexing"]
 short_authors: Hanjiang Lai, Yan Pan

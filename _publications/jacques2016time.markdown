@@ -4,9 +4,9 @@ title: 'Time For Dithering: Fast And Quantized Random Embeddings Via The Restric
   Isometry Property'
 authors: Laurent Jacques, Valerio Cambareri
 conference: 'Information and Inference: A Journal of the IMA'
-year: 2017
+year: 2016
 bibkey: jacques2016time
-citations: 32
+citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.00816'}]
 tags: ["Evaluation", "Quantization"]
 short_authors: Laurent Jacques, Valerio Cambareri

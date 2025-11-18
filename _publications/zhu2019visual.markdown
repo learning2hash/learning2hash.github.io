@@ -3,10 +3,11 @@ layout: publication
 title: Visual Explanation For Deep Metric Learning
 authors: Sijie Zhu, Taojiannan Yang, Chen Chen
 conference: IEEE Transactions on Image Processing
-year: 2021
+year: 2019
 bibkey: zhu2019visual
-citations: 25
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1909.12977'}]
+citations: 24
+additional_links: [{name: Code, url: 'https://github.com/Jeff-Zilence/Explain_Metric_Learning'},
+  {name: Paper, url: 'https://arxiv.org/abs/1909.12977'}]
 tags: ["Distance Metric Learning", "Evaluation", "Tools & Libraries"]
 short_authors: Sijie Zhu, Taojiannan Yang, Chen Chen
 ---

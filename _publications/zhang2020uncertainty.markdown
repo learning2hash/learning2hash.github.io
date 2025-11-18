@@ -2,11 +2,10 @@
 layout: publication
 title: Uncertainty-aware Few-shot Image Classification
 authors: Zhizheng Zhang, Cuiling Lan, Wenjun Zeng, Zhibo Chen, Shih-Fu Chang
-conference: Proceedings of the Thirtieth International Joint Conference on Artificial
-  Intelligence
-year: 2021
+conference: Thirtieth International Joint Conference on Artificial Intelligence {IJCAI-21}
+year: 2020
 bibkey: zhang2020uncertainty
-citations: 25
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.04525'}]
 tags: ["AAAI", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Graph Based ANN", "IJCAI", "Tools & Libraries"]
 short_authors: Zhang et al.

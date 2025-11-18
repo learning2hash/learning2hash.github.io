@@ -3,10 +3,10 @@ layout: publication
 title: Domain-aware SE Network For Sketch-based Image Retrieval With Multiplicative
   Euclidean Margin Softmax
 authors: Peng Lu, Gao Huang, Hangyu Lin, Wenming Yang, Guodong Guo, Yanwei Fu
-conference: Proceedings of the 29th ACM International Conference on Multimedia
-year: 2021
+conference: 'MM ''21: ACM Multimedia Conference'
+year: 2018
 bibkey: lu2018domain
-citations: 12
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.04275'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Lu et al.

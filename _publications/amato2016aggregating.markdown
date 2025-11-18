@@ -3,9 +3,9 @@ layout: publication
 title: Aggregating Binary Local Descriptors For Image Retrieval
 authors: Giuseppe Amato, Fabrizio Falchi, Lucia Vadicamo
 conference: Multimedia Tools and Applications
-year: 2017
+year: 2016
 bibkey: amato2016aggregating
-citations: 11
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.00813'}]
 tags: ["Evaluation", "Image Retrieval"]
 short_authors: Giuseppe Amato, Fabrizio Falchi, Lucia Vadicamo

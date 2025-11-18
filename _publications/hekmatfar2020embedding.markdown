@@ -3,9 +3,9 @@ layout: publication
 title: Embedding Ranking-oriented Recommender System Graphs
 authors: Taher Hekmatfar, Saman Haratizadeh, Sama Goliaei
 conference: Expert Systems with Applications
-year: 2021
+year: 2020
 bibkey: hekmatfar2020embedding
-citations: 9
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.16173'}]
 tags: ["Datasets", "Evaluation", "Graph Based ANN", "Neural Hashing", "Recommender Systems", "Tools & Libraries"]
 short_authors: Taher Hekmatfar, Saman Haratizadeh, Sama Goliaei

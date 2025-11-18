@@ -4,9 +4,9 @@ title: Image Classification And Retrieval With Random Depthwise Signed Convoluti
   Neural Networks
 authors: Yunzhe Xue, Usman Roshan
 conference: Lecture Notes in Computer Science
-year: 2019
+year: 2018
 bibkey: xue2018image
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.05789'}]
 tags: ["Evaluation", "Unsupervised"]
 short_authors: Yunzhe Xue, Usman Roshan

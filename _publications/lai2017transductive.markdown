@@ -2,11 +2,10 @@
 layout: publication
 title: Transductive Zero-shot Hashing Via Coarse-to-fine Similarity Mining
 authors: Hanjiang Lai, Yan Pan
-conference: Proceedings of the 2018 ACM on International Conference on Multimedia
-  Retrieval
-year: 2018
+conference: 'ICMR ''18: International Conference on Multimedia Retrieval'
+year: 2017
 bibkey: lai2017transductive
-citations: 9
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.02856'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods", "Multimodal Retrieval"]
 short_authors: Hanjiang Lai, Yan Pan

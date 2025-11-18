@@ -3,9 +3,9 @@ layout: publication
 title: Image Retrieval For Structure-from-motion Via Graph Convolutional Network
 authors: Shen Yan, Yang Pen, Shiming Lai, Yu Liu, Maojun Zhang
 conference: Information Sciences
-year: 2021
+year: 2020
 bibkey: yan2020image
-citations: 19
+citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.08049'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Yan et al.

@@ -3,7 +3,7 @@ layout: publication
 title: Learning With Label Noise For Image Retrieval By Selecting Interactions
 authors: "Sarah Ibrahimi, Arnaud Sors, Rafael Sampaio de Rezende, St\xE9phane Clinchant"
 conference: 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-year: 2022
+year: 2021
 bibkey: ibrahimi2021learning
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.10453'}]

@@ -2,11 +2,10 @@
 layout: publication
 title: Correlation Autoencoder Hashing For Supervised Cross-modal Search
 authors: Yue Cao, Mingsheng Long, Jianmin Wang, Han Zhu
-conference: Proceedings of the 2016 ACM on International Conference on Multimedia
-  Retrieval
-year: 2016
+conference: 'ICMR''16: International Conference on Multimedia Retrieval'
+year: 2025
 bibkey: cao2025correlation
-citations: 99
+citations: 76
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.06697'}]
 tags: ["Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Scalability", "Supervised"]
 short_authors: Cao et al.

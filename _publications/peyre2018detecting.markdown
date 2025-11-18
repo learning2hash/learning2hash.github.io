@@ -3,9 +3,9 @@ layout: publication
 title: Detecting Unseen Visual Relations Using Analogies
 authors: Julia Peyre, Ivan Laptev, Cordelia Schmid, Josef Sivic
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
-year: 2019
+year: 2018
 bibkey: peyre2018detecting
-citations: 118
+citations: 84
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.05736'}]
 tags: ["Datasets", "ICCV"]
 short_authors: Peyre et al.

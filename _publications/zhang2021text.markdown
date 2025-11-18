@@ -3,11 +3,10 @@ layout: publication
 title: Text-based Person Search In Full Images Via Semantic-driven Proposal Generation
 authors: Shizhou Zhang, de Cheng, Wenlong Luo, Yinghui Xing, Duo Long, Hao Li, Kai
   Niu, Guoqiang Liang, Yanning Zhang
-conference: Proceedings of the 4th International Workshop on Human-centric Multimedia
-  Analysis
-year: 2023
+conference: 'MM ''23: The 31st ACM International Conference on Multimedia'
+year: 2021
 bibkey: zhang2021text
-citations: 4
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.12965'}]
 tags: ["Datasets", "Evaluation", "Scalability", "Tools & Libraries"]
 short_authors: Zhang et al.

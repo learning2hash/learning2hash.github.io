@@ -3,9 +3,9 @@ layout: publication
 title: Near-lossless Binarization Of Word Embeddings
 authors: Julien Tissier, Christophe Gravier, Amaury Habrard
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2019
+year: 2018
 bibkey: tissier2018near
-citations: 43
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.09065'}]
 tags: ["AAAI", "Evaluation", "Hashing Methods"]
 short_authors: Julien Tissier, Christophe Gravier, Amaury Habrard

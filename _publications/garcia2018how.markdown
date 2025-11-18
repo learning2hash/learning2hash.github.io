@@ -3,9 +3,9 @@ layout: publication
 title: 'How To Read Paintings: Semantic Art Understanding With Multi-modal Retrieval'
 authors: Noa Garcia, George Vogiatzis
 conference: Lecture Notes in Computer Science
-year: 2019
+year: 2018
 bibkey: garcia2018how
-citations: 97
+citations: 65
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.09617'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Noa Garcia, George Vogiatzis

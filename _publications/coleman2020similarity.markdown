@@ -4,9 +4,9 @@ title: Similarity Search For Efficient Active Learning And Search Of Rare Concep
 authors: Cody Coleman, Edward Chou, Julian Katz-Samuels, Sean Culatana, Peter Bailis,
   Alexander C. Berg, Robert Nowak, Roshan Sumbaly, Matei Zaharia, I. Zeki Yalniz
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2022
+year: 2020
 bibkey: coleman2020similarity
-citations: 16
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.00077'}]
 tags: ["AAAI", "Datasets", "Efficiency", "Evaluation", "Large Scale Search", "Scalability", "Similarity Search"]
 short_authors: Coleman et al.

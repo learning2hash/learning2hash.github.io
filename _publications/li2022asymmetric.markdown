@@ -3,7 +3,7 @@ layout: publication
 title: Asymmetric Scalable Cross-modal Hashing
 authors: Wenyun Li, Chi-Man Pun
 conference: 2023 IEEE International Conference on Image Processing (ICIP)
-year: 2023
+year: 2022
 bibkey: li2022asymmetric
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.12650'}]

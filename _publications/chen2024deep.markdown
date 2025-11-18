@@ -3,10 +3,11 @@ layout: publication
 title: Deep Class-guided Hashing For Multi-label Cross-modal Retrieval
 authors: Hao Chen, Lei Zhu, Xinghui Zhu
 conference: Applied Sciences
-year: 2025
+year: 2024
 bibkey: chen2024deep
 citations: 2
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2410.15387'}]
+additional_links: [{name: Code, url: 'https://github.com/donnotnormal/DCGH'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2410.15387'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Similarity Search", "Tools & Libraries"]
 short_authors: Hao Chen, Lei Zhu, Xinghui Zhu
 ---

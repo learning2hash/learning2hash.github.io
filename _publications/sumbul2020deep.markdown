@@ -3,7 +3,7 @@ layout: publication
 title: Deep Learning For Image Search And Retrieval In Large Remote Sensing Archives
 authors: "Gencer Sumbul, Jian Kang, Beg\xFCm Demir"
 conference: Deep Learning for the Earth Sciences
-year: 2021
+year: 2020
 bibkey: sumbul2020deep
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.01613'}]

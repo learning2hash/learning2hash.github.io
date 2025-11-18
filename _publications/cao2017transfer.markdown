@@ -3,9 +3,9 @@ layout: publication
 title: Transfer Adversarial Hashing For Hamming Space Retrieval
 authors: Zhangjie Cao, Mingsheng Long, Chao Huang, Jianmin Wang
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2018
+year: 2017
 bibkey: cao2017transfer
-citations: 15
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.04616'}]
 tags: ["AAAI", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness", "Scalability"]
 short_authors: Cao et al.

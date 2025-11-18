@@ -3,7 +3,7 @@ layout: publication
 title: Large-scale Speaker Retrieval On Random Speaker Variability Subspace
 authors: Suwon Shon, Younggun Lee, Taesu Kim
 conference: Interspeech 2019
-year: 2019
+year: 2018
 bibkey: shon2018large
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.10812'}]

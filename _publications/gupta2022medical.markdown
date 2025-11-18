@@ -2,11 +2,12 @@
 layout: publication
 title: Medical Image Retrieval Via Nearest Neighbor Search On Pre-trained Image Features
 authors: Deepak Gupta, Russell Loane, Soumya Gayen, Dina Demner-Fushman
-conference: Knowledge-Based Systems
-year: 2023
+conference: SSRN Electronic Journal
+year: 2022
 bibkey: gupta2022medical
-citations: 7
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2210.02401'}]
+citations: 1
+additional_links: [{name: Code, url: 'https://github.com/deepaknlp/DLS'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2210.02401'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Gupta et al.
 ---

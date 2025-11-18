@@ -4,9 +4,9 @@ title: A Prototypical Triplet Loss For Cover Detection
 authors: Guillaume Doras, Geoffroy Peeters
 conference: ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech
   and Signal Processing (ICASSP)
-year: 2020
+year: 2019
 bibkey: doras2019a
-citations: 11
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.09862'}]
 tags: ["Datasets", "Distance Metric Learning", "ICASSP"]
 short_authors: Guillaume Doras, Geoffroy Peeters

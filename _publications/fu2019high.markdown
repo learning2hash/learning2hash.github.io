@@ -4,10 +4,11 @@ title: 'High Dimensional Similarity Search With Satellite System Graph: Efficien
   Scalability, And Unindexed Query Compatibility'
 authors: Cong Fu, Changxu Wang, Deng Cai
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
-year: 2021
+year: 2019
 bibkey: fu2019high
-citations: 36
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1907.06146'}]
+citations: 42
+additional_links: [{name: Code, url: 'https://github.com/ZJULearning/SSG'}, {name: Paper,
+    url: 'https://arxiv.org/abs/1907.06146'}]
 tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Scalability", "Similarity Search"]
 short_authors: Cong Fu, Changxu Wang, Deng Cai
 ---

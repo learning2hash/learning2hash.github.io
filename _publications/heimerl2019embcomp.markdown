@@ -3,9 +3,9 @@ layout: publication
 title: 'Embcomp: Visual Interactive Comparison Of Vector Embeddings'
 authors: "Florian Heimerl, Christoph Kralj, Torsten M\xF6ller, Michael Gleicher"
 conference: IEEE Transactions on Visualization and Computer Graphics
-year: 2020
+year: 2019
 bibkey: heimerl2019embcomp
-citations: 19
+citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.01542'}]
 tags: ["Evaluation", "Survey Paper"]
 short_authors: Heimerl et al.

@@ -4,9 +4,9 @@ title: 'Streetsurfacevis: A Dataset Of Crowdsourced Street-level Imagery Annotat
   By Road Surface Type And Quality'
 authors: "Alexandra Kapp, Edith Hoffmann, Esther Weigmann, Helena Mihaljevi\u0107"
 conference: Scientific Data
-year: 2025
+year: 2024
 bibkey: kapp2024streetsurfacevis
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.21454'}]
 tags: ["Datasets"]
 short_authors: Kapp et al.

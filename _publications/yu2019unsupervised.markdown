@@ -3,9 +3,9 @@ layout: publication
 title: Unsupervised Multi-modal Hashing For Cross-modal Retrieval
 authors: Jun Yu, Xiao-Jun Wu
 conference: Cognitive Computation
-year: 2021
+year: 2019
 bibkey: yu2019unsupervised
-citations: 9
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.00726'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Memory Efficiency", "Multimodal Retrieval", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Jun Yu, Xiao-Jun Wu

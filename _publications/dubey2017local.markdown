@@ -3,9 +3,9 @@ layout: publication
 title: Local Directional Relation Pattern For Unconstrained And Robust Face Retrieval
 authors: Shiv Ram Dubey
 conference: Multimedia Tools and Applications
-year: 2019
+year: 2017
 bibkey: dubey2017local
-citations: 23
+citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.09518'}]
 tags: ["Datasets", "Evaluation", "Neural Hashing", "Robustness", "Scalability", "Tools & Libraries"]
 short_authors: Shiv Ram Dubey

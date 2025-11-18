@@ -3,7 +3,7 @@ layout: publication
 title: Deep Attention-guided Hashing
 authors: Zhan Yang, Osolo Ian Raymond, Wuqing Sun, Jun Long
 conference: IEEE Access
-year: 2019
+year: 2018
 bibkey: yang2018deep
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.01404'}]

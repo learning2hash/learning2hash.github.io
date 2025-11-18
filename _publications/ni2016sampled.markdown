@@ -3,10 +3,10 @@ layout: publication
 title: Sampled Image Tagging And Retrieval Methods On User Generated Content
 authors: Karl Ni, Kyle Zaragoza, Charles Foster, Carmen Carrano, Barry Chen, Yonas
   Tesfaye, Alex Gude
-conference: Procedings of the British Machine Vision Conference 2017
-year: 2017
+conference: British Machine Vision Conference 2017
+year: 2016
 bibkey: ni2016sampled
-citations: 4
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.06962'}]
 tags: ["Datasets", "Few Shot & Zero Shot", "Neural Hashing", "Robustness"]
 short_authors: Ni et al.

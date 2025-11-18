@@ -4,10 +4,11 @@ title: Are All Combinations Equal? Combining Textual And Visual Features With Mu
   Space Learning For Text-based Video Retrieval
 authors: Damianos Galanopoulos, Vasileios Mezaris
 conference: Lecture Notes in Computer Science
-year: 2023
+year: 2022
 bibkey: galanopoulos2022are
-citations: 11
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2211.11351'}]
+citations: 10
+additional_links: [{name: Code, url: 'https://github.com/bmezaris/TextToVideoRetrieval-TtimesV'},
+  {name: Paper, url: 'https://arxiv.org/abs/2211.11351'}]
 tags: ["Datasets", "Evaluation", "Scalability", "Video Retrieval"]
 short_authors: Damianos Galanopoulos, Vasileios Mezaris
 ---

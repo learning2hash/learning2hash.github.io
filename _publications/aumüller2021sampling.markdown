@@ -4,9 +4,9 @@ title: Sampling A Near Neighbor In High Dimensions -- Who Is The Fairest Of Them
 authors: "Martin Aum\xFCller, Sariel Har-Peled, Sepideh Mahabadi, Rasmus Pagh, Francesco\
   \ Silvestri"
 conference: ACM Transactions on Database Systems
-year: 2022
+year: 2021
 bibkey: "aum\xFCller2021sampling"
-citations: 4
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.10905'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: "Aum\xFCller et al."

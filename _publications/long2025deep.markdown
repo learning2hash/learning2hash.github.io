@@ -2,11 +2,11 @@
 layout: publication
 title: Deep Domain Adaptation Hashing With Adversarial Learning
 authors: Fuchen Long, Ting Yao, Qi Dai, Xinmei Tian, Jiebo Luo, Tao Mei
-conference: The 41st International ACM SIGIR Conference on Research &amp; Development
-  in Information Retrieval
-year: 2018
+conference: 'SIGIR ''18: The 41st International ACM SIGIR conference on research and
+  development in Information Retrieval'
+year: 2025
 bibkey: long2025deep
-citations: 22
+citations: 20
 additional_links: [{name: Paper, url: 'https://dl.acm.org/citation.cfm?id=3209999'}]
 tags: ["Efficiency", "Hashing Methods", "Robustness", "SIGIR", "Tools & Libraries"]
 short_authors: Long et al.

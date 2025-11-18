@@ -4,9 +4,9 @@ title: Deep Semantic Multimodal Hashing Network For Scalable Image-text And Vide
   Retrievals
 authors: Lu Jin, Zechao Li, Jinhui Tang
 conference: IEEE Transactions on Neural Networks and Learning Systems
-year: 2020
+year: 2019
 bibkey: jin2019deep
-citations: 91
+citations: 75
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.02662'}]
 tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Scalability", "Text Retrieval", "Tools & Libraries"]
 short_authors: Lu Jin, Zechao Li, Jinhui Tang

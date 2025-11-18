@@ -4,9 +4,9 @@ title: A Survey On Deep Hashing Methods
 authors: Xiao Luo, Haixin Wang, Daqing Wu, Chong Chen, Minghua Deng, Jianqiang Huang,
   Xian-Sheng Hua
 conference: ACM Transactions on Knowledge Discovery from Data
-year: 2022
+year: 2020
 bibkey: luo2020a
-citations: 130
+citations: 154
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.03369'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Quantization", "Self-Supervised", "Supervised", "Survey Paper", "Unsupervised"]
 short_authors: Luo et al.

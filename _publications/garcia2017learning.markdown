@@ -3,9 +3,9 @@ layout: publication
 title: Learning Non-metric Visual Similarity For Image Retrieval
 authors: Noa Garcia, George Vogiatzis
 conference: Image and Vision Computing
-year: 2019
+year: 2017
 bibkey: garcia2017learning
-citations: 40
+citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.01353'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Noa Garcia, George Vogiatzis

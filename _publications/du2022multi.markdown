@@ -2,12 +2,13 @@
 layout: publication
 title: Multi-queue Momentum Contrast For Microvideo-product Retrieval
 authors: Yali Du, Yinwei Wei, Wei Ji, Fan Liu, Xin Luo, Liqiang Nie
-conference: Proceedings of the Sixteenth ACM International Conference on Web Search
-  and Data Mining
-year: 2023
+conference: 'WSDM ''23: The Sixteenth ACM International Conference on Web Search and
+  Data Mining'
+year: 2022
 bibkey: du2022multi
-citations: 11
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2212.11471'}]
+citations: 15
+additional_links: [{name: Code, url: 'https://github.com/duyali2000/MQMC'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2212.11471'}]
 tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Du et al.
 ---

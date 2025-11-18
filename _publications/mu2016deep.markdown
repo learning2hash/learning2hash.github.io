@@ -3,9 +3,9 @@ layout: publication
 title: 'Deep Hashing: A Joint Approach For Image Signature Learning'
 authors: Yadong Mu, Zhu Liu
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2017
+year: 2016
 bibkey: mu2016deep
-citations: 9
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.03658'}]
 tags: ["AAAI", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Yadong Mu, Zhu Liu

@@ -4,9 +4,9 @@ title: 'Vldeformer: Vision-language Decomposed Transformer For Fast Cross-modal 
 authors: Lisai Zhang, Hongfa Wu, Qingcai Chen, Yimeng Deng, Zhonghua Li, Dejiang Kong,
   Zhao Cao, Joanna Siebert, Yunpeng Han
 conference: Knowledge-Based Systems
-year: 2022
+year: 2021
 bibkey: zhang2021vldeformer
-citations: 20
+citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.11338'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Zhang et al.

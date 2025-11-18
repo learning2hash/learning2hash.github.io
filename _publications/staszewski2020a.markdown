@@ -4,9 +4,9 @@ title: A New Approach To Descriptors Generation For Image Retrieval By Analyzing
   Of Deep Neural Network Layers
 authors: "Pawe\u0142 Staszewski, MacIej Jaworski, Jinde Cao, Leszek Rutkowski"
 conference: IEEE Transactions on Neural Networks and Learning Systems
-year: 2021
+year: 2020
 bibkey: staszewski2020a
-citations: 23
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.06624'}]
 tags: ["Datasets", "Image Retrieval"]
 short_authors: Staszewski et al.

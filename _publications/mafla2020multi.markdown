@@ -4,7 +4,7 @@ title: Multi-modal Reasoning Graph For Scene-text Based Fine-grained Image Class
   And Retrieval
 authors: Andres Mafla, Sounak Dey, Ali Furkan Biten, Lluis Gomez, Dimosthenis Karatzas
 conference: 2021 IEEE Winter Conference on Applications of Computer Vision (WACV)
-year: 2021
+year: 2020
 bibkey: mafla2020multi
 citations: 29
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.09809'}]

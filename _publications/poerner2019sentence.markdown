@@ -4,9 +4,9 @@ title: Sentence Meta-embeddings For Unsupervised Semantic Textual Similarity
 authors: "Nina Poerner, Ulli Waltinger, Hinrich Sch\xFCtze"
 conference: Proceedings of the 58th Annual Meeting of the Association for Computational
   Linguistics
-year: 2020
+year: 2019
 bibkey: poerner2019sentence
-citations: 24
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.03700'}]
 tags: ["Datasets", "Evaluation", "Unsupervised"]
 short_authors: "Nina Poerner, Ulli Waltinger, Hinrich Sch\xFCtze"

@@ -3,10 +3,11 @@ layout: publication
 title: 'Minkloc3d: Point Cloud Based Large-scale Place Recognition'
 authors: Jacek Komorowski
 conference: 2021 IEEE Winter Conference on Applications of Computer Vision (WACV)
-year: 2021
+year: 2020
 bibkey: komorowski2020minkloc3d
-citations: 156
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2011.04530'}]
+citations: 188
+additional_links: [{name: Code, url: 'https://github.com/jac99/MinkLoc3D'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2011.04530'}]
 tags: ["Evaluation", "Scalability"]
 short_authors: Jacek Komorowski
 ---

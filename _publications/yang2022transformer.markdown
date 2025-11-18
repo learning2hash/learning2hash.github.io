@@ -3,9 +3,9 @@ layout: publication
 title: Transformer-based Cross-modal Recipe Embeddings With Large Batch Training
 authors: Jing Yang, Junwen Chen, Keiji Yanai
 conference: Lecture Notes in Computer Science
-year: 2023
+year: 2022
 bibkey: yang2022transformer
-citations: 6
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.04948'}]
 tags: ["Evaluation", "Robustness", "Self-Supervised", "Supervised", "Tools & Libraries"]
 short_authors: Jing Yang, Junwen Chen, Keiji Yanai

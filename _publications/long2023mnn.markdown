@@ -3,9 +3,9 @@ layout: publication
 title: 'MNN: Mixed Nearest-neighbors For Self-supervised Learning'
 authors: Xianzhong Long, Chen Peng, Yun Li
 conference: Pattern Recognition
-year: 2024
+year: 2023
 bibkey: long2023mnn
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.00562'}]
 tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Self-Supervised", "Supervised", "Tools & Libraries"]
 short_authors: Xianzhong Long, Chen Peng, Yun Li

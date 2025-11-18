@@ -3,10 +3,10 @@ layout: publication
 title: Universal Knowledge Graph Embeddings
 authors: N'Dah Jean Kouagou, Caglar Demir, Hamada M. Zahera, Adrian Wilke, Stefan
   Heindorf, Jiayi Li, Axel-Cyrille Ngonga Ngomo
-conference: Companion Proceedings of the ACM Web Conference 2024
-year: 2024
+conference: 'WWW ''24: The ACM Web Conference 2024'
+year: 2023
 bibkey: kouagou2023universal
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.14899'}]
 tags: ["Datasets", "Scalability", "Tools & Libraries"]
 short_authors: Kouagou et al.

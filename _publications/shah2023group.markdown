@@ -4,9 +4,9 @@ title: Group Testing For Accurate And Efficient Range-based Near Neighbor Search
   Plagiarism Detection
 authors: Harsh Shah, Kashish Mittal, Ajit Rajwade
 conference: Lecture Notes in Computer Science
-year: 2024
+year: 2023
 bibkey: shah2023group
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.02573'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
 short_authors: Harsh Shah, Kashish Mittal, Ajit Rajwade

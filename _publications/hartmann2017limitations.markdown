@@ -3,9 +3,9 @@ layout: publication
 title: Limitations Of Cross-lingual Learning From Image Search
 authors: Mareike Hartmann, Anders Soegaard
 conference: Proceedings of The Third Workshop on Representation Learning for NLP
-year: 2018
+year: 2017
 bibkey: hartmann2017limitations
-citations: 8
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.05914'}]
 tags: ["Image Retrieval"]
 short_authors: Mareike Hartmann, Anders Soegaard

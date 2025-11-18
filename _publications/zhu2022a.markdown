@@ -1,22 +1,28 @@
 ---
 layout: publication
-title: A New Class Of MDS Symbol-pair Codes
-authors: Canze Zhu, Qunying Liao
+title: A Lower Bound Of Hash Codes' Performance
+authors: Xiaosu Zhu, Jingkuan Song, Yu Lei, Lianli Gao, Heng Tao Shen
 conference: Arxiv
 year: 2022
 bibkey: zhu2022a
 citations: 0
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.10281'}]
+additional_links: [{name: Code, url: 'https://github.com/VL-Group/LBHash'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2210.05899'}]
 tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "Hashing Methods"]
-short_authors: Canze Zhu, Qunying Liao
+short_authors: Zhu et al.
 ---
-The symbol-pair code is a new coding framework proposed to guard against
-pair-errors in symbol-pair read channels. Especially, a symbol-pair code with
-the parameters achieving the Singleton-type bound is called an MDS symbol-pair
-code. In this paper, inspiring by the classical construction for Reed-Solomon
-codes, for any \(3\le k<m\le q-2\) and
-\(m_1=\Big\lfloor\{\tiny\frac\{m\}\{\lfloor\frac\{k-1\}\{2\}\rfloor\}\}\Big\rfloor\), we
-construct a class of \(q\)-ary MDS symbol-pair codes with dimension \(k\) and
-length \(n\) \((n=m+m_1, m+m_1-1)\), where \(q\) is a prime power. Furthermore, for
-\(k\in\\{3,4\\}\), the symbol-pair weight distributions for these codes are
-determined by enumerating the number of polynomials with given roots.
+As a crucial approach for compact representation learning, hashing has
+achieved great success in effectiveness and efficiency. Numerous heuristic
+Hamming space metric learning objectives are designed to obtain high-quality
+hash codes. Nevertheless, a theoretical analysis of criteria for learning good
+hash codes remains largely unexploited. In this paper, we prove that
+inter-class distinctiveness and intra-class compactness among hash codes
+determine the lower bound of hash codes' performance. Promoting these two
+characteristics could lift the bound and improve hash learning. We then propose
+a surrogate model to fully exploit the above objective by estimating the
+posterior of hash codes and controlling it, which results in a low-bias
+optimization. Extensive experiments reveal the effectiveness of the proposed
+method. By testing on a series of hash-models, we obtain performance
+improvements among all of them, with an up to \(26.5%\) increase in mean Average
+Precision and an up to \(20.5%\) increase in accuracy. Our code is publicly
+available at https://github.com/VL-Group/LBHash.

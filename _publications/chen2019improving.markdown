@@ -1,26 +1,29 @@
 ---
 layout: publication
-title: Improving Deep Binary Embedding Networks By Order-aware Reweighting Of Triplets
-authors: Jikai Chen, Hanjiang Lai, Libing Geng, Yan Pan
+title: Improving Distantly-supervised Entity Typing With Compact Latent Space Clustering
+authors: Bo Chen, Xiaotao Gu, Yufeng Hu, Siliang Tang, Guoping Hu, Yueting Zhuang,
+  Xiang Ren
 conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2019
 bibkey: chen2019improving
 citations: 15
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.06061'}]
-tags: ["Compact Codes", "Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Image Retrieval"]
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.06475'}]
+tags: ["Efficiency", "Evaluation", "Supervised"]
 short_authors: Chen et al.
 ---
-In this paper, we focus on triplet-based deep binary embedding networks for
-image retrieval task. The triplet loss has been shown to be most effective for
-the ranking problem. However, most of the previous works treat the triplets
-equally or select the hard triplets based on the loss. Such strategies do not
-consider the order relations, which is important for retrieval task. To this
-end, we propose an order-aware reweighting method to effectively train the
-triplet-based deep networks, which up-weights the important triplets and
-down-weights the uninformative triplets. First, we present the order-aware
-weighting factors to indicate the importance of the triplets, which depend on
-the rank order of binary codes. Then, we reshape the triplet loss to the
-squared triplet loss such that the loss function will put more weights on the
-important triplets. Extensive evaluations on four benchmark datasets show that
-the proposed method achieves significant performance compared with the
-state-of-the-art baselines.
+Recently, distant supervision has gained great success on Fine-grained Entity
+Typing (FET). Despite its efficiency in reducing manual labeling efforts, it
+also brings the challenge of dealing with false entity type labels, as distant
+supervision assigns labels in a context agnostic manner. Existing works
+alleviated this issue with partial-label loss, but usually suffer from
+confirmation bias, which means the classifier fit a pseudo data distribution
+given by itself. In this work, we propose to regularize distantly supervised
+models with Compact Latent Space Clustering (CLSC) to bypass this problem and
+effectively utilize noisy data yet. Our proposed method first dynamically
+constructs a similarity graph of different entity mentions; infer the labels of
+noisy instances via label propagation. Based on the inferred labels, mention
+embeddings are updated accordingly to encourage entity mentions with close
+semantics to form a compact cluster in the embedding space,thus leading to
+better classification performance. Extensive experiments on standard benchmarks
+show that our CLSC model consistently outperforms state-of-the-art distantly
+supervised entity typing systems by a significant margin.

@@ -5,9 +5,9 @@ title: From Selective Deep Convolutional Features To Compact Binary Representati
 authors: Thanh-Toan Do, Tuan Hoang, Dang-Khoa Le Tan, Huu Le, Tam V. Nguyen, Ngai-Man
   Cheung
 conference: ACM Transactions on Multimedia Computing, Communications, and Applications
-year: 2019
+year: 2018
 bibkey: do2018from
-citations: 30
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02899'}]
 tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Do et al.

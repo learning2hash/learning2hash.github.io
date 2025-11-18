@@ -6,10 +6,11 @@ authors: Ikuya Yamada, Akari Asai, Jin Sakuma, Hiroyuki Shindo, Hideaki Takeda, 
   Takefuji, Yuji Matsumoto
 conference: 'Proceedings of the 2020 Conference on Empirical Methods in Natural Language
   Processing: System Demonstrations'
-year: 2020
+year: 2018
 bibkey: yamada2018wikipedia2vec
-citations: 161
-additional_links: [{name: Code, url: 'https://wikipedia2vec'}, {name: Paper, url: 'https://arxiv.org/abs/1812.06280'}]
+citations: 101
+additional_links: [{name: Code, url: 'https://wikipedia2vec.github.io'}, {name: Paper,
+    url: 'https://arxiv.org/abs/1812.06280'}]
 tags: ["Datasets", "EMNLP", "Evaluation", "Tools & Libraries"]
 short_authors: Yamada et al.
 ---

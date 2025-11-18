@@ -3,10 +3,10 @@ layout: publication
 title: 'COMAE: Comprehensive Attribute Exploration For Zero-shot Hashing'
 authors: Yuqi Li, Qingqing Long, Yihang Zhou, Ran Zhang, Zhiyuan Ning, Zhihong Zhu,
   Yuanchun Zhou, Xuezhi Wang, Meng Xiao
-conference: Proceedings of the 2025 International Conference on Multimedia Retrieval
-year: 2025
+conference: 'ICMR ''25: International Conference on Multimedia Retrieval'
+year: 2024
 bibkey: li2024comae
-citations: 1
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.16424'}]
 tags: ["Datasets", "Efficiency", "Few Shot & Zero Shot", "Hashing Methods", "Multimodal Retrieval", "Scalability", "Self-Supervised"]
 short_authors: Li et al.

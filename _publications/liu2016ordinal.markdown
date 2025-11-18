@@ -3,9 +3,9 @@ layout: publication
 title: Ordinal Constrained Binary Code Learning For Nearest Neighbor Search
 authors: Hong Liu, Rongrong Ji, Yongjian Wu, Feiyue Huang
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2017
+year: 2016
 bibkey: liu2016ordinal
-citations: 23
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.06362'}]
 tags: ["AAAI", "Compact Codes", "Datasets", "Evaluation", "Graph Based ANN", "Hashing Methods", "Scalability"]
 short_authors: Liu et al.

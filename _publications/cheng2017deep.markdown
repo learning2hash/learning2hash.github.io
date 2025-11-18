@@ -4,9 +4,9 @@ title: Deep Feature Learning Via Structured Graph Laplacian Embedding For Person
 authors: de Cheng, Yihong Gong, Zhihui Li, Weiwei Shi, Alexander G. Hauptmann, Nanning
   Zheng
 conference: Pattern Recognition
-year: 2018
+year: 2017
 bibkey: cheng2017deep
-citations: 56
+citations: 44
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.07791'}]
 tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Cheng et al.

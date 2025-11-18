@@ -4,9 +4,9 @@ title: Directional Statistics-based Deep Metric Learning For Image Classificatio
   And Retrieval
 authors: Xuefei Zhe, Shifeng Chen, Hong Yan
 conference: Pattern Recognition
-year: 2019
+year: 2018
 bibkey: zhe2018directional
-citations: 72
+citations: 54
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.09662'}]
 tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Xuefei Zhe, Shifeng Chen, Hong Yan

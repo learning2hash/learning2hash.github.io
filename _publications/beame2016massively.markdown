@@ -5,7 +5,7 @@ title: Massively-parallel Similarity Join, Edge-isoperimetry, And Distance Corre
 authors: Paul Beame, Cyrus Rashtchian
 conference: Proceedings of the Twenty-Eighth Annual ACM-SIAM Symposium on Discrete
   Algorithms
-year: 2017
+year: 2016
 bibkey: beame2016massively
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.04999'}]

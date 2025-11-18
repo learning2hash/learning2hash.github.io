@@ -4,9 +4,9 @@ title: Iterative Manifold Embedding Layer Learned By Incomplete Data For Large-s
   Image Retrieval
 authors: Jian Xu, Chunheng Wang, Chengzuo Qi, Cunzhao Shi, Baihua Xiao
 conference: IEEE Transactions on Multimedia
-year: 2018
+year: 2017
 bibkey: xu2017iterative
-citations: 21
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.09862'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Re-Ranking", "Scalability", "Unsupervised"]
 short_authors: Xu et al.

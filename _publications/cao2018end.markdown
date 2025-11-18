@@ -3,9 +3,9 @@ layout: publication
 title: End-to-end Latent Fingerprint Search
 authors: Kai Cao, Dinh-Luan Nguyen, Cori Tymoszek, A. K. Jain
 conference: IEEE Transactions on Information Forensics and Security
-year: 2019
+year: 2018
 bibkey: cao2018end
-citations: 67
+citations: 69
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.10213'}]
 tags: ["Efficiency", "Evaluation", "Quantization"]
 short_authors: Cao et al.

@@ -4,7 +4,7 @@ title: Refining A \(k\)-nearest Neighbor Graph For A Computationally Efficient S
   Clustering
 authors: Mashaan Alshammari, John Stavrakakis, Masahiro Takatsuka
 conference: Pattern Recognition
-year: 2021
+year: 2023
 bibkey: alshammari2023refining
 citations: 41
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.11296'}]

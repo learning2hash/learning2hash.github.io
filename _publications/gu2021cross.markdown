@@ -4,9 +4,9 @@ title: Cross-modal Image Retrieval With Deep Mutual Information Maximization
 authors: Chunbin Gu, Jiajun Bu, Xixi Zhou, Chengwei Yao, Dongfang Ma, Zhi Yu, Xifeng
   Yan
 conference: Neurocomputing
-year: 2022
+year: 2021
 bibkey: gu2021cross
-citations: 13
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.06032'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Scalability", "Self-Supervised", "Supervised"]
 short_authors: Gu et al.

@@ -3,9 +3,9 @@ layout: publication
 title: Superpixel-based Color Transfer
 authors: "R\xE9mi Giraud, Vinh-Thong Ta, Nicolas Papadakis"
 conference: 2017 IEEE International Conference on Image Processing (ICIP)
-year: 2017
+year: 2019
 bibkey: giraud2019superpixel
-citations: 6
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.06010'}]
 tags: ["Tools & Libraries"]
 short_authors: "R\xE9mi Giraud, Vinh-Thong Ta, Nicolas Papadakis"

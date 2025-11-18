@@ -2,10 +2,10 @@
 layout: publication
 title: 'Espresso: Efficient Privacy-preserving Evaluation Of Sample Set Similarity'
 authors: Carlo Blundo, Emiliano de Cristofaro, Paolo Gasti
-conference: Lecture Notes in Computer Science
-year: 2013
+conference: Journal of Computer Security
+year: 2011
 bibkey: blundo2011espresso
-citations: 44
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1111.5062'}]
 tags: ["Datasets", "Evaluation", "Locality-Sensitive-Hashing"]
 short_authors: Carlo Blundo, Emiliano de Cristofaro, Paolo Gasti

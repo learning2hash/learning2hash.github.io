@@ -4,9 +4,9 @@ title: Learning Generalized Hybrid Proximity Representation For Image Recognitio
 authors: Zhiyuan Li, Anca Ralescu
 conference: 2022 IEEE 34th International Conference on Tools with Artificial Intelligence
   (ICTAI)
-year: 2022
+year: 2023
 bibkey: li2023learning
-citations: 3
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.13459'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: Zhiyuan Li, Anca Ralescu

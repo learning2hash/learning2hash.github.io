@@ -4,10 +4,11 @@ title: 'Mire: Enhancing Multimodal Queries Representation Via Fusion-free Modali
   Interaction For Multimodal Retrieval'
 authors: Yeong-Joon Ju, Ho-Joong Kim, Seong-Whan Lee
 conference: 'Findings of the Association for Computational Linguistics: ACL 2025'
-year: 2025
+year: 2024
 bibkey: ju2024mire
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2411.08334'}]
+additional_links: [{name: Code, url: 'https://github.com/yeongjoonJu/MIRe'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2411.08334'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Yeong-Joon Ju, Ho-Joong Kim, Seong-Whan Lee
 ---

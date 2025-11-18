@@ -4,7 +4,7 @@ title: 'Expand-and-quantize: Unsupervised Semantic Segmentation Using High-dimen
   Space And Product Quantization'
 authors: Jiyoung Kim, Kyuhong Shim, Insu Lee, Byonghyo Shim
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2024
+year: 2023
 bibkey: kim2023expand
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.07342'}]

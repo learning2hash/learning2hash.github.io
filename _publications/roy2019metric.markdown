@@ -4,9 +4,9 @@ title: Metric-learning Based Deep Hashing Network For Content Based Retrieval Of
   Sensing Images
 authors: "Subhankar Roy, Enver Sangineto, Beg\xFCm Demir, Nicu Sebe"
 conference: IEEE Geoscience and Remote Sensing Letters
-year: 2020
+year: 2019
 bibkey: roy2019metric
-citations: 75
+citations: 64
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.01258'}]
 tags: ["Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing"]
 short_authors: Roy et al.

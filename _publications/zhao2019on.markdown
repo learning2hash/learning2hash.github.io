@@ -3,9 +3,9 @@ layout: publication
 title: On The Merge Of K-nn Graph
 authors: Wan-Lei Zhao, Hui Wang, Peng-Cheng Lin, Chong-Wah Ngo
 conference: IEEE Transactions on Big Data
-year: 2021
+year: 2019
 bibkey: zhao2019on
-citations: 2
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.00814'}]
 tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Zhao et al.

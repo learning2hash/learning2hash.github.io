@@ -3,10 +3,11 @@ layout: publication
 title: Bi-directional Training For Composed Image Retrieval Via Text Prompt Learning
 authors: Zheyuan Liu, Weixuan Sun, Yicong Hong, Damien Teney, Stephen Gould
 conference: 2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-year: 2024
+year: 2023
 bibkey: liu2023bi
-citations: 17
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2303.16604'}]
+citations: 34
+additional_links: [{name: Code, url: 'https://github.com/Cuberick-Orion/Bi-Blip4CIR'},
+  {name: Paper, url: 'https://arxiv.org/abs/2303.16604'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Liu et al.
 ---

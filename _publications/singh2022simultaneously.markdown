@@ -5,9 +5,9 @@ title: Simultaneously Learning Robust Audio Embeddings And Balanced Hash Codes F
 authors: Anup Singh, Kris Demuynck, Vipul Arora
 conference: ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech
   and Signal Processing (ICASSP)
-year: 2023
+year: 2022
 bibkey: singh2022simultaneously
-citations: 0
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.11060'}]
 tags: ["Efficiency", "Evaluation", "Hashing Methods", "ICASSP", "Neural Hashing", "Self-Supervised", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Anup Singh, Kris Demuynck, Vipul Arora

@@ -2,10 +2,10 @@
 layout: publication
 title: Improving Zero-shot Entity Retrieval Through Effective Dense Representations
 authors: Eleni Partalidou, Despina Christou, Grigorios Tsoumakas
-conference: Proceedings of the 12th Hellenic Conference on Artificial Intelligence
-year: 2022
+conference: 'SETN 2022: 12th Hellenic Conference on Artificial Intelligence'
+year: 2021
 bibkey: partalidou2021improving
-citations: 5
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.04156'}]
 tags: ["AAAI", "Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Eleni Partalidou, Despina Christou, Grigorios Tsoumakas

@@ -4,9 +4,9 @@ title: 'Buy Me That Look: An Approach For Recommending Similar Fashion Products'
 authors: Abhinav Ravi, Sandeep Repakula, Ujjal Kr Dutta, Maulik Parmar
 conference: 2021 IEEE 4th International Conference on Multimedia Information Processing
   and Retrieval (MIPR)
-year: 2021
+year: 2020
 bibkey: ravi2020buy
-citations: 6
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.11638'}]
 tags: ["Uncategorized"]
 short_authors: Ravi et al.

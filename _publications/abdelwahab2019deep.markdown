@@ -3,9 +3,9 @@ layout: publication
 title: Deep Distributional Sequence Embeddings Based On A Wasserstein Loss
 authors: Ahmed Abdelwahab, Niels Landwehr
 conference: Neural Processing Letters
-year: 2022
+year: 2019
 bibkey: abdelwahab2019deep
-citations: 14
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.01933'}]
 tags: ["Distance Metric Learning"]
 short_authors: Ahmed Abdelwahab, Niels Landwehr

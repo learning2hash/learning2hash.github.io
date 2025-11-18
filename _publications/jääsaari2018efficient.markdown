@@ -3,9 +3,9 @@ layout: publication
 title: Efficient Autotuning Of Hyperparameters In Approximate Nearest Neighbor Search
 authors: "Elias J\xE4\xE4saari, Ville Hyv\xF6nen, Teemu Roos"
 conference: Lecture Notes in Computer Science
-year: 2019
+year: 2018
 bibkey: "j\xE4\xE4saari2018efficient"
-citations: 12
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.07484'}]
 tags: ["Efficiency", "Locality-Sensitive-Hashing", "Tree Based ANN"]
 short_authors: "Elias J\xE4\xE4saari, Ville Hyv\xF6nen, Teemu Roos"

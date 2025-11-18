@@ -3,9 +3,9 @@ layout: publication
 title: Adding Cues To Binary Feature Descriptors For Visual Place Recognition
 authors: Dominik Schlegel, Giorgio Grisetti
 conference: 2019 International Conference on Robotics and Automation (ICRA)
-year: 2019
+year: 2018
 bibkey: schlegel2018adding
-citations: 6
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.06690'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "ICRA", "Image Retrieval"]
 short_authors: Dominik Schlegel, Giorgio Grisetti

@@ -3,9 +3,9 @@ layout: publication
 title: Hashing Based Answer Selection
 authors: Dong Xu, Wu-Jun Li
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2020
+year: 2019
 bibkey: xu2019hashing
-citations: 8
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.10718'}]
 tags: ["AAAI", "Datasets", "Evaluation", "Hashing Methods"]
 short_authors: Dong Xu, Wu-Jun Li

@@ -4,9 +4,9 @@ title: Deep Cross-modal Hashing With Hashing Functions And Unified Hash Codes Jo
   Learning
 authors: Rong-Cheng Tu, Xian-Ling Mao, Bing Ma, Yong Hu, Tan Yan, Wei Wei, Heyan Huang
 conference: IEEE Transactions on Knowledge and Data Engineering
-year: 2020
+year: 2019
 bibkey: tu2019deep
-citations: 64
+citations: 68
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.12490'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Memory Efficiency", "Tools & Libraries"]
 short_authors: Tu et al.

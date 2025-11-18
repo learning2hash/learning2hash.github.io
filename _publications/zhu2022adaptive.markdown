@@ -4,9 +4,9 @@ title: Adaptive Local-component-aware Graph Convolutional Network For One-shot S
   Action Recognition
 authors: Anqi Zhu, Qiuhong Ke, Mingming Gong, James Bailey
 conference: 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-year: 2023
+year: 2022
 bibkey: zhu2022adaptive
-citations: 17
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.10073'}]
 tags: ["Efficiency", "Evaluation"]
 short_authors: Zhu et al.

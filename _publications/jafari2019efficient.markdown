@@ -3,7 +3,7 @@ layout: publication
 title: Efficient Bitmap-based Indexing And Retrieval Of Similarity Search Image Queries
 authors: "Omid Jafari, Parth Nagarkar, Jonathan Monta\xF1o"
 conference: 2020 IEEE Southwest Symposium on Image Analysis and Interpretation (SSIAI)
-year: 2020
+year: 2019
 bibkey: jafari2019efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.07101'}]

@@ -4,9 +4,9 @@ title: Zero-shot Dense Retrieval With Momentum Adversarial Domain Invariant Repr
 authors: Ji Xin, Chenyan Xiong, Ashwin Srinivasan, Ankita Sharma, Damien Jose, Paul
   N. Bennett
 conference: 'Findings of the Association for Computational Linguistics: ACL 2022'
-year: 2022
+year: 2021
 bibkey: xin2021zero
-citations: 17
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.07581'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Robustness", "Text Retrieval"]
 short_authors: Xin et al.

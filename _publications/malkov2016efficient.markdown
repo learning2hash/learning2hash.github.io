@@ -4,9 +4,9 @@ title: Efficient And Robust Approximate Nearest Neighbor Search Using Hierarchic
   Navigable Small World Graphs
 authors: Yu. A. Malkov, D. A. Yashunin
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
-year: 2018
+year: 2016
 bibkey: malkov2016efficient
-citations: 1120
+citations: 894
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.09320'}]
 tags: ["Evaluation", "Graph Based ANN"]
 short_authors: Yu. A. Malkov, D. A. Yashunin

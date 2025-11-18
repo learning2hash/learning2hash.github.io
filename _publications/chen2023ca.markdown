@@ -3,9 +3,9 @@ layout: publication
 title: 'Ca-jaccard: Camera-aware Jaccard Distance For Person Re-identification'
 authors: Yiyu Chen, Zheyi Fan, Zhaoru Chen, Yixuan Zhu
 conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2024
+year: 2023
 bibkey: chen2023ca
-citations: 8
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.10605'}]
 tags: ["CVPR", "Distance Metric Learning", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Chen et al.

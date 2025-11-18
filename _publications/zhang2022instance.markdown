@@ -4,7 +4,7 @@ title: Instance Image Retrieval By Learning Purely From Within The Dataset
 authors: Zhongyan Zhang, Lei Wang, Yang Wang, Luping Zhou, Jianjia Zhang, Peng Wang,
   Fang Chen
 conference: Arxiv
-year: 2023
+year: 2022
 bibkey: zhang2022instance
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.06119'}]

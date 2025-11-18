@@ -1,26 +1,28 @@
 ---
 layout: publication
-title: Learning To Learn From Web Data Through Deep Semantic Embeddings
+title: 'Learning From #barcelona Instagram Data What Locals And Tourists Post About
+  Its Neighbourhoods'
 authors: Raul Gomez, Lluis Gomez, Jaume Gibert, Dimosthenis Karatzas
 conference: Lecture Notes in Computer Science
-year: 2019
+year: 2018
 bibkey: gomez2018learning
-citations: 23
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.06368'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised"]
+citations: 7
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.06369'}]
+tags: ["Datasets"]
 short_authors: Gomez et al.
 ---
-In this paper we propose to learn a multimodal image and text embedding from
-Web and Social Media data, aiming to leverage the semantic knowledge learnt in
-the text domain and transfer it to a visual model for semantic image retrieval.
-We demonstrate that the pipeline can learn from images with associated text
-without supervision and perform a thourough analysis of five different text
-embeddings in three different benchmarks. We show that the embeddings learnt
-with Web and Social Media data have competitive performances over supervised
-methods in the text based image retrieval task, and we clearly outperform state
-of the art in the MIRFlickr dataset when training in the target data. Further
-we demonstrate how semantic multimodal image retrieval can be performed using
-the learnt embeddings, going beyond classical instance-level retrieval
-problems. Finally, we present a new dataset, InstaCities1M, composed by
-Instagram images and their associated texts that can be used for fair
-comparison of image-text embeddings.
+Massive tourism is becoming a big problem for some cities, such as Barcelona,
+due to its concentration in some neighborhoods. In this work we gather
+Instagram data related to Barcelona consisting on images-captions pairs and,
+using the text as a supervisory signal, we learn relations between images,
+words and neighborhoods. Our goal is to learn which visual elements appear in
+photos when people is posting about each neighborhood. We perform a language
+separate treatment of the data and show that it can be extrapolated to a
+tourists and locals separate analysis, and that tourism is reflected in Social
+Media at a neighborhood level. The presented pipeline allows analyzing the
+differences between the images that tourists and locals associate to the
+different neighborhoods. The proposed method, which can be extended to other
+cities or subjects, proves that Instagram data can be used to train multi-modal
+(image and text) machine learning models that are useful to analyze
+publications about a city at a neighborhood level. We publish the collected
+dataset, InstaBarcelona and the code used in the analysis.

@@ -5,9 +5,9 @@ title: A Novel Feature Descriptor For Image Retrieval By Combining Modified Colo
 authors: Ayan Kumar Bhunia, Avirup Bhattacharyya, Prithaj Banerjee, Partha Pratim
   Roy, Subrahmanyam Murala
 conference: Pattern Analysis and Applications
-year: 2019
+year: 2018
 bibkey: bhunia2018a
-citations: 62
+citations: 50
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.00879'}]
 tags: ["Evaluation", "Image Retrieval"]
 short_authors: Bhunia et al.

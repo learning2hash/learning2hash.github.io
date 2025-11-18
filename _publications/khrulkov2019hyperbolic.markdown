@@ -4,9 +4,9 @@ title: Hyperbolic Image Embeddings
 authors: Valentin Khrulkov, Leyla Mirvakhabova, Evgeniya Ustinova, Ivan Oseledets,
   Victor Lempitsky
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2020
+year: 2019
 bibkey: khrulkov2019hyperbolic
-citations: 227
+citations: 221
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.02239'}]
 tags: ["CVPR", "Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Khrulkov et al.

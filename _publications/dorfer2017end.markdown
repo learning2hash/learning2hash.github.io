@@ -5,10 +5,11 @@ title: End-to-end Cross-modality Retrieval With CCA Projections And Pairwise Ran
 authors: "Matthias Dorfer, Jan Schl\xFCter, Andreu Vall, Filip Korzeniowski, Gerhard\
   \ Widmer"
 conference: International Journal of Multimedia Information Retrieval
-year: 2018
+year: 2017
 bibkey: dorfer2017end
-citations: 32
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1705.06979'}]
+citations: 34
+additional_links: [{name: Code, url: 'https://github.com/CPJKU/cca_layer'}, {name: Paper,
+    url: 'https://arxiv.org/abs/1705.06979'}]
 tags: ["Few Shot & Zero Shot", "Text Retrieval"]
 short_authors: Dorfer et al.
 ---

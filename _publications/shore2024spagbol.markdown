@@ -3,7 +3,7 @@ layout: publication
 title: 'Spagbol: Spatial-graph-based Orientated Localisation'
 authors: Tavis Shore, Oscar Mendez, Simon Hadfield
 conference: 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-year: 2025
+year: 2024
 bibkey: shore2024spagbol
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.15514'}]

@@ -3,7 +3,7 @@ layout: publication
 title: Learning Graph Edit Distance By Graph Neural Networks
 authors: "Pau Riba, Andreas Fischer, Josep Llad\xF3s, Alicia Forn\xE9s"
 conference: Pattern Recognition
-year: 2021
+year: 2020
 bibkey: riba2020learning
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.07641'}]

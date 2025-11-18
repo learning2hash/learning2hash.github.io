@@ -3,9 +3,9 @@ layout: publication
 title: 'LDOP: Local Directional Order Pattern For Robust Face Retrieval'
 authors: Shiv Ram Dubey, Snehasis Mukherjee
 conference: Multimedia Tools and Applications
-year: 2019
+year: 2018
 bibkey: dubey2018ldop
-citations: 40
+citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.07441'}]
 tags: ["Evaluation", "Image Retrieval", "Robustness", "Tools & Libraries"]
 short_authors: Shiv Ram Dubey, Snehasis Mukherjee

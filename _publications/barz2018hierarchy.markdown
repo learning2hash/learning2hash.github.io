@@ -3,9 +3,9 @@ layout: publication
 title: Hierarchy-based Image Embeddings For Semantic Image Retrieval
 authors: "Bj\xF6rn Barz, Joachim Denzler"
 conference: 2019 IEEE Winter Conference on Applications of Computer Vision (WACV)
-year: 2019
+year: 2018
 bibkey: barz2018hierarchy
-citations: 52
+citations: 67
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.09924'}]
 tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: "Bj\xF6rn Barz, Joachim Denzler"

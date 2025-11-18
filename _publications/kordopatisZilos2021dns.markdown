@@ -4,10 +4,11 @@ title: 'Dns: Distill-and-select For Efficient And Accurate Video Indexing And Re
 authors: Giorgos Kordopatis-Zilos, Christos Tzelepis, Symeon Papadopoulos, Ioannis
   Kompatsiaris, Ioannis Patras
 conference: International Journal of Computer Vision
-year: 2022
+year: 2021
 bibkey: kordopatisZilos2021dns
-citations: 27
-additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2106.13266'}]
+citations: 28
+additional_links: [{name: Code, url: 'https://github.com/mever-team/distill-and-select'},
+  {name: Paper, url: 'https://arxiv.org/abs/2106.13266'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Scalability", "Tools & Libraries", "Video Retrieval"]
 short_authors: Kordopatis-Zilos et al.
 ---

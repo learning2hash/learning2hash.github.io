@@ -5,9 +5,9 @@ title: Exploring A Fine-grained Multiscale Method For Cross-modal Remote Sensing
 authors: Zhiqiang Yuan, Wenkai Zhang, Kun Fu, Xuan Li, Chubo Deng, Hongqi Wang, Xian
   Sun
 conference: IEEE Transactions on Geoscience and Remote Sensing
-year: 2021
+year: 2022
 bibkey: yuan2022exploring
-citations: 118
+citations: 137
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.09868'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Yuan et al.

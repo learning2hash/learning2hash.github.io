@@ -4,9 +4,9 @@ title: 'Uniir: Training And Benchmarking Universal Multimodal Information Retrie
 authors: Cong Wei, Yang Chen, Haonan Chen, Hexiang Hu, Ge Zhang, Jie Fu, Alan Ritter,
   Wenhu Chen
 conference: Lecture Notes in Computer Science
-year: 2024
+year: 2023
 bibkey: wei2023uniir
-citations: 3
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.17136'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Wei et al.

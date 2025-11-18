@@ -3,10 +3,11 @@ layout: publication
 title: Efficient And Discriminative Image Feature Extraction For Universal Image Retrieval
 authors: "Morris Florek, David Tschirschwitz, Bj\xF6rn Barz, Volker Rodehorst"
 conference: Lecture Notes in Computer Science
-year: 2025
+year: 2024
 bibkey: florek2024efficient
-citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2409.13513'}]
+citations: 1
+additional_links: [{name: Code, url: 'https://github.com/morrisfl/UniFEx'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2409.13513'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Florek et al.
 ---

@@ -4,10 +4,11 @@ title: 'Smiletrack: Similarity Learning For Occlusion-aware Multiple Object Trac
 authors: Yu-Hsiang Wang, Jun-Wei Hsieh, Ping-Yang Chen, Ming-Ching Chang, Hung Hin
   So, Xin Li
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2024
+year: 2022
 bibkey: wang2022smiletrack
-citations: 29
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2211.08824'}]
+citations: 45
+additional_links: [{name: Code, url: 'https://github.com/pingyang1117/SMILEtrack_Official'},
+  {name: Paper, url: 'https://arxiv.org/abs/2211.08824'}]
 tags: ["AAAI", "Datasets", "Evaluation"]
 short_authors: Wang et al.
 ---

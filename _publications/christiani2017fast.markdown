@@ -3,9 +3,9 @@ layout: publication
 title: Fast Locality-sensitive Hashing Frameworks For Approximate Near Neighbor Search
 authors: Tobias Christiani
 conference: Lecture Notes in Computer Science
-year: 2019
+year: 2017
 bibkey: christiani2017fast
-citations: 14
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.07586'}]
 tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
 short_authors: Tobias Christiani

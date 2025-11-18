@@ -4,9 +4,9 @@ title: Deep Metric Learning And Image Classification With Nearest Neighbour Gaus
   Kernels
 authors: Benjamin J. Meyer, Ben Harwood, Tom Drummond
 conference: 2018 25th IEEE International Conference on Image Processing (ICIP)
-year: 2018
+year: 2017
 bibkey: meyer2017deep
-citations: 29
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.09780'}]
 tags: ["Datasets", "Distance Metric Learning", "Similarity Search"]
 short_authors: Benjamin J. Meyer, Ben Harwood, Tom Drummond

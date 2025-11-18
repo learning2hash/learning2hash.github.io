@@ -2,10 +2,10 @@
 layout: publication
 title: Hashing As Tie-aware Learning To Rank
 authors: Kun He, Fatih Cakir, Sarah Adel Bargal, Stan Sclaroff
-conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
-year: 2018
+conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2017
 bibkey: he2017hashing
-citations: 90
+citations: 53
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.08562'}]
 tags: ["CVPR", "Evaluation", "Hashing Methods"]
 short_authors: He et al.

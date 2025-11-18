@@ -2,12 +2,13 @@
 layout: publication
 title: 'STIR: Siamese Transformer For Image Retrieval Postprocessing'
 authors: Aleksei Shabanov, Aleksei Tarasov, Sergey Nikolenko
-conference: Proceedings of the 33rd ACM International Conference on Information and
-  Knowledge Management
-year: 2024
+conference: 'CIKM ''24: The 33rd ACM International Conference on Information and Knowledge
+  Management'
+year: 2023
 bibkey: shabanov2023stir
-citations: 2
-additional_links: [{name: Code, url: 'https://github'}, {name: Code, url: 'https://dapladoc-oml-postprocessing-demo-srcappmain-pfh2g0'},
+citations: 1
+additional_links: [{name: Code, url: 'https://github.com/OML-Team/open-metric-learning/tree/main/pipelines/postprocessing/and'},
+  {name: Code, url: 'https://dapladoc-oml-postprocessing-demo-srcappmain-pfh2g0.streamlit.app/'},
   {name: Paper, url: 'https://arxiv.org/abs/2304.13393'}]
 tags: ["CIKM", "Datasets", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Aleksei Shabanov, Aleksei Tarasov, Sergey Nikolenko

@@ -2,10 +2,10 @@
 layout: publication
 title: Parallel Index-based Structural Graph Clustering And Its Approximation
 authors: Tom Tseng, Laxman Dhulipala, Julian Shun
-conference: Proceedings of the 2021 International Conference on Management of Data
-year: 2021
+conference: 'SIGMOD/PODS ''21: International Conference on Management of Data'
+year: 2020
 bibkey: tseng2020parallel
-citations: 4
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.11188'}]
 tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Tom Tseng, Laxman Dhulipala, Julian Shun

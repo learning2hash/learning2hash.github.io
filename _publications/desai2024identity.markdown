@@ -2,9 +2,9 @@
 layout: publication
 title: 'Identity With Locality: An Ideal Hash For Gene Sequence Search'
 authors: Aditya Desai, Gaurav Gupta, Tianyi Zhang, Anshumali Shrivastava
-conference: Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and
-  Data Mining V.1
-year: 2025
+conference: 'KDD ''25: The 31st ACM SIGKDD Conference on Knowledge Discovery and Data
+  Mining'
+year: 2024
 bibkey: desai2024identity
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.14901'}]

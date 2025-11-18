@@ -2,11 +2,10 @@
 layout: publication
 title: Distance-sensitive Hashing
 authors: "Martin Aum\xFCller, Tobias Christiani, Rasmus Pagh, Francesco Silvestri"
-conference: Proceedings of the 37th ACM SIGMOD-SIGACT-SIGAI Symposium on Principles
-  of Database Systems
-year: 2018
+conference: 'SIGMOD/PODS ''18: International Conference on Management of Data'
+year: 2017
 bibkey: "aum\xFCller2017distance"
-citations: 18
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.07867'}]
 tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search", "Tools & Libraries"]
 short_authors: "Aum\xFCller et al."

@@ -2,10 +2,10 @@
 layout: publication
 title: Theory Of The GMM Kernel
 authors: Ping Li, Cun-Hui Zhang
-conference: Proceedings of the 26th International Conference on World Wide Web
-year: 2017
+conference: 'WWW ''17: 26th International World Wide Web Conference'
+year: 2016
 bibkey: li2016theory
-citations: 15
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.00550'}]
 tags: ["Datasets", "Hashing Methods"]
 short_authors: Ping Li, Cun-Hui Zhang

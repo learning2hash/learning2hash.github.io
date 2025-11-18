@@ -3,9 +3,9 @@ layout: publication
 title: Predicting Visual Features From Text For Image And Video Caption Retrieval
 authors: Jianfeng Dong, Xirong Li, Cees G. M. Snoek
 conference: IEEE Transactions on Multimedia
-year: 2018
+year: 2017
 bibkey: dong2017predicting
-citations: 233
+citations: 186
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.01362'}]
 tags: ["Datasets"]
 short_authors: Jianfeng Dong, Xirong Li, Cees G. M. Snoek

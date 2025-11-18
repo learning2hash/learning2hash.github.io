@@ -4,9 +4,9 @@ title: 'Foresthash: Semantic Hashing With Shallow Random Forests And Tiny Convol
   Networks'
 authors: Qiang Qiu, Jose Lezama, Alex Bronstein, Guillermo Sapiro
 conference: Lecture Notes in Computer Science
-year: 2018
+year: 2017
 bibkey: qiu2017foresthash
-citations: 8
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08364'}]
 tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Qiu et al.

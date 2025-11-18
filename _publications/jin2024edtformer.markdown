@@ -3,10 +3,11 @@ layout: publication
 title: 'Edtformer: An Efficient Decoder Transformer For Visual Place Recognition'
 authors: Tong Jin, Feng Lu, Shuyu Hu, Chun Yuan, Yunpeng Liu
 conference: IEEE Transactions on Circuits and Systems for Video Technology
-year: 2025
+year: 2024
 bibkey: jin2024edtformer
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2412.00784'}]
+additional_links: [{name: Code, url: 'https://github.com/Tong-Jin01/EDTformer'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2412.00784'}]
 tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Robustness"]
 short_authors: Jin et al.
 ---

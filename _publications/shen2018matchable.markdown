@@ -4,10 +4,11 @@ title: Matchable Image Retrieval By Learning From Surface Reconstruction
 authors: Tianwei Shen, Zixin Luo, Lei Zhou, Runze Zhang, Siyu Zhu, Tian Fang, Long
   Quan
 conference: Lecture Notes in Computer Science
-year: 2019
+year: 2018
 bibkey: shen2018matchable
-citations: 50
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1811.10343'}]
+citations: 27
+additional_links: [{name: Code, url: 'https://github.com/hlzz/mirror'}, {name: Paper,
+    url: 'https://arxiv.org/abs/1811.10343'}]
 tags: ["Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Shen et al.
 ---

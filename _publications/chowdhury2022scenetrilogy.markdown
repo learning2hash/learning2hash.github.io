@@ -5,10 +5,11 @@ title: 'Scenetrilogy: On Human Scene-sketch And Its Complementarity With Photo A
 authors: Pinaki Nath Chowdhury, Ayan Kumar Bhunia, Aneeshan Sain, Subhadeep Koley,
   Tao Xiang, Yi-Zhe Song
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2023
+year: 2022
 bibkey: chowdhury2022scenetrilogy
-citations: 21
-additional_links: [{name: Other, url: 'http://www'}, {name: Paper, url: 'https://arxiv.org/abs/2204.11964'}]
+citations: 20
+additional_links: [{name: Other, url: 'http://www.pinakinathc.me/scenetrilogy'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2204.11964'}]
 tags: ["CVPR"]
 short_authors: Chowdhury et al.
 ---

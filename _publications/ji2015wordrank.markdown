@@ -4,9 +4,9 @@ title: 'Wordrank: Learning Word Embeddings Via Robust Ranking'
 authors: Shihao Ji, Hyokun Yun, Pinar Yanardag, Shin Matsushima, S. V. N. Vishwanathan
 conference: Proceedings of the 2016 Conference on Empirical Methods in Natural Language
   Processing
-year: 2016
+year: 2015
 bibkey: ji2015wordrank
-citations: 33
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1506.02761'}]
 tags: ["EMNLP", "Evaluation", "Robustness", "Tools & Libraries"]
 short_authors: Ji et al.

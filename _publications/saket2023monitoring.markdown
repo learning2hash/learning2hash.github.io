@@ -2,9 +2,9 @@
 layout: publication
 title: Monitoring The Evolution Of Behavioural Embeddings In Social Media Recommendation
 authors: Srijan Saket, Olivier Jeunen, Md. Danish Kalim
-conference: Proceedings of the 47th International ACM SIGIR Conference on Research
-  and Development in Information Retrieval
-year: 2024
+conference: 'SIGIR 2024: The 47th International ACM SIGIR Conference on Research and
+  Development in Information Retrieval'
+year: 2023
 bibkey: saket2023monitoring
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.15265'}]

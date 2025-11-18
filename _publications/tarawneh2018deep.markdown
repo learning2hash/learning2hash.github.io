@@ -5,9 +5,9 @@ authors: Ahmad S. Tarawneh, Ahmad B. A. Hassanat, Ceyhun Celik, Dmitry Chetverik
   M. Sohel Rahman, Chaman Verma
 conference: 2019 10th International Conference on Information and Communication Systems
   (ICICS)
-year: 2019
+year: 2018
 bibkey: tarawneh2018deep
-citations: 35
+citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.05490'}]
 tags: ["Datasets", "Image Retrieval", "Neural Hashing", "Survey Paper"]
 short_authors: Tarawneh et al.

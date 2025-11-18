@@ -2,11 +2,11 @@
 layout: publication
 title: Event-driven Query Expansion
 authors: Guy D. Rosin, Ido Guy, Kira Radinsky
-conference: Proceedings of the 14th ACM International Conference on Web Search and
-  Data Mining
-year: 2021
+conference: 'WSDM ''21: The Fourteenth ACM International Conference on Web Search
+  and Data Mining'
+year: 2020
 bibkey: rosin2020event
-citations: 8
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.12065'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Guy D. Rosin, Ido Guy, Kira Radinsky

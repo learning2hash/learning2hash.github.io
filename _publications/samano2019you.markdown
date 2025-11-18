@@ -3,9 +3,9 @@ layout: publication
 title: 'You Are Here: Geolocation By Embedding Maps And Images'
 authors: Noe Samano, Mengjie Zhou, Andrew Calway
 conference: Lecture Notes in Computer Science
-year: 2020
+year: 2019
 bibkey: samano2019you
-citations: 19
+citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.08797'}]
 tags: ["Evaluation"]
 short_authors: Noe Samano, Mengjie Zhou, Andrew Calway

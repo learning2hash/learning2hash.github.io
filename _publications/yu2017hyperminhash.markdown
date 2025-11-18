@@ -3,9 +3,9 @@ layout: publication
 title: 'Hyperminhash: Minhash In Loglog Space'
 authors: Yun William Yu, Griffin M. Weber
 conference: IEEE Transactions on Knowledge and Data Engineering
-year: 2020
+year: 2017
 bibkey: yu2017hyperminhash
-citations: 16
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.08436'}]
 tags: ["Locality-Sensitive-Hashing"]
 short_authors: Yun William Yu, Griffin M. Weber

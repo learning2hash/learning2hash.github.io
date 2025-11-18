@@ -5,9 +5,9 @@ authors: Luca Cappelletti, Tommaso Fontana, Elena Casiraghi, Vida Ravanmehr, Tif
   J. Callahan, Carlos Cano, Marcin P. Joachimiak, Christopher J. Mungall, Peter N.
   Robinson, Justin Reese, Giorgio Valentini
 conference: Nature Computational Science
-year: 2023
+year: 2021
 bibkey: cappelletti2021grape
-citations: 22
+citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.06196'}]
 tags: ["Evaluation"]
 short_authors: Cappelletti et al.

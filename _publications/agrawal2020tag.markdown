@@ -3,7 +3,7 @@ layout: publication
 title: Tag Embedding Based Personalized Point Of Interest Recommendation System
 authors: Suraj Agrawal, Dwaipayan Roy, Mandar Mitra
 conference: Information Processing &amp; Management
-year: 2021
+year: 2020
 bibkey: agrawal2020tag
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.06389'}]

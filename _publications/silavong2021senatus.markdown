@@ -3,7 +3,7 @@ layout: publication
 title: Senatus -- A Fast And Accurate Code-to-code Recommendation Engine
 authors: Fran Silavong, Sean Moran, Antonios Georgiadis, Rohan Saphal, Robert Otter
 conference: 'MSR ''22: 19th International Conference on Mining Software Repositories'
-year: 2022
+year: 2021
 bibkey: silavong2021senatus
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.04473'}]

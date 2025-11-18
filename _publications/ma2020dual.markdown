@@ -4,9 +4,9 @@ title: Dual-path CNN With Max Gated Block For Text-based Person Re-identificatio
 authors: Tinghuai Ma, Mingming Yang, Huan Rong, Yurong Qian, Yurong Qian, Yuan Tian,
   Najlaal-Nabhan
 conference: Image and Vision Computing
-year: 2021
+year: 2020
 bibkey: ma2020dual
-citations: 25
+citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.09343'}]
 tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Ma et al.

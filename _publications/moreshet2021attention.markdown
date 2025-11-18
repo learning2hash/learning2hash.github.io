@@ -3,8 +3,8 @@ layout: publication
 title: Attention-based Multimodal Image Matching
 authors: Aviad Moreshet, Yosi Keller
 conference: Arxiv
-year: 2023
-bibkey: moreshet2023attention
+year: 2021
+bibkey: moreshet2021attention
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.11247'}]
 tags: ["Uncategorized"]

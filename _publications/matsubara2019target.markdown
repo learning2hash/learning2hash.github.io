@@ -3,9 +3,9 @@ layout: publication
 title: Target-oriented Deformation Of Visual-semantic Embedding Space
 authors: Takashi Matsubara
 conference: IEICE Transactions on Information and Systems
-year: 2020
+year: 2019
 bibkey: matsubara2019target
-citations: 8
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.06514'}]
 tags: ["Datasets", "Multimodal Retrieval"]
 short_authors: Takashi Matsubara

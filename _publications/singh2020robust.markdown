@@ -4,9 +4,9 @@ title: Robust Homomorphic Video Hashing
 authors: Priyanka Singh
 conference: 2021 IEEE 4th International Conference on Multimedia Information Processing
   and Retrieval (MIPR)
-year: 2021
+year: 2020
 bibkey: singh2020robust
-citations: 4
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.01887'}]
 tags: ["Hashing Methods"]
 short_authors: Priyanka Singh

@@ -3,9 +3,9 @@ layout: publication
 title: Search Personalization With Embeddings
 authors: Thanh Vu, Dat Quoc Nguyen, Mark Johnson, Dawei Song, Alistair Willis
 conference: Lecture Notes in Computer Science
-year: 2017
+year: 2016
 bibkey: vu2016search
-citations: 49
+citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.03597'}]
 tags: ["Evaluation"]
 short_authors: Vu et al.

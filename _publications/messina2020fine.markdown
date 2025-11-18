@@ -5,10 +5,11 @@ title: Fine-grained Visual Textual Alignment For Cross-modal Retrieval Using Tra
 authors: "Nicola Messina, Giuseppe Amato, Andrea Esuli, Fabrizio Falchi, Claudio Gennaro,\
   \ St\xE9phane Marchand-Maillet"
 conference: ACM Transactions on Multimedia Computing, Communications, and Applications
-year: 2021
+year: 2020
 bibkey: messina2020fine
 citations: 118
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2008.05231'}]
+additional_links: [{name: Code, url: 'https://github.com/mesnico/TERAN'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2008.05231'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Scalability"]
 short_authors: Messina et al.
 ---

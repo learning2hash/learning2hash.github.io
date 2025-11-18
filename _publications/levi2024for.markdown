@@ -3,7 +3,7 @@ layout: publication
 title: 'FOR: Finetuning For Object Level Open Vocabulary Image Retrieval'
 authors: Hila Levi, Guy Heller, Dan Levi
 conference: 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-year: 2025
+year: 2024
 bibkey: levi2024for
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.18806'}]

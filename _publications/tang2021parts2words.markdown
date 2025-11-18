@@ -4,10 +4,11 @@ title: 'Parts2words: Learning Joint Embedding Of Point Clouds And Texts By Bidir
   Matching Between Parts And Words'
 authors: Chuan Tang, Xi Yang, Bojian Wu, Zhizhong Han, Yi Chang
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2023
+year: 2021
 bibkey: tang2021parts2words
-citations: 4
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2107.01872'}]
+citations: 9
+additional_links: [{name: Code, url: 'https://github.com/JLUtangchuan/Parts2Words'},
+  {name: Paper, url: 'https://arxiv.org/abs/2107.01872'}]
 tags: ["CVPR", "Datasets"]
 short_authors: Tang et al.
 ---

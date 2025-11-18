@@ -3,9 +3,9 @@ layout: publication
 title: 'Tattoo Image Search At Scale: Joint Detection And Compact Representation Learning'
 authors: Hu Han, Jie Li, Anil K. Jain, Shiguang Shan, Xilin Chen
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
-year: 2019
+year: 2018
 bibkey: han2018tattoo
-citations: 45
+citations: 39
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.00218'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Han et al.

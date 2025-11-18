@@ -3,13 +3,12 @@ layout: publication
 title: 'Retailklip : Finetuning Openclip Backbone Using Metric Learning On A Single
   GPU For Zero-shot Retail Product Image Classification'
 authors: Muktabh Mayank Srivastava
-conference: Proceedings of the 19th International Joint Conference on Computer Vision,
-  Imaging and Computer Graphics Theory and Applications
-year: 2024
+conference: 19th International Conference on Computer Vision Theory and Applications
+year: 2023
 bibkey: srivastava2023retailklip
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.10282'}]
-tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "ICCV"]
 short_authors: Muktabh Mayank Srivastava
 ---
 Retail product or packaged grocery goods images need to classified in various

@@ -3,9 +3,9 @@ layout: publication
 title: 'Bridging Gap Between Image Pixels And Semantics Via Supervision: A Survey'
 authors: Jiali Duan, C. -C. Jay Kuo
 conference: APSIPA Transactions on Signal and Information Processing
-year: 2022
+year: 2021
 bibkey: duan2021bridging
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.13757'}]
 tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Supervised", "Survey Paper"]
 short_authors: Jiali Duan, C. -C. Jay Kuo

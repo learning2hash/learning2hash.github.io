@@ -5,7 +5,7 @@ title: 'Search And Detect: Training-free Long Tail Object Detection Via Web-imag
 authors: Mankeerat Sidhu, Hetarth Chopra, Ansel Blume, Jeonghwan Kim, Revanth Gangi
   Reddy, Heng Ji
 conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2025
+year: 2024
 bibkey: sidhu2024search
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.18733'}]

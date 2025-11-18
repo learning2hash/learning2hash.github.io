@@ -3,10 +3,11 @@ layout: publication
 title: Large-scale Image Retrieval With Attentive Deep Local Features
 authors: Hyeonwoo Noh, Andre Araujo, Jack Sim, Tobias Weyand, Bohyung Han
 conference: 2017 IEEE International Conference on Computer Vision (ICCV)
-year: 2017
+year: 2016
 bibkey: noh2016large
-citations: 819
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1612.06321'}]
+citations: 581
+additional_links: [{name: Code, url: 'https://github.com/tensorflow/models/tree/master/research/delf'},
+  {name: Paper, url: 'https://arxiv.org/abs/1612.06321'}]
 tags: ["Datasets", "ICCV", "Image Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Noh et al.
 ---

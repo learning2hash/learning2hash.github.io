@@ -4,9 +4,9 @@ title: Yottixel -- An Image Search Engine For Large Archives Of Histopathology W
   Slide Images
 authors: S. Kalra, C. Choi, S. Shah, L. Pantanowitz, H. R. Tizhoosh
 conference: Medical Image Analysis
-year: 2020
+year: 2019
 bibkey: kalra2019yottixel
-citations: 117
+citations: 102
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.08748'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Kalra et al.

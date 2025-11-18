@@ -2,11 +2,11 @@
 layout: publication
 title: Video Retrieval Based On Deep Convolutional Neural Network
 authors: Yj Dong, Jg Li
-conference: Proceedings of the 3rd International Conference on Multimedia Systems
-  and Signal Processing
-year: 2018
+conference: 'ICMSSP ''18: 2018 3rd International Conference on Multimedia Systems
+  and Signal Processing'
+year: 2017
 bibkey: dong2017video
-citations: 17
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.00133'}]
 tags: ["Datasets", "Distance Metric Learning", "Hashing Methods", "Image Retrieval", "Tools & Libraries", "Video Retrieval"]
 short_authors: Yj Dong, Jg Li

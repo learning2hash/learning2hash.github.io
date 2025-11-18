@@ -3,10 +3,10 @@ layout: publication
 title: Solving \(k\)-nearest Neighbor Problem On Multiple Graphics Processors
 authors: Kimikazu Kato, Tikara Hosino
 conference: 2010 10th IEEE/ACM International Conference on Cluster, Cloud and Grid
-  Computing
-year: 2010
+  Computing (CCGrid)
+year: 2009
 bibkey: kato2009solving
-citations: 37
+citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/0906.0231'}]
 tags: ["Recommender Systems"]
 short_authors: Kimikazu Kato, Tikara Hosino

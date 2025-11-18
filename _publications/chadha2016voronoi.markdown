@@ -4,9 +4,9 @@ title: 'Voronoi-based Compact Image Descriptors: Efficient Region-of-interest Re
   With VLAD And Deep-learning-based Descriptors'
 authors: Aaron Chadha, Yiannis Andreopoulos
 conference: IEEE Transactions on Multimedia
-year: 2017
+year: 2016
 bibkey: chadha2016voronoi
-citations: 29
+citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.08906'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Aaron Chadha, Yiannis Andreopoulos

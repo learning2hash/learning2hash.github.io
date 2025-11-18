@@ -4,9 +4,9 @@ title: 'Darkrank: Accelerating Deep Metric Learning Via Cross Sample Similaritie
   Transfer'
 authors: Yuntao Chen, Naiyan Wang, Zhaoxiang Zhang
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2018
+year: 2017
 bibkey: chen2017darkrank
-citations: 219
+citations: 90
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.01220'}]
 tags: ["AAAI", "Distance Metric Learning", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Yuntao Chen, Naiyan Wang, Zhaoxiang Zhang

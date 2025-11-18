@@ -3,9 +3,9 @@ layout: publication
 title: Fast And Exact Fixed-radius Neighbor Search Based On Sorting
 authors: "Xinye Chen, Stefan G\xFCttel"
 conference: PeerJ Computer Science
-year: 2024
+year: 2022
 bibkey: chen2022fast
-citations: 6
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.07679'}]
 tags: ["Efficiency", "Evaluation", "Tree Based ANN"]
 short_authors: "Xinye Chen, Stefan G\xFCttel"

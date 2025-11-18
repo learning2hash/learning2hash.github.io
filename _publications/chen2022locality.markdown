@@ -3,9 +3,9 @@ layout: publication
 title: Locality-sensitive Bucketing Functions For The Edit Distance
 authors: Ke Chen, Mingfu Shao
 conference: Algorithms for Molecular Biology
-year: 2023
+year: 2022
 bibkey: chen2022locality
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.03097'}]
 tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Ke Chen, Mingfu Shao

@@ -3,9 +3,9 @@ layout: publication
 title: Online Hashing With Efficient Updating Of Binary Codes
 authors: Zhenyu Weng, Yuesheng Zhu
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2020
+year: 2019
 bibkey: weng2019online
-citations: 15
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.12125'}]
 tags: ["AAAI", "Compact Codes", "Efficiency", "Hashing Methods", "Image Retrieval", "Tools & Libraries"]
 short_authors: Zhenyu Weng, Yuesheng Zhu

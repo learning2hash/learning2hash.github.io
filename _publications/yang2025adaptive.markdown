@@ -4,9 +4,9 @@ title: Adaptive Labeling For Deep Learning To Hash
 authors: Huei-Fang Yang, Cheng-Hao Tu, Chu-Song Chen
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
   (CVPRW)
-year: 2019
+year: 2025
 bibkey: yang2025adaptive
-citations: 8
+citations: 6
 additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content_CVPRW_2019/papers/CEFRL/Yang_Adaptive_Labeling_for_Deep_Learning_to_Hash_CVPRW_2019_paper.pdf'}]
 tags: ["CVPR", "Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Huei-Fang Yang, Cheng-Hao Tu, Chu-Song Chen

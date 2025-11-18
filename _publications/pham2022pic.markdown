@@ -4,7 +4,7 @@ title: 'Pic: A Phrase-in-context Dataset For Phrase Understanding And Semantic S
 authors: Thang M. Pham, Seunghyun Yoon, Trung Bui, Anh Nguyen
 conference: Proceedings of the 17th Conference of the European Chapter of the Association
   for Computational Linguistics
-year: 2023
+year: 2022
 bibkey: pham2022pic
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.09068'}]

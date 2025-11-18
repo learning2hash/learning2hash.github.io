@@ -3,9 +3,9 @@ layout: publication
 title: Conditional Similarity Networks
 authors: Andreas Veit, Serge Belongie, Theofanis Karaletsos
 conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2017
+year: 2016
 bibkey: veit2016conditional
-citations: 168
+citations: 99
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.07810'}]
 tags: ["CVPR"]
 short_authors: Andreas Veit, Serge Belongie, Theofanis Karaletsos

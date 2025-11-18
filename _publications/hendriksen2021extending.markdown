@@ -4,9 +4,9 @@ title: Extending CLIP For Category-to-image Retrieval In E-commerce
 authors: Mariya Hendriksen, Maurits Bleeker, Svitlana Vakulenko, Nanne van Noord,
   Ernst Kuiper, Maarten de Rijke
 conference: Lecture Notes in Computer Science
-year: 2022
+year: 2021
 bibkey: hendriksen2021extending
-citations: 14
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.11294'}]
 tags: ["Evaluation", "Image Retrieval", "Recommender Systems"]
 short_authors: Hendriksen et al.

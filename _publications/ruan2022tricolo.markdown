@@ -3,9 +3,9 @@ layout: publication
 title: 'Tricolo: Trimodal Contrastive Loss For Text To Shape Retrieval'
 authors: Yue Ruan, Han-Hung Lee, Yiming Zhang, Ke Zhang, Angel X. Chang
 conference: 2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-year: 2024
+year: 2022
 bibkey: ruan2022tricolo
-citations: 4
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.07366'}]
 tags: ["Distance Metric Learning", "Evaluation", "Self-Supervised"]
 short_authors: Ruan et al.

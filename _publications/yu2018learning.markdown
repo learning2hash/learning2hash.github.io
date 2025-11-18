@@ -4,9 +4,9 @@ title: Learning Discriminative Hashing Codes For Cross-modal Retrieval Based On 
   Features
 authors: Jun Yu, Xiao-Jun Wu, Josef Kittler
 conference: Pattern Analysis and Applications
-year: 2020
+year: 2018
 bibkey: yu2018learning
-citations: 4
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.04152'}]
 tags: ["Datasets", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Tools & Libraries"]
 short_authors: Jun Yu, Xiao-Jun Wu, Josef Kittler

@@ -3,7 +3,7 @@ layout: publication
 title: Multiple Visual-semantic Embedding For Video Retrieval From Query Sentence
 authors: Huy Manh Nguyen, Tomo Miyazaki, Yoshihiro Sugaya, Shinichiro Omachi
 conference: Applied Sciences
-year: 2021
+year: 2020
 bibkey: nguyen2020multiple
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.07967'}]

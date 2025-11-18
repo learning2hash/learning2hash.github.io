@@ -2,9 +2,9 @@
 layout: publication
 title: Asymmetric Hashing For Fast Ranking Via Neural Network Measures
 authors: Khoa Doan, Shulong Tan, Weijie Zhao, Ping Li
-conference: Proceedings of the 46th International ACM SIGIR Conference on Research
-  and Development in Information Retrieval
-year: 2023
+conference: 'SIGIR ''23: The 46th International ACM SIGIR Conference on Research and
+  Development in Information Retrieval'
+year: 2022
 bibkey: doan2022asymmetric
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.00619'}]

@@ -4,9 +4,9 @@ title: Learning Shared Semantic Space With Correlation Alignment For Cross-modal
   Retrieval
 authors: Zhenguo Yang, Zehang Lin, Peipei Kang, Jianming Lv, Qing Li, Wenyin Liu
 conference: ACM Transactions on Multimedia Computing, Communications, and Applications
-year: 2020
+year: 2019
 bibkey: yang2019learning
-citations: 28
+citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.04268'}]
 tags: ["Datasets"]
 short_authors: Yang et al.

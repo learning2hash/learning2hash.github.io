@@ -3,10 +3,11 @@ layout: publication
 title: Do Similar Entities Have Similar Embeddings?
 authors: Nicolas Hubert, Heiko Paulheim, Armelle Brun, Davy Monticolo
 conference: Lecture Notes in Computer Science
-year: 2024
+year: 2023
 bibkey: hubert2023do
-citations: 3
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2312.10370'}]
+citations: 4
+additional_links: [{name: Code, url: 'https://github.com/nicolas-hbt/similar-embeddings/'},
+  {name: Paper, url: 'https://arxiv.org/abs/2312.10370'}]
 tags: ["Datasets", "Recommender Systems"]
 short_authors: Hubert et al.
 ---

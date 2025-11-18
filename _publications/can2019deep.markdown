@@ -3,7 +3,7 @@ layout: publication
 title: Deep Metric Learning With Alternating Projections Onto Feasible Sets
 authors: "O\u011Ful Can, Yeti Ziya G\xFCrb\xFCz, A. Ayd\u0131n Alatan"
 conference: 2021 IEEE International Conference on Image Processing (ICIP)
-year: 2021
+year: 2019
 bibkey: can2019deep
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.07585'}]

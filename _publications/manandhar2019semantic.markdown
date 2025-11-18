@@ -3,7 +3,7 @@ layout: publication
 title: Semantic Granularity Metric Learning For Visual Search
 authors: Dipu Manandhar, Muhammet Bastan, Kim-Hui Yap
 conference: Journal of Visual Communication and Image Representation
-year: 2020
+year: 2019
 bibkey: manandhar2019semantic
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.06047'}]

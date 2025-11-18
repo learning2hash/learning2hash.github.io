@@ -3,9 +3,9 @@ layout: publication
 title: Graph-based Multi-view Binary Learning For Image Clustering
 authors: Guangqi Jiang, Huibing Wang, Jinjia Peng, Dongyan Chen, Xianping Fu
 conference: Neurocomputing
-year: 2020
+year: 2019
 bibkey: jiang2019graph
-citations: 28
+citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.05159'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Graph Based ANN", "Hashing Methods", "Scalability"]
 short_authors: Jiang et al.

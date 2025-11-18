@@ -5,9 +5,9 @@ title: 'MUST: An Effective And Scalable Framework For Multimodal Search Of Targe
 authors: Mengzhao Wang, Xiangyu Ke, Xiaoliang Xu, Lu Chen, Yunjun Gao, Pinpin Huang,
   Runkai Zhu
 conference: 2024 IEEE 40th International Conference on Data Engineering (ICDE)
-year: 2024
+year: 2023
 bibkey: wang2023must
-citations: 4
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.06397'}]
 tags: ["Datasets", "Efficiency", "Graph Based ANN", "Scalability", "Tools & Libraries"]
 short_authors: Wang et al.

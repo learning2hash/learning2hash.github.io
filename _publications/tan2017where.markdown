@@ -3,9 +3,9 @@ layout: publication
 title: Where And Who? Automatic Semantic-aware Person Composition
 authors: Fuwen Tan, Crispin Bernier, Benjamin Cohen, Vicente Ordonez, Connelly Barnes
 conference: 2018 IEEE Winter Conference on Applications of Computer Vision (WACV)
-year: 2018
+year: 2017
 bibkey: tan2017where
-citations: 51
+citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.01021'}]
 tags: ["Uncategorized"]
 short_authors: Tan et al.

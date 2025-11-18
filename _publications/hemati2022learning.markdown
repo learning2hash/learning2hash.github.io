@@ -4,9 +4,9 @@ title: Learning Binary And Sparse Permutation-invariant Representations For Fast
   Memory Efficient Whole Slide Image Search
 authors: Sobhan Hemati, Shivam Kalra, Morteza Babaie, H. R. Tizhoosh
 conference: Computers in Biology and Medicine
-year: 2023
+year: 2022
 bibkey: hemati2022learning
-citations: 9
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.13653'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Memory Efficiency", "Tools & Libraries"]
 short_authors: Hemati et al.

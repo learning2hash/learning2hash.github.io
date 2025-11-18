@@ -3,9 +3,9 @@ layout: publication
 title: Deep Reinforcement Learning For Image Hashing
 authors: Yuxin Peng, Jian Zhang, Zhaoda Ye
 conference: IEEE Transactions on Multimedia
-year: 2019
+year: 2018
 bibkey: peng2018deep
-citations: 46
+citations: 38
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02904'}]
 tags: ["Compact Codes", "Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Yuxin Peng, Jian Zhang, Zhaoda Ye

@@ -3,9 +3,9 @@ layout: publication
 title: Boosting K-nn For Categorization Of Natural Scenes
 authors: Paolo Piro, Richard Nock, Frank Nielsen, Michel Barlaud
 conference: International Journal of Computer Vision
-year: 2012
+year: 2010
 bibkey: piro2010boosting
-citations: 15
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1001.1221'}]
 tags: ["Datasets"]
 short_authors: Piro et al.

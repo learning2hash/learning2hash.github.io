@@ -3,10 +3,11 @@ layout: publication
 title: Clip-driven Semantic Discovery Network For Visible-infrared Person Re-identification
 authors: Xiaoyan Yu, Neng Dong, Liehuang Zhu, Hao Peng, Dapeng Tao
 conference: IEEE Transactions on Multimedia
-year: 2025
+year: 2024
 bibkey: yu2024clip
-citations: 10
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2401.05806'}]
+citations: 16
+additional_links: [{name: Code, url: 'https://github.com/nengdong96/CSDN'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2401.05806'}]
 tags: ["Uncategorized"]
 short_authors: Yu et al.
 ---

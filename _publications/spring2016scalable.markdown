@@ -2,11 +2,11 @@
 layout: publication
 title: Scalable And Sustainable Deep Learning Via Randomized Hashing
 authors: Ryan Spring, Anshumali Shrivastava
-conference: Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge
-  Discovery and Data Mining
-year: 2017
+conference: 'KDD ''17: The 23rd ACM SIGKDD International Conference on Knowledge Discovery
+  and Data Mining'
+year: 2016
 bibkey: spring2016scalable
-citations: 108
+citations: 59
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.08194'}]
 tags: ["Datasets", "Efficiency", "Hashing Methods", "KDD", "Neural Hashing", "Scalability"]
 short_authors: Ryan Spring, Anshumali Shrivastava

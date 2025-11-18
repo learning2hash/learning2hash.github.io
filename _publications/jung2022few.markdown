@@ -3,9 +3,9 @@ layout: publication
 title: 'Few-shot Metric Learning: Online Adaptation Of Embedding For Retrieval'
 authors: Deunsol Jung, Dahyun Kang, Suha Kwak, Minsu Cho
 conference: Lecture Notes in Computer Science
-year: 2023
+year: 2022
 bibkey: jung2022few
-citations: 6
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.07116'}]
 tags: ["Datasets", "Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Jung et al.

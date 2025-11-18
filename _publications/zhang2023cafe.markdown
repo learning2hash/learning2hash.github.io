@@ -5,7 +5,7 @@ title: 'CAFE: Towards Compact, Adaptive, And Fast Embedding For Large-scale Reco
 authors: Hailin Zhang, Zirui Liu, Boxuan Chen, Yikai Zhao, Tong Zhao, Tong Yang, Bin
   Cui
 conference: Proceedings of the ACM on Management of Data
-year: 2024
+year: 2023
 bibkey: zhang2023cafe
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.03256'}]

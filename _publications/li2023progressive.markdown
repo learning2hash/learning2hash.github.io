@@ -4,9 +4,9 @@ title: Progressive Feature Mining And External Knowledge-assisted Text-pedestria
   Image Retrieval
 authors: Huafeng Li, Shedan Yang, Yafei Zhang, Dapeng Tao, Zhengtao Yu
 conference: IEEE Transactions on Multimedia
-year: 2024
+year: 2023
 bibkey: li2023progressive
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.11994'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Li et al.

@@ -4,7 +4,7 @@ title: Harnessing Frozen Unimodal Encoders For Flexible Multimodal Alignment
 authors: Mayug Maniparambil, Raiymbek Akshulakov, Yasser Abdelaziz Dahou Djilali,
   Sanath Narayan, Ankit Singh, Noel E. O'Connor
 conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2025
+year: 2024
 bibkey: maniparambil2024harnessing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.19425'}]

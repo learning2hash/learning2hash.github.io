@@ -3,9 +3,9 @@ layout: publication
 title: A Discriminatively Learned CNN Embedding For Person Re-identification
 authors: Zhedong Zheng, Liang Zheng, Yi Yang
 conference: ACM Transactions on Multimedia Computing, Communications, and Applications
-year: 2017
+year: 2016
 bibkey: zheng2016a
-citations: 495
+citations: 500
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.05666'}]
 tags: ["Evaluation", "Image Retrieval"]
 short_authors: Zhedong Zheng, Liang Zheng, Yi Yang

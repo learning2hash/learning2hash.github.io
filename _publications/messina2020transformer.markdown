@@ -3,10 +3,11 @@ layout: publication
 title: Transformer Reasoning Network For Image-text Matching And Retrieval
 authors: Nicola Messina, Fabrizio Falchi, Andrea Esuli, Giuseppe Amato
 conference: 2020 25th International Conference on Pattern Recognition (ICPR)
-year: 2021
+year: 2020
 bibkey: messina2020transformer
-citations: 56
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2004.09144'}]
+citations: 45
+additional_links: [{name: Code, url: 'https://github.com/mesnico/TERN'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2004.09144'}]
 tags: ["Datasets", "Image Retrieval", "Scalability"]
 short_authors: Messina et al.
 ---

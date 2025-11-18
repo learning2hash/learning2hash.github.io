@@ -3,9 +3,9 @@ layout: publication
 title: Multi-resolution Hashing For Fast Pairwise Summations
 authors: Moses Charikar, Paris Siminelakis
 conference: 2019 IEEE 60th Annual Symposium on Foundations of Computer Science (FOCS)
-year: 2019
+year: 2018
 bibkey: charikar2018multi
-citations: 5
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.07635'}]
 tags: ["Datasets", "Efficiency", "Hashing Methods", "Tools & Libraries"]
 short_authors: Moses Charikar, Paris Siminelakis

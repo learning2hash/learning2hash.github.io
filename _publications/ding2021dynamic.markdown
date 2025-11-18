@@ -5,7 +5,7 @@ title: Dynamic Texture Recognition Using PDV Hashing And Dictionary Learning On 
 authors: Ruxin Ding, Jianfeng Ren, Heng Yu, Jiawei Li
 conference: ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech
   and Signal Processing (ICASSP)
-year: 2022
+year: 2021
 bibkey: ding2021dynamic
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.12315'}]

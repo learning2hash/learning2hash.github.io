@@ -5,9 +5,9 @@ title: Practical And Asymptotically Optimal Quantization Of High-dimensional Vec
 authors: Jianyang Gao, Yutong Gou, Yuexuan Xu, Yongyi Yang, Cheng Long, Raymond Chi-Wing
   Wong
 conference: Proceedings of the ACM on Management of Data
-year: 2025
+year: 2024
 bibkey: gao2024practical
-citations: 0
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.09913'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Quantization"]
 short_authors: Gao et al.

@@ -4,10 +4,11 @@ title: 'SAH: Shifting-aware Asymmetric Hashing For Reverse \(k\)-maximum Inner P
   Search'
 authors: Qiang Huang, Yanhao Wang, Anthony K. H. Tung
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2023
+year: 2022
 bibkey: huang2022sah
-citations: 4
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2211.12751'}]
+citations: 3
+additional_links: [{name: Code, url: 'https://github.com/HuangQiang/SAH'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2211.12751'}]
 tags: ["AAAI", "Datasets", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Qiang Huang, Yanhao Wang, Anthony K. H. Tung
 ---

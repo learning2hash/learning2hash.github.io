@@ -3,9 +3,9 @@ layout: publication
 title: 'Sketchtriplet: Self-supervised Scenarized Sketch-text-image Triplet Generation'
 authors: Zhenbei Wu, Qiang Wang, Jie Yang
 conference: IEEE Internet of Things Journal
-year: 2025
+year: 2024
 bibkey: wu2024sketchtriplet
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.18801'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Scalability", "Self-Supervised", "Supervised"]
 short_authors: Zhenbei Wu, Qiang Wang, Jie Yang

@@ -3,9 +3,9 @@ layout: publication
 title: 'Starspace: Embed All The Things!'
 authors: Ledell Wu, Adam Fisch, Sumit Chopra, Keith Adams, Antoine Bordes, Jason Weston
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2018
+year: 2017
 bibkey: wu2017starspace
-citations: 140
+citations: 74
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.03856'}]
 tags: ["AAAI", "Recommender Systems"]
 short_authors: Wu et al.

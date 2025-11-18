@@ -4,7 +4,7 @@ title: Randomized Near Neighbor Graphs, Giant Components, And Applications In Da
   Science
 authors: George C. Linderman, Gal Mishne, Yuval Kluger, Stefan Steinerberger
 conference: Journal of Applied Probability
-year: 2020
+year: 2017
 bibkey: linderman2017randomized
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.04712'}]

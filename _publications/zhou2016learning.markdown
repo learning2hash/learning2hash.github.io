@@ -4,9 +4,9 @@ title: Learning Low Dimensional Convolutional Neural Networks For High-resolutio
   Remote Sensing Image Retrieval
 authors: Weixun Zhou, Shawn Newsam, Congmin Li, Zhenfeng Shao
 conference: Remote Sensing
-year: 2017
+year: 2016
 bibkey: zhou2016learning
-citations: 139
+citations: 176
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.03023'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Zhou et al.

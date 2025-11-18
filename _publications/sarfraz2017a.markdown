@@ -3,11 +3,12 @@ layout: publication
 title: A Pose-sensitive Embedding For Person Re-identification With Expanded Cross
   Neighborhood Re-ranking
 authors: M. Saquib Sarfraz, Arne Schumann, Andreas Eberle, Rainer Stiefelhagen
-conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
-year: 2018
+conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2017
 bibkey: sarfraz2017a
-citations: 523
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1711.10378'}]
+citations: 347
+additional_links: [{name: Code, url: 'https://github.com/pse-ecn/pose-sensitive-embedding'},
+  {name: Paper, url: 'https://arxiv.org/abs/1711.10378'}]
 tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Tools & Libraries", "Unsupervised"]
 short_authors: Sarfraz et al.
 ---

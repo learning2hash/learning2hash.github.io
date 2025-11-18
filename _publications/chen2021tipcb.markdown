@@ -5,10 +5,11 @@ title: 'TIPCB: A Simple But Effective Part-based Convolutional Baseline For Text
 authors: Yuhao Chen, Guoqing Zhang, Yujiang Lu, Zhenxing Wang, Yuhui Zheng, Ruili
   Wang
 conference: Neurocomputing
-year: 2022
+year: 2021
 bibkey: chen2021tipcb
-citations: 118
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2105.11628'}]
+citations: 159
+additional_links: [{name: Code, url: 'https://github.com/OrangeYHChen/TIPCB'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2105.11628'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Chen et al.
 ---

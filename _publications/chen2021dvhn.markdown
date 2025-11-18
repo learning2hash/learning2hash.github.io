@@ -4,7 +4,7 @@ title: 'DVHN: A Deep Hashing Framework For Large-scale Vehicle Re-identification
 authors: Yongbiao Chen, Sheng Zhang, Fangxin Liu, Chenggang Wu, Kaicheng Guo, Zhengwei
   Qi
 conference: IEEE Transactions on Intelligent Transportation Systems
-year: 2023
+year: 2021
 bibkey: chen2021dvhn
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.04937'}]

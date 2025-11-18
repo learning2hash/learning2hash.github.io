@@ -3,7 +3,7 @@ layout: publication
 title: A Non-alternating Graph Hashing Algorithm For Large Scale Image Search
 authors: Sobhan Hemati, Mohammad Hadi Mehdizavareh, Shojaeddin Chenouri, Hamid R Tizhoosh
 conference: Computer Vision and Image Understanding
-year: 2022
+year: 2020
 bibkey: hemati2020a
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.13138'}]

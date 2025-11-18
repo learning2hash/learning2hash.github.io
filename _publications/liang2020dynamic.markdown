@@ -3,7 +3,7 @@ layout: publication
 title: Dynamic Sampling For Deep Metric Learning
 authors: Chang-Hui Liang, Wan-Lei Zhao, Run-Qing Chen
 conference: Pattern Recognition Letters
-year: 2021
+year: 2020
 bibkey: liang2020dynamic
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.11624'}]

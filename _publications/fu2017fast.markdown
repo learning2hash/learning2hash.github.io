@@ -4,9 +4,9 @@ title: Fast Approximate Nearest Neighbor Search With The Navigating Spreading-ou
   Graph
 authors: Cong Fu, Chao Xiang, Changxu Wang, Deng Cai
 conference: Proceedings of the VLDB Endowment
-year: 2019
+year: 2017
 bibkey: fu2017fast
-citations: 227
+citations: 225
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.00143'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Scalability"]
 short_authors: Fu et al.

@@ -4,9 +4,9 @@ title: 'Look, Imagine And Match: Improving Textual-visual Cross-modal Retrieval 
   Generative Models'
 authors: Jiuxiang Gu, Jianfei Cai, Shafiq Joty, Li Niu, Gang Wang
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2018
+year: 2017
 bibkey: gu2017look
-citations: 285
+citations: 289
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.06420'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Multimodal Retrieval", "Text Retrieval", "Tools & Libraries"]
 short_authors: Gu et al.

@@ -4,11 +4,11 @@ title: 'Parlayann: Scalable And Deterministic Parallel Graph-based Approximate N
   Neighbor Search Algorithms'
 authors: Magdalen Dobson Manohar, Zheqi Shen, Guy E. Blelloch, Laxman Dhulipala, Yan
   Gu, Harsha Vardhan Simhadri, Yihan Sun
-conference: Proceedings of the 29th ACM SIGPLAN Annual Symposium on Principles and
-  Practice of Parallel Programming
-year: 2024
+conference: 'PPoPP ''24: 29th ACM SIGPLAN Annual Symposium on Principles and Practice
+  of Parallel Programming'
+year: 2023
 bibkey: manohar2023parlayann
-citations: 8
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.04359'}]
 tags: ["Datasets", "Evaluation", "Graph Based ANN", "Large Scale Search", "Neural Hashing", "Scalability", "Similarity Search", "Tools & Libraries"]
 short_authors: Manohar et al.

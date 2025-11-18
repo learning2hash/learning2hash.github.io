@@ -3,9 +3,9 @@ layout: publication
 title: Deep Metric Learning Via Lifted Structured Feature Embedding
 authors: Hyun Oh Song, Yu Xiang, Stefanie Jegelka, Silvio Savarese
 conference: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2016
+year: 2015
 bibkey: song2015deep
-citations: 1663
+citations: 1060
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1511.06452'}]
 tags: ["CVPR", "Datasets", "Distance Metric Learning"]
 short_authors: Song et al.

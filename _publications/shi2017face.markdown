@@ -3,9 +3,9 @@ layout: publication
 title: 'Face Clustering: Representation And Pairwise Constraints'
 authors: Yichun Shi, Charles Otto, Anil K. Jain
 conference: IEEE Transactions on Information Forensics and Security
-year: 2018
+year: 2017
 bibkey: shi2017face
-citations: 108
+citations: 85
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.05067'}]
 tags: ["Datasets", "Evaluation", "Supervised"]
 short_authors: Yichun Shi, Charles Otto, Anil K. Jain

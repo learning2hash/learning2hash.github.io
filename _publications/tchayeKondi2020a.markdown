@@ -2,12 +2,13 @@
 layout: publication
 title: A New Hashing Based Nearest Neighbors Selection Technique For Big Datasets
 authors: Jude Tchaye-Kondi, Yanlong Zhai, Liehuang Zhu
-conference: Computer Science &amp; Information Technology (CS &amp; IT)
-year: 2021
+conference: 11th International Conference on Computer Science and Information Technology
+  (CCSIT 2021)
+year: 2020
 bibkey: tchayeKondi2020a
-citations: 5
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.02290'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Supervised"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "ICCV", "Supervised"]
 short_authors: Jude Tchaye-Kondi, Yanlong Zhai, Liehuang Zhu
 ---
 KNN has the reputation to be the word simplest but efficient supervised

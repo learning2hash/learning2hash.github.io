@@ -3,12 +3,13 @@ layout: publication
 title: Modeling Fine-grained Information Via Knowledge-aware Hierarchical Graph For
   Zero-shot Entity Retrieval
 authors: Taiqiang Wu, Xingyu Bai, Weigang Guo, Weijie Liu, Siheng Li, Yujiu Yang
-conference: Proceedings of the Sixteenth ACM International Conference on Web Search
-  and Data Mining
-year: 2023
+conference: 'WSDM ''23: The Sixteenth ACM International Conference on Web Search and
+  Data Mining'
+year: 2022
 bibkey: wu2022modeling
-citations: 9
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2211.10991'}]
+citations: 7
+additional_links: [{name: Code, url: 'https://github.com/wutaiqiang/GER-WSDM2023'},
+  {name: Paper, url: 'https://arxiv.org/abs/2211.10991'}]
 tags: ["Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Wu et al.
 ---

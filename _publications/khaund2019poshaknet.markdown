@@ -4,9 +4,9 @@ title: 'Poshaknet: Framework For Matching Dresses From Real-life Photos Using GA
   And Siamese Network'
 authors: Abhigyan Khaund, Daksh Thapar, Aditya Nigam
 conference: Communications in Computer and Information Science
-year: 2020
+year: 2019
 bibkey: khaund2019poshaknet
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.04237'}]
 tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Robustness", "Tools & Libraries"]
 short_authors: Abhigyan Khaund, Daksh Thapar, Aditya Nigam

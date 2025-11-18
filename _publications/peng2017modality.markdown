@@ -4,9 +4,9 @@ title: Modality-specific Cross-modal Similarity Measurement With Recurrent Atten
   Network
 authors: Yuxin Peng, Jinwei Qi, Yuxin Yuan
 conference: IEEE Transactions on Image Processing
-year: 2018
+year: 2017
 bibkey: peng2017modality
-citations: 141
+citations: 136
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.04776'}]
 tags: ["Datasets", "Multimodal Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Yuxin Peng, Jinwei Qi, Yuxin Yuan

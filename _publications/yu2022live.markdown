@@ -4,7 +4,7 @@ title: Live Laparoscopic Video Retrieval With Compressed Uncertainty
 authors: Tong Yu, Pietro Mascagni, Juan Verde, Jacques Marescaux, Didier Mutter, Nicolas
   Padoy
 conference: Medical Image Analysis
-year: 2023
+year: 2022
 bibkey: yu2022live
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.04301'}]

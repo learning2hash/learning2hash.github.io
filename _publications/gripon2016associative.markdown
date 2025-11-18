@@ -3,9 +3,9 @@ layout: publication
 title: Associative Memories To Accelerate Approximate Nearest Neighbor Search
 authors: "Vincent Gripon, Matthias L\xF6we, Franck Vermet"
 conference: Applied Sciences
-year: 2018
+year: 2016
 bibkey: gripon2016associative
-citations: 9
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.05898'}]
 tags: ["Hashing Methods", "Quantization"]
 short_authors: "Vincent Gripon, Matthias L\xF6we, Franck Vermet"

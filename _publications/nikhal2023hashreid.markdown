@@ -3,9 +3,9 @@ layout: publication
 title: 'Hashreid: Dynamic Network With Binary Codes For Efficient Person Re-identification'
 authors: Kshitij Nikhal, Yujunrong Ma, Shuvra S. Bhattacharyya, Benjamin S. Riggan
 conference: 2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-year: 2024
+year: 2023
 bibkey: nikhal2023hashreid
-citations: 1
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.11900'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods"]
 short_authors: Nikhal et al.

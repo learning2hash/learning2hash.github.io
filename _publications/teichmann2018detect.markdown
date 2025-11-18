@@ -3,10 +3,11 @@ layout: publication
 title: 'Detect-to-retrieve: Efficient Regional Aggregation For Image Search'
 authors: Marvin Teichmann, Andre Araujo, Menglong Zhu, Jack Sim
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2019
+year: 2018
 bibkey: teichmann2018detect
-citations: 118
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1812.01584'}]
+citations: 93
+additional_links: [{name: Code, url: 'https://github.com/tensorflow/models/tree/master/research/delf'},
+  {name: Paper, url: 'https://arxiv.org/abs/1812.01584'}]
 tags: ["CVPR", "Datasets", "Image Retrieval"]
 short_authors: Teichmann et al.
 ---

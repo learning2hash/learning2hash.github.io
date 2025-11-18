@@ -3,9 +3,9 @@ layout: publication
 title: 'Fedhap: Federated Hashing With Global Prototypes For Cross-silo Retrieval'
 authors: Meilin Yang, Jian Xu, Yang Liu, Wenbo Ding
 conference: IEEE Transactions on Parallel and Distributed Systems
-year: 2023
+year: 2022
 bibkey: yang2022fedhap
-citations: 4
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.05525'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Memory Efficiency", "Neural Hashing", "Scalability", "Tools & Libraries"]
 short_authors: Yang et al.

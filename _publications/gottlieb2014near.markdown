@@ -3,9 +3,9 @@ layout: publication
 title: Near-optimal Sample Compression For Nearest Neighbors
 authors: Lee-Ad Gottlieb, Aryeh Kontorovich, Pinhas Nisnevitch
 conference: IEEE Transactions on Information Theory
-year: 2018
+year: 2014
 bibkey: gottlieb2014near
-citations: 22
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1404.3368'}]
 tags: ["Evaluation"]
 short_authors: Lee-Ad Gottlieb, Aryeh Kontorovich, Pinhas Nisnevitch

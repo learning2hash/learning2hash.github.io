@@ -3,9 +3,9 @@ layout: publication
 title: Deep Asymmetric Hashing With Dual Semantic Regression And Class Structure Quantization
 authors: Jianglin Lu, Hailing Wang, Jie Zhou, Mengfan Yan, Jiajun Wen
 conference: Information Sciences
-year: 2022
+year: 2021
 bibkey: lu2021deep
-citations: 3
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.12478'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
 short_authors: Lu et al.

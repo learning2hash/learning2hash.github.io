@@ -3,9 +3,9 @@ layout: publication
 title: A Decade Survey Of Content Based Image Retrieval Using Deep Learning
 authors: Shiv Ram Dubey
 conference: IEEE Transactions on Circuits and Systems for Video Technology
-year: 2021
+year: 2020
 bibkey: dubey2020a
-citations: 262
+citations: 244
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.00641'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Survey Paper"]
 short_authors: Shiv Ram Dubey

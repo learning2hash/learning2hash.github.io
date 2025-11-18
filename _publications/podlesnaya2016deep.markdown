@@ -3,9 +3,9 @@ layout: publication
 title: Deep Learning Based Semantic Video Indexing And Retrieval
 authors: Anna Podlesnaya, Sergey Podlesnyy
 conference: Lecture Notes in Networks and Systems
-year: 2017
+year: 2016
 bibkey: podlesnaya2016deep
-citations: 20
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1601.07754'}]
 tags: ["Graph Based ANN", "Neural Hashing", "Video Retrieval"]
 short_authors: Anna Podlesnaya, Sergey Podlesnyy

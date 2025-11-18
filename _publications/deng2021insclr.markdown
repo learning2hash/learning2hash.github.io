@@ -3,10 +3,11 @@ layout: publication
 title: 'Insclr: Improving Instance Retrieval With Self-supervision'
 authors: Zelu Deng, Yujie Zhong, Sheng Guo, Weilin Huang
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2022
+year: 2021
 bibkey: deng2021insclr
-citations: 11
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2112.01390'}]
+citations: 10
+additional_links: [{name: Code, url: 'https://github.com/zeludeng/insclr'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2112.01390'}]
 tags: ["AAAI", "Evaluation", "Self-Supervised", "Supervised"]
 short_authors: Deng et al.
 ---

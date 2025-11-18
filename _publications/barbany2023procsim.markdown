@@ -3,7 +3,7 @@ layout: publication
 title: 'Procsim: Proxy-based Confidence For Robust Similarity Learning'
 authors: Oriol Barbany, Xiaofan Lin, Muhammet Bastan, Arnab Dhua
 conference: 2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-year: 2024
+year: 2023
 bibkey: barbany2023procsim
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.00668'}]

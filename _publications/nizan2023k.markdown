@@ -4,9 +4,9 @@ title: 'K-nnn: Nearest Neighbors Of Neighbors For Anomaly Detection'
 authors: Ori Nizan, Ayellet Tal
 conference: 2024 IEEE/CVF Winter Conference on Applications of Computer Vision Workshops
   (WACVW)
-year: 2024
+year: 2023
 bibkey: nizan2023k
-citations: 3
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.17695'}]
 tags: ["Datasets"]
 short_authors: Ori Nizan, Ayellet Tal

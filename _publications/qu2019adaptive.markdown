@@ -3,10 +3,11 @@ layout: publication
 title: Adaptive Loss-aware Quantization For Multi-bit Networks
 authors: Zhongnan Qu, Zimu Zhou, Yun Cheng, Lothar Thiele
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2020
+year: 2019
 bibkey: qu2019adaptive
-citations: 39
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1912.08883'}]
+citations: 33
+additional_links: [{name: Code, url: 'https://github.com/zqu1992/ALQ'}, {name: Paper,
+    url: 'https://arxiv.org/abs/1912.08883'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Quantization"]
 short_authors: Qu et al.
 ---

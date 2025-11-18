@@ -3,9 +3,9 @@ layout: publication
 title: Transitive Hashing Network For Heterogeneous Multimedia Retrieval
 authors: Zhangjie Cao, Mingsheng Long, Qiang Yang
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2017
+year: 2016
 bibkey: cao2016transitive
-citations: 26
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.04307'}]
 tags: ["AAAI", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Scalability"]
 short_authors: Zhangjie Cao, Mingsheng Long, Qiang Yang

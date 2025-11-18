@@ -4,7 +4,7 @@ title: A Scalable Solution To The Nearest Neighbor Search Problem Through Local-
   Methods On Neighbor Graphs
 authors: Eric S. Tellez, Guillermo Ruiz, Edgar Chavez, Mario Graff
 conference: Pattern Analysis and Applications
-year: 2021
+year: 2017
 bibkey: tellez2017a
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.10351'}]

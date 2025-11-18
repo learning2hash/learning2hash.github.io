@@ -4,9 +4,9 @@ title: Parallel Nearest Neighbors In Low Dimensions With Batch Updates
 authors: Magdalen Dobson, Guy Blelloch
 conference: 2022 Proceedings of the Symposium on Algorithm Engineering and Experiments
   (ALENEX)
-year: 2022
+year: 2021
 bibkey: dobson2021parallel
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.04182'}]
 tags: ["Efficiency", "Evaluation", "Tree Based ANN"]
 short_authors: Magdalen Dobson, Guy Blelloch

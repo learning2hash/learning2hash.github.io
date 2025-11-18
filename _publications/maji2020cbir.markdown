@@ -3,9 +3,9 @@ layout: publication
 title: CBIR Using Features Derived By Deep Learning
 authors: Subhadip Maji, Smarajit Bose
 conference: ACM/IMS Transactions on Data Science
-year: 2021
+year: 2020
 bibkey: maji2020cbir
-citations: 10
+citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.07877'}]
 tags: ["Image Retrieval", "Neural Hashing"]
 short_authors: Subhadip Maji, Smarajit Bose

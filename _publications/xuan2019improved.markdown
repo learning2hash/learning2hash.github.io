@@ -3,9 +3,9 @@ layout: publication
 title: Improved Embeddings With Easy Positive Triplet Mining
 authors: Hong Xuan, Abby Stylianou, Robert Pless
 conference: 2020 IEEE Winter Conference on Applications of Computer Vision (WACV)
-year: 2020
+year: 2019
 bibkey: xuan2019improved
-citations: 134
+citations: 95
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.04370'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Hong Xuan, Abby Stylianou, Robert Pless

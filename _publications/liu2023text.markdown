@@ -3,11 +3,12 @@ layout: publication
 title: Text-guided Image Restoration And Semantic Enhancement For Text-to-image Person
   Retrieval
 authors: Delong Liu, Haiwen Li, Zhicheng Zhao, Yuan Dong
-conference: Neural Networks
-year: 2024
+conference: Arxiv
+year: 2023
 bibkey: liu2023text
-citations: 2
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2307.09059'}]
+citations: 0
+additional_links: [{name: Code, url: 'https://github.com/Delong-liu-bupt/SEN'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2307.09059'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
 short_authors: Liu et al.
 ---

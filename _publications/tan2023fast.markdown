@@ -3,7 +3,7 @@ layout: publication
 title: Fast Locality Sensitive Hashing With Theoretical Guarantee
 authors: Zongyuan Tan, Hongya Wang, Bo Xu, Minjie Luo, Ming Du
 conference: Lecture Notes in Computer Science
-year: 2025
+year: 2023
 bibkey: tan2023fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.15479'}]

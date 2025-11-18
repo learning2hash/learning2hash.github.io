@@ -4,10 +4,11 @@ title: 'Movienet-ps: A Large-scale Person Search Dataset In The Wild'
 authors: Jie Qin, Peng Zheng, Yichao Yan, Rong Quan, Xiaogang Cheng, Bingbing Ni
 conference: ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech
   and Signal Processing (ICASSP)
-year: 2023
+year: 2021
 bibkey: qin2021movienet
-citations: 3
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2112.02500'}]
+citations: 6
+additional_links: [{name: Code, url: 'https://github.com/ZhengPeng7/GLCNet'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2112.02500'}]
 tags: ["Datasets", "ICASSP", "Scalability"]
 short_authors: Qin et al.
 ---

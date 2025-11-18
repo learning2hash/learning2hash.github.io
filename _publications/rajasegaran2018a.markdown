@@ -2,10 +2,10 @@
 layout: publication
 title: A Neural Embeddings Approach For Detecting Mobile Counterfeit Apps
 authors: Jathushan Rajasegaran, Suranga Seneviratne, Guillaume Jourjon
-conference: The World Wide Web Conference
-year: 2019
+conference: 'WWW ''19: The Web Conference'
+year: 2018
 bibkey: rajasegaran2018a
-citations: 21
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.09882'}]
 tags: ["Evaluation"]
 short_authors: Jathushan Rajasegaran, Suranga Seneviratne, Guillaume Jourjon

@@ -3,9 +3,9 @@ layout: publication
 title: Efficient 3D Point Cloud Feature Learning For Large-scale Place Recognition
 authors: Le Hui, Mingmei Cheng, Jin Xie, Jian Yang
 conference: IEEE Transactions on Image Processing
-year: 2022
+year: 2021
 bibkey: hui2021efficient
-citations: 15
+citations: 80
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.02374'}]
 tags: ["Datasets", "Evaluation", "Neural Hashing", "Scalability"]
 short_authors: Hui et al.

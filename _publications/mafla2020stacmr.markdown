@@ -4,10 +4,11 @@ title: 'Stacmr: Scene-text Aware Cross-modal Retrieval'
 authors: "Andr\xE9s Mafla, Rafael Sampaio de Rezende, Llu\xEDs G\xF3mez, Diane Larlus,\
   \ Dimosthenis Karatzas"
 conference: 2021 IEEE Winter Conference on Applications of Computer Vision (WACV)
-year: 2021
+year: 2020
 bibkey: mafla2020stacmr
-citations: 25
-additional_links: [{name: Code, url: 'http://europe'}, {name: Paper, url: 'https://arxiv.org/abs/2012.04329'}]
+citations: 24
+additional_links: [{name: Code, url: 'http://europe.naverlabs.com/stacmr'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2012.04329'}]
 tags: ["Datasets", "Multimodal Retrieval"]
 short_authors: Mafla et al.
 ---

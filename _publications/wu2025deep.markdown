@@ -2,11 +2,10 @@
 layout: publication
 title: Deep Supervised Hashing For Multi-label And Large-scale Image Retrieval
 authors: Dayan Wu, Zheng Lin, Bo Li, Mingzhen Ye, Weiping Wang
-conference: Proceedings of the 2017 ACM on International Conference on Multimedia
-  Retrieval
-year: 2017
+conference: 'ICMR ''17: International Conference on Multimedia Retrieval'
+year: 2025
 bibkey: wu2025deep
-citations: 67
+citations: 49
 additional_links: [{name: Paper, url: 'https://dl.acm.org/citation.cfm?id=3078989'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Scalability", "Supervised", "Unsupervised"]
 short_authors: Wu et al.

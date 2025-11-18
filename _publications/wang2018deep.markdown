@@ -3,9 +3,9 @@ layout: publication
 title: Deep Metric Learning By Online Soft Mining And Class-aware Attention
 authors: Xinshao Wang, Yang Hua, Elyor Kodirov, Guosheng Hu, Neil M. Robertson
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2019
+year: 2018
 bibkey: wang2018deep
-citations: 46
+citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.01459'}]
 tags: ["AAAI", "Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Wang et al.

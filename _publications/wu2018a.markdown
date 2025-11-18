@@ -3,9 +3,9 @@ layout: publication
 title: A Review For Weighted Minhash Algorithms
 authors: Wei Wu, Bin Li, Ling Chen, Junbin Gao, Chengqi Zhang
 conference: IEEE Transactions on Knowledge and Data Engineering
-year: 2020
+year: 2018
 bibkey: wu2018a
-citations: 32
+citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.04633'}]
 tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Quantization", "Scalability", "Survey Paper"]
 short_authors: Wu et al.

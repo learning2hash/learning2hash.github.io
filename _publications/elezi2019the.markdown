@@ -4,9 +4,9 @@ title: The Group Loss For Deep Metric Learning
 authors: Ismail Elezi, Sebastiano Vascon, Alessandro Torcinovich, Marcello Pelillo,
   Laura Leal-Taixe
 conference: Lecture Notes in Computer Science
-year: 2020
+year: 2019
 bibkey: elezi2019the
-citations: 48
+citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.00385'}]
 tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Elezi et al.

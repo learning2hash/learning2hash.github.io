@@ -3,9 +3,9 @@ layout: publication
 title: Efficient Querying From Weighted Binary Codes
 authors: Zhenyu Weng, Yuesheng Zhu
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2020
+year: 2019
 bibkey: weng2019efficient
-citations: 3
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.05006'}]
 tags: ["AAAI", "Compact Codes", "Datasets", "Efficiency", "Scalability", "Vector Indexing"]
 short_authors: Zhenyu Weng, Yuesheng Zhu

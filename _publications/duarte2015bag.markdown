@@ -3,9 +3,9 @@ layout: publication
 title: Bag Of Genres For Video Retrieval
 authors: "Leonardo A. Duarte, Ot\xE1vio A. B. Penatti, Jurandy Almeida"
 conference: 2016 29th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)
-year: 2016
+year: 2015
 bibkey: duarte2015bag
-citations: 4
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1506.00051'}]
 tags: ["Datasets", "Tools & Libraries", "Video Retrieval"]
 short_authors: "Leonardo A. Duarte, Ot\xE1vio A. B. Penatti, Jurandy Almeida"

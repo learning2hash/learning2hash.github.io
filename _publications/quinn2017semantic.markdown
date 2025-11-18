@@ -3,9 +3,9 @@ layout: publication
 title: Semantic Image Retrieval Via Active Grounding Of Visual Situations
 authors: Max H. Quinn, Erik Conser, Jordan M. Witte, Melanie Mitchell
 conference: 2018 IEEE 12th International Conference on Semantic Computing (ICSC)
-year: 2018
+year: 2017
 bibkey: quinn2017semantic
-citations: 12
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.00088'}]
 tags: ["Evaluation", "Image Retrieval"]
 short_authors: Quinn et al.

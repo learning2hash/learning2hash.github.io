@@ -5,9 +5,9 @@ title: Instance-based Inductive Deep Transfer Learning By Cross-dataset Querying
 authors: Somnath Basu Roy Chowdhury, K M Annervaz, Ambedkar Dukkipati
 conference: Proceedings of the 2nd Workshop on Deep Learning Approaches for Low-Resource
   NLP (DeepLo 2019)
-year: 2019
+year: 2018
 bibkey: chowdhury2018instance
-citations: 5
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.05934'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Neural Hashing", "Supervised"]
 short_authors: Somnath Basu Roy Chowdhury, K M Annervaz, Ambedkar Dukkipati

@@ -3,7 +3,7 @@ layout: publication
 title: Generalisation And Sharing In Triplet Convnets For Sketch Based Visual Search
 authors: Tu Bui, Leonardo Ribeiro, Moacir Ponti, John Collomosse
 conference: Computers &amp; Graphics
-year: 2018
+year: 2016
 bibkey: bui2016generalisation
 citations: 55
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.05301'}]

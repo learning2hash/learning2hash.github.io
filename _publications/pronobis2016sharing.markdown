@@ -4,9 +4,9 @@ title: Sharing Hash Codes For Multiple Purposes
 authors: Wikor Pronobis, Danny Panknin, Johannes Kirschnick, Vignesh Srinivasan, Wojciech
   Samek, Volker Markl, Manohar Kaul, Klaus-Robert Mueller, Shinichi Nakajima
 conference: Japanese Journal of Statistics and Data Science
-year: 2018
+year: 2016
 bibkey: pronobis2016sharing
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.03219'}]
 tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Pronobis et al.

@@ -4,9 +4,9 @@ title: 'Context Recovery And Knowledge Retrieval: A Novel Two-stream Framework F
   Video Anomaly Detection'
 authors: Congqi Cao, Yue Lu, Yanning Zhang
 conference: IEEE Transactions on Image Processing
-year: 2024
+year: 2022
 bibkey: cao2022context
-citations: 16
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.02899'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Tools & Libraries"]
 short_authors: Congqi Cao, Yue Lu, Yanning Zhang

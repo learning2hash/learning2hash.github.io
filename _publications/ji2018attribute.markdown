@@ -3,9 +3,9 @@ layout: publication
 title: Attribute-guided Network For Cross-modal Zero-shot Hashing
 authors: Zhong Ji, Yuxin Sun, Yunlong Yu, Yanwei Pang, Jungong Han
 conference: IEEE Transactions on Neural Networks and Learning Systems
-year: 2020
+year: 2018
 bibkey: ji2018attribute
-citations: 83
+citations: 70
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.01943'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Ji et al.

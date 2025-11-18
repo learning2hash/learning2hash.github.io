@@ -3,9 +3,9 @@ layout: publication
 title: Semantic Cluster Unary Loss For Efficient Deep Hashing
 authors: Shifeng Zhang, Jianmin Li, Bo Zhang
 conference: IEEE Transactions on Image Processing
-year: 2019
+year: 2018
 bibkey: zhang2018semantic
-citations: 13
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.08705'}]
 tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Hashing Methods", "Memory Efficiency", "Neural Hashing", "Scalability", "Supervised"]
 short_authors: Shifeng Zhang, Jianmin Li, Bo Zhang

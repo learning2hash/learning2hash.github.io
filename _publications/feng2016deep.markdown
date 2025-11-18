@@ -3,9 +3,9 @@ layout: publication
 title: Deep Image Set Hashing
 authors: Jie Feng, Svebor Karaman, I-Hong Jhuo, Shih-Fu Chang
 conference: 2017 IEEE Winter Conference on Applications of Computer Vision (WACV)
-year: 2017
+year: 2016
 bibkey: feng2016deep
-citations: 12
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.05381'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Image Retrieval"]
 short_authors: Feng et al.

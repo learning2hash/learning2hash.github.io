@@ -3,9 +3,9 @@ layout: publication
 title: Metric Learning As A Service With Covariance Embedding
 authors: Imam Mustafa Kamal, Hyerim Bae, Ling Liu
 conference: IEEE Transactions on Services Computing
-year: 2023
+year: 2022
 bibkey: kamal2022metric
-citations: 2
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.15197'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Neural Hashing", "Recommender Systems", "Scalability"]
 short_authors: Imam Mustafa Kamal, Hyerim Bae, Ling Liu

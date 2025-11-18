@@ -4,10 +4,11 @@ title: Unleashing The Potential Of Unsupervised Pre-training With Intra-identity
   For Person Re-identification
 authors: Zizheng Yang, Xin Jin, Kecheng Zheng, Feng Zhao
 conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2022
+year: 2021
 bibkey: yang2021unleashing
 citations: 25
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2112.00317'}]
+additional_links: [{name: Code, url: 'https://github.com/Frost-Yang-99/UP-ReID'},
+  {name: Paper, url: 'https://arxiv.org/abs/2112.00317'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Robustness", "Self-Supervised", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Yang et al.
 ---

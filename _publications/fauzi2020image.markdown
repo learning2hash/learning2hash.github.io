@@ -3,7 +3,7 @@ layout: publication
 title: Image Understanding And The Web
 authors: Fariza Fauzi, Mohammed Belkhatir
 conference: Journal of Intelligent Information Systems
-year: 2014
+year: 2020
 bibkey: fauzi2020image
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.02127'}]

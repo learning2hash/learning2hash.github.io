@@ -3,9 +3,9 @@ layout: publication
 title: Deep Supervised Hashing With Triplet Labels
 authors: Xiaofang Wang, Yi Shi, Kris M. Kitani
 conference: Lecture Notes in Computer Science
-year: 2017
+year: 2016
 bibkey: wang2016deep
-citations: 195
+citations: 86
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.03900'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Supervised"]
 short_authors: Xiaofang Wang, Yi Shi, Kris M. Kitani

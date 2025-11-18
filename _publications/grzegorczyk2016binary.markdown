@@ -3,9 +3,9 @@ layout: publication
 title: Binary Paragraph Vectors
 authors: Karol Grzegorczyk, Marcin Kurdziel
 conference: Proceedings of the 2nd Workshop on Representation Learning for NLP
-year: 2017
+year: 2016
 bibkey: grzegorczyk2016binary
-citations: 5
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.01116'}]
 tags: ["Compact Codes", "Evaluation"]
 short_authors: Karol Grzegorczyk, Marcin Kurdziel

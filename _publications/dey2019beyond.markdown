@@ -3,9 +3,9 @@ layout: publication
 title: 'Beyond Visual Semantics: Exploring The Role Of Scene Text In Image Understanding'
 authors: Arka Ujjal Dey, Suman Kumar Ghosh, Ernest Valveny, Gaurav Harit
 conference: Pattern Recognition Letters
-year: 2021
+year: 2019
 bibkey: dey2019beyond
-citations: 23
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.10622'}]
 tags: ["Tools & Libraries"]
 short_authors: Dey et al.

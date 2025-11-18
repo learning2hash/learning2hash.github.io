@@ -4,10 +4,11 @@ title: 'Pair-vpr: Place-aware Pre-training And Contrastive Pair Classification F
   Visual Place Recognition With Vision Transformers'
 authors: Stephen Hausler, Peyman Moghadam
 conference: IEEE Robotics and Automation Letters
-year: 2025
+year: 2024
 bibkey: hausler2024pair
-citations: 1
-additional_links: [{name: Code, url: 'https://csiro-robotics'}, {name: Paper, url: 'https://arxiv.org/abs/2410.06614'}]
+citations: 2
+additional_links: [{name: Code, url: 'https://csiro-robotics.github.io/Pair-VPR'},
+  {name: Paper, url: 'https://arxiv.org/abs/2410.06614'}]
 tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Stephen Hausler, Peyman Moghadam
 ---

@@ -8,7 +8,7 @@ year: 2025
 bibkey: luo2025a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2505.03042'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Quantization", "Self-Supervised", "Supervised", "Survey Paper", "Unsupervised"]
+tags: ["Uncategorized"]
 short_authors: Steven Tin Sui Luo
 ---
 Instant-NGP has been the state-of-the-art architecture of neural fields in

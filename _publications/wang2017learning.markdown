@@ -3,9 +3,9 @@ layout: publication
 title: Learning Two-branch Neural Networks For Image-text Matching Tasks
 authors: Liwei Wang, Yin Li, Jing Huang, Svetlana Lazebnik
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
-year: 2018
+year: 2017
 bibkey: wang2017learning
-citations: 533
+citations: 360
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.03470'}]
 tags: ["Datasets"]
 short_authors: Wang et al.

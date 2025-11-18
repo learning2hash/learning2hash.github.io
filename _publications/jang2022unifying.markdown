@@ -3,9 +3,9 @@ layout: publication
 title: Unifying Vision-language Representation Space With Single-tower Transformer
 authors: Jiho Jang, Chaerin Kong, Donghyeon Jeon, Seonhoon Kim, Nojun Kwak
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2023
+year: 2022
 bibkey: jang2022unifying
-citations: 6
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.11153'}]
 tags: ["AAAI", "Few Shot & Zero Shot", "Self-Supervised", "Tools & Libraries"]
 short_authors: Jang et al.

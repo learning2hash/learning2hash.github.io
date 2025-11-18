@@ -8,9 +8,9 @@ authors: Noriaki Hashimoto, Yusuke Takagi, Hiroki Masuda, Hiroaki Miyoshi, Kei K
   Imamoto, Tatsuzo Mishina, Ken Tanaka, Yoshino Kawaguchi, Shigeo Nakamura, Koichi
   Ohshima, Hidekata Hontani, Ichiro Takeuchi
 conference: Medical Image Analysis
-year: 2023
+year: 2021
 bibkey: hashimoto2021case
-citations: 21
+citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.03602'}]
 tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Supervised"]
 short_authors: Hashimoto et al.

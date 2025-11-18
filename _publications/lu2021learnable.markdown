@@ -3,9 +3,9 @@ layout: publication
 title: Learnable Locality-sensitive Hashing For Video Anomaly Detection
 authors: Yue Lu, Congqi Cao, Yanning Zhang
 conference: IEEE Transactions on Circuits and Systems for Video Technology
-year: 2022
+year: 2021
 bibkey: lu2021learnable
-citations: 24
+citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.07839'}]
 tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Self-Supervised"]
 short_authors: Yue Lu, Congqi Cao, Yanning Zhang

@@ -3,10 +3,10 @@ layout: publication
 title: A Cross-architecture Instruction Embedding Model For Natural Language Processing-inspired
   Binary Code Analysis
 authors: Kimberly Redmond, Lannan Luo, Qiang Zeng
-conference: Proceedings 2019 Workshop on Binary Analysis Research
-year: 2019
+conference: Workshop on Binary Analysis Research
+year: 2018
 bibkey: redmond2018a
-citations: 50
+citations: 33
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.09652'}]
 tags: ["Compact Codes", "Evaluation"]
 short_authors: Kimberly Redmond, Lannan Luo, Qiang Zeng

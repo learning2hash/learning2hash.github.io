@@ -3,10 +3,10 @@ layout: publication
 title: Scalable Similarity Learning Using Large Margin Neighborhood Embedding
 authors: Zhaowen Wang, Jianchao Yang, Zhe Lin, Jonathan Brandt, Shiyu Chang, Thomas
   Huang
-conference: 2015 IEEE Winter Conference on Applications of Computer Vision
-year: 2015
+conference: 2015 IEEE Winter Conference on Applications of Computer Vision (WACV)
+year: 2014
 bibkey: wang2014scalable
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1404.6272'}]
 tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "Scalability"]
 short_authors: Wang et al.

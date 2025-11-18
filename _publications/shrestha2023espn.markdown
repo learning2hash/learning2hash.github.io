@@ -2,9 +2,8 @@
 layout: publication
 title: 'ESPN: Memory-efficient Multi-vector Information Retrieval'
 authors: Susav Shrestha, Narasimha Reddy, Zongwang Li
-conference: Proceedings of the 2024 ACM SIGPLAN International Symposium on Memory
-  Management
-year: 2024
+conference: 'ISMM ''24: 2024 ACM SIGPLAN International Symposium on Memory Management'
+year: 2023
 bibkey: shrestha2023espn
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.05417'}]

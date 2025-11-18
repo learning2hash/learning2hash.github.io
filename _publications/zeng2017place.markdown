@@ -3,9 +3,9 @@ layout: publication
 title: 'Place Recognition: An Overview Of Vision Perspective'
 authors: Zhiqiang Zeng, Jian Zhang, Xiaodong Wang, Yuming Chen, Chaoyang Zhu
 conference: Applied Sciences
-year: 2018
+year: 2017
 bibkey: zeng2017place
-citations: 14
+citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.03470'}]
 tags: ["Image Retrieval", "Survey Paper"]
 short_authors: Zeng et al.

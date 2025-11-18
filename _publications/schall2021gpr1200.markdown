@@ -3,9 +3,9 @@ layout: publication
 title: 'GPR1200: A Benchmark For General-purpose Content-based Image Retrieval'
 authors: Konstantin Schall, Kai Uwe Barthel, Nico Hezel, Klaus Jung
 conference: Lecture Notes in Computer Science
-year: 2022
+year: 2021
 bibkey: schall2021gpr1200
-citations: 18
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.13122'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Schall et al.

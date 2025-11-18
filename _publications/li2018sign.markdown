@@ -3,9 +3,9 @@ layout: publication
 title: Sign-full Random Projections
 authors: Ping Li
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2019
+year: 2018
 bibkey: li2018sign
-citations: 8
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.00533'}]
 tags: ["AAAI", "Datasets", "Locality-Sensitive-Hashing"]
 short_authors: Ping Li

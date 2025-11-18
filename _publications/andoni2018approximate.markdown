@@ -2,10 +2,10 @@
 layout: publication
 title: Approximate Nearest Neighbor Search In High Dimensions
 authors: Alexandr Andoni, Piotr Indyk, Ilya Razenshteyn
-conference: Proceedings of the International Congress of Mathematicians (ICM 2018)
-year: 2019
+conference: International Congress of Mathematicians 2018
+year: 2018
 bibkey: andoni2018approximate
-citations: 51
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.09823'}]
 tags: ["Survey Paper"]
 short_authors: Alexandr Andoni, Piotr Indyk, Ilya Razenshteyn

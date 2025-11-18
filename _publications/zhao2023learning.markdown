@@ -5,10 +5,11 @@ title: Learning Sequence Descriptor Based On Spatio-temporal Attention For Visua
 authors: Junqiao Zhao, Fenglin Zhang, Yingfeng Cai, Gengxuan Tian, Wenjie Mu, Chen
   Ye, Tiantian Feng
 conference: IEEE Robotics and Automation Letters
-year: 2024
+year: 2023
 bibkey: zhao2023learning
-citations: 4
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2305.11467'}]
+citations: 7
+additional_links: [{name: Code, url: 'https://github.com/tiev-tongji/Spatio-Temporal-SeqVPR'},
+  {name: Paper, url: 'https://arxiv.org/abs/2305.11467'}]
 tags: ["Datasets", "Evaluation", "Robustness"]
 short_authors: Zhao et al.
 ---

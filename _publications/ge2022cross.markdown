@@ -3,9 +3,9 @@ layout: publication
 title: Cross-modal Semantic Enhanced Interaction For Image-sentence Retrieval
 authors: Xuri Ge, Fuhai Chen, Songpei Xu, Fuxiang Tao, Joemon M. Jose
 conference: 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-year: 2023
+year: 2022
 bibkey: ge2022cross
-citations: 31
+citations: 39
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.08908'}]
 tags: ["Evaluation"]
 short_authors: Ge et al.

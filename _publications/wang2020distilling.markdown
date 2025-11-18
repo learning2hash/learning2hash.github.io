@@ -3,7 +3,7 @@ layout: publication
 title: Distilling Knowledge By Mimicking Features
 authors: Guo-Hua Wang, Yifan Ge, Jianxin Wu
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
-year: 2021
+year: 2020
 bibkey: wang2020distilling
 citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.01424'}]

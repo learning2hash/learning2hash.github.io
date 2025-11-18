@@ -4,9 +4,9 @@ title: Single-shot Global Localization Via Graph-theoretic Correspondence Matchi
 authors: Shigemichi Matsuzaki, Kenji Koide, Shuji Oishi, Masashi Yokozuka, Atsuhiko
   Banno
 conference: Advanced Robotics
-year: 2024
+year: 2023
 bibkey: matsuzaki2023single
-citations: 1
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.03641'}]
 tags: ["Datasets", "Evaluation", "Graph Based ANN", "Scalability", "Tools & Libraries"]
 short_authors: Matsuzaki et al.

@@ -3,10 +3,11 @@ layout: publication
 title: 'Reasoning Through Memorization: Nearest Neighbor Knowledge Graph Embeddings'
 authors: Peng Wang, Xin Xie, Xiaohan Wang, Ningyu Zhang
 conference: Lecture Notes in Computer Science
-year: 2023
+year: 2022
 bibkey: wang2022reasoning
-citations: 14
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2201.05575'}]
+citations: 10
+additional_links: [{name: Code, url: 'https://github.com/zjunlp/KNN-KG'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2201.05575'}]
 tags: ["Evaluation"]
 short_authors: Wang et al.
 ---

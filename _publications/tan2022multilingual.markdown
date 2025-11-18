@@ -4,9 +4,9 @@ title: Multilingual Representation Distillation With Contrastive Learning
 authors: Weiting Tan, Kevin Heffernan, Holger Schwenk, Philipp Koehn
 conference: Proceedings of the 17th Conference of the European Chapter of the Association
   for Computational Linguistics
-year: 2023
+year: 2022
 bibkey: tan2022multilingual
-citations: 7
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.05033'}]
 tags: ["Eacl", "Self-Supervised", "Similarity Search"]
 short_authors: Tan et al.

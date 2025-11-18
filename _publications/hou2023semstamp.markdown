@@ -6,9 +6,9 @@ authors: Abe Bohan Hou, Jingyu Zhang, Tianxing He, Yichen Wang, Yung-Sung Chuang
 conference: 'Proceedings of the 2024 Conference of the North American Chapter of the
   Association for Computational Linguistics: Human Language Technologies (Volume 1:
   Long Papers)'
-year: 2024
+year: 2023
 bibkey: hou2023semstamp
-citations: 7
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.03991'}]
 tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "NAACL", "Robustness"]
 short_authors: Hou et al.

@@ -3,7 +3,7 @@ layout: publication
 title: 'Encode The Unseen: Predictive Video Hashing For Scalable Mid-stream Retrieval'
 authors: Tong Yu, Nicolas Padoy
 conference: Lecture Notes in Computer Science
-year: 2021
+year: 2020
 bibkey: yu2020encode
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.14661'}]

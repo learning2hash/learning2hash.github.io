@@ -3,9 +3,9 @@ layout: publication
 title: 'GGNN: Graph-based GPU Nearest Neighbor Search'
 authors: Fabian Groh, Lukas Ruppert, Patrick Wieschollek, Hendrik P. A. Lensch
 conference: IEEE Transactions on Big Data
-year: 2022
+year: 2019
 bibkey: groh2019ggnn
-citations: 39
+citations: 48
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.01059'}]
 tags: ["Evaluation", "Graph Based ANN", "Neural Hashing", "Tools & Libraries", "Vector Indexing"]
 short_authors: Groh et al.

@@ -3,10 +3,11 @@ layout: publication
 title: A Framework For Similarity Search With Space-time Tradeoffs Using Locality-sensitive
   Filtering
 authors: Tobias Christiani
-conference: Arxiv
-year: 2017
+conference: Proceedings of the Twenty-Eighth Annual ACM-SIAM Symposium on Discrete
+  Algorithms
+year: 2016
 bibkey: christiani2016a
-citations: 21
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.02687'}]
 tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search", "Tools & Libraries"]
 short_authors: Tobias Christiani

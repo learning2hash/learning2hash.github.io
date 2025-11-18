@@ -3,9 +3,9 @@ layout: publication
 title: 'Skeleton-dml: Deep Metric Learning For Skeleton-based One-shot Action Recognition'
 authors: "Raphael Memmesheimer, Simon H\xE4ring, Nick Theisen, Dietrich Paulus"
 conference: 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-year: 2022
+year: 2020
 bibkey: memmesheimer2020skeleton
-citations: 30
+citations: 38
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.13823'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Memmesheimer et al.

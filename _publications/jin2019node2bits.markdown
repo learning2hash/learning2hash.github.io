@@ -4,9 +4,9 @@ title: 'Node2bits: Compact Time- And Attribute-aware Node Representations For Us
   Stitching'
 authors: di Jin, Mark Heimann, Ryan Rossi, Danai Koutra
 conference: Lecture Notes in Computer Science
-year: 2020
+year: 2019
 bibkey: jin2019node2bits
-citations: 28
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.08572'}]
 tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Similarity Search", "Tools & Libraries"]
 short_authors: Jin et al.

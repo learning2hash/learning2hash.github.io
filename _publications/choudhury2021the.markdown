@@ -2,11 +2,12 @@
 layout: publication
 title: 'The Curious Layperson: Fine-grained Image Recognition Without Expert Labels'
 authors: Subhabrata Choudhury, Iro Laina, Christian Rupprecht, Andrea Vedaldi
-conference: International Journal of Computer Vision
-year: 2023
+conference: British Machine Vision Conference 2021
+year: 2021
 bibkey: choudhury2021the
-citations: 7
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2111.03651'}]
+citations: 0
+additional_links: [{name: Code, url: 'https://github.com/subhc/clever'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2111.03651'}]
 tags: ["Datasets", "Multimodal Retrieval"]
 short_authors: Choudhury et al.
 ---

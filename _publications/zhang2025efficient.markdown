@@ -3,9 +3,9 @@ layout: publication
 title: Efficient Training Of Very Deep Neural Networks For Supervised Hashing
 authors: Ziming Zhang, Yuting Chen, Venkatesh Saligrama
 conference: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2016
+year: 2025
 bibkey: zhang2025efficient
-citations: 112
+citations: 67
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1511.04524'}]
 tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Supervised"]
 short_authors: Ziming Zhang, Yuting Chen, Venkatesh Saligrama

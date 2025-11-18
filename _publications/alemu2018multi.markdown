@@ -3,9 +3,9 @@ layout: publication
 title: Multi-feature Fusion For Image Retrieval Using Constrained Dominant Sets
 authors: Leulseged Tesfaye Alemu, Marcello Pelillo
 conference: Image and Vision Computing
-year: 2019
+year: 2018
 bibkey: alemu2018multi
-citations: 23
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.05075'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Unsupervised"]
 short_authors: Leulseged Tesfaye Alemu, Marcello Pelillo

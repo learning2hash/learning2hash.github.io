@@ -5,10 +5,11 @@ title: Learning-based Dimensionality Reduction For Computing Compact And Effecti
 authors: Hao Dong, Xieyuanli Chen, Mihai Dusmanu, Viktor Larsson, Marc Pollefeys,
   Cyrill Stachniss
 conference: 2023 IEEE International Conference on Robotics and Automation (ICRA)
-year: 2023
+year: 2022
 bibkey: dong2022learning
-citations: 4
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2209.13586'}]
+citations: 5
+additional_links: [{name: Code, url: 'https://github.com/PRBonn/descriptor-dr'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2209.13586'}]
 tags: ["ICRA", "Image Retrieval", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Dong et al.
 ---

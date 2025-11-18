@@ -3,9 +3,9 @@ layout: publication
 title: Visual Place Recognition With Probabilistic Vertex Voting
 authors: Mathias Gehrig, Elena Stumm, Timo Hinzmann, Roland Siegwart
 conference: 2017 IEEE International Conference on Robotics and Automation (ICRA)
-year: 2017
+year: 2016
 bibkey: gehrig2016visual
-citations: 36
+citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.03548'}]
 tags: ["Datasets", "Evaluation", "ICRA", "Tools & Libraries"]
 short_authors: Gehrig et al.

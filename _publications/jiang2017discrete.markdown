@@ -3,9 +3,9 @@ layout: publication
 title: Discrete Latent Factor Model For Cross-modal Hashing
 authors: Qing-Yuan Jiang, Wu-Jun Li
 conference: IEEE Transactions on Image Processing
-year: 2019
+year: 2017
 bibkey: jiang2017discrete
-citations: 145
+citations: 142
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.08322'}]
 tags: ["Datasets", "Efficiency", "Hashing Methods", "Similarity Search"]
 short_authors: Qing-Yuan Jiang, Wu-Jun Li

@@ -3,10 +3,10 @@ layout: publication
 title: 'Arkade: K-nearest Neighbor Search With Non-euclidean Distances Using GPU Ray
   Tracing'
 authors: Durga Mandarapu, Vani Nagarajan, Artem Pelenitsyn, Milind Kulkarni
-conference: Proceedings of the 38th ACM International Conference on Supercomputing
-year: 2024
+conference: 'ICS ''24: 2024 International Conference on Supercomputing'
+year: 2023
 bibkey: mandarapu2023arkade
-citations: 7
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.09168'}]
 tags: ["Distance Metric Learning", "Evaluation", "Tree Based ANN"]
 short_authors: Mandarapu et al.

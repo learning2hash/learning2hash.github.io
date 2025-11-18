@@ -2,10 +2,10 @@
 layout: publication
 title: Secure K-nearest Neighbor Query Over Encrypted Data In Outsourced Environments
 authors: Yousef Elmehdwi, Bharath K. Samanthula, Wei Jiang
-conference: 2014 IEEE 30th International Conference on Data Engineering
-year: 2014
+conference: 2014 IEEE 30th International Conference on Data Engineering (ICDE)
+year: 2013
 bibkey: elmehdwi2013secure
-citations: 361
+citations: 281
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1307.4824'}]
 tags: ["Efficiency"]
 short_authors: Yousef Elmehdwi, Bharath K. Samanthula, Wei Jiang

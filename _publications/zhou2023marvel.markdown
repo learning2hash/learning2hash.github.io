@@ -6,10 +6,11 @@ authors: Tianshuo Zhou, Sen Mei, Xinze Li, Zhenghao Liu, Chenyan Xiong, Zhiyuan 
   Yu Gu, Ge Yu
 conference: 'Proceedings of the 62nd Annual Meeting of the Association for Computational
   Linguistics (Volume 1: Long Papers)'
-year: 2024
+year: 2023
 bibkey: zhou2023marvel
-citations: 1
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2310.14037'}]
+citations: 3
+additional_links: [{name: Code, url: 'https://github.com/OpenMatch/MARVEL'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2310.14037'}]
 tags: ["Datasets", "Evaluation", "Text Retrieval"]
 short_authors: Zhou et al.
 ---

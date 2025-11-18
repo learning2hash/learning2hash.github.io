@@ -3,9 +3,9 @@ layout: publication
 title: Improved Consistent Weighted Sampling Revisited
 authors: Wei Wu, Bin Li, Ling Chen, Chengqi Zhang, Philip S. Yu
 conference: IEEE Transactions on Knowledge and Data Engineering
-year: 2018
+year: 2017
 bibkey: wu2017improved
-citations: 19
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.01172'}]
 tags: ["Uncategorized"]
 short_authors: Wu et al.
