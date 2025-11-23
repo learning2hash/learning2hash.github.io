@@ -25,6 +25,9 @@ title: Resources
   </div>
 </div>
 
+<!-- Jump bar for categories -->
+<div id="jumpBar" class="jumpbar" style="display:none;"></div>
+
 <!-- Loading -->
 <div id="loading" role="status" aria-live="polite">
   <p>Loading Resources Explorer …</p>
@@ -420,7 +423,7 @@ As an Amazon Associate, this site earns from qualifying purchases made. This com
   function waitForDT(cb, tries=80){
     if(window.jQuery && jQuery.fn && jQuery.fn.dataTable) return cb();
     if(tries<=0) return cb(new Error('DataTables not loaded'));
-    setTimeout(()=>waitForDT(cb,tries-1),100);
+    setTimeout(function(){ waitForDT(cb,tries-1); },100);
   }
   function ready(fn){
     if(document.readyState==='loading')
@@ -428,39 +431,59 @@ As an Amazon Associate, this site earns from qualifying purchases made. This com
     else fn();
   }
   function readHashQuery(){
-    const raw=window.location.hash?window.location.hash.slice(1):'';
+    var raw=window.location.hash?window.location.hash.slice(1):'';
     if(!raw) return '';
-    try{return decodeURIComponent(raw.replace(/\+/g,' '));}catch{return raw;}
+    try{return decodeURIComponent(raw.replace(/\+/g,' '));}catch(e){return raw;}
   }
   function setHash(q){
-    if(q&&q.trim().length)history.replaceState(null,'','#'+encodeURIComponent(q.trim()));
-    else history.replaceState(null,'',location.pathname+location.search);
+    if(q && q.trim().length)
+      history.replaceState(null,'','#'+encodeURIComponent(q.trim()));
+    else
+      history.replaceState(null,'',location.pathname+location.search);
   }
-  function textContentTrim(n){return(n?n.textContent:'').replace(/\s+/g,' ').trim();}
-  function escapeHtml(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');}
-  function domainFromUrl(u){try{return new URL(u,location.origin).hostname;}catch(e){return'';}}
-  function debounce(fn,ms=120){let t;return(...a)=>{clearTimeout(t);t=setTimeout(()=>fn(...a),ms);};}
-  function slugify(s){return(s||'uncategorised').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');}
+  function textContentTrim(n){
+    return (n?n.textContent:'').replace(/\s+/g,' ').trim();
+  }
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g,function(m){
+      switch(m){
+        case '&': return '&amp;';
+        case '<': return '&lt;';
+        case '>': return '&gt;';
+        case '"': return '&quot;';
+        case "'": return '&#39;';
+        default: return m;
+      }
+    });
+  }
+  function domainFromUrl(u){
+    try{return new URL(u,location.origin).hostname;}catch(e){return'';}
+  }
+  function slugify(s){
+    return (s||'uncategorised').toLowerCase()
+      .replace(/[^a-z0-9]+/g,'-')
+      .replace(/(^-|-$)/g,'');
+  }
 
-  const loadingEl=document.getElementById('loading');
-  const toolbarEl=document.getElementById('resToolbar');
-  const inputEl=document.getElementById('resSearch');
-  const resetEl=document.getElementById('resetResSearch');
-  const countEl=document.getElementById('resVisibleCount');
-  const gridEl=document.getElementById('cardsGrid');
-  const emptyEl=document.getElementById('emptyState');
-  const contentEl=document.getElementById('resourcesContent');
-  const jumpBarEl=document.getElementById('jumpBar');
-  let datatable;
+  var loadingEl=document.getElementById('loading');
+  var toolbarEl=document.getElementById('resToolbar');
+  var inputEl=document.getElementById('resSearch');
+  var resetEl=document.getElementById('resetResSearch');
+  var countEl=document.getElementById('resVisibleCount');
+  var gridEl=document.getElementById('cardsGrid');
+  var emptyEl=document.getElementById('emptyState');
+  var contentEl=document.getElementById('resourcesContent');
+  var jumpBarEl=document.getElementById('jumpBar');
+  var datatable=null;
 
   function updateVisibleCount(){
-    if(!datatable||!countEl)return;
+    if(!datatable||!countEl) return;
     countEl.textContent=datatable.rows({filter:'applied'}).count()+' resources';
   }
 
   function applyFilter(q){
     if(!datatable) return;
-    const query=(q||'').trim();
+    var query=(q||'').trim();
     if(inputEl) inputEl.value=query;
     datatable.search(query, false, true, true).draw(false);
     setHash(query);
@@ -468,37 +491,51 @@ As an Amazon Associate, this site earns from qualifying purchases made. This com
   }
 
   function withRenderedDetails(fn){
-    if(!contentEl)return fn();
-    const prevHidden=contentEl.hasAttribute('hidden');
-    const prevDisplay=contentEl.style.display;
-    const prevPos=contentEl.style.position;
-    const prevLeft=contentEl.style.left;
-    if(prevHidden)contentEl.removeAttribute('hidden');
-    contentEl.style.display='block'; contentEl.style.position='absolute';
+    if(!contentEl) return fn();
+    var prevHidden=contentEl.hasAttribute('hidden');
+    var prevDisplay=contentEl.style.display;
+    var prevPos=contentEl.style.position;
+    var prevLeft=contentEl.style.left;
+    if(prevHidden) contentEl.removeAttribute('hidden');
+    contentEl.style.display='block';
+    contentEl.style.position='absolute';
     contentEl.style.left='-99999px';
-    const out=fn();
-    if(prevHidden)contentEl.setAttribute('hidden','');
-    contentEl.style.display=prevDisplay||''; contentEl.style.position=prevPos||''; contentEl.style.left=prevLeft||'';
+    var out=fn();
+    if(prevHidden) contentEl.setAttribute('hidden','');
+    contentEl.style.display=prevDisplay||'';
+    contentEl.style.position=prevPos||'';
+    contentEl.style.left=prevLeft||'';
     return out;
   }
 
   function scrapeResources(){
-    return withRenderedDetails(()=>{
-      const rows=[]; const walker=document.createTreeWalker(contentEl,NodeFilter.SHOW_ELEMENT,null);
-      let currCat='',currSub='';
+    return withRenderedDetails(function(){
+      var rows=[];
+      var walker=document.createTreeWalker(contentEl,NodeFilter.SHOW_ELEMENT,null);
+      var currCat='', currSub='';
       while(walker.nextNode()){
-        const el=walker.currentNode;
-        if(/^H3$/i.test(el.tagName)){currCat=textContentTrim(el);currSub='';}
-        else if(/^H4$/i.test(el.tagName)){currSub=textContentTrim(el);}
-        else if(/^LI$/i.test(el.tagName)){
-          const a=el.querySelector('a[href]'); if(!a)continue;
-          const url=a.getAttribute('href')||''; const title=textContentTrim(a)||'(untitled)';
-          let full=textContentTrim(el);
-          try{ full=full.replace(new RegExp('^\\*?\\*?\\s*'+title.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\s*:?\\s*','i'),''); }catch{}
-          const desc=full; const domain=domainFromUrl(url);
-          const titleHTML=`<a href="${url}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)}</a>`;
-          const descHTML=desc?escapeHtml(desc):'';
-          const raw=[title,currCat,currSub,desc,url,domain].join(' ').toLowerCase();
+        var el=walker.currentNode;
+        if(/^H3$/i.test(el.tagName)){
+          currCat=textContentTrim(el);
+          currSub='';
+        } else if(/^H4$/i.test(el.tagName)){
+          currSub=textContentTrim(el);
+        } else if(/^LI$/i.test(el.tagName)){
+          var a=el.querySelector('a[href]');
+          if(!a) continue;
+          var url=a.getAttribute('href')||'';
+          var title=textContentTrim(a)||'(untitled)';
+          var full=textContentTrim(el);
+          try{
+            var escapedTitle=title.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+            var re=new RegExp('^\\*?\\*?\\s*'+escapedTitle+'\\s*:?\\s*','i');
+            full=full.replace(re,'');
+          }catch(e){}
+          var desc=full;
+          var domain=domainFromUrl(url);
+          var titleHTML='<a href="'+url+'" target="_blank" rel="noopener noreferrer">'+escapeHtml(title)+'</a>';
+          var descHTML=desc?escapeHtml(desc):'';
+          var raw=[title,currCat,currSub,desc,url,domain].join(' ').toLowerCase();
           rows.push([titleHTML,currCat,currSub,descHTML,raw,url,domain]);
         }
       }
@@ -507,64 +544,88 @@ As an Amazon Associate, this site earns from qualifying purchases made. This com
   }
 
   function renderCards(){
-    if(!datatable)return;
-    const rows=datatable.rows({filter:'applied'}).data().toArray();
+    if(!datatable) return;
+    var rows=datatable.rows({filter:'applied'}).data().toArray();
     gridEl.innerHTML='';
     if(!rows.length){
-      gridEl.style.display='none'; emptyEl.style.display=''; updateVisibleCount();
-      if(jumpBarEl)jumpBarEl.style.display='none'; return;
+      gridEl.style.display='none';
+      emptyEl.style.display='';
+      if(jumpBarEl) jumpBarEl.style.display='none';
+      updateVisibleCount();
+      return;
     }
-    emptyEl.style.display='none'; gridEl.style.display='grid';
-    let lastCat=null; const catsForJump=[];
+    emptyEl.style.display='none';
+    gridEl.style.display='grid';
+    var lastCat=null;
+    var catsForJump=[];
 
-    rows.forEach(r=>{
-      const titleHTML=r[0], cat=r[1]||'Uncategorised', subcat=r[2]||'', descHTML=r[3], url=r[5]||'', domain=r[6]||domainFromUrl(r[5]);
+    rows.forEach(function(r){
+      var titleHTML=r[0];
+      var cat=r[1]||'Uncategorised';
+      var subcat=r[2]||'';
+      var descHTML=r[3];
+      var url=r[5]||'';
+      var domain=r[6]||domainFromUrl(r[5]);
 
       if(cat!==lastCat){
-        const id='cat-'+slugify(cat);
-        const divider=document.createElement('h2');
-        divider.className='cat-divider'; divider.id=id; divider.textContent=cat;
-        divider.addEventListener('click', ()=> applyFilter(cat));
+        var id='cat-'+slugify(cat);
+        var divider=document.createElement('h2');
+        divider.className='cat-divider';
+        divider.id=id;
+        divider.textContent=cat;
+        divider.addEventListener('click', function(){ applyFilter(cat); });
         gridEl.appendChild(divider);
-        catsForJump.push({cat,id}); lastCat=cat;
+        catsForJump.push({cat:cat,id:id});
+        lastCat=cat;
       }
 
-      const card=document.createElement('article');
+      var card=document.createElement('article');
       card.className='card';
       card.setAttribute('data-cat',cat);
       card.setAttribute('data-sub',subcat);
       card.setAttribute('data-domain',domain||'');
 
-      card.innerHTML=`
-        <div class="meta">
-          <img class="favicon" src="https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain||'')}&sz=32" alt="" loading="lazy">
-          <span class="meta-domain" title="Filter by site">${domain||'link'}</span>
-          ${subcat?'<span>•</span><button class="badge badge-sub" title="Filter by subcategory">'+String(subcat).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]))+'</button>':''}
-        </div>
-        <h3 class="title">${titleHTML}</h3>
-        <div class="desc">${descHTML}</div>
-        <div class="badges">
-          ${subcat?'<button class="badge badge-sub" title="Filter by subcategory">'+String(subcat).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;","">":"&gt;","\"":"&quot;","'":"&#39;"}[m]))+'</button>':''}
-          <button class="badge badge-cat" title="Filter by category">${String(cat).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;","">":"&gt;","\"":"&quot;","'":"&#39;"}[m]))}</button>
-        </div>
-      `;
+      var subEsc=subcat?escapeHtml(subcat):'';
+      var catEsc=escapeHtml(cat);
+      var domEsc=escapeHtml(domain||'link');
 
-      card.addEventListener('click',(e)=>{
-        const a=e.target.closest('a'); if(a) return;
-        const subBtn=e.target.closest('.badge-sub');
-        const catBtn=e.target.closest('.badge-cat');
-        const domEl=e.target.closest('.meta-domain');
+      card.innerHTML =
+        '<div class="meta">' +
+          '<img class="favicon" src="https://www.google.com/s2/favicons?domain='+encodeURIComponent(domain||'')+'&sz=32" alt="" loading="lazy">' +
+          '<span class="meta-domain" title="Filter by site">'+domEsc+'</span>' +
+          (subcat?'<span>•</span><button class="badge badge-sub" title="Filter by subcategory">'+subEsc+'</button>':'') +
+        '</div>' +
+        '<h3 class="title">'+titleHTML+'</h3>' +
+        '<div class="desc">'+descHTML+'</div>' +
+        '<div class="badges">' +
+          (subcat?'<button class="badge badge-sub" title="Filter by subcategory">'+subEsc+'</button>':'') +
+          '<button class="badge badge-cat" title="Filter by category">'+catEsc+'</button>' +
+        '</div>';
+
+      card.addEventListener('click', function(e){
+        var a=e.target.closest && e.target.closest('a');
+        if(a) return;
+        var subBtn=e.target.closest && e.target.closest('.badge-sub');
+        var catBtn=e.target.closest && e.target.closest('.badge-cat');
+        var domEl=e.target.closest && e.target.closest('.meta-domain');
         if(subBtn){ applyFilter(subcat); return; }
         if(catBtn){ applyFilter(cat); return; }
         if(domEl){ applyFilter(domain); return; }
-        if(url && (e.metaKey||e.ctrlKey)){ window.open(url,'_blank','noopener'); return; }
+        if(url && (e.metaKey||e.ctrlKey)){
+          window.open(url,'_blank','noopener');
+          return;
+        }
         applyFilter(subcat || cat || domain || '');
       });
 
-      card.setAttribute('role','group'); card.tabIndex=0;
-      card.addEventListener('keydown',(e)=>{
-        if(e.key==='Enter'){ applyFilter(subcat || cat || domain || ''); }
-        else if((e.key==='o'||e.key==='O') && url){ window.open(url,'_blank','noopener'); }
+      card.setAttribute('role','group');
+      card.tabIndex=0;
+      card.addEventListener('keydown', function(e){
+        if(e.key==='Enter'){
+          applyFilter(subcat || cat || domain || '');
+        } else if((e.key==='o'||e.key==='O') && url){
+          window.open(url,'_blank','noopener');
+        }
       });
 
       gridEl.appendChild(card);
@@ -572,9 +633,13 @@ As an Amazon Associate, this site earns from qualifying purchases made. This com
 
     if(jumpBarEl){
       if(catsForJump.length){
-        jumpBarEl.innerHTML=catsForJump.map(c=>`<a href="#${c.id}">${c.cat}</a>`).join('');
+        jumpBarEl.innerHTML = catsForJump.map(function(c){
+          return '<a href="#'+c.id+'">'+escapeHtml(c.cat)+'</a>';
+        }).join('');
         jumpBarEl.style.display='';
-      } else jumpBarEl.style.display='none';
+      } else {
+        jumpBarEl.style.display='none';
+      }
     }
 
     updateVisibleCount();
@@ -582,16 +647,16 @@ As an Amazon Associate, this site earns from qualifying purchases made. This com
 
   function start(err){
     try{
-      if(err||!window.jQuery||!jQuery.fn.dataTable){
-        if(loadingEl)loadingEl.innerHTML='<p style="color:#b00020">Failed to load: DataTables missing.</p>';
+      if(err || !window.jQuery || !jQuery.fn.dataTable){
+        if(loadingEl) loadingEl.innerHTML='<p style="color:#b00020">Failed to load: DataTables missing.</p>';
         return;
       }
-      const initialQuery=readHashQuery();
-      if(inputEl&&initialQuery)inputEl.value=initialQuery;
+      var initialQuery=readHashQuery();
+      if(inputEl && initialQuery) inputEl.value=initialQuery;
 
-      const rows=scrapeResources();
+      var rows=scrapeResources();
 
-      const dt=jQuery('#resources-table').DataTable({
+      jQuery('#resources-table').DataTable({
         data:rows,
         columns:[
           {title:"Title"},
@@ -614,69 +679,92 @@ As an Amazon Associate, this site earns from qualifying purchases made. This com
         initComplete:function(){
           datatable=this.api();
 
-          if(loadingEl)loadingEl.style.display='none';
-          toolbarEl.style.display=''; gridEl.style.display='grid';
+          if(loadingEl) loadingEl.style.display='none';
+          if(toolbarEl) toolbarEl.style.display='';
+          gridEl.style.display='grid';
 
-          if(initialQuery) datatable.search(initialQuery, false, true, true).draw();
+          if(initialQuery)
+            datatable.search(initialQuery, false, true, true).draw();
 
           renderCards();
           datatable.on('draw', renderCards);
 
-          const apply = (()=>{
-            let t; return ()=>{ clearTimeout(t); t=setTimeout(()=>{
-              const q=inputEl?(inputEl.value||''):'';
-              datatable.search(q, false, true, true).draw(false);
-              setHash(q);
-            },120); };
-          })();
+          function applyFromInput(){
+            var q=inputEl?(inputEl.value||''):'';
+            datatable.search(q, false, true, true).draw(false);
+            setHash(q);
+          }
+          var debounceTimer=null;
+          function scheduleApply(){
+            clearTimeout(debounceTimer);
+            debounceTimer=setTimeout(applyFromInput,120);
+          }
 
-          inputEl.addEventListener('input', apply);
-          inputEl.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); apply(); }});
-          resetEl.addEventListener('click', ()=>{
-            inputEl.value=''; datatable.search('', false, true, true).draw(false);
-            setHash(''); inputEl.focus();
-          });
+          if(inputEl){
+            inputEl.addEventListener('input', scheduleApply);
+            inputEl.addEventListener('keydown', function(e){
+              if(e.key==='Enter'){ e.preventDefault(); scheduleApply(); }
+            });
+          }
+          if(resetEl){
+            resetEl.addEventListener('click', function(){
+              if(inputEl) inputEl.value='';
+              datatable.search('', false, true, true).draw(false);
+              setHash('');
+              if(inputEl) inputEl.focus();
+            });
+          }
 
-          window.addEventListener('hashchange', ()=>{
-            const q=readHashQuery();
-            inputEl.value=q;
+          window.addEventListener('hashchange', function(){
+            var q=readHashQuery();
+            if(inputEl) inputEl.value=q;
             datatable.search(q, false, true, true).draw(false);
           });
 
-          document.addEventListener('keydown', (e)=>{
+          document.addEventListener('keydown', function(e){
             if((e.metaKey||e.ctrlKey) && e.key.toLowerCase()==='k'){
-              e.preventDefault(); inputEl.focus();
+              e.preventDefault();
+              if(inputEl) inputEl.focus();
             } else if(e.key==='Escape'){
-              inputEl.value=''; datatable.search('', false, true, true).draw(false); setHash('');
+              if(inputEl) inputEl.value='';
+              datatable.search('', false, true, true).draw(false);
+              setHash('');
             }
           });
 
-          setTimeout(()=>datatable.columns.adjust().draw(false),60);
+          setTimeout(function(){
+            datatable.columns.adjust().draw(false);
+          },60);
           updateVisibleCount();
         }
       });
 
       if(rows.length===0){
         gridEl.style.display='none';
-        if(loadingEl)loadingEl.innerHTML='<p>No resources detected to index.</p>';
+        if(loadingEl) loadingEl.innerHTML='<p>No resources detected to index.</p>';
       }
     }catch(e){
       console.error(e);
-      if(loadingEl)loadingEl.innerHTML='<p style="color:#b00020">Failed to load resources.</p>';
+      if(loadingEl) loadingEl.innerHTML='<p style="color:#b00020">Failed to load resources.</p>';
     }
   }
-  ready(()=>waitForDT(start));
+
+  ready(function(){ waitForDT(start); });
 
   /* Optional: add a stronger shadow when the toolbar is "stuck" */
   try{
-    const el=document.getElementById('resToolbar');
+    var el=document.getElementById('resToolbar');
     if(el && 'IntersectionObserver' in window){
-      const s=document.createElement('div');
-      s.style.position='relative'; s.style.height='1px';
+      var s=document.createElement('div');
+      s.style.position='relative';
+      s.style.height='1px';
       el.parentNode.insertBefore(s, el);
-      new IntersectionObserver(([e])=>{
+      new IntersectionObserver(function(entries){
+        var e=entries[0];
         el.classList.toggle('is-stuck', !e.isIntersecting);
-      }, { rootMargin: `-${getComputedStyle(document.documentElement).getPropertyValue('--sticky-gap').trim()||'12px'} 0px 0px 0px` }).observe(s);
+      }, {
+        rootMargin: '-'+(getComputedStyle(document.documentElement).getPropertyValue('--sticky-gap').trim()||'12px')+' 0px 0px 0px'
+      }).observe(s);
     }
   }catch(_e){}
 })();
