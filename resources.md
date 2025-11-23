@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Resources on Large Language Models (LLMs)
+title: Resources on Machine Learning for Hashing
 ---
 
-<h2 style="font-size: 1.8em; margin-bottom: 10px;">📚 Resources on Large Language Models</h2>
+<h2 style="font-size: 1.8em; margin-bottom: 10px;">📚 Resources on Machine Learning for Hashing</h2>
 <p style="font-size: 1.05em;">
   A curated collection of <strong>books</strong>, <strong>courses</strong>, 
   <strong>datasets</strong>, and <strong>tools</strong> covering 
-  <strong>Large Language Models</strong> (LLMs). Use the search bar below to 
+  <strong>Machine Learning for Hashing</strong>. Use the search bar below to 
   quickly find resources by title, domain, or description.
 </p>
 
