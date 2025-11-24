@@ -54,7 +54,7 @@ title: Resources on Large Language Models (LLMs)
 <details id="resourcesContent" markdown="1" hidden aria-hidden="true">
   <summary>Hidden resources source</summary>
   
-### 🎥📘 Introductory Video Material
+## 🎥📘 Introductory Video Material
 
 - **[Dr. Wu-Jun Li's tutorial slides](https://cs.nju.edu.cn/lwj/slides/L2H.pdf)**: These tutorial slides by Dr. Wu-Jun Li offer a comprehensive introduction to learning to hash (L2H) techniques. It's an excellent resource for anyone seeking a deep understanding of hashing from a technical perspective.
 
@@ -64,7 +64,7 @@ title: Resources on Large Language Models (LLMs)
 
 - **[Hashing Algorithms for Large-Scale Machine Learning - 2017 Rice Machine Learning Workshop](https://www.youtube.com/embed/tQ0OJXowLJA)**: This video is a recording of a presentation from the 2017 Rice Machine Learning Workshop. It offers a detailed overview of various hashing algorithms used for large-scale machine learning.
 
-### 🎤🧑‍🔬Conferences and Workshops
+##  🎤🧑‍🔬Conferences and Workshops
 
 - **[IJCNN 2025: Scalable and Deep Graph Learning and Mining](https://www.ijcnn.org/)**: Workshop including hashing methods applied to graph structures for retrieval and similarity.
   
@@ -84,7 +84,7 @@ title: Resources on Large Language Models (LLMs)
 
 - **[SIAM International Conference on Data Mining (SDM)](https://www.siam.org/conferences/cm/conference/sdm22)**: SDM is an important conference for researchers in data mining, focusing on the latest developments in algorithms, data analysis, and big data applications. 
 
-### 📄🔬 Survey Papers
+##  📄🔬 Survey Papers
 
 For a deeper dive, these survey papers are excellent resources:
 
@@ -104,7 +104,7 @@ For a deeper dive, these survey papers are excellent resources:
 
 - **[Learning to Hash With Binary Deep Neural Networks: A Survey](https://www.sciencedirect.com/science/article/abs/pii/S016786552030208X)**: This survey focuses on binary deep neural networks and their use in learning to hash. It explores how these networks are trained to produce compact binary codes that can be used for efficient data retrieval in large-scale datasets.
 
-### 🎓📚 Courses
+##  🎓📚 Courses
 
 Some university courses cover topics related to machine learning and efficient computing, with publicly available materials:
 
@@ -116,7 +116,7 @@ Some university courses cover topics related to machine learning and efficient c
 
 - **[CS276: Information Retrieval](https://web.stanford.edu/class/cs276/)** (Stanford University): A comprehensive, foundational course covering algorithms for vector similarity search, ranking, indexing, and hashing.
 
-#### 🧠 DeepLearning.AI Short Courses on Vector Search & ANN
+##  🧠 DeepLearning.AI Short Courses on Vector Search & ANN
 
 - **[Vector Databases: from Embeddings to Applications](https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/?utm_source=chatgpt.com)**: Learn how vector databases work (dense vs sparse search, multilingual embeddings, hybrid search) with real-world applications using Weaviate. *(~55 min)*
 
@@ -130,7 +130,7 @@ Some university courses cover topics related to machine learning and efficient c
 
 - **[Prompt Compression and Query Optimization](https://www.deeplearning.ai/short-courses/prompt-compression-and-query-optimization/?utm_source=chatgpt.com)**: Covers retrieval latency reduction via query filtering, projection, re-ranking, and prompt shortening — with examples using MongoDB Atlas Vector Search.
  
-### 📝📰  Blog Posts
+##  📝📰  Blog Posts
 
 Blog posts are a great way to keep up with cutting-edge research. Here are some of our favorites:
 
@@ -154,9 +154,7 @@ Blog posts are a great way to keep up with cutting-edge research. Here are some 
 
 - **[What is Locality-Sensitive Hashing?](https://www.quora.com/What-is-locality-sensitive-hashing)**: This Quora discussion explains LSH in simple terms. It covers the core principles of how LSH works and why it is useful for approximate nearest neighbor search.
 
-### 🧩💾 Hashing Software Packages
-
-#### 📦 Hashing Algorithms
+## 📦 Hashing Algorithms
 
 - **[Deep Hashing Toolbox](https://github.com/thulab/DeepHash)**: An open-source implementation designed for learning to hash with deep neural networks. Useful for deep similarity search research.
   
@@ -166,7 +164,7 @@ Blog posts are a great way to keep up with cutting-edge research. Here are some 
 
 - **[HashNet](https://github.com/thuml/HashNet)**: Implements HashNet, a deep hashing method that handles imbalanced data distributions and learns binary hash codes end-to-end.
 
-#### 🏗️ Indexing / ANN Libraries
+##  🏗️ Indexing / ANN Libraries
 
 - **[Faiss (Facebook AI Similarity Search)](https://github.com/facebookresearch/faiss)**: A powerful library by Facebook AI Research for efficient similarity search of dense vectors. Supports PQ, IVF, HNSW, and more.
 
@@ -178,7 +176,7 @@ Blog posts are a great way to keep up with cutting-edge research. Here are some 
 
 - **[ScaNN (Scalable Nearest Neighbors)](https://github.com/google-research/google-research/tree/master/scann)**: Developed by Google Research, ScaNN is optimized for vector similarity search at production scale using quantization and reordering.
 
-#### 🛠️ Vector Databases
+##  🛠️ Vector Databases
 
 - **[Milvus](https://milvus.io/)**: A production-ready open-source vector database for similarity search. Supports multiple ANN algorithms and distributed deployments.
 
@@ -186,59 +184,15 @@ Blog posts are a great way to keep up with cutting-edge research. Here are some 
 
 - **[Qdrant](https://qdrant.tech/)**: A fast and scalable vector database written in Rust. Provides gRPC and REST APIs and supports filtering and payload-based search.
 
-### 🧪📊 Benchmarking Tools and Leaderboards
-
-#### 🧪 ANN-Benchmarks: Comparing Nearest Neighbor Libraries
+##  🧪 ANN-Benchmarks: Comparing Nearest Neighbor Libraries
 
 **[ANN-Benchmarks](https://github.com/erikbern/ann-benchmarks)** is the standard benchmarking framework for evaluating Approximate Nearest Neighbor (ANN) algorithms on a wide range of datasets and distance metrics.
 
-It includes:
-- Dockerized runners for 30+ ANN libraries including FAISS, HNSWlib, NMSLIB, Annoy, ScaNN, Milvus, and more.
-- Scripts to run and visualize benchmarking results.
-- Precomputed datasets in HDF5 format for fair and reproducible evaluation.
-
-📄 Related Paper: [Aumüller et al. (2019)](https://arxiv.org/abs/1807.05614)
-
-#### 🗃️ Evaluated Libraries on ANN-Benchmarks
-Some key evaluated libraries:
-- [FAISS](https://github.com/facebookresearch/faiss)
-- [HNSWlib](https://github.com/nmslib/hnswlib)
-- [Annoy](https://github.com/spotify/annoy)
-- [ScaNN](https://github.com/google-research/google-research/tree/master/scann)
-- [NMSLIB](https://github.com/nmslib/nmslib)
-- [Weaviate](https://github.com/weaviate/weaviate)
-- [Milvus](https://github.com/milvus-io/milvus)
-- [Qdrant](https://github.com/qdrant/qdrant)
-- [Elastiknn](https://github.com/alexklibisz/elastiknn)
-- [SPTAG (Microsoft)](https://github.com/microsoft/SPTAG)
-- [DiskANN (Microsoft)](https://github.com/microsoft/diskann)
-- [PyNNDescent](https://github.com/lmcinnes/pynndescent)
-- [FLANN](https://github.com/flann-lib/flann)
-
-Full list: [github.com/erikbern/ann-benchmarks#evaluated](https://github.com/erikbern/ann-benchmarks#evaluated)
-
-#### 📥 Precomputed Benchmark Datasets
-All datasets are split into train/test sets with ground truth for top-100 neighbors:
-
-| Dataset      | Dim | Train/Test       | Distance  | Download |
-|--------------|-----|------------------|-----------|----------|
-| DEEP1B       | 96  | 9.9M / 10k        | Angular   | [HDF5](http://ann-benchmarks.com/deep-image-96-angular.hdf5) |
-| Fashion-MNIST| 784 | 60k / 10k         | Euclidean | [HDF5](http://ann-benchmarks.com/fashion-mnist-784-euclidean.hdf5) |
-| SIFT         | 128 | 1M / 10k          | Euclidean | [HDF5](http://ann-benchmarks.com/sift-128-euclidean.hdf5) |
-| GIST         | 960 | 1M / 1k           | Euclidean | [HDF5](http://ann-benchmarks.com/gist-960-euclidean.hdf5) |
-| NYTimes      | 256 | 290k / 10k        | Angular   | [HDF5](http://ann-benchmarks.com/nytimes-256-angular.hdf5) |
-| GloVe (25–200d)| — | 1.18M / 10k      | Angular   | [Link](https://github.com/erikbern/ann-benchmarks#datasets) |
-| Last.fm      | 65  | 292k / 50k        | Angular   | [HDF5](http://ann-benchmarks.com/lastfm-64-dot.hdf5) |
-| COCO-I2I     | 512 | 113k / 10k        | Angular   | [HDF5](https://github.com/fabiocarrara/str-encoders/releases/download/v0.1.3/coco-i2i-512-angular.hdf5) |
-| COCO-T2I     | 512 | 113k / 10k        | Angular   | [HDF5](https://github.com/fabiocarrara/str-encoders/releases/download/v0.1.3/coco-t2i-512-angular.hdf5) |
-
-More: [ann-benchmarks.com](http://ann-benchmarks.com)
-
-#### 🧠 Related Projects
+##  🧠 Related Projects
 
 - **[Billion-Scale ANN Leaderboard](https://big-ann-benchmarks.com/neurips23.html)**: Continuously updated leaderboard comparing the performance of various billion-scale approximate nearest neighbor methods across recall, latency, and memory tradeoffs.
 
-### 📚📖 Books
+##  📚📖 Books
 
 Here are a few recommended books on large-scale machine learning:
 
@@ -254,7 +208,7 @@ Here are a few recommended books on large-scale machine learning:
 
 - **[Deep Learning](https://amzn.to/47updLU)** *(affiliate link)* by Goodfellow, Bengio, and Courville: The definitive book on deep learning. While not specific to hashing, it provides the theoretical backbone for understanding the neural network architectures used in deep supervised hashing models.
 
-### 🗃️📥 Pre-Processed Datasets for Download
+##  🗃️📥 Pre-Processed Datasets for Download
 
 - **[CIFAR-10 Gist Features (.mat)](https://www.dropbox.com/s/875u1rkva9iffpj/Gist512CIFAR10.mat?dl=0)**: This dataset contains GIST features extracted from the CIFAR-10 dataset, a popular image classification benchmark.
 
