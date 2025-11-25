@@ -6,7 +6,7 @@ authors: Marco Fornoni, Chaochao Yan, Liangchen Luo, Kimberly Wilber, Alex Stark
 conference: Arxiv
 year: 2021
 bibkey: fornoni2021bridging
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.10258'}]
 tags: ["Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Fornoni et al.

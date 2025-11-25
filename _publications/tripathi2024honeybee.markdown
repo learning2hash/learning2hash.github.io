@@ -8,7 +8,7 @@ year: 2024
 bibkey: tripathi2024honeybee
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.07460'}]
-tags: ["Datasets", "Scalability", "Tools & Libraries"]
+tags: ["Datasets", "Multimodal Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Tripathi et al.
 ---
 Developing accurate machine learning models for oncology requires

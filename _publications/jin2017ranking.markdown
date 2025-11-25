@@ -6,9 +6,9 @@ authors: Zhe Jin, Yen-Lung Lai, Jung-Yeon Hwang, Soohyung Kim, Andrew Beng Jin T
 conference: IEEE Transactions on Information Forensics and Security
 year: 2017
 bibkey: jin2017ranking
-citations: 198
+citations: 196
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.05455'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Privacy & Security"]
 short_authors: Jin et al.
 ---
 In this paper, we propose a ranking based locality sensitive hashing inspired

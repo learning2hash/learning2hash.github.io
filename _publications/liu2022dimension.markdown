@@ -6,10 +6,10 @@ conference: Proceedings of the 2022 Conference on Empirical Methods in Natural L
   Processing
 year: 2022
 bibkey: liu2022dimension
-citations: 3
+citations: 4
 additional_links: [{name: Code, url: 'https://github.com/NEUIR/ConAE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2205.03284'}]
-tags: ["EMNLP", "Evaluation"]
+tags: ["Compact Codes", "EMNLP", "Efficiency", "Evaluation", "Memory Efficiency"]
 short_authors: Liu et al.
 ---
 Dense retrievers encode queries and documents and map them in an embedding

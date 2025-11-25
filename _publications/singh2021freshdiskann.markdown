@@ -7,9 +7,9 @@ authors: Aditi Singh, Suhas Jayaram Subramanya, Ravishankar Krishnaswamy, Harsha
 conference: Arxiv
 year: 2021
 bibkey: singh2021freshdiskann
-citations: 10
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.09613'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Similarity Search", "Vector Indexing"]
+tags: ["Efficiency", "Graph Based ANN", "Similarity Search"]
 short_authors: Singh et al.
 ---
 Approximate nearest neighbor search (ANNS) is a fundamental building block in

@@ -3,12 +3,12 @@ layout: publication
 title: On The Robustness Of Malware Detectors To Adversarial Samples
 authors: Muhammad Salman, Benjamin Zi Hao Zhao, Hassan Jameel Asghar, Muhammad Ikram,
   Sidharth Kaushik, Mohamed Ali Kaafar
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2024
 bibkey: salman2024on
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.02310'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Robustness"]
+tags: ["Locality-Sensitive-Hashing", "Robustness"]
 short_authors: Salman et al.
 ---
 Adversarial examples add imperceptible alterations to inputs with the

@@ -2,13 +2,13 @@
 layout: publication
 title: Improving Deep Representation Learning Via Auxiliary Learnable Target Coding
 authors: Kangjun Liu, Ke Chen, Kui Jia, Yaowei Wang
-conference: Pattern Recognition
+conference: Pattern Recognition 2024
 year: 2023
 bibkey: liu2023improving
-citations: 1
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/AkonLau/LTC\'}, {name: Paper,
     url: 'https://arxiv.org/abs/2305.18680'}]
-tags: ["CVPR", "Distance Metric Learning"]
+tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Liu et al.
 ---
 Deep representation learning is a subfield of machine learning that focuses

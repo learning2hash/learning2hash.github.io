@@ -6,9 +6,9 @@ authors: Yongji Wu, Defu Lian, Neil Zhenqiang Gong, Lu Yin, Mingyang Yin, Jingre
 conference: Proceedings of the Web Conference 2021
 year: 2021
 bibkey: wu2021linear
-citations: 1
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.14068'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Quantization", "Recommender Systems"]
+tags: ["Efficiency", "Locality-Sensitive-Hashing", "Quantization", "Recommender Systems"]
 short_authors: Wu et al.
 ---
 Self-attention has become increasingly popular in a variety of sequence

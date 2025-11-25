@@ -5,9 +5,9 @@ authors: Baiyang Wang, Diego Klabjan
 conference: Arxiv
 year: 2017
 bibkey: wang2017an
-citations: 12
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.06106'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Baiyang Wang, Diego Klabjan
 ---
 In information retrieval, learning to rank constructs a machine-based ranking

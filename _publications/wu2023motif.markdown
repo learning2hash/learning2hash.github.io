@@ -5,7 +5,7 @@ authors: Yuxuan Wu, Roger B. Dannenberg, Gus Xia
 conference: Arxiv
 year: 2023
 bibkey: wu2023motif
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.10597'}]
 tags: ["Evaluation", "Self-Supervised"]
 short_authors: Yuxuan Wu, Roger B. Dannenberg, Gus Xia

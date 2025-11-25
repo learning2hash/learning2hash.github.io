@@ -7,7 +7,7 @@ year: 2024
 bibkey: paudel2024pixelmod
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.20987'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Evaluation", "Image Retrieval", "Scalability", "Similarity Search", "Tools & Libraries"]
 short_authors: Paudel et al.
 ---
 Images are a powerful and immediate vehicle to carry misleading or outright

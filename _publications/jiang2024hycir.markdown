@@ -5,9 +5,9 @@ authors: Yingying Jiang, Hanchao Jia, Xiaobing Wang, Peng Hao
 conference: Arxiv
 year: 2024
 bibkey: jiang2024hycir
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.05795'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Scalability", "Self-Supervised", "Supervised"]
+tags: ["Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised"]
 short_authors: Jiang et al.
 ---
 Composed Image Retrieval (CIR) aims to retrieve images based on a query image

@@ -6,9 +6,9 @@ authors: Xuanwu Liu, Zhao Li, Jun Wang, Guoxian Yu, Carlotta Domeniconi, Xiangli
 conference: 2019 IEEE International Conference on Data Mining (ICDM)
 year: 2019
 bibkey: liu2019cross
-citations: 16
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.07388'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Hashing Methods"]
 short_authors: Liu et al.
 ---
 Hashing has been widely studied for big data retrieval due to its low storage

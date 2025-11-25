@@ -5,9 +5,9 @@ authors: Qiaodong Cui, Victor Fragoso, Chris Sweeney, Pradeep Sen
 conference: 2017 International Conference on 3D Vision (3DV)
 year: 2017
 bibkey: cui2017graphmatch
-citations: 9
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.01602'}]
-tags: ["Graph Based ANN", "Scalability"]
+tags: ["Efficiency", "Graph Based ANN", "Scalability"]
 short_authors: Cui et al.
 ---
 We present GraphMatch, an approximate yet efficient method for building the

@@ -3,13 +3,12 @@ layout: publication
 title: 'Clip-branches: Interactive Fine-tuning For Text-image Retrieval'
 authors: "Christian L\xFClf, Denis Mayr Lima Martins, Marcos Antonio Vaz Salles, Yongluan\
   \ Zhou, Fabian Gieseke"
-conference: Proceedings of the 47th International ACM SIGIR Conference on Research
-  and Development in Information Retrieval
+conference: Arxiv
 year: 2024
 bibkey: "l\xFClf2024clip"
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.13322'}]
-tags: ["Evaluation", "Image Retrieval", "SIGIR", "Tools & Libraries", "Vector Indexing"]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: "L\xFClf et al."
 ---
 The advent of text-image models, most notably CLIP, has significantly

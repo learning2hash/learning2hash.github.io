@@ -7,7 +7,7 @@ conference: 'Proceedings of the Fourth Conference on Machine Translation (Volume
   Research Papers)'
 year: 2019
 bibkey: guo2019hierarchical
-citations: 22
+citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.08401'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Guo et al.

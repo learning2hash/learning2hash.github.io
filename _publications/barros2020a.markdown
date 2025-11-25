@@ -3,10 +3,10 @@ layout: publication
 title: A New Similarity Space Tailored For Supervised Deep Metric Learning
 authors: Pedro H. Barros, Fabiane Queiroz, Flavio Figueredo, Jefersson A. Dos Santos,
   Heitor S. Ramos
-conference: ACM Transactions on Intelligent Systems and Technology
+conference: Arxiv
 year: 2020
 bibkey: barros2020a
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.08325'}]
 tags: ["Datasets", "Distance Metric Learning", "Supervised"]
 short_authors: Barros et al.

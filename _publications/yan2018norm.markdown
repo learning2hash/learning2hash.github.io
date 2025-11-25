@@ -5,9 +5,9 @@ authors: Xiao Yan, Jinfeng Li, Xinyan Dai, Hongzhi Chen, James Cheng
 conference: Arxiv
 year: 2018
 bibkey: yan2018norm
-citations: 24
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.08782'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Yan et al.
 ---
 Neyshabur and Srebro proposed Simple-LSH, which is the state-of-the-art

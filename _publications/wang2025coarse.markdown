@@ -8,7 +8,7 @@ bibkey: wang2025coarse
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/htyjers/C2F-MetaEmbed'},
   {name: Paper, url: 'https://arxiv.org/abs/2501.11870'}]
-tags: ["Recommender Systems"]
+tags: ["Memory Efficiency", "Recommender Systems"]
 short_authors: Wang et al.
 ---
 The state-of-the-art recommendation systems have shifted the attention to

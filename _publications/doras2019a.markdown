@@ -6,7 +6,7 @@ conference: ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speec
   and Signal Processing (ICASSP)
 year: 2019
 bibkey: doras2019a
-citations: 10
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.09862'}]
 tags: ["Datasets", "Distance Metric Learning", "ICASSP"]
 short_authors: Guillaume Doras, Geoffroy Peeters

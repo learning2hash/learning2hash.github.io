@@ -5,9 +5,9 @@ authors: Cecilia Aguerrebere, Ishwar Bhati, Mark Hildebrand, Mariano Tepper, Ted
 conference: Proceedings of the VLDB Endowment
 year: 2023
 bibkey: aguerrebere2023similarity
-citations: 16
+citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.04759'}]
-tags: ["Evaluation", "Graph Based ANN", "Large Scale Search", "Memory Efficiency", "Quantization", "Scalability", "Similarity Search"]
+tags: ["Graph Based ANN", "Large Scale Search", "Memory Efficiency", "Quantization", "Similarity Search"]
 short_authors: Aguerrebere et al.
 ---
 Nowadays, data is represented by vectors. Retrieving those vectors, among

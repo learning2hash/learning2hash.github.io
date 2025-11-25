@@ -9,7 +9,7 @@ bibkey: ramzi2022hierarchical
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/elias-ramzi/HAPPIER'}, {
     name: Paper, url: 'https://arxiv.org/abs/2207.04873'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Ramzi et al.
 ---
 Image Retrieval is commonly evaluated with Average Precision (AP) or

@@ -9,7 +9,7 @@ bibkey: hu2025hakes
 citations: 0
 additional_links: [{name: Other, url: 'https://www.comp.nus.edu.sg/~dbsystem/hakes/'},
   {name: Paper, url: 'https://arxiv.org/abs/2505.12524'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Neural Hashing", "Similarity Search", "Vector Indexing"]
+tags: ["Efficiency", "Graph Based ANN", "Similarity Search", "Vector Indexing"]
 short_authors: Hu et al.
 ---
 Modern deep learning models capture the semantics of complex data by transforming them into high-dimensional embedding vectors. Emerging applications, such as retrieval-augmented generation, use approximate nearest neighbor (ANN) search in the embedding vector space to find similar data. Existing vector databases provide indexes for efficient ANN searches, with graph-based indexes being the most popular due to their low latency and high recall in real-world high-dimensional datasets. However, these indexes are costly to build, suffer from significant contention under concurrent read-write workloads, and scale poorly to multiple servers.

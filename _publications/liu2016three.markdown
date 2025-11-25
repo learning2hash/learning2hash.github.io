@@ -6,9 +6,9 @@ authors: Shenglan Liu, Muxin Sun, Lin Feng, Yang Liu, Jun Wu
 conference: Arxiv
 year: 2016
 bibkey: liu2016three
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.07599'}]
-tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
+tags: ["Datasets", "Image Retrieval", "Re-Ranking"]
 short_authors: Liu et al.
 ---
 Single feature is inefficient to describe content of an image, which is a

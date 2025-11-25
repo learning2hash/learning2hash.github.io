@@ -5,9 +5,9 @@ authors: Yang Shen, Xuhao Sun, Xiu-Shen Wei, Qing-Yuan Jiang, Jian Yang
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: shen2022semicon
-citations: 15
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.13833'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability"]
+tags: ["Hashing Methods", "Image Retrieval", "Scalability"]
 short_authors: Shen et al.
 ---
 In this paper, we propose Suppression-Enhancing Mask based attention and

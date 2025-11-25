@@ -7,9 +7,9 @@ authors: Min Yang, Dongliang He, Miao Fan, Baorong Shi, Xuetong Xue, Fu Li, Erru
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: yang2021dolg
-citations: 113
+citations: 125
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.02927'}]
-tags: ["Datasets", "ICCV", "Image Retrieval", "Similarity Search", "Tools & Libraries"]
+tags: ["ICCV", "Image Retrieval", "Similarity Search"]
 short_authors: Yang et al.
 ---
 Image Retrieval is a fundamental task of obtaining images similar to the

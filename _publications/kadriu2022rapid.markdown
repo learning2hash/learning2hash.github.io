@@ -7,7 +7,7 @@ year: 2022
 bibkey: kadriu2022rapid
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.11178'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Kastriot Kadriu
 ---
 A naive approach for finding similar audio items would be to compare each

@@ -5,10 +5,10 @@ authors: Yihang Chen, Qianyi Wu, Weiyao Lin, Mehrtash Harandi, Jianfei Cai
 conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: chen2024hac
-citations: 6
+citations: 34
 additional_links: [{name: Code, url: 'https://github.com/YihangChen-ee/HAC'}, {name: Paper,
     url: 'https://arxiv.org/abs/2403.14530'}]
-tags: ["Evaluation", "Hashing Methods", "Quantization", "Tools & Libraries"]
+tags: ["Hashing Methods", "Quantization", "Tools & Libraries"]
 short_authors: Chen et al.
 ---
 3D Gaussian Splatting (3DGS) has emerged as a promising framework for novel

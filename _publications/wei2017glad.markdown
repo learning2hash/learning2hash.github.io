@@ -5,9 +5,9 @@ authors: Longhui Wei, Shiliang Zhang, Hantao Yao, Wen Gao, Qi Tian
 conference: 'MM ''17: ACM Multimedia Conference'
 year: 2017
 bibkey: wei2017glad
-citations: 302
+citations: 308
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.04329'}]
-tags: ["Tools & Libraries"]
+tags: ["Efficiency", "Image Retrieval", "Robustness"]
 short_authors: Wei et al.
 ---
 The huge variance of human pose and the misalignment of detected human images

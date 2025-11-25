@@ -5,9 +5,9 @@ authors: Istvan Fehervari, Srikar Appalaraju
 conference: 2019 IEEE Winter Conference on Applications of Computer Vision (WACV)
 year: 2018
 bibkey: fehervari2018scalable
-citations: 35
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.08009'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Istvan Fehervari, Srikar Appalaraju
 ---
 Logo recognition is the task of identifying and classifying logos. Logo

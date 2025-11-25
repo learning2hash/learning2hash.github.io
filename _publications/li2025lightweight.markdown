@@ -5,9 +5,9 @@ authors: Jiaxing Li, Lin Jiang, Zeqi Ma, Kaihang Jiang, Xiaozhao Fang, Jie Wen
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2025
 bibkey: li2025lightweight
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.19751'}]
-tags: ["AAAI", "Compact Codes", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Tools & Libraries"]
+tags: ["AAAI", "Efficiency", "Hashing Methods", "Multimodal Retrieval"]
 short_authors: Li et al.
 ---
 Deep online cross-modal hashing has gained much attention from researchers

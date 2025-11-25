@@ -5,9 +5,9 @@ authors: Abdelrahman Abdallah, Jamshid Mozafari, Bhawna Piryani, Adam Jatowt
 conference: 'Findings of the Association for Computational Linguistics: NAACL 2025'
 year: 2025
 bibkey: abdallah2025asrank
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.15245'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Hybrid ANN Methods", "NAACL", "Re-Ranking", "Text Retrieval"]
+tags: ["Few Shot & Zero Shot", "NAACL", "Re-Ranking", "Text Retrieval"]
 short_authors: Abdallah et al.
 ---
 Retrieval-Augmented Generation (RAG) models have drawn considerable attention

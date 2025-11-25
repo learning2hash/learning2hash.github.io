@@ -5,9 +5,9 @@ authors: Jingtao Zhan, Jiaxin Mao, Yiqun Liu, Min Zhang, Shaoping Ma
 conference: Arxiv
 year: 2020
 bibkey: zhan2020repbert
-citations: 61
+citations: 58
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.15498'}]
-tags: ["Efficiency"]
+tags: ["Efficiency", "Text Retrieval"]
 short_authors: Zhan et al.
 ---
 Although exact term match between queries and documents is the dominant

@@ -1,13 +1,24 @@
 ---
 layout: publication
-title: Semi-supervised Deep Quantization For Cross-modal Search
-authors: Xin Wang, Wenwu Zhu, Chenghao Liu
-conference: 'MM ''19: The 27th ACM International Conference on Multimedia'
+title: Semi-supervised Learning With Contrastive Predicative Coding
+authors: Jiaxing Wang, Yin Zheng, Xiaoshuang Chen, Junzhou Huang, Jian Cheng
+conference: Arxiv
 year: 2019
 bibkey: wang2019semi
-citations: 14
-additional_links: [{name: Paper, url: 'https://dl.acm.org/citation.cfm?id=3343031.3350934'}]
-tags: ["Datasets", "Hashing Methods", "Quantization", "Similarity Search", "Supervised", "Tools & Libraries", "Unsupervised"]
-short_authors: Xin Wang, Wenwu Zhu, Chenghao Liu
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.10514'}]
+tags: ["Scalability", "Self-Supervised"]
+short_authors: Wang et al.
 ---
-The problem of cross-modal similarity search, which aims at making efficient and accurate queries across multiple domains, has become a significant and important research topic. Composite quantization, a compact coding solution superior to hashing techniques, has shown its effectiveness for similarity search. However, most existing works utilizing composite quantization to search multi-domain content only consider either pairwise similarity information or class label information across different domains, which fails to tackle the semi-supervised problem in composite quantization. In this paper, we address the semi-supervised quantization problem by considering: (i) pairwise similarity information (without class label information) across different domains, which captures the intra-document relation, (ii) cross-domain data with class label which can help capture inter-document relation, and (iii) cross-domain data with neither pairwise similarity nor class label which enables the full use of abundant unlabelled information. To the best of our knowledge, we are the first to consider both supervised information (pairwise similarity + class label) and unsupervised information (neither pairwise similarity nor class label) simultaneously in composite quantization. A challenging problem arises: how can we jointly handle these three sorts of information across multiple domains in an efficient way? To tackle this challenge, we propose a novel semi-supervised deep quantization (SSDQ) model that takes both supervised and unsupervised information into account. The proposed SSDQ model is capable of incorporating the above three kinds of information into one single framework when utilizing composite quantization for accurate and efficient queries across different domains. More specifically, we employ a modified deep autoencoder for better latent representation and formulate pairwise similarity loss, supervised quantization loss as well as unsupervised distribution match loss to handle all three types of information. The extensive experiments demonstrate the significant improvement of SSDQ over several state-of-the-art methods on various datasets.
+Semi-supervised learning (SSL) provides a powerful framework for leveraging
+unlabeled data when labels are limited or expensive to obtain. SSL algorithms
+based on deep neural networks have recently proven successful on standard
+benchmark tasks. However, many of them have thus far been either inflexible,
+inefficient or non-scalable. This paper explores recently developed contrastive
+predictive coding technique to improve discriminative power of deep learning
+models when a large portion of labels are absent. Two models, cpc-SSL and a
+class conditional variant~(ccpc-SSL) are presented. They effectively exploit
+the unlabeled data by extracting shared information between different parts of
+the (high-dimensional) data. The proposed approaches are inductive, and scale
+well to very large datasets like ImageNet, making them good candidates in
+real-world large scale applications.

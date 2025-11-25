@@ -6,9 +6,9 @@ authors: Otmar Ertl
 conference: IEEE Transactions on Knowledge and Data Engineering
 year: 2019
 bibkey: ertl2019probminhash
-citations: 20
+citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.00675'}]
-tags: ["Evaluation", "Hashing Methods"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Otmar Ertl
 ---
 The probability Jaccard similarity was recently proposed as a natural

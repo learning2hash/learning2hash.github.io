@@ -8,7 +8,7 @@ year: 2023
 bibkey: chen2023weakly
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.15483'}]
-tags: ["Evaluation", "Scalability", "Supervised", "Tools & Libraries"]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Chen et al.
 ---
 Weakly supervised vision-and-language pre-training (WVLP), which learns

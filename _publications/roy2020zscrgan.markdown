@@ -7,9 +7,9 @@ conference: Proceedings of the 29th ACM International Conference on Information 
   Knowledge Management
 year: 2020
 bibkey: roy2020zscrgan
-citations: 3
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.12212'}]
-tags: ["CIKM", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Supervised", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Roy et al.
 ---
 Most existing algorithms for cross-modal Information Retrieval are based on a

@@ -3,13 +3,13 @@ layout: publication
 title: Matchable Image Retrieval By Learning From Surface Reconstruction
 authors: Tianwei Shen, Zixin Luo, Lei Zhou, Runze Zhang, Siyu Zhu, Tian Fang, Long
   Quan
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2018
 bibkey: shen2018matchable
-citations: 27
+citations: 9
 additional_links: [{name: Code, url: 'https://github.com/hlzz/mirror'}, {name: Paper,
     url: 'https://arxiv.org/abs/1811.10343'}]
-tags: ["Evaluation", "Image Retrieval", "Scalability"]
+tags: ["Image Retrieval", "Scalability"]
 short_authors: Shen et al.
 ---
 Convolutional Neural Networks (CNNs) have achieved superior performance on

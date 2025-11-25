@@ -5,9 +5,9 @@ authors: Paheli Bhattacharya, Kripabandhu Ghosh, Arindam Pal, Saptarshi Ghosh
 conference: Arxiv
 year: 2020
 bibkey: bhattacharya2020methods
-citations: 14
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.12307'}]
-tags: ["Evaluation", "Recommender Systems", "Survey Paper"]
+tags: ["Recommender Systems", "Similarity Search", "Survey Paper"]
 short_authors: Bhattacharya et al.
 ---
 Computing similarity between two legal documents is an important and

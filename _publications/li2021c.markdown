@@ -7,7 +7,7 @@ year: 2021
 bibkey: li2021c
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.03337'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
 short_authors: Xiaoyun Li, Ping Li
 ---
 Minwise hashing (MinHash) is an important and practical algorithm for

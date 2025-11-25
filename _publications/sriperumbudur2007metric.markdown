@@ -5,9 +5,9 @@ authors: Bharath K. Sriperumbudur, Gert R. G. Lanckriet
 conference: Arxiv
 year: 2007
 bibkey: sriperumbudur2007metric
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/0706.3499'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
+tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Bharath K. Sriperumbudur, Gert R. G. Lanckriet
 ---
 The distance metric plays an important role in nearest neighbor (NN)

@@ -4,12 +4,12 @@ title: 'Online Enhanced Semantic Hashing: Towards Effective And Efficient Retrie
   For Streaming Multi-modal Data'
 authors: Xiao-Ming Wu, Xin Luo, Yu-Wei Zhan, Chen-Lu Ding, Zhen-Duo Chen, Xin-Shun
   Xu
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2021
 bibkey: wu2021online
-citations: 11
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.04260'}]
-tags: ["AAAI", "Efficiency", "Hashing Methods", "Memory Efficiency", "Neural Hashing", "Scalability", "Similarity Search"]
+tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Wu et al.
 ---
 With the vigorous development of multimedia equipment and applications,

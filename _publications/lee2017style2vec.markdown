@@ -5,7 +5,7 @@ authors: Hanbit Lee, Jinseok Seol, Sang-Goo Lee
 conference: Arxiv
 year: 2017
 bibkey: lee2017style2vec
-citations: 30
+citations: 29
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.04014'}]
 tags: ["Evaluation", "Recommender Systems"]
 short_authors: Hanbit Lee, Jinseok Seol, Sang-Goo Lee

@@ -4,12 +4,12 @@ title: Binary Constrained Deep Hashing Network For Image Retrieval Without Manua
   Annotation
 authors: Thanh-Toan Do, Tuan Hoang, Dang-Khoa Le Tan, Trung Pham, Huu Le, Ngai-Man
   Cheung, Ian Reid
-conference: 2019 IEEE Winter Conference on Applications of Computer Vision (WACV)
+conference: Arxiv
 year: 2018
 bibkey: do2018binary
-citations: 5
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.07437'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Tools & Libraries"]
+tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
 short_authors: Do et al.
 ---
 Learning compact binary codes for image retrieval task using deep neural

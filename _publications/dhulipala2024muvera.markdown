@@ -7,7 +7,7 @@ year: 2024
 bibkey: dhulipala2024muvera
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.19504'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Similarity Search"]
+tags: ["Efficiency", "Similarity Search"]
 short_authors: Dhulipala et al.
 ---
 Neural embedding models have become a fundamental component of modern

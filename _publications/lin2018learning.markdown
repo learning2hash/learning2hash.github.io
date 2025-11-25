@@ -6,9 +6,9 @@ authors: Kyaw Zaw Lin, Weipeng Xu, Qianru Sun, Christian Theobalt, Tat-Seng Chua
 conference: Arxiv
 year: 2018
 bibkey: lin2018learning
-citations: 7
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.09899'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Evaluation", "Image Retrieval", "Robustness"]
 short_authors: Lin et al.
 ---
 We propose a novel approach to jointly perform 3D shape retrieval and pose

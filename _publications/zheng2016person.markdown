@@ -3,12 +3,12 @@ layout: publication
 title: Person Re-identification In The Wild
 authors: Liang Zheng, Hengheng Zhang, Shaoyan Sun, Manmohan Chandraker, Yi Yang, Qi
   Tian
-conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
-year: 2017
+conference: Arxiv
+year: 2016
 bibkey: zheng2016person
-citations: 759
+citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.02531'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Scalability"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Zheng et al.
 ---
 We present a novel large-scale dataset and comprehensive baselines for

@@ -7,7 +7,7 @@ year: 2018
 bibkey: geng2018regularizing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.09466'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness", "Scalability"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Geng et al.
 ---
 Recently, deep-networks-based hashing (deep hashing) has become a leading

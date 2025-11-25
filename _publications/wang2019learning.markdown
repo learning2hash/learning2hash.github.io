@@ -6,9 +6,9 @@ authors: Hao Wang, Doyen Sahoo, Chenghao Liu, Ee-Peng Lim, Steven C. H. Hoi
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: wang2019learning
-citations: 127
+citations: 138
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.01273'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Multimodal Retrieval", "Robustness", "Tools & Libraries"]
+tags: ["CVPR", "Distance Metric Learning", "Multimodal Retrieval"]
 short_authors: Wang et al.
 ---
 Food computing is playing an increasingly important role in human daily life,

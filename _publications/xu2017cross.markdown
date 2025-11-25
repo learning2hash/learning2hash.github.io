@@ -8,7 +8,7 @@ year: 2017
 bibkey: xu2017cross
 citations: 82
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.09888'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Xu et al.
 ---
 Sketch-based image retrieval (SBIR) is challenging due to the inherent

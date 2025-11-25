@@ -7,10 +7,10 @@ conference: Proceedings of the 47th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2024
 bibkey: abdallah2024arabicaqa
-citations: 8
+citations: 13
 additional_links: [{name: Code, url: 'https://github.com/DataScienceUIBK/ArabicaQA'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.17848'}]
-tags: ["Datasets", "Evaluation", "SIGIR", "Scalability", "Text Retrieval"]
+tags: ["Datasets", "SIGIR", "Text Retrieval"]
 short_authors: Abdallah et al.
 ---
 In this paper, we address the significant gap in Arabic natural language

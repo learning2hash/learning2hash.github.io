@@ -5,9 +5,9 @@ authors: Anurag Jain, Yashaswi Verma
 conference: Arxiv
 year: 2021
 bibkey: jain2021contrastive
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.08872'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Multimodal Retrieval", "Self-Supervised"]
+tags: ["Distance Metric Learning", "Image Retrieval", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Anurag Jain, Yashaswi Verma
 ---
 Contrastive learning is a powerful technique to learn representations that

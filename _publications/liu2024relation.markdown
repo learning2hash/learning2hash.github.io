@@ -2,12 +2,12 @@
 layout: publication
 title: Relation-aware Meta-learning For Zero-shot Sketch-based Image Retrieval
 authors: Yang Liu, Jiale Du, Xinbo Gao, Jungong Han
-conference: IEEE Transactions on Circuits and Systems for Video Technology
+conference: Arxiv
 year: 2024
 bibkey: liu2024relation
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.00120'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Tools & Libraries"]
+tags: ["Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Liu et al.
 ---
 Sketch-based image retrieval (SBIR) relies on free-hand sketches to retrieve

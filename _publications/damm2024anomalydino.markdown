@@ -2,10 +2,10 @@
 layout: publication
 title: 'Anomalydino: Boosting Patch-based Few-shot Anomaly Detection With Dinov2'
 authors: Simon Damm, Mike Laszkiewicz, Johannes Lederer, Asja Fischer
-conference: 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+conference: Arxiv
 year: 2024
 bibkey: damm2024anomalydino
-citations: 12
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.14529'}]
 tags: ["Evaluation", "Few Shot & Zero Shot"]
 short_authors: Damm et al.

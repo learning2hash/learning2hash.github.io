@@ -6,9 +6,9 @@ authors: Xiu-Shen Wei, Yi-Zhe Song, Oisin Mac Aodha, Jianxin Wu, Yuxin Peng, Jin
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2021
 bibkey: wei2021fine
-citations: 269
+citations: 300
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.06119'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Survey Paper"]
+tags: ["Datasets", "Image Retrieval", "Survey Paper"]
 short_authors: Wei et al.
 ---
 Fine-grained image analysis (FGIA) is a longstanding and fundamental problem

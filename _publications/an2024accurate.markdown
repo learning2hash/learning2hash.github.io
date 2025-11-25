@@ -8,7 +8,7 @@ year: 2024
 bibkey: an2024accurate
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.11242'}]
-tags: ["Datasets", "Efficiency", "Graph Based ANN", "Image Retrieval", "Tools & Libraries"]
+tags: ["Efficiency", "Graph Based ANN", "Image Retrieval"]
 short_authors: Guoyuan An, Yuchi Huo, Sung-Eui Yoon
 ---
 This paper presents a novel method designed to enhance the efficiency and

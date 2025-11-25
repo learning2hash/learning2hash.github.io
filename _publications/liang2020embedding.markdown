@@ -6,7 +6,7 @@ authors: Davis Liang, Peng Xu, Siamak Shakeri, Cicero Nogueira Dos Santos, Rames
 conference: Arxiv
 year: 2020
 bibkey: liang2020embedding
-citations: 23
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.10270'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Liang et al.

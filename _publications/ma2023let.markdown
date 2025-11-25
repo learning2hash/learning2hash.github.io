@@ -3,13 +3,13 @@ layout: publication
 title: 'Let All Be Whitened: Multi-teacher Distillation For Efficient Visual Retrieval'
 authors: Zhe Ma, Jianfeng Dong, Shouling Ji, Zhenguang Liu, Xuhong Zhang, Zonghui
   Wang, Sifeng He, Feng Qian, Xiaobo Zhang, Lei Yang
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2023
 bibkey: ma2023let
-citations: 3
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/Maryeon/whiten_mtd'}, {name: Paper,
     url: 'https://arxiv.org/abs/2312.09716'}]
-tags: ["AAAI", "Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Tools & Libraries", "Video Retrieval"]
+tags: ["Efficiency", "Image Retrieval", "Video Retrieval"]
 short_authors: Ma et al.
 ---
 Visual retrieval aims to search for the most relevant visual items, e.g.,

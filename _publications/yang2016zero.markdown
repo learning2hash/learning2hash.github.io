@@ -5,9 +5,9 @@ authors: Yang Yang, Weilun Chen, Yadan Luo, Fumin Shen, Jie Shao, Heng Tao Shen
 conference: Proceedings of the 24th ACM international conference on Multimedia
 year: 2016
 bibkey: yang2016zero
-citations: 139
+citations: 143
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.05032'}]
-tags: ["Compact Codes", "Datasets", "Efficiency", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Scalability", "Supervised"]
+tags: ["Efficiency", "Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Supervised"]
 short_authors: Yang et al.
 ---
 Hashing has shown its efficiency and effectiveness in facilitating

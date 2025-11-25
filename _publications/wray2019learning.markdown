@@ -5,9 +5,9 @@ authors: Michael Wray, Dima Damen
 conference: Arxiv
 year: 2019
 bibkey: wray2019learning
-citations: 4
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.11117'}]
-tags: ["Datasets", "Multimodal Retrieval"]
+tags: ["Datasets", "Video Retrieval"]
 short_authors: Michael Wray, Dima Damen
 ---
 This work introduces verb-only representations for both recognition and

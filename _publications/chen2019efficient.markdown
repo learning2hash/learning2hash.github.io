@@ -2,12 +2,12 @@
 layout: publication
 title: Efficient Object Embedding For Spliced Image Retrieval
 authors: Bor-Chun Chen, Zuxuan Wu, Larry S. Davis, Ser-Nam Lim
-conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2019
 bibkey: chen2019efficient
-citations: 11
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.11903'}]
-tags: ["CVPR", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: ["Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Chen et al.
 ---
 Detecting spliced images is one of the emerging challenges in computer

@@ -5,9 +5,9 @@ authors: "Vincent Gripon, Matthias L\xF6we, Franck Vermet"
 conference: Applied Sciences
 year: 2016
 bibkey: gripon2016associative
-citations: 6
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.05898'}]
-tags: ["Hashing Methods", "Quantization"]
+tags: ["Hashing Methods", "Memory Efficiency", "Quantization", "Scalability", "Similarity Search"]
 short_authors: "Vincent Gripon, Matthias L\xF6we, Franck Vermet"
 ---
 Nearest neighbor search is a very active field in machine learning for it

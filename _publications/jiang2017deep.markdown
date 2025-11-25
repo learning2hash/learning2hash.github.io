@@ -2,12 +2,12 @@
 layout: publication
 title: Deep Discrete Supervised Hashing
 authors: Qing-Yuan Jiang, Xue Cui, Wu-Jun Li
-conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: IEEE Transactions on Image Processing
 year: 2017
 bibkey: jiang2017deep
-citations: 809
+citations: 100
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.09905'}]
-tags: ["CVPR", "Datasets", "Hashing Methods", "Image Retrieval", "Large Scale Search", "Neural Hashing", "Scalability", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Large Scale Search", "Neural Hashing", "Supervised"]
 short_authors: Qing-Yuan Jiang, Xue Cui, Wu-Jun Li
 ---
 Hashing has been widely used for large-scale search due to its low storage

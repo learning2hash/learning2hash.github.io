@@ -5,9 +5,9 @@ authors: Iaroslav Melekhov, Zakaria Laskar, Xiaotian Li, Shuzhe Wang, Juho Kanna
 conference: 2021 International Conference on 3D Vision (3DV)
 year: 2021
 bibkey: melekhov2021digging
-citations: 7
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.04773'}]
-tags: ["Image Retrieval", "Self-Supervised", "Supervised"]
+tags: ["Image Retrieval", "Self-Supervised"]
 short_authors: Melekhov et al.
 ---
 Fully-supervised CNN-based approaches for learning local image descriptors

@@ -8,7 +8,7 @@ year: 2020
 bibkey: ren2020beyond
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.12126'}]
-tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "Robustness", "Tools & Libraries"]
+tags: ["Distance Metric Learning", "Efficiency", "Multimodal Retrieval"]
 short_authors: Ren et al.
 ---
 Matching information across image and text modalities is a fundamental

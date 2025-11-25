@@ -3,12 +3,12 @@ layout: publication
 title: Modality-specific Cross-modal Similarity Measurement With Recurrent Attention
   Network
 authors: Yuxin Peng, Jinwei Qi, Yuxin Yuan
-conference: IEEE Transactions on Image Processing
+conference: Arxiv
 year: 2017
 bibkey: peng2017modality
-citations: 136
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.04776'}]
-tags: ["Datasets", "Multimodal Retrieval", "Scalability", "Tools & Libraries"]
+tags: ["Datasets", "Multimodal Retrieval"]
 short_authors: Yuxin Peng, Jinwei Qi, Yuxin Yuan
 ---
 Nowadays, cross-modal retrieval plays an indispensable role to flexibly find

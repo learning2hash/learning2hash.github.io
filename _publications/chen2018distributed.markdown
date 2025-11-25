@@ -6,9 +6,9 @@ conference: Proceedings of the 24th ACM SIGKDD International Conference on Knowl
   Discovery &amp; Data Mining
 year: 2018
 bibkey: chen2018distributed
-citations: 7
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.04918'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "KDD", "Recommender Systems", "Scalability", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "KDD", "Recommender Systems"]
 short_authors: Chen et al.
 ---
 Collaborative filtering, especially latent factor model, has been popularly

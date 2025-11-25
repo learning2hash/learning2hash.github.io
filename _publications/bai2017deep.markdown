@@ -2,12 +2,12 @@
 layout: publication
 title: 'Deep-person: Learning Discriminative Deep Features For Person Re-identification'
 authors: Xiang Bai, Mingkun Yang, Tengteng Huang, Zhiyong Dou, Rui Yu, Yongchao Xu
-conference: Pattern Recognition
+conference: Arxiv
 year: 2017
 bibkey: bai2017deep
-citations: 174
+citations: 63
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.10658'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Tools & Libraries"]
+tags: ["Datasets", "Re-Ranking"]
 short_authors: Bai et al.
 ---
 Recently, many methods of person re-identification (Re-ID) rely on part-based

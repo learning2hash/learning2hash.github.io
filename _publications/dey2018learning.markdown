@@ -7,9 +7,9 @@ authors: "Sounak Dey, Anjan Dutta, Suman K. Ghosh, Ernest Valveny, Josep Llad\xF
 conference: 2018 24th International Conference on Pattern Recognition (ICPR)
 year: 2018
 bibkey: dey2018learning
-citations: 24
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.10819'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: ["Image Retrieval", "Multimodal Retrieval"]
 short_authors: Dey et al.
 ---
 In this work we introduce a cross modal image retrieval system that allows

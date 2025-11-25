@@ -1,0 +1,30 @@
+---
+layout: publication
+title: Contrastive Feature Masking Open-vocabulary Vision Transformer
+authors: Dahun Kim, Anelia Angelova, Weicheng Kuo
+conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
+year: 2023
+bibkey: kim2023contrastive
+citations: 17
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.00775'}]
+tags: ["Few Shot & Zero Shot", "ICCV", "Self-Supervised"]
+short_authors: Dahun Kim, Anelia Angelova, Weicheng Kuo
+---
+We present Contrastive Feature Masking Vision Transformer (CFM-ViT) - an
+image-text pretraining methodology that achieves simultaneous learning of
+image- and region-level representation for open-vocabulary object detection
+(OVD). Our approach combines the masked autoencoder (MAE) objective into the
+contrastive learning objective to improve the representation for localization
+tasks. Unlike standard MAE, we perform reconstruction in the joint image-text
+embedding space, rather than the pixel space as is customary with the classical
+MAE method, which causes the model to better learn region-level semantics.
+Moreover, we introduce Positional Embedding Dropout (PED) to address scale
+variation between image-text pretraining and detection finetuning by randomly
+dropping out the positional embeddings during pretraining. PED improves
+detection performance and enables the use of a frozen ViT backbone as a region
+classifier, preventing the forgetting of open-vocabulary knowledge during
+detection finetuning. On LVIS open-vocabulary detection benchmark, CFM-ViT
+achieves a state-of-the-art 33.9 AP\(r\), surpassing the best approach by 7.6
+points and achieves better zero-shot detection transfer. Finally, CFM-ViT
+acquires strong image-level representation, outperforming the state of the art
+on 8 out of 12 metrics on zero-shot image-text retrieval benchmarks.

@@ -6,9 +6,9 @@ authors: Manuel Lagunas, Sandra Malpica, Ana Serrano, Elena Garces, Diego Gutier
 conference: ACM Transactions on Graphics
 year: 2019
 bibkey: lagunas2019a
-citations: 55
+citations: 62
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.01562'}]
-tags: ["Evaluation", "Neural Hashing"]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: Lagunas et al.
 ---
 We present a model to measure the similarity in appearance between different

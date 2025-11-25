@@ -5,9 +5,9 @@ authors: Thomas Dybdahl Ahle
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: ahle2020on
-citations: 2
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.12065'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: ["Efficiency", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Thomas Dybdahl Ahle
 ---
 A Locality-Sensitive Hash (LSH) function is called

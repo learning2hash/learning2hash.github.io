@@ -5,9 +5,9 @@ authors: Le Hui, Mingmei Cheng, Jin Xie, Jian Yang
 conference: IEEE Transactions on Image Processing
 year: 2021
 bibkey: hui2021efficient
-citations: 80
+citations: 78
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.02374'}]
-tags: ["Datasets", "Evaluation", "Neural Hashing", "Scalability"]
+tags: ["Efficiency", "Scalability"]
 short_authors: Hui et al.
 ---
 Point cloud based retrieval for place recognition is still a challenging

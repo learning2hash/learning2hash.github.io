@@ -3,12 +3,12 @@ layout: publication
 title: 'Poshaknet: Framework For Matching Dresses From Real-life Photos Using GAN
   And Siamese Network'
 authors: Abhigyan Khaund, Daksh Thapar, Aditya Nigam
-conference: Communications in Computer and Information Science
+conference: Arxiv
 year: 2019
 bibkey: khaund2019poshaknet
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.04237'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Robustness", "Tools & Libraries"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Abhigyan Khaund, Daksh Thapar, Aditya Nigam
 ---
 Online garment shopping has gained many customers in recent years. Describing

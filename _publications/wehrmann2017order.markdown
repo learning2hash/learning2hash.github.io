@@ -7,7 +7,7 @@ year: 2017
 bibkey: wehrmann2017order
 citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.00999'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: ["Datasets", "Distance Metric Learning", "Multimodal Retrieval"]
 short_authors: "J\xF4natas Wehrmann, Anderson Mattjie, Rodrigo C. Barros"
 ---
 With the novel and fast advances in the area of deep neural networks, several

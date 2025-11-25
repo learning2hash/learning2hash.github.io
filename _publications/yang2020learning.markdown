@@ -3,10 +3,10 @@ layout: publication
 title: Learning Tuple Compatibility For Conditional Outfitrecommendation
 authors: Xuewen Yang, Dongliang Xie, Xin Wang, Jiangbo Yuan, Wanying Ding, Pengyun
   Yan
-conference: ACM Transactions on Multimedia Computing, Communications, and Applications
+conference: ACM Multimedia 2020
 year: 2020
 bibkey: yang2020learning
-citations: 29
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.08189'}]
 tags: ["Datasets", "Recommender Systems", "Similarity Search"]
 short_authors: Yang et al.

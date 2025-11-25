@@ -8,7 +8,7 @@ year: 2017
 bibkey: pitsianis2017rapid
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.03671'}]
-tags: ["Evaluation", "Graph Based ANN"]
+tags: ["Evaluation", "Graph Based ANN", "Memory Efficiency", "Scalability"]
 short_authors: Pitsianis et al.
 ---
 Calculation of near-neighbor interactions among high dimensional, irregularly

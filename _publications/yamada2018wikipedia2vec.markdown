@@ -4,14 +4,13 @@ title: 'Wikipedia2vec: An Efficient Toolkit For Learning And Visualizing The Emb
   Of Words And Entities From Wikipedia'
 authors: Ikuya Yamada, Akari Asai, Jin Sakuma, Hiroyuki Shindo, Hideaki Takeda, Yoshiyasu
   Takefuji, Yuji Matsumoto
-conference: 'Proceedings of the 2020 Conference on Empirical Methods in Natural Language
-  Processing: System Demonstrations'
+conference: Arxiv
 year: 2018
 bibkey: yamada2018wikipedia2vec
-citations: 101
+citations: 40
 additional_links: [{name: Code, url: 'https://wikipedia2vec.github.io'}, {name: Paper,
     url: 'https://arxiv.org/abs/1812.06280'}]
-tags: ["Datasets", "EMNLP", "Evaluation", "Tools & Libraries"]
+tags: ["Evaluation", "Tools & Libraries"]
 short_authors: Yamada et al.
 ---
 The embeddings of entities in a large knowledge base (e.g., Wikipedia) are

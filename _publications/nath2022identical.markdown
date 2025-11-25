@@ -7,7 +7,7 @@ year: 2022
 bibkey: nath2022identical
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.04883'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Sayan Nath, Nikhil Nayak
 ---
 In recent years, we know that the interaction with images has increased.

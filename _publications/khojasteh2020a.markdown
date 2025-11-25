@@ -7,7 +7,7 @@ year: 2020
 bibkey: khojasteh2020a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.06278'}]
-tags: ["Survey Paper"]
+tags: ["Image Retrieval", "Similarity Search", "Survey Paper"]
 short_authors: Hadi Abdi Khojasteh
 ---
 This thesis surveys the research in patch-based synthesis and algorithms for

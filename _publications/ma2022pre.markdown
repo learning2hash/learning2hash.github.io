@@ -7,9 +7,9 @@ conference: Proceedings of the 45th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2022
 bibkey: ma2022pre
-citations: 30
+citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.10641'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "SIGIR", "Self-Supervised"]
+tags: ["Distance Metric Learning", "SIGIR", "Self-Supervised"]
 short_authors: Ma et al.
 ---
 Dense retrieval has shown promising results in many information retrieval

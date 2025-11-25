@@ -7,9 +7,9 @@ authors: Rui Cao, Qian Zhang, Jiasong Zhu, Qing Li, Qingquan Li, Bozhi Liu, Guop
 conference: International Journal of Remote Sensing
 year: 2019
 bibkey: cao2019enhancing
-citations: 94
+citations: 91
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.05818'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: ["Distance Metric Learning", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Cao et al.
 ---
 With the rapid growing of remotely sensed imagery data, there is a high

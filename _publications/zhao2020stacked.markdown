@@ -5,9 +5,9 @@ authors: Rui Zhao, Kecheng Zheng, Zheng-Jun Zha
 conference: 2020 IEEE International Conference on Multimedia and Expo (ICME)
 year: 2020
 bibkey: zhao2020stacked
-citations: 11
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.04959'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Text Retrieval", "Video Retrieval"]
 short_authors: Rui Zhao, Kecheng Zheng, Zheng-Jun Zha
 ---
 Existing dominant approaches for cross-modal video-text retrieval task are to

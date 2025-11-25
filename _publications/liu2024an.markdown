@@ -6,7 +6,7 @@ authors: Qi Liu, Gang Guo, Jiaxin Mao, Zhicheng Dou, Ji-Rong Wen, Hao Jiang, Xin
 conference: ACM Transactions on Information Systems
 year: 2024
 bibkey: liu2024an
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.13291'}]
 tags: ["Datasets", "Efficiency"]
 short_authors: Liu et al.

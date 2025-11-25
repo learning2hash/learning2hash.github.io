@@ -7,7 +7,7 @@ year: 2019
 bibkey: li2019designovel
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.11119'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Li et al.
 ---
 This paper describes Designovel's systems which are submitted to the Fashion

@@ -1,0 +1,33 @@
+---
+layout: publication
+title: Conditional Cross Attention Network For Multi-space Embedding Without Entanglement
+  In Only A SINGLE Network
+authors: Chull Hwan Song, Taebaek Hwang, Jooyoung Yoon, Shunghyun Choi, Yeong Hyeon
+  Gu
+conference: Arxiv
+year: 2023
+bibkey: song2023conditional
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.13254'}]
+tags: ["Datasets", "Image Retrieval"]
+short_authors: Song et al.
+---
+Many studies in vision tasks have aimed to create effective embedding spaces
+for single-label object prediction within an image. However, in reality, most
+objects possess multiple specific attributes, such as shape, color, and length,
+with each attribute composed of various classes. To apply models in real-world
+scenarios, it is essential to be able to distinguish between the granular
+components of an object. Conventional approaches to embedding multiple specific
+attributes into a single network often result in entanglement, where
+fine-grained features of each attribute cannot be identified separately. To
+address this problem, we propose a Conditional Cross-Attention Network that
+induces disentangled multi-space embeddings for various specific attributes
+with only a single backbone. Firstly, we employ a cross-attention mechanism to
+fuse and switch the information of conditions (specific attributes), and we
+demonstrate its effectiveness through a diverse visualization example.
+Secondly, we leverage the vision transformer for the first time to a
+fine-grained image retrieval task and present a simple yet effective framework
+compared to existing methods. Unlike previous studies where performance varied
+depending on the benchmark dataset, our proposed method achieved consistent
+state-of-the-art performance on the FashionAI, DARN, DeepFashion, and Zappos50K
+benchmark datasets.

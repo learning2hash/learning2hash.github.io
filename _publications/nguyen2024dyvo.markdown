@@ -7,9 +7,9 @@ conference: Proceedings of the 2024 Conference on Empirical Methods in Natural L
   Processing
 year: 2024
 bibkey: nguyen2024dyvo
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.07722'}]
-tags: ["Datasets", "EMNLP"]
+tags: ["Datasets", "EMNLP", "Text Retrieval"]
 short_authors: Nguyen et al.
 ---
 Learned Sparse Retrieval (LSR) models use vocabularies from pre-trained

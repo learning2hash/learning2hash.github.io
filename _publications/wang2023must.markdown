@@ -4,12 +4,12 @@ title: 'MUST: An Effective And Scalable Framework For Multimodal Search Of Targe
   Modality'
 authors: Mengzhao Wang, Xiangyu Ke, Xiaoliang Xu, Lu Chen, Yunjun Gao, Pinpin Huang,
   Runkai Zhu
-conference: 2024 IEEE 40th International Conference on Data Engineering (ICDE)
+conference: Arxiv
 year: 2023
 bibkey: wang2023must
-citations: 7
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.06397'}]
-tags: ["Datasets", "Efficiency", "Graph Based ANN", "Scalability", "Tools & Libraries"]
+tags: ["Efficiency", "Multimodal Retrieval", "Scalability"]
 short_authors: Wang et al.
 ---
 We investigate the problem of multimodal search of target modality, where the

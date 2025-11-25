@@ -6,9 +6,9 @@ authors: Zhe Ma, Jianfeng Dong, Yao Zhang, Zhongzi Long, Yuan He, Hui Xue, Shoul
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2020
 bibkey: ma2020fine
-citations: 48
+citations: 53
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.02814'}]
-tags: ["AAAI", "Datasets"]
+tags: ["AAAI", "Re-Ranking"]
 short_authors: Ma et al.
 ---
 This paper strives to learn fine-grained fashion similarity. In this

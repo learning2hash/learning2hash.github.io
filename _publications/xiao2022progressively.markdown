@@ -7,10 +7,10 @@ authors: Shitao Xiao, Zheng Liu, Weihao Han, Jianjin Zhang, Yingxia Shao, Defu L
 conference: Proceedings of the ACM Web Conference 2022
 year: 2022
 bibkey: xiao2022progressively
-citations: 15
+citations: 16
 additional_links: [{name: Code, url: 'https://github.com/microsoft/BiDR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2201.05409'}]
-tags: ["Evaluation", "Large Scale Search", "Neural Hashing", "Quantization", "Scalability", "Tools & Libraries", "Vector Indexing"]
+tags: ["Large Scale Search", "Quantization", "Scalability", "Similarity Search"]
 short_authors: Xiao et al.
 ---
 Ad-hoc search calls for the selection of appropriate answers from a

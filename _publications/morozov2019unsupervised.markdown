@@ -5,9 +5,9 @@ authors: Stanislav Morozov, Artem Babenko
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: morozov2019unsupervised
-citations: 21
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.03883'}]
-tags: ["Datasets", "ICCV", "Image Retrieval", "Quantization", "Scalability", "Similarity Search", "Unsupervised"]
+tags: ["ICCV", "Image Retrieval", "Quantization", "Similarity Search", "Unsupervised"]
 short_authors: Stanislav Morozov, Artem Babenko
 ---
 We tackle the problem of unsupervised visual descriptors compression, which

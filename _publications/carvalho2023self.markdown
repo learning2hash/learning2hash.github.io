@@ -6,9 +6,9 @@ authors: "Luis Carvalho, Tobias Wash\xFCttl, Gerhard Widmer"
 conference: Proceedings of the 14th ACM Multimedia Systems Conference
 year: 2023
 bibkey: carvalho2023self
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.12134'}]
-tags: ["Evaluation", "Self-Supervised", "Supervised"]
+tags: ["Evaluation", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: "Luis Carvalho, Tobias Wash\xFCttl, Gerhard Widmer"
 ---
 Linking sheet music images to audio recordings remains a key problem for the

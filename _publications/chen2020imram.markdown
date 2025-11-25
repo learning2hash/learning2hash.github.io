@@ -6,9 +6,9 @@ authors: Hui Chen, Guiguang Ding, Xudong Liu, Zijia Lin, Ji Liu, Jungong Han
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2020
 bibkey: chen2020imram
-citations: 341
+citations: 391
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.03772'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Text Retrieval"]
+tags: ["CVPR", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Chen et al.
 ---
 Enabling bi-directional retrieval of images and texts is important for

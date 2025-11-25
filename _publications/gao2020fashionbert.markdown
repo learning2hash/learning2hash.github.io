@@ -7,9 +7,9 @@ conference: Proceedings of the 43rd International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2020
 bibkey: gao2020fashionbert
-citations: 104
+citations: 114
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.09801'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Multimodal Retrieval", "SIGIR"]
+tags: ["Multimodal Retrieval", "SIGIR"]
 short_authors: Gao et al.
 ---
 In this paper, we address the text and image matching in cross-modal

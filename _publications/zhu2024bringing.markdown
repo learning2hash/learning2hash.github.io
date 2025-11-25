@@ -7,9 +7,9 @@ conference: Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery
   Data Mining
 year: 2024
 bibkey: zhu2024bringing
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.13364'}]
-tags: ["Distance Metric Learning", "Image Retrieval", "KDD"]
+tags: ["Distance Metric Learning", "Image Retrieval", "KDD", "Multimodal Retrieval"]
 short_authors: Zhu et al.
 ---
 Image to image matching has been well studied in the computer vision

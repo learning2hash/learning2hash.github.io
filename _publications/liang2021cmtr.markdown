@@ -2,12 +2,12 @@
 layout: publication
 title: 'CMTR: Cross-modality Transformer For Visible-infrared Person Re-identification'
 authors: Tengfei Liang, Yi Jin, Yajun Gao, Wu Liu, Songhe Feng, Tao Wang, Yidong Li
-conference: IEEE Transactions on Multimedia
+conference: Lecture Notes in Computer Science
 year: 2021
 bibkey: liang2021cmtr
-citations: 15
+citations: 78
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.08994'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
 short_authors: Liang et al.
 ---
 Visible-infrared cross-modality person re-identification is a challenging

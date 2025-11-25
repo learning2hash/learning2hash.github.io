@@ -3,12 +3,12 @@ layout: publication
 title: Joint Triplet Autoencoder For Histopathological Colon Cancer Nuclei Retrieval
 authors: Satya Rajendra Singh, Shiv Ram Dubey, Shruthi Ms, Sairathan Ventrapragada,
   Saivamshi Salla Dasharatha
-conference: Multimedia Tools and Applications
+conference: Arxiv
 year: 2021
 bibkey: singh2021joint
-citations: 4
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.10262'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["Datasets", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Singh et al.
 ---
 Deep learning has shown a great improvement in the performance of visual

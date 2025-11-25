@@ -6,9 +6,9 @@ authors: Shelly Sheynin, Oron Ashual, Adam Polyak, Uriel Singer, Oran Gafni, Eli
 conference: Arxiv
 year: 2022
 bibkey: sheynin2022knn
-citations: 27
+citations: 46
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.02849'}]
-tags: ["Datasets", "Robustness", "Scalability"]
+tags: ["Robustness", "Scalability"]
 short_authors: Sheynin et al.
 ---
 Recent text-to-image models have achieved impressive results. However, since

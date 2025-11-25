@@ -5,10 +5,10 @@ authors: Junho Cho, Kyuewang Lee, Jin Young Choi
 conference: Arxiv
 year: 2022
 bibkey: cho2022font
-citations: 0
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/junhocho/paired-glyph-matching'},
   {name: Paper, url: 'https://arxiv.org/abs/2211.10967'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Image Retrieval", "Self-Supervised", "Similarity Search", "Unsupervised"]
 short_authors: Junho Cho, Kyuewang Lee, Jin Young Choi
 ---
 Fonts can convey profound meanings of words in various forms of glyphs.

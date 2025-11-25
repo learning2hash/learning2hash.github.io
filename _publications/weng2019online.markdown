@@ -2,12 +2,12 @@
 layout: publication
 title: Online Hashing With Efficient Updating Of Binary Codes
 authors: Zhenyu Weng, Yuesheng Zhu
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2019
 bibkey: weng2019online
-citations: 10
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.12125'}]
-tags: ["AAAI", "Compact Codes", "Efficiency", "Hashing Methods", "Image Retrieval", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval"]
 short_authors: Zhenyu Weng, Yuesheng Zhu
 ---
 Online hashing methods are efficient in learning the hash functions from the

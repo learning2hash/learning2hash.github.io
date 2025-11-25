@@ -3,13 +3,13 @@ layout: publication
 title: Are All Combinations Equal? Combining Textual And Visual Features With Multiple
   Space Learning For Text-based Video Retrieval
 authors: Damianos Galanopoulos, Vasileios Mezaris
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2022
 bibkey: galanopoulos2022are
-citations: 10
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/bmezaris/TextToVideoRetrieval-TtimesV'},
   {name: Paper, url: 'https://arxiv.org/abs/2211.11351'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Video Retrieval"]
 short_authors: Damianos Galanopoulos, Vasileios Mezaris
 ---
 In this paper we tackle the cross-modal video retrieval problem and, more

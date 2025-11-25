@@ -5,9 +5,9 @@ authors: Sanjoy Dasgupta, Kaushik Sinha
 conference: Arxiv
 year: 2013
 bibkey: dasgupta2013randomized
-citations: 26
+citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1302.1948'}]
-tags: ["Tree Based ANN"]
+tags: ["Similarity Search", "Tree Based ANN"]
 short_authors: Sanjoy Dasgupta, Kaushik Sinha
 ---
 The k-d tree was one of the first spatial data structures proposed for

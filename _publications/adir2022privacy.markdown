@@ -7,9 +7,9 @@ authors: Allon Adir, Ehud Aharoni, Nir Drucker, Eyal Kushnir, Ramy Masalha, Mich
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: adir2022privacy
-citations: 5
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.14284'}]
-tags: ["Datasets", "Locality-Sensitive-Hashing"]
+tags: ["Datasets", "Locality-Sensitive-Hashing", "Privacy & Security"]
 short_authors: Adir et al.
 ---
 The amount of data stored in data repositories increases every year. This

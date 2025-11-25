@@ -5,9 +5,9 @@ authors: Wei-Lin Hsiao, Kristen Grauman
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: hsiao2019vibe
-citations: 32
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.06697'}]
-tags: ["CVPR", "Datasets", "Recommender Systems"]
+tags: ["CVPR", "Recommender Systems"]
 short_authors: Wei-Lin Hsiao, Kristen Grauman
 ---
 Body shape plays an important role in determining what garments will best

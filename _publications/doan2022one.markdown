@@ -6,9 +6,9 @@ authors: Khoa D. Doan, Peng Yang, Ping Li
 conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2022
 bibkey: doan2022one
-citations: 38
+citations: 46
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.15721'}]
-tags: ["CVPR", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Supervised"]
+tags: ["CVPR", "Hashing Methods", "Image Retrieval", "Quantization", "Supervised"]
 short_authors: Khoa D. Doan, Peng Yang, Ping Li
 ---
 Image hashing is a principled approximate nearest neighbor approach to find

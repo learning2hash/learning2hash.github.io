@@ -3,13 +3,13 @@ layout: publication
 title: Content-based Representations Of Audio Using Siamese Neural Networks
 authors: Pranay Manocha, Rohan Badlani, Anurag Kumar, Ankit Shah, Benjamin Elizalde,
   Bhiksha Raj
-conference: ICASSP 2018 - 2018 IEEE International Conference on Acoustics, Speech
-  and Signal Processing (ICASSP)
+conference: 2018 IEEE International Conference on Acoustics, Speech and Signal Processing
+  (ICASSP)
 year: 2017
 bibkey: manocha2017content
-citations: 24
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.10974'}]
-tags: ["Distance Metric Learning", "ICASSP"]
+tags: ["Audio Retrieval", "Distance Metric Learning", "ICASSP"]
 short_authors: Manocha et al.
 ---
 In this paper, we focus on the problem of content-based retrieval for audio,

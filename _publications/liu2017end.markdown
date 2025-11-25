@@ -7,7 +7,7 @@ year: 2017
 bibkey: liu2017end
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.04960'}]
-tags: ["Hashing Methods", "Image Retrieval", "Quantization", "Scalability"]
+tags: ["Compact Codes", "Hashing Methods", "Image Retrieval"]
 short_authors: Liu et al.
 ---
 Learning binary representation is essential to large-scale computer vision

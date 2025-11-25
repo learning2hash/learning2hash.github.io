@@ -6,9 +6,9 @@ conference: Proceedings of the 47th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2024
 bibkey: bruch2024efficient
-citations: 14
+citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.18812'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "SIGIR", "Text Retrieval"]
+tags: ["Efficiency", "SIGIR", "Text Retrieval"]
 short_authors: Bruch et al.
 ---
 Learned sparse representations form an attractive class of contextual

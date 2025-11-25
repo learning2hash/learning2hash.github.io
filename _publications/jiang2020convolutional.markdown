@@ -2,13 +2,12 @@
 layout: publication
 title: Convolutional Gaussian Embeddings For Personalized Recommendation With Uncertainty
 authors: Junyang Jiang, Deqing Yang, Yanghua Xiao, Chenlu Shen
-conference: Twenty-Eighth International Joint Conference on Artificial Intelligence
-  {IJCAI-19}
+conference: IJCAI 2019
 year: 2020
 bibkey: jiang2020convolutional
-citations: 16
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.10932'}]
-tags: ["AAAI", "Datasets", "Evaluation", "IJCAI", "Recommender Systems", "Tools & Libraries"]
+tags: ["IJCAI", "Recommender Systems"]
 short_authors: Jiang et al.
 ---
 Most of existing embedding based recommendation models use embeddings

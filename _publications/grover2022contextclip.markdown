@@ -6,9 +6,9 @@ conference: Proceedings of the Thirteenth Indian Conference on Computer Vision, 
   and Image Processing
 year: 2022
 bibkey: grover2022contextclip
-citations: 2
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.07122'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval", "Self-Supervised", "Tools & Libraries"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Chanda Grover, Indra Deep Mastan, Debayan Gupta
 ---
 State-of-the-art empirical work has shown that visual representations learned

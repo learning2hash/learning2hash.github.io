@@ -7,10 +7,10 @@ conference: 'SIGIR ''21: The 44th International ACM SIGIR Conference on Research
   Development in Information Retrieval'
 year: 2021
 bibkey: tahmasebzadeh2021geowine
-citations: 7
+citations: 8
 additional_links: [{name: Other, url: 'http://cleopatra.ijs.si/geowine/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2104.14994'}]
-tags: ["Datasets", "Multimodal Retrieval", "SIGIR"]
+tags: ["Multimodal Retrieval", "SIGIR"]
 short_authors: Tahmasebzadeh et al.
 ---
 In the context of social media, geolocation inference on news or events has

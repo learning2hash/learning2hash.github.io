@@ -7,9 +7,9 @@ conference: 'Proceedings of the 56th Annual Meeting of the Association for Compu
   Linguistics (Volume 1: Long Papers)'
 year: 2018
 bibkey: dufter2018embedding
-citations: 21
+citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.06807'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Similarity Search", "Unsupervised"]
 short_authors: Dufter et al.
 ---
 We present a new method for estimating vector space representations of words:

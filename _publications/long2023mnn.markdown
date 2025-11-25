@@ -2,12 +2,12 @@
 layout: publication
 title: 'MNN: Mixed Nearest-neighbors For Self-supervised Learning'
 authors: Xianzhong Long, Chen Peng, Yun Li
-conference: Pattern Recognition
+conference: Arxiv
 year: 2023
 bibkey: long2023mnn
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.00562'}]
-tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Self-Supervised", "Supervised", "Tools & Libraries"]
+tags: ["Efficiency", "Self-Supervised"]
 short_authors: Xianzhong Long, Chen Peng, Yun Li
 ---
 In contrastive self-supervised learning, positive samples are typically drawn

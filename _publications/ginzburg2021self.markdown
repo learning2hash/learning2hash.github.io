@@ -7,9 +7,9 @@ conference: 'Findings of the Association for Computational Linguistics: ACL-IJCN
   2021'
 year: 2021
 bibkey: ginzburg2021self
-citations: 18
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.01186'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Self-Supervised", "Unsupervised"]
 short_authors: Ginzburg et al.
 ---
 We present a novel model for the problem of ranking a collection of documents

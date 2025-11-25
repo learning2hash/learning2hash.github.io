@@ -6,9 +6,9 @@ conference: 2021 IEEE International Conference on Software Maintenance and Evolu
   (ICSME)
 year: 2021
 bibkey: gu2021multimodal
-citations: 32
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.00992'}]
-tags: ["Evaluation", "Scalability"]
+tags: ["Evaluation", "Multimodal Retrieval", "Scalability"]
 short_authors: Jian Gu, Zimin Chen, Martin Monperrus
 ---
 Semantic code search is about finding semantically relevant code snippets for

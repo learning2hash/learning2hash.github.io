@@ -6,10 +6,10 @@ conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2020
 bibkey: yokoo2020two
-citations: 20
+citations: 21
 additional_links: [{name: Code, url: 'https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution'},
   {name: Paper, url: 'https://arxiv.org/abs/2003.11211'}]
-tags: ["CVPR", "Datasets", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking", "Scalability"]
+tags: ["CVPR", "Image Retrieval", "Re-Ranking", "Scalability"]
 short_authors: Yokoo et al.
 ---
 We propose an efficient pipeline for large-scale landmark image retrieval

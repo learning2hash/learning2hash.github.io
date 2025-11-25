@@ -6,9 +6,9 @@ authors: Syed Sameed Husain, Miroslaw Bober
 conference: IEEE Transactions on Image Processing
 year: 2019
 bibkey: husain2019remap
-citations: 53
+citations: 49
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.06626'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Robustness", "Scalability", "Tools & Libraries"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Robustness", "Scalability"]
 short_authors: Syed Sameed Husain, Miroslaw Bober
 ---
 This paper addresses the problem of very large-scale image retrieval,

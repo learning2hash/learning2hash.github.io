@@ -6,9 +6,9 @@ authors: Xiao Luo, Zeyu Ma, Daqing Wu, Huasong Zhong, Chong Chen, Jinwen Ma, Min
 conference: 2021 IEEE International Conference on Multimedia and Expo (ICME)
 year: 2021
 bibkey: luo2021deep
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.06125'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Supervised", "Unsupervised"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Unsupervised"]
 short_authors: Luo et al.
 ---
 Hashing has been widely used in approximate nearest neighbor search for its

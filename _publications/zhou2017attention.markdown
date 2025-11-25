@@ -6,9 +6,9 @@ conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition Work
   (CVPRW)
 year: 2017
 bibkey: zhou2017attention
-citations: 9
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.08923'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Neural Hashing"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Zhou et al.
 ---
 Following the recent progress in image classification and captioning using

@@ -5,9 +5,9 @@ authors: Yuqi Zhang, Qi Qian, Hongsong Wang, Chong Liu, Weihua Chen, Fan Wang
 conference: IEEE Transactions on Multimedia
 year: 2023
 bibkey: zhang2023graph
-citations: 10
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.08792'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking", "Scalability"]
+tags: ["Efficiency", "Graph Based ANN", "Image Retrieval", "Re-Ranking", "Video Retrieval"]
 short_authors: Zhang et al.
 ---
 Visual retrieval tasks such as image retrieval and person re-identification

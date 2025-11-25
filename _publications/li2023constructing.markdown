@@ -7,9 +7,9 @@ conference: Proceedings of the 46th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2023
 bibkey: li2023constructing
-citations: 10
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.11943'}]
-tags: ["Efficiency", "Evaluation", "SIGIR", "Self-Supervised", "Tree Based ANN"]
+tags: ["Efficiency", "SIGIR", "Tree Based ANN"]
 short_authors: Li et al.
 ---
 Recent studies have shown that Dense Retrieval (DR) techniques can

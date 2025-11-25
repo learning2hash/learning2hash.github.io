@@ -2,12 +2,12 @@
 layout: publication
 title: Hotel Recognition Via Latent Image Embedding
 authors: Boris Tseytlin, Ilya Makarov
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2021
 bibkey: tseytlin2021hotel
-citations: 7
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.08042'}]
-tags: ["Datasets", "Distance Metric Learning", "Survey Paper"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Boris Tseytlin, Ilya Makarov
 ---
 We approach the problem of hotel recognition with deep metric learning. We

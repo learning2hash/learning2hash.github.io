@@ -2,12 +2,12 @@
 layout: publication
 title: Asymmetric Transfer Hashing With Adaptive Bipartite Graph Learning
 authors: Jianglin Lu, Jie Zhou, Yudong Chen, Witold Pedrycz, Kwok-Wai Hung
-conference: IEEE Transactions on Cybernetics
+conference: Arxiv
 year: 2022
 bibkey: lu2022asymmetric
-citations: 9
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.12592'}]
-tags: ["Evaluation", "Hashing Methods", "Similarity Search", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["Hashing Methods", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Lu et al.
 ---
 Thanks to the efficient retrieval speed and low storage consumption, learning

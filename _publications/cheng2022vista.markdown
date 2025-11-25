@@ -1,0 +1,38 @@
+---
+layout: publication
+title: 'Vista: Vision And Scene Text Aggregation For Cross-modal Retrieval'
+authors: Mengjun Cheng, Yipeng Sun, Longchao Wang, Xiongwei Zhu, Kun Yao, Jie Chen,
+  Guoli Song, Junyu Han, Jingtuo Liu, Errui Ding, Jingdong Wang
+conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2022
+bibkey: cheng2022vista
+citations: 81
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.16778'}]
+tags: ["CVPR", "Multimodal Retrieval", "Self-Supervised"]
+short_authors: Cheng et al.
+---
+Visual appearance is considered to be the most important cue to understand
+images for cross-modal retrieval, while sometimes the scene text appearing in
+images can provide valuable information to understand the visual semantics.
+Most of existing cross-modal retrieval approaches ignore the usage of scene
+text information and directly adding this information may lead to performance
+degradation in scene text free scenarios. To address this issue, we propose a
+full transformer architecture to unify these cross-modal retrieval scenarios in
+a single \(\textbf\{Vi\}\)sion and \(\textbf\{S\}\)cene \(\textbf\{T\}\)ext
+\(\textbf\{A\}\)ggregation framework (ViSTA). Specifically, ViSTA utilizes
+transformer blocks to directly encode image patches and fuse scene text
+embedding to learn an aggregated visual representation for cross-modal
+retrieval. To tackle the modality missing problem of scene text, we propose a
+novel fusion token based transformer aggregation approach to exchange the
+necessary scene text information only through the fusion token and concentrate
+on the most important features in each modality. To further strengthen the
+visual modality, we develop dual contrastive learning losses to embed both
+image-text pairs and fusion-text pairs into a common cross-modal space.
+Compared to existing methods, ViSTA enables to aggregate relevant scene text
+semantics with visual appearance, and hence improve results under both scene
+text free and scene text aware scenarios. Experimental results show that ViSTA
+outperforms other methods by at least \(\bf\{8.4\}%\) at Recall@1 for scene text
+aware retrieval task. Compared with state-of-the-art scene text free retrieval
+methods, ViSTA can achieve better accuracy on Flicker30K and MSCOCO while
+running at least three times faster during the inference stage, which validates
+the effectiveness of the proposed framework.

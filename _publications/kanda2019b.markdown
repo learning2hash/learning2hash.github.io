@@ -7,7 +7,7 @@ year: 2019
 bibkey: kanda2019b
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.08278'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Hashing Methods", "Large Scale Search", "Scalability", "Similarity Search"]
+tags: ["Efficiency", "Large Scale Search", "Memory Efficiency", "Scalability", "Similarity Search"]
 short_authors: Shunsuke Kanda, Yasuo Tabei
 ---
 Recently, randomly mapping vectorial data to strings of discrete symbols

@@ -3,12 +3,13 @@ layout: publication
 title: 'WARP: An Efficient Engine For Multi-vector Retrieval'
 authors: Jan Luca Scheerer, Matei Zaharia, Christopher Potts, Gustavo Alonso, Omar
   Khattab
-conference: Arxiv
+conference: Proceedings of the 48th International ACM SIGIR Conference on Research
+  and Development in Information Retrieval
 year: 2025
 bibkey: scheerer2025warp
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.17788'}]
-tags: ["Efficiency"]
+tags: ["Efficiency", "SIGIR"]
 short_authors: Scheerer et al.
 ---
 Multi-vector retrieval methods such as ColBERT and its recent variant, the

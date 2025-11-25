@@ -7,7 +7,7 @@ year: 2018
 bibkey: wang2018adaptive
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.07360'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Unsupervised"]
+tags: ["Image Retrieval", "Unsupervised"]
 short_authors: Wang et al.
 ---
 Aggregating deep convolutional features into a global image vector has

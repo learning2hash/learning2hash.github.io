@@ -6,9 +6,9 @@ authors: Ginger Delmas, Rafael Sampaio de Rezende, Gabriela Csurka, Diane Larlus
 conference: Arxiv
 year: 2022
 bibkey: delmas2022artemis
-citations: 27
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.08101'}]
-tags: ["Image Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Delmas et al.
 ---
 An intuitive way to search for images is to use queries composed of an

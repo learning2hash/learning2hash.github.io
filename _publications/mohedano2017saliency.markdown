@@ -5,10 +5,10 @@ authors: Eva Mohedano, Kevin McGuinness, Xavier Giro-I-Nieto, Noel E. O'Connor
 conference: 2018 International Conference on Content-Based Multimedia Indexing (CBMI)
 year: 2017
 bibkey: mohedano2017saliency
-citations: 20
+citations: 2
 additional_links: [{name: Code, url: 'https://imatge-upc.github.io/salbow/'}, {name: Paper,
     url: 'https://arxiv.org/abs/1711.10795'}]
-tags: ["Evaluation", "Tools & Libraries"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Mohedano et al.
 ---
 This work explores attention models to weight the contribution of local

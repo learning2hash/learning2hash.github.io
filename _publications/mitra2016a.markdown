@@ -5,9 +5,9 @@ authors: Bhaskar Mitra, Eric Nalisnick, Nick Craswell, Rich Caruana
 conference: Arxiv
 year: 2016
 bibkey: mitra2016a
-citations: 111
+citations: 103
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.01137'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Re-Ranking", "Text Retrieval"]
 short_authors: Mitra et al.
 ---
 A fundamental goal of search engines is to identify, given a query, documents

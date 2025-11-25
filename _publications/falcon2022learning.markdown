@@ -2,10 +2,10 @@
 layout: publication
 title: Learning Video Retrieval Models With Relevance-aware Online Mining
 authors: Alex Falcon, Giuseppe Serra, Oswald Lanz
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2022
 bibkey: falcon2022learning
-citations: 2
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/aranciokov/ranp'}, {name: Paper,
     url: 'https://arxiv.org/abs/2203.08688'}]
 tags: ["Datasets", "Evaluation", "Video Retrieval"]

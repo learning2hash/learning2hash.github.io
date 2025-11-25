@@ -5,10 +5,10 @@ authors: Hailang Huang, Zhijie Nie, Ziqiao Wang, Ziyu Shang
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2024
 bibkey: huang2024cross
-citations: 11
+citations: 23
 additional_links: [{name: Code, url: 'https://github.com/lerogo/aaai24_itr_cusa'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.05261'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Text Retrieval"]
+tags: ["AAAI", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Huang et al.
 ---
 Current image-text retrieval methods have demonstrated impressive performance

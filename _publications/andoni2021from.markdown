@@ -7,7 +7,7 @@ year: 2021
 bibkey: andoni2021from
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.05761'}]
-tags: ["Hashing Methods"]
+tags: ["Efficiency", "Hashing Methods", "Similarity Search"]
 short_authors: Alexandr Andoni, David Cheikhi
 ---
 In this note, we show that one can use average embeddings, introduced

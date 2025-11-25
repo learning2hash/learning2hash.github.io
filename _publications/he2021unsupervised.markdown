@@ -7,7 +7,7 @@ year: 2021
 bibkey: he2021unsupervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.09136'}]
-tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "Hashing Methods", "Recommender Systems", "Scalability", "Supervised", "Unsupervised"]
+tags: ["Efficiency", "Hashing Methods", "Recommender Systems", "Unsupervised"]
 short_authors: He et al.
 ---
 Abundant real-world data can be naturally represented by large-scale

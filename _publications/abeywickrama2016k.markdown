@@ -6,9 +6,9 @@ authors: Tenindra Abeywickrama, Muhammad Aamir Cheema, David Taniar
 conference: Arxiv
 year: 2016
 bibkey: abeywickrama2016k
-citations: 25
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1601.01549'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: ["Evaluation"]
 short_authors: Tenindra Abeywickrama, Muhammad Aamir Cheema, David Taniar
 ---
 A k nearest neighbor (kNN) query on road networks retrieves the k closest

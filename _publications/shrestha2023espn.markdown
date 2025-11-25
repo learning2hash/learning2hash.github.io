@@ -2,12 +2,12 @@
 layout: publication
 title: 'ESPN: Memory-efficient Multi-vector Information Retrieval'
 authors: Susav Shrestha, Narasimha Reddy, Zongwang Li
-conference: 'ISMM ''24: 2024 ACM SIGPLAN International Symposium on Memory Management'
+conference: Arxiv
 year: 2023
 bibkey: shrestha2023espn
-citations: 4
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.05417'}]
-tags: ["Hybrid ANN Methods", "Re-Ranking", "Scalability", "Similarity Search"]
+tags: ["Memory Efficiency", "Re-Ranking", "Scalability", "Similarity Search"]
 short_authors: Susav Shrestha, Narasimha Reddy, Zongwang Li
 ---
 Recent advances in large language models have demonstrated remarkable

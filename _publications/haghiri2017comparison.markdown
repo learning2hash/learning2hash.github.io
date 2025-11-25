@@ -5,9 +5,9 @@ authors: Siavash Haghiri, Debarghya Ghoshdastidar, Ulrike von Luxburg
 conference: Arxiv
 year: 2017
 bibkey: haghiri2017comparison
-citations: 11
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.01460'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Similarity Search", "Tree Based ANN"]
 short_authors: Siavash Haghiri, Debarghya Ghoshdastidar, Ulrike von Luxburg
 ---
 We consider machine learning in a comparison-based setting where we are given

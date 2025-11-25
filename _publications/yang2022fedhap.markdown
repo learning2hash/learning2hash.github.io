@@ -2,12 +2,12 @@
 layout: publication
 title: 'Fedhap: Federated Hashing With Global Prototypes For Cross-silo Retrieval'
 authors: Meilin Yang, Jian Xu, Yang Liu, Wenbo Ding
-conference: IEEE Transactions on Parallel and Distributed Systems
+conference: Arxiv
 year: 2022
 bibkey: yang2022fedhap
-citations: 8
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.05525'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Memory Efficiency", "Neural Hashing", "Scalability", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Neural Hashing", "Privacy & Security", "Scalability"]
 short_authors: Yang et al.
 ---
 Deep hashing has been widely applied in large-scale data retrieval due to its

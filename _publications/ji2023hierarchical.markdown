@@ -2,10 +2,10 @@
 layout: publication
 title: Hierarchical Matching And Reasoning For Multi-query Image Retrieval
 authors: Zhong Ji, Zhihao Li, Yan Zhang, Haoran Wang, Yanwei Pang, Xuelong Li
-conference: Neural Networks
+conference: Neural Networks 173 (2024) 106200
 year: 2023
 bibkey: ji2023hierarchical
-citations: 9
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/LZH-053/HMRN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2306.14460'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]

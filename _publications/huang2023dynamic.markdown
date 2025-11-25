@@ -2,13 +2,13 @@
 layout: publication
 title: Dynamic Weighted Combiner For Mixed-modal Image Retrieval
 authors: Fuxiang Huang, Lei Zhang, Xiaowei Fu, Suqi Song
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2023
 bibkey: huang2023dynamic
-citations: 8
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/fuxianghuang1/DWC'}, {name: Paper,
     url: 'https://arxiv.org/abs/2312.06179'}]
-tags: ["AAAI", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Huang et al.
 ---
 Mixed-Modal Image Retrieval (MMIR) as a flexible search paradigm has

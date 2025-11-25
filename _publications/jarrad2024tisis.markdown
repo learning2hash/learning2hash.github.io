@@ -7,7 +7,7 @@ year: 2024
 bibkey: jarrad2024tisis
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.11301'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Similarity Search"]
+tags: ["Datasets", "Scalability", "Similarity Search"]
 short_authors: Sara Jarrad, Hubert Naacke, Stephane Gancarski
 ---
 Social media platforms enable users to share diverse types of information,

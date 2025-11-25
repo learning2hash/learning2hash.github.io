@@ -3,12 +3,12 @@ layout: publication
 title: 'OVIS: Open-vocabulary Visual Instance Search Via Visual-semantic Aligned Representation
   Learning'
 authors: Sheng Liu, Kevin Lin, Lijuan Wang, Junsong Yuan, Zicheng Liu
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2021
 bibkey: liu2021ovis
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.03704'}]
-tags: ["AAAI", "Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Liu et al.
 ---
 We introduce the task of open-vocabulary visual instance search (OVIS). Given

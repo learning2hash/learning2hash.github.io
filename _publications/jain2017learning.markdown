@@ -2,12 +2,12 @@
 layout: publication
 title: Learning A Complete Image Indexing Pipeline
 authors: "Himalaya Jain, Joaquin Zepeda, Patrick P\xE9rez, R\xE9mi Gribonval"
-conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2017
 bibkey: jain2017learning
-citations: 7
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.04480'}]
-tags: ["CVPR", "Hashing Methods", "Supervised", "Tools & Libraries", "Unsupervised", "Vector Indexing"]
+tags: ["Image Retrieval", "Large Scale Search", "Neural Hashing", "Unsupervised", "Vector Indexing"]
 short_authors: Jain et al.
 ---
 To work at scale, a complete image indexing system comprises two components:

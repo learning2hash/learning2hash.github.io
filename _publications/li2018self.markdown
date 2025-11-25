@@ -5,9 +5,9 @@ authors: Chao Li, Cheng Deng, Ning Li, Wei Liu, Xinbo Gao, Dacheng Tao
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: li2018self
-citations: 432
+citations: 457
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.01223'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Robustness", "Self-Supervised", "Supervised"]
+tags: ["CVPR", "Hashing Methods", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Li et al.
 ---
 Thanks to the success of deep learning, cross-modal retrieval has made

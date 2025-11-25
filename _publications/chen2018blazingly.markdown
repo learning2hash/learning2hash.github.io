@@ -5,7 +5,7 @@ authors: Yuhua Chen, Jordi Pont-Tuset, Alberto Montes, Luc van Gool
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: chen2018blazingly
-citations: 283
+citations: 269
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.03131'}]
 tags: ["CVPR", "Distance Metric Learning", "Supervised"]
 short_authors: Chen et al.

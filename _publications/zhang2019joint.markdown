@@ -7,7 +7,7 @@ year: 2019
 bibkey: zhang2019joint
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.00644'}]
-tags: ["Datasets", "Distance Metric Learning", "Hashing Methods", "Multimodal Retrieval", "Scalability", "Supervised", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Shifeng Zhang, Jianmin Li, Bo Zhang
 ---
 With the rapid growth of various types of multimodal data, cross-modal deep

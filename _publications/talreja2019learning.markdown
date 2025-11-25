@@ -6,9 +6,9 @@ authors: Veeru Talreja, Sobhan Soleymani, Matthew C. Valenti, Nasser M. Nasrabad
 conference: ICC 2019 - 2019 IEEE International Conference on Communications (ICC)
 year: 2019
 bibkey: talreja2019learning
-citations: 19
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.04149'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Neural Hashing", "Tools & Libraries"]
+tags: ["Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Privacy & Security"]
 short_authors: Talreja et al.
 ---
 In this paper, we propose a novel multimodal deep hashing neural decoder

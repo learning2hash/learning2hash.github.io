@@ -10,7 +10,7 @@ year: 2024
 bibkey: bao2024diff4steer
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.04746'}]
-tags: ["Evaluation", "ICASSP", "Tools & Libraries"]
+tags: ["ICASSP", "Recommender Systems"]
 short_authors: Bao et al.
 ---
 Modern music retrieval systems often rely on fixed representations of user

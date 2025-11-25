@@ -7,10 +7,10 @@ authors: Joel Brogan, Paolo Bestagini, Aparna Bharati, Allan Pinto, Daniel Morei
 conference: 2017 IEEE International Conference on Image Processing (ICIP)
 year: 2017
 bibkey: brogan2017spotting
-citations: 10
+citations: 4
 additional_links: [{name: Other, url: 'https://www.nist.gov/itl/iad/mig/nimble-challenge'},
   {name: Paper, url: 'https://arxiv.org/abs/1705.00604'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability", "Text Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Brogan et al.
 ---
 As image tampering becomes ever more sophisticated and commonplace, the need

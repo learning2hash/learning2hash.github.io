@@ -7,9 +7,9 @@ authors: Ye Liu, Rui Meng, Shafiq Joty, Silvio Savarese, Caiming Xiong, Yingbo Z
 conference: Arxiv
 year: 2024
 bibkey: liu2024codexembed
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.12644'}]
-tags: ["Evaluation", "Scalability", "Text Retrieval", "Tools & Libraries"]
+tags: ["Scalability", "Text Retrieval", "Tools & Libraries"]
 short_authors: Liu et al.
 ---
 Despite the success of text retrieval in many NLP tasks, code retrieval

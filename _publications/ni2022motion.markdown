@@ -1,0 +1,28 @@
+---
+layout: publication
+title: Motion Sensitive Contrastive Learning For Self-supervised Video Representation
+authors: Jingcheng Ni, Nan Zhou, Jie Qin, Qian Wu, Junqi Liu, Boxun Li, di Huang
+conference: Lecture Notes in Computer Science
+year: 2022
+bibkey: ni2022motion
+citations: 9
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.06105'}]
+tags: ["Self-Supervised", "Video Retrieval"]
+short_authors: Ni et al.
+---
+Contrastive learning has shown great potential in video representation
+learning. However, existing approaches fail to sufficiently exploit short-term
+motion dynamics, which are crucial to various down-stream video understanding
+tasks. In this paper, we propose Motion Sensitive Contrastive Learning (MSCL)
+that injects the motion information captured by optical flows into RGB frames
+to strengthen feature learning. To achieve this, in addition to clip-level
+global contrastive learning, we develop Local Motion Contrastive Learning
+(LMCL) with frame-level contrastive objectives across the two modalities.
+Moreover, we introduce Flow Rotation Augmentation (FRA) to generate extra
+motion-shuffled negative samples and Motion Differential Sampling (MDS) to
+accurately screen training samples. Extensive experiments on standard
+benchmarks validate the effectiveness of the proposed method. With the
+commonly-used 3D ResNet-18 as the backbone, we achieve the top-1 accuracies of
+91.5% on UCF101 and 50.3% on Something-Something v2 for video classification,
+and a 65.6% Top-1 Recall on UCF101 for video retrieval, notably improving the
+state-of-the-art.

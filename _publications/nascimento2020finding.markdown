@@ -2,12 +2,12 @@
 layout: publication
 title: Finding Non-uniform Quantization Schemes Using Multi-task Gaussian Processes
 authors: Marcelo Gennari Do Nascimento, Theo W. Costain, Victor Adrian Prisacariu
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2020
 bibkey: nascimento2020finding
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.07743'}]
-tags: ["Datasets", "Evaluation", "Quantization"]
+tags: ["Datasets", "Quantization"]
 short_authors: Marcelo Gennari Do Nascimento, Theo W. Costain, Victor Adrian Prisacariu
 ---
 We propose a novel method for neural network quantization that casts the

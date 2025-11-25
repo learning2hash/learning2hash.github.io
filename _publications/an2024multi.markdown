@@ -5,10 +5,10 @@ authors: Xiang An, Kaicheng Yang, Xiangzi Dai, Ziyong Feng, Jiankang Deng
 conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: an2024multi
-citations: 3
+citations: 4
 additional_links: [{name: Code, url: 'https://github.com/deepglint/unicom'}, {name: Paper,
     url: 'https://arxiv.org/abs/2407.17331'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Scalability", "Self-Supervised", "Text Retrieval"]
+tags: ["Few Shot & Zero Shot", "Scalability", "Self-Supervised"]
 short_authors: An et al.
 ---
 Contrastive Language Image Pre-training (CLIP) has recently demonstrated

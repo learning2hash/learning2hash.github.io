@@ -8,9 +8,9 @@ conference: IEEE Journal of Selected Topics in Applied Earth Observations and Re
   Sensing
 year: 2023
 bibkey: jiang2023efficient
-citations: 4
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.04520'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Image Retrieval", "Scalability"]
+tags: ["Efficiency", "Graph Based ANN", "Image Retrieval", "Scalability"]
 short_authors: Jiang et al.
 ---
 SfM (Structure from Motion) has been extensively used for UAV (Unmanned

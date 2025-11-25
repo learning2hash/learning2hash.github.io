@@ -6,9 +6,9 @@ authors: Yurun Tian, Axel Barroso-Laguna, Tony Ng, Vassileios Balntas, Krystian 
 conference: Arxiv
 year: 2020
 bibkey: tian2020hynet
-citations: 35
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.10202'}]
-tags: ["Distance Metric Learning"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Tian et al.
 ---
 Recent works show that local descriptor learning benefits from the use of L2

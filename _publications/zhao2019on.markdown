@@ -2,12 +2,12 @@
 layout: publication
 title: On The Merge Of K-nn Graph
 authors: Wan-Lei Zhao, Hui Wang, Peng-Cheng Lin, Chong-Wah Ngo
-conference: IEEE Transactions on Big Data
+conference: Arxiv
 year: 2019
 bibkey: zhao2019on
-citations: 4
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.00814'}]
-tags: ["Datasets", "Evaluation", "Scalability"]
+tags: ["Graph Based ANN", "Scalability"]
 short_authors: Zhao et al.
 ---
 k-nearest neighbor graph is a fundamental data structure in many disciplines

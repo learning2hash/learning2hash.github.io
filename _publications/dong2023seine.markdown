@@ -5,9 +5,9 @@ authors: Sibo Dong, Justin Goldstein, Grace Hui Yang
 conference: Arxiv
 year: 2023
 bibkey: dong2023seine
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.15923'}]
-tags: ["Datasets", "Efficiency", "Tools & Libraries"]
+tags: ["Distance Metric Learning", "Efficiency", "Text Retrieval"]
 short_authors: Sibo Dong, Justin Goldstein, Grace Hui Yang
 ---
 Many early neural Information Retrieval (NeurIR) methods are re-rankers that

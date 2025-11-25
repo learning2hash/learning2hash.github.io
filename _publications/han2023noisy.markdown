@@ -5,9 +5,9 @@ authors: Haochen Han, Kaiyao Miao, Qinghua Zheng, Minnan Luo
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: han2023noisy
-citations: 18
+citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.06275'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Multimodal Retrieval"]
+tags: ["CVPR", "Datasets", "Multimodal Retrieval"]
 short_authors: Han et al.
 ---
 Despite the success of multimodal learning in cross-modal retrieval task, the

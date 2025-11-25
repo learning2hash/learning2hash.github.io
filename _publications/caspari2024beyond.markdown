@@ -7,9 +7,9 @@ authors: Laura Caspari, Kanishka Ghosh Dastidar, Saber Zerhoudi, Jelena Mitrovic
 conference: Arxiv
 year: 2024
 bibkey: caspari2024beyond
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.08275'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Similarity Search"]
 short_authors: Caspari et al.
 ---
 The choice of embedding model is a crucial step in the design of Retrieval

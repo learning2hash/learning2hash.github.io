@@ -6,9 +6,9 @@ authors: Xin Liu, Zhikai Hu, Haibin Ling, Yiu-Ming Cheung
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2018
 bibkey: liu2018mtfh
-citations: 157
+citations: 191
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.01963'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Memory Efficiency", "Multimodal Retrieval", "Scalability", "Tools & Libraries"]
+tags: ["Evaluation", "Hashing Methods", "Multimodal Retrieval", "Scalability"]
 short_authors: Liu et al.
 ---
 Hashing has recently sparked a great revolution in cross-modal retrieval

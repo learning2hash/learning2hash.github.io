@@ -6,7 +6,7 @@ conference: 34th International Symposium on Computational Geometry (SoCG) pp. 57
   2018
 year: 2017
 bibkey: laarhoven2017graph
-citations: 5
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.03158'}]
 tags: ["Efficiency", "Graph Based ANN"]
 short_authors: Thijs Laarhoven

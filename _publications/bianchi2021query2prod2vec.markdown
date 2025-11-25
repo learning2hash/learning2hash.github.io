@@ -7,9 +7,9 @@ conference: 'Proceedings of the 2021 Conference of the North American Chapter of
   Papers'
 year: 2021
 bibkey: bianchi2021query2prod2vec
-citations: 11
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.02061'}]
-tags: ["Efficiency", "Evaluation", "NAACL"]
+tags: ["Efficiency", "Evaluation"]
 short_authors: Federico Bianchi, Jacopo Tagliabue, Bingqing Yu
 ---
 We present Query2Prod2Vec, a model that grounds lexical representations for

@@ -5,10 +5,10 @@ authors: Haiwen Diao, Ying Zhang, Shang Gao, Xiang Ruan, Huchuan Lu
 conference: IEEE Transactions on Image Processing
 year: 2024
 bibkey: diao2024deep
-citations: 1
+citations: 5
 additional_links: [{name: Code, url: 'https://github.com/Paranioar/DBL'}, {name: Paper,
     url: 'https://arxiv.org/abs/2404.18114'}]
-tags: ["Distance Metric Learning", "Evaluation", "Self-Supervised"]
+tags: ["Distance Metric Learning", "Multimodal Retrieval"]
 short_authors: Diao et al.
 ---
 Image-text matching remains a challenging task due to heterogeneous semantic

@@ -6,9 +6,9 @@ conference: Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery
   Data Mining
 year: 2021
 bibkey: lin2021large
-citations: 14
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.10620'}]
-tags: ["Evaluation", "KDD", "Recommender Systems", "Scalability"]
+tags: ["KDD", "Recommender Systems", "Scalability"]
 short_authors: Wenqing Lin
 ---
 Network embedding has been widely used in social recommendation and network

@@ -1,14 +1,13 @@
 ---
 layout: publication
 title: Deep Saliency Hashing For Fine-grained Retrieval
-authors: Sheng Jin, Hongxun Yao, Xiaoshuai Sun, Shangchen Zhou, Lei Zhang, Xiansheng
-  Hua
+authors: Sheng Jin, Yao, Sun, Zhou, Zhang, Hua
 conference: IEEE Transactions on Image Processing
 year: 2025
 bibkey: jin2025deep
-citations: 61
+citations: 69
 additional_links: [{name: Paper, url: 'https://arxiv.org/pdf/1807.01459.pdf'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing", "Quantization", "Scalability"]
+tags: ["Hashing Methods", "Image Retrieval", "Large Scale Search", "Neural Hashing", "Quantization"]
 short_authors: Jin et al.
 ---
 In recent years, hashing methods have been proved to be

@@ -9,7 +9,7 @@ year: 2025
 bibkey: gao2025oasis
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.08161'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: Gao et al.
 ---
 Code embeddings capture the semantic representations of code and are crucial

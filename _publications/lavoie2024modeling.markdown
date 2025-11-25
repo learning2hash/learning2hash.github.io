@@ -1,0 +1,28 @@
+---
+layout: publication
+title: Modeling Caption Diversity In Contrastive Vision-language Pretraining
+authors: Samuel Lavoie, Polina Kirichenko, Mark Ibrahim, Mahmoud Assran, Andrew Gordon
+  Wilson, Aaron Courville, Nicolas Ballas
+conference: Arxiv
+year: 2024
+bibkey: lavoie2024modeling
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.00740'}]
+tags: ["Evaluation", "Few Shot & Zero Shot"]
+short_authors: Lavoie et al.
+---
+There are a thousand ways to caption an image. Contrastive Language
+Pretraining (CLIP) on the other hand, works by mapping an image and its caption
+to a single vector -- limiting how well CLIP-like models can represent the
+diverse ways to describe an image. In this work, we introduce Llip, Latent
+Language Image Pretraining, which models the diversity of captions that could
+match an image. Llip's vision encoder outputs a set of visual features that are
+mixed into a final representation by conditioning on information derived from
+the text. We show that Llip outperforms non-contextualized baselines like CLIP
+and SigLIP on a variety of tasks even with large-scale encoders. Llip improves
+zero-shot classification by an average of 2.9% zero-shot classification
+benchmarks with a ViT-G/14 encoder. Specifically, Llip attains a zero-shot
+top-1 accuracy of 83.5% on ImageNet outperforming a similarly sized CLIP by
+1.4%. We also demonstrate improvement on zero-shot retrieval on MS-COCO by
+6.0%. We provide a comprehensive analysis of the components introduced by the
+method and demonstrate that Llip leads to richer visual representations.

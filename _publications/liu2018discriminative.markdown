@@ -7,7 +7,7 @@ year: 2018
 bibkey: liu2018discriminative
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.01233'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Quantization"]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Liu Liu, Hairong Qi
 ---
 Learning compact representation is vital and challenging for large scale

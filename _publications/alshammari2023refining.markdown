@@ -8,7 +8,7 @@ year: 2023
 bibkey: alshammari2023refining
 citations: 41
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.11296'}]
-tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Quantization"]
+tags: ["Efficiency", "Quantization"]
 short_authors: Mashaan Alshammari, John Stavrakakis, Masahiro Takatsuka
 ---
 Spectral clustering became a popular choice for data clustering for its

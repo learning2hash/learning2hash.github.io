@@ -2,13 +2,12 @@
 layout: publication
 title: Beyond SIFT Using Binary Features For Loop Closure Detection
 authors: Lei Han, Guyue Zhou, Lan Xu, Lu Fang
-conference: 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems
-  (IROS)
+conference: Arxiv
 year: 2017
 bibkey: han2017beyond
-citations: 10
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.05833'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "IROS", "Similarity Search", "Vector Indexing"]
+tags: ["Evaluation", "Hashing Methods", "Similarity Search"]
 short_authors: Han et al.
 ---
 In this paper a binary feature based Loop Closure Detection (LCD) method is

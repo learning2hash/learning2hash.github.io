@@ -2,12 +2,12 @@
 layout: publication
 title: Deep Metric Learning With Alternating Projections Onto Feasible Sets
 authors: "O\u011Ful Can, Yeti Ziya G\xFCrb\xFCz, A. Ayd\u0131n Alatan"
-conference: 2021 IEEE International Conference on Image Processing (ICIP)
+conference: Arxiv
 year: 2019
 bibkey: can2019deep
-citations: 4
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.07585'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
 short_authors: "O\u011Ful Can, Yeti Ziya G\xFCrb\xFCz, A. Ayd\u0131n Alatan"
 ---
 During the training of networks for distance metric learning, minimizers of

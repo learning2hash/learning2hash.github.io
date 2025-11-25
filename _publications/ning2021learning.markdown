@@ -5,9 +5,9 @@ authors: Lin Ning, Karan Singhal, Ellie X. Zhou, Sushant Prakash
 conference: Arxiv
 year: 2021
 bibkey: ning2021learning
-citations: 2
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.07931'}]
-tags: ["Evaluation", "Tools & Libraries"]
+tags: ["Recommender Systems", "Tools & Libraries"]
 short_authors: Ning et al.
 ---
 Deep retrieval models are widely used for learning entity representations and

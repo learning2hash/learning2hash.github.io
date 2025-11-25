@@ -2,12 +2,13 @@
 layout: publication
 title: A High-dimensional Sparse Fourier Transform In The Continuous Setting
 authors: Liang Chen
-conference: Inverse Problems
+conference: There are some minor errors in the previous version please refer to <Inverse
+  problems 2022 (38)for the correct version
 year: 2021
 bibkey: chen2021a
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.10939'}]
-tags: ["Hashing Methods"]
+tags: ["Hashing Methods", "Scalability"]
 short_authors: Liang Chen
 ---
 In this paper, we theoretically propose a new hashing scheme to establish the

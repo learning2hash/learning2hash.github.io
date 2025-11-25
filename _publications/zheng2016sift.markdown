@@ -2,12 +2,12 @@
 layout: publication
 title: 'SIFT Meets CNN: A Decade Survey Of Instance Retrieval'
 authors: Liang Zheng, Yi Yang, Qi Tian
-conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
+conference: Arxiv
 year: 2016
 bibkey: zheng2016sift
-citations: 557
+citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.01807'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Survey Paper"]
+tags: ["Datasets", "Image Retrieval", "Survey Paper"]
 short_authors: Liang Zheng, Yi Yang, Qi Tian
 ---
 In the early days, content-based image retrieval (CBIR) was studied with

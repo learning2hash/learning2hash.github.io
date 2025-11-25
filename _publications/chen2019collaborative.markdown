@@ -5,9 +5,9 @@ authors: Chih-Ming Chen, Chuan-Ju Wang, Ming-Feng Tsai, Yi-Hsuan Yang
 conference: The World Wide Web Conference
 year: 2019
 bibkey: chen2019collaborative
-citations: 91
+citations: 96
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.06188'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "Scalability", "Tools & Libraries"]
+tags: ["Evaluation", "Recommender Systems", "Scalability"]
 short_authors: Chen et al.
 ---
 We present collaborative similarity embedding (CSE), a unified framework that

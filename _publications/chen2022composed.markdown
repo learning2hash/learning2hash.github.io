@@ -5,9 +5,9 @@ authors: Yiyang Chen, Zhedong Zheng, Wei Ji, Leigang Qu, Tat-Seng Chua
 conference: Arxiv
 year: 2022
 bibkey: chen2022composed
-citations: 10
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.07394'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Chen et al.
 ---
 We investigate composed image retrieval with text feedback. Users gradually

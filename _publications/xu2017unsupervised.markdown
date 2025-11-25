@@ -3,13 +3,13 @@ layout: publication
 title: Unsupervised Part-based Weighting Aggregation Of Deep Convolutional Features
   For Image Retrieval
 authors: Jian Xu, Cunzhao Shi, Chengzuo Qi, Chunheng Wang, Baihua Xiao
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2017
 bibkey: xu2017unsupervised
-citations: 34
+citations: 26
 additional_links: [{name: Code, url: 'https://github.com/XJhaoren/PWA'}, {name: Paper,
     url: 'https://arxiv.org/abs/1705.01247'}]
-tags: ["AAAI", "Datasets", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: ["Image Retrieval", "Unsupervised"]
 short_authors: Xu et al.
 ---
 In this paper, we propose a simple but effective semantic part-based

@@ -6,9 +6,9 @@ conference: Proceedings of the 42nd International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2019
 bibkey: khawar2019cleaned
-citations: 5
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.07370'}]
-tags: ["Distance Metric Learning", "Evaluation", "Recommender Systems", "SIGIR"]
+tags: ["Distance Metric Learning", "Recommender Systems", "SIGIR"]
 short_authors: Farhan Khawar, Nevin L. Zhang
 ---
 Memory-based collaborative filtering methods like user or item k-nearest

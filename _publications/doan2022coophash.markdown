@@ -8,7 +8,7 @@ year: 2022
 bibkey: doan2022coophash
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.04288'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Robustness", "Supervised", "Tools & Libraries"]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Supervised"]
 short_authors: Doan et al.
 ---
 Leveraging supervised information can lead to superior retrieval performance

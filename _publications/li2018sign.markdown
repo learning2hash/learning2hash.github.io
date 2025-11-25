@@ -2,12 +2,12 @@
 layout: publication
 title: Sign-full Random Projections
 authors: Ping Li
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2018
 bibkey: li2018sign
-citations: 6
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.00533'}]
-tags: ["AAAI", "Datasets", "Locality-Sensitive-Hashing"]
+tags: ["Distance Metric Learning", "Locality-Sensitive-Hashing"]
 short_authors: Ping Li
 ---
 The method of 1-bit ("sign-sign") random projections has been a popular tool

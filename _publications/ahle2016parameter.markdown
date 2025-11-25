@@ -6,9 +6,9 @@ conference: Proceedings of the Twenty-Eighth Annual ACM-SIAM Symposium on Discre
   Algorithms
 year: 2016
 bibkey: ahle2016parameter
-citations: 14
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.02673'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: "Thomas D. Ahle, Martin Aum\xFCller, Rasmus Pagh"
 ---
 We present a data structure for *spherical range reporting* on a point set

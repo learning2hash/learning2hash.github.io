@@ -6,7 +6,7 @@ authors: Zequn Sun, Qingheng Zhang, Wei Hu, Chengming Wang, Muhao Chen, Farahnaz
 conference: Proceedings of the VLDB Endowment
 year: 2020
 bibkey: sun2020a
-citations: 79
+citations: 237
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.07743'}]
 tags: ["Datasets", "Evaluation", "Survey Paper", "Tools & Libraries"]
 short_authors: Sun et al.

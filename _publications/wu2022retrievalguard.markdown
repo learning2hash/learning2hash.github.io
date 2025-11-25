@@ -5,9 +5,9 @@ authors: Yihan Wu, Hongyang Zhang, Heng Huang
 conference: Arxiv
 year: 2022
 bibkey: wu2022retrievalguard
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.11225'}]
-tags: ["Evaluation", "Image Retrieval", "Robustness"]
+tags: ["Image Retrieval", "Robustness"]
 short_authors: Yihan Wu, Hongyang Zhang, Heng Huang
 ---
 Recent research works have shown that image retrieval models are vulnerable

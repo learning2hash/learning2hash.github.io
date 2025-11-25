@@ -3,13 +3,12 @@ layout: publication
 title: Dynamic Texture Recognition Using PDV Hashing And Dictionary Learning On Multi-scale
   Volume Local Binary Pattern
 authors: Ruxin Ding, Jianfeng Ren, Heng Yu, Jiawei Li
-conference: ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech
-  and Signal Processing (ICASSP)
+conference: Arxiv
 year: 2021
 bibkey: ding2021dynamic
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.12315'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "ICASSP"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Video Retrieval"]
 short_authors: Ding et al.
 ---
 Spatial-temporal local binary pattern (STLBP) has been widely used in dynamic

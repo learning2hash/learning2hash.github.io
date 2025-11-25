@@ -7,12 +7,12 @@ authors: Noriaki Hashimoto, Yusuke Takagi, Hiroki Masuda, Hiroaki Miyoshi, Kei K
   Yamada, Mayuko Moritsubo, Kanako Inoue, Yasumasa Shimasaki, Yusuke Ogura, Teppei
   Imamoto, Tatsuzo Mishina, Ken Tanaka, Yoshino Kawaguchi, Shigeo Nakamura, Koichi
   Ohshima, Hidekata Hontani, Ichiro Takeuchi
-conference: Medical Image Analysis
+conference: Arxiv
 year: 2021
 bibkey: hashimoto2021case
-citations: 20
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.03602'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Supervised"]
+tags: ["Distance Metric Learning", "Image Retrieval", "Supervised"]
 short_authors: Hashimoto et al.
 ---
 In the present study, we propose a novel case-based similar image retrieval

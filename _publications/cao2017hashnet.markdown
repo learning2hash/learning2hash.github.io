@@ -5,9 +5,9 @@ authors: Zhangjie Cao, Mingsheng Long, Jianmin Wang, Philip S. Yu
 conference: 2017 IEEE International Conference on Computer Vision (ICCV)
 year: 2017
 bibkey: cao2017hashnet
-citations: 650
+citations: 692
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.00758'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "ICCV", "Neural Hashing", "Scalability"]
+tags: ["Efficiency", "Hashing Methods", "ICCV", "Neural Hashing"]
 short_authors: Cao et al.
 ---
 Learning to hash has been widely applied to approximate nearest neighbor

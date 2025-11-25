@@ -8,7 +8,7 @@ year: 2017
 bibkey: pereira2017a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.06809'}]
-tags: ["Datasets", "Image Retrieval", "Quantization"]
+tags: ["Image Retrieval", "Quantization"]
 short_authors: "\xC9rico M. Pereira, Ricardo da S. Torres, Jefersson A. Dos Santos"
 ---
 Over the last decades, hand-crafted feature extractors have been used to

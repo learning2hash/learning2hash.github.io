@@ -2,12 +2,12 @@
 layout: publication
 title: Efficient Querying From Weighted Binary Codes
 authors: Zhenyu Weng, Yuesheng Zhu
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2019
 bibkey: weng2019efficient
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.05006'}]
-tags: ["AAAI", "Compact Codes", "Datasets", "Efficiency", "Scalability", "Vector Indexing"]
+tags: ["Compact Codes", "Efficiency", "Scalability", "Vector Indexing"]
 short_authors: Zhenyu Weng, Yuesheng Zhu
 ---
 Binary codes are widely used to represent the data due to their small storage

@@ -5,9 +5,9 @@ authors: Yixiao Ge, Haibo Wang, Feng Zhu, Rui Zhao, Hongsheng Li
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: ge2020self
-citations: 109
+citations: 132
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.03926'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
+tags: ["Evaluation", "Image Retrieval", "Scalability", "Self-Supervised"]
 short_authors: Ge et al.
 ---
 The task of large-scale retrieval-based image localization is to estimate the

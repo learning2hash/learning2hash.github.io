@@ -5,9 +5,9 @@ authors: Tobias Christiani
 conference: Lecture Notes in Computer Science
 year: 2017
 bibkey: christiani2017fast
-citations: 10
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.07586'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Tobias Christiani
 ---
 The Indyk-Motwani Locality-Sensitive Hashing (LSH) framework (STOC 1998) is a

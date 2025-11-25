@@ -5,10 +5,10 @@ authors: Guan'An Wang, Shaogang Gong, Jian Cheng, Zengguang Hou
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: wang2020faster
-citations: 55
+citations: 58
 additional_links: [{name: Code, url: 'https://github.com/wangguanan/light-reid'},
   {name: Paper, url: 'https://arxiv.org/abs/2008.06826'}]
-tags: ["Compact Codes", "Datasets", "Hashing Methods", "Tools & Libraries"]
+tags: ["Compact Codes", "Efficiency", "Hashing Methods", "Image Retrieval"]
 short_authors: Wang et al.
 ---
 Fast person re-identification (ReID) aims to search person images quickly and

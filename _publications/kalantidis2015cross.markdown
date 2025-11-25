@@ -2,12 +2,12 @@
 layout: publication
 title: Cross-dimensional Weighting For Aggregated Deep Convolutional Features
 authors: Yannis Kalantidis, Clayton Mellina, Simon Osindero
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2015
 bibkey: kalantidis2015cross
-citations: 229
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1512.04065'}]
-tags: ["Datasets", "Image Retrieval", "Tools & Libraries"]
+tags: ["Image Retrieval", "Tools & Libraries"]
 short_authors: Yannis Kalantidis, Clayton Mellina, Simon Osindero
 ---
 We propose a simple and straightforward way of creating powerful image

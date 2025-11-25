@@ -9,7 +9,7 @@ year: 2022
 bibkey: ghaemmaghami2022learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.15837'}]
-tags: ["Evaluation", "Hashing Methods", "Recommender Systems"]
+tags: ["Hashing Methods", "Recommender Systems"]
 short_authors: Ghaemmaghami et al.
 ---
 A key characteristic of deep recommendation models is the immense memory

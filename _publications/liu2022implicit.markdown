@@ -7,7 +7,7 @@ year: 2022
 bibkey: liu2022implicit
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.03297'}]
-tags: ["Datasets", "Evaluation", "Neural Hashing", "Recommender Systems"]
+tags: ["Multimodal Retrieval", "Recommender Systems"]
 short_authors: Bo Liu
 ---
 With the rapid development of mobile Internet and big data, a huge amount of

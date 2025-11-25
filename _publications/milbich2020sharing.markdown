@@ -5,10 +5,10 @@ authors: "Timo Milbich, Karsten Roth, Biagio Brattoli, Bj\xF6rn Ommer"
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2020
 bibkey: milbich2020sharing
-citations: 22
+citations: 21
 additional_links: [{name: Other, url: 'https://ieeexplore.ieee.org/document/9141449'},
   {name: Paper, url: 'https://arxiv.org/abs/2004.05582'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Milbich et al.
 ---
 Learning the similarity between images constitutes the foundation for

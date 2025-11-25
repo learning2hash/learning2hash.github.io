@@ -5,9 +5,9 @@ authors: Shiv Ram Dubey
 conference: Multimedia Tools and Applications
 year: 2017
 bibkey: dubey2017local
-citations: 37
+citations: 47
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.09518'}]
-tags: ["Datasets", "Evaluation", "Neural Hashing", "Robustness", "Scalability", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Robustness"]
 short_authors: Shiv Ram Dubey
 ---
 Face recognition is still a very demanding area of research. This problem

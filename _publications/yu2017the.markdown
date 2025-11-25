@@ -6,9 +6,9 @@ authors: Qian Yu, Xiaobin Chang, Yi-Zhe Song, Tao Xiang, Timothy M. Hospedales
 conference: Arxiv
 year: 2017
 bibkey: yu2017the
-citations: 75
+citations: 80
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08106'}]
-tags: ["Image Retrieval", "Tools & Libraries"]
+tags: ["Image Retrieval"]
 short_authors: Yu et al.
 ---
 Many vision problems require matching images of object instances across

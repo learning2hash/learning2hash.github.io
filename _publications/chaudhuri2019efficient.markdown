@@ -7,7 +7,7 @@ year: 2019
 bibkey: chaudhuri2019efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.05008'}]
-tags: ["Similarity Search"]
+tags: ["Efficiency", "Image Retrieval", "Similarity Search"]
 short_authors: Ushasi Chaudhuri, Partha Bhowmick, Jayanta Mukhopadhyay
 ---
 Searching for similar logos in the registered logo database is a very

@@ -3,7 +3,7 @@ layout: publication
 title: 'INQUIRE: A Natural World Text-to-image Retrieval Benchmark'
 authors: Edward Vendrow, Omiros Pantazis, Alexander Shepard, Gabriel Brostow, Kate
   E. Jones, Oisin Mac Aodha, Sara Beery, Grant van Horn
-conference: Arxiv
+conference: Advances in Neural Information Processing Systems 37
 year: 2024
 bibkey: vendrow2024inquire
 citations: 0

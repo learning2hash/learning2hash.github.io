@@ -2,12 +2,12 @@
 layout: publication
 title: Random Binary Trees For Approximate Nearest Neighbour Search In Binary Space
 authors: Michal Komorowski, Tomasz Trzcinski
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2017
 bibkey: komorowski2017random
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.02976'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: ["Datasets", "Evaluation", "Locality-Sensitive-Hashing", "Similarity Search", "Tree Based ANN"]
 short_authors: Michal Komorowski, Tomasz Trzcinski
 ---
 Approximate nearest neighbour (ANN) search is one of the most important

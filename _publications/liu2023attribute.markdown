@@ -2,13 +2,12 @@
 layout: publication
 title: Attribute Simulation For Item Embedding Enhancement In Multi-interest Recommendation
 authors: Yaokun Liu, Xiaowang Zhang, Minghui Zou, Zhiyong Feng
-conference: 'WSDM ''24: The 17th ACM International Conference on Web Search and Data
-  Mining'
+conference: Arxiv
 year: 2023
 bibkey: liu2023attribute
-citations: 4
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.17374'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems"]
+tags: ["Datasets", "Recommender Systems"]
 short_authors: Liu et al.
 ---
 Although multi-interest recommenders have achieved significant progress in

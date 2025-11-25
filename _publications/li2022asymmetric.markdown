@@ -2,12 +2,12 @@
 layout: publication
 title: Asymmetric Scalable Cross-modal Hashing
 authors: Wenyun Li, Chi-Man Pun
-conference: 2023 IEEE International Conference on Image Processing (ICIP)
+conference: Arxiv
 year: 2022
 bibkey: li2022asymmetric
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.12650'}]
-tags: ["Compact Codes", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Scalability"]
+tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Scalability"]
 short_authors: Wenyun Li, Chi-Man Pun
 ---
 Cross-modal hashing is a successful method to solve large-scale multimedia

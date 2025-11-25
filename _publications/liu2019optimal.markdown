@@ -5,10 +5,10 @@ authors: Ji Liu, Lei Zhang
 conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2019
 bibkey: liu2019optimal
-citations: 33
+citations: 38
 additional_links: [{name: Code, url: 'https://github.com/liuji93/GTH'}, {name: Paper,
     url: 'https://arxiv.org/abs/1903.00252'}]
-tags: ["Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Unsupervised"]
 short_authors: Ji Liu, Lei Zhang
 ---
 Recently, learning to hash has been widely studied for image retrieval thanks

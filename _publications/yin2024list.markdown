@@ -8,7 +8,7 @@ year: 2024
 bibkey: yin2024list
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.07331'}]
-tags: ["Efficiency", "Neural Hashing", "Similarity Search"]
+tags: ["Efficiency", "Re-Ranking", "Similarity Search"]
 short_authors: Yin et al.
 ---
 With the proliferation of spatio-textual data, Top-k KNN spatial keyword

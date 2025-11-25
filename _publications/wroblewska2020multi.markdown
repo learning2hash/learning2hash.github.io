@@ -3,7 +3,7 @@ layout: publication
 title: Multi-modal Embedding Fusion-based Recommender
 authors: Anna Wroblewska, Jacek Dabrowski, Michal Pastuszak, Andrzej Michalowski,
   Michal Daniluk, Barbara Rychalska, Mikolaj Wieczorek, Sylwia Sysko-Romanczuk
-conference: Electronics
+conference: revised and improved version Electronics MDPI - https://www.mdpi.com/2079-9292/11/9/1391
 year: 2020
 bibkey: wroblewska2020multi
 citations: 6

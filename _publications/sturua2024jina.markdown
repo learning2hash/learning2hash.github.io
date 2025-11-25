@@ -7,9 +7,9 @@ authors: "Saba Sturua, Isabelle Mohr, Mohammad Kalim Akram, Michael G\xFCnther, 
 conference: Arxiv
 year: 2024
 bibkey: sturua2024jina
-citations: 4
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.10173'}]
-tags: ["Evaluation", "Text Retrieval"]
+tags: ["Evaluation", "Text Retrieval", "Tools & Libraries"]
 short_authors: Sturua et al.
 ---
 We introduce jina-embeddings-v3, a novel text embedding model with 570

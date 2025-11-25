@@ -7,9 +7,9 @@ conference: Proceedings of the 33rd ACM International Conference on Information 
   Knowledge Management
 year: 2024
 bibkey: rossi2024relevance
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.04887'}]
-tags: ["CIKM", "Datasets", "Distance Metric Learning", "Evaluation", "Scalability", "Similarity Search"]
+tags: ["CIKM", "Distance Metric Learning", "Evaluation", "Scalability", "Similarity Search"]
 short_authors: Rossi et al.
 ---
 In embedding-based retrieval, Approximate Nearest Neighbor (ANN) search

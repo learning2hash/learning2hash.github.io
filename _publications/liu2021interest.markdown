@@ -5,9 +5,9 @@ authors: Fan Liu, Zhiyong Cheng, Lei Zhu, Zan Gao, Liqiang Nie
 conference: Proceedings of the Web Conference 2021
 year: 2021
 bibkey: liu2021interest
-citations: 228
+citations: 264
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.10044'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "Scalability", "Unsupervised"]
+tags: ["Graph Based ANN", "Recommender Systems", "Unsupervised"]
 short_authors: Liu et al.
 ---
 Graph Convolution Networks (GCNs) manifest great potential in recommendation.

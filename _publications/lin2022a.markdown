@@ -2,13 +2,13 @@
 layout: publication
 title: A Dense Representation Framework For Lexical And Semantic Matching
 authors: Sheng-Chieh Lin, Jimmy Lin
-conference: ACM Transactions on Information Systems
+conference: Arxiv
 year: 2022
 bibkey: lin2022a
-citations: 5
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/castorini/dhr'}, {name: Paper,
     url: 'https://arxiv.org/abs/2206.09912'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Text Retrieval", "Tools & Libraries"]
+tags: ["Few Shot & Zero Shot", "Text Retrieval", "Tools & Libraries"]
 short_authors: Sheng-Chieh Lin, Jimmy Lin
 ---
 Lexical and semantic matching capture different successful approaches to text

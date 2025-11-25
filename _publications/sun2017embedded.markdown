@@ -3,10 +3,10 @@ layout: publication
 title: 'Embedded Spectral Descriptors: Learning The Point-wise Correspondence Metric
   Via Siamese Neural Networks'
 authors: Zhiyu Sun, Yusen He, Andrey Gritsenko, Amaury Lendasse, Stephen Baek
-conference: Journal of Computational Design and Engineering
+conference: Arxiv
 year: 2017
 bibkey: sun2017embedded
-citations: 10
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.06368'}]
 tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Sun et al.

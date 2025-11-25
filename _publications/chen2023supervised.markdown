@@ -7,7 +7,7 @@ year: 2023
 bibkey: chen2023supervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.11122'}]
-tags: ["Compact Codes", "Datasets", "Hashing Methods", "Neural Hashing", "Supervised"]
+tags: ["Hashing Methods", "Neural Hashing", "Supervised"]
 short_authors: "Yuan Chen, St\xE9phane Marchand-Maillet"
 ---
 Deep hashing has shown to be a complexity-efficient solution for the

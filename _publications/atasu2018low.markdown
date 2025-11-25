@@ -7,7 +7,7 @@ year: 2018
 bibkey: atasu2018low
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.02091'}]
-tags: ["Datasets", "Scalability"]
+tags: ["Scalability"]
 short_authors: Kubilay Atasu, Thomas Mittelholzer
 ---
 The Earth Mover's Distance (EMD) is a state-of-the art metric for comparing

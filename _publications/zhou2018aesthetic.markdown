@@ -7,7 +7,7 @@ year: 2018
 bibkey: zhou2018aesthetic
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.00060'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Recommender Systems"]
+tags: ["Datasets", "Image Retrieval", "Recommender Systems"]
 short_authors: Zhou et al.
 ---
 Many photography websites such as Flickr, 500px, Unsplash, and Adobe Behance

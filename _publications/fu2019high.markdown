@@ -6,10 +6,10 @@ authors: Cong Fu, Changxu Wang, Deng Cai
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2019
 bibkey: fu2019high
-citations: 42
+citations: 43
 additional_links: [{name: Code, url: 'https://github.com/ZJULearning/SSG'}, {name: Paper,
     url: 'https://arxiv.org/abs/1907.06146'}]
-tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Scalability", "Similarity Search"]
+tags: ["Efficiency", "Graph Based ANN", "Similarity Search"]
 short_authors: Cong Fu, Changxu Wang, Deng Cai
 ---
 Approximate Nearest Neighbor Search (ANNS) in high dimensional space is

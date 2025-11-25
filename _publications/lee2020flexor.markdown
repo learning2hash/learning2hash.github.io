@@ -8,7 +8,7 @@ year: 2020
 bibkey: lee2020flexor
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.04126'}]
-tags: ["Compact Codes", "Quantization"]
+tags: ["Quantization"]
 short_authors: Lee et al.
 ---
 Quantization based on the binary codes is gaining attention because each

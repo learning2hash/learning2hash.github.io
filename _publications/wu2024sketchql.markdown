@@ -3,12 +3,12 @@ layout: publication
 title: 'Sketchql Demonstration: Zero-shot Video Moment Querying With Sketches'
 authors: Renzhi Wu, Pramod Chunduri, Dristi J Shah, Ashmitha Julius Aravind, Ali Payani,
   Xu Chu, Joy Arulraj, Kexin Rong
-conference: Proceedings of the VLDB Endowment
+conference: Published on International Conference on Very Large Databases 2024
 year: 2024
 bibkey: wu2024sketchql
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.18334'}]
-tags: ["Few Shot & Zero Shot", "Similarity Search"]
+tags: ["Few Shot & Zero Shot", "Similarity Search", "Video Retrieval"]
 short_authors: Wu et al.
 ---
 In this paper, we will present SketchQL, a video database management system

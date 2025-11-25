@@ -6,9 +6,9 @@ conference: 'Proceedings of the 61st Annual Meeting of the Association for Compu
   Linguistics (Volume 1: Long Papers)'
 year: 2023
 bibkey: baek2023direct
-citations: 5
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.12416'}]
-tags: ["Tools & Libraries"]
+tags: ["Re-Ranking", "Tools & Libraries"]
 short_authors: Baek et al.
 ---
 There has been a surge of interest in utilizing Knowledge Graphs (KGs) for

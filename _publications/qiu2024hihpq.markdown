@@ -6,9 +6,9 @@ authors: Zexuan Qiu, Jiahong Liu, Yankai Chen, Irwin King
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2024
 bibkey: qiu2024hihpq
-citations: 5
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.07212'}]
-tags: ["AAAI", "Evaluation", "Image Retrieval", "Quantization", "Self-Supervised", "Unsupervised"]
+tags: ["AAAI", "Image Retrieval", "Quantization", "Unsupervised"]
 short_authors: Qiu et al.
 ---
 Existing unsupervised deep product quantization methods primarily aim for the

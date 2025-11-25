@@ -5,10 +5,10 @@ authors: Lorenzo Agnolucci, Alberto Baldrati, Marco Bertini, Alberto del Bimbo
 conference: Arxiv
 year: 2024
 bibkey: agnolucci2024isearle
-citations: 1
+citations: 2
 additional_links: [{name: Code, url: 'https://github.com/miccunifi/SEARLE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2405.02951'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Supervised"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Agnolucci et al.
 ---
 Given a query consisting of a reference image and a relative caption,

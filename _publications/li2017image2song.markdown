@@ -7,7 +7,7 @@ year: 2017
 bibkey: li2017image2song
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.05851'}]
-tags: ["Datasets", "ICCV", "Tools & Libraries"]
+tags: ["Datasets", "ICCV", "Multimodal Retrieval"]
 short_authors: Xuelong Li, di Hu, Xiaoqiang Lu
 ---
 Image is usually taken for expressing some kinds of emotions or purposes,

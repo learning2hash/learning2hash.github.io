@@ -5,9 +5,9 @@ authors: Rubel Biswas, Pablo Blanco-Medina
 conference: Arxiv
 year: 2021
 bibkey: biswas2021state
-citations: 4
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.11794'}]
-tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Survey Paper"]
+tags: ["Hashing Methods", "Image Retrieval", "Survey Paper"]
 short_authors: Rubel Biswas, Pablo Blanco-Medina
 ---
 Perceptual image hashing methods are often applied in various objectives,

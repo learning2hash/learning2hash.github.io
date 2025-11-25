@@ -5,9 +5,9 @@ authors: Xin Lu, Shikun Chen, Yichao Cao, Xin Zhou, Xiaobo Lu
 conference: Proceedings of the 31st ACM International Conference on Multimedia
 year: 2023
 bibkey: lu2023attributes
-citations: 11
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.06067'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability"]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Image Retrieval"]
 short_authors: Lu et al.
 ---
 In recent years, hashing methods have been popular in the large-scale media

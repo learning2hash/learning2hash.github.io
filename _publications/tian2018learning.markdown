@@ -7,7 +7,7 @@ year: 2018
 bibkey: tian2018learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.00682'}]
-tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Multimodal Retrieval"]
+tags: ["Hashing Methods", "Multimodal Retrieval"]
 short_authors: Dayong Tian
 ---
 In social networks, heterogeneous multimedia data correlate to each other,

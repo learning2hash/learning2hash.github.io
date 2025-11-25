@@ -2,12 +2,12 @@
 layout: publication
 title: Unsupervised Generative Adversarial Cross-modal Hashing
 authors: Jian Zhang, Yuxin Peng, Mingkuan Yuan
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2017
 bibkey: zhang2017unsupervised
-citations: 152
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.00358'}]
-tags: ["AAAI", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Robustness", "Supervised", "Unsupervised"]
+tags: ["Hashing Methods", "Multimodal Retrieval", "Unsupervised"]
 short_authors: Jian Zhang, Yuxin Peng, Mingkuan Yuan
 ---
 Cross-modal hashing aims to map heterogeneous multimedia data into a common

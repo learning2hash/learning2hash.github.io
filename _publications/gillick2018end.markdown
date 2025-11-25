@@ -5,9 +5,9 @@ authors: Daniel Gillick, Alessandro Presta, Gaurav Singh Tomar
 conference: Arxiv
 year: 2018
 bibkey: gillick2018end
-citations: 81
+citations: 71
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.08008'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: Daniel Gillick, Alessandro Presta, Gaurav Singh Tomar
 ---
 Most text-based information retrieval (IR) systems index objects by words or

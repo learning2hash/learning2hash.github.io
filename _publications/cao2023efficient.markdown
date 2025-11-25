@@ -5,9 +5,9 @@ authors: Min Cao, Yang Bai, Jingyao Wang, Ziqiang Cao, Liqiang Nie, Min Zhang
 conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2023
 bibkey: cao2023efficient
-citations: 1
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.07740'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Text Retrieval", "Tools & Libraries"]
+tags: ["Datasets", "Efficiency", "Image Retrieval", "Text Retrieval"]
 short_authors: Cao et al.
 ---
 Under the flourishing development in performance, current image-text

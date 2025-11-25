@@ -1,0 +1,32 @@
+---
+layout: publication
+title: (un)likelihood Training For Interpretable Embedding
+authors: Jiaxin Wu, Chong-Wah Ngo, Wing-Kwong Chan, Zhijian Hou
+conference: Arxiv
+year: 2022
+bibkey: wu2022un
+citations: 1
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.00282'}]
+tags: ["Datasets", "Video Retrieval"]
+short_authors: Wu et al.
+---
+Cross-modal representation learning has become a new normal for bridging the
+semantic gap between text and visual data. Learning modality agnostic
+representations in a continuous latent space, however, is often treated as a
+black-box data-driven training process. It is well-known that the effectiveness
+of representation learning depends heavily on the quality and scale of training
+data. For video representation learning, having a complete set of labels that
+annotate the full spectrum of video content for training is highly difficult if
+not impossible. These issues, black-box training and dataset bias, make
+representation learning practically challenging to be deployed for video
+understanding due to unexplainable and unpredictable results. In this paper, we
+propose two novel training objectives, likelihood and unlikelihood functions,
+to unroll semantics behind embeddings while addressing the label sparsity
+problem in training. The likelihood training aims to interpret semantics of
+embeddings beyond training labels, while the unlikelihood training leverages
+prior knowledge for regularization to ensure semantically coherent
+interpretation. With both training objectives, a new encoder-decoder network,
+which learns interpretable cross-modal representation, is proposed for ad-hoc
+video search. Extensive experiments on TRECVid and MSR-VTT datasets show the
+proposed network outperforms several state-of-the-art retrieval models with a
+statistically significant performance margin.

@@ -6,10 +6,10 @@ authors: Mikel Artetxe, Holger Schwenk
 conference: Transactions of the Association for Computational Linguistics
 year: 2018
 bibkey: artetxe2018massively
-citations: 329
+citations: 723
 additional_links: [{name: Code, url: 'https://github.com/facebookresearch/LASER'},
   {name: Paper, url: 'https://arxiv.org/abs/1812.10464'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Similarity Search", "TACL"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Similarity Search"]
 short_authors: Mikel Artetxe, Holger Schwenk
 ---
 We introduce an architecture to learn joint multilingual sentence

@@ -3,13 +3,13 @@ layout: publication
 title: '\(r^{2}\)former: Unified \(r\)etrieval And \(r\)eranking Transformer For Place
   Recognition'
 authors: Sijie Zhu, Linjie Yang, Chen Chen, Mubarak Shah, Xiaohui Shen, Heng Wang
-conference: Arxiv
+conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: zhu2023r
-citations: 0
+citations: 77
 additional_links: [{name: Code, url: 'https://github.com/Jeff-Zilence/R2Former'},
   {name: Paper, url: 'https://arxiv.org/abs/2304.03410'}]
-tags: ["Datasets", "Scalability", "Tools & Libraries"]
+tags: ["CVPR", "Efficiency", "Image Retrieval", "Re-Ranking", "Scalability"]
 short_authors: Zhu et al.
 ---
 Visual Place Recognition (VPR) estimates the location of query images by

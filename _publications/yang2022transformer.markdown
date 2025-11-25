@@ -7,7 +7,7 @@ year: 2022
 bibkey: yang2022transformer
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.04948'}]
-tags: ["Evaluation", "Robustness", "Self-Supervised", "Supervised", "Tools & Libraries"]
+tags: ["Multimodal Retrieval", "Self-Supervised"]
 short_authors: Jing Yang, Junwen Chen, Keiji Yanai
 ---
 In this paper, we present a cross-modal recipe retrieval framework,

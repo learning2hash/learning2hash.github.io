@@ -6,9 +6,9 @@ conference: Proceedings of the 44th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2021
 bibkey: li2021extra
-citations: 29
+citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.10315'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems", "SIGIR"]
+tags: ["Datasets", "Evaluation", "Locality-Sensitive-Hashing", "Recommender Systems", "SIGIR"]
 short_authors: Lei Li, Yongfeng Zhang, Li Chen
 ---
 Recently, research on explainable recommender systems has drawn much

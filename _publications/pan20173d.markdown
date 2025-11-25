@@ -1,0 +1,26 @@
+---
+layout: publication
+title: 3D Shape Retrieval Via Irrelevance Filtering And Similarity Ranking (IF/SR)
+authors: Xiaqing Pan, Yueru Chen, C. -C. Jay Kuo
+conference: Lecture Notes in Computer Science
+year: 2017
+bibkey: pan20173d
+citations: 1
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.08869'}]
+tags: ["Datasets", "Evaluation", "Unsupervised"]
+short_authors: Xiaqing Pan, Yueru Chen, C. -C. Jay Kuo
+---
+A novel solution for the content-based 3D shape retrieval problem using an
+unsupervised clustering approach, which does not need any label information of
+3D shapes, is presented in this work. The proposed shape retrieval system
+consists of two modules in cascade: the irrelevance filtering (IF) module and
+the similarity ranking (SR) module. The IF module attempts to cluster gallery
+shapes that are similar to each other by examining global and local features
+simultaneously. However, shapes that are close in the local feature space can
+be distant in the global feature space, and vice versa. To resolve this issue,
+we propose a joint cost function that strikes a balance between two distances.
+Irrelevant samples that are close in the local feature space but distant in the
+global feature space can be removed in this stage. The remaining gallery
+samples are ranked in the SR module using the local feature. The superior
+performance of the proposed IF/SR method is demonstrated by extensive
+experiments conducted on the popular SHREC12 dataset.

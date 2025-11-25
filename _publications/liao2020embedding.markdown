@@ -5,9 +5,9 @@ authors: Siyu Liao, Jie Chen, Yanzhi Wang, Qinru Qiu, Bo Yuan
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2020
 bibkey: liao2020embedding
-citations: 4
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.05314'}]
-tags: ["AAAI", "Evaluation", "Image Retrieval", "Quantization"]
+tags: ["AAAI", "Memory Efficiency", "Quantization"]
 short_authors: Liao et al.
 ---
 Continuous representation of words is a standard component in deep

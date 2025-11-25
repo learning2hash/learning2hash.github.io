@@ -6,9 +6,9 @@ authors: Hyunjong Park, Sanghoon Lee, Junghyup Lee, Bumsub Ham
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: park2021learning
-citations: 189
+citations: 241
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.07422'}]
-tags: ["ICCV", "Tools & Libraries"]
+tags: ["ICCV", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Park et al.
 ---
 We address the problem of visible-infrared person re-identification

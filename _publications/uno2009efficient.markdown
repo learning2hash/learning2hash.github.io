@@ -5,9 +5,9 @@ authors: Takeaki Uno, Masashi Sugiyama, Koji Tsuda
 conference: Arxiv
 year: 2009
 bibkey: uno2009efficient
-citations: 10
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/0904.3151'}]
-tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Graph Based ANN"]
 short_authors: Takeaki Uno, Masashi Sugiyama, Koji Tsuda
 ---
 Neighborhood graphs are gaining popularity as a concise data representation

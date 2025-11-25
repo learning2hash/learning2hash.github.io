@@ -5,9 +5,9 @@ authors: Shuang Li, Tong Xiao, Hongsheng Li, Wei Yang, Xiaogang Wang
 conference: 2017 IEEE International Conference on Computer Vision (ICCV)
 year: 2017
 bibkey: li2017identity
-citations: 245
+citations: 259
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.01988'}]
-tags: ["Datasets", "ICCV", "Tools & Libraries"]
+tags: ["ICCV", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Li et al.
 ---
 Textual-visual matching aims at measuring similarities between sentence

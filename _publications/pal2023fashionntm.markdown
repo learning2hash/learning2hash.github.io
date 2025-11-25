@@ -6,10 +6,10 @@ authors: Anwesan Pal, Sahil Wadhwa, Ayush Jaiswal, Xu Zhang, Yue Wu, Rakesh Chad
 conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2023
 bibkey: pal2023fashionntm
-citations: 2
+citations: 3
 additional_links: [{name: Other, url: 'https://sites.google.com/eng.ucsd.edu/fashionntm'},
   {name: Paper, url: 'https://arxiv.org/abs/2308.10170'}]
-tags: ["Datasets", "Evaluation", "ICCV", "Image Retrieval", "Tools & Libraries"]
+tags: ["ICCV", "Image Retrieval"]
 short_authors: Pal et al.
 ---
 Multi-turn textual feedback-based fashion image retrieval focuses on a

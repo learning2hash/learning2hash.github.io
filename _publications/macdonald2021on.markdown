@@ -6,9 +6,9 @@ conference: Proceedings of the 30th ACM International Conference on Information 
   Knowledge Management
 year: 2021
 bibkey: macdonald2021on
-citations: 14
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.11480'}]
-tags: ["CIKM", "Efficiency", "Similarity Search", "Vector Indexing"]
+tags: ["Efficiency", "Similarity Search", "Vector Indexing"]
 short_authors: Craig MacDonald, Nicola Tonellotto
 ---
 Dense retrieval, which describes the use of contextualised language models

@@ -2,12 +2,12 @@
 layout: publication
 title: Adversarial Binary Coding For Efficient Person Re-identification
 authors: Zheng Liu, Jie Qin, Annan Li, Yunhong Wang, Luc van Gool
-conference: 2019 IEEE International Conference on Multimedia and Expo (ICME)
+conference: Arxiv
 year: 2018
 bibkey: liu2018adversarial
-citations: 27
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.10914'}]
-tags: ["Compact Codes", "Efficiency", "Evaluation", "Robustness", "Scalability", "Tools & Libraries"]
+tags: ["Compact Codes", "Efficiency"]
 short_authors: Liu et al.
 ---
 Person re-identification (ReID) aims at matching persons across different

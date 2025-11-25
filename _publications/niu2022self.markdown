@@ -8,7 +8,7 @@ year: 2022
 bibkey: niu2022self
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.06461'}]
-tags: ["Distance Metric Learning", "Self-Supervised", "Supervised", "Tools & Libraries"]
+tags: ["Distance Metric Learning", "Self-Supervised"]
 short_authors: Chuang Niu, Ge Wang
 ---
 Self-supervised representation learning maps high-dimensional data into a

@@ -5,9 +5,9 @@ authors: Danhuai Guo, Shiyin Ge, Shu Zhang, Song Gao, Ran Tao, Yangang Wang
 conference: Transactions in GIS
 year: 2022
 bibkey: guo2022deepssn
-citations: 6
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.04755'}]
-tags: ["Distance Metric Learning", "Evaluation", "Neural Hashing"]
+tags: ["Distance Metric Learning", "Evaluation", "Similarity Search"]
 short_authors: Guo et al.
 ---
 Spatial-query-by-sketch is an intuitive tool to explore human spatial

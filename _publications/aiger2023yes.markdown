@@ -9,7 +9,7 @@ bibkey: aiger2023yes
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/google-research/google-research/tree/master/cann'},
   {name: Paper, url: 'https://arxiv.org/abs/2306.09012'}]
-tags: ["Datasets", "Efficiency", "ICCV", "Scalability"]
+tags: ["Efficiency", "ICCV", "Image Retrieval", "Scalability"]
 short_authors: "Dror Aiger, Andr\xE9 Araujo, Simon Lynen"
 ---
 Large-scale visual localization systems continue to rely on 3D point clouds

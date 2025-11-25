@@ -6,9 +6,9 @@ authors: Zhiyong Dou, Haotian Cui, Lin Zhang, Bo Wang
 conference: Arxiv
 year: 2020
 bibkey: dou2020learning
-citations: 7
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.01284'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Unsupervised"]
+tags: ["Graph Based ANN", "Image Retrieval", "Memory Efficiency", "Scalability", "Unsupervised"]
 short_authors: Dou et al.
 ---
 Diffusion has shown great success in improving accuracy of unsupervised image

@@ -6,10 +6,10 @@ authors: Prabhat Agarwal, Minhazul Islam Sk, Nikil Pancha, Kurchi Subhra Hazra, 
 conference: Companion Proceedings of the ACM Web Conference 2024
 year: 2024
 bibkey: agarwal2024omnisearchsage
-citations: 2
+citations: 5
 additional_links: [{name: Code, url: 'https://github.com/pinterest/atg-research/tree/main/omnisearchsage'},
   {name: Paper, url: 'https://arxiv.org/abs/2404.16260'}]
-tags: ["Efficiency"]
+tags: ["Efficiency", "Large Scale Search", "Recommender Systems", "Scalability"]
 short_authors: Agarwal et al.
 ---
 In this paper, we present OmniSearchSage, a versatile and scalable system for

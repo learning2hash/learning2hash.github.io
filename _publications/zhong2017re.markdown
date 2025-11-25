@@ -5,9 +5,9 @@ authors: Zhun Zhong, Liang Zheng, Donglin Cao, Shaozi Li
 conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2017
 bibkey: zhong2017re
-citations: 1372
+citations: 1451
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.08398'}]
-tags: ["CVPR", "Datasets", "Hybrid ANN Methods", "Re-Ranking", "Scalability", "Unsupervised"]
+tags: ["CVPR", "Re-Ranking", "Unsupervised"]
 short_authors: Zhong et al.
 ---
 When considering person re-identification (re-ID) as a retrieval process,

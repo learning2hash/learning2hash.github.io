@@ -6,9 +6,9 @@ authors: Sohrab Ferdowsi, Slava Voloshynovskiy, Dimche Kostadinov, Taras Holotya
 conference: 2017 IEEE International Symposium on Information Theory (ISIT)
 year: 2017
 bibkey: ferdowsi2017sparse
-citations: 12
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.07675'}]
-tags: ["Compact Codes", "Scalability", "Similarity Search"]
+tags: ["Compact Codes", "Similarity Search"]
 short_authors: Ferdowsi et al.
 ---
 This paper addresses the problem of Approximate Nearest Neighbor (ANN) search

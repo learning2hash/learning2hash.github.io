@@ -5,9 +5,9 @@ authors: Felix Taubner, Florian Tschopp, Tonci Novkovic, Roland Siegwart, Fadri 
 conference: 2020 International Conference on 3D Vision (3DV)
 year: 2020
 bibkey: taubner2020lcd
-citations: 15
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.10867'}]
-tags: ["Datasets", "Distance Metric Learning"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Taubner et al.
 ---
 Current research on visual place recognition mostly focuses on aggregating

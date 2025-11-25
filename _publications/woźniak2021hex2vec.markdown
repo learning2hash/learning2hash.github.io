@@ -6,9 +6,9 @@ conference: 'SIGSPATIAL ''21: 29th International Conference on Advances in Geogr
   Information Systems'
 year: 2021
 bibkey: "wo\u017Aniak2021hex2vec"
-citations: 24
+citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.00970'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: "Szymon Wo\u017Aniak, Piotr Szyma\u0144ski"
 ---
 Representation learning of spatial and geographic data is a rapidly

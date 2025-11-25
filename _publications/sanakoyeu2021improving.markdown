@@ -5,9 +5,9 @@ authors: "Artsiom Sanakoyeu, Pingchuan Ma, Vadim Tschernezki, Bj\xF6rn Ommer"
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2021
 bibkey: sanakoyeu2021improving
-citations: 16
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.04003'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Image Retrieval"]
 short_authors: Sanakoyeu et al.
 ---
 Deep metric learning (DML) is a cornerstone of many computer vision

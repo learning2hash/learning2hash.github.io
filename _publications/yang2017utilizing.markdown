@@ -5,9 +5,9 @@ authors: Chenhao Yang, Ben He, Yanhua Ran
 conference: Arxiv
 year: 2017
 bibkey: yang2017utilizing
-citations: 3
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.03181'}]
-tags: ["Uncategorized"]
+tags: ["Similarity Search", "Text Retrieval"]
 short_authors: Chenhao Yang, Ben He, Yanhua Ran
 ---
 Latent semantic representations of words or paragraphs, namely the

@@ -2,12 +2,12 @@
 layout: publication
 title: Hashing With Mutual Information
 authors: Fatih Cakir, Kun He, Sarah Adel Bargal, Stan Sclaroff
-conference: Lecture Notes in Computer Science
+conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2018
 bibkey: cakir2018hashing
-citations: 31
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.00974'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Supervised", "Video Retrieval"]
+tags: ["Hashing Methods", "Image Retrieval", "Supervised"]
 short_authors: Cakir et al.
 ---
 Binary vector embeddings enable fast nearest neighbor retrieval in large

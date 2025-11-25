@@ -1,0 +1,37 @@
+---
+layout: publication
+title: 'Collm: A Large Language Model For Composed Image Retrieval'
+authors: Chuong Huynh, Jinyu Yang, Ashish Tawari, Mubarak Shah, Son Tran, Raffay Hamid,
+  Trishul Chilimbi, Abhinav Shrivastava
+conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2025
+bibkey: huynh2025collm
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.19910'}]
+tags: ["CVPR", "Datasets", "Image Retrieval", "Supervised"]
+short_authors: Huynh et al.
+---
+Composed Image Retrieval (CIR) is a complex task that aims to retrieve images
+based on a multimodal query. Typical training data consists of triplets
+containing a reference image, a textual description of desired modifications,
+and the target image, which are expensive and time-consuming to acquire. The
+scarcity of CIR datasets has led to zero-shot approaches utilizing synthetic
+triplets or leveraging vision-language models (VLMs) with ubiquitous
+web-crawled image-caption pairs. However, these methods have significant
+limitations: synthetic triplets suffer from limited scale, lack of diversity,
+and unnatural modification text, while image-caption pairs hinder joint
+embedding learning of the multimodal query due to the absence of triplet data.
+Moreover, existing approaches struggle with complex and nuanced modification
+texts that demand sophisticated fusion and understanding of vision and language
+modalities. We present CoLLM, a one-stop framework that effectively addresses
+these limitations. Our approach generates triplets on-the-fly from
+image-caption pairs, enabling supervised training without manual annotation. We
+leverage Large Language Models (LLMs) to generate joint embeddings of reference
+images and modification texts, facilitating deeper multimodal fusion.
+Additionally, we introduce Multi-Text CIR (MTCIR), a large-scale dataset
+comprising 3.4M samples, and refine existing CIR benchmarks (CIRR and
+Fashion-IQ) to enhance evaluation reliability. Experimental results demonstrate
+that CoLLM achieves state-of-the-art performance across multiple CIR benchmarks
+and settings. MTCIR yields competitive results, with up to 15% performance
+improvement. Our refined benchmarks provide more reliable evaluation metrics
+for CIR models, contributing to the advancement of this important field.

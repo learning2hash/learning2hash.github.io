@@ -5,9 +5,9 @@ authors: Huu Le, Tuan Hoang, Michael Milford
 conference: IEEE Robotics and Automation Letters
 year: 2019
 bibkey: le2019btel
-citations: 5
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.11992'}]
-tags: ["Efficiency", "Evaluation", "Image Retrieval", "Quantization"]
+tags: ["Efficiency", "Image Retrieval", "Quantization"]
 short_authors: Huu Le, Tuan Hoang, Michael Milford
 ---
 Visual localization algorithms have achieved significant improvements in

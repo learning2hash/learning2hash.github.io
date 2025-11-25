@@ -7,7 +7,7 @@ year: 2022
 bibkey: li2022informative
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.10382'}]
-tags: ["Datasets", "Distance Metric Learning", "Supervised"]
+tags: ["Distance Metric Learning", "Supervised"]
 short_authors: Li et al.
 ---
 Among various supervised deep metric learning methods proxy-based approaches

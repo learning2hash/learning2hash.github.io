@@ -8,7 +8,7 @@ year: 2021
 bibkey: cheng2021cnn
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.14566'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Unsupervised", "Video Retrieval"]
+tags: ["Distance Metric Learning", "Re-Ranking", "Unsupervised", "Video Retrieval"]
 short_authors: Hao Cheng, Ping Wang, Chun Qi
 ---
 As important data carriers, the drastically increasing number of multimedia

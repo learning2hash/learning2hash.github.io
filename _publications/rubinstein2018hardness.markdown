@@ -5,9 +5,9 @@ authors: Aviad Rubinstein
 conference: Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing
 year: 2018
 bibkey: rubinstein2018hardness
-citations: 75
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.00904'}]
-tags: ["Efficiency", "Tools & Libraries"]
+tags: ["Efficiency"]
 short_authors: Aviad Rubinstein
 ---
 We prove conditional near-quadratic running time lower bounds for approximate

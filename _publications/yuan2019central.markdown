@@ -3,13 +3,13 @@ layout: publication
 title: Central Similarity Quantization For Efficient Image And Video Retrieval
 authors: Li Yuan, Tao Wang, Xiaopeng Zhang, Francis Eh Tay, Zequn Jie, Wei Liu, Jiashi
   Feng
-conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2019
 bibkey: yuan2019central
-citations: 297
+citations: 19
 additional_links: [{name: Code, url: 'https://github.com/yuanli2333/Hadamard-Matrix-for-hashing'},
   {name: Paper, url: 'https://arxiv.org/abs/1908.00347'}]
-tags: ["CVPR", "Distance Metric Learning", "Efficiency", "Evaluation", "Hashing Methods", "Quantization", "Scalability", "Video Retrieval"]
+tags: ["Distance Metric Learning", "Efficiency", "Hashing Methods", "Quantization", "Video Retrieval"]
 short_authors: Yuan et al.
 ---
 Existing data-dependent hashing methods usually learn hash functions from

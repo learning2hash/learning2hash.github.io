@@ -6,10 +6,10 @@ authors: Xuri Ge, Songpei Xu, Fuhai Chen, Jie Wang, Guoxin Wang, Shan An, Joemon
 conference: Information Processing &amp; Management
 year: 2024
 bibkey: ge20243shnet
-citations: 14
+citations: 19
 additional_links: [{name: Code, url: 'https://github.com/XuriGe1995/3SHNet'}, {name: Paper,
     url: 'https://arxiv.org/abs/2404.17273'}]
-tags: ["Datasets", "Efficiency", "Evaluation"]
+tags: ["Datasets", "Efficiency", "Image Retrieval"]
 short_authors: Ge et al.
 ---
 In this paper, we propose a novel visual Semantic-Spatial Self-Highlighting

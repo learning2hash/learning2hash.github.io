@@ -5,7 +5,7 @@ authors: "Martin Engilberge, Louis Chevallier, Patrick P\xE9rez, Matthieu Cord"
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: engilberge2018finding
-citations: 86
+citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.01720'}]
 tags: ["CVPR", "Evaluation", "Multimodal Retrieval"]
 short_authors: Engilberge et al.

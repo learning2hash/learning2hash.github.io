@@ -8,7 +8,7 @@ year: 2017
 bibkey: jain2017asymmetric
 citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.08403'}]
-tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Quantization"]
+tags: ["Distance Metric Learning", "Evaluation", "Quantization"]
 short_authors: Brijnesh Jain, David Schultz
 ---
 The nearest neighbor method together with the dynamic time warping (DTW)

@@ -8,7 +8,7 @@ year: 2020
 bibkey: jian2020fast
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.02002'}]
-tags: ["Distance Metric Learning", "Quantization", "Similarity Search"]
+tags: ["Quantization", "Scalability", "Similarity Search"]
 short_authors: Jian et al.
 ---
 We explore the use of GPU for accelerating large scale nearest neighbor

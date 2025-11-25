@@ -1,13 +1,32 @@
 ---
 layout: publication
-title: Self-supervised Video Hashing Via Bidirectional Transformers
-authors: Shuyan Li, Xiu Li, Jiwen Lu, Jie Zhou
-conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+title: Self-supervised Learning With Kernel Dependence Maximization
+authors: Yazhe Li, Roman Pogodin, Danica J. Sutherland, Arthur Gretton
+conference: Arxiv
 year: 2021
 bibkey: li2021self
-citations: 43
-additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Self-Supervised_Video_Hashing_via_Bidirectional_Transformers_CVPR_2021_paper.pdf'}]
-tags: ["CVPR", "Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Self-Supervised", "Supervised", "Unsupervised", "Video Retrieval"]
+citations: 21
+additional_links: [{name: Code, url: 'https://github.com/deepmind/ssl_hsic'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2106.08320'}]
+tags: ["Evaluation", "Self-Supervised"]
 short_authors: Li et al.
 ---
-Most existing unsupervised video hashing methods are built on unidirectional models with less reliable training objectives, which underuse the correlations among frames and the similarity structure between videos. To enable efficient scalable video retrieval, we propose a self-supervised video Hashing method based on Bidirectional Transformers (BTH). Based on the encoder-decoder structure of transformers, we design a visual cloze task to fully exploit the bidirectional correlations between frames. To unveil the similarity structure between unlabeled video data, we further develop a similarity reconstruction task by establishing reliable and effective similarity connections in the video space. Furthermore, we develop a cluster assignment task to exploit the structural statistics of the whole dataset such that more discriminative binary codes can be learned. Extensive experiments implemented on three public benchmark datasets, FCVID, ActivityNet and YFCC, demonstrate the superiority of our proposed approach.
+We approach self-supervised learning of image representations from a
+statistical dependence perspective, proposing Self-Supervised Learning with the
+Hilbert-Schmidt Independence Criterion (SSL-HSIC). SSL-HSIC maximizes
+dependence between representations of transformations of an image and the image
+identity, while minimizing the kernelized variance of those representations.
+This framework yields a new understanding of InfoNCE, a variational lower bound
+on the mutual information (MI) between different transformations. While the MI
+itself is known to have pathologies which can result in learning meaningless
+representations, its bound is much better behaved: we show that it implicitly
+approximates SSL-HSIC (with a slightly different regularizer). Our approach
+also gives us insight into BYOL, a negative-free SSL method, since SSL-HSIC
+similarly learns local neighborhoods of samples. SSL-HSIC allows us to directly
+optimize statistical dependence in time linear in the batch size, without
+restrictive data assumptions or indirect mutual information estimators. Trained
+with or without a target network, SSL-HSIC matches the current state-of-the-art
+for standard linear evaluation on ImageNet, semi-supervised learning and
+transfer to other classification and vision tasks such as semantic
+segmentation, depth estimation and object recognition. Code is available at
+https://github.com/deepmind/ssl_hsic .

@@ -2,12 +2,12 @@
 layout: publication
 title: 'Learning To Break Deep Perceptual Hashing: The Use Case Neuralhash'
 authors: Lukas Struppek, Dominik Hintersdorf, Daniel Neider, Kristian Kersting
-conference: 'FAccT ''22: 2022 ACM Conference on Fairness, Accountability, and Transparency'
+conference: Arxiv
 year: 2021
 bibkey: struppek2021learning
-citations: 26
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.06628'}]
-tags: ["Hashing Methods"]
+tags: ["Hashing Methods", "Neural Hashing", "Privacy & Security", "Robustness"]
 short_authors: Struppek et al.
 ---
 Apple recently revealed its deep perceptual hashing system NeuralHash to

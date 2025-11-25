@@ -6,9 +6,9 @@ conference: Proceedings of the 46th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2023
 bibkey: qu2023learnable
-citations: 13
+citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.12570'}]
-tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "SIGIR", "Text Retrieval"]
+tags: ["Image Retrieval", "Multimodal Retrieval", "Re-Ranking", "SIGIR"]
 short_authors: Qu et al.
 ---
 Image-text retrieval aims to bridge the modality gap and retrieve cross-modal

@@ -7,9 +7,9 @@ authors: Caojin Zhang, Yicun Liu, Yuanpu Xie, Sofia Ira Ktena, Alykhan Tejani, A
 conference: Fourteenth ACM Conference on Recommender Systems
 year: 2020
 bibkey: zhang2020model
-citations: 32
+citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.14523'}]
-tags: ["Evaluation", "Hashing Methods", "Recommender Systems"]
+tags: ["Hashing Methods", "Recommender Systems"]
 short_authors: Zhang et al.
 ---
 Deep Neural Networks (DNNs) with sparse input features have been widely used

@@ -7,7 +7,7 @@ year: 2019
 bibkey: wang2019stacked
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.01971'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Scalability"]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Wang et al.
 ---
 Zero-shot sketch-based image retrieval (ZS-SBIR) is a task of cross-domain

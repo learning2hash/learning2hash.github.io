@@ -6,10 +6,10 @@ authors: Qi Chen, Bing Zhao, Haidong Wang, Mingqin Li, Chuanjie Liu, Zengzhong L
 conference: Arxiv
 year: 2021
 bibkey: chen2021spann
-citations: 4
+citations: 3
 additional_links: [{name: Code, url: 'https://github.com/microsoft/SPTAG\'}, {name: Paper,
     url: 'https://arxiv.org/abs/2111.08566'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hybrid ANN Methods", "Large Scale Search", "Scalability"]
+tags: ["Efficiency", "Hybrid ANN Methods", "Large Scale Search", "Scalability", "Vector Indexing"]
 short_authors: Chen et al.
 ---
 The in-memory algorithms for approximate nearest neighbor search (ANNS) have

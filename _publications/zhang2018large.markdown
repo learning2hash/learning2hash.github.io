@@ -3,12 +3,12 @@ layout: publication
 title: Large-scale Visual Relationship Understanding
 authors: Ji Zhang, Yannis Kalantidis, Marcus Rohrbach, Manohar Paluri, Ahmed Elgammal,
   Mohamed Elhoseiny
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2018
 bibkey: zhang2018large
-citations: 84
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.10660'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Scalability"]
+tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Zhang et al.
 ---
 Large scale visual understanding is challenging, as it requires a model to

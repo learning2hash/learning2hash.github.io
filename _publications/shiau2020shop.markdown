@@ -7,9 +7,9 @@ conference: 'KDD ''20: The 26th ACM SIGKDD Conference on Knowledge Discovery and
   Mining'
 year: 2020
 bibkey: shiau2020shop
-citations: 16
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.10866'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "KDD"]
+tags: ["Evaluation", "Image Retrieval", "KDD", "Scalability"]
 short_authors: Shiau et al.
 ---
 As online content becomes ever more visual, the demand for searching by

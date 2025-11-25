@@ -2,12 +2,12 @@
 layout: publication
 title: Deep Learning For Image Search And Retrieval In Large Remote Sensing Archives
 authors: "Gencer Sumbul, Jian Kang, Beg\xFCm Demir"
-conference: Deep Learning for the Earth Sciences
+conference: Arxiv
 year: 2020
 bibkey: sumbul2020deep
-citations: 25
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.01613'}]
-tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: ["Hashing Methods", "Image Retrieval"]
 short_authors: "Gencer Sumbul, Jian Kang, Beg\xFCm Demir"
 ---
 This chapter presents recent advances in content based image search and

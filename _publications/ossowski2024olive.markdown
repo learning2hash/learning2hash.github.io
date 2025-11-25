@@ -8,7 +8,7 @@ year: 2024
 bibkey: ossowski2024olive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.00872'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Robustness"]
+tags: ["Few Shot & Zero Shot", "Robustness"]
 short_authors: Timothy Ossowski, Junjie Hu
 ---
 Recent generalist vision-language models (VLMs) have demonstrated impressive

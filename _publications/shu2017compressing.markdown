@@ -5,9 +5,9 @@ authors: Raphael Shu, Hideki Nakayama
 conference: Arxiv
 year: 2017
 bibkey: shu2017compressing
-citations: 95
+citations: 29
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.01068'}]
-tags: ["Evaluation", "Hashing Methods", "Quantization"]
+tags: ["Hashing Methods", "Memory Efficiency", "Neural Hashing", "Quantization"]
 short_authors: Raphael Shu, Hideki Nakayama
 ---
 Natural language processing (NLP) models often require a massive number of

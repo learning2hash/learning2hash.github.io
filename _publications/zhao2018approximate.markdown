@@ -5,9 +5,9 @@ authors: Wan-Lei Zhao, Hui Wang, Chong-Wah Ngo
 conference: Arxiv
 year: 2018
 bibkey: zhao2018approximate
-citations: 4
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.03032'}]
-tags: ["Graph Based ANN"]
+tags: ["Graph Based ANN", "Large Scale Search", "Scalability", "Similarity Search"]
 short_authors: Wan-Lei Zhao, Hui Wang, Chong-Wah Ngo
 ---
 Nearest neighbor search and k-nearest neighbor graph construction are two

@@ -7,9 +7,9 @@ conference: 2019 IEEE 10th International Conference on Biometrics Theory, Applic
   and Systems (BTAS)
 year: 2019
 bibkey: talreja2019zero
-citations: 20
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.02706'}]
-tags: ["Compact Codes", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods", "Neural Hashing", "Tools & Libraries"]
+tags: ["Few Shot & Zero Shot", "Hashing Methods", "Neural Hashing", "Privacy & Security"]
 short_authors: Veeru Talreja, Matthew C. Valenti, Nasser M. Nasrabadi
 ---
 In this paper, we present a novel architecture that integrates a deep hashing

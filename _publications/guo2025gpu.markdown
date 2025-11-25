@@ -8,7 +8,7 @@ year: 2025
 bibkey: guo2025gpu
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.11490'}]
-tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "Graph Based ANN", "Large Scale Search", "Scalability", "Similarity Search", "Tools & Libraries"]
+tags: ["Efficiency", "Graph Based ANN", "Large Scale Search", "Recommender Systems", "Scalability"]
 short_authors: Guo et al.
 ---
 Web recommendations provide personalized items from massive catalogs for

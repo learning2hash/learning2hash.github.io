@@ -6,9 +6,9 @@ authors: Stamatis Outsios, Konstantinos Skianis, Polykarpos Meladianos, Christos
 conference: Arxiv
 year: 2018
 bibkey: outsios2018word
-citations: 9
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.06694'}]
-tags: ["Scalability"]
+tags: ["Similarity Search", "Tools & Libraries"]
 short_authors: Outsios et al.
 ---
 Word embeddings are undoubtedly very useful components in many NLP tasks. In

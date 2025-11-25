@@ -2,12 +2,12 @@
 layout: publication
 title: Target-oriented Deformation Of Visual-semantic Embedding Space
 authors: Takashi Matsubara
-conference: IEICE Transactions on Information and Systems
+conference: Arxiv
 year: 2019
 bibkey: matsubara2019target
-citations: 3
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.06514'}]
-tags: ["Datasets", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
 short_authors: Takashi Matsubara
 ---
 Multimodal embedding is a crucial research topic for cross-modal

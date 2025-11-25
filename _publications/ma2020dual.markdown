@@ -3,12 +3,12 @@ layout: publication
 title: Dual-path CNN With Max Gated Block For Text-based Person Re-identification
 authors: Tinghuai Ma, Mingming Yang, Huan Rong, Yurong Qian, Yurong Qian, Yuan Tian,
   Najlaal-Nabhan
-conference: Image and Vision Computing
+conference: Arxiv
 year: 2020
 bibkey: ma2020dual
-citations: 26
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.09343'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Ma et al.
 ---
 Text-based person re-identification(Re-id) is an important task in video

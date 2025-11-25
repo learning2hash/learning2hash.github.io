@@ -6,9 +6,9 @@ authors: Yu-An Chung, Wei-Hung Weng
 conference: Arxiv
 year: 2017
 bibkey: chung2017learning
-citations: 63
+citations: 61
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08490'}]
-tags: ["Datasets", "Image Retrieval", "Supervised"]
+tags: ["Datasets", "Image Retrieval", "Self-Supervised"]
 short_authors: Yu-An Chung, Wei-Hung Weng
 ---
 Deep neural networks have been investigated in learning latent

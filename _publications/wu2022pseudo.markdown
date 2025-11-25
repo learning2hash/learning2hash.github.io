@@ -6,9 +6,9 @@ authors: Lin Wu, Deyin Liu, Wenying Zhang, Dapeng Chen, Zongyuan Ge, Farid Bouss
 conference: IEEE Transactions on Image Processing
 year: 2022
 bibkey: wu2022pseudo
-citations: 46
+citations: 58
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.13035'}]
-tags: ["Datasets", "Evaluation", "Supervised", "Unsupervised"]
+tags: ["Self-Supervised", "Unsupervised"]
 short_authors: Wu et al.
 ---
 Person re-identification (re-ID) is of great importance to video surveillance

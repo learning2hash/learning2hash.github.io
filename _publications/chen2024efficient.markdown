@@ -7,7 +7,7 @@ year: 2024
 bibkey: chen2024efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.15438'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Memory Efficiency", "Recommender Systems", "Scalability", "Similarity Search", "Tools & Libraries"]
+tags: ["Efficiency", "Memory Efficiency", "Recommender Systems", "Scalability"]
 short_authors: Chen et al.
 ---
 Embedding models have become essential tools in both natural language

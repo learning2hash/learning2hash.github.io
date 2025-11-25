@@ -6,9 +6,9 @@ conference: Proceedings of the 27th ACM International Conference on Information 
   Knowledge Management
 year: 2018
 bibkey: "novotn\xFD2018implementation"
-citations: 28
+citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.09407'}]
-tags: ["CIKM", "Text Retrieval", "Tools & Libraries"]
+tags: ["Similarity Search", "Text Retrieval", "Tools & Libraries"]
 short_authors: "V\xEDt Novotn\xFD"
 ---
 The standard bag-of-words vector space model (VSM) is efficient, and

@@ -8,7 +8,7 @@ year: 2022
 bibkey: gupta2022faircop
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.15870'}]
-tags: ["Datasets", "Efficiency", "Image Retrieval", "Recommender Systems", "Scalability", "Self-Supervised", "Tools & Libraries"]
+tags: ["Image Retrieval", "Recommender Systems", "Self-Supervised"]
 short_authors: Gupta et al.
 ---
 Retrieving facial images from attributes plays a vital role in various

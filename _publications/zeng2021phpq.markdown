@@ -8,7 +8,7 @@ year: 2021
 bibkey: zeng2021phpq
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.05206'}]
-tags: ["Compact Codes", "Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Scalability"]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
 short_authors: Zeng et al.
 ---
 Deep hashing approaches, including deep quantization and deep binary hashing,

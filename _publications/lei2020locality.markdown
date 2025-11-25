@@ -6,9 +6,9 @@ conference: Proceedings of the 2020 ACM SIGMOD International Conference on Manag
   of Data
 year: 2020
 bibkey: lei2020locality
-citations: 25
+citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.05345'}]
-tags: ["Datasets", "Distance Metric Learning", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
+tags: ["Datasets", "Distance Metric Learning", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Lei et al.
 ---
 Locality-Sensitive Hashing (LSH) is one of the most popular methods for

@@ -6,10 +6,10 @@ authors: Shangda Wu, Dingyao Yu, Xu Tan, Maosong Sun
 conference: Arxiv
 year: 2023
 bibkey: wu2023clamp
-citations: 1
+citations: 2
 additional_links: [{name: Code, url: 'https://github.com/microsoft/muzic/tree/main/clamp'},
   {name: Paper, url: 'https://arxiv.org/abs/2304.11029'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Wu et al.
 ---
 We introduce CLaMP: Contrastive Language-Music Pre-training, which learns

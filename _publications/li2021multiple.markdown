@@ -5,10 +5,10 @@ authors: Zhenxi Li, Guillaume-Alexandre Bilodeau, Wassim Bouachir
 conference: Machine Vision and Applications
 year: 2021
 bibkey: li2021multiple
-citations: 6
+citations: 7
 additional_links: [{name: Code, url: 'https://github.com/zhenxili96/MFST'}, {name: Paper,
     url: 'https://arxiv.org/abs/2103.01222'}]
-tags: ["Evaluation", "Tools & Libraries"]
+tags: ["Evaluation", "Similarity Search", "Tools & Libraries"]
 short_authors: Zhenxi Li, Guillaume-Alexandre Bilodeau, Wassim Bouachir
 ---
 Siamese trackers demonstrated high performance in object tracking due to

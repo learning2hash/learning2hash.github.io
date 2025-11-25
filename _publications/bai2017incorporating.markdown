@@ -5,7 +5,7 @@ authors: Yan Bai, Feng Gao, Yihang Lou, Shiqi Wang, Tiejun Huang, Ling-Yu Duan
 conference: 2017 IEEE International Conference on Multimedia and Expo (ICME)
 year: 2017
 bibkey: bai2017incorporating
-citations: 61
+citations: 60
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.00196'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Bai et al.

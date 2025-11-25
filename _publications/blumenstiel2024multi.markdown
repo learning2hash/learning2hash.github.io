@@ -5,10 +5,10 @@ authors: Benedikt Blumenstiel, Viktoria Moor, Romeo Kienzler, Thomas Brunschwile
 conference: IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium
 year: 2024
 bibkey: blumenstiel2024multi
-citations: 2
+citations: 3
 additional_links: [{name: Code, url: 'https://github.com/IBM/remote-sensing-image-retrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.02059'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: ["Datasets", "Image Retrieval", "RSS"]
 short_authors: Blumenstiel et al.
 ---
 Image retrieval enables an efficient search through vast amounts of satellite

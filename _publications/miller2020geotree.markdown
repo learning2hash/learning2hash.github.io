@@ -6,9 +6,9 @@ authors: Robert Miller, Phil Maguire
 conference: Arxiv
 year: 2020
 bibkey: miller2020geotree
-citations: 2
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.02167'}]
-tags: ["Datasets", "Efficiency", "Evaluation"]
+tags: ["Efficiency", "Scalability", "Similarity Search"]
 short_authors: Robert Miller, Phil Maguire
 ---
 A common problem appearing across the field of data science is \(k\)-NN

@@ -5,9 +5,9 @@ authors: Bohan Zhuang, Guosheng Lin, Chunhua Shen, Ian Reid
 conference: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2016
 bibkey: zhuang2016fast
-citations: 136
+citations: 133
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.02844'}]
-tags: ["CVPR", "Compact Codes", "Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability"]
+tags: ["CVPR", "Compact Codes", "Distance Metric Learning", "Hashing Methods", "Image Retrieval"]
 short_authors: Zhuang et al.
 ---
 In this paper, we aim to learn a mapping (or embedding) from images to a

@@ -5,9 +5,9 @@ authors: Christopher Thomas, Adriana Kovashka
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: thomas2020preserving
-citations: 27
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.08617'}]
-tags: ["Datasets", "Distance Metric Learning", "Multimodal Retrieval"]
+tags: ["Distance Metric Learning", "Multimodal Retrieval"]
 short_authors: Christopher Thomas, Adriana Kovashka
 ---
 The abundance of multimodal data (e.g. social media posts) has inspired

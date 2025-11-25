@@ -5,7 +5,7 @@ authors: "Tomas Jenicek, Ond\u0159ej Chum"
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: jenicek2019no
-citations: 30
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.08999'}]
 tags: ["Datasets", "ICCV", "Image Retrieval"]
 short_authors: "Tomas Jenicek, Ond\u0159ej Chum"

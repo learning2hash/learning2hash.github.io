@@ -5,10 +5,10 @@ authors: Mikaela Angelina Uy, Gim Hee Lee
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: uy2018pointnetvlad
-citations: 489
+citations: 93
 additional_links: [{name: Code, url: 'http://github.com/mikacuy/pointnetvlad/'}, {
     name: Paper, url: 'https://arxiv.org/abs/1804.03492'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Scalability"]
+tags: ["CVPR", "Datasets", "Scalability"]
 short_authors: Mikaela Angelina Uy, Gim Hee Lee
 ---
 Unlike its image based counterpart, point cloud based retrieval for place

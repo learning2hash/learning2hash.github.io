@@ -5,9 +5,9 @@ authors: Hessel Tuinhof, Clemens Pirker, Markus Haltmeier
 conference: Lecture Notes in Computer Science
 year: 2018
 bibkey: tuinhof2018image
-citations: 49
+citations: 50
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.08694'}]
-tags: ["Datasets", "Evaluation", "Neural Hashing", "Recommender Systems", "Robustness", "Tools & Libraries"]
+tags: ["Datasets", "Recommender Systems", "Robustness"]
 short_authors: Hessel Tuinhof, Clemens Pirker, Markus Haltmeier
 ---
 We develop a two-stage deep learning framework that recommends fashion images

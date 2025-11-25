@@ -8,7 +8,7 @@ year: 2023
 bibkey: lu2023fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.18424'}]
-tags: ["Supervised", "Unsupervised"]
+tags: ["Distance Metric Learning", "Supervised", "Tools & Libraries", "Unsupervised", "Vector Indexing"]
 short_authors: Louis Yu Lu
 ---
 This paper presents a novel fast machine learning method that leverages two

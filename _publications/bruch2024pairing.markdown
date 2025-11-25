@@ -6,9 +6,9 @@ authors: Sebastian Bruch, Franco Maria Nardini, Cosimo Rulli, Rossano Venturini
 conference: Arxiv
 year: 2024
 bibkey: bruch2024pairing
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.04443'}]
-tags: ["Datasets", "Efficiency", "Graph Based ANN", "Text Retrieval"]
+tags: ["Efficiency", "Graph Based ANN", "Text Retrieval"]
 short_authors: Bruch et al.
 ---
 Learned sparse representations form an effective and interpretable class of

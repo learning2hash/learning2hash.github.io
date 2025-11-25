@@ -3,12 +3,12 @@ layout: publication
 title: Improving Distantly-supervised Entity Typing With Compact Latent Space Clustering
 authors: Bo Chen, Xiaotao Gu, Yufeng Hu, Siliang Tang, Guoping Hu, Yueting Zhuang,
   Xiang Ren
-conference: IEEE Transactions on Circuits and Systems for Video Technology
+conference: Proceedings of the 2019 Conference of the North
 year: 2019
 bibkey: chen2019improving
-citations: 15
+citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.06475'}]
-tags: ["Efficiency", "Evaluation", "Supervised"]
+tags: ["Efficiency", "Supervised"]
 short_authors: Chen et al.
 ---
 Recently, distant supervision has gained great success on Fine-grained Entity

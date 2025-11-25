@@ -6,7 +6,7 @@ conference: Proceedings of the 31st ACM International Conference on Information 
   Knowledge Management
 year: 2022
 bibkey: shehata2022early
-citations: 7
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.04887'}]
 tags: ["CIKM", "Datasets", "Efficiency", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Dahlia Shehata, Negar Arabzadeh, Charles L. A. Clarke

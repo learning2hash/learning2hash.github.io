@@ -8,7 +8,7 @@ year: 2025
 bibkey: "b\xF6nisch2025finding"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.05018'}]
-tags: ["Datasets", "Evaluation", "Neural Hashing", "Text Retrieval"]
+tags: ["Datasets", "Evaluation", "Text Retrieval"]
 short_authors: "Kevin B\xF6nisch, Alexander Mehler"
 ---
 We introduce a retrieval approach leveraging Support Vector Regression (SVR)

@@ -3,12 +3,12 @@ layout: publication
 title: 'Foresthash: Semantic Hashing With Shallow Random Forests And Tiny Convolutional
   Networks'
 authors: Qiang Qiu, Jose Lezama, Alex Bronstein, Guillermo Sapiro
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2017
 bibkey: qiu2017foresthash
-citations: 5
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08364'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Qiu et al.
 ---
 Hash codes are efficient data representations for coping with the ever

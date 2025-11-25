@@ -3,12 +3,12 @@ layout: publication
 title: 'Forestdsh: A Universal Hash Design For Discrete Probability Distributions'
 authors: Arash Gholami Davoodi, Sean Chang, Hyun Gon Yoo, Anubhav Baweja, Mihir Mongia,
   Hosein Mohimani
-conference: Data Mining and Knowledge Discovery
+conference: DAMI 2020
 year: 2019
 bibkey: davoodi2019forestdsh
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.04559'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
+tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Davoodi et al.
 ---
 In this paper, we consider the problem of classification of \(M\) high

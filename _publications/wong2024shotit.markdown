@@ -7,7 +7,7 @@ year: 2024
 bibkey: wong2024shotit
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.12169'}]
-tags: ["Datasets", "Image Retrieval", "Video Retrieval"]
+tags: ["Image Retrieval", "Large Scale Search", "Scalability", "Video Retrieval"]
 short_authors: Leslie Wong
 ---
 With the rapid growth of information technology, users are exposed to a

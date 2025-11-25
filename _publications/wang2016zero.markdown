@@ -2,12 +2,12 @@
 layout: publication
 title: Zero-shot Visual Recognition Via Bidirectional Latent Embedding
 authors: Qian Wang, Ke Chen
-conference: International Journal of Computer Vision
+conference: Arxiv
 year: 2016
 bibkey: wang2016zero
-citations: 121
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.02104'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Supervised", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Qian Wang, Ke Chen
 ---
 Zero-shot learning for visual recognition, e.g., object and action

@@ -6,7 +6,7 @@ authors: Xinran Liu, Hamid R. Tizhoosh, Jonathan Kofman
 conference: 2016 International Joint Conference on Neural Networks (IJCNN)
 year: 2016
 bibkey: liu2016generating
-citations: 62
+citations: 63
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.04676'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Xinran Liu, Hamid R. Tizhoosh, Jonathan Kofman

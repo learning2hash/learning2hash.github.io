@@ -2,14 +2,13 @@
 layout: publication
 title: 'Babel-imagenet: Massively Multilingual Evaluation Of Vision-and-language Representations'
 authors: "Gregor Geigle, Radu Timofte, Goran Glava\u0161"
-conference: 'Proceedings of the 62nd Annual Meeting of the Association for Computational
-  Linguistics (Volume 1: Long Papers)'
+conference: Arxiv
 year: 2023
 bibkey: geigle2023babel
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/gregor-ge/Babel-ImageNet'},
   {name: Paper, url: 'https://arxiv.org/abs/2306.08658'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
+tags: ["Evaluation", "Few Shot & Zero Shot"]
 short_authors: "Gregor Geigle, Radu Timofte, Goran Glava\u0161"
 ---
 Vision-and-language (VL) models with separate encoders for each modality

@@ -2,12 +2,12 @@
 layout: publication
 title: 'Nearest Neighbor Search With Compact Codes: A Decoder Perspective'
 authors: "Kenza Amara, Matthijs Douze, Alexandre Sablayrolles, Herv\xE9 J\xE9gou"
-conference: 'ICMR ''22: International Conference on Multimedia Retrieval'
+conference: Arxiv
 year: 2021
 bibkey: amara2021nearest
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.09568'}]
-tags: ["Compact Codes", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Large Scale Search", "Multimodal Retrieval", "Quantization", "Scalability"]
+tags: ["Compact Codes", "Efficiency", "Large Scale Search", "Quantization", "Scalability"]
 short_authors: Amara et al.
 ---
 Modern approaches for fast retrieval of similar vectors on billion-scaled

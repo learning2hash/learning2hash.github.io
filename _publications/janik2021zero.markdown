@@ -6,9 +6,9 @@ authors: MacIej Janik, Niklas Gard, Anna Hilsmann, Peter Eisert
 conference: 2021 IEEE International Conference on Image Processing (ICIP)
 year: 2021
 bibkey: janik2021zero
-citations: 4
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.04091'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Janik et al.
 ---
 We present a network architecture which compares RGB images and untextured 3D

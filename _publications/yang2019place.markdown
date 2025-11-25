@@ -5,9 +5,9 @@ authors: Carl Yang, Do Huy Hoang, Tomas Mikolov, Jiawei Han
 conference: The World Wide Web Conference
 year: 2019
 bibkey: yang2019place
-citations: 15
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.04861'}]
-tags: ["Uncategorized"]
+tags: ["Graph Based ANN", "Similarity Search", "Unsupervised"]
 short_authors: Yang et al.
 ---
 Thanks to the advancing mobile location services, people nowadays can post

@@ -5,7 +5,7 @@ authors: S. Sharma, I. Umar, L. Ospina, D. Wong, H. R. Tizhoosh
 conference: Lecture Notes in Computer Science
 year: 2016
 bibkey: sharma2016stacked
-citations: 32
+citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.00320'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Sharma et al.

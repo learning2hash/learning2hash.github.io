@@ -2,13 +2,12 @@
 layout: publication
 title: Monitoring The Evolution Of Behavioural Embeddings In Social Media Recommendation
 authors: Srijan Saket, Olivier Jeunen, Md. Danish Kalim
-conference: 'SIGIR 2024: The 47th International ACM SIGIR Conference on Research and
-  Development in Information Retrieval'
+conference: Arxiv
 year: 2023
 bibkey: saket2023monitoring
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.15265'}]
-tags: ["Efficiency", "Recommender Systems", "SIGIR", "Scalability"]
+tags: ["Recommender Systems", "Scalability"]
 short_authors: Srijan Saket, Olivier Jeunen, Md. Danish Kalim
 ---
 Emerging short-video platforms like TikTok, Instagram Reels, and ShareChat

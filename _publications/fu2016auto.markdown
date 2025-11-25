@@ -7,7 +7,7 @@ year: 2016
 bibkey: fu2016auto
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.08127'}]
-tags: ["Compact Codes", "Hashing Methods"]
+tags: ["Compact Codes", "Hashing Methods", "Scalability"]
 short_authors: Fu et al.
 ---
 Binary codes can be used to speed up nearest neighbor search tasks in large

@@ -6,10 +6,10 @@ authors: Ioana Croitoru, Simion-Vlad Bogolin, Marius Leordeanu, Hailin Jin, Andr
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: croitoru2021teachtext
-citations: 109
+citations: 117
 additional_links: [{name: Code, url: 'https://www.robots.ox.ac.uk/~vgg/research/teachtext/'},
   {name: Paper, url: 'https://arxiv.org/abs/2104.08271'}]
-tags: ["Datasets", "Evaluation", "ICCV", "Scalability", "Video Retrieval"]
+tags: ["ICCV", "Video Retrieval"]
 short_authors: Croitoru et al.
 ---
 In recent years, considerable progress on the task of text-video retrieval

@@ -7,7 +7,7 @@ year: 2020
 bibkey: nguyen2020multiple
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.07967'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries", "Video Retrieval"]
+tags: ["Evaluation", "Video Retrieval"]
 short_authors: Nguyen et al.
 ---
 Visual-semantic embedding aims to learn a joint embedding space where related

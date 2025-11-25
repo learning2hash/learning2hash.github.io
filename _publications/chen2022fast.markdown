@@ -2,12 +2,12 @@
 layout: publication
 title: Fast And Exact Fixed-radius Neighbor Search Based On Sorting
 authors: "Xinye Chen, Stefan G\xFCttel"
-conference: PeerJ Computer Science
+conference: Arxiv
 year: 2022
 bibkey: chen2022fast
-citations: 5
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.07679'}]
-tags: ["Efficiency", "Evaluation", "Tree Based ANN"]
+tags: ["Efficiency", "Similarity Search", "Tree Based ANN"]
 short_authors: "Xinye Chen, Stefan G\xFCttel"
 ---
 Fixed-radius near neighbor search is a fundamental data operation that

@@ -5,9 +5,9 @@ authors: Meng Ye, Yuhong Guo
 conference: Arxiv
 year: 2018
 bibkey: ye2018deep
-citations: 32
+citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.07275'}]
-tags: ["Datasets", "Evaluation", "Neural Hashing", "Supervised"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Supervised"]
 short_authors: Meng Ye, Yuhong Guo
 ---
 Despite the breakthroughs achieved by deep learning models in conventional

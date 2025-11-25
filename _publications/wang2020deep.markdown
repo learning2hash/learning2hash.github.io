@@ -8,7 +8,7 @@ year: 2020
 bibkey: wang2020deep
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.03973'}]
-tags: ["Compact Codes", "Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Zhenzhen Wang, Weixiang Hong, Junsong Yuan
 ---
 Deep hashing has shown promising results in image retrieval and recognition.

@@ -1,0 +1,31 @@
+---
+layout: publication
+title: Learning Relation Alignment For Calibrated Cross-modal Retrieval
+authors: Shuhuai Ren, Junyang Lin, Guangxiang Zhao, Rui Men, An Yang, Jingren Zhou,
+  Xu Sun, Hongxia Yang
+conference: 'Proceedings of the 59th Annual Meeting of the Association for Computational
+  Linguistics and the 11th International Joint Conference on Natural Language Processing
+  (Volume 1: Long Papers)'
+year: 2021
+bibkey: ren2021learning
+citations: 15
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.13868'}]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
+short_authors: Ren et al.
+---
+Despite the achievements of large-scale multimodal pre-training approaches,
+cross-modal retrieval, e.g., image-text retrieval, remains a challenging task.
+To bridge the semantic gap between the two modalities, previous studies mainly
+focus on word-region alignment at the object level, lacking the matching
+between the linguistic relation among the words and the visual relation among
+the regions. The neglect of such relation consistency impairs the
+contextualized representation of image-text pairs and hinders the model
+performance and the interpretability. In this paper, we first propose a novel
+metric, Intra-modal Self-attention Distance (ISD), to quantify the relation
+consistency by measuring the semantic distance between linguistic and visual
+relations. In response, we present Inter-modal Alignment on Intra-modal
+Self-attentions (IAIS), a regularized training method to optimize the ISD and
+calibrate intra-modal self-attentions from the two modalities mutually via
+inter-modal alignment. The IAIS regularizer boosts the performance of
+prevailing models on Flickr30k and MS COCO datasets by a considerable margin,
+which demonstrates the superiority of our approach.

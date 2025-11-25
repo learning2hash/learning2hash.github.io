@@ -1,0 +1,28 @@
+---
+layout: publication
+title: Variational Interaction Information Maximization For Cross-domain Disentanglement
+authors: Hyeongjoo Hwang, Geon-Hyeong Kim, Seunghoon Hong, Kee-Eung Kim
+conference: Arxiv
+year: 2020
+bibkey: hwang2020variational
+citations: 4
+additional_links: [{name: Code, url: 'https://github.com/gr8joo/IIAE'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2012.04251'}]
+tags: ["Few Shot & Zero Shot", "Image Retrieval"]
+short_authors: Hwang et al.
+---
+Cross-domain disentanglement is the problem of learning representations
+partitioned into domain-invariant and domain-specific representations, which is
+a key to successful domain transfer or measuring semantic distance between two
+domains. Grounded in information theory, we cast the simultaneous learning of
+domain-invariant and domain-specific representations as a joint objective of
+multiple information constraints, which does not require adversarial training
+or gradient reversal layers. We derive a tractable bound of the objective and
+propose a generative model named Interaction Information Auto-Encoder (IIAE).
+Our approach reveals insights on the desirable representation for cross-domain
+disentanglement and its connection to Variational Auto-Encoder (VAE). We
+demonstrate the validity of our model in the image-to-image translation and the
+cross-domain retrieval tasks. We further show that our model achieves the
+state-of-the-art performance in the zero-shot sketch based image retrieval
+task, even without external knowledge. Our implementation is publicly available
+at: https://github.com/gr8joo/IIAE

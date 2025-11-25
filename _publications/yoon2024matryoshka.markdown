@@ -9,7 +9,7 @@ year: 2024
 bibkey: yoon2024matryoshka
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.20243'}]
-tags: ["Datasets", "EMNLP", "Efficiency", "Evaluation", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["Datasets", "EMNLP", "Efficiency", "Supervised", "Unsupervised"]
 short_authors: Yoon et al.
 ---
 Embeddings from Large Language Models (LLMs) have emerged as critical

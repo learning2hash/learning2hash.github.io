@@ -2,12 +2,12 @@
 layout: publication
 title: Deep Momentum Uncertainty Hashing
 authors: Chaoyou Fu, Guoli Wang, Xiang Wu, Qian Zhang, Ran He
-conference: Pattern Recognition
+conference: Arxiv
 year: 2020
 bibkey: fu2020deep
-citations: 17
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.08012'}]
-tags: ["CVPR", "Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Neural Hashing"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Large Scale Search", "Neural Hashing"]
 short_authors: Fu et al.
 ---
 Combinatorial optimization (CO) has been a hot research topic because of its

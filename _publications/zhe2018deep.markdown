@@ -2,12 +2,12 @@
 layout: publication
 title: 'Deep Class-wise Hashing: Semantics-preserving Hashing Via Class-wise Loss'
 authors: Xuefei Zhe, Shifeng Chen, Hong Yan
-conference: IEEE Transactions on Neural Networks and Learning Systems
+conference: Arxiv
 year: 2018
 bibkey: zhe2018deep
-citations: 29
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.04137'}]
-tags: ["Compact Codes", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Supervised"]
+tags: ["Distance Metric Learning", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Xuefei Zhe, Shifeng Chen, Hong Yan
 ---
 Deep supervised hashing has emerged as an influential solution to large-scale

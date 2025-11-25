@@ -2,13 +2,13 @@
 layout: publication
 title: Clip-driven Semantic Discovery Network For Visible-infrared Person Re-identification
 authors: Xiaoyan Yu, Neng Dong, Liehuang Zhu, Hao Peng, Dapeng Tao
-conference: IEEE Transactions on Multimedia
+conference: Arxiv
 year: 2024
 bibkey: yu2024clip
-citations: 16
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/nengdong96/CSDN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2401.05806'}]
-tags: ["Uncategorized"]
+tags: ["Evaluation", "Multimodal Retrieval"]
 short_authors: Yu et al.
 ---
 Visible-infrared person re-identification (VIReID) primarily deals with

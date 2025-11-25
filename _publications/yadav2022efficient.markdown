@@ -8,7 +8,7 @@ year: 2022
 bibkey: yadav2022efficient
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.12579'}]
-tags: ["EMNLP", "Evaluation"]
+tags: ["EMNLP", "Efficiency", "Re-Ranking"]
 short_authors: Yadav et al.
 ---
 Efficient k-nearest neighbor search is a fundamental task, foundational for

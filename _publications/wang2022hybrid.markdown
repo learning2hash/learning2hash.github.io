@@ -6,10 +6,10 @@ authors: Jinpeng Wang, Bin Chen, Dongliang Liao, Ziyun Zeng, Gongfu Li, Shu-Tao 
 conference: Proceedings of the ACM Web Conference 2022
 year: 2022
 bibkey: wang2022hybrid
-citations: 5
+citations: 6
 additional_links: [{name: Code, url: 'https://github.com/gimpong/WWW22-HCQ'}, {name: Paper,
     url: 'https://arxiv.org/abs/2202.03384'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Quantization", "Robustness", "Scalability", "Self-Supervised", "Tools & Libraries", "Video Retrieval"]
+tags: ["Efficiency", "Quantization", "Video Retrieval"]
 short_authors: Wang et al.
 ---
 With the recent boom of video-based social platforms (e.g., YouTube and

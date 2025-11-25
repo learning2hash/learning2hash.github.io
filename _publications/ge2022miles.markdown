@@ -7,9 +7,9 @@ authors: Yuying Ge, Yixiao Ge, Xihui Liu, Alex Jinpeng Wang, Jianping Wu, Ying S
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: ge2022miles
-citations: 26
+citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.12408'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Similarity Search", "Text Retrieval", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval", "Video Retrieval"]
 short_authors: Ge et al.
 ---
 Dominant pre-training work for video-text retrieval mainly adopt the

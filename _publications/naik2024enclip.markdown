@@ -8,7 +8,7 @@ year: 2024
 bibkey: naik2024enclip
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.16096'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: ["Image Retrieval", "Multimodal Retrieval"]
 short_authors: Prithviraj Purushottam Naik, Rohit Agarwal
 ---
 Multimodal search has revolutionized the fashion industry, providing a

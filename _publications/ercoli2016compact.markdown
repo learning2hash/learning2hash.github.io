@@ -3,12 +3,12 @@ layout: publication
 title: Compact Hash Codes For Efficient Visual Descriptors Retrieval In Large Scale
   Databases
 authors: Simone Ercoli, Marco Bertini, Alberto del Bimbo
-conference: IEEE Transactions on Multimedia
+conference: Arxiv
 year: 2016
 bibkey: ercoli2016compact
-citations: 36
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.02892'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods"]
+tags: ["Compact Codes", "Datasets", "Hashing Methods", "Scalability", "Similarity Search"]
 short_authors: Simone Ercoli, Marco Bertini, Alberto del Bimbo
 ---
 In this paper we present an efficient method for visual descriptors retrieval

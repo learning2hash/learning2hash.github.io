@@ -7,7 +7,7 @@ year: 2015
 bibkey: zhang2015jointly
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1503.01521'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Liwen Zhang, Subhransu Maji, Ryota Tomioka
 ---
 Similarity between objects is multi-faceted and it can be easier for human

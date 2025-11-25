@@ -3,12 +3,12 @@ layout: publication
 title: 'Dual Pose-invariant Embeddings: Learning Category And Object-specific Discriminative
   Representations For Recognition And Retrieval'
 authors: Rohan Sarkar, Avinash Kak
-conference: Arxiv
+conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2024
 bibkey: sarkar2024dual
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.00272'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Rohan Sarkar, Avinash Kak
 ---
 In the context of pose-invariant object recognition and retrieval, we

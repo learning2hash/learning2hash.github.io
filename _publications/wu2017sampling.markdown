@@ -5,9 +5,9 @@ authors: "Chao-Yuan Wu, R. Manmatha, Alexander J. Smola, Philipp Kr\xE4henb\xFCh
 conference: 2017 IEEE International Conference on Computer Vision (ICCV)
 year: 2017
 bibkey: wu2017sampling
-citations: 868
+citations: 866
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.07567'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "ICCV", "Image Retrieval"]
+tags: ["Distance Metric Learning", "ICCV", "Image Retrieval"]
 short_authors: Wu et al.
 ---
 Deep embeddings answer one simple question: How similar are two images?

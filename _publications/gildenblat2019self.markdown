@@ -5,9 +5,9 @@ authors: Jacob Gildenblat, Eldad Klaiman
 conference: Arxiv
 year: 2019
 bibkey: gildenblat2019self
-citations: 36
+citations: 33
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.08139'}]
-tags: ["Image Retrieval", "Neural Hashing", "Self-Supervised", "Supervised"]
+tags: ["Image Retrieval", "Self-Supervised"]
 short_authors: Jacob Gildenblat, Eldad Klaiman
 ---
 Using features extracted from networks pretrained on ImageNet is a common

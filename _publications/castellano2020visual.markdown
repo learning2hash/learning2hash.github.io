@@ -5,9 +5,9 @@ authors: Giovanna Castellano, Eufemia Lella, Gennaro Vessio
 conference: Multimedia Tools and Applications
 year: 2020
 bibkey: castellano2020visual
-citations: 40
+citations: 39
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.08476'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Unsupervised"]
 short_authors: Giovanna Castellano, Eufemia Lella, Gennaro Vessio
 ---
 Visual arts are of inestimable importance for the cultural, historic and

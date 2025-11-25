@@ -7,9 +7,9 @@ authors: Haike Xu, Magdalen Dobson Manohar, Philip A. Bernstein, Badrish Chandra
 conference: Arxiv
 year: 2025
 bibkey: xu2025in
-citations: 0
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.13826'}]
-tags: ["Evaluation", "Graph Based ANN", "Recommender Systems", "Vector Indexing"]
+tags: ["Graph Based ANN", "Recommender Systems", "Vector Indexing"]
 short_authors: Xu et al.
 ---
 Indices for approximate nearest neighbor search (ANNS) are a basic component

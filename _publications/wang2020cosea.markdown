@@ -7,7 +7,7 @@ year: 2020
 bibkey: wang2020cosea
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.09520'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Neural Hashing"]
+tags: ["Datasets", "Efficiency"]
 short_authors: Wang et al.
 ---
 Semantic code search, which aims to retrieve code snippets relevant to a

@@ -2,14 +2,13 @@
 layout: publication
 title: 'CFIR: Fast And Effective Long-text To Image Retrieval For Large Corpora'
 authors: Zijun Long, Xuri Ge, Richard McCreadie, Joemon Jose
-conference: Proceedings of the 47th International ACM SIGIR Conference on Research
-  and Development in Information Retrieval
+conference: Arxiv
 year: 2024
 bibkey: long2024cfir
-citations: 3
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/longkukuhi/CFIR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2402.15276'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Multimodal Retrieval", "Re-Ranking", "SIGIR", "Scalability", "Tools & Libraries"]
+tags: ["Efficiency", "Image Retrieval", "Multimodal Retrieval", "Re-Ranking", "Scalability"]
 short_authors: Long et al.
 ---
 Text-to-image retrieval aims to find the relevant images based on a text

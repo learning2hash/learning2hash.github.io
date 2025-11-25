@@ -5,9 +5,9 @@ authors: Christopher B. Choy, Junyoung Gwak, Silvio Savarese, Manmohan Chandrake
 conference: Arxiv
 year: 2016
 bibkey: choy2016universal
-citations: 285
+citations: 256
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.03558'}]
-tags: ["Datasets", "Distance Metric Learning", "Neural Hashing", "Tools & Libraries"]
+tags: ["Datasets", "Distance Metric Learning"]
 short_authors: Choy et al.
 ---
 We present a deep learning framework for accurate visual correspondences and

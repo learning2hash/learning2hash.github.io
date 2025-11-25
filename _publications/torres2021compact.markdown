@@ -6,7 +6,7 @@ conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2021
 bibkey: torres2021compact
-citations: 12
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.10278'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval", "Unsupervised"]
 short_authors: Pablo Torres, Jose M. Saavedra

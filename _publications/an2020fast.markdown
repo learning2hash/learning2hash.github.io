@@ -3,12 +3,12 @@ layout: publication
 title: Fast And Incremental Loop Closure Detection With Deep Features And Proximity
   Graphs
 authors: Shan An, Haogang Zhu, Dong Wei, Konstantinos A. Tsintotas, Antonios Gasteratos
-conference: Journal of Field Robotics
+conference: Arxiv
 year: 2020
 bibkey: an2020fast
-citations: 43
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.11703'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Hashing Methods"]
+tags: ["Datasets", "Evaluation", "Graph Based ANN"]
 short_authors: An et al.
 ---
 In recent years, the robotics community has extensively examined methods

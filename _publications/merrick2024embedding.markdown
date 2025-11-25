@@ -7,7 +7,7 @@ year: 2024
 bibkey: merrick2024embedding
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.18887'}]
-tags: ["Datasets", "Scalability"]
+tags: ["Datasets", "Scalability", "Self-Supervised"]
 short_authors: Luke Merrick
 ---
 Recent studies of large-scale contrastive pretraining in the text embedding

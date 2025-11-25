@@ -7,7 +7,7 @@ year: 2020
 bibkey: fauzi2020image
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.02127'}]
-tags: ["Scalability"]
+tags: ["Image Retrieval", "Scalability"]
 short_authors: Fariza Fauzi, Mohammed Belkhatir
 ---
 The contextual information of Web images is investigated to address the issue

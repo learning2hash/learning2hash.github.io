@@ -3,12 +3,12 @@ layout: publication
 title: Efficient High-resolution Template Matching With Vector Quantized Nearest Neighbour
   Fields
 authors: Ankit Gupta, Ida-Maria Sintorn
-conference: Pattern Recognition
+conference: Arxiv
 year: 2023
 bibkey: gupta2023efficient
-citations: 4
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.15010'}]
-tags: ["CVPR", "Evaluation", "Quantization"]
+tags: ["Efficiency", "Quantization"]
 short_authors: Ankit Gupta, Ida-Maria Sintorn
 ---
 Template matching is a fundamental problem in computer vision with

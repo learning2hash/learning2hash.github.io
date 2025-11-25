@@ -5,10 +5,10 @@ authors: Alberto Baldrati, Lorenzo Agnolucci, Marco Bertini, Alberto del Bimbo
 conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2023
 bibkey: baldrati2023zero
-citations: 43
+citations: 71
 additional_links: [{name: Code, url: 'https://github.com/miccunifi/SEARLE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2303.15247'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "ICCV", "Image Retrieval", "Supervised"]
+tags: ["Datasets", "Few Shot & Zero Shot", "ICCV", "Image Retrieval", "Unsupervised"]
 short_authors: Baldrati et al.
 ---
 Composed Image Retrieval (CIR) aims to retrieve a target image based on a

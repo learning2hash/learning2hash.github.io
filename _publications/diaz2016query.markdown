@@ -6,9 +6,9 @@ conference: 'Proceedings of the 54th Annual Meeting of the Association for Compu
   Linguistics (Volume 1: Long Papers)'
 year: 2016
 bibkey: diaz2016query
-citations: 197
+citations: 195
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.07891'}]
-tags: ["Uncategorized"]
+tags: ["SIGIR", "Similarity Search", "Text Retrieval"]
 short_authors: Fernando Diaz, Bhaskar Mitra, Nick Craswell
 ---
 Continuous space word embeddings have received a great deal of attention in

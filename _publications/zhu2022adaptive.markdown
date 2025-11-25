@@ -3,12 +3,12 @@ layout: publication
 title: Adaptive Local-component-aware Graph Convolutional Network For One-shot Skeleton-based
   Action Recognition
 authors: Anqi Zhu, Qiuhong Ke, Mingming Gong, James Bailey
-conference: 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+conference: Arxiv
 year: 2022
 bibkey: zhu2022adaptive
-citations: 23
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.10073'}]
-tags: ["Efficiency", "Evaluation"]
+tags: ["Efficiency", "Few Shot & Zero Shot", "Graph Based ANN"]
 short_authors: Zhu et al.
 ---
 Skeleton-based action recognition receives increasing attention because the

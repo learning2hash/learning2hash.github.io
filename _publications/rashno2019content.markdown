@@ -6,7 +6,7 @@ authors: Abdolreza Rashno, Elyas Rashno
 conference: Arxiv
 year: 2019
 bibkey: rashno2019content
-citations: 14
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.02059'}]
 tags: ["Evaluation", "Image Retrieval"]
 short_authors: Abdolreza Rashno, Elyas Rashno

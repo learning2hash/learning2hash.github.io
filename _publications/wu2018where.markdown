@@ -6,9 +6,9 @@ authors: Lin Wu, Yang Wang, Junbin Gao, Xue Li
 conference: IEEE Transactions on Multimedia
 year: 2018
 bibkey: wu2018where
-citations: 239
+citations: 245
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.01911'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Privacy & Security", "Video Retrieval"]
 short_authors: Wu et al.
 ---
 Video-based person re-identification (re-id) is a central application in

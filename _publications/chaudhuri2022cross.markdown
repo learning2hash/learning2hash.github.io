@@ -5,10 +5,10 @@ authors: Abhra Chaudhuri, Massimiliano Mancini, Yanbei Chen, Zeynep Akata, Anjan
 conference: Arxiv
 year: 2022
 bibkey: chaudhuri2022cross
-citations: 2
+citations: 3
 additional_links: [{name: Code, url: 'https://github.com/abhrac/xmodal-vit'}, {name: Paper,
     url: 'https://arxiv.org/abs/2210.10486'}]
-tags: ["Image Retrieval", "Multimodal Retrieval", "Tools & Libraries"]
+tags: ["Image Retrieval", "Multimodal Retrieval"]
 short_authors: Chaudhuri et al.
 ---
 Representation learning for sketch-based image retrieval has mostly been

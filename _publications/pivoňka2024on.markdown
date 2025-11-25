@@ -6,9 +6,9 @@ authors: "Tom\xE1\u0161 Pivo\u0148ka, Libor P\u0159eu\u010Dil"
 conference: IEEE Transactions on Intelligent Vehicles
 year: 2024
 bibkey: "pivo\u0148ka2024on"
-citations: 1
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.18573'}]
-tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Robustness"]
+tags: ["Datasets", "Re-Ranking", "Robustness"]
 short_authors: "Tom\xE1\u0161 Pivo\u0148ka, Libor P\u0159eu\u010Dil"
 ---
 Re-ranking is the second stage of a visual place recognition task, in which

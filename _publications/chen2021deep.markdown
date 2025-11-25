@@ -3,12 +3,12 @@ layout: publication
 title: 'Deep Learning For Instance Retrieval: A Survey'
 authors: Wei Chen, Yu Liu, Weiping Wang, Erwin Bakker, Theodoros Georgiou, Paul Fieguth,
   Li Liu, Michael S. Lew
-conference: Electronics Letters
+conference: Arxiv
 year: 2021
 bibkey: chen2021deep
-citations: 2
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.11282'}]
-tags: ["Efficiency", "Evaluation", "Image Retrieval", "Neural Hashing", "Survey Paper"]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Survey Paper"]
 short_authors: Chen et al.
 ---
 In recent years a vast amount of visual content has been generated and shared

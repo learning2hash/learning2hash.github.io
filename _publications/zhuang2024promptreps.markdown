@@ -1,0 +1,34 @@
+---
+layout: publication
+title: 'Promptreps: Prompting Large Language Models To Generate Dense And Sparse Representations
+  For Zero-shot Document Retrieval'
+authors: Shengyao Zhuang, Xueguang Ma, Bevan Koopman, Jimmy Lin, Guido Zuccon
+conference: Proceedings of the 2024 Conference on Empirical Methods in Natural Language
+  Processing
+year: 2024
+bibkey: zhuang2024promptreps
+citations: 14
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.18424'}]
+tags: ["Datasets", "Evaluation", "Re-Ranking", "Text Retrieval", "Unsupervised"]
+short_authors: Zhuang et al.
+---
+Utilizing large language models (LLMs) for zero-shot document ranking is done
+in one of two ways: (1) prompt-based re-ranking methods, which require no
+further training but are only feasible for re-ranking a handful of candidate
+documents due to computational costs; and (2) unsupervised contrastive trained
+dense retrieval methods, which can retrieve relevant documents from the entire
+corpus but require a large amount of paired text data for contrastive training.
+In this paper, we propose PromptReps, which combines the advantages of both
+categories: no need for training and the ability to retrieve from the whole
+corpus. Our method only requires prompts to guide an LLM to generate query and
+document representations for effective document retrieval. Specifically, we
+prompt the LLMs to represent a given text using a single word, and then use the
+last token's hidden states and the corresponding logits associated with the
+prediction of the next token to construct a hybrid document retrieval system.
+The retrieval system harnesses both dense text embedding and sparse
+bag-of-words representations given by the LLM. Our experimental evaluation on
+the MSMARCO, TREC deep learning and BEIR zero-shot document retrieval datasets
+illustrates that this simple prompt-based LLM retrieval method can achieve a
+similar or higher retrieval effectiveness than state-of-the-art LLM embedding
+methods that are trained with large amounts of unsupervised data, especially
+when using a larger LLM.

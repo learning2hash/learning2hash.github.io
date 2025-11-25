@@ -8,7 +8,7 @@ year: 2019
 bibkey: wen2019adversarial
 citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.08042'}]
-tags: ["Multimodal Retrieval", "Robustness", "Unsupervised"]
+tags: ["Multimodal Retrieval", "Unsupervised"]
 short_authors: Wen et al.
 ---
 Cross-modal retrieval aims to retrieve relevant data across different

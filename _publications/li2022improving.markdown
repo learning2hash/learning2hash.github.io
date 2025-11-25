@@ -6,9 +6,9 @@ conference: Proceedings of the 45th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2022
 bibkey: li2022improving
-citations: 11
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.09593'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "Robustness", "SIGIR", "Self-Supervised"]
+tags: ["Recommender Systems", "Robustness", "SIGIR", "Self-Supervised"]
 short_authors: Li et al.
 ---
 With the rapid increase of micro-video creators and viewers, how to make

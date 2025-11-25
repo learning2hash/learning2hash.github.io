@@ -5,9 +5,9 @@ authors: Zheng Li, Caili Guo, Zerun Feng, Jenq-Neng Hwang, Ying Jin, Yufeng Zhan
 conference: Arxiv
 year: 2022
 bibkey: li2022image
-citations: 2
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.11319'}]
-tags: ["Evaluation", "Text Retrieval", "Tools & Libraries"]
+tags: ["Image Retrieval", "Multimodal Retrieval", "Supervised"]
 short_authors: Li et al.
 ---
 Most image-text retrieval work adopts binary labels indicating whether a pair

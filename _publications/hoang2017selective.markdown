@@ -5,9 +5,9 @@ authors: Tuan Hoang, Thanh-Toan Do, Dang-Khoa Le Tan, Ngai-Man Cheung
 conference: Proceedings of the 25th ACM international conference on Multimedia
 year: 2017
 bibkey: hoang2017selective
-citations: 58
+citations: 57
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.00809'}]
-tags: ["Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Hoang et al.
 ---
 Convolutional Neural Network (CNN) is a very powerful approach to extract

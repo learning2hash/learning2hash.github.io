@@ -8,9 +8,9 @@ conference: Proceedings of the 2021 Conference on Empirical Methods in Natural L
   Processing
 year: 2021
 bibkey: jang2021ultra
-citations: 9
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.07198'}]
-tags: ["EMNLP", "Hybrid ANN Methods", "Re-Ranking", "Text Retrieval"]
+tags: ["EMNLP", "Efficiency", "Re-Ranking", "Text Retrieval"]
 short_authors: Jang et al.
 ---
 The semantic matching capabilities of neural information retrieval can

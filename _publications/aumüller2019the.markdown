@@ -6,9 +6,9 @@ authors: "Martin Aum\xFCller, Matteo Ceccarello"
 conference: Lecture Notes in Computer Science
 year: 2019
 bibkey: "aum\xFCller2019the"
-citations: 8
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.07387'}]
-tags: ["Datasets", "Evaluation", "Survey Paper"]
+tags: ["Datasets", "Evaluation"]
 short_authors: "Martin Aum\xFCller, Matteo Ceccarello"
 ---
 This paper reconsiders common benchmarking approaches to nearest neighbor

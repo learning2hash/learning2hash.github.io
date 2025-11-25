@@ -3,12 +3,12 @@ layout: publication
 title: Unsupervised Deep Features For Remote Sensing Image Matching Via Discriminator
   Network
 authors: Mohbat Tharani, Numan Khurshid, Murtaza Taj
-conference: IEEE Transactions on Geoscience and Remote Sensing
+conference: Arxiv
 year: 2018
 bibkey: tharani2018unsupervised
-citations: 5
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.06470'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Supervised", "Unsupervised"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Unsupervised"]
 short_authors: Mohbat Tharani, Numan Khurshid, Murtaza Taj
 ---
 The advent of deep perceptual networks brought about a paradigm shift in

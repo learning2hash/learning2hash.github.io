@@ -7,7 +7,7 @@ year: 2017
 bibkey: mandal2017a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.05233'}]
-tags: ["Image Retrieval"]
+tags: ["Text Retrieval", "Tools & Libraries"]
 short_authors: Mandal et al.
 ---
 Browsing and finding relevant information for Bangladeshi laws is a challenge

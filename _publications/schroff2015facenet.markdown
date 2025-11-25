@@ -5,9 +5,9 @@ authors: Florian Schroff, Dmitry Kalenichenko, James Philbin
 conference: 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2015
 bibkey: schroff2015facenet
-citations: 8322
+citations: 10445
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1503.03832'}]
-tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Neural Hashing"]
+tags: ["CVPR", "Distance Metric Learning", "Efficiency"]
 short_authors: Florian Schroff, Dmitry Kalenichenko, James Philbin
 ---
 Despite significant recent advances in the field of face recognition,

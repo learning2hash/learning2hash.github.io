@@ -5,10 +5,10 @@ authors: Conghui Hu, Gim Hee Lee
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: hu2022feature
-citations: 12
+citations: 18
 additional_links: [{name: Code, url: 'https://github.com/conghuihu/UCDIR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2207.09721'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["Image Retrieval", "Self-Supervised", "Unsupervised"]
 short_authors: Conghui Hu, Gim Hee Lee
 ---
 Current supervised cross-domain image retrieval methods can achieve excellent

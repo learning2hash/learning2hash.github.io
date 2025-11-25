@@ -7,9 +7,9 @@ authors: Wang-Cheng Kang, Derek Zhiyuan Cheng, Ting Chen, Xinyang Yi, Dong Lin, 
 conference: Companion Proceedings of the Web Conference 2020
 year: 2020
 bibkey: kang2020learning
-citations: 32
+citations: 36
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.08530'}]
-tags: ["Datasets", "Evaluation", "Quantization", "Recommender Systems"]
+tags: ["Quantization", "Recommender Systems"]
 short_authors: Kang et al.
 ---
 Recommender system models often represent various sparse features like users,

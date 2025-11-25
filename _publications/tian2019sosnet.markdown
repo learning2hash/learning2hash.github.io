@@ -5,9 +5,9 @@ authors: Yurun Tian, Xin Yu, Bin Fan, Fuchao Wu, Huub Heijnen, Vassileios Balnta
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: tian2019sosnet
-citations: 321
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.05019'}]
-tags: ["CVPR", "Evaluation"]
+tags: ["CVPR", "Distance Metric Learning", "Similarity Search"]
 short_authors: Tian et al.
 ---
 Despite the fact that Second Order Similarity (SOS) has been used with

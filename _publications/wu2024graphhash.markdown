@@ -3,13 +3,13 @@ layout: publication
 title: 'Graphhash: Graph Clustering Enables Parameter Efficiency In Recommender Systems'
 authors: Xinyi Wu, Donald Loveland, Runjin Chen, Yozen Liu, Xin Chen, Leonardo Neves,
   Ali Jadbabaie, Clark Mingxuan Ju, Neil Shah, Tong Zhao
-conference: 'WWW ''25: The ACM Web Conference 2025'
+conference: Arxiv
 year: 2024
 bibkey: wu2024graphhash
-citations: 1
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/snap-research/GraphHash'},
   {name: Paper, url: 'https://arxiv.org/abs/2412.17245'}]
-tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Hashing Methods", "Recommender Systems"]
+tags: ["Efficiency", "Graph Based ANN", "Hashing Methods", "Recommender Systems"]
 short_authors: Wu et al.
 ---
 Deep recommender systems rely heavily on large embedding tables to handle

@@ -5,9 +5,9 @@ authors: Weijie Zhao, Shulong Tan, Ping Li
 conference: Arxiv
 year: 2022
 bibkey: zhao2022constrained
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.14958'}]
-tags: ["Evaluation", "Graph Based ANN", "Hashing Methods", "Quantization", "Recommender Systems", "Similarity Search", "Tools & Libraries"]
+tags: ["Graph Based ANN", "Recommender Systems", "Similarity Search"]
 short_authors: Weijie Zhao, Shulong Tan, Ping Li
 ---
 Search engines and recommendation systems are built to efficiently display

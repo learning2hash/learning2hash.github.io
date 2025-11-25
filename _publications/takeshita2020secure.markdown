@@ -6,9 +6,9 @@ conference: 2020 29th International Conference on Computer Communications and Ne
   (ICCCN)
 year: 2020
 bibkey: takeshita2020secure
-citations: 14
+citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.02330'}]
-tags: ["Efficiency", "Hashing Methods", "ICCV"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Privacy & Security"]
 short_authors: Jonathan Takeshita, Ryan Karl, Taeho Jung
 ---
 Cloud computing is often utilized for file storage. Clients of cloud storage

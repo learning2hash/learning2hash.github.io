@@ -7,7 +7,7 @@ year: 2020
 bibkey: taherkhani2020error
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.03378'}]
-tags: ["Compact Codes", "Datasets", "Efficiency", "Hashing Methods"]
+tags: ["Compact Codes", "Efficiency", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Taherkhani et al.
 ---
 Cross-modal hashing facilitates mapping of heterogeneous multimedia data into

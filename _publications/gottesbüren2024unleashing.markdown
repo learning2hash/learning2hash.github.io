@@ -5,9 +5,9 @@ authors: "Lars Gottesb\xFCren, Laxman Dhulipala, Rajesh Jayaram, Jakub Lacki"
 conference: Arxiv
 year: 2024
 bibkey: "gottesb\xFCren2024unleashing"
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.01797'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Large Scale Search", "Scalability"]
+tags: ["Efficiency", "Large Scale Search", "Scalability"]
 short_authors: "Gottesb\xFCren et al."
 ---
 We consider the fundamental problem of decomposing a large-scale approximate

@@ -2,12 +2,12 @@
 layout: publication
 title: Learnable Locality-sensitive Hashing For Video Anomaly Detection
 authors: Yue Lu, Congqi Cao, Yanning Zhang
-conference: IEEE Transactions on Circuits and Systems for Video Technology
+conference: Arxiv
 year: 2021
 bibkey: lu2021learnable
-citations: 31
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.07839'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Self-Supervised"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Self-Supervised"]
 short_authors: Yue Lu, Congqi Cao, Yanning Zhang
 ---
 Video anomaly detection (VAD) mainly refers to identifying anomalous events

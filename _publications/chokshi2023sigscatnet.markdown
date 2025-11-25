@@ -6,9 +6,9 @@ authors: Anmol Chokshi, Vansh Jain, Rajas Bhope, Sudhir Dhage
 conference: Arxiv
 year: 2023
 bibkey: chokshi2023sigscatnet
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.05579'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Neural Hashing", "Tools & Libraries"]
+tags: ["Datasets", "Efficiency", "Privacy & Security", "Similarity Search"]
 short_authors: Chokshi et al.
 ---
 The surge in counterfeit signatures has inflicted widespread inconveniences

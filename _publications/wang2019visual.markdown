@@ -6,9 +6,9 @@ authors: Xinsheng Wang, Shanmin Pang, Jihua Zhu, Zhongyu Li, Zhiqiang Tian, Yaoc
 conference: Arxiv
 year: 2019
 bibkey: wang2019visual
-citations: 8
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.00330'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]
+tags: ["Evaluation", "Few Shot & Zero Shot"]
 short_authors: Wang et al.
 ---
 Zero-shot learning, which aims to recognize new categories that are not

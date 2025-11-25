@@ -5,9 +5,9 @@ authors: Omer Tamuz, Ce Liu, Serge Belongie, Ohad Shamir, Adam Tauman Kalai
 conference: The 28th International Conference on Machine Learning 2011
 year: 2011
 bibkey: tamuz2011adaptively
-citations: 146
+citations: 137
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1105.1033'}]
-tags: ["ICML"]
+tags: ["ICML", "Similarity Search", "Unsupervised"]
 short_authors: Tamuz et al.
 ---
 We introduce an algorithm that, given n objects, learns a similarity matrix

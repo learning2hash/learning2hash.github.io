@@ -6,9 +6,9 @@ conference: Proceedings of the 30th ACM International Conference on Information 
   Knowledge Management
 year: 2021
 bibkey: tonellotto2021query
-citations: 17
+citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.10341'}]
-tags: ["CIKM", "Efficiency"]
+tags: ["Efficiency"]
 short_authors: Nicola Tonellotto, Craig MacDonald
 ---
 Recent advances in dense retrieval techniques have offered the promise of

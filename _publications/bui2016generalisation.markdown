@@ -7,7 +7,7 @@ year: 2016
 bibkey: bui2016generalisation
 citations: 55
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.05301'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Similarity Search"]
 short_authors: Bui et al.
 ---
 We propose and evaluate several triplet CNN architectures for measuring the

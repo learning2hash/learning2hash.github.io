@@ -3,11 +3,11 @@ layout: publication
 title: Learning Space Partitions For Nearest Neighbor Search
 authors: Yihe Dong, Piotr Indyk, Ilya Razenshteyn, Tal Wagner
 conference: Arxiv
-year: 2020
+year: 2019
 bibkey: dong2019learning
-citations: 26
+citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.08544'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Quantization", "Supervised", "Tools & Libraries", "Tree Based ANN"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Quantization", "Supervised"]
 short_authors: Dong et al.
 ---
 Space partitions of \(\mathbb\{R\}^d\) underlie a vast and important class of

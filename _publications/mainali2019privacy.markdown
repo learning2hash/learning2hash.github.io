@@ -6,9 +6,9 @@ conference: Proceedings of the 14th International Conference on Availability, Re
   and Security
 year: 2019
 bibkey: mainali2019privacy
-citations: 3
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.08800'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Privacy & Security"]
 short_authors: Pradip Mainali, Carlton Shepherd, Fabien A. P. Petitcolas
 ---
 This paper proposes a new privacy-enhancing, context-aware user

@@ -1,0 +1,32 @@
+---
+layout: publication
+title: Multimodal Hypothetical Summary For Retrieval-based Multi-image Question Answering
+authors: Peize Li, Qingyi Si, Peng Fu, Zheng Lin, Yan Wang
+conference: Arxiv
+year: 2024
+bibkey: li2024multimodal
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.14880'}]
+tags: ["Multimodal Retrieval", "Self-Supervised", "Text Retrieval"]
+short_authors: Li et al.
+---
+Retrieval-based multi-image question answering (QA) task involves retrieving
+multiple question-related images and synthesizing these images to generate an
+answer. Conventional "retrieve-then-answer" pipelines often suffer from
+cascading errors because the training objective of QA fails to optimize the
+retrieval stage. To address this issue, we propose a novel method to
+effectively introduce and reference retrieved information into the QA. Given
+the image set to be retrieved, we employ a multimodal large language model
+(visual perspective) and a large language model (textual perspective) to obtain
+multimodal hypothetical summary in question-form and description-form. By
+combining visual and textual perspectives, MHyS captures image content more
+specifically and replaces real images in retrieval, which eliminates the
+modality gap by transforming into text-to-text retrieval and helps improve
+retrieval. To more advantageously introduce retrieval with QA, we employ
+contrastive learning to align queries (questions) with MHyS. Moreover, we
+propose a coarse-to-fine strategy for calculating both sentence-level and
+word-level similarity scores, to further enhance retrieval and filter out
+irrelevant details. Our approach achieves a 3.7% absolute improvement over
+state-of-the-art methods on RETVQA and a 14.5% improvement over CLIP.
+Comprehensive experiments and detailed ablation studies demonstrate the
+superiority of our method.

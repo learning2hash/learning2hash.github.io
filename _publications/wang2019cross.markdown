@@ -2,12 +2,12 @@
 layout: publication
 title: Cross-modal Scene Graph Matching For Relationship-aware Image-text Retrieval
 authors: Sijin Wang, Ruiping Wang, Ziwei Yao, Shiguang Shan, Xilin Chen
-conference: 2020 IEEE Winter Conference on Applications of Computer Vision (WACV)
+conference: Arxiv
 year: 2019
 bibkey: wang2019cross
-citations: 195
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.05134'}]
-tags: ["Text Retrieval"]
+tags: ["Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Wang et al.
 ---
 Image-text retrieval of natural scenes has been a popular research topic.

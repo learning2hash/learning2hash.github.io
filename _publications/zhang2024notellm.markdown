@@ -3,12 +3,12 @@ layout: publication
 title: 'Notellm: A Retrievable Large Language Model For Note Recommendation'
 authors: Chao Zhang, Shiwei Wu, Haoxin Zhang, Tong Xu, Yan Gao, Yao Hu, di Wu, Enhong
   Chen
-conference: Companion Proceedings of the ACM Web Conference 2024
+conference: 'WWW ''24: The ACM Web Conference 2024'
 year: 2024
 bibkey: zhang2024notellm
-citations: 7
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.01744'}]
-tags: ["Recommender Systems", "Self-Supervised", "Tools & Libraries"]
+tags: ["Recommender Systems", "Self-Supervised"]
 short_authors: Zhang et al.
 ---
 People enjoy sharing "notes" including their experiences within online

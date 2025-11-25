@@ -5,9 +5,9 @@ authors: Ilan Shomorony, Govinda M. Kamath
 conference: 2021 IEEE International Symposium on Information Theory (ISIT)
 year: 2021
 bibkey: shomorony2021sketching
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.04202'}]
-tags: ["Hashing Methods", "Tools & Libraries"]
+tags: ["Hashing Methods"]
 short_authors: Ilan Shomorony, Govinda M. Kamath
 ---
 Pairwise alignment of DNA sequencing data is a ubiquitous task in

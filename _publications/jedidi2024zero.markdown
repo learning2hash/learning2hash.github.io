@@ -7,7 +7,7 @@ year: 2024
 bibkey: jedidi2024zero
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.21242'}]
-tags: ["Datasets", "Few Shot & Zero Shot"]
+tags: ["Few Shot & Zero Shot"]
 short_authors: Jedidi et al.
 ---
 Building effective dense retrieval systems remains difficult when relevance

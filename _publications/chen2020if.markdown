@@ -5,9 +5,9 @@ authors: Po-Heng Chen, Zhao-Xu Luo, Zu-Kuan Huang, Chun Yang, Kuan-Wen Chen
 conference: 2020 IEEE International Conference on Robotics and Automation (ICRA)
 year: 2020
 bibkey: chen2020if
-citations: 5
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.03897'}]
-tags: ["Datasets", "Evaluation", "ICRA", "Image Retrieval"]
+tags: ["Evaluation", "ICRA", "Image Retrieval"]
 short_authors: Chen et al.
 ---
 Feature descriptor matching is a critical step is many computer vision

@@ -5,9 +5,9 @@ authors: Young Kyun Jang, Nam Ik Cho
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2020
 bibkey: jang2020generalized
-citations: 42
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.11281'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Scalability", "Supervised"]
+tags: ["CVPR", "Distance Metric Learning", "Image Retrieval", "Quantization"]
 short_authors: Young Kyun Jang, Nam Ik Cho
 ---
 Image retrieval methods that employ hashing or vector quantization have

@@ -7,7 +7,7 @@ year: 2022
 bibkey: tsang2022clustering
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.05974'}]
-tags: ["Hashing Methods", "Quantization", "Recommender Systems"]
+tags: ["Quantization", "Recommender Systems"]
 short_authors: Henry Ling-Hei Tsang, Thomas Dybdahl Ahle
 ---
 Embedding tables are used by machine learning systems to work with

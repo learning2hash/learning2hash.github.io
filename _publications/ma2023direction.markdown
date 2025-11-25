@@ -3,12 +3,12 @@ layout: publication
 title: Direction-oriented Visual-semantic Embedding Model For Remote Sensing Image-text
   Retrieval
 authors: Qing Ma, Jiancheng Pan, Cong Bai
-conference: IEEE Transactions on Geoscience and Remote Sensing
+conference: Arxiv
 year: 2023
 bibkey: ma2023direction
-citations: 23
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.08276'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Qing Ma, Jiancheng Pan, Cong Bai
 ---
 Image-text retrieval has developed rapidly in recent years. However, it is

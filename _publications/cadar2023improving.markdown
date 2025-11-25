@@ -6,10 +6,10 @@ authors: Felipe Cadar, Welerson Melo, Vaishnavi Kanagasabapathi, Guilherme Potje
 conference: Pattern Recognition Letters
 year: 2023
 bibkey: cadar2023improving
-citations: 3
+citations: 5
 additional_links: [{name: Code, url: 'https://github.com/verlab/LearningToDetect_PRL_2023'},
   {name: Paper, url: 'https://arxiv.org/abs/2309.00434'}]
-tags: ["Uncategorized"]
+tags: ["Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Cadar et al.
 ---
 We propose a novel learned keypoint detection method to increase the number

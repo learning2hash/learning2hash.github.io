@@ -7,7 +7,7 @@ year: 2023
 bibkey: arora2023linking
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.03464'}]
-tags: ["Datasets", "Neural Hashing", "Self-Supervised", "Supervised"]
+tags: ["Multimodal Retrieval", "Self-Supervised"]
 short_authors: Arora et al.
 ---
 Many applications require linking individuals, firms, or locations across

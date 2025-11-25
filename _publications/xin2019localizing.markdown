@@ -6,9 +6,9 @@ authors: Zhe Xin, Yinghao Cai, Tao Lu, Xiaoxia Xing, Shaojun Cai, Jixiang Zhang,
 conference: 2019 International Conference on Robotics and Automation (ICRA)
 year: 2019
 bibkey: xin2019localizing
-citations: 47
+citations: 51
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.06635'}]
-tags: ["Datasets", "Evaluation", "ICRA"]
+tags: ["Datasets", "Evaluation", "ICRA", "Image Retrieval", "Robustness"]
 short_authors: Xin et al.
 ---
 We address the problem of visual place recognition with perceptual changes.

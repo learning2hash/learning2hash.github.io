@@ -6,10 +6,10 @@ conference: Proceedings of the 2024 Conference on Empirical Methods in Natural L
   Processing
 year: 2024
 bibkey: huang2024pairdistill
-citations: 0
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/MiuLab/PairDistill'}, {name: Paper,
     url: 'https://arxiv.org/abs/2410.01383'}]
-tags: ["Datasets", "EMNLP", "Evaluation"]
+tags: ["EMNLP", "Re-Ranking"]
 short_authors: Chao-Wei Huang, Yun-Nung Chen
 ---
 Effective information retrieval (IR) from vast datasets relies on advanced

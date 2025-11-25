@@ -5,7 +5,7 @@ authors: Paul Lerner, Olivier Ferret, Camille Guinaudeau
 conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: lerner2024cross
-citations: 4
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.05736'}]
 tags: ["Datasets", "Multimodal Retrieval"]
 short_authors: Paul Lerner, Olivier Ferret, Camille Guinaudeau

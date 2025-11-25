@@ -4,12 +4,12 @@ title: Constructing Phrase-level Semantic Labels To Form Multi-grained Supervisi
   For Image-text Retrieval
 authors: Zhihao Fan, Zhongyu Wei, Zejun Li, Siyuan Wang, Haijun Shan, Xuanjing Huang,
   Jianqing Fan
-conference: 'ICMR ''22: International Conference on Multimedia Retrieval'
+conference: Arxiv
 year: 2021
 bibkey: fan2021constructing
-citations: 10
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.05523'}]
-tags: ["Multimodal Retrieval", "Text Retrieval"]
+tags: ["Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Fan et al.
 ---
 Existing research for image text retrieval mainly relies on sentence-level

@@ -7,7 +7,7 @@ year: 2024
 bibkey: tavares2024measuring
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.08687'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Neural Hashing"]
+tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Tiago F. Tavares, Fabio Ayres, Paris Smaragdis
 ---
 Deep Learning techniques have excelled at generating embedding spaces that

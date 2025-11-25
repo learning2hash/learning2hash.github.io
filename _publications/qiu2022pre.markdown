@@ -8,9 +8,9 @@ conference: Proceedings of the 31st ACM International Conference on Information 
   Knowledge Management
 year: 2022
 bibkey: qiu2022pre
-citations: 13
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.06150'}]
-tags: ["CIKM", "Datasets"]
+tags: ["CIKM", "Datasets", "Recommender Systems", "Similarity Search"]
 short_authors: Qiu et al.
 ---
 BERT-style models pre-trained on the general corpus (e.g., Wikipedia) and

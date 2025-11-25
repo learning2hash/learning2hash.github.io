@@ -6,9 +6,9 @@ conference: 2016 Sixth International Conference on Image Processing Theory, Tool
   and Applications (IPTA)
 year: 2016
 bibkey: xia2016unsupervised
-citations: 17
+citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.00206'}]
-tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Tools & Libraries", "Unsupervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Large Scale Search", "Neural Hashing", "Unsupervised"]
 short_authors: Xia et al.
 ---
 Learning based hashing plays a pivotal role in large-scale visual search.

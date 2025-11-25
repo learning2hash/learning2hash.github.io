@@ -7,9 +7,9 @@ conference: Proceedings of the Fourth Workshop on Multilingual Representation Le
   (MRL 2024)
 year: 2024
 bibkey: jha2024jina
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.16672'}]
-tags: ["Efficiency", "Evaluation"]
+tags: ["Efficiency", "Text Retrieval"]
 short_authors: Jha et al.
 ---
 Multi-vector dense models, such as ColBERT, have proven highly effective in

@@ -5,9 +5,9 @@ authors: F Alomari, M Harbi
 conference: ICST Transactions on Scalable Information Systems
 year: 2019
 bibkey: alomari2019scalable
-citations: 2
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.11817'}]
-tags: ["Efficiency", "Evaluation", "Similarity Search"]
+tags: ["Efficiency", "Similarity Search"]
 short_authors: F Alomari, M Harbi
 ---
 Source code similarity are increasingly used in application development to

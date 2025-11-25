@@ -7,7 +7,7 @@ year: 2019
 bibkey: aggarwal2019multitask
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.13339'}]
-tags: ["Distance Metric Learning", "Efficiency", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Efficiency", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Aggarwal et al.
 ---
 Text-visual (or called semantic-visual) embedding is a central problem in

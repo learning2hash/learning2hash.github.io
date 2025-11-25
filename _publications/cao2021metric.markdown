@@ -5,9 +5,9 @@ authors: Shenhao Cao, Qin Zou, Xiuqing Mao, Zhongyuan Wang
 conference: Proceedings of the 29th ACM International Conference on Multimedia
 year: 2021
 bibkey: cao2021metric
-citations: 15
+citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.08397'}]
-tags: ["Distance Metric Learning", "Evaluation", "Robustness", "Tools & Libraries"]
+tags: ["Distance Metric Learning", "Robustness"]
 short_authors: Cao et al.
 ---
 Detecting facial forgery images and videos is an increasingly important topic

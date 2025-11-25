@@ -6,7 +6,7 @@ conference: Proceedings of the 57th Annual Meeting of the Association for Comput
   Linguistics
 year: 2019
 bibkey: artetxe2019bilingual
-citations: 53
+citations: 49
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.10761'}]
 tags: ["Datasets", "Unsupervised"]
 short_authors: Mikel Artetxe, Gorka Labaka, Eneko Agirre

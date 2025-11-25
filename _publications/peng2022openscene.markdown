@@ -3,12 +3,12 @@ layout: publication
 title: 'Openscene: 3D Scene Understanding With Open Vocabularies'
 authors: Songyou Peng, Kyle Genova, Chiyu "max" Jiang, Andrea Tagliasacchi, Marc Pollefeys,
   Thomas Funkhouser
-conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2022
 bibkey: peng2022openscene
-citations: 237
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.15654'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Few Shot & Zero Shot"]
 short_authors: Peng et al.
 ---
 Traditional 3D scene understanding approaches rely on labeled 3D datasets to

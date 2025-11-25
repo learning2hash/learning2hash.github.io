@@ -7,7 +7,7 @@ year: 2016
 bibkey: duda2016distortion
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.05889'}]
-tags: ["Hashing Methods"]
+tags: ["Hashing Methods", "Robustness", "Similarity Search"]
 short_authors: Jarek Duda
 ---
 One of the basic tasks in bioinformatics is localizing a short subsequence

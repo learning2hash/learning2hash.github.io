@@ -5,9 +5,9 @@ authors: Hao Wang, Guosheng Lin, Steven C. H. Hoi, Chunyan Miao
 conference: Proceedings of the 30th ACM International Conference on Multimedia
 year: 2022
 bibkey: wang2022paired
-citations: 8
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.14428'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Tools & Libraries"]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Wang et al.
 ---
 This paper investigates an open research problem of generating text-image

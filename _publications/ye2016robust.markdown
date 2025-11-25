@@ -7,9 +7,9 @@ authors: Menglong Ye, Edward Johns, Benjamin Walter, Alexander Meining, Guang-Zh
 conference: Lecture Notes in Computer Science
 year: 2016
 bibkey: ye2016robust
-citations: 3
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.05757'}]
-tags: ["Efficiency", "Tools & Libraries"]
+tags: ["Efficiency", "Evaluation"]
 short_authors: Ye et al.
 ---
 For early diagnosis of malignancies in the gastrointestinal tract,

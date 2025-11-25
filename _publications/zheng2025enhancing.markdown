@@ -5,12 +5,12 @@ title: Enhancing Embedding Representation Stability In Recommendation Systems Wi
 authors: Carolina Zheng, Minhui Huang, Dmitrii Pedchenko, Kaushik Rangadurai, Siyu
   Wang, Gaby Nahum, Jie Lei, Yang Yang, Tao Liu, Zutian Luo, Xiaohan Wei, Dinesh Ramasamy,
   Jiyan Yang, Yiping Han, Lin Yang, Hangjun Xu, Rong Jin, Shuang Yang
-conference: Arxiv
+conference: Proceedings of the Nineteenth ACM Conference on Recommender Systems
 year: 2025
 bibkey: zheng2025enhancing
-citations: 0
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.02137'}]
-tags: ["Evaluation", "Hashing Methods", "Recommender Systems"]
+tags: ["Hashing Methods", "Recommender Systems"]
 short_authors: Zheng et al.
 ---
 The exponential growth of online content has posed significant challenges to

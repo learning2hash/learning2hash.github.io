@@ -2,12 +2,12 @@
 layout: publication
 title: Discrete Latent Factor Model For Cross-modal Hashing
 authors: Qing-Yuan Jiang, Wu-Jun Li
-conference: IEEE Transactions on Image Processing
+conference: Arxiv
 year: 2017
 bibkey: jiang2017discrete
-citations: 142
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.08322'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Similarity Search"]
+tags: ["Efficiency", "Hashing Methods", "Similarity Search"]
 short_authors: Qing-Yuan Jiang, Wu-Jun Li
 ---
 Due to its storage and retrieval efficiency, cross-modal hashing~(CMH) has

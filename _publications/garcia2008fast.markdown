@@ -6,9 +6,9 @@ conference: 2008 IEEE Computer Society Conference on Computer Vision and Pattern
   Workshops
 year: 2008
 bibkey: garcia2008fast
-citations: 447
+citations: 440
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/0804.1448'}]
-tags: ["CVPR", "Tools & Libraries"]
+tags: ["CVPR", "Efficiency", "Scalability", "Similarity Search", "Tools & Libraries"]
 short_authors: Vincent Garcia, Eric Debreuve, Michel Barlaud
 ---
 The recent improvements of graphics processing units (GPU) offer to the

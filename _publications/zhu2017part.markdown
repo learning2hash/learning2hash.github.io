@@ -5,9 +5,9 @@ authors: Fuqing Zhu, Xiangwei Kong, Liang Zheng, Haiyan Fu, Qi Tian
 conference: IEEE Transactions on Image Processing
 year: 2017
 bibkey: zhu2017part
-citations: 70
+citations: 79
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.02145'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Hashing Methods", "Neural Hashing", "Scalability", "Tools & Libraries"]
+tags: ["Distance Metric Learning", "Efficiency", "Hashing Methods", "Neural Hashing", "Scalability"]
 short_authors: Zhu et al.
 ---
 Large-scale is a trend in person re-identification (re-id). It is important

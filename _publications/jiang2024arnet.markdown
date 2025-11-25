@@ -3,12 +3,12 @@ layout: publication
 title: 'Arnet: Self-supervised FG-SBIR With Unified Sample Feature Alignment And Multi-scale
   Token Recycling'
 authors: Jianan Jiang, Hao Tang, Zhilin Jiang, Weiren Yu, di Wu
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2024
 bibkey: jiang2024arnet
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.11551'}]
-tags: ["AAAI", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Scalability", "Self-Supervised", "Supervised", "Tools & Libraries"]
+tags: ["Datasets", "Image Retrieval", "Scalability", "Self-Supervised"]
 short_authors: Jiang et al.
 ---
 Fine-Grained Sketch-Based Image Retrieval (FG-SBIR) aims to minimize the

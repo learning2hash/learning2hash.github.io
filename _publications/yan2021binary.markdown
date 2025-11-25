@@ -7,9 +7,9 @@ conference: Proceedings of the 30th ACM International Conference on Information 
   Knowledge Management
 year: 2021
 bibkey: yan2021binary
-citations: 10
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.02471'}]
-tags: ["CIKM", "Compact Codes", "Evaluation", "Large Scale Search", "Neural Hashing", "Recommender Systems", "Scalability"]
+tags: ["Compact Codes", "Large Scale Search", "Neural Hashing", "Recommender Systems", "Scalability"]
 short_authors: Yan et al.
 ---
 Nowadays, deep learning models are widely adopted in web-scale applications

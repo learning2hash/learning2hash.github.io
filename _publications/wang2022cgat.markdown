@@ -2,13 +2,13 @@
 layout: publication
 title: 'Cgat: Center-guided Adversarial Training For Deep Hashing-based Retrieval'
 authors: Xunguang Wang, Yiqun Lin, Xiaomeng Li
-conference: 'WWW ''23: The ACM Web Conference 2023'
+conference: Arxiv
 year: 2022
 bibkey: wang2022cgat
-citations: 6
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/xunguangwang/CgAT'}, {name: Paper,
     url: 'https://arxiv.org/abs/2204.10779'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness"]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness"]
 short_authors: Xunguang Wang, Yiqun Lin, Xiaomeng Li
 ---
 Deep hashing has been extensively utilized in massive image retrieval because

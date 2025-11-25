@@ -6,9 +6,9 @@ authors: Mattis Paulin, Julien Mairal, Matthijs Douze, Zaid Harchaoui, Florent P
 conference: International Journal of Computer Vision
 year: 2016
 bibkey: paulin2016convolutional
-citations: 62
+citations: 64
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.00438'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Unsupervised"]
 short_authors: Paulin et al.
 ---
 Convolutional neural networks (CNNs) have recently received a lot of

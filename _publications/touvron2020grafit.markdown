@@ -3,12 +3,12 @@ layout: publication
 title: 'Grafit: Learning Fine-grained Image Representations With Coarse Labels'
 authors: "Hugo Touvron, Alexandre Sablayrolles, Matthijs Douze, Matthieu Cord, Herv\xE9\
   \ J\xE9gou"
-conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
+conference: Arxiv
 year: 2020
 bibkey: touvron2020grafit
-citations: 42
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.12982'}]
-tags: ["Datasets", "ICCV", "Self-Supervised", "Supervised"]
+tags: ["Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Touvron et al.
 ---
 This paper tackles the problem of learning a finer representation than the

@@ -5,9 +5,9 @@ authors: Bahadir Ozdemir, Mahyar Najibi, Larry S. Davis
 conference: Procedings of the British Machine Vision Conference 2016
 year: 2016
 bibkey: ozdemir2016supervised
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.07342'}]
-tags: ["Compact Codes", "Datasets", "Hashing Methods", "Image Retrieval", "Scalability", "Supervised", "Tools & Libraries"]
+tags: ["Hashing Methods", "Image Retrieval", "Scalability", "Supervised"]
 short_authors: Bahadir Ozdemir, Mahyar Najibi, Larry S. Davis
 ---
 We propose an incremental strategy for learning hash functions with kernels

@@ -6,9 +6,9 @@ authors: Sheikh Muhammad Sarwar, Dimitrina Zlatkova, Momchil Hardalov, Yoan Dink
 conference: Arxiv
 year: 2021
 bibkey: sarwar2021a
-citations: 4
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.17055'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Sarwar et al.
 ---
 We propose a novel framework for cross-lingual content flagging with limited

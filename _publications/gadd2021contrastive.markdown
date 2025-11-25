@@ -5,9 +5,9 @@ authors: Matthew Gadd, Daniele de Martini, Paul Newman
 conference: 2021 20th International Conference on Advanced Robotics (ICAR)
 year: 2021
 bibkey: gadd2021contrastive
-citations: 15
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.02744'}]
-tags: ["Datasets", "Self-Supervised", "Unsupervised"]
+tags: ["Unsupervised"]
 short_authors: Matthew Gadd, Daniele de Martini, Paul Newman
 ---
 We learn, in an unsupervised way, an embedding from sequences of radar images

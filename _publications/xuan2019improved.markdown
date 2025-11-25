@@ -2,12 +2,12 @@
 layout: publication
 title: Improved Embeddings With Easy Positive Triplet Mining
 authors: Hong Xuan, Abby Stylianou, Robert Pless
-conference: 2020 IEEE Winter Conference on Applications of Computer Vision (WACV)
+conference: Arxiv
 year: 2019
 bibkey: xuan2019improved
-citations: 95
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.04370'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Image Retrieval"]
 short_authors: Hong Xuan, Abby Stylianou, Robert Pless
 ---
 Deep metric learning seeks to define an embedding where semantically similar

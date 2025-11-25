@@ -3,14 +3,13 @@ layout: publication
 title: Learning Diverse Document Representations With Deep Query Interactions For
   Dense Retrieval
 authors: Zehan Li, Nan Yang, Liang Wang, Furu Wei
-conference: ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech
-  and Signal Processing (ICASSP)
+conference: Arxiv
 year: 2022
 bibkey: li2022learning
-citations: 78
+citations: 4
 additional_links: [{name: Code, url: 'https://github.com/jordane95/dual-cross-encoder'},
   {name: Paper, url: 'https://arxiv.org/abs/2208.04232'}]
-tags: ["Efficiency", "ICASSP"]
+tags: ["Efficiency", "Evaluation", "Similarity Search"]
 short_authors: Li et al.
 ---
 In this paper, we propose a new dense retrieval model which learns diverse

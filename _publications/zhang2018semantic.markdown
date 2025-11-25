@@ -5,9 +5,9 @@ authors: Shifeng Zhang, Jianmin Li, Bo Zhang
 conference: IEEE Transactions on Image Processing
 year: 2018
 bibkey: zhang2018semantic
-citations: 10
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.08705'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Hashing Methods", "Memory Efficiency", "Neural Hashing", "Scalability", "Supervised"]
+tags: ["Efficiency", "Hashing Methods", "Neural Hashing", "Scalability"]
 short_authors: Shifeng Zhang, Jianmin Li, Bo Zhang
 ---
 Hashing method maps similar data to binary hashcodes with smaller hamming

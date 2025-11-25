@@ -7,9 +7,9 @@ conference: Proceedings of the 2023 Conference on Empirical Methods in Natural L
   Processing
 year: 2023
 bibkey: chen2023stair
-citations: 9
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.13081'}]
-tags: ["EMNLP", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
+tags: ["EMNLP", "Few Shot & Zero Shot", "Image Retrieval", "Text Retrieval"]
 short_authors: Chen et al.
 ---
 Image and text retrieval is one of the foundational tasks in the vision and

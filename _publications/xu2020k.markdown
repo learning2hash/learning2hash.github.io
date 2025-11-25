@@ -2,10 +2,10 @@
 layout: publication
 title: K-shot Contrastive Learning Of Visual Features With Multiple Instance Augmentations
 authors: Haohang Xu, Hongkai Xiong, Guo-Jun Qi
-conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
+conference: IEEE Transactions on Pattern Analysis and Machine Intelligence 2021
 year: 2020
 bibkey: xu2020k
-citations: 11
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.13310'}]
 tags: ["Self-Supervised", "Unsupervised"]
 short_authors: Haohang Xu, Hongkai Xiong, Guo-Jun Qi

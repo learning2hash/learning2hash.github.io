@@ -2,12 +2,12 @@
 layout: publication
 title: Improved Deep Hashing With Soft Pairwise Similarity For Multi-label Image Retrieval
 authors: Zheng Zhang, Qin Zou, Yuewei Lin, Long Chen, Song Wang
-conference: IEEE Transactions on Multimedia
+conference: Arxiv
 year: 2018
 bibkey: zhang2018improved
-citations: 160
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.02987'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Zhang et al.
 ---
 Hash coding has been widely used in the approximate nearest neighbor search

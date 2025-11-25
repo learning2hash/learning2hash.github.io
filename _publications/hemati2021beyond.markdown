@@ -6,9 +6,9 @@ authors: Sobhan Hemati, H. R. Tizhoosh
 conference: Pattern Recognition Letters
 year: 2021
 bibkey: hemati2021beyond
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.00216'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Quantization", "Supervised", "Unsupervised"]
+tags: ["Compact Codes", "Hashing Methods", "Quantization", "Unsupervised"]
 short_authors: Sobhan Hemati, H. R. Tizhoosh
 ---
 An effective unsupervised hashing algorithm leads to compact binary codes

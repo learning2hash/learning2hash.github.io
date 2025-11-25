@@ -6,9 +6,9 @@ authors: Andres Mafla, Sounak Dey, Ali Furkan Biten, Lluis Gomez, Dimosthenis Ka
 conference: 2020 IEEE Winter Conference on Applications of Computer Vision (WACV)
 year: 2020
 bibkey: mafla2020fine
-citations: 30
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.04732'}]
-tags: ["Image Retrieval"]
+tags: ["Image Retrieval", "Multimodal Retrieval"]
 short_authors: Mafla et al.
 ---
 Text contained in an image carries high-level semantics that can be exploited

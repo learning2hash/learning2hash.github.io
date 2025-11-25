@@ -5,9 +5,9 @@ authors: Young Kyun Jang, Nam Ik Cho
 conference: Arxiv
 year: 2021
 bibkey: jang2021similarity
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.05025'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Supervised"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Supervised"]
 short_authors: Young Kyun Jang, Nam Ik Cho
 ---
 Face image retrieval, which searches for images of the same identity from the

@@ -9,7 +9,7 @@ year: 2023
 bibkey: luo2023lexlip
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.02908'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Text Retrieval", "Tools & Libraries"]
+tags: ["Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Luo et al.
 ---
 Image-text retrieval (ITR) is a task to retrieve the relevant images/texts,

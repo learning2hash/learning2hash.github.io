@@ -6,10 +6,10 @@ authors: Junyan Ye, Honglin Lin, Leyan Ou, Dairong Chen, Zihao Wang, Qi Zhu, Con
 conference: Arxiv
 year: 2024
 bibkey: ye2024where
-citations: 0
+citations: 1
 additional_links: [{name: Other, url: 'https://yejy53.github.io/CVG-Text/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2412.17007'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Text Retrieval"]
+tags: ["Datasets", "Image Retrieval", "Text Retrieval"]
 short_authors: Ye et al.
 ---
 Cross-view geo-localization identifies the locations of street-view images by

@@ -3,7 +3,7 @@ layout: publication
 title: Image Classification And Retrieval With Random Depthwise Signed Convolutional
   Neural Networks
 authors: Yunzhe Xue, Usman Roshan
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2018
 bibkey: xue2018image
 citations: 0

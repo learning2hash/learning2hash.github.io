@@ -5,9 +5,9 @@ authors: Steven A. Grosz, Anil K. Jain
 conference: IEEE Transactions on Information Forensics and Security
 year: 2023
 bibkey: grosz2023latent
-citations: 8
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.13800'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Privacy & Security"]
 short_authors: Steven A. Grosz, Anil K. Jain
 ---
 One of the most challenging problems in fingerprint recognition continues to

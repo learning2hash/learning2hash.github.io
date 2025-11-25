@@ -5,7 +5,7 @@ authors: Tolgahan Cakaloglu, Christian Szegedy, Xiaowei Xu
 conference: Arxiv
 year: 2018
 bibkey: cakaloglu2018text
-citations: 6
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.10176'}]
 tags: ["Datasets", "Evaluation", "Text Retrieval"]
 short_authors: Tolgahan Cakaloglu, Christian Szegedy, Xiaowei Xu

@@ -3,12 +3,12 @@ layout: publication
 title: Rethinking Preventing Class-collapsing In Metric Learning With Margin-based
   Losses
 authors: Elad Levi, Tete Xiao, Xiaolong Wang, Trevor Darrell
-conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
+conference: Arxiv
 year: 2020
 bibkey: levi2020rethinking
-citations: 15
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.05162'}]
-tags: ["Datasets", "Distance Metric Learning", "ICCV", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Image Retrieval"]
 short_authors: Levi et al.
 ---
 Metric learning seeks perceptual embeddings where visually similar instances

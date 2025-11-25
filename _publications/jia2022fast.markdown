@@ -2,12 +2,12 @@
 layout: publication
 title: Fast Online Hashing With Multi-label Projection
 authors: Wenzhe Jia, Yuan Cao, Junwei Liu, Jie Gui
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2022
 bibkey: jia2022fast
-citations: 9
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.03112'}]
-tags: ["AAAI", "Compact Codes", "Efficiency", "Hashing Methods", "Scalability"]
+tags: ["Efficiency", "Hashing Methods", "Scalability"]
 short_authors: Jia et al.
 ---
 Hashing has been widely researched to solve the large-scale approximate

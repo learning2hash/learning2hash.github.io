@@ -5,9 +5,9 @@ authors: Tao Yao, Xiangwei Kong, Lianshan Yan, Wenjing Tang, Qi Tian
 conference: Neurocomputing
 year: 2019
 bibkey: yao2019efficient
-citations: 29
+citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.01304'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Quantization", "Scalability", "Supervised"]
+tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Supervised"]
 short_authors: Yao et al.
 ---
 Supervised cross-modal hashing has gained increasing research interest on

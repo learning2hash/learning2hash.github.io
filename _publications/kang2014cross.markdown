@@ -8,7 +8,7 @@ year: 2014
 bibkey: kang2014cross
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1411.4738'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: ["Distance Metric Learning", "Multimodal Retrieval"]
 short_authors: Kang et al.
 ---
 The cross-media retrieval problem has received much attention in recent years

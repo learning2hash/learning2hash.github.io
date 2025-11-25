@@ -7,7 +7,7 @@ year: 2023
 bibkey: boschin2023a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.14257'}]
-tags: ["Efficiency", "Self-Supervised", "Supervised"]
+tags: ["Efficiency", "Self-Supervised"]
 short_authors: Armand Boschin, Thomas Bonald, Marc Jeanmougin
 ---
 We present the self-encoder, a neural network trained to guess the identity

@@ -2,13 +2,12 @@
 layout: publication
 title: A Refined Analysis Of LSH For Well-dispersed Data Points
 authors: Wenlong Mou, Liwei Wang
-conference: 2017 Proceedings of the Fourteenth Workshop on Analytic Algorithmics and
-  Combinatorics (ANALCO)
+conference: Arxiv
 year: 2016
 bibkey: mou2016a
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.04571'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Wenlong Mou, Liwei Wang
 ---
 Near neighbor problems are fundamental in algorithms for high-dimensional

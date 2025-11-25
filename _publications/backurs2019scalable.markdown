@@ -5,9 +5,9 @@ authors: Arturs Backurs, Yihe Dong, Piotr Indyk, Ilya Razenshteyn, Tal Wagner
 conference: Arxiv
 year: 2019
 bibkey: backurs2019scalable
-citations: 12
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.04126'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Evaluation", "Scalability", "Similarity Search"]
 short_authors: Backurs et al.
 ---
 The Optimal Transport (a.k.a. Wasserstein) distance is an increasingly

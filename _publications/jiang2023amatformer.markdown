@@ -5,7 +5,7 @@ authors: Bo Jiang, Shuxian Luo, Xiao Wang, Chuanfu Li, Jin Tang
 conference: IEEE Transactions on Multimedia
 year: 2023
 bibkey: jiang2023amatformer
-citations: 10
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.19205'}]
 tags: ["Efficiency", "Scalability"]
 short_authors: Jiang et al.

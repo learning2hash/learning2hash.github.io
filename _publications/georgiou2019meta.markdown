@@ -6,9 +6,9 @@ authors: "Andreas Georgiou, Vincent Fortuin, Harun Mustafa, Gunnar R\xE4tsch"
 conference: Arxiv
 year: 2019
 bibkey: georgiou2019meta
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.13146'}]
-tags: ["Hashing Methods", "Memory Efficiency", "Neural Hashing"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Memory Efficiency"]
 short_authors: Georgiou et al.
 ---
 Metagenomic studies have increasingly utilized sequencing technologies in

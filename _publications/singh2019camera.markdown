@@ -5,7 +5,7 @@ authors: Dilpreet Singh, Nina Rajcic, Simon Colton, Jon McCormack
 conference: Lecture Notes in Computer Science
 year: 2019
 bibkey: singh2019camera
-citations: 10
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.02165'}]
 tags: ["Image Retrieval", "Similarity Search"]
 short_authors: Singh et al.

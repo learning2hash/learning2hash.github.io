@@ -2,12 +2,12 @@
 layout: publication
 title: 'Starspace: Embed All The Things!'
 authors: Ledell Wu, Adam Fisch, Sumit Chopra, Keith Adams, Antoine Bordes, Jason Weston
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2017
 bibkey: wu2017starspace
-citations: 74
+citations: 92
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.03856'}]
-tags: ["AAAI", "Recommender Systems"]
+tags: ["Recommender Systems", "Similarity Search", "Tools & Libraries", "Unsupervised"]
 short_authors: Wu et al.
 ---
 We present StarSpace, a general-purpose neural embedding model that can solve

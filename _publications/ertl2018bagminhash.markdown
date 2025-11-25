@@ -6,9 +6,9 @@ conference: Proceedings of the 24th ACM SIGKDD International Conference on Knowl
   Discovery &amp; Data Mining
 year: 2018
 bibkey: ertl2018bagminhash
-citations: 15
+citations: 39
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.03914'}]
-tags: ["Hashing Methods", "KDD"]
+tags: ["Hashing Methods", "KDD", "Locality-Sensitive-Hashing"]
 short_authors: Otmar Ertl
 ---
 Minwise hashing has become a standard tool to calculate signatures which

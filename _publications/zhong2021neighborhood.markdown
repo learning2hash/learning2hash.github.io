@@ -5,9 +5,9 @@ authors: Zhun Zhong, Enrico Fini, Subhankar Roy, Zhiming Luo, Elisa Ricci, Nicu 
 conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2021
 bibkey: zhong2021neighborhood
-citations: 91
+citations: 108
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.10731'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Self-Supervised", "Tools & Libraries"]
+tags: ["CVPR", "Distance Metric Learning", "Self-Supervised", "Unsupervised"]
 short_authors: Zhong et al.
 ---
 In this paper, we address Novel Class Discovery (NCD), the task of unveiling

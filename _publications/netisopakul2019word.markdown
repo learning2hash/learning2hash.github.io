@@ -5,7 +5,7 @@ authors: Ponrudee Netisopakul, Gerhard Wohlgenannt, Aleksei Pulich
 conference: IEEE Access
 year: 2019
 bibkey: netisopakul2019word
-citations: 11
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.04307'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Ponrudee Netisopakul, Gerhard Wohlgenannt, Aleksei Pulich

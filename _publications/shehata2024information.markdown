@@ -7,7 +7,7 @@ year: 2024
 bibkey: shehata2024information
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.08678'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Efficiency", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Dahlia Shehata
 ---
 Despite the advantages of their low-resource settings, traditional sparse

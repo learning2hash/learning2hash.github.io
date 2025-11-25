@@ -5,7 +5,7 @@ authors: "Naila Murray, Herv\xE9 J\xE9gou, Florent Perronnin, Andrew Zisserman"
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2016
 bibkey: murray2016interferences
-citations: 30
+citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.08194'}]
 tags: ["Evaluation", "Image Retrieval"]
 short_authors: Murray et al.

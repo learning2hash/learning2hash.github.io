@@ -5,9 +5,9 @@ authors: Wan-Lei Zhao, Jie Yang, Cheng-Hao Deng
 conference: Arxiv
 year: 2017
 bibkey: zhao2017scalable
-citations: 7
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.08475'}]
-tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Quantization", "Survey Paper"]
+tags: ["Efficiency", "Graph Based ANN", "Quantization"]
 short_authors: Wan-Lei Zhao, Jie Yang, Cheng-Hao Deng
 ---
 Nearest neighbor search is known as a challenging issue that has been studied

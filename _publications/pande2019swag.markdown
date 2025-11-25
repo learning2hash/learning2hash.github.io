@@ -5,7 +5,7 @@ authors: Amit Pande, Kai Ni, Venkataramani Kini
 conference: 2019 IEEE International Conference on Big Data (Big Data)
 year: 2019
 bibkey: pande2019swag
-citations: 13
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.10232'}]
 tags: ["Evaluation", "Graph Based ANN", "Recommender Systems"]
 short_authors: Amit Pande, Kai Ni, Venkataramani Kini

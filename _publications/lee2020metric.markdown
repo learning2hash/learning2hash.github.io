@@ -5,9 +5,9 @@ authors: Jongpil Lee, Nicholas J. Bryan, Justin Salamon, Zeyu Jin, Juhan Nam
 conference: Arxiv
 year: 2020
 bibkey: lee2020metric
-citations: 11
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.03729'}]
-tags: ["Distance Metric Learning", "Evaluation", "Similarity Search", "Tools & Libraries"]
+tags: ["Distance Metric Learning", "Evaluation", "Similarity Search"]
 short_authors: Lee et al.
 ---
 Deep representation learning offers a powerful paradigm for mapping input

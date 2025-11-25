@@ -5,9 +5,9 @@ authors: Pongsate Tangseng, Zhipeng Wu, Kota Yamaguchi
 conference: Arxiv
 year: 2017
 bibkey: tangseng2017looking
-citations: 46
+citations: 48
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.01386'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Pongsate Tangseng, Zhipeng Wu, Kota Yamaguchi
 ---
 This paper extends fully-convolutional neural networks (FCN) for the clothing

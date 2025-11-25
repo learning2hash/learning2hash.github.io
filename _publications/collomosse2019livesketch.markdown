@@ -5,9 +5,9 @@ authors: John Collomosse, Tu Bui, Hailin Jin
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: collomosse2019livesketch
-citations: 56
+citations: 59
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.06611'}]
-tags: ["CVPR", "Efficiency", "Image Retrieval"]
+tags: ["CVPR", "Image Retrieval"]
 short_authors: John Collomosse, Tu Bui, Hailin Jin
 ---
 LiveSketch is a novel algorithm for searching large image collections using

@@ -2,12 +2,12 @@
 layout: publication
 title: Theory Of The GMM Kernel
 authors: Ping Li, Cun-Hui Zhang
-conference: 'WWW ''17: 26th International World Wide Web Conference'
+conference: Arxiv
 year: 2016
 bibkey: li2016theory
-citations: 12
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.00550'}]
-tags: ["Datasets", "Hashing Methods"]
+tags: ["Distance Metric Learning", "Hashing Methods"]
 short_authors: Ping Li, Cun-Hui Zhang
 ---
 We develop some theoretical results for a robust similarity measure named

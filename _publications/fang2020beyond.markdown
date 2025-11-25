@@ -5,9 +5,9 @@ authors: Kuan Fang, Long Zhao, Zhan Shen, Ruixing Wang, Rikang Zhour, Liwen Fan
 conference: Arxiv
 year: 2020
 bibkey: fang2020beyond
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.03917'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval", "Tools & Libraries"]
+tags: ["Evaluation", "Text Retrieval", "Tools & Libraries"]
 short_authors: Fang et al.
 ---
 Search engine has become a fundamental component in various web and mobile

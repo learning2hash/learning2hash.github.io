@@ -2,12 +2,12 @@
 layout: publication
 title: Deep Metric Learning Via Facility Location
 authors: Hyun Oh Song, Stefanie Jegelka, Vivek Rathod, Kevin Murphy
-conference: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2016
 bibkey: song2016deep
-citations: 144
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.01213'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Song et al.
 ---
 Learning the representation and the similarity metric in an end-to-end

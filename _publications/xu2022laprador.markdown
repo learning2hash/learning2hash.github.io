@@ -5,9 +5,9 @@ authors: Canwen Xu, Daya Guo, Nan Duan, Julian McAuley
 conference: 'Findings of the Association for Computational Linguistics: ACL 2022'
 year: 2022
 bibkey: xu2022laprador
-citations: 22
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.06169'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Hybrid ANN Methods", "Re-Ranking", "Self-Supervised", "Supervised", "Text Retrieval", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval", "Unsupervised"]
 short_authors: Xu et al.
 ---
 In this paper, we propose LaPraDoR, a pretrained dual-tower dense retriever

@@ -3,12 +3,12 @@ layout: publication
 title: Large-scale Image Geo-localization Using Dominant Sets
 authors: Eyasu Zemene, Yonatan Tariku, Haroon Idrees, Andrea Prati, Marcello Pelillo,
   Mubarak Shah
-conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
+conference: Arxiv
 year: 2017
 bibkey: zemene2017large
-citations: 30
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.01238'}]
-tags: ["Datasets", "Scalability", "Tools & Libraries"]
+tags: ["Datasets", "Image Retrieval", "Scalability"]
 short_authors: Zemene et al.
 ---
 This paper presents a new approach for the challenging problem of

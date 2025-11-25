@@ -9,7 +9,7 @@ bibkey: desai2023heterogeneous
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/apd10/FLCF\'}, {name: Paper,
     url: 'https://arxiv.org/abs/2311.01722'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems"]
+tags: ["Hashing Methods", "Recommender Systems"]
 short_authors: Desai et al.
 ---
 Recommendation systems (RS) for items (e.g., movies, books) and ads are

@@ -6,9 +6,9 @@ authors: Yan Zheng, Junpeng Wang, Chin-Chia Michael Yeh, Yujie Fan, Huiyuan Chen
 conference: 2023 IEEE 16th Pacific Visualization Symposium (PacificVis)
 year: 2023
 bibkey: zheng2023embeddingtree
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.01329'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Zheng et al.
 ---
 Embedding learning transforms discrete data entities into continuous

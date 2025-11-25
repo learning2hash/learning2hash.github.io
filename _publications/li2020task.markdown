@@ -2,12 +2,12 @@
 layout: publication
 title: Task-adaptive Asymmetric Deep Cross-modal Hashing
 authors: Fengling Li, Tong Wang, Lei Zhu, Zheng Zhang, Xinhua Wang
-conference: Knowledge-Based Systems
+conference: Arxiv
 year: 2020
 bibkey: li2020task
-citations: 17
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.00197'}]
-tags: ["Compact Codes", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Supervised", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Supervised"]
 short_authors: Li et al.
 ---
 Supervised cross-modal hashing aims to embed the semantic correlations of

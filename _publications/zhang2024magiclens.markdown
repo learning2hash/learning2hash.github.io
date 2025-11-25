@@ -6,10 +6,10 @@ authors: Kai Zhang, Yi Luan, Hexiang Hu, Kenton Lee, Siyuan Qiao, Wenhu Chen, Yu
 conference: Arxiv
 year: 2024
 bibkey: zhang2024magiclens
-citations: 0
+citations: 1
 additional_links: [{name: Code, url: 'https://open-vision-language.github.io/MagicLens/'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.19651'}]
-tags: ["Efficiency", "Image Retrieval", "Self-Supervised", "Supervised"]
+tags: ["Efficiency", "Image Retrieval", "Self-Supervised"]
 short_authors: Zhang et al.
 ---
 Image retrieval, i.e., finding desired images given a reference image,

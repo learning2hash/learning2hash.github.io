@@ -5,9 +5,9 @@ authors: Wei Wu, Bin Li, Chuan Luo, Wolfgang Nejdl
 conference: Proceedings of the Web Conference 2021
 year: 2021
 bibkey: wu2021hashing
-citations: 31
+citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.14280'}]
-tags: ["Efficiency", "Hashing Methods", "Scalability", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Scalability"]
 short_authors: Wu et al.
 ---
 Networks are ubiquitous in the real world. Link prediction, as one of the key

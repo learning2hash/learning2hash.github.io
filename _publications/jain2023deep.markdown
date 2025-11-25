@@ -6,9 +6,9 @@ authors: Shubham Jain, Ana-Maria Cretu, Antoine Cully, Yves-Alexandre de Montjoy
 conference: 2023 IEEE Symposium on Security and Privacy (SP)
 year: 2023
 bibkey: jain2023deep
-citations: 3
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.11924'}]
-tags: ["Evaluation", "Hashing Methods"]
+tags: ["Evaluation", "Hashing Methods", "Privacy & Security"]
 short_authors: Jain et al.
 ---
 End-to-end encryption (E2EE) provides strong technical protections to

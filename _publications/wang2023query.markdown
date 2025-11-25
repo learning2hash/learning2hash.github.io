@@ -3,7 +3,8 @@ layout: publication
 title: Query Encoder Distillation Via Embedding Alignment Is A Strong Baseline Method
   To Boost Dense Retriever Online Efficiency
 authors: Yuxuan Wang, Hong Lyu
-conference: Arxiv
+conference: Proceedings of The Fourth Workshop on Simple and Efficient Natural Language
+  Processing (SustaiNLP)
 year: 2023
 bibkey: wang2023query
 citations: 0

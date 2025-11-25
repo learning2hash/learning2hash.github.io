@@ -7,7 +7,7 @@ year: 2019
 bibkey: kumar2019from
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.04914'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Neural Hashing", "Recommender Systems", "Scalability", "Supervised"]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Recommender Systems", "Scalability", "Supervised"]
 short_authors: Kumar et al.
 ---
 We propose a comprehensive end-to-end pipeline for Twitter hashtags

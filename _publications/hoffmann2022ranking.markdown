@@ -6,9 +6,9 @@ authors: David T. Hoffmann, Nadine Behrmann, Juergen Gall, Thomas Brox, Mehdi No
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2022
 bibkey: hoffmann2022ranking
-citations: 22
+citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.11736'}]
-tags: ["AAAI", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: ["AAAI", "Supervised", "Unsupervised"]
 short_authors: Hoffmann et al.
 ---
 This paper introduces Ranking Info Noise Contrastive Estimation (RINCE), a

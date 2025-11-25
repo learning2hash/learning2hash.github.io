@@ -5,9 +5,9 @@ authors: Mark Mazumder, Colby Banbury, Josh Meyer, Pete Warden, Vijay Janapa Red
 conference: Interspeech 2021
 year: 2021
 bibkey: mazumder2021few
-citations: 22
+citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.01454'}]
-tags: ["Few Shot & Zero Shot"]
+tags: ["Few Shot & Zero Shot", "Interspeech"]
 short_authors: Mazumder et al.
 ---
 We introduce a few-shot transfer learning method for keyword spotting in any

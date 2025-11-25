@@ -7,7 +7,7 @@ year: 2023
 bibkey: levi2023object
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.14999'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability", "Tools & Libraries"]
+tags: ["Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Levi et al.
 ---
 The task of open-vocabulary object-centric image retrieval involves the

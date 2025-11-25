@@ -2,12 +2,12 @@
 layout: publication
 title: Uncertainty-aware Few-shot Image Classification
 authors: Zhizheng Zhang, Cuiling Lan, Wenjun Zeng, Zhibo Chen, Shih-Fu Chang
-conference: Thirtieth International Joint Conference on Artificial Intelligence {IJCAI-21}
+conference: Arxiv
 year: 2020
 bibkey: zhang2020uncertainty
-citations: 24
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.04525'}]
-tags: ["AAAI", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Graph Based ANN", "IJCAI", "Tools & Libraries"]
+tags: ["Distance Metric Learning", "Few Shot & Zero Shot", "Graph Based ANN"]
 short_authors: Zhang et al.
 ---
 Few-shot image classification learns to recognize new categories from limited

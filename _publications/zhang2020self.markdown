@@ -5,9 +5,9 @@ authors: Xiao Zhang, Michael Maire
 conference: Arxiv
 year: 2020
 bibkey: zhang2020self
-citations: 31
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.03044'}]
-tags: ["Datasets", "Self-Supervised", "Supervised", "Tools & Libraries"]
+tags: ["Self-Supervised", "Supervised"]
 short_authors: Xiao Zhang, Michael Maire
 ---
 We create a framework for bootstrapping visual representation learning from a

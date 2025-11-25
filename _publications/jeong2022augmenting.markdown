@@ -7,9 +7,9 @@ conference: 'Proceedings of the 60th Annual Meeting of the Association for Compu
   Linguistics (Volume 2: Short Papers)'
 year: 2022
 bibkey: jeong2022augmenting
-citations: 7
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.07735'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Jeong et al.
 ---
 Dense retrieval models, which aim at retrieving the most relevant document

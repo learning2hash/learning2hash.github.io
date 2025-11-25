@@ -1,15 +1,23 @@
 ---
 layout: publication
-title: Deep Hashing Network For Efficient Similarity Retrieval
-authors: Han Zhu, Mingsheng Long, Jianmin Wang, Yue Cao
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+title: Deep Feature Flow For Video Recognition
+authors: Xizhou Zhu, Yuwen Xiong, Jifeng Dai, Lu Yuan, Yichen Wei
+conference: Arxiv
 year: 2016
 bibkey: zhu2016deep
-citations: 362
-additional_links: [{name: Paper, url: 'http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-hashing-network-aaai16.pdf'}]
-tags: ["AAAI", "Compact Codes", "Datasets", "Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Scalability", "Similarity Search", "Supervised"]
+citations: 9
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.07715'}]
+tags: ["Datasets", "Efficiency", "Video Retrieval"]
 short_authors: Zhu et al.
 ---
-Due to the storage and retrieval efficiency, hashing has been widely deployed to approximate nearest neighbor search for large-scale multimedia retrieval. Supervised hashing, which improves the quality of hash coding by exploiting the semantic similarity on data pairs, has received increasing attention recently. For most existing supervised hashing methods for image retrieval, an image is first represented as a vector of hand-crafted or machine-learned features, followed by another separate quantization step that generates binary codes.
-However, suboptimal hash coding may be produced, because the quantization error is not statistically minimized and the feature representation is not optimally compatible with the binary coding. In this paper, we propose a novel Deep Hashing Network (DHN) architecture for supervised hashing, in which we jointly learn good image representation tailored to hash coding and formally control the quantization error.
-The DHN model constitutes four key components: (1) a sub-network with multiple convolution-pooling layers to capture image representations; (2) a fully-connected hashing layer to generate compact binary hash codes; (3) a pairwise cross-entropy loss layer for similarity-preserving learning; and (4) a pairwise quantization loss for controlling hashing quality. Extensive experiments on standard image retrieval datasets show the proposed DHN model yields substantial boosts over latest state-of-the-art hashing methods.
+Deep convolutional neutral networks have achieved great success on image
+recognition tasks. Yet, it is non-trivial to transfer the state-of-the-art
+image recognition networks to videos as per-frame evaluation is too slow and
+unaffordable. We present deep feature flow, a fast and accurate framework for
+video recognition. It runs the expensive convolutional sub-network only on
+sparse key frames and propagates their deep feature maps to other frames via a
+flow field. It achieves significant speedup as flow computation is relatively
+fast. The end-to-end training of the whole architecture significantly boosts
+the recognition accuracy. Deep feature flow is flexible and general. It is
+validated on two recent large scale video datasets. It makes a large step
+towards practical video recognition.

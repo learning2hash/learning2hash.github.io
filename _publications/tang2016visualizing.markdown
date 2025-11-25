@@ -5,7 +5,7 @@ authors: Jian Tang, Jingzhou Liu, Ming Zhang, Qiaozhu Mei
 conference: Proceedings of the 25th International Conference on World Wide Web
 year: 2016
 bibkey: tang2016visualizing
-citations: 215
+citations: 304
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.00370'}]
 tags: ["Efficiency", "Graph Based ANN", "Scalability"]
 short_authors: Tang et al.

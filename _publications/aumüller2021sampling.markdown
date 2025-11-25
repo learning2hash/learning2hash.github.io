@@ -3,12 +3,12 @@ layout: publication
 title: Sampling A Near Neighbor In High Dimensions -- Who Is The Fairest Of Them All?
 authors: "Martin Aum\xFCller, Sariel Har-Peled, Sepideh Mahabadi, Rasmus Pagh, Francesco\
   \ Silvestri"
-conference: ACM Transactions on Database Systems
+conference: Arxiv
 year: 2021
 bibkey: "aum\xFCller2021sampling"
-citations: 5
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.10905'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: ["Efficiency", "Evaluation", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: "Aum\xFCller et al."
 ---
 Similarity search is a fundamental algorithmic primitive, widely used in many

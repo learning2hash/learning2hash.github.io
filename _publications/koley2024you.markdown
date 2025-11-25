@@ -6,9 +6,9 @@ authors: Subhadeep Koley, Ayan Kumar Bhunia, Aneeshan Sain, Pinaki Nath Chowdhur
 conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2024
 bibkey: koley2024you
-citations: 8
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.07222'}]
-tags: ["CVPR", "Image Retrieval", "Tools & Libraries"]
+tags: ["CVPR", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Koley et al.
 ---
 Two primary input modalities prevail in image retrieval: sketch and text.

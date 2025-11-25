@@ -5,9 +5,9 @@ authors: Ilia Rushkin
 conference: Advances in Intelligent Systems and Computing
 year: 2020
 bibkey: rushkin2020document
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.00672'}]
-tags: ["Uncategorized"]
+tags: ["Similarity Search", "Unsupervised"]
 short_authors: Ilia Rushkin
 ---
 We propose a computationally light method for estimating similarities between

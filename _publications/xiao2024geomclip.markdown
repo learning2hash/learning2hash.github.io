@@ -2,13 +2,13 @@
 layout: publication
 title: 'Geomclip: Contrastive Geometry-text Pre-training For Molecules'
 authors: Teng Xiao, Chao Cui, Huaisheng Zhu, Vasant G. Honavar
-conference: Arxiv
+conference: 2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
 year: 2024
 bibkey: xiao2024geomclip
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/xiaocui3737/GeomCLIP'}, {
     name: Paper, url: 'https://arxiv.org/abs/2411.10821'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Tools & Libraries"]
+tags: ["Datasets", "Few Shot & Zero Shot"]
 short_authors: Xiao et al.
 ---
 Pretraining molecular representations is crucial for drug and material

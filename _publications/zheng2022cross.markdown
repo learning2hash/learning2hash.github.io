@@ -7,9 +7,9 @@ conference: 'Proceedings of the 60th Annual Meeting of the Association for Compu
   Linguistics (Volume 1: Long Papers)'
 year: 2022
 bibkey: zheng2022cross
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.08887'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Scalability"]
+tags: ["Datasets", "Few Shot & Zero Shot"]
 short_authors: Zheng et al.
 ---
 Cross-lingual retrieval aims to retrieve relevant text across languages.

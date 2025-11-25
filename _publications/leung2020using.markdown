@@ -8,7 +8,7 @@ year: 2020
 bibkey: leung2020using
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.00636'}]
-tags: ["Distance Metric Learning", "Recommender Systems", "Survey Paper"]
+tags: ["Distance Metric Learning", "Re-Ranking", "Recommender Systems"]
 short_authors: John Kalung Leung, Igor Griva, William G. Kennedy
 ---
 This paper investigates the causality in the decision making of movie

@@ -6,9 +6,9 @@ authors: M. Sadegh Riazi, Beidi Chen, Anshumali Shrivastava, Dan Wallach, Farina
 conference: Arxiv
 year: 2016
 bibkey: riazi2016sub
-citations: 11
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.01835'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Distance Metric Learning", "Efficiency", "Locality-Sensitive-Hashing", "Privacy & Security"]
 short_authors: Riazi et al.
 ---
 In Near-Neighbor Search (NNS), a new client queries a database (held by a

@@ -2,12 +2,12 @@
 layout: publication
 title: 'DOGR: Leveraging Document-oriented Contrastive Learning In Generative Retrieval'
 authors: Penghao Lu, Xin Dong, Yuansheng Zhou, Lei Cheng, Chuan Yuan, Linjian Mo
-conference: Arxiv
+conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2025
 bibkey: lu2025dogr
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.07219'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised", "Tools & Libraries"]
+tags: ["AAAI", "Evaluation", "Self-Supervised"]
 short_authors: Lu et al.
 ---
 Generative retrieval constitutes an innovative approach in information

@@ -2,10 +2,10 @@
 layout: publication
 title: Minimum-distortion Embedding
 authors: Akshay Agrawal, Alnur Ali, Stephen Boyd
-conference: "Foundations and Trends\xAE in Machine Learning"
+conference: Arxiv
 year: 2021
 bibkey: agrawal2021minimum
-citations: 39
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.02559'}]
 tags: ["Distance Metric Learning", "Tools & Libraries"]
 short_authors: Akshay Agrawal, Alnur Ali, Stephen Boyd

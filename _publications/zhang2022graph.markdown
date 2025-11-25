@@ -2,13 +2,12 @@
 layout: publication
 title: Graph Sampling For Node Embedding
 authors: Li-Chun Zhang
-conference: ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech
-  and Signal Processing (ICASSP)
+conference: Arxiv
 year: 2022
 bibkey: zhang2022graph
-citations: 15
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.10520'}]
-tags: ["Efficiency", "ICASSP", "Scalability"]
+tags: ["Efficiency", "Graph Based ANN", "Scalability"]
 short_authors: Li-Chun Zhang
 ---
 Node embedding is a central topic in graph representation learning.

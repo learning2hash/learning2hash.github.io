@@ -6,7 +6,7 @@ authors: Guangcong Zhang, Mason J. Lilly, Patricio A. Vela
 conference: 2016 IEEE International Conference on Robotics and Automation (ICRA)
 year: 2016
 bibkey: zhang2016learning
-citations: 32
+citations: 33
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1601.03821'}]
 tags: ["Evaluation", "ICRA"]
 short_authors: Guangcong Zhang, Mason J. Lilly, Patricio A. Vela

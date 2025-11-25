@@ -7,7 +7,7 @@ year: 2019
 bibkey: wang2019id
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.09143'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Image Retrieval", "Robustness"]
 short_authors: Wang et al.
 ---
 Set-based person re-identification (SReID) is a matching problem that aims to

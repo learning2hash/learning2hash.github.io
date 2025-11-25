@@ -7,9 +7,9 @@ conference: Proceedings of the Twenty-Sixth International Joint Conference on Ar
   Intelligence
 year: 2017
 bibkey: icarte2017how
-citations: 16
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.08844'}]
-tags: ["AAAI", "Datasets", "Evaluation", "IJCAI", "Image Retrieval", "Neural Hashing"]
+tags: ["Evaluation", "IJCAI", "Image Retrieval"]
 short_authors: Icarte et al.
 ---
 The knowledge representation community has built general-purpose ontologies

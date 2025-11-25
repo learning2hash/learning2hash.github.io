@@ -6,9 +6,9 @@ authors: Liana Patel, Peter Kraft, Carlos Guestrin, Matei Zaharia
 conference: Proceedings of the ACM on Management of Data
 year: 2024
 bibkey: patel2024acorn
-citations: 15
+citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.04871'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN"]
+tags: ["Datasets", "Graph Based ANN", "Hybrid ANN Methods", "Large Scale Search", "Similarity Search"]
 short_authors: Patel et al.
 ---
 Applications increasingly leverage mixed-modality data, and must jointly

@@ -3,12 +3,12 @@ layout: publication
 title: 'CAGRA: Highly Parallel Graph Construction And Approximate Nearest Neighbor
   Search For Gpus'
 authors: Hiroyuki Ootomo, Akira Naruse, Corey Nolet, Ray Wang, Tamas Feher, Yong Wang
-conference: 2024 IEEE 40th International Conference on Data Engineering (ICDE)
+conference: Arxiv
 year: 2023
 bibkey: ootomo2023cagra
-citations: 22
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.15136'}]
-tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Recommender Systems"]
+tags: ["Efficiency", "Graph Based ANN", "Recommender Systems"]
 short_authors: Ootomo et al.
 ---
 Approximate Nearest Neighbor Search (ANNS) plays a critical role in various

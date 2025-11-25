@@ -8,7 +8,7 @@ year: 2024
 bibkey: pasch2024multilingual
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.13695'}]
-tags: ["Efficiency"]
+tags: ["Efficiency", "Similarity Search"]
 short_authors: Stefan Pasch, Dimitirios Petridis, Jannic Cutura
 ---
 This paper addresses the deduplication of multilingual textual data using

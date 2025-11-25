@@ -5,7 +5,7 @@ authors: Maximilian Lam
 conference: Arxiv
 year: 2018
 bibkey: lam2018word2bits
-citations: 27
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.05651'}]
 tags: ["Evaluation", "Quantization"]
 short_authors: Maximilian Lam

@@ -6,9 +6,9 @@ authors: Federico Bianchi, Jacopo Tagliabue, Bingqing Yu, Luca Bigon, Ciro Greco
 conference: Arxiv
 year: 2020
 bibkey: bianchi2020fantastic
-citations: 27
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.14906'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Supervised", "Unsupervised"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Unsupervised"]
 short_authors: Bianchi et al.
 ---
 This paper addresses the challenge of leveraging multiple embedding spaces

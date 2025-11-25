@@ -7,9 +7,9 @@ conference: 'Proceedings of the 61st Annual Meeting of the Association for Compu
   Linguistics (Volume 2: Short Papers)'
 year: 2023
 bibkey: tasawong2023typo
-citations: 2
+citations: 4
 additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2306.10348'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Robustness", "Text Retrieval"]
 short_authors: Tasawong et al.
 ---
 Dense retrieval is a basic building block of information retrieval

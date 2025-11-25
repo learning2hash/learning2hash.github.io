@@ -6,10 +6,10 @@ conference: ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speec
   and Signal Processing (ICASSP)
 year: 2021
 bibkey: yan2021hierarchical
-citations: 32
+citations: 38
 additional_links: [{name: Code, url: 'https://github.com/YanLiqi/HAF'}, {name: Paper,
     url: 'https://arxiv.org/abs/2102.09186'}]
-tags: ["Evaluation", "ICASSP", "Image Retrieval", "Scalability", "Self-Supervised", "Supervised"]
+tags: ["ICASSP", "Image Retrieval", "Self-Supervised"]
 short_authors: Yan et al.
 ---
 Geo-localization is a critical task in computer vision. In this work, we cast

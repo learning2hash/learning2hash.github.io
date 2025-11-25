@@ -5,9 +5,9 @@ authors: Arka Ujjal Dey, Suman Kumar Ghosh, Ernest Valveny, Gaurav Harit
 conference: Pattern Recognition Letters
 year: 2019
 bibkey: dey2019beyond
-citations: 14
+citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.10622'}]
-tags: ["Tools & Libraries"]
+tags: ["Image Retrieval", "Multimodal Retrieval"]
 short_authors: Dey et al.
 ---
 Images with visual and scene text content are ubiquitous in everyday life.

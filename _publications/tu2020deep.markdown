@@ -2,12 +2,12 @@
 layout: publication
 title: Deep Cross-modal Hashing Via Margin-dynamic-softmax Loss
 authors: Rong-Cheng Tu, Xian-Ling Mao, Rongxin Tu, Binbin Bian, Wei Wei, Heyan Huang
-conference: IEEE Transactions on Knowledge and Data Engineering
+conference: Arxiv
 year: 2020
 bibkey: tu2020deep
-citations: 78
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.03451'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Memory Efficiency", "Supervised"]
+tags: ["Hashing Methods", "Multimodal Retrieval", "Supervised"]
 short_authors: Tu et al.
 ---
 Due to their high retrieval efficiency and low storage cost for cross-modal

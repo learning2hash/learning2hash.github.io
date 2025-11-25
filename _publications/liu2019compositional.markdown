@@ -7,9 +7,9 @@ conference: Proceedings of the 42nd International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2019
 bibkey: liu2019compositional
-citations: 15
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.03752'}]
-tags: ["Compact Codes", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Recommender Systems", "SIGIR", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Recommender Systems", "SIGIR"]
 short_authors: Liu et al.
 ---
 Efficiency is crucial to the online recommender systems. Representing users

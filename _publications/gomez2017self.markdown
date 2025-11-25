@@ -9,7 +9,7 @@ year: 2017
 bibkey: gomez2017self
 citations: 96
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.08631'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Self-Supervised", "Supervised"]
+tags: ["CVPR", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Gomez et al.
 ---
 End-to-end training from scratch of current deep architectures for new

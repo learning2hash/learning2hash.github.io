@@ -3,12 +3,13 @@ layout: publication
 title: 'Mabnet: Master Assistant Buddy Network With Hybrid Learning For Image Retrieval'
 authors: Rohit Agarwal, Gyanendra Das, Saksham Aggarwal, Alexander Horsch, Dilip K.
   Prasad
-conference: Arxiv
+conference: ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech
+  and Signal Processing (ICASSP)
 year: 2023
 bibkey: agarwal2023mabnet
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.03050'}]
-tags: ["Datasets", "Image Retrieval", "Re-Ranking", "Self-Supervised", "Supervised"]
+tags: ["ICASSP", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Agarwal et al.
 ---
 Image retrieval has garnered growing interest in recent times. The current

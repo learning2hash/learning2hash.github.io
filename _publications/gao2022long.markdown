@@ -3,12 +3,12 @@ layout: publication
 title: Long-tail Cross Modal Hashing
 authors: Zijun Gao, Jun Wang, Guoxian Yu, Zhongmin Yan, Carlotta Domeniconi, Jinglin
   Zhang
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2022
 bibkey: gao2022long
-citations: 11
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.15162'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Hashing Methods"]
+tags: ["Datasets", "Hashing Methods", "Multimodal Retrieval"]
 short_authors: Gao et al.
 ---
 Existing Cross Modal Hashing (CMH) methods are mainly designed for balanced

@@ -8,7 +8,7 @@ year: 2018
 bibkey: morvan2018on
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.03936'}]
-tags: ["Hashing Methods", "Quantization"]
+tags: ["Hashing Methods", "Quantization", "Similarity Search"]
 short_authors: Morvan et al.
 ---
 The aim of this paper is to endow the well-known family of hypercubic

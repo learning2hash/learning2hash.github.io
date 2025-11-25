@@ -5,9 +5,9 @@ authors: Aniket Bhatnagar, Sanchit Aggarwal
 conference: Arxiv
 year: 2018
 bibkey: bhatnagar2018fine
-citations: 2
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.02385'}]
-tags: ["Datasets", "Distance Metric Learning", "Tools & Libraries"]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Aniket Bhatnagar, Sanchit Aggarwal
 ---
 The ability to correctly classify and retrieve apparel images has a variety

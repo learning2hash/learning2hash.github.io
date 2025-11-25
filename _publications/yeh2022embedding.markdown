@@ -8,9 +8,9 @@ conference: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery
   Data Mining
 year: 2022
 bibkey: yeh2022embedding
-citations: 13
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.05648'}]
-tags: ["Evaluation", "Graph Based ANN", "Hashing Methods", "KDD", "Neural Hashing", "Scalability"]
+tags: ["Graph Based ANN", "Hashing Methods", "KDD", "Neural Hashing", "Scalability"]
 short_authors: Yeh et al.
 ---
 Graph neural networks (GNNs) are deep learning models designed specifically

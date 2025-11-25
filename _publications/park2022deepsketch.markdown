@@ -6,9 +6,9 @@ authors: Jisung Park, Jeoggyun Kim, Yeseong Kim, Sungjin Lee, Onur Mutlu
 conference: Arxiv
 year: 2022
 bibkey: park2022deepsketch
-citations: 0
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.10584'}]
-tags: ["Efficiency", "Evaluation"]
+tags: ["Efficiency", "Neural Hashing", "Similarity Search"]
 short_authors: Park et al.
 ---
 Data reduction in storage systems is becoming increasingly important as an

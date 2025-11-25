@@ -2,13 +2,12 @@
 layout: publication
 title: A Statutory Article Retrieval Dataset In French
 authors: Antoine Louis, Gerasimos Spanakis
-conference: 'Proceedings of the 60th Annual Meeting of the Association for Computational
-  Linguistics (Volume 1: Long Papers)'
+conference: Arxiv
 year: 2021
 bibkey: louis2021a
-citations: 12
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.11792'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Scalability", "Supervised"]
+tags: ["Datasets", "Supervised", "Text Retrieval"]
 short_authors: Antoine Louis, Gerasimos Spanakis
 ---
 Statutory article retrieval is the task of automatically retrieving law

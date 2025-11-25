@@ -5,9 +5,9 @@ authors: Young Kyun Jang, Nam Ik Cho
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: jang2021self
-citations: 53
+citations: 66
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.02244'}]
-tags: ["ICCV", "Image Retrieval", "Neural Hashing", "Quantization", "Scalability", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: ["ICCV", "Image Retrieval", "Quantization", "Self-Supervised", "Unsupervised"]
 short_authors: Young Kyun Jang, Nam Ik Cho
 ---
 Supervised deep learning-based hash and vector quantization are enabling fast

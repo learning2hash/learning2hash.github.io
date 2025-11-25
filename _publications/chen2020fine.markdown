@@ -5,9 +5,9 @@ authors: Shizhe Chen, Yida Zhao, Qin Jin, Qi Wu
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2020
 bibkey: chen2020fine
-citations: 277
+citations: 306
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.00392'}]
-tags: ["CVPR", "Datasets", "Multimodal Retrieval", "Text Retrieval"]
+tags: ["CVPR", "Multimodal Retrieval", "Text Retrieval", "Video Retrieval"]
 short_authors: Chen et al.
 ---
 Cross-modal retrieval between videos and texts has attracted growing

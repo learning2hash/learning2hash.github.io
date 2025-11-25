@@ -2,12 +2,12 @@
 layout: publication
 title: A Deep Local And Global Scene-graph Matching For Image-text Retrieval
 authors: Manh-Duy Nguyen, Binh T. Nguyen, Cathal Gurrin
-conference: 2020 25th International Conference on Pattern Recognition (ICPR)
+conference: Frontiers in Artificial Intelligence and Applications
 year: 2021
 bibkey: nguyen2021a
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.02400'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Manh-Duy Nguyen, Binh T. Nguyen, Cathal Gurrin
 ---
 Conventional approaches to image-text retrieval mainly focus on indexing

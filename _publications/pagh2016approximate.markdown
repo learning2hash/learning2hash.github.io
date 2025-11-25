@@ -5,9 +5,9 @@ authors: Rasmus Pagh, Francesco Silvestri, Johan Sivertsen, Matthew Skala
 conference: Information Systems
 year: 2016
 bibkey: pagh2016approximate
-citations: 10
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.07303'}]
-tags: ["Efficiency", "Locality-Sensitive-Hashing", "Recommender Systems"]
+tags: ["Efficiency", "Recommender Systems"]
 short_authors: Pagh et al.
 ---
 Much recent work has been devoted to approximate nearest neighbor queries.

@@ -3,12 +3,12 @@ layout: publication
 title: Efficient Algorithms For T-distributed Stochastic Neighborhood Embedding
 authors: George C. Linderman, Manas Rachh, Jeremy G. Hoskins, Stefan Steinerberger,
   Yuval Kluger
-conference: Nature Methods
+conference: Arxiv
 year: 2017
 bibkey: linderman2017efficient
-citations: 193
+citations: 186
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.09005'}]
-tags: ["Datasets"]
+tags: ["Efficiency", "Memory Efficiency", "Scalability"]
 short_authors: Linderman et al.
 ---
 t-distributed Stochastic Neighborhood Embedding (t-SNE) is a method for

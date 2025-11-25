@@ -5,9 +5,9 @@ authors: Qin Zou, Zheng Zhang, Ling Cao, Long Chen, Song Wang
 conference: IEEE Transactions on Neural Networks and Learning Systems
 year: 2019
 bibkey: zou2019transductive
-citations: 12
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.07192'}]
-tags: ["Compact Codes", "Datasets", "Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Quantization", "Scalability"]
+tags: ["Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Quantization"]
 short_authors: Zou et al.
 ---
 Hash coding has been widely used in approximate nearest neighbor search for

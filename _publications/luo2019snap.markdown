@@ -7,7 +7,7 @@ year: 2019
 bibkey: luo2019snap
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.02887'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability"]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Image Retrieval"]
 short_authors: Luo et al.
 ---
 With the increasing number of online stores, there is a pressing need for

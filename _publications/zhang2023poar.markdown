@@ -5,10 +5,10 @@ authors: Yue Zhang, Suchen Wang, Shichao Kan, Zhenyu Weng, Yigang Cen, Yap-Peng 
 conference: Proceedings of the 31st ACM International Conference on Multimedia
 year: 2023
 bibkey: zhang2023poar
-citations: 3
+citations: 9
 additional_links: [{name: Code, url: 'https://github.com/IvyYZ/POAR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2303.14643'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval", "Tools & Libraries"]
+tags: ["Datasets", "Text Retrieval", "Tools & Libraries"]
 short_authors: Zhang et al.
 ---
 Pedestrian attribute recognition (PAR) aims to predict the attributes of a

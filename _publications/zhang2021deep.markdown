@@ -1,13 +1,33 @@
 ---
 layout: publication
-title: Deep Center-based Dual-constrained Hashing For Discriminative Face Image Retrieval
-authors: Ming Zhang, Xuefei Zhe, Shifeng Yan
-conference: Pattern Recognition
+title: Deep High-resolution Representation Learning For Cross-resolution Person Re-identification
+authors: Guoqing Zhang, Yu Ge, Zhicheng Dong, Hao Wang, Yuhui Zheng, Shengyong Chen
+conference: IEEE Transactions on Image Processing
 year: 2021
 bibkey: zhang2021deep
-citations: 18
-additional_links: [{name: Paper, url: 'https://www.sciencedirect.com/science/article/abs/pii/S0031320321001631'}]
-tags: ["CVPR", "Compact Codes", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Memory Efficiency", "Neural Hashing", "Scalability", "Tools & Libraries"]
-short_authors: Ming Zhang, Xuefei Zhe, Shifeng Yan
+citations: 94
+additional_links: [{name: Code, url: 'https://github.com/zhguoqing'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2105.11722'}]
+tags: ["Datasets", "Evaluation"]
+short_authors: Zhang et al.
 ---
-With the advantages of low storage cost and extremely fast retrieval speed, deep hashing methods have attracted much attention for image retrieval recently. However, large-scale face image retrieval with significant intra-class variations is still challenging. Neither existing pairwise/triplet labels-based nor softmax classification loss-based deep hashing works can generate compact and discriminative binary codes. Considering these issues, we propose a center-based framework integrating end-to-end hashing learning and class centers learning simultaneously. The framework minimizes the intra-class variance by clustering intra-class samples into a learnable class center. To strengthen inter-class separability, it additionally imposes a novel regularization term to enlarge the Hamming distance between pairwise class centers. Moreover, a simple yet effective regression matrix is introduced to encourage intra-class samples to generate the same binary codes, which further enhances the hashing codes compactness. Experiments on four large-scale datasets show the proposed method outperforms state-of-the-art baselines under various code lengths and commonly-used evaluation metrics.
+Person re-identification (re-ID) tackles the problem of matching person
+images with the same identity from different cameras. In practical
+applications, due to the differences in camera performance and distance between
+cameras and persons of interest, captured person images usually have various
+resolutions. We name this problem as Cross-Resolution Person Re-identification
+which brings a great challenge for matching correctly. In this paper, we
+propose a Deep High-Resolution Pseudo-Siamese Framework (PS-HRNet) to solve the
+above problem. Specifically, in order to restore the resolution of
+low-resolution images and make reasonable use of different channel information
+of feature maps, we introduce and innovate VDSR module with channel attention
+(CA) mechanism, named as VDSR-CA. Then we reform the HRNet by designing a novel
+representation head to extract discriminating features, named as HRNet-ReID. In
+addition, a pseudo-siamese framework is constructed to reduce the difference of
+feature distributions between low-resolution images and high-resolution images.
+The experimental results on five cross-resolution person datasets verify the
+effectiveness of our proposed approach. Compared with the state-of-the-art
+methods, our proposed PS-HRNet improves 3.4%, 6.2%, 2.5%,1.1% and 4.2% at
+Rank-1 on MLR-Market-1501, MLR-CUHK03, MLR-VIPeR, MLR-DukeMTMC-reID, and CAVIAR
+datasets, respectively. Our code is available at
+https://github.com/zhguoqing.

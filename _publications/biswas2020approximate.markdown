@@ -3,12 +3,12 @@ layout: publication
 title: Approximate Nearest Neighbour Search On Privacy-aware Encoding Of User Locations
   To Identify Susceptible Infections In Simulated Epidemics
 authors: Chandan Biswas, Debasis Ganguly, Ujjwal Bhattacharya
-conference: 'FIRE 2021: Forum for Information Retrieval Evaluation'
+conference: Arxiv
 year: 2020
 bibkey: biswas2020approximate
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.08851'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Similarity Search", "Tree Based ANN"]
+tags: ["Efficiency", "Privacy & Security", "Similarity Search", "Tree Based ANN"]
 short_authors: Chandan Biswas, Debasis Ganguly, Ujjwal Bhattacharya
 ---
 Amidst an increasing number of infected cases during the Covid-19 pandemic,

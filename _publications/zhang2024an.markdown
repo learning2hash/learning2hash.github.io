@@ -2,13 +2,12 @@
 layout: publication
 title: An Enhanced Batch Query Architecture In Real-time Recommendation
 authors: Qiang Zhang, Zhipeng Teng, Disheng Wu, Jiayin Wang
-conference: Proceedings of the 33rd ACM International Conference on Information and
-  Knowledge Management
+conference: CIKM 24(2024) Pages 5078 - 5085
 year: 2024
 bibkey: zhang2024an
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.00400'}]
-tags: ["CIKM", "Efficiency", "Evaluation", "Hashing Methods", "Recommender Systems"]
+tags: ["CIKM", "Efficiency", "Hashing Methods", "Recommender Systems"]
 short_authors: Zhang et al.
 ---
 In industrial recommendation systems on websites and apps, it is essential to

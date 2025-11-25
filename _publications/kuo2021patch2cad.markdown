@@ -6,9 +6,9 @@ authors: Weicheng Kuo, Anelia Angelova, Tsung-Yi Lin, Angela Dai
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: kuo2021patch2cad
-citations: 22
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.09368'}]
-tags: ["ICCV", "Scalability"]
+tags: ["ICCV", "Image Retrieval", "Robustness", "Similarity Search"]
 short_authors: Kuo et al.
 ---
 3D perception of object shapes from RGB image input is fundamental towards

@@ -8,9 +8,9 @@ conference: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery
   Data Mining
 year: 2022
 bibkey: chen2022learning
-citations: 24
+citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.02115'}]
-tags: ["Evaluation", "KDD", "Memory Efficiency", "Quantization", "Recommender Systems", "Tools & Libraries"]
+tags: ["KDD", "Memory Efficiency", "Quantization", "Recommender Systems"]
 short_authors: Chen et al.
 ---
 Learning vectorized embeddings is at the core of various recommender systems

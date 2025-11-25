@@ -2,12 +2,12 @@
 layout: publication
 title: Medical Image Retrieval Using Pretrained Embeddings
 authors: Farnaz Khun Jush, Tuan Truong, Steffen Vogler, Matthias Lenga
-conference: 2024 IEEE International Symposium on Biomedical Imaging (ISBI)
+conference: Arxiv
 year: 2023
 bibkey: jush2023medical
-citations: 10
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.13547'}]
-tags: ["Evaluation", "Image Retrieval", "Scalability", "Similarity Search"]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Similarity Search"]
 short_authors: Jush et al.
 ---
 A wide range of imaging techniques and data formats available for medical

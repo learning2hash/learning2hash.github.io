@@ -5,9 +5,9 @@ authors: Stefan Bamberger, Felix Krahmer
 conference: Sampling Theory, Signal Processing, and Data Analysis
 year: 2017
 bibkey: bamberger2017optimal
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.01774'}]
-tags: ["Uncategorized"]
+tags: ["Efficiency", "Locality-Sensitive-Hashing", "Scalability"]
 short_authors: Stefan Bamberger, Felix Krahmer
 ---
 Johnson-Lindenstrauss embeddings are widely used to reduce the dimension and

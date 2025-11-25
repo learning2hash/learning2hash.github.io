@@ -7,7 +7,7 @@ year: 2021
 bibkey: coleman2021graph
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.03221'}]
-tags: ["Efficiency", "Evaluation", "Graph Based ANN"]
+tags: ["Efficiency", "Graph Based ANN"]
 short_authors: Coleman et al.
 ---
 Graph search is one of the most successful algorithmic trends in near

@@ -6,9 +6,9 @@ authors: Niluthpol Chowdhury Mithun, Rameswar Panda, Evangelos E. Papalexakis, A
 conference: Proceedings of the 26th ACM international conference on Multimedia
 year: 2018
 bibkey: mithun2018webly
-citations: 73
+citations: 78
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.07793'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Supervised", "Text Retrieval"]
+tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval", "Supervised"]
 short_authors: Mithun et al.
 ---
 Cross-modal retrieval between visual data and natural language description

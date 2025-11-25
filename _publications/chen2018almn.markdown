@@ -7,7 +7,7 @@ year: 2018
 bibkey: chen2018almn
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.00974'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Binghui Chen, Weihong Deng
 ---
 Deep embedding learning becomes more attractive for discriminative feature

@@ -5,9 +5,9 @@ authors: Kush Juvekar, Anupam Purwar
 conference: Arxiv
 year: 2024
 bibkey: juvekar2024cos
-citations: 1
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.00638'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Kush Juvekar, Anupam Purwar
 ---
 This study proposes a novel hybrid retrieval strategy for Retrieval-Augmented

@@ -1,0 +1,27 @@
+---
+layout: publication
+title: A New Method To Capturing Compositional Knowledge In Linguistic Space
+authors: Jiahe Wan
+conference: Arxiv
+year: 2024
+bibkey: wan2024a
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.15632'}]
+tags: ["Few Shot & Zero Shot", "Image Retrieval"]
+short_authors: Jiahe Wan
+---
+Compositional understanding allows visual language models to interpret
+complex relationships between objects, attributes, and relations in images and
+text. However, most existing methods often rely on hard negative examples and
+fine-tuning, which can overestimate improvements and are limited by the
+difficulty of obtaining hard negatives. In this work, we introduce Zero-Shot
+Compositional Understanding (ZS-CU), a novel task that enhances compositional
+understanding without requiring hard negative training data. We propose YUKINO
+(Yielded Compositional Understanding Knowledge via Textual Inversion with NO),
+which uses textual inversion to map unlabeled images to pseudo-tokens in a
+pre-trained CLIP model. We propose introducing "no" logical regularization to
+address the issue of token interaction in inversion. Additionally, we suggest
+using knowledge distillation to reduce the time complexity of textual
+inversion. Experimental results show that YUKINO outperforms the existing
+multi-modal SOTA models by over 8% on the SugarCREPE benchmark, and also
+achieves significant improvements in image retrieval tasks.

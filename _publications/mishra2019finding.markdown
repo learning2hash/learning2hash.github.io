@@ -7,7 +7,7 @@ year: 2019
 bibkey: mishra2019finding
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.05638'}]
-tags: ["Datasets", "Scalability"]
+tags: ["Graph Based ANN", "Scalability"]
 short_authors: Abhinav Mishra
 ---
 Many distributed learning techniques have been motivated by the increasing

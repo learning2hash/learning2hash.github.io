@@ -6,10 +6,10 @@ conference: Proceedings of the 47th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2024
 bibkey: liang2024lightweight
-citations: 4
+citations: 9
 additional_links: [{name: Code, url: 'https://github.com/xurong-liang/LEGCF'}, {name: Paper,
     url: 'https://arxiv.org/abs/2403.18479'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "SIGIR", "Tools & Libraries"]
+tags: ["Efficiency", "Graph Based ANN", "Recommender Systems", "SIGIR"]
 short_authors: Liang et al.
 ---
 Graph neural networks (GNNs) are currently one of the most performant

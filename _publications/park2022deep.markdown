@@ -7,7 +7,7 @@ year: 2022
 bibkey: park2022deep
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.12544'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries"]
+tags: ["Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Kyung Ho Park
 ---
 Visual localization is an essential component of intelligent transportation

@@ -1,0 +1,29 @@
+---
+layout: publication
+title: Deep Group-shuffling Random Walk For Person Re-identification
+authors: Yantao Shen, Hongsheng Li, Tong Xiao, Shuai Yi, Dapeng Chen, Xiaogang Wang
+conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
+year: 2018
+bibkey: shen2018deep
+citations: 146
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.11178'}]
+tags: ["CVPR", "Datasets", "Image Retrieval"]
+short_authors: Shen et al.
+---
+Person re-identification aims at finding a person of interest in an image
+gallery by comparing the probe image of this person with all the gallery
+images. It is generally treated as a retrieval problem, where the affinities
+between the probe image and gallery images (P2G affinities) are used to rank
+the retrieved gallery images. However, most existing methods only consider P2G
+affinities but ignore the affinities between all the gallery images (G2G
+affinity). Some frameworks incorporated G2G affinities into the testing
+process, which is not end-to-end trainable for deep neural networks. In this
+paper, we propose a novel group-shuffling random walk network for fully
+utilizing the affinity information between gallery images in both the training
+and testing processes. The proposed approach aims at end-to-end refining the
+P2G affinities based on G2G affinity information with a simple yet effective
+matrix operation, which can be integrated into deep neural networks. Feature
+grouping and group shuffle are also proposed to apply rich supervisions for
+learning better person features. The proposed approach outperforms
+state-of-the-art methods on the Market-1501, CUHK03, and DukeMTMC datasets by
+large margins, which demonstrate the effectiveness of our approach.

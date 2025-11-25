@@ -5,7 +5,7 @@ authors: Shah Nawaz, Muhammad Kamran Janjua, Alessandro Calefati, Ignazio Gallo
 conference: Arxiv
 year: 2018
 bibkey: nawaz2018revisiting
-citations: 5
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.07364'}]
 tags: ["Datasets", "Multimodal Retrieval"]
 short_authors: Nawaz et al.

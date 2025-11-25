@@ -5,7 +5,7 @@ authors: Masataka Yamaguchi, Kuniaki Saito, Yoshitaka Ushiku, Tatsuya Harada
 conference: 2017 IEEE International Conference on Computer Vision (ICCV)
 year: 2017
 bibkey: yamaguchi2017spatio
-citations: 68
+citations: 67
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.07945'}]
 tags: ["Datasets", "ICCV", "Multimodal Retrieval"]
 short_authors: Yamaguchi et al.

@@ -5,9 +5,9 @@ authors: Natasha Fernandes, Yusuke Kawamoto, Takao Murakami
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: fernandes2020locality
-citations: 5
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.09393'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Privacy & Security"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Privacy & Security"]
 short_authors: Natasha Fernandes, Yusuke Kawamoto, Takao Murakami
 ---
 Extended differential privacy, a generalization of standard differential

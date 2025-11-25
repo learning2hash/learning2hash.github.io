@@ -5,9 +5,9 @@ authors: Tim Raven, Arthur Matei, Gernot A. Fink
 conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: raven2024self
-citations: 1
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.00751'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised"]
+tags: ["Datasets", "Evaluation", "Self-Supervised"]
 short_authors: Tim Raven, Arthur Matei, Gernot A. Fink
 ---
 While methods based on Vision Transformers (ViT) have achieved

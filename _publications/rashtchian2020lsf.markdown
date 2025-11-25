@@ -6,9 +6,9 @@ authors: Cyrus Rashtchian, Aneesh Sharma, David P. Woodruff
 conference: Proceedings of The Web Conference 2020
 year: 2020
 bibkey: rashtchian2020lsf
-citations: 5
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.02972'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems", "Similarity Search"]
+tags: ["Locality-Sensitive-Hashing", "Recommender Systems", "Similarity Search"]
 short_authors: Cyrus Rashtchian, Aneesh Sharma, David P. Woodruff
 ---
 All-pairs set similarity is a widely used data mining task, even for large

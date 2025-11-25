@@ -2,12 +2,12 @@
 layout: publication
 title: Discriminative Supervised Hashing For Cross-modal Similarity Search
 authors: Jun Yu, Xiao-Jun Wu, Josef Kittler
-conference: Image and Vision Computing
+conference: Arxiv
 year: 2018
 bibkey: yu2018discriminative
-citations: 10
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.07660'}]
-tags: ["Compact Codes", "Datasets", "Efficiency", "Hashing Methods", "Memory Efficiency", "Robustness", "Similarity Search", "Supervised", "Tools & Libraries"]
+tags: ["Hashing Methods", "Multimodal Retrieval", "Robustness", "Similarity Search", "Supervised"]
 short_authors: Jun Yu, Xiao-Jun Wu, Josef Kittler
 ---
 With the advantage of low storage cost and high retrieval efficiency, hashing

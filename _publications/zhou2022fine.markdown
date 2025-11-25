@@ -3,12 +3,12 @@ layout: publication
 title: Fine-grained Distillation For Long Document Retrieval
 authors: Yucheng Zhou, Tao Shen, Xiubo Geng, Chongyang Tao, Guodong Long, Can Xu,
   Daxin Jiang
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2022
 bibkey: zhou2022fine
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.10423'}]
-tags: ["AAAI", "Evaluation", "Scalability", "Text Retrieval", "Tools & Libraries"]
+tags: ["Evaluation", "Scalability", "Text Retrieval"]
 short_authors: Zhou et al.
 ---
 Long document retrieval aims to fetch query-relevant documents from a

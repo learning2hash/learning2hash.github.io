@@ -5,9 +5,9 @@ authors: Dominik Schlegel, Giorgio Grisetti
 conference: IEEE Robotics and Automation Letters
 year: 2018
 bibkey: schlegel2018hbst
-citations: 54
+citations: 46
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.09261'}]
-tags: ["Datasets", "Image Retrieval", "Tools & Libraries"]
+tags: ["Image Retrieval", "Tools & Libraries"]
 short_authors: Dominik Schlegel, Giorgio Grisetti
 ---
 Reliable and efficient Visual Place Recognition is a major building block of

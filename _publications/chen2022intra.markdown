@@ -5,10 +5,10 @@ authors: Jianan Chen, Lu Zhang, Qiong Wang, Cong Bai, Kidiyo Kpalma
 conference: 2022 IEEE International Conference on Image Processing (ICIP)
 year: 2022
 bibkey: chen2022intra
-citations: 6
+citations: 7
 additional_links: [{name: Code, url: 'https://github.com/CanonChen/IMC'}, {name: Paper,
     url: 'https://arxiv.org/abs/2207.05024'}]
-tags: ["Datasets", "Multimodal Retrieval", "Text Retrieval"]
+tags: ["Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Chen et al.
 ---
 Cross-modal retrieval has drawn much attention in both computer vision and

@@ -1,0 +1,33 @@
+---
+layout: publication
+title: Towards Self-adaptive Metric Learning On The Fly
+authors: Yang Gao, Yi-Fan Li, Swarup Chandra, Latifur Khan, Bhavani Thuraisingham
+conference: Arxiv
+year: 2021
+bibkey: gao2021towards
+citations: 11
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.01495'}]
+tags: ["Distance Metric Learning", "Image Retrieval"]
+short_authors: Gao et al.
+---
+Good quality similarity metrics can significantly facilitate the performance
+of many large-scale, real-world applications. Existing studies have proposed
+various solutions to learn a Mahalanobis or bilinear metric in an online
+fashion by either restricting distances between similar (dissimilar) pairs to
+be smaller (larger) than a given lower (upper) bound or requiring similar
+instances to be separated from dissimilar instances with a given margin.
+However, these linear metrics learned by leveraging fixed bounds or margins may
+not perform well in real-world applications, especially when data distributions
+are complex. We aim to address the open challenge of "Online Adaptive Metric
+Learning" (OAML) for learning adaptive metric functions on the fly. Unlike
+traditional online metric learning methods, OAML is significantly more
+challenging since the learned metric could be non-linear and the model has to
+be self-adaptive as more instances are observed. In this paper, we present a
+new online metric learning framework that attempts to tackle the challenge by
+learning an ANN-based metric with adaptive model complexity from a stream of
+constraints. In particular, we propose a novel Adaptive-Bound Triplet Loss
+(ABTL) to effectively utilize the input constraints and present a novel
+Adaptive Hedge Update (AHU) method for online updating the model parameters. We
+empirically validate the effectiveness and efficacy of our framework on various
+applications such as real-world image classification, facial verification, and
+image retrieval.

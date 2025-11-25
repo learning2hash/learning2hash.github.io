@@ -7,7 +7,7 @@ year: 2019
 bibkey: sadeh2019joint
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.06620'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: ["Evaluation", "Multimodal Retrieval"]
 short_authors: Sadeh et al.
 ---
 We introduce a multimodal visual-textual search refinement method for fashion

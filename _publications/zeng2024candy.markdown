@@ -9,7 +9,7 @@ bibkey: zeng2024candy
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/intellistream/candy'}, {
     name: Paper, url: 'https://arxiv.org/abs/2406.19651'}]
-tags: ["Datasets", "Efficiency", "Evaluation"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Scalability", "Similarity Search"]
 short_authors: Zeng et al.
 ---
 Approximate K Nearest Neighbor (AKNN) algorithms play a pivotal role in

@@ -5,9 +5,9 @@ authors: Haijun Liu, Jian Cheng, Wen Wang, Yanzhou Su
 conference: Arxiv
 year: 2019
 bibkey: liu2019the
-citations: 3
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.12837'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Survey Paper"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Liu et al.
 ---
 Deep metric learning aims at learning the distance metric between pair of

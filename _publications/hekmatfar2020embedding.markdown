@@ -5,9 +5,9 @@ authors: Taher Hekmatfar, Saman Haratizadeh, Sama Goliaei
 conference: Expert Systems with Applications
 year: 2020
 bibkey: hekmatfar2020embedding
-citations: 8
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.16173'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Neural Hashing", "Recommender Systems", "Tools & Libraries"]
+tags: ["Evaluation", "Graph Based ANN", "Recommender Systems"]
 short_authors: Taher Hekmatfar, Saman Haratizadeh, Sama Goliaei
 ---
 Graph-based recommender systems (GRSs) analyze the structural information in

@@ -6,10 +6,10 @@ conference: Proceedings of the 2020 Conference on Empirical Methods in Natural L
   Processing (EMNLP)
 year: 2020
 bibkey: zhang2020learning
-citations: 23
+citations: 22
 additional_links: [{name: Code, url: 'https://sha-lab.github.io/DG'}, {name: Paper,
     url: 'https://arxiv.org/abs/2010.02949'}]
-tags: ["Datasets", "EMNLP", "Image Retrieval"]
+tags: ["Datasets", "EMNLP", "Graph Based ANN", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Zhang et al.
 ---
 Learning to fuse vision and language information and representing them is an

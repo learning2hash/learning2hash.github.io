@@ -7,7 +7,7 @@ year: 2016
 bibkey: atighehchi2016note
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.04206'}]
-tags: ["Hashing Methods"]
+tags: ["Hashing Methods", "Tree Based ANN"]
 short_authors: Kevin Atighehchi
 ---
 A recent work shows how we can optimize a tree based mode of operation for a

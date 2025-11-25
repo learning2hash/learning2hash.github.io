@@ -5,9 +5,9 @@ authors: Xueting Zhang, Yuting Qiang, Flood Sung, Yongxin Yang, Timothy M. Hospe
 conference: Arxiv
 year: 2018
 bibkey: zhang2018relationnet2
-citations: 17
+citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.07100'}]
-tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Neural Hashing"]
+tags: ["Distance Metric Learning", "Few Shot & Zero Shot"]
 short_authors: Zhang et al.
 ---
 Few-shot deep learning is a topical challenge area for scaling visual

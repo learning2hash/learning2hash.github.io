@@ -2,12 +2,12 @@
 layout: publication
 title: Distance-sensitive Hashing
 authors: "Martin Aum\xFCller, Tobias Christiani, Rasmus Pagh, Francesco Silvestri"
-conference: 'SIGMOD/PODS ''18: International Conference on Management of Data'
+conference: Arxiv
 year: 2017
 bibkey: "aum\xFCller2017distance"
-citations: 14
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.07867'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search", "Tools & Libraries"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Privacy & Security", "Similarity Search"]
 short_authors: "Aum\xFCller et al."
 ---
 Locality-sensitive hashing (LSH) is an important tool for managing

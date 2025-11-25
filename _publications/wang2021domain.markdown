@@ -6,10 +6,10 @@ conference: Proceedings of the Thirtieth International Joint Conference on Artif
   Intelligence
 year: 2021
 bibkey: wang2021domain
-citations: 29
+citations: 35
 additional_links: [{name: Code, url: 'https://github.com/haowang1992/DSN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2106.11841'}]
-tags: ["AAAI", "Datasets", "Few Shot & Zero Shot", "IJCAI", "Image Retrieval"]
+tags: ["Few Shot & Zero Shot", "IJCAI", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Wang et al.
 ---
 Zero-Shot Sketch-Based Image Retrieval (ZS-SBIR) is a novel cross-modal

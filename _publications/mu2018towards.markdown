@@ -5,9 +5,9 @@ authors: Cun Mu, Jun Zhao, Guang Yang, Jing Zhang, Zheng Yan
 conference: Arxiv
 year: 2018
 bibkey: mu2018towards
-citations: 11
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.08896'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Mu et al.
 ---
 In this paper, we describe our end-to-end content-based image retrieval

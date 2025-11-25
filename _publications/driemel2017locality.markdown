@@ -5,9 +5,9 @@ authors: Anne Driemel, Francesco Silvestri
 conference: Arxiv
 year: 2017
 bibkey: driemel2017locality
-citations: 31
+citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.04040'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Anne Driemel, Francesco Silvestri
 ---
 We study data structures for storing a set of polygonal curves in \(\{\rm R\}^d\)

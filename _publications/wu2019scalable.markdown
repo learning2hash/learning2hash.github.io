@@ -2,14 +2,13 @@
 layout: publication
 title: Scalable Zero-shot Entity Linking With Dense Entity Retrieval
 authors: Ledell Wu, Fabio Petroni, Martin Josifoski, Sebastian Riedel, Luke Zettlemoyer
-conference: Proceedings of the 2020 Conference on Empirical Methods in Natural Language
-  Processing (EMNLP)
+conference: Arxiv
 year: 2019
 bibkey: wu2019scalable
-citations: 156
+citations: 20
 additional_links: [{name: Code, url: 'https://github.com/facebookresearch/BLINK'},
   {name: Paper, url: 'https://arxiv.org/abs/1911.03814'}]
-tags: ["EMNLP", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Evaluation", "Few Shot & Zero Shot"]
 short_authors: Wu et al.
 ---
 This paper introduces a conceptually simple, scalable, and highly effective

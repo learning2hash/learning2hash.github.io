@@ -6,9 +6,9 @@ authors: Shanmin Pang, Jin Ma, Jianru Xue, Jihua Zhu, Vicente Ordonez
 conference: IEEE Transactions on Multimedia
 year: 2018
 bibkey: pang2018deep
-citations: 40
+citations: 42
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.08587'}]
-tags: ["Efficiency", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking", "Unsupervised"]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Re-Ranking", "Unsupervised"]
 short_authors: Pang et al.
 ---
 Image retrieval based on deep convolutional features has demonstrated

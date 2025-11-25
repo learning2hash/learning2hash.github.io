@@ -6,9 +6,9 @@ authors: "Subhankar Roy, Enver Sangineto, Beg\xFCm Demir, Nicu Sebe"
 conference: IEEE Geoscience and Remote Sensing Letters
 year: 2019
 bibkey: roy2019metric
-citations: 64
+citations: 79
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.01258'}]
-tags: ["Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing"]
+tags: ["Compact Codes", "Distance Metric Learning", "Efficiency", "Hashing Methods", "Neural Hashing"]
 short_authors: Roy et al.
 ---
 Hashing methods have been recently found very effective in retrieval of

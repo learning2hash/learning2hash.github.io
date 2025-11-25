@@ -3,13 +3,12 @@ layout: publication
 title: Learning Discrete Representations Via Constrained Clustering For Effective
   And Efficient Dense Retrieval
 authors: Jingtao Zhan, Jiaxin Mao, Yiqun Liu, Jiafeng Guo, Min Zhang, Shaoping Ma
-conference: 'WSDM ''22: The Fifteenth ACM International Conference on Web Search and
-  Data Mining'
+conference: Arxiv
 year: 2021
 bibkey: zhan2021learning
-citations: 32
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.05789'}]
-tags: ["Efficiency", "Quantization", "Vector Indexing"]
+tags: ["Efficiency", "Memory Efficiency", "Quantization"]
 short_authors: Zhan et al.
 ---
 Dense Retrieval (DR) has achieved state-of-the-art first-stage ranking

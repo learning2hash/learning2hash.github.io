@@ -2,12 +2,12 @@
 layout: publication
 title: 'Set2box: Similarity Preserving Representation Learning Of Sets'
 authors: Geon Lee, Chanyoung Park, Kijung Shin
-conference: 2022 IEEE International Conference on Data Mining (ICDM)
+conference: Arxiv
 year: 2022
 bibkey: lee2022set2box
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.03282'}]
-tags: ["Compact Codes", "Datasets", "Hashing Methods", "Quantization", "Recommender Systems"]
+tags: ["Hashing Methods", "Quantization", "Recommender Systems"]
 short_authors: Geon Lee, Chanyoung Park, Kijung Shin
 ---
 Sets have been used for modeling various types of objects (e.g., a document

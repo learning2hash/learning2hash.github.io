@@ -6,9 +6,9 @@ authors: Medhini Narasimhan, Alexander G. Schwing
 conference: Lecture Notes in Computer Science
 year: 2018
 bibkey: narasimhan2018straight
-citations: 100
+citations: 102
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.01124'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Multimodal Retrieval"]
 short_authors: Medhini Narasimhan, Alexander G. Schwing
 ---
 Question answering is an important task for autonomous agents and virtual

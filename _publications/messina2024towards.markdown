@@ -8,7 +8,7 @@ bibkey: messina2024towards
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/mesnico/IdCLIP'}, {name: Paper,
     url: 'https://arxiv.org/abs/2412.21009'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Neural Hashing", "Scalability"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
 short_authors: Messina et al.
 ---
 Recent advancements in deep learning have significantly enhanced

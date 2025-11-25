@@ -5,9 +5,9 @@ authors: Osman Tursun, Cemal Aker, Sinan Kalkan
 conference: Arxiv
 year: 2017
 bibkey: tursun2017a
-citations: 20
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.05766'}]
-tags: ["Datasets", "Evaluation", "Neural Hashing", "Scalability"]
+tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Osman Tursun, Cemal Aker, Sinan Kalkan
 ---
 Trademark retrieval (TR) has become an important yet challenging problem due

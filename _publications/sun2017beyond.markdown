@@ -3,12 +3,12 @@ layout: publication
 title: 'Beyond Part Models: Person Retrieval With Refined Part Pooling (and A Strong
   Convolutional Baseline)'
 authors: Yifan Sun, Liang Zheng, Yi Yang, Qi Tian, Shengjin Wang
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2017
 bibkey: sun2017beyond
-citations: 1643
+citations: 152
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.09349'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Sun et al.
 ---
 Employing part-level features for pedestrian image description offers

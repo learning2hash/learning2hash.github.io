@@ -5,9 +5,9 @@ authors: Hong Liu, Rongrong Ji, Yongjian Wu, Gang Hua
 conference: Arxiv
 year: 2016
 bibkey: liu2016supervised
-citations: 65
+citations: 72
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.05572'}]
-tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Image Retrieval", "Quantization", "Supervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Quantization", "Supervised"]
 short_authors: Liu et al.
 ---
 Matrix factorization has been recently utilized for the task of multi-modal

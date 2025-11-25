@@ -5,9 +5,9 @@ authors: Xiang Wu, Ruiqi Guo, David Simcha, Dave Dopson, Sanjiv Kumar
 conference: Arxiv
 year: 2019
 bibkey: wu2019efficient
-citations: 7
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.08690'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Datasets", "Efficiency", "Locality-Sensitive-Hashing", "Scalability"]
 short_authors: Wu et al.
 ---
 Many emerging use cases of data mining and machine learning operate on large

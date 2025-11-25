@@ -3,13 +3,13 @@ layout: publication
 title: 'SAH: Shifting-aware Asymmetric Hashing For Reverse \(k\)-maximum Inner Product
   Search'
 authors: Qiang Huang, Yanhao Wang, Anthony K. H. Tung
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2022
 bibkey: huang2022sah
-citations: 3
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/HuangQiang/SAH'}, {name: Paper,
     url: 'https://arxiv.org/abs/2211.12751'}]
-tags: ["AAAI", "Datasets", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Qiang Huang, Yanhao Wang, Anthony K. H. Tung
 ---
 This paper investigates a new yet challenging problem called Reverse

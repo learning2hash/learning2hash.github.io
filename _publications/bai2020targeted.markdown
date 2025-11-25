@@ -6,9 +6,9 @@ authors: Jiawang Bai, Bin Chen, Yiming Li, Dongxian Wu, Weiwei Guo, Shu-Tao Xia,
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: bai2020targeted
-citations: 68
+citations: 75
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.07955'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness", "Scalability", "Video Retrieval"]
+tags: ["Hashing Methods", "Image Retrieval", "Robustness", "Video Retrieval"]
 short_authors: Bai et al.
 ---
 The deep hashing based retrieval method is widely adopted in large-scale

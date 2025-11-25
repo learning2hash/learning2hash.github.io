@@ -6,9 +6,9 @@ conference: ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speec
   and Signal Processing (ICASSP)
 year: 2024
 bibkey: wang2024enhancing
-citations: 2
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.09725'}]
-tags: ["Datasets", "Evaluation", "ICASSP", "Text Retrieval"]
+tags: ["Evaluation", "ICASSP", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Zuhui Wang, Yunting Yin, I. V. Ramakrishnan
 ---
 Image-text matching aims to find matched cross-modal pairs accurately. While

@@ -5,9 +5,9 @@ authors: Geondo Park, Chihye Han, Wonjun Yoon, Daeshik Kim
 conference: 2020 IEEE Winter Conference on Applications of Computer Vision (WACV)
 year: 2020
 bibkey: park2020mhsan
-citations: 20
+citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.03712'}]
-tags: ["Datasets", "Text Retrieval"]
+tags: ["Image Retrieval", "Multimodal Retrieval"]
 short_authors: Park et al.
 ---
 Visual-semantic embedding enables various tasks such as image-text retrieval,

@@ -3,12 +3,12 @@ layout: publication
 title: Zero-shot Learning Via Class-conditioned Deep Generative Models
 authors: Wenlin Wang, Yunchen Pu, Vinay Kumar Verma, Kai Fan, Yizhe Zhang, Changyou
   Chen, Piyush Rai, Lawrence Carin
-conference: International Journal of Computer Vision
+conference: Arxiv
 year: 2017
 bibkey: wang2017zero
-citations: 169
+citations: 51
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.05820'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Supervised", "Unsupervised"]
 short_authors: Wang et al.
 ---
 We present a deep generative model for learning to predict classes not seen

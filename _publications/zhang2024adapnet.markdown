@@ -8,7 +8,7 @@ year: 2024
 bibkey: zhang2024adapnet
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.17718'}]
-tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
+tags: ["Datasets", "Image Retrieval", "Re-Ranking"]
 short_authors: Zhang et al.
 ---
 Image retrieval aims to identify visually similar images within a database

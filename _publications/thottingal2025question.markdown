@@ -8,7 +8,7 @@ year: 2025
 bibkey: thottingal2025question
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.11301'}]
-tags: ["Distance Metric Learning", "Efficiency", "Scalability"]
+tags: ["Efficiency", "Scalability"]
 short_authors: Santhosh Thottingal
 ---
 This paper introduces an approach to question answering over knowledge bases

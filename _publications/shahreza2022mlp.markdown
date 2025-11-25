@@ -3,12 +3,12 @@ layout: publication
 title: 'Mlp-hash: Protecting Face Templates Via Hashing Of Randomized Multi-layer
   Perceptron'
 authors: "Hatef Otroshi Shahreza, Vedrana Krivoku\u0107a Hahn, S\xE9bastien Marcel"
-conference: 2023 31st European Signal Processing Conference (EUSIPCO)
+conference: Arxiv
 year: 2022
 bibkey: shahreza2022mlp
-citations: 24
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.11054'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Privacy & Security"]
 short_authors: "Hatef Otroshi Shahreza, Vedrana Krivoku\u0107a Hahn, S\xE9bastien\
   \ Marcel"
 ---

@@ -10,7 +10,7 @@ bibkey: an2023dna
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/Lackel/DNA'}, {name: Paper,
     url: 'https://arxiv.org/abs/2310.10151'}]
-tags: ["Datasets", "EMNLP", "Evaluation", "Self-Supervised", "Supervised", "Tools & Libraries"]
+tags: ["EMNLP", "Self-Supervised"]
 short_authors: An et al.
 ---
 Discovering fine-grained categories from coarsely labeled data is a practical

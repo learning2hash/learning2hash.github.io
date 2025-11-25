@@ -5,9 +5,9 @@ authors: Xinwei He, Tengteng Huang, Song Bai, Xiang Bai
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: he2019view
-citations: 58
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.01958'}]
-tags: ["Datasets", "Efficiency", "ICCV", "Tools & Libraries"]
+tags: ["Efficiency", "ICCV"]
 short_authors: He et al.
 ---
 How to aggregate multi-view representations of a 3D object into an

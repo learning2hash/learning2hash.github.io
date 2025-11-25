@@ -8,7 +8,7 @@ year: 2024
 bibkey: gao2024dual
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.18695'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Gao et al.
 ---
 Sketch-based image retrieval (SBIR) associates hand-drawn sketches with their

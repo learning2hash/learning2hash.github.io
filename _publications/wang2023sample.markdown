@@ -6,9 +6,9 @@ authors: Peiqi Wang, Yingcheng Liu, Ching-Yun Ko, William M. Wells, Seth Berkowi
 conference: Arxiv
 year: 2023
 bibkey: wang2023sample
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.13181'}]
-tags: ["Multimodal Retrieval", "Self-Supervised", "Supervised"]
+tags: ["Multimodal Retrieval", "Self-Supervised"]
 short_authors: Wang et al.
 ---
 Self-supervised representation learning on image-text data facilitates

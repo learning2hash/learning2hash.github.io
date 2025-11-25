@@ -5,9 +5,9 @@ authors: Thanh-Toan Do, Dang-Khoa Le Tan, Trung T. Pham, Ngai-Man Cheung
 conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2017
 bibkey: do2017simultaneous
-citations: 38
+citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.00860'}]
-tags: ["CVPR", "Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability", "Tools & Libraries"]
+tags: ["CVPR", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability"]
 short_authors: Do et al.
 ---
 In most state-of-the-art hashing-based visual search systems, local image

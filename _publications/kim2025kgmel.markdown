@@ -6,10 +6,10 @@ conference: Proceedings of the 48th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2025
 bibkey: kim2025kgmel
-citations: 0
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/juyeonnn/KGMEL'}, {name: Paper,
     url: 'https://arxiv.org/abs/2504.15135'}]
-tags: ["Datasets", "Evaluation", "SIGIR", "Self-Supervised", "Tools & Libraries"]
+tags: ["Re-Ranking", "SIGIR", "Self-Supervised"]
 short_authors: Kim et al.
 ---
 Entity linking (EL) aligns textual mentions with their corresponding entities

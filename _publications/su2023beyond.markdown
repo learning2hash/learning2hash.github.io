@@ -8,9 +8,9 @@ conference: Proceedings of the 46th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2023
 bibkey: su2023beyond
-citations: 2
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.18213'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Recommender Systems", "SIGIR", "Similarity Search", "Tools & Libraries"]
+tags: ["Efficiency", "Recommender Systems", "SIGIR", "Similarity Search"]
 short_authors: Su et al.
 ---
 Two-tower models are a prevalent matching framework for recommendation, which

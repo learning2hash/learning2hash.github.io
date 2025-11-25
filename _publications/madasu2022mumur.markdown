@@ -3,12 +3,12 @@ layout: publication
 title: 'Mumur : Multilingual Multimodal Universal Retrieval'
 authors: Avinash Madasu, Estelle Aflalo, Gabriela Ben Melech Stan, Shachar Rosenman,
   Shao-Yen Tseng, Gedas Bertasius, Vasudev Lal
-conference: Information Retrieval Journal
+conference: Arxiv
 year: 2022
 bibkey: madasu2022mumur
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.11553'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Video Retrieval"]
 short_authors: Madasu et al.
 ---
 Multi-modal retrieval has seen tremendous progress with the development of

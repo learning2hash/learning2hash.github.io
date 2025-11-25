@@ -2,12 +2,12 @@
 layout: publication
 title: 'Ca-jaccard: Camera-aware Jaccard Distance For Person Re-identification'
 authors: Yiyu Chen, Zheyi Fan, Zhaoru Chen, Yixuan Zhu
-conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2023
 bibkey: chen2023ca
-citations: 15
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.10605'}]
-tags: ["CVPR", "Distance Metric Learning", "Hybrid ANN Methods", "Re-Ranking"]
+tags: ["Distance Metric Learning", "Re-Ranking"]
 short_authors: Chen et al.
 ---
 Person re-identification (re-ID) is a challenging task that aims to learn

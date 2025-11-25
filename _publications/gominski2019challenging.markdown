@@ -7,9 +7,9 @@ conference: Proceedings of the 1st Workshop on Structuring and Understanding of 
   heritAge Contents
 year: 2019
 bibkey: gominski2019challenging
-citations: 7
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.08866'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Gominski et al.
 ---
 This article proposes to study the behavior of recent and efficient

@@ -5,9 +5,9 @@ authors: Heejae Jun, Byungsoo Ko, Youngjoon Kim, Insik Kim, Jongtack Kim
 conference: Arxiv
 year: 2019
 bibkey: jun2019combination
-citations: 41
+citations: 43
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.10663'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Jun et al.
 ---
 Recent studies in image retrieval task have shown that ensembling different

@@ -1,0 +1,27 @@
+---
+layout: publication
+title: A Coarse-to-fine Place Recognition Approach Using Attention-guided Descriptors
+  And Overlap Estimation
+authors: Chencan Fu, Lin Li, Jianbiao Mei, Yukai Ma, Linpeng Peng, Xiangrui Zhao,
+  Yong Liu
+conference: Arxiv
+year: 2023
+bibkey: fu2023a
+citations: 3
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.06881'}]
+tags: ["Datasets", "Image Retrieval", "Similarity Search"]
+short_authors: Fu et al.
+---
+Place recognition is a challenging but crucial task in robotics. Current
+description-based methods may be limited by representation capabilities, while
+pairwise similarity-based methods require exhaustive searches, which is
+time-consuming. In this paper, we present a novel coarse-to-fine approach to
+address these problems, which combines BEV (Bird's Eye View) feature
+extraction, coarse-grained matching and fine-grained verification. In the
+coarse stage, our approach utilizes an attention-guided network to generate
+attention-guided descriptors. We then employ a fast affinity-based candidate
+selection process to identify the Top-K most similar candidates. In the fine
+stage, we estimate pairwise overlap among the narrowed-down place candidates to
+determine the final match. Experimental results on the KITTI and KITTI-360
+datasets demonstrate that our approach outperforms state-of-the-art methods.
+The code will be released publicly soon.

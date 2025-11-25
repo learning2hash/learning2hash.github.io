@@ -1,0 +1,28 @@
+---
+layout: publication
+title: Improving Text Embeddings With Large Language Models
+authors: Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, Furu
+  Wei
+conference: 'Proceedings of the 62nd Annual Meeting of the Association for Computational
+  Linguistics (Volume 1: Long Papers)'
+year: 2023
+bibkey: wang2023improving
+citations: 50
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.00368'}]
+tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Unsupervised"]
+short_authors: Wang et al.
+---
+In this paper, we introduce a novel and simple method for obtaining
+high-quality text embeddings using only synthetic data and less than 1k
+training steps. Unlike existing methods that often depend on multi-stage
+intermediate pre-training with billions of weakly-supervised text pairs,
+followed by fine-tuning with a few labeled datasets, our method does not
+require building complex training pipelines or relying on manually collected
+datasets that are often constrained by task diversity and language coverage. We
+leverage proprietary LLMs to generate diverse synthetic data for hundreds of
+thousands of text embedding tasks across 93 languages. We then fine-tune
+open-source decoder-only LLMs on the synthetic data using standard contrastive
+loss. Experiments demonstrate that our method achieves strong performance on
+highly competitive text embedding benchmarks without using any labeled data.
+Furthermore, when fine-tuned with a mixture of synthetic and labeled data, our
+model sets new state-of-the-art results on the BEIR and MTEB benchmarks.

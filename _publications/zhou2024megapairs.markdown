@@ -8,7 +8,7 @@ year: 2024
 bibkey: zhou2024megapairs
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.14475'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Zhou et al.
 ---
 Despite the rapidly growing demand for multimodal retrieval, progress in this

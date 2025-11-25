@@ -2,12 +2,12 @@
 layout: publication
 title: Using Multiple Instance Learning To Build Multimodal Representations
 authors: Peiqi Wang, William M. Wells, Seth Berkowitz, Steven Horng, Polina Golland
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2022
 bibkey: wang2022using
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.05561'}]
-tags: ["Multimodal Retrieval", "Self-Supervised", "Tools & Libraries"]
+tags: ["Multimodal Retrieval", "Self-Supervised"]
 short_authors: Wang et al.
 ---
 Image-text multimodal representation learning aligns data across modalities

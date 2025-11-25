@@ -6,7 +6,7 @@ authors: Vihan Lakshman, Choon Hui Teo, Xiaowen Chu, Priyanka Nigam, Abhinandan 
 conference: Arxiv
 year: 2021
 bibkey: lakshman2021embracing
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.06125'}]
 tags: ["Datasets", "Large Scale Search", "Scalability"]
 short_authors: Lakshman et al.

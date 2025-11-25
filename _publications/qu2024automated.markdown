@@ -7,7 +7,7 @@ year: 2024
 bibkey: qu2024automated
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.11818'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Evaluation", "Recommender Systems"]
+tags: ["Datasets", "Efficiency", "Recommender Systems"]
 short_authors: Qu et al.
 ---
 The embedding-based architecture has become the dominant approach in modern

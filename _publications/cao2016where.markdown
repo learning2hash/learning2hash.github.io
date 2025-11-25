@@ -6,9 +6,9 @@ authors: Jiewei Cao, Lingqiao Liu, Peng Wang, Zi Huang, Chunhua Shen, Heng Tao S
 conference: Arxiv
 year: 2016
 bibkey: cao2016where
-citations: 19
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.06811'}]
-tags: ["Evaluation", "Tools & Libraries"]
+tags: ["Image Retrieval", "Re-Ranking", "Robustness"]
 short_authors: Cao et al.
 ---
 Instance retrieval requires one to search for images that contain a

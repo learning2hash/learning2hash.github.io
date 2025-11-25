@@ -5,9 +5,9 @@ authors: Yucheng Suo, Fan Ma, Linchao Zhu, Yi Yang
 conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2024
 bibkey: suo2024knowledge
-citations: 5
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.16005'}]
-tags: ["CVPR", "Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Tools & Libraries"]
+tags: ["CVPR", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Suo et al.
 ---
 We study the zero-shot Composed Image Retrieval (ZS-CIR) task, which is to

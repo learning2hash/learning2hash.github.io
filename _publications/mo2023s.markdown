@@ -1,0 +1,31 @@
+---
+layout: publication
+title: 'S-CLIP: Semi-supervised Vision-language Learning Using Few Specialist Captions'
+authors: Sangwoo Mo, Minkyu Kim, Kyungmin Lee, Jinwoo Shin
+conference: Arxiv
+year: 2023
+bibkey: mo2023s
+citations: 4
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.14095'}]
+tags: ["Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised"]
+short_authors: Mo et al.
+---
+Vision-language models, such as contrastive language-image pre-training
+(CLIP), have demonstrated impressive results in natural image domains. However,
+these models often struggle when applied to specialized domains like remote
+sensing, and adapting to such domains is challenging due to the limited number
+of image-text pairs available for training. To address this, we propose S-CLIP,
+a semi-supervised learning method for training CLIP that utilizes additional
+unpaired images. S-CLIP employs two pseudo-labeling strategies specifically
+designed for contrastive learning and the language modality. The caption-level
+pseudo-label is given by a combination of captions of paired images, obtained
+by solving an optimal transport problem between unpaired and paired images. The
+keyword-level pseudo-label is given by a keyword in the caption of the nearest
+paired image, trained through partial label learning that assumes a candidate
+set of labels for supervision instead of the exact one. By combining these
+objectives, S-CLIP significantly enhances the training of CLIP using only a few
+image-text pairs, as demonstrated in various specialist domains, including
+remote sensing, fashion, scientific figures, and comics. For instance, S-CLIP
+improves CLIP by 10% for zero-shot classification and 4% for image-text
+retrieval on the remote sensing benchmark, matching the performance of
+supervised CLIP while using three times fewer image-text pairs.

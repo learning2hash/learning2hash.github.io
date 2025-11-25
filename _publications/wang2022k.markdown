@@ -6,7 +6,7 @@ authors: Shuhe Wang, Xiaoya Li, Yuxian Meng, Tianwei Zhang, Rongbin Ouyang, Jiwe
 conference: Arxiv
 year: 2022
 bibkey: wang2022k
-citations: 10
+citations: 11
 additional_links: [{name: Code, url: 'https://github.com/ShannonAI/KNN-NER'}, {name: Paper,
     url: 'https://arxiv.org/abs/2203.17103'}]
 tags: ["Datasets", "Few Shot & Zero Shot", "Tools & Libraries"]

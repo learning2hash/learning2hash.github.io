@@ -5,9 +5,9 @@ authors: Thanh-Toan Do, Khoa Le, Tuan Hoang, Huu Le, Tam V. Nguyen, Ngai-Man Che
 conference: IEEE Transactions on Image Processing
 year: 2019
 bibkey: do2019simultaneous
-citations: 14
+citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.11820'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Do et al.
 ---
 Representing images by compact hash codes is an attractive approach for

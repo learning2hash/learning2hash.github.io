@@ -5,9 +5,9 @@ authors: Shweta Mahajan, Teresa Botschen, Iryna Gurevych, Stefan Roth
 conference: 2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)
 year: 2019
 bibkey: mahajan2019joint
-citations: 9
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.06635'}]
-tags: ["Datasets", "ICCV", "Multimodal Retrieval", "Supervised"]
+tags: ["ICCV", "Multimodal Retrieval", "Supervised"]
 short_authors: Mahajan et al.
 ---
 One of the key challenges in learning joint embeddings of multiple

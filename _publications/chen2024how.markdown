@@ -6,9 +6,9 @@ authors: Yuxin Chen, Zongyang Ma, Ziqi Zhang, Zhongang Qi, Chunfeng Yuan, Bing L
 conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2024
 bibkey: chen2024how
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.07479'}]
-tags: ["CVPR", "Efficiency", "Text Retrieval"]
+tags: ["CVPR", "Efficiency", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Chen et al.
 ---
 Dominant dual-encoder models enable efficient image-text retrieval but suffer

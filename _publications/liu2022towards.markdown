@@ -6,9 +6,9 @@ authors: Tian Liu, Jiahao Ding, Ting Wang, Miao Pan, Mingsong Chen
 conference: Journal of Circuits, Systems and Computers
 year: 2022
 bibkey: liu2022towards
-citations: 7
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.12515'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Evaluation", "Locality-Sensitive-Hashing", "Privacy & Security"]
 short_authors: Liu et al.
 ---
 As a promising method of central model training on decentralized device data

@@ -6,9 +6,9 @@ authors: Tuan Hoang, Thanh-Toan Do, Tam V. Nguyen, Ngai-Man Cheung
 conference: Arxiv
 year: 2021
 bibkey: hoang2021multi
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.06489'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Unsupervised"]
+tags: ["Hashing Methods", "Multimodal Retrieval", "Unsupervised"]
 short_authors: Hoang et al.
 ---
 In this paper, we adopt the maximizing mutual information (MI) approach to

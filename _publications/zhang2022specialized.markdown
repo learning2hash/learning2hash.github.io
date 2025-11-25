@@ -7,9 +7,9 @@ authors: Renjie Zhang, Yu Fang, Huaxin Song, Fangbin Wan, Yanwei Fu, Hirokazu Ka
 conference: Pattern Recognition
 year: 2022
 bibkey: zhang2022specialized
-citations: 8
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.03592'}]
-tags: ["CVPR", "Datasets", "Hybrid ANN Methods", "Re-Ranking", "Tools & Libraries"]
+tags: ["Image Retrieval", "Privacy & Security", "Re-Ranking"]
 short_authors: Zhang et al.
 ---
 Cloth changing person re-identification(Re-ID) can work under more

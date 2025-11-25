@@ -7,9 +7,9 @@ conference: Proceedings of the 46th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2023
 bibkey: salemi2023a
-citations: 15
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.13649'}]
-tags: ["Datasets", "Evaluation", "SIGIR", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "SIGIR"]
 short_authors: Alireza Salemi, Juan Altmayer Pizzorno, Hamed Zamani
 ---
 Knowledge-Intensive Visual Question Answering (KI-VQA) refers to answering a

@@ -5,9 +5,9 @@ authors: Raviteja Vemulapalli, Aseem Agarwala
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2018
 bibkey: vemulapalli2018a
-citations: 80
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.11283'}]
-tags: ["CVPR", "Datasets", "Scalability"]
+tags: ["CVPR", "Datasets", "Similarity Search"]
 short_authors: Raviteja Vemulapalli, Aseem Agarwala
 ---
 Most of the existing work on automatic facial expression analysis focuses on

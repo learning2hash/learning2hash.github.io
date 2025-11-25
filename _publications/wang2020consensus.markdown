@@ -5,10 +5,10 @@ authors: Haoran Wang, Ying Zhang, Zhong Ji, Yanwei Pang, Lin Ma
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: wang2020consensus
-citations: 151
+citations: 162
 additional_links: [{name: Code, url: 'https://github.com/BruceW91/CVSE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2007.08883'}]
-tags: ["Datasets", "Text Retrieval"]
+tags: ["Image Retrieval", "Multimodal Retrieval"]
 short_authors: Wang et al.
 ---
 Image-text matching plays a central role in bridging vision and language.

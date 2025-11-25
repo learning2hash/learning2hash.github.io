@@ -7,7 +7,7 @@ year: 2024
 bibkey: nguyen2024multimodal
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.07736'}]
-tags: ["Evaluation", "Text Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Thong Nguyen, Mariya Hendriksen, Andrew Yates
 ---
 Learned Sparse Retrieval (LSR) is a group of neural methods designed to

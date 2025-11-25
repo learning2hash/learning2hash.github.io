@@ -8,9 +8,9 @@ conference: Proceedings of the 37th Annual Conference on Neural Information Proc
   Systems (NeurIPS 2023) 56234-56255
 year: 2023
 bibkey: coleman2023unified
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.12102'}]
-tags: ["Datasets", "Evaluation", "Large Scale Search", "Recommender Systems", "Scalability", "Tools & Libraries"]
+tags: ["Evaluation", "Large Scale Search", "NEURIPS", "Recommender Systems", "Scalability"]
 short_authors: Coleman et al.
 ---
 Learning high-quality feature embeddings efficiently and effectively is

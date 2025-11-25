@@ -5,9 +5,9 @@ authors: Zhangjie Cao, Ziping Sun, Mingsheng Long, Jianmin Wang, Philip S. Yu
 conference: Proceedings of the 26th ACM international conference on Multimedia
 year: 2018
 bibkey: cao2018deep
-citations: 33
+citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.01238'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Tools & Libraries"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
 short_authors: Cao et al.
 ---
 Deep hashing enables image retrieval by end-to-end learning of deep

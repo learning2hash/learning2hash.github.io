@@ -5,10 +5,10 @@ authors: Patsorn Sangkloy, Wittawat Jitkrittum, Diyi Yang, James Hays
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: sangkloy2022a
-citations: 25
+citations: 27
 additional_links: [{name: Code, url: 'https://janesjanes.github.io/tsbir/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2208.03354'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Large Scale Search"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Sangkloy et al.
 ---
 We address the problem of retrieving images with both a sketch and a text

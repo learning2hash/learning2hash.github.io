@@ -3,12 +3,12 @@ layout: publication
 title: 'Simultaneous Compression And Quantization: A Joint Approach For Efficient
   Unsupervised Hashing'
 authors: Tuan Hoang, Thanh-Toan Do, Huu Le, Dang-Khoa Le-Tan, Ngai-Man Cheung
-conference: Computer Vision and Image Understanding
+conference: Arxiv
 year: 2018
 bibkey: hoang2018simultaneous
-citations: 9
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.06645'}]
-tags: ["Hashing Methods", "Image Retrieval", "Quantization", "Supervised", "Unsupervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Quantization", "Unsupervised"]
 short_authors: Hoang et al.
 ---
 For unsupervised data-dependent hashing, the two most important requirements

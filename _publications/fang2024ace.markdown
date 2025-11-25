@@ -4,12 +4,13 @@ title: 'ACE: A Generative Cross-modal Retrieval Framework With Coarse-to-fine Se
   Modeling'
 authors: Minghui Fang, Shengpeng Ji, Jialong Zuo, Hai Huang, Yan Xia, Jieming Zhu,
   Xize Cheng, Xiaoda Yang, Wenrui Liu, Gang Wang, Zhenhua Dong, Zhou Zhao
-conference: Arxiv
+conference: 'Proceedings of the 63rd Annual Meeting of the Association for Computational
+  Linguistics (Volume 1: Long Papers)'
 year: 2024
 bibkey: fang2024ace
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.17507'}]
-tags: ["Evaluation", "Multimodal Retrieval", "Scalability", "Tools & Libraries", "Video Retrieval"]
+tags: ["Evaluation", "Multimodal Retrieval", "Video Retrieval"]
 short_authors: Fang et al.
 ---
 Generative retrieval, which has demonstrated effectiveness in text-to-text

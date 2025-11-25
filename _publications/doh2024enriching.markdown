@@ -7,9 +7,9 @@ conference: ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speec
   and Signal Processing (ICASSP)
 year: 2024
 bibkey: doh2024enriching
-citations: 2
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.03264'}]
-tags: ["Datasets", "Evaluation", "ICASSP"]
+tags: ["Audio Retrieval", "Datasets", "Evaluation", "ICASSP", "Similarity Search"]
 short_authors: Doh et al.
 ---
 Text-to-Music Retrieval, finding music based on a given natural language

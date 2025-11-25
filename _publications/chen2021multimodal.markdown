@@ -8,9 +8,9 @@ authors: Brian Chen, Andrew Rouditchenko, Kevin Duarte, Hilde Kuehne, Samuel Tho
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: chen2021multimodal
-citations: 52
+citations: 63
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.12671'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "ICCV", "Self-Supervised", "Supervised", "Tools & Libraries", "Video Retrieval"]
+tags: ["Few Shot & Zero Shot", "ICCV", "Multimodal Retrieval", "Self-Supervised", "Video Retrieval"]
 short_authors: Chen et al.
 ---
 Multimodal self-supervised learning is getting more and more attention as it

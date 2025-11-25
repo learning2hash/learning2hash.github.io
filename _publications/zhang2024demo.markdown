@@ -2,12 +2,14 @@
 layout: publication
 title: 'DEMO: A Statistical Perspective For Efficient Image-text Matching'
 authors: Fan Zhang, Xian-Sheng Hua, Chong Chen, Xiao Luo
-conference: Arxiv
+conference: 'Proceedings of the 2024 Conference of the North American Chapter of the
+  Association for Computational Linguistics: Human Language Technologies (Volume 1:
+  Long Papers)'
 year: 2024
 bibkey: zhang2024demo
-citations: 0
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.11496'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Scalability", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Self-Supervised", "Unsupervised"]
 short_authors: Zhang et al.
 ---
 Image-text matching has been a long-standing problem, which seeks to connect

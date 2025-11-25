@@ -5,9 +5,9 @@ authors: Rohit Girdhar, David F. Fouhey, Mikel Rodriguez, Abhinav Gupta
 conference: Lecture Notes in Computer Science
 year: 2016
 bibkey: girdhar2016learning
-citations: 651
+citations: 140
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.08637'}]
-tags: ["Uncategorized"]
+tags: ["Image Retrieval", "Unsupervised", "Vector Indexing"]
 short_authors: Girdhar et al.
 ---
 What is a good vector representation of an object? We believe that it should

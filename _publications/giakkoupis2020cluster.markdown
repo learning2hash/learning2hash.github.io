@@ -3,12 +3,12 @@ layout: publication
 title: 'Cluster-and-conquer: When Randomness Meets Graph Locality'
 authors: "George Giakkoupis, Anne-Marie Kermarrec, Olivier Ruas, Fran\xE7ois Ta\xEF\
   ani"
-conference: 2021 IEEE 37th International Conference on Data Engineering (ICDE)
+conference: Arxiv
 year: 2020
 bibkey: giakkoupis2020cluster
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.11497'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Locality-Sensitive-Hashing"]
+tags: ["Evaluation", "Locality-Sensitive-Hashing"]
 short_authors: Giakkoupis et al.
 ---
 K-Nearest-Neighbors (KNN) graphs are central to many emblematic data mining

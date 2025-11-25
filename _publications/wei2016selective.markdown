@@ -2,12 +2,12 @@
 layout: publication
 title: Selective Convolutional Descriptor Aggregation For Fine-grained Image Retrieval
 authors: Xiu-Shen Wei, Jian-Hao Luo, Jianxin Wu, Zhi-Hua Zhou
-conference: IEEE Transactions on Image Processing
+conference: Arxiv
 year: 2016
 bibkey: wei2016selective
-citations: 374
+citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.04994'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: ["Datasets", "Image Retrieval", "Unsupervised"]
 short_authors: Wei et al.
 ---
 Deep convolutional neural network models pre-trained for the ImageNet

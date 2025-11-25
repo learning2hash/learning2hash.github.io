@@ -7,7 +7,7 @@ year: 2024
 bibkey: park2024improving
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.00318'}]
-tags: ["Uncategorized"]
+tags: ["Image Retrieval", "Multimodal Retrieval", "Unsupervised"]
 short_authors: Park et al.
 ---
 Text-based person search is the task of finding person images that are the

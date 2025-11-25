@@ -6,9 +6,9 @@ conference: Proceedings of the 12th International Conference on Distributed Smar
   Cameras
 year: 2018
 bibkey: magliani2018an
-citations: 17
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.08565'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Federico Magliani, Andrea Prati
 ---
 The landmark recognition problem is far from being solved, but with the use

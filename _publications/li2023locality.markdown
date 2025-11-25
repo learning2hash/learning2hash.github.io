@@ -9,7 +9,7 @@ year: 2023
 bibkey: li2023locality
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.04368'}]
-tags: ["Compact Codes", "Datasets", "Hashing Methods", "ICASSP", "Image Retrieval", "Scalability"]
+tags: ["Compact Codes", "Hashing Methods", "ICASSP", "Image Retrieval"]
 short_authors: Li et al.
 ---
 Hashing is very popular for remote sensing image search. This article

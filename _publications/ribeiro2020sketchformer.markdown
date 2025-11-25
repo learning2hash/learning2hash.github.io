@@ -5,7 +5,7 @@ authors: Leo Sampaio Ferraz Ribeiro, Tu Bui, John Collomosse, Moacir Ponti
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2020
 bibkey: ribeiro2020sketchformer
-citations: 84
+citations: 57
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.10381'}]
 tags: ["CVPR", "Evaluation", "Image Retrieval"]
 short_authors: Ribeiro et al.

@@ -6,7 +6,7 @@ authors: "S\xF8ren Dahlgaard, Mathias B\xE6k Tejs Langhede, Jakob B\xE6k Tejs Ho
 conference: 2017 IEEE 58th Annual Symposium on Foundations of Computer Science (FOCS)
 year: 2017
 bibkey: dahlgaard2017fast
-citations: 30
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.04370'}]
 tags: ["Locality-Sensitive-Hashing", "Scalability", "Similarity Search"]
 short_authors: Dahlgaard et al.

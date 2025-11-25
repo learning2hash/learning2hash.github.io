@@ -7,7 +7,7 @@ year: 2020
 bibkey: rychalska2020i
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.09979'}]
-tags: ["Datasets", "Hashing Methods", "Recommender Systems"]
+tags: ["Hashing Methods", "Recommender Systems"]
 short_authors: Rychalska et al.
 ---
 Recently, the Efficient Manifold Density Estimator (EMDE) model has been

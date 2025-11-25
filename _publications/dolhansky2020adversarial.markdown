@@ -5,9 +5,9 @@ authors: Brian Dolhansky, Cristian Canton Ferrer
 conference: Arxiv
 year: 2020
 bibkey: dolhansky2020adversarial
-citations: 9
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.09473'}]
-tags: ["Hashing Methods", "Image Retrieval", "Robustness"]
+tags: ["Hashing Methods", "Image Retrieval", "Privacy & Security", "Robustness"]
 short_authors: Brian Dolhansky, Cristian Canton Ferrer
 ---
 Hashing images with a perceptual algorithm is a common approach to solving

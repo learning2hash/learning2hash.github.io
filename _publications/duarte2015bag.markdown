@@ -7,7 +7,7 @@ year: 2015
 bibkey: duarte2015bag
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1506.00051'}]
-tags: ["Datasets", "Tools & Libraries", "Video Retrieval"]
+tags: ["Video Retrieval"]
 short_authors: "Leonardo A. Duarte, Ot\xE1vio A. B. Penatti, Jurandy Almeida"
 ---
 Often, videos are composed of multiple concepts or even genres. For instance,

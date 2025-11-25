@@ -1,13 +1,13 @@
 ---
 layout: publication
 title: A Survey On Learning To Hash
-authors: Jingdong Wang, Ting Zhang, Jingkuan Song, Nicu Sebe, And Shen
+authors: Jingdong Wang, Zhang, Song, Sebe, Shen
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
-year: 2017
+year: 2025
 bibkey: wang2025a
-citations: 936
+citations: 958
 additional_links: [{name: Paper, url: 'https://arxiv.org/pdf/1606.00185.pdf'}]
-tags: ["Evaluation", "Hashing Methods", "Quantization", "Survey Paper"]
+tags: ["Hashing Methods", "Quantization", "Similarity Search", "Survey Paper"]
 short_authors: Wang et al.
 ---
 Nearest neighbor search is a problem of finding the data points from the database such that the distances from them to the

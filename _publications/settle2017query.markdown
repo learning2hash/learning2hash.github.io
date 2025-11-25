@@ -5,9 +5,9 @@ authors: Shane Settle, Keith Levin, Herman Kamper, Karen Livescu
 conference: Interspeech 2017
 year: 2017
 bibkey: settle2017query
-citations: 56
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.03818'}]
-tags: ["Efficiency", "Evaluation"]
+tags: ["Efficiency", "Interspeech", "Similarity Search"]
 short_authors: Settle et al.
 ---
 Query-by-example search often uses dynamic time warping (DTW) for comparing

@@ -5,9 +5,9 @@ authors: Yifan Yang, Libing Geng, Hanjiang Lai, Yan Pan, Jian Yin
 conference: Proceedings of the 2019 on International Conference on Multimedia Retrieval
 year: 2019
 bibkey: yang2019feature
-citations: 22
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.02325'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Neural Hashing", "Scalability"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Yang et al.
 ---
 In recent years, deep-networks-based hashing has become a leading approach

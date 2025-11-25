@@ -6,9 +6,9 @@ conference: 2021 IEEE/RSJ International Conference on Intelligent Robots and Sys
   (IROS)
 year: 2021
 bibkey: abouelnaga2021distillpose
-citations: 7
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.03819'}]
-tags: ["IROS"]
+tags: ["Efficiency", "IROS", "Image Retrieval", "Memory Efficiency"]
 short_authors: Yehya Abouelnaga, Mai Bui, Slobodan Ilic
 ---
 We propose a lightweight retrieval-based pipeline to predict 6DOF camera

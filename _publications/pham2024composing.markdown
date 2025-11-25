@@ -5,9 +5,9 @@ authors: Khoi Pham, Chuong Huynh, Ser-Nam Lim, Abhinav Shrivastava
 conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2024
 bibkey: pham2024composing
-citations: 12
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.11820'}]
-tags: ["CVPR", "Evaluation", "Text Retrieval"]
+tags: ["CVPR", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Pham et al.
 ---
 We study the visual semantic embedding problem for image-text matching. Most

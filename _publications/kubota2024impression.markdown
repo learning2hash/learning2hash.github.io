@@ -2,7 +2,7 @@
 layout: publication
 title: 'Impression-clip: Contrastive Shape-impression Embedding For Fonts'
 authors: Yugo Kubota, Daichi Haraguchi, Seiichi Uchida
-conference: Arxiv
+conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: kubota2024impression
 citations: 0

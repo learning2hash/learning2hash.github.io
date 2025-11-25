@@ -6,9 +6,9 @@ authors: "Olivier Mor\xE8re, Antoine Veillard, Jie Lin, Julie Petta, Vijay Chand
 conference: Arxiv
 year: 2016
 bibkey: "mor\xE8re2016group"
-citations: 6
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1601.02093'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Quantization", "Robustness"]
+tags: ["Evaluation", "Image Retrieval", "Quantization", "Robustness"]
 short_authors: "Mor\xE8re et al."
 ---
 Most image instance retrieval pipelines are based on comparison of vectors

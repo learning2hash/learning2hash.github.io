@@ -7,7 +7,7 @@ year: 2022
 bibkey: shi2022learning
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.08569'}]
-tags: ["Compact Codes", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Recommender Systems", "Survey Paper"]
+tags: ["Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Recommender Systems"]
 short_authors: Yang Shi, Young-Joo Chung
 ---
 Hashing-based Recommender Systems (RSs) are widely studied to provide

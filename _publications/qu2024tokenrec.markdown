@@ -2,12 +2,12 @@
 layout: publication
 title: 'Tokenrec: Learning To Tokenize ID For Llm-based Generative Recommendation'
 authors: Haohao Qu, Wenqi Fan, Zihuai Zhao, Qing Li
-conference: Arxiv
+conference: IEEE Transactions on Knowledge and Data Engineering
 year: 2024
 bibkey: qu2024tokenrec
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.10450'}]
-tags: ["Recommender Systems", "Scalability", "Similarity Search", "Tools & Libraries"]
+tags: ["Evaluation", "Quantization", "Recommender Systems", "Scalability"]
 short_authors: Qu et al.
 ---
 There is a growing interest in utilizing large-scale language models (LLMs)

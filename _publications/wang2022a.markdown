@@ -7,7 +7,7 @@ year: 2022
 bibkey: wang2022a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.07922'}]
-tags: ["Distance Metric Learning", "Efficiency", "Survey Paper"]
+tags: ["Efficiency", "Similarity Search", "Survey Paper"]
 short_authors: Yifan Wang
 ---
 Similarity query is the family of queries based on some similarity metrics.

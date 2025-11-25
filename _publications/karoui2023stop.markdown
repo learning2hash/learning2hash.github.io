@@ -9,7 +9,7 @@ bibkey: karoui2023stop
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/Yasminekaroui/CliCoTea'},
   {name: Paper, url: 'https://arxiv.org/abs/2306.16774'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
+tags: ["Evaluation", "Few Shot & Zero Shot"]
 short_authors: Karoui et al.
 ---
 Vision-Language Pre-training (VLP) has advanced the performance of many

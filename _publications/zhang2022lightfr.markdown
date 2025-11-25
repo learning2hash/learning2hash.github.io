@@ -6,9 +6,9 @@ authors: Honglei Zhang, Fangyuan Luo, Jun Wu, Xiangnan He, Yidong Li
 conference: ACM Transactions on Information Systems
 year: 2022
 bibkey: zhang2022lightfr
-citations: 48
+citations: 68
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.11743'}]
-tags: ["Compact Codes", "Datasets", "Efficiency", "Hashing Methods", "Recommender Systems", "Scalability", "Similarity Search", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Recommender Systems", "Scalability", "Similarity Search"]
 short_authors: Zhang et al.
 ---
 Federated recommender system (FRS), which enables many local devices to train

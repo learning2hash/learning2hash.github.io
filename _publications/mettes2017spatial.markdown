@@ -6,9 +6,9 @@ authors: Pascal Mettes, Cees G. M. Snoek
 conference: 2017 IEEE International Conference on Computer Vision (ICCV)
 year: 2017
 bibkey: mettes2017spatial
-citations: 95
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.09145'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "ICCV", "Supervised"]
+tags: ["Few Shot & Zero Shot", "ICCV"]
 short_authors: Pascal Mettes, Cees G. M. Snoek
 ---
 We aim for zero-shot localization and classification of human actions in

@@ -6,9 +6,9 @@ authors: "Armand Vilalta, Dario Garcia-Gasulla, Ferran Par\xE9s, Eduard Ayguad\x
 conference: Arxiv
 year: 2017
 bibkey: vilalta2017full
-citations: 4
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.09872'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Vilalta et al.
 ---
 The current state-of-the-art for image annotation and image retrieval tasks

@@ -5,7 +5,7 @@ authors: "Iv\xE1n Cantador, Andr\xE9s Carvallo, Fernando Diez"
 conference: Arxiv
 year: 2021
 bibkey: cantador2021rating
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.03385'}]
 tags: ["Evaluation", "Recommender Systems"]
 short_authors: "Iv\xE1n Cantador, Andr\xE9s Carvallo, Fernando Diez"

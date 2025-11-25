@@ -2,14 +2,13 @@
 layout: publication
 title: Scene-adaptive Person Search Via Bilateral Modulations
 authors: Yimin Jiang, Huibing Wang, Jinjia Peng, Xianping Fu, Yang Wang
-conference: Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial
-  Intelligence
+conference: Arxiv
 year: 2024
 bibkey: jiang2024scene
-citations: 4
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/whbdmu/SEAS'}, {name: Paper,
     url: 'https://arxiv.org/abs/2405.02834'}]
-tags: ["AAAI", "Datasets", "Evaluation", "IJCAI"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Jiang et al.
 ---
 Person search aims to localize specific a target person from a gallery set of

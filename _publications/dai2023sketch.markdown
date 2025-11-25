@@ -6,9 +6,9 @@ conference: ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speec
   and Signal Processing (ICASSP)
 year: 2023
 bibkey: dai2023sketch
-citations: 4
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.05576'}]
-tags: ["Datasets", "ICASSP", "Image Retrieval", "Tools & Libraries"]
+tags: ["Datasets", "ICASSP", "Image Retrieval"]
 short_authors: Dai et al.
 ---
 In some specific scenarios, face sketch was used to identify a person.

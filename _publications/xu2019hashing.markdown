@@ -2,12 +2,12 @@
 layout: publication
 title: Hashing Based Answer Selection
 authors: Dong Xu, Wu-Jun Li
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2019
 bibkey: xu2019hashing
-citations: 5
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.10718'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Hashing Methods"]
+tags: ["Datasets", "Evaluation", "Hashing Methods"]
 short_authors: Dong Xu, Wu-Jun Li
 ---
 Answer selection is an important subtask of question answering (QA), where

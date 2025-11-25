@@ -6,7 +6,7 @@ authors: Shah Nawaz, Muhammad Kamran Janjua, Ignazio Gallo, Arif Mahmood, Alessa
 conference: 2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)
 year: 2019
 bibkey: nawaz2019do
-citations: 9
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.01976'}]
 tags: ["Datasets", "Evaluation", "ICCV", "Multimodal Retrieval"]
 short_authors: Nawaz et al.

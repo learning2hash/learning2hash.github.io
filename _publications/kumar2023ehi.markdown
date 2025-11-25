@@ -8,7 +8,7 @@ year: 2023
 bibkey: kumar2023ehi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.08891'}]
-tags: ["Evaluation", "Vector Indexing"]
+tags: ["Efficiency", "Evaluation", "Large Scale Search", "Similarity Search", "Vector Indexing"]
 short_authors: Kumar et al.
 ---
 Dense embedding-based retrieval is widely used for semantic search and

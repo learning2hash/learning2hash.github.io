@@ -8,7 +8,7 @@ year: 2024
 bibkey: tang2024generative
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.18409'}]
-tags: ["Datasets", "Tools & Libraries"]
+tags: ["Datasets", "Unsupervised"]
 short_authors: Tang et al.
 ---
 Generative retrieval represents a novel approach to information retrieval. It

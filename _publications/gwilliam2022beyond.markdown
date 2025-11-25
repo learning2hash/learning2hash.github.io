@@ -6,9 +6,9 @@ authors: Matthew Gwilliam, Abhinav Shrivastava
 conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2022
 bibkey: gwilliam2022beyond
-citations: 12
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.08347'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Self-Supervised", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["CVPR", "Evaluation", "Self-Supervised", "Unsupervised"]
 short_authors: Matthew Gwilliam, Abhinav Shrivastava
 ---
 By leveraging contrastive learning, clustering, and other pretext tasks,

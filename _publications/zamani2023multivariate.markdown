@@ -6,9 +6,9 @@ conference: Proceedings of the 46th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2023
 bibkey: zamani2023multivariate
-citations: 4
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.14522'}]
-tags: ["Datasets", "Efficiency", "SIGIR", "Tools & Libraries"]
+tags: ["Datasets", "Efficiency", "SIGIR"]
 short_authors: Hamed Zamani, Michael Bendersky
 ---
 Dense retrieval models use bi-encoder network architectures for learning

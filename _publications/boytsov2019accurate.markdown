@@ -5,9 +5,9 @@ authors: Leonid Boytsov, Eric Nyberg
 conference: Lecture Notes in Computer Science
 year: 2019
 bibkey: boytsov2019accurate
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.03534'}]
-tags: ["Efficiency", "Evaluation", "Graph Based ANN"]
+tags: ["Efficiency", "Graph Based ANN"]
 short_authors: Leonid Boytsov, Eric Nyberg
 ---
 We demonstrate that a graph-based search algorithm-relying on the

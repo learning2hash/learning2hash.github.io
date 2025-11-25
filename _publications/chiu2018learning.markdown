@@ -2,12 +2,12 @@
 layout: publication
 title: Learning To Index For Nearest Neighbor Search
 authors: Chih-Yi Chiu, Amorntip Prayoonwong, Yin-Chih Liao
-conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
+conference: Arxiv
 year: 2018
 bibkey: chiu2018learning
-citations: 20
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.02962'}]
-tags: ["Datasets", "Evaluation", "Large Scale Search", "Quantization", "Scalability"]
+tags: ["Evaluation", "Large Scale Search", "Quantization", "Scalability"]
 short_authors: Chih-Yi Chiu, Amorntip Prayoonwong, Yin-Chih Liao
 ---
 In this study, we present a novel ranking model based on learning

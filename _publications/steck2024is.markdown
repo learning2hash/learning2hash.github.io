@@ -5,9 +5,9 @@ authors: Harald Steck, Chaitanya Ekanadham, Nathan Kallus
 conference: Companion Proceedings of the ACM Web Conference 2024
 year: 2024
 bibkey: steck2024is
-citations: 43
+citations: 82
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.05440'}]
-tags: ["Uncategorized"]
+tags: ["Similarity Search"]
 short_authors: Harald Steck, Chaitanya Ekanadham, Nathan Kallus
 ---
 Cosine-similarity is the cosine of the angle between two vectors, or

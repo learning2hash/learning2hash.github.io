@@ -6,9 +6,9 @@ authors: Tzu-Ming Harry Hsu, Wei-Hung Weng, Willie Boag, Matthew McDermott, Pete
 conference: Arxiv
 year: 2018
 bibkey: hsu2018unsupervised
-citations: 26
+citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.08615'}]
-tags: ["Datasets", "Supervised", "Text Retrieval", "Unsupervised"]
+tags: ["Datasets", "Multimodal Retrieval", "Text Retrieval", "Unsupervised"]
 short_authors: Hsu et al.
 ---
 Joint embeddings between medical imaging modalities and associated radiology

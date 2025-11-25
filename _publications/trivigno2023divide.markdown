@@ -5,9 +5,9 @@ authors: Gabriele Trivigno, Gabriele Berton, Juan Aragon, Barbara Caputo, Carlo 
 conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2023
 bibkey: trivigno2023divide
-citations: 4
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.08417'}]
-tags: ["Datasets", "Evaluation", "ICCV", "Image Retrieval", "Similarity Search"]
+tags: ["ICCV", "Image Retrieval", "Similarity Search"]
 short_authors: Trivigno et al.
 ---
 Visual Place recognition is commonly addressed as an image retrieval problem.

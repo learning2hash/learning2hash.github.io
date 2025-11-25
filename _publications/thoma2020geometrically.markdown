@@ -5,7 +5,7 @@ authors: Janine Thoma, Danda Pani Paudel, Ajad Chhatkuli, Luc van Gool
 conference: IEEE Robotics and Automation Letters
 year: 2020
 bibkey: thoma2020geometrically
-citations: 2
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.09682'}]
 tags: ["Evaluation", "Image Retrieval"]
 short_authors: Thoma et al.

@@ -4,12 +4,12 @@ title: 'SSAH: Semi-supervised Adversarial Deep Hashing With Self-paced Hard Samp
   Generation'
 authors: Sheng Jin, Shangchen Zhou, Yao Liu, Chao Chen, Xiaoshuai Sun, Hongxun Yao,
   Xiansheng Hua
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2019
 bibkey: jin2019ssah
-citations: 27
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.08688'}]
-tags: ["AAAI", "Datasets", "Hashing Methods", "Neural Hashing", "Robustness", "Scalability", "Supervised", "Tools & Libraries"]
+tags: ["Hashing Methods", "Image Retrieval", "Large Scale Search", "Neural Hashing", "Supervised"]
 short_authors: Jin et al.
 ---
 Deep hashing methods have been proved to be effective and efficient for

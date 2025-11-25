@@ -5,10 +5,10 @@ authors: Xun Wang, Xintong Han, Weilin Huang, Dengke Dong, Matthew R. Scott
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: wang2019multi
-citations: 743
+citations: 774
 additional_links: [{name: Code, url: 'https://github.com/MalongTech/research-ms-loss'},
   {name: Paper, url: 'https://arxiv.org/abs/1904.06627'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: ["CVPR", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Wang et al.
 ---
 A family of loss functions built on pair-based computation have been proposed

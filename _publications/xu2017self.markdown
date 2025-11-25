@@ -5,9 +5,9 @@ authors: Jiaming Xu, Bo Xu, Peng Wang, Suncong Zheng, Guanhua Tian, Jun Zhao, Bo
 conference: Neural Networks
 year: 2017
 bibkey: xu2017self
-citations: 209
+citations: 218
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.00185'}]
-tags: ["Compact Codes", "Datasets", "Tools & Libraries", "Unsupervised"]
+tags: ["Compact Codes", "Datasets", "Unsupervised"]
 short_authors: Xu et al.
 ---
 Short text clustering is a challenging problem due to its sparseness of text

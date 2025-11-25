@@ -5,9 +5,9 @@ authors: Jianbo Ouyang, Hui Wu, Min Wang, Wengang Zhou, Houqiang Li
 conference: Arxiv
 year: 2021
 bibkey: ouyang2021contextual
-citations: 4
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.13430'}]
-tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking", "Robustness"]
+tags: ["Datasets", "Image Retrieval", "Re-Ranking", "Robustness"]
 short_authors: Ouyang et al.
 ---
 In content-based image retrieval, the first-round retrieval result by simple

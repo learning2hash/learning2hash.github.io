@@ -8,7 +8,7 @@ year: 2018
 bibkey: santus2018a
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.01923'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: ["Distance Metric Learning", "Evaluation", "Similarity Search"]
 short_authors: Santus et al.
 ---
 Word Embeddings have recently imposed themselves as a standard for

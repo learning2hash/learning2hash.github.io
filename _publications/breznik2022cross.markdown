@@ -2,13 +2,13 @@
 layout: publication
 title: Cross-modality Sub-image Retrieval Using Contrastive Multimodal Image Representations
 authors: "Eva Breznik, Elisabeth Wetzer, Joakim Lindblad, Nata\u0161a Sladoje"
-conference: Scientific Reports
+conference: Arxiv
 year: 2022
 bibkey: breznik2022cross
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/MIDA-group/CrossModal_ImgRetrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2201.03597'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Breznik et al.
 ---
 In tissue characterization and cancer diagnostics, multimodal imaging has

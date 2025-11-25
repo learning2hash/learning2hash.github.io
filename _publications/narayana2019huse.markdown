@@ -6,9 +6,9 @@ authors: Pradyumna Narayana, Aniket Pednekar, Abishek Krishnamoorthy, Kazoo Sone
 conference: Arxiv
 year: 2019
 bibkey: narayana2019huse
-citations: 7
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.05978'}]
-tags: ["Evaluation"]
+tags: ["Distance Metric Learning", "Evaluation", "Multimodal Retrieval"]
 short_authors: Narayana et al.
 ---
 There is a recent surge of interest in cross-modal representation learning

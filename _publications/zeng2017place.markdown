@@ -5,7 +5,7 @@ authors: Zhiqiang Zeng, Jian Zhang, Xiaodong Wang, Yuming Chen, Chaoyang Zhu
 conference: Applied Sciences
 year: 2017
 bibkey: zeng2017place
-citations: 18
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.03470'}]
 tags: ["Image Retrieval", "Survey Paper"]
 short_authors: Zeng et al.

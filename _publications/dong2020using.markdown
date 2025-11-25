@@ -2,13 +2,12 @@
 layout: publication
 title: Using Text To Teach Image Retrieval
 authors: Haoyu Dong, Ze Wang, Qiang Qiu, Guillermo Sapiro
-conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
-  (CVPRW)
+conference: Arxiv
 year: 2020
 bibkey: dong2020using
-citations: 4
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.09928'}]
-tags: ["CVPR", "Datasets", "Image Retrieval"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Dong et al.
 ---
 Image retrieval relies heavily on the quality of the data modeling and the

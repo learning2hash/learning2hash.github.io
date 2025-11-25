@@ -7,7 +7,7 @@ year: 2023
 bibkey: sun2023training
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.08924'}]
-tags: ["Datasets", "Efficiency", "Few Shot & Zero Shot", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking", "Self-Supervised", "Supervised"]
+tags: ["Few Shot & Zero Shot", "Image Retrieval", "Re-Ranking", "Self-Supervised"]
 short_authors: Shitong Sun, Fanghua Ye, Shaogang Gong
 ---
 Composed image retrieval attempts to retrieve an image of interest from

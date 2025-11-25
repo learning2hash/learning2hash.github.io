@@ -5,9 +5,9 @@ authors: Jiaqi Chen, Daniel Barath, Iro Armeni, Marc Pollefeys, Hermann Blum
 conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: chen2024where
-citations: 0
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.14565'}]
-tags: ["Datasets", "Evaluation", "Scalability"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Chen et al.
 ---
 Natural language interfaces to embodied AI are becoming more ubiquitous in

@@ -5,9 +5,9 @@ authors: Fabian Groh, Lukas Ruppert, Patrick Wieschollek, Hendrik P. A. Lensch
 conference: IEEE Transactions on Big Data
 year: 2019
 bibkey: groh2019ggnn
-citations: 48
+citations: 57
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.01059'}]
-tags: ["Evaluation", "Graph Based ANN", "Neural Hashing", "Tools & Libraries", "Vector Indexing"]
+tags: ["Evaluation", "Graph Based ANN", "Similarity Search", "Vector Indexing"]
 short_authors: Groh et al.
 ---
 Approximate nearest neighbor (ANN) search in high dimensions is an integral

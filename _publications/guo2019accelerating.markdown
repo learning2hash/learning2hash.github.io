@@ -6,7 +6,7 @@ authors: Ruiqi Guo, Philip Sun, Erik Lindgren, Quan Geng, David Simcha, Felix Ch
 conference: Arxiv
 year: 2019
 bibkey: guo2019accelerating
-citations: 91
+citations: 111
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.10396'}]
 tags: ["Quantization", "Scalability"]
 short_authors: Guo et al.

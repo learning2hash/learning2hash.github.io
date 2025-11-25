@@ -2,12 +2,12 @@
 layout: publication
 title: Deep Lifelong Cross-modal Hashing
 authors: Liming Xu, Hanqi Li, Bochuan Zheng, Weisheng Li, Jiancheng Lv
-conference: IEEE Transactions on Circuits and Systems for Video Technology
+conference: Arxiv
 year: 2023
 bibkey: xu2023deep
-citations: 4
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.13357'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Memory Efficiency", "Multimodal Retrieval", "Neural Hashing", "Scalability"]
+tags: ["Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Xu et al.
 ---
 Hashing methods have made significant progress in cross-modal retrieval tasks

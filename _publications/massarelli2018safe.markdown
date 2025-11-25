@@ -3,12 +3,12 @@ layout: publication
 title: 'SAFE: Self-attentive Function Embeddings For Binary Similarity'
 authors: Luca Massarelli, Giuseppe Antonio di Luna, Fabio Petroni, Leonardo Querzoni,
   Roberto Baldoni
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2018
 bibkey: massarelli2018safe
-citations: 139
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.05296'}]
-tags: ["Compact Codes", "Evaluation"]
+tags: ["Evaluation", "Privacy & Security", "Similarity Search"]
 short_authors: Massarelli et al.
 ---
 The binary similarity problem consists in determining if two functions are

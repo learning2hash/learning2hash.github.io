@@ -6,9 +6,9 @@ authors: Osman Tursun, Simon Denman, Sridha Sridharan, Clinton Fookes
 conference: 2021 IEEE International Conference on Image Processing (ICIP)
 year: 2021
 bibkey: tursun2021learning
-citations: 6
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.07240'}]
-tags: ["Datasets", "Image Retrieval", "Scalability", "Unsupervised"]
+tags: ["Image Retrieval", "Large Scale Search", "Unsupervised"]
 short_authors: Tursun et al.
 ---
 Large-scale trademark retrieval is an important content-based image retrieval

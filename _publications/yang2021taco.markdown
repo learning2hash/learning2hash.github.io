@@ -1,0 +1,30 @@
+---
+layout: publication
+title: 'Taco: Token-aware Cascade Contrastive Learning For Video-text Alignment'
+authors: Jianwei Yang, Yonatan Bisk, Jianfeng Gao
+conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
+year: 2021
+bibkey: yang2021taco
+citations: 102
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.09980'}]
+tags: ["Evaluation", "ICCV", "Self-Supervised", "Video Retrieval"]
+short_authors: Jianwei Yang, Yonatan Bisk, Jianfeng Gao
+---
+Contrastive learning has been widely used to train transformer-based
+vision-language models for video-text alignment and multi-modal representation
+learning. This paper presents a new algorithm called Token-Aware Cascade
+contrastive learning (TACo) that improves contrastive learning using two novel
+techniques. The first is the token-aware contrastive loss which is computed by
+taking into account the syntactic classes of words. This is motivated by the
+observation that for a video-text pair, the content words in the text, such as
+nouns and verbs, are more likely to be aligned with the visual contents in the
+video than the function words. Second, a cascade sampling method is applied to
+generate a small set of hard negative examples for efficient loss estimation
+for multi-modal fusion layers. To validate the effectiveness of TACo, in our
+experiments we finetune pretrained models for a set of downstream tasks
+including text-video retrieval (YouCook2, MSR-VTT and ActivityNet), video
+action step localization (CrossTask), video action segmentation (COIN). The
+results show that our models attain consistent improvements across different
+experimental settings over previous methods, setting new state-of-the-art on
+three public text-video retrieval benchmarks of YouCook2, MSR-VTT and
+ActivityNet.

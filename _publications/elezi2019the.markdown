@@ -6,9 +6,9 @@ authors: Ismail Elezi, Sebastiano Vascon, Alessandro Torcinovich, Marcello Pelil
 conference: Lecture Notes in Computer Science
 year: 2019
 bibkey: elezi2019the
-citations: 32
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.00385'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Image Retrieval"]
 short_authors: Elezi et al.
 ---
 Deep metric learning has yielded impressive results in tasks such as

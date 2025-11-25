@@ -2,10 +2,10 @@
 layout: publication
 title: 'EVE: Explainable Vector Based Embedding Technique Using Wikipedia'
 authors: M. Atif Qureshi, Derek Greene
-conference: Journal of Intelligent Information Systems
+conference: Arxiv
 year: 2017
 bibkey: qureshi2017eve
-citations: 21
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.06891'}]
 tags: ["Unsupervised"]
 short_authors: M. Atif Qureshi, Derek Greene

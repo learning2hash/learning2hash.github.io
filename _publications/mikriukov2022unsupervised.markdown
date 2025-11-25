@@ -6,10 +6,10 @@ conference: ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speec
   and Signal Processing (ICASSP)
 year: 2022
 bibkey: mikriukov2022unsupervised
-citations: 55
+citations: 63
 additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/duch'}, {name: Paper,
     url: 'https://arxiv.org/abs/2204.08707'}]
-tags: ["Hashing Methods", "ICASSP", "Image Retrieval", "Multimodal Retrieval", "Robustness", "Scalability", "Similarity Search", "Unsupervised"]
+tags: ["Hashing Methods", "ICASSP", "Image Retrieval", "Multimodal Retrieval", "Unsupervised"]
 short_authors: "Georgii Mikriukov, Mahdyar Ravanbakhsh, Beg\xFCm Demir"
 ---
 The development of cross-modal retrieval systems that can search and retrieve

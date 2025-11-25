@@ -3,13 +3,12 @@ layout: publication
 title: 'Initialization Matters: Regularizing Manifold-informed Initialization For
   Neural Recommendation Systems'
 authors: Yinan Zhang, Boyang Li, Yong Liu, Hao Wang, Chunyan Miao
-conference: Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery &amp;
-  Data Mining
+conference: Arxiv
 year: 2021
 bibkey: zhang2021initialization
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.04993'}]
-tags: ["KDD", "Recommender Systems"]
+tags: ["Recommender Systems"]
 short_authors: Zhang et al.
 ---
 Proper initialization is crucial to the optimization and the generalization

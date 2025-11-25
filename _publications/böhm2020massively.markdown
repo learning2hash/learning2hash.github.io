@@ -5,7 +5,7 @@ authors: "Christian B\xF6hm, Claudia Plant"
 conference: 2020 IEEE International Conference on Big Data (Big Data)
 year: 2020
 bibkey: "b\xF6hm2020massively"
-citations: 4
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.03479'}]
 tags: ["Evaluation", "Graph Based ANN", "Hashing Methods"]
 short_authors: "Christian B\xF6hm, Claudia Plant"

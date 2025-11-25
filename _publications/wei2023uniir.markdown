@@ -3,12 +3,12 @@ layout: publication
 title: 'Uniir: Training And Benchmarking Universal Multimodal Information Retrievers'
 authors: Cong Wei, Yang Chen, Haonan Chen, Hexiang Hu, Ge Zhang, Jie Fu, Alan Ritter,
   Wenhu Chen
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2023
 bibkey: wei2023uniir
-citations: 10
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.17136'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval"]
 short_authors: Wei et al.
 ---
 Existing information retrieval (IR) models often assume a homogeneous format,

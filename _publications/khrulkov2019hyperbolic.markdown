@@ -6,9 +6,9 @@ authors: Valentin Khrulkov, Leyla Mirvakhabova, Evgeniya Ustinova, Ivan Oseledet
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: khrulkov2019hyperbolic
-citations: 221
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.02239'}]
-tags: ["CVPR", "Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["CVPR", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Khrulkov et al.
 ---
 Computer vision tasks such as image classification, image retrieval and

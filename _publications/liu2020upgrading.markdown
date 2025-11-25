@@ -7,7 +7,7 @@ year: 2020
 bibkey: liu2020upgrading
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.11449'}]
-tags: ["Scalability", "Supervised"]
+tags: ["Image Retrieval", "Multimodal Retrieval", "Supervised"]
 short_authors: Liu et al.
 ---
 We propose an automated image selection system to assist photo editors in

@@ -2,12 +2,12 @@
 layout: publication
 title: 'Fmhash: Deep Hashing Of In-air-handwriting For User Identification'
 authors: Duo Lu, Dijiang Huang, Anshul Rai
-conference: ICC 2019 - 2019 IEEE International Conference on Communications (ICC)
+conference: Arxiv
 year: 2018
 bibkey: lu2018fmhash
-citations: 9
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.03574'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Neural Hashing", "Tools & Libraries"]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Neural Hashing"]
 short_authors: Duo Lu, Dijiang Huang, Anshul Rai
 ---
 Many mobile systems and wearable devices, such as Virtual Reality (VR) or

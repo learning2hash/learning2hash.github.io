@@ -8,7 +8,7 @@ year: 2018
 bibkey: hang2018exploring
 citations: 54
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.06912'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "KDD"]
+tags: ["Datasets", "Graph Based ANN", "KDD"]
 short_authors: Mengyue Hang, Ian Pytlarz, Jennifer Neville
 ---
 With the availability of vast amounts of user visitation history on

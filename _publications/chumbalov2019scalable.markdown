@@ -3,11 +3,11 @@ layout: publication
 title: Scalable And Efficient Comparison-based Search Without Features
 authors: Daniyar Chumbalov, Lucas Maystre, Matthias Grossglauser
 conference: Arxiv
-year: 2020
+year: 2019
 bibkey: chumbalov2019scalable
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.05049'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries"]
+tags: ["Efficiency", "Scalability", "Similarity Search"]
 short_authors: Daniyar Chumbalov, Lucas Maystre, Matthias Grossglauser
 ---
 We consider the problem of finding a target object \(t\) using pairwise

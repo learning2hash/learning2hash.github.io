@@ -5,9 +5,9 @@ authors: Luca Papariello, Alexandros Bampoulidis, Mihai Lupu
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: papariello2020on
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.04484'}]
-tags: ["Tools & Libraries"]
+tags: ["SIGIR", "Text Retrieval"]
 short_authors: Luca Papariello, Alexandros Bampoulidis, Mihai Lupu
 ---
 We replicate recent experiments attempting to demonstrate an attractive

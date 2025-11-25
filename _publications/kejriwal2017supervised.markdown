@@ -5,9 +5,9 @@ authors: Mayank Kejriwal, Pedro Szekely
 conference: Proceedings of The International Workshop on Semantic Big Data
 year: 2017
 bibkey: kejriwal2017supervised
-citations: 12
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.07805'}]
-tags: ["Efficiency", "Memory Efficiency", "Recommender Systems", "Supervised"]
+tags: ["Efficiency", "Memory Efficiency", "Supervised"]
 short_authors: Mayank Kejriwal, Pedro Szekely
 ---
 We propose a supervised algorithm for generating type embeddings in the same

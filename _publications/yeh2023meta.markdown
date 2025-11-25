@@ -5,9 +5,9 @@ authors: Chun-Hsiao Yeh, Bryan Russell, Josef Sivic, Fabian Caba Heilbron, Simon
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: yeh2023meta
-citations: 6
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.10169'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Scalability"]
+tags: ["CVPR", "Datasets", "Multimodal Retrieval", "Scalability", "Video Retrieval"]
 short_authors: Yeh et al.
 ---
 Large-scale vision-language models (VLM) have shown impressive results for

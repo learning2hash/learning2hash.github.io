@@ -5,9 +5,9 @@ authors: Yingying Zhu, Jiong Wang, Lingxi Xie, Liang Zheng
 conference: Proceedings of the 26th ACM international conference on Multimedia
 year: 2018
 bibkey: zhu2018attention
-citations: 89
+citations: 92
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.00288'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Zhu et al.
 ---
 Visual place recognition is challenging in the urban environment and is

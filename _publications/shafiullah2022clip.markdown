@@ -1,0 +1,26 @@
+---
+layout: publication
+title: 'Clip-fields: Weakly Supervised Semantic Fields For Robotic Memory'
+authors: Nur Muhammad Mahi Shafiullah, Chris Paxton, Lerrel Pinto, Soumith Chintala,
+  Arthur Szlam
+conference: Arxiv
+year: 2022
+bibkey: shafiullah2022clip
+citations: 11
+additional_links: [{name: Code, url: 'https://mahis.life/clip-fields'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2210.05663'}]
+tags: ["Few Shot & Zero Shot", "Self-Supervised"]
+short_authors: Shafiullah et al.
+---
+We propose CLIP-Fields, an implicit scene model that can be used for a
+variety of tasks, such as segmentation, instance identification, semantic
+search over space, and view localization. CLIP-Fields learns a mapping from
+spatial locations to semantic embedding vectors. Importantly, we show that this
+mapping can be trained with supervision coming only from web-image and web-text
+trained models such as CLIP, Detic, and Sentence-BERT; and thus uses no direct
+human supervision. When compared to baselines like Mask-RCNN, our method
+outperforms on few-shot instance identification or semantic segmentation on the
+HM3D dataset with only a fraction of the examples. Finally, we show that using
+CLIP-Fields as a scene memory, robots can perform semantic navigation in
+real-world environments. Our code and demonstration videos are available here:
+https://mahis.life/clip-fields

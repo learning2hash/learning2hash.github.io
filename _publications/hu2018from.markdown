@@ -5,9 +5,9 @@ authors: Qinghao Hu, Peisong Wang, Jian Cheng
 conference: Arxiv
 year: 2018
 bibkey: hu2018from
-citations: 42
+citations: 41
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02733'}]
-tags: ["Evaluation", "Hashing Methods"]
+tags: ["Hashing Methods", "Memory Efficiency"]
 short_authors: Qinghao Hu, Peisong Wang, Jian Cheng
 ---
 Deep convolutional neural networks (CNNs) have shown appealing performance on

@@ -6,9 +6,9 @@ authors: Anjan Dutta, Zeynep Akata
 conference: International Journal of Computer Vision
 year: 2020
 bibkey: dutta2020semantically
-citations: 23
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.11397'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Robustness"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Anjan Dutta, Zeynep Akata
 ---
 Low-shot sketch-based image retrieval is an emerging task in computer vision,

@@ -5,9 +5,9 @@ authors: Yun William Yu, Griffin M. Weber
 conference: IEEE Transactions on Knowledge and Data Engineering
 year: 2017
 bibkey: yu2017hyperminhash
-citations: 10
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.08436'}]
-tags: ["Locality-Sensitive-Hashing"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Memory Efficiency"]
 short_authors: Yun William Yu, Griffin M. Weber
 ---
 In this extended abstract, we describe and analyze a lossy compression of

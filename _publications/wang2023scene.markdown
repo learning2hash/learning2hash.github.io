@@ -5,9 +5,9 @@ authors: Guoliang Wang, Yanlei Shang, Yong Chen
 conference: 2023 IEEE International Conference on Multimedia and Expo (ICME)
 year: 2023
 bibkey: wang2023scene
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.11090'}]
-tags: ["Datasets", "Text Retrieval"]
+tags: ["Graph Based ANN", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Guoliang Wang, Yanlei Shang, Yong Chen
 ---
 A critical challenge to image-text retrieval is how to learn accurate

@@ -3,12 +3,12 @@ layout: publication
 title: Efficient Image Retrieval Via Decoupling Diffusion Into Online And Offline
   Processing
 authors: Fan Yang, Ryota Hinami, Yusuke Matsui, Steven Ly, Shin'Ichi Satoh
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2018
 bibkey: yang2018efficient
-citations: 40
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.10907'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
+tags: ["Efficiency", "Image Retrieval", "Re-Ranking"]
 short_authors: Yang et al.
 ---
 Diffusion is commonly used as a ranking or re-ranking method in retrieval

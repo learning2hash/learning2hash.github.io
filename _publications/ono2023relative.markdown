@@ -6,9 +6,9 @@ authors: Naoki Ono, Yusuke Matsui
 conference: Proceedings of the 31st ACM International Conference on Multimedia
 year: 2023
 bibkey: ono2023relative
-citations: 5
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.20419'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN"]
+tags: ["Graph Based ANN", "Large Scale Search", "Scalability"]
 short_authors: Naoki Ono, Yusuke Matsui
 ---
 Approximate Nearest Neighbor Search (ANNS) is the task of finding the

@@ -6,9 +6,9 @@ authors: Federico Bianchi, Giuseppe Attanasio, Raphael Pisoni, Silvia Terragni, 
 conference: Arxiv
 year: 2021
 bibkey: bianchi2021contrastive
-citations: 19
+citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.08688'}]
-tags: ["Evaluation", "Few Shot & Zero Shot"]
+tags: ["Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Bianchi et al.
 ---
 CLIP (Contrastive Language-Image Pre-training) is a very recent multi-modal

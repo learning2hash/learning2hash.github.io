@@ -5,10 +5,10 @@ authors: "Julia Henkel, Genc Hoxha, Gencer Sumbul, Lars M\xF6llenbrok, Beg\xFCm 
 conference: IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium
 year: 2023
 bibkey: henkel2023annotation
-citations: 1
+citations: 3
 additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/ANNEAL'}, {name: Paper,
     url: 'https://arxiv.org/abs/2306.11605'}]
-tags: ["Distance Metric Learning", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Image Retrieval", "RSS"]
 short_authors: Henkel et al.
 ---
 Deep metric learning (DML) based methods have been found very effective for

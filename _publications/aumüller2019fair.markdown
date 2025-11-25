@@ -2,12 +2,13 @@
 layout: publication
 title: 'Fair Near Neighbor Search: Independent Range Sampling In High Dimensions'
 authors: "Martin Aum\xFCller, Rasmus Pagh, Francesco Silvestri"
-conference: 'SIGMOD/PODS ''20: International Conference on Management of Data'
+conference: Proceedings of the 39th ACM SIGMOD-SIGACT-SIGAI Symposium on Principles
+  of Database Systems
 year: 2019
 bibkey: "aum\xFCller2019fair"
-citations: 14
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.01859'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems", "Similarity Search"]
+tags: ["Locality-Sensitive-Hashing", "Recommender Systems", "Similarity Search"]
 short_authors: "Martin Aum\xFCller, Rasmus Pagh, Francesco Silvestri"
 ---
 Similarity search is a fundamental algorithmic primitive, widely used in many

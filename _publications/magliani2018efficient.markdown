@@ -5,9 +5,9 @@ authors: Federico Magliani, Tomaso Fontanini, Andrea Prati
 conference: Lecture Notes in Computer Science
 year: 2018
 bibkey: magliani2018efficient
-citations: 8
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.05946'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Scalability", "Similarity Search", "Vector Indexing"]
+tags: ["Efficiency", "Hashing Methods", "Scalability", "Similarity Search"]
 short_authors: Federico Magliani, Tomaso Fontanini, Andrea Prati
 ---
 The problem of landmark recognition has achieved excellent results in

@@ -5,10 +5,10 @@ authors: Sanjaya Wijeratne, Lakshika Balasuriya, Amit Sheth, Derek Doran
 conference: Proceedings of the International Conference on Web Intelligence
 year: 2017
 bibkey: wijeratne2017a
-citations: 42
+citations: 39
 additional_links: [{name: Other, url: 'http://emojinet.knoesis.org/'}, {name: Paper,
     url: 'https://arxiv.org/abs/1707.04653'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Similarity Search"]
 short_authors: Wijeratne et al.
 ---
 Emoji have grown to become one of the most important forms of communication

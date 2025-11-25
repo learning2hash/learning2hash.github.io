@@ -4,13 +4,13 @@ title: Leveraging Semantic Cues From Foundation Vision Models For Enhanced Local
   Correspondence
 authors: "Felipe Cadar, Guilherme Potje, Renato Martins, C\xE9dric Demonceaux, Erickson\
   \ R. Nascimento"
-conference: Arxiv
+conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: cadar2024leveraging
-citations: 0
+citations: 1
 additional_links: [{name: Code, url: 'https://www.verlab.dcc.ufmg.br/descriptors/reasoning_accv24'},
   {name: Paper, url: 'https://arxiv.org/abs/2410.09533'}]
-tags: ["Evaluation", "Similarity Search"]
+tags: ["Image Retrieval", "Similarity Search"]
 short_authors: Cadar et al.
 ---
 Visual correspondence is a crucial step in key computer vision tasks,

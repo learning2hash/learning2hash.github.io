@@ -9,7 +9,7 @@ year: 2023
 bibkey: moiseev2023samtone
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.02516'}]
-tags: ["Distance Metric Learning", "Few Shot & Zero Shot"]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Self-Supervised"]
 short_authors: Moiseev et al.
 ---
 Dual encoders have been used for retrieval tasks and representation learning

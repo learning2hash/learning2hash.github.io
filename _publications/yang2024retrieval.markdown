@@ -7,7 +7,7 @@ year: 2024
 bibkey: yang2024retrieval
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.19510'}]
-tags: ["Datasets", "Self-Supervised", "Tools & Libraries"]
+tags: ["Datasets", "Self-Supervised"]
 short_authors: Hongji Yang, Yiru Li, Yingying Zhu
 ---
 Information retrieval techniques have demonstrated exceptional capabilities

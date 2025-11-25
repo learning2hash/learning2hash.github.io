@@ -6,9 +6,9 @@ authors: Xiu-Shen Wei, Yang Shen, Xuhao Sun, Peng Wang, Yuxin Peng
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2023
 bibkey: wei2023attribute
-citations: 19
+citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.12894'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Unsupervised"]
 short_authors: Wei et al.
 ---
 Our work focuses on tackling large-scale fine-grained image retrieval as

@@ -5,9 +5,9 @@ authors: MacIej Zieba, Piotr Semberecki, Tarek El-Gaaly, Tomasz Trzcinski
 conference: Arxiv
 year: 2018
 bibkey: zieba2018bingan
-citations: 36
+citations: 38
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.06778'}]
-tags: ["Hashing Methods", "Robustness"]
+tags: ["Compact Codes", "Hashing Methods", "Image Retrieval"]
 short_authors: Zieba et al.
 ---
 In this paper, we propose a novel regularization method for Generative

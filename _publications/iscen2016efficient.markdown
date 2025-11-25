@@ -3,12 +3,12 @@ layout: publication
 title: 'Efficient Diffusion On Region Manifolds: Recovering Small Objects With Compact
   CNN Representations'
 authors: Ahmet Iscen, Giorgos Tolias, Yannis Avrithis, Teddy Furon, Ondrej Chum
-conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2016
 bibkey: iscen2016efficient
-citations: 124
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.05113'}]
-tags: ["CVPR", "Efficiency", "Evaluation", "Image Retrieval"]
+tags: ["Efficiency", "Image Retrieval"]
 short_authors: Iscen et al.
 ---
 Query expansion is a popular method to improve the quality of image retrieval

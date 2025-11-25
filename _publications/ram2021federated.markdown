@@ -8,7 +8,7 @@ year: 2021
 bibkey: ram2021federated
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.07157'}]
-tags: ["Datasets", "Efficiency", "Similarity Search"]
+tags: ["Efficiency", "Privacy & Security", "Similarity Search"]
 short_authors: Parikshit Ram, Kaushik Sinha
 ---
 The mathematical formalization of a neurological mechanism in the olfactory

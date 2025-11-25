@@ -3,12 +3,12 @@ layout: publication
 title: 'Streetsurfacevis: A Dataset Of Crowdsourced Street-level Imagery Annotated
   By Road Surface Type And Quality'
 authors: "Alexandra Kapp, Edith Hoffmann, Esther Weigmann, Helena Mihaljevi\u0107"
-conference: Scientific Data
+conference: Scientific Data 12 (2025) 92
 year: 2024
 bibkey: kapp2024streetsurfacevis
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.21454'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Similarity Search"]
 short_authors: Kapp et al.
 ---
 Road unevenness significantly impacts the safety and comfort of traffic

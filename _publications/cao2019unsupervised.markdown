@@ -5,9 +5,9 @@ authors: Xuefei Cao, Bor-Chun Chen, Ser-Nam Lim
 conference: Arxiv
 year: 2019
 bibkey: cao2019unsupervised
-citations: 12
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.07072'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: ["Distance Metric Learning", "Image Retrieval", "Self-Supervised", "Unsupervised"]
 short_authors: Xuefei Cao, Bor-Chun Chen, Ser-Nam Lim
 ---
 Deep metric learning is an important area due to its applicability to many

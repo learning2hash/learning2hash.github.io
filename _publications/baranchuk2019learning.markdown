@@ -5,9 +5,9 @@ authors: Dmitry Baranchuk, Dmitry Persiyanov, Anton Sinitsin, Artem Babenko
 conference: Arxiv
 year: 2019
 bibkey: baranchuk2019learning
-citations: 8
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.10987'}]
-tags: ["Evaluation", "Locality-Sensitive-Hashing", "Tree Based ANN"]
+tags: ["Evaluation", "Graph Based ANN", "Similarity Search"]
 short_authors: Baranchuk et al.
 ---
 Recently similarity graphs became the leading paradigm for efficient nearest

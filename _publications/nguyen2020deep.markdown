@@ -7,9 +7,9 @@ authors: Binh X. Nguyen, Binh D. Nguyen, Gustavo Carneiro, Erman Tjiputra, Quang
 conference: Arxiv
 year: 2020
 bibkey: nguyen2020deep
-citations: 9
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.04091'}]
-tags: ["Datasets", "Distance Metric Learning", "Unsupervised"]
+tags: ["Distance Metric Learning", "Unsupervised"]
 short_authors: Nguyen et al.
 ---
 Unsupervised Deep Distance Metric Learning (UDML) aims to learn sample

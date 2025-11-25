@@ -5,10 +5,10 @@ authors: Bingyi Cao, Andre Araujo, Jack Sim
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: cao2020unifying
-citations: 294
+citations: 318
 additional_links: [{name: Code, url: 'https://github.com/tensorflow/models/tree/master/research/delf'},
   {name: Paper, url: 'https://arxiv.org/abs/2001.05027'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Efficiency", "Image Retrieval"]
 short_authors: Bingyi Cao, Andre Araujo, Jack Sim
 ---
 Image retrieval is the problem of searching an image database for items that

@@ -2,12 +2,12 @@
 layout: publication
 title: Instance-based Learning Using The Half-space Proximal Graph
 authors: Ariana Talamantes, Edgar Chavez
-conference: Pattern Recognition Letters
+conference: Arxiv
 year: 2021
 bibkey: talamantes2021instance
-citations: 7
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.02755'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Graph Based ANN"]
 short_authors: Ariana Talamantes, Edgar Chavez
 ---
 The primary example of instance-based learning is the \(k\)-nearest neighbor

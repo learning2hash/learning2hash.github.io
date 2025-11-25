@@ -5,9 +5,9 @@ authors: Changjuan Ran, Yeting Guo, Fang Liu, Shenglan Cui, Yunfan Ye
 conference: 2024 IEEE International Conference on Multimedia and Expo (ICME)
 year: 2024
 bibkey: ran2024fedstyle
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.16336'}]
-tags: ["Datasets", "Self-Supervised", "Tools & Libraries"]
+tags: ["Datasets", "Self-Supervised"]
 short_authors: Ran et al.
 ---
 The unique artistic style is crucial to artists' occupational

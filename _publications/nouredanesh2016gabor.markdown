@@ -5,9 +5,9 @@ authors: Mina Nouredanesh, Hamid R. Tizhoosh, Ershad Banijamali
 conference: 2016 IEEE International Conference on Image Processing (ICIP)
 year: 2016
 bibkey: nouredanesh2016gabor
-citations: 9
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.04478'}]
-tags: ["Datasets", "Image Retrieval", "Robustness", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Robustness"]
 short_authors: Mina Nouredanesh, Hamid R. Tizhoosh, Ershad Banijamali
 ---
 In recent years, advances in medical imaging have led to the emergence of

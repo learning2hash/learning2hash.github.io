@@ -6,10 +6,10 @@ authors: "Holger Schwenk, Vishrav Chaudhary, Shuo Sun, Hongyu Gong, Francisco Gu
 conference: Arxiv
 year: 2019
 bibkey: schwenk2019wikimatrix
-citations: 152
+citations: 67
 additional_links: [{name: Code, url: 'https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix'},
   {name: Paper, url: 'https://arxiv.org/abs/1907.05791'}]
-tags: ["Uncategorized"]
+tags: ["Datasets", "Tools & Libraries"]
 short_authors: Schwenk et al.
 ---
 We present an approach based on multilingual sentence embeddings to

@@ -7,7 +7,7 @@ year: 2022
 bibkey: yu2022federated
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.01803'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Recommender Systems", "Tools & Libraries"]
+tags: ["Efficiency", "Graph Based ANN", "Privacy & Security", "Recommender Systems"]
 short_authors: Tianyi Yu, Pei Lai, Fei Teng
 ---
 Nowadays, user privacy is becoming an issue that cannot be bypassed for

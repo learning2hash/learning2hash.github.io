@@ -7,7 +7,7 @@ year: 2022
 bibkey: engels2022dessert
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.15748'}]
-tags: ["Efficiency", "Evaluation"]
+tags: ["Efficiency", "Large Scale Search", "Similarity Search"]
 short_authors: Engels et al.
 ---
 We study the problem of \(\textit\{vector set search\}\) with \(\textit\{vector set

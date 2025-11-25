@@ -3,13 +3,13 @@ layout: publication
 title: Multi-granularity Representation Learning For Sketch-based Dynamic Face Image
   Retrieval
 authors: Liang Wang, Dawei Dai, Shiyu Fu, Guoyin Wang
-conference: Applied Intelligence
+conference: Arxiv
 year: 2023
 bibkey: wang2023multi
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/ddw2AIGROUP2CQUPT/MGRL'},
   {name: Paper, url: 'https://arxiv.org/abs/2401.00371'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Wang et al.
 ---
 In specific scenarios, face sketch can be used to identify a person. However,

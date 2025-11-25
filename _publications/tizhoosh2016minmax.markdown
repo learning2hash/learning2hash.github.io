@@ -5,7 +5,7 @@ authors: H. R. Tizhoosh, Shujin Zhu, Hanson Lo, Varun Chaudhari, Tahmid Mehdi
 conference: Lecture Notes in Computer Science
 year: 2016
 bibkey: tizhoosh2016minmax
-citations: 39
+citations: 38
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.00318'}]
 tags: ["Datasets", "Image Retrieval"]
 short_authors: Tizhoosh et al.

@@ -7,9 +7,9 @@ conference: 2019 IEEE 21st International Workshop on Multimedia Signal Processin
   (MMSP)
 year: 2019
 bibkey: schall2019deep
-citations: 7
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.09420'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Neural Hashing", "Supervised"]
+tags: ["Distance Metric Learning", "Image Retrieval", "Supervised"]
 short_authors: Schall et al.
 ---
 One of the key challenges of deep learning based image retrieval remains in

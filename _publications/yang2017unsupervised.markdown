@@ -3,10 +3,10 @@ layout: publication
 title: Unsupervised Learning Of Parsimonious General-purpose Embeddings For User And
   Location Modelling
 authors: Jing Yang, Carsten Eickhoff
-conference: ACM Transactions on Information Systems
+conference: Arxiv
 year: 2017
 bibkey: yang2017unsupervised
-citations: 23
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.03507'}]
 tags: ["Recommender Systems", "Robustness", "Unsupervised"]
 short_authors: Jing Yang, Carsten Eickhoff

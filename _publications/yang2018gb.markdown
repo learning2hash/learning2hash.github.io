@@ -2,12 +2,12 @@
 layout: publication
 title: 'GB-KMV: An Augmented KMV Sketch For Approximate Containment Similarity Search'
 authors: Yang Yang, Ying Zhang, Wenjie Zhang, Zengfeng Huang
-conference: 2019 IEEE 35th International Conference on Data Engineering (ICDE)
+conference: Arxiv
 year: 2018
 bibkey: yang2018gb
-citations: 17
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.00458'}]
-tags: ["Datasets", "Locality-Sensitive-Hashing", "Similarity Search", "Tools & Libraries"]
+tags: ["Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Yang et al.
 ---
 In this paper, we study the problem of approximate containment similarity

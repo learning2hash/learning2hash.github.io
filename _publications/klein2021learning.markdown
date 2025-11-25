@@ -2,12 +2,12 @@
 layout: publication
 title: Learning Query Expansion Over The Nearest Neighbor Graph
 authors: Benjamin Klein, Lior Wolf
-conference: Arxiv
+conference: Proceedings of the British Machine Vision Conference 2021
 year: 2021
 bibkey: klein2021learning
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.02666'}]
-tags: ["Image Retrieval", "Supervised"]
+tags: ["Graph Based ANN", "Image Retrieval", "Supervised"]
 short_authors: Benjamin Klein, Lior Wolf
 ---
 Query Expansion (QE) is a well established method for improving retrieval

@@ -6,9 +6,9 @@ authors: Jieming Zhu, Mengqun Jin, Qijiong Liu, Zexuan Qiu, Zhenhua Dong, Xiu Li
 conference: 18th ACM Conference on Recommender Systems
 year: 2024
 bibkey: zhu2024cost
-citations: 4
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.14774'}]
-tags: ["Datasets", "Evaluation", "Quantization", "Recommender Systems"]
+tags: ["Quantization", "Recommender Systems"]
 short_authors: Zhu et al.
 ---
 Embedding-based retrieval serves as a dominant approach to candidate item

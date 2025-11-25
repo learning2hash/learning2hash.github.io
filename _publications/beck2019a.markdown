@@ -4,12 +4,12 @@ title: A Distributed And Approximated Nearest Neighbors Algorithm For An Efficie
   Large Scale Mean Shift Clustering
 authors: "Ga\xEBl Beck, Tarn Duong, Mustapha Lebbah, Hanane Azzag, Christophe C\xE9\
   rin"
-conference: Journal of Parallel and Distributed Computing
+conference: Arxiv
 year: 2019
 bibkey: beck2019a
-citations: 29
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.03833'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Unsupervised"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Unsupervised"]
 short_authors: Beck et al.
 ---
 In this paper we target the class of modal clustering methods where clusters

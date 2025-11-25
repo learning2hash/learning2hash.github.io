@@ -5,9 +5,9 @@ authors: Kfir Bar, Nachum Dershowitz, Lena Dankin
 conference: Arxiv
 year: 2020
 bibkey: bar2020metaphor
-citations: 4
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.02665'}]
-tags: ["Uncategorized"]
+tags: ["Evaluation", "Unsupervised"]
 short_authors: Kfir Bar, Nachum Dershowitz, Lena Dankin
 ---
 We suggest a model for metaphor interpretation using word embeddings trained

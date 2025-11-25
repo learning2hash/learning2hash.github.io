@@ -6,9 +6,9 @@ authors: Pinaki Nath Chowdhury, Aneeshan Sain, Ayan Kumar Bhunia, Tao Xiang, Yul
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: chowdhury2022fs
-citations: 39
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.02113'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Chowdhury et al.
 ---
 We advance sketch research to scenes with the first dataset of freehand scene

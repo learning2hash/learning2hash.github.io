@@ -7,7 +7,7 @@ year: 2020
 bibkey: weng2020random
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.02333'}]
-tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Scalability"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
 short_authors: Weng et al.
 ---
 Image hash algorithms generate compact binary representations that can be

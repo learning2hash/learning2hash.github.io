@@ -3,14 +3,12 @@ layout: publication
 title: 'Semstamp: A Semantic Watermark With Paraphrastic Robustness For Text Generation'
 authors: Abe Bohan Hou, Jingyu Zhang, Tianxing He, Yichen Wang, Yung-Sung Chuang,
   Hongwei Wang, Lingfeng Shen, Benjamin van Durme, Daniel Khashabi, Yulia Tsvetkov
-conference: 'Proceedings of the 2024 Conference of the North American Chapter of the
-  Association for Computational Linguistics: Human Language Technologies (Volume 1:
-  Long Papers)'
+conference: Arxiv
 year: 2023
 bibkey: hou2023semstamp
-citations: 10
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.03991'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "NAACL", "Robustness"]
+tags: ["Locality-Sensitive-Hashing", "Robustness"]
 short_authors: Hou et al.
 ---
 Existing watermarking algorithms are vulnerable to paraphrase attacks because

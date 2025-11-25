@@ -5,9 +5,9 @@ authors: Hadi Abdi Khojasteh, Ebrahim Ansari, Parvin Razzaghi, Akbar Karimi
 conference: Arxiv
 year: 2020
 bibkey: khojasteh2020deep
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.10016'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
+tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Khojasteh et al.
 ---
 This paper considers the task of matching images and sentences by learning a

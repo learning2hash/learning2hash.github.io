@@ -8,7 +8,7 @@ year: 2022
 bibkey: xing2022multimorbidity
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.12185'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Image Retrieval"]
 short_authors: Xing et al.
 ---
 Content-based medical image retrieval is an important diagnostic tool that

@@ -8,9 +8,9 @@ conference: Proceedings of the 2020 Conference on Empirical Methods in Natural L
   Processing (EMNLP)
 year: 2020
 bibkey: zhang2020discriminative
-citations: 61
+citations: 65
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.13009'}]
-tags: ["EMNLP", "Few Shot & Zero Shot", "Scalability"]
+tags: ["EMNLP", "Few Shot & Zero Shot"]
 short_authors: Zhang et al.
 ---
 Intent detection is one of the core components of goal-oriented dialog

@@ -6,9 +6,9 @@ authors: Kenan E. Ak, Joo Hwee Lim, Ying Sun, Jo Yew Tham, Ashraf A. Kassim
 conference: Arxiv
 year: 2021
 bibkey: ak2021fashionsearchnet
-citations: 4
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.14145'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Supervised"]
+tags: ["Distance Metric Learning", "Image Retrieval", "Supervised"]
 short_authors: Ak et al.
 ---
 The focus of this paper is on the problem of image retrieval with attribute

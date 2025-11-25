@@ -8,7 +8,7 @@ year: 2025
 bibkey: pound2025micronn
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.05573'}]
-tags: ["Evaluation", "Similarity Search", "Tools & Libraries", "Vector Indexing"]
+tags: ["Large Scale Search", "Scalability", "Similarity Search", "Tools & Libraries", "Vector Indexing"]
 short_authors: Pound et al.
 ---
 Nearest neighbour search over dense vector collections has important

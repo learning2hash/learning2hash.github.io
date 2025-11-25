@@ -2,12 +2,12 @@
 layout: publication
 title: Efficient Neural Ranking Using Forward Indexes
 authors: Jurek Leonhardt, Koustav Rudra, Megha Khosla, Abhijit Anand, Avishek Anand
-conference: 'WWW ''22: The ACM Web Conference 2022'
+conference: Proceedings of the ACM Web Conference 2022
 year: 2021
 bibkey: leonhardt2021efficient
-citations: 13
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.06051'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hybrid ANN Methods", "Scalability"]
+tags: ["Efficiency", "Hybrid ANN Methods", "Scalability"]
 short_authors: Leonhardt et al.
 ---
 Neural document ranking approaches, specifically transformer models, have

@@ -8,10 +8,10 @@ conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2021
 bibkey: scribano2021all
-citations: 7
+citations: 8
 additional_links: [{name: Code, url: 'https://github.com/cscribano/AYCE_2021'}, {
     name: Paper, url: 'https://arxiv.org/abs/2106.10153'}]
-tags: ["CVPR"]
+tags: ["CVPR", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Scribano et al.
 ---
 Combining Natural Language with Vision represents a unique and interesting

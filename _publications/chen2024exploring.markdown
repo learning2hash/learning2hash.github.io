@@ -6,9 +6,9 @@ authors: Zhonghan Chen, Ruiyuan Zhang, Xi Zhao, Xiaojun Cheng, Xiaofang Zhou
 conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: chen2024exploring
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.05752'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Multimodal Retrieval", "Similarity Search"]
 short_authors: Chen et al.
 ---
 Dense high dimensional vectors are becoming increasingly vital in fields such

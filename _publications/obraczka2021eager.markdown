@@ -5,7 +5,7 @@ authors: Daniel Obraczka, Jonathan Schuchart, Erhard Rahm
 conference: Arxiv
 year: 2021
 bibkey: obraczka2021eager
-citations: 6
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.06126'}]
 tags: ["Datasets", "Evaluation", "Supervised"]
 short_authors: Daniel Obraczka, Jonathan Schuchart, Erhard Rahm

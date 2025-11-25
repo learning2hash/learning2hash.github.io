@@ -6,9 +6,9 @@ conference: 2016 IEEE/RSJ International Conference on Intelligent Robots and Sys
   (IROS)
 year: 2016
 bibkey: kanji2016self
-citations: 20
+citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.00993'}]
-tags: ["Distance Metric Learning", "Evaluation", "IROS", "Tools & Libraries"]
+tags: ["Distance Metric Learning", "Evaluation", "IROS"]
 short_authors: Tanaka Kanji
 ---
 With the recent success of visual features from deep convolutional neural

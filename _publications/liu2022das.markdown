@@ -6,9 +6,9 @@ authors: Lizhao Liu, Shangxin Huang, Zhuangwei Zhuang, Ran Yang, Mingkui Tan, Ya
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: liu2022das
-citations: 13
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.00119'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Image Retrieval"]
 short_authors: Liu et al.
 ---
 Deep Metric Learning (DML) serves to learn an embedding function to project

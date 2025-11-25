@@ -3,12 +3,12 @@ layout: publication
 title: 'Expand-and-quantize: Unsupervised Semantic Segmentation Using High-dimensional
   Space And Product Quantization'
 authors: Jiyoung Kim, Kyuhong Shim, Insu Lee, Byonghyo Shim
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2023
 bibkey: kim2023expand
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.07342'}]
-tags: ["AAAI", "Quantization", "Tools & Libraries", "Unsupervised"]
+tags: ["Quantization", "Unsupervised"]
 short_authors: Kim et al.
 ---
 Unsupervised semantic segmentation (USS) aims to discover and recognize

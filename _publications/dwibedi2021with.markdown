@@ -7,9 +7,9 @@ authors: Debidatta Dwibedi, Yusuf Aytar, Jonathan Tompson, Pierre Sermanet, Andr
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: dwibedi2021with
-citations: 302
+citations: 351
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.14548'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "ICCV", "Self-Supervised", "Supervised"]
+tags: ["ICCV", "Self-Supervised"]
 short_authors: Dwibedi et al.
 ---
 Self-supervised learning algorithms based on instance discrimination train

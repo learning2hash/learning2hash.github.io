@@ -5,10 +5,10 @@ authors: Borui Zhang, Wenzhao Zheng, Jie Zhou, Jiwen Lu
 conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2022
 bibkey: zhang2022attributable
-citations: 12
+citations: 13
 additional_links: [{name: Code, url: 'https://github.com/zbr17/AVSL'}, {name: Paper,
     url: 'https://arxiv.org/abs/2203.14932'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Tools & Libraries"]
+tags: ["CVPR", "Distance Metric Learning", "Image Retrieval", "Similarity Search"]
 short_authors: Zhang et al.
 ---
 This paper proposes an attributable visual similarity learning (AVSL)

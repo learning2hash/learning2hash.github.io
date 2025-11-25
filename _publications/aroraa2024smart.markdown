@@ -7,9 +7,9 @@ authors: Cherag Aroraa, Tracy Holloway King, Jayant Kumar, Yi Lu, Sanat Sharma, 
 conference: Arxiv
 year: 2024
 bibkey: aroraa2024smart
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.14698'}]
-tags: ["Uncategorized"]
+tags: ["Image Retrieval", "Large Scale Search", "Multimodal Retrieval"]
 short_authors: Aroraa et al.
 ---
 As user content and queries become increasingly multi-modal, the need for

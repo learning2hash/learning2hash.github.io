@@ -4,13 +4,13 @@ title: Keyword-based Diverse Image Retrieval By Semantics-aware Contrastive Lear
   And Transformer
 authors: Minyi Zhao, Jinpeng Wang, Dongliang Liao, Yiru Wang, Huanzhong Duan, Shuigeng
   Zhou
-conference: Proceedings of the 46th International ACM SIGIR Conference on Research
-  and Development in Information Retrieval
+conference: 'SIGIR ''23: The 46th International ACM SIGIR Conference on Research and
+  Development in Information Retrieval'
 year: 2023
 bibkey: zhao2023keyword
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.04072'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Re-Ranking", "SIGIR", "Self-Supervised"]
+tags: ["Image Retrieval", "SIGIR", "Self-Supervised"]
 short_authors: Zhao et al.
 ---
 In addition to relevance, diversity is an important yet less studied

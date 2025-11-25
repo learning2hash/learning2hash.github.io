@@ -6,9 +6,9 @@ authors: Md Shaikh Rahman, Syed Maudud E Rabbi, Muhammad Mahbubur Rashid
 conference: Arxiv
 year: 2024
 bibkey: rahman2024optimizing
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.01555'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Memory Efficiency", "Neural Hashing", "Quantization", "Tools & Libraries", "Vector Indexing"]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Memory Efficiency", "Quantization"]
 short_authors: Md Shaikh Rahman, Syed Maudud E Rabbi, Muhammad Mahbubur Rashid
 ---
 Approximate Nearest Neighbor search is one of the keys to high-scale data

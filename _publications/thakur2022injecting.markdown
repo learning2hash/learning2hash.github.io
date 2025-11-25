@@ -9,7 +9,7 @@ bibkey: thakur2022injecting
 citations: 6
 additional_links: [{name: Code, url: 'https://github.com/thakur-nandan/income'}, {
     name: Paper, url: 'https://arxiv.org/abs/2205.11498'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Few Shot & Zero Shot", "Memory Efficiency", "Quantization", "Supervised", "Unsupervised"]
+tags: ["Efficiency", "Few Shot & Zero Shot", "Memory Efficiency", "Supervised"]
 short_authors: Nandan Thakur, Nils Reimers, Jimmy Lin
 ---
 Dense retrieval overcome the lexical gap and has shown great success in

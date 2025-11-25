@@ -2,12 +2,12 @@
 layout: publication
 title: Confirmation Sampling For Exact Nearest Neighbor Search
 authors: Tobias Christiani, Rasmus Pagh, Mikkel Thorup
-conference: Arxiv
+conference: Lecture Notes in Computer Science
 year: 2018
 bibkey: christiani2018confirmation
-citations: 6
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.02603'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Tobias Christiani, Rasmus Pagh, Mikkel Thorup
 ---
 Locality-sensitive hashing (LSH), introduced by Indyk and Motwani in STOC

@@ -6,9 +6,9 @@ authors: Qinghong Lin, Xiaojun Chen, Qin Zhang, Shaotian Cai, Wenzhe Zhao, Hongf
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2022
 bibkey: lin2022deep
-citations: 17
+citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.09420'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Hashing Methods", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["AAAI", "Hashing Methods", "Image Retrieval", "Unsupervised"]
 short_authors: Lin et al.
 ---
 Deep unsupervised hashing has been appreciated in the regime of image

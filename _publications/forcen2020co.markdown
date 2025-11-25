@@ -5,7 +5,7 @@ authors: J. I. Forcen, Miguel Pagola, Edurne Barrenechea, Humberto Bustince
 conference: Image and Vision Computing
 year: 2020
 bibkey: forcen2020co
-citations: 19
+citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.13827'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Forcen et al.

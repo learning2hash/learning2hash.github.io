@@ -6,9 +6,9 @@ authors: "Felipe Ortega, Maria Jesus Algar, Isaac Mart\xEDn de Diego, Javier M. 
 conference: Information Sciences
 year: 2022
 bibkey: ortega2022unconventional
-citations: 5
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.02734'}]
-tags: ["Datasets", "Similarity Search", "Vector Indexing"]
+tags: ["Similarity Search", "Vector Indexing"]
 short_authors: Ortega et al.
 ---
 Similarity search based on a distance function in metric spaces is a

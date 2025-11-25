@@ -6,10 +6,10 @@ authors: Sanghyuk Chun, Seong Joon Oh, Rafael Sampaio de Rezende, Yannis Kalanti
 conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2021
 bibkey: chun2021probabilistic
-citations: 172
+citations: 203
 additional_links: [{name: Code, url: 'https://github.com/naver-ai/pcme'}, {name: Paper,
     url: 'https://arxiv.org/abs/2101.05068'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Multimodal Retrieval"]
+tags: ["CVPR", "Datasets", "Multimodal Retrieval"]
 short_authors: Chun et al.
 ---
 Cross-modal retrieval methods build a common representation space for samples

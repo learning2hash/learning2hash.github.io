@@ -5,7 +5,7 @@ authors: Chinnadhurai Sankar, Sujith Ravi, Zornitsa Kozareva
 conference: Proceedings of the 2019 Conference of the North
 year: 2019
 bibkey: sankar2019transferable
-citations: 7
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.01605'}]
 tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Memory Efficiency", "Unsupervised"]
 short_authors: Chinnadhurai Sankar, Sujith Ravi, Zornitsa Kozareva

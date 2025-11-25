@@ -5,9 +5,9 @@ authors: Noa Garcia, George Vogiatzis
 conference: Image and Vision Computing
 year: 2017
 bibkey: garcia2017learning
-citations: 34
+citations: 43
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.01353'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Noa Garcia, George Vogiatzis
 ---
 Measuring visual similarity between two or more instances within a data

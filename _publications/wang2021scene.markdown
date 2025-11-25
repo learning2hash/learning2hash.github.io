@@ -5,10 +5,10 @@ authors: Hao Wang, Xiang Bai, Mingkun Yang, Shenggao Zhu, Jing Wang, Wenyu Liu
 conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2021
 bibkey: wang2021scene
-citations: 41
+citations: 43
 additional_links: [{name: Code, url: 'https://github.com/lanfeng4659/STR-TDSL'}, {
     name: Paper, url: 'https://arxiv.org/abs/2104.01552'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Text Retrieval", "Tools & Libraries"]
+tags: ["CVPR", "Text Retrieval"]
 short_authors: Wang et al.
 ---
 Scene text retrieval aims to localize and search all text instances from an

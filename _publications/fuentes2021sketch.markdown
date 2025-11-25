@@ -6,9 +6,9 @@ conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2021
 bibkey: fuentes2021sketch
-citations: 14
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.11130'}]
-tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Similarity Search"]
+tags: ["Distance Metric Learning", "Image Retrieval", "Similarity Search"]
 short_authors: Anibal Fuentes, Jose M. Saavedra
 ---
 Architectures based on siamese networks with triplet loss have shown

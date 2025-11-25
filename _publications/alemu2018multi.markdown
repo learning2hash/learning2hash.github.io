@@ -5,9 +5,9 @@ authors: Leulseged Tesfaye Alemu, Marcello Pelillo
 conference: Image and Vision Computing
 year: 2018
 bibkey: alemu2018multi
-citations: 11
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.05075'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Unsupervised"]
+tags: ["Evaluation", "Image Retrieval", "Unsupervised"]
 short_authors: Leulseged Tesfaye Alemu, Marcello Pelillo
 ---
 Aggregating different image features for image retrieval has recently shown

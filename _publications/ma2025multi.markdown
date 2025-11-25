@@ -5,9 +5,9 @@ authors: Zehong Ma, Hao Chen, Wei Zeng, Limin Su, Shiliang Zhang
 conference: IEEE Transactions on Multimedia
 year: 2025
 bibkey: ma2025multi
-citations: 1
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.07718'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Tools & Libraries"]
+tags: ["Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Ma et al.
 ---
 Fine-grained text-to-image retrieval aims to retrieve a fine-grained target

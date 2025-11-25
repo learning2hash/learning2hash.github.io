@@ -4,12 +4,12 @@ title: 'Recipe1m+: A Dataset For Learning Cross-modal Embeddings For Cooking Rec
   And Food Images'
 authors: Javier Marin, Aritro Biswas, Ferda Ofli, Nicholas Hynes, Amaia Salvador,
   Yusuf Aytar, Ingmar Weber, Antonio Torralba
-conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
+conference: Arxiv
 year: 2018
 bibkey: marin2018recipe1m
-citations: 175
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.06553'}]
-tags: ["Datasets", "Evaluation", "Scalability"]
+tags: ["Datasets", "Multimodal Retrieval"]
 short_authors: Marin et al.
 ---
 In this paper, we introduce Recipe1M+, a new large-scale, structured corpus

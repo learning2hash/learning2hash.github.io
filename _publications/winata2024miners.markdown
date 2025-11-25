@@ -5,9 +5,9 @@ authors: Genta Indra Winata, Ruochen Zhang, David Ifeoluwa Adelani
 conference: 'Findings of the Association for Computational Linguistics: EMNLP 2024'
 year: 2024
 bibkey: winata2024miners
-citations: 0
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.07424'}]
-tags: ["EMNLP", "Evaluation", "Robustness", "Tools & Libraries"]
+tags: ["EMNLP", "Evaluation", "Robustness"]
 short_authors: Genta Indra Winata, Ruochen Zhang, David Ifeoluwa Adelani
 ---
 Words have been represented in a high-dimensional vector space that encodes

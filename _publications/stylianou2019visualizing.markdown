@@ -5,9 +5,9 @@ authors: Abby Stylianou, Richard Souvenir, Robert Pless
 conference: 2019 IEEE Winter Conference on Applications of Computer Vision (WACV)
 year: 2019
 bibkey: stylianou2019visualizing
-citations: 46
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.00536'}]
-tags: ["Similarity Search"]
+tags: ["Image Retrieval", "Similarity Search"]
 short_authors: Abby Stylianou, Richard Souvenir, Robert Pless
 ---
 For convolutional neural network models that optimize an image embedding, we

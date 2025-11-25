@@ -4,10 +4,10 @@ title: 'Better Generalization With Semantic Ids: A Case Study In Ranking For Rec
 authors: Anima Singh, Trung Vu, Nikhil Mehta, Raghunandan Keshavan, Maheswaran Sathiamoorthy,
   Yilin Zheng, Lichan Hong, Lukasz Heldt, Li Wei, Devansh Tandon, Ed H. Chi, Xinyang
   Yi
-conference: 'RecSys ''24: 18th ACM Conference on Recommender Systems'
+conference: Arxiv
 year: 2023
 bibkey: singh2023better
-citations: 15
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.08121'}]
 tags: ["Hashing Methods", "Recommender Systems"]
 short_authors: Singh et al.

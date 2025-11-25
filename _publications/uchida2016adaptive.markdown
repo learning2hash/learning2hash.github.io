@@ -3,10 +3,10 @@ layout: publication
 title: Adaptive Substring Extraction And Modified Local NBNN Scoring For Binary Feature-based
   Local Mobile Visual Search Without False Positives
 authors: Yusuke Uchida, Shigeyuki Sakazawa, Shin'Ichi Satoh
-conference: ITE Transactions on Media Technology and Applications
+conference: Arxiv
 year: 2016
 bibkey: uchida2016adaptive
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.06266'}]
 tags: ["Image Retrieval", "Tools & Libraries"]
 short_authors: Yusuke Uchida, Shigeyuki Sakazawa, Shin'Ichi Satoh

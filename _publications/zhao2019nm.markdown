@@ -5,9 +5,9 @@ authors: Chen Zhao, Zhiguo Cao, Chi Li, Xin Li, Jiaqi Yang
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: zhao2019nm
-citations: 117
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.00320'}]
-tags: ["CVPR", "Datasets", "Evaluation"]
+tags: ["CVPR", "Datasets", "Evaluation", "Robustness"]
 short_authors: Zhao et al.
 ---
 Feature correspondence selection is pivotal to many feature-matching based

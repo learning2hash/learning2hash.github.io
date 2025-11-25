@@ -5,9 +5,9 @@ authors: Anastasiya Mishchuk, Dmytro Mishkin, Filip Radenovic, Jiri Matas
 conference: Arxiv
 year: 2017
 bibkey: mishchuk2017working
-citations: 268
+citations: 297
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.10872'}]
-tags: ["Evaluation"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Mishchuk et al.
 ---
 We introduce a novel loss for learning local feature descriptors which is

@@ -7,7 +7,7 @@ year: 2019
 bibkey: schlemper2019deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.03876'}]
-tags: ["Evaluation", "Hashing Methods", "Neural Hashing", "Scalability", "Similarity Search"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Neural Hashing", "Quantization", "Similarity Search"]
 short_authors: Schlemper et al.
 ---
 In large scale systems, approximate nearest neighbour search is a crucial

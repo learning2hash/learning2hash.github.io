@@ -5,9 +5,9 @@ authors: Bei Liu, Tieyun Qian, Bing Liu, Liang Hong, Zhenni You, Yuxiang Li
 conference: Arxiv
 year: 2017
 bibkey: liu2017learning
-citations: 4
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.08853'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "Robustness"]
+tags: ["Recommender Systems", "Robustness"]
 short_authors: Liu et al.
 ---
 The wide spread of location-based social networks brings about a huge volume

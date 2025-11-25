@@ -1,0 +1,28 @@
+---
+layout: publication
+title: 'MAIR: A Massive Benchmark For Evaluating Instructed Retrieval'
+authors: Weiwei Sun, Zhengliang Shi, Jiulong Wu, Lingyong Yan, Xinyu Ma, Yiding Liu,
+  Min Cao, Dawei Yin, Zhaochun Ren
+conference: Arxiv
+year: 2024
+bibkey: sun2024mair
+citations: 1
+additional_links: [{name: Code, url: 'https://github.com/sunnweiwei/Mair'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2410.10127'}]
+tags: ["Datasets", "Evaluation", "Re-Ranking"]
+short_authors: Sun et al.
+---
+Recent information retrieval (IR) models are pre-trained and
+instruction-tuned on massive datasets and tasks, enabling them to perform well
+on a wide range of tasks and potentially generalize to unseen tasks with
+instructions. However, existing IR benchmarks focus on a limited scope of
+tasks, making them insufficient for evaluating the latest IR models. In this
+paper, we propose MAIR (Massive Instructed Retrieval Benchmark), a
+heterogeneous IR benchmark that includes 126 distinct IR tasks across 6
+domains, collected from existing datasets. We benchmark state-of-the-art
+instruction-tuned text embedding models and re-ranking models. Our experiments
+reveal that instruction-tuned models generally achieve superior performance
+compared to non-instruction-tuned models on MAIR. Additionally, our results
+suggest that current instruction-tuned text embedding models and re-ranking
+models still lack effectiveness in specific long-tail tasks. MAIR is publicly
+available at https://github.com/sunnweiwei/Mair.

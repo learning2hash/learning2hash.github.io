@@ -7,7 +7,7 @@ year: 2017
 bibkey: xu2017non
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.08426'}]
-tags: ["Datasets", "Efficiency", "Graph Based ANN", "Hashing Methods", "Locality-Sensitive-Hashing", "Supervised"]
+tags: ["Efficiency", "Graph Based ANN", "Locality-Sensitive-Hashing"]
 short_authors: Ji Xu, Guoyin Wang
 ---
 Graph based semi-supervised learning (GSSL) has intuitive representation and

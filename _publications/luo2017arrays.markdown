@@ -6,9 +6,9 @@ authors: Chen Luo, Anshumali Shrivastava
 conference: Arxiv
 year: 2017
 bibkey: luo2017arrays
-citations: 5
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.06664'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Unsupervised"]
+tags: ["Locality-Sensitive-Hashing", "Scalability", "Unsupervised"]
 short_authors: Chen Luo, Anshumali Shrivastava
 ---
 Anomaly detection is one of the frequent and important subroutines deployed

@@ -6,7 +6,7 @@ authors: Arun Reddy, Alexander Martin, Eugene Yang, Andrew Yates, Kate Sanders, 
 conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2025
 bibkey: reddy2025video
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.19009'}]
 tags: ["CVPR", "Evaluation", "Video Retrieval"]
 short_authors: Reddy et al.

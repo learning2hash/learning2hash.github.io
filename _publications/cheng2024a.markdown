@@ -6,9 +6,9 @@ authors: Zifeng Cheng, Zhiwei Jiang, Yafeng Yin, Zhaoling Chen, Cong Wang, Shipi
 conference: Arxiv
 year: 2024
 bibkey: cheng2024a
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.03202'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Self-Supervised"]
 short_authors: Cheng et al.
 ---
 Multi-Label Text Classification (MLTC) is a practical yet challenging task

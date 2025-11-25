@@ -2,13 +2,12 @@
 layout: publication
 title: Precise Zero-shot Dense Retrieval Without Relevance Labels
 authors: Luyu Gao, Xueguang Ma, Jimmy Lin, Jamie Callan
-conference: 'Proceedings of the 61st Annual Meeting of the Association for Computational
-  Linguistics (Volume 1: Long Papers)'
+conference: Arxiv
 year: 2022
 bibkey: gao2022precise
-citations: 128
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.10496'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Unsupervised"]
+tags: ["Few Shot & Zero Shot", "Unsupervised"]
 short_authors: Gao et al.
 ---
 While dense retrieval has been shown effective and efficient across tasks and

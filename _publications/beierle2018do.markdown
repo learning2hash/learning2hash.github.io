@@ -8,9 +8,9 @@ conference: 2018 17th IEEE International Conference On Trust, Security And Priva
   Science And Engineering (TrustCom/BigDataSE)
 year: 2018
 bibkey: beierle2018do
-citations: 8
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.07651'}]
-tags: ["Evaluation", "Hashing Methods"]
+tags: ["Hashing Methods", "Privacy & Security", "Similarity Search"]
 short_authors: Felix Beierle
 ---
 While existing social networking services tend to connect people who know

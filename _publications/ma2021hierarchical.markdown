@@ -6,10 +6,10 @@ conference: ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speec
   and Signal Processing (ICASSP)
 year: 2021
 bibkey: ma2021hierarchical
-citations: 4
+citations: 5
 additional_links: [{name: Code, url: 'https://github.com/liufh1/hsl'}, {name: Paper,
     url: 'https://arxiv.org/abs/2102.09375'}]
-tags: ["Datasets", "ICASSP", "Image Retrieval", "Scalability"]
+tags: ["ICASSP", "Image Retrieval"]
 short_authors: Ma et al.
 ---
 This paper aims for the language-based product image retrieval task. The

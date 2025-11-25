@@ -5,9 +5,9 @@ authors: "Andre Esser, Robert K\xFCbler, Floyd Zweydinger"
 conference: Arxiv
 year: 2021
 bibkey: esser2021a
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.02597'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods"]
+tags: ["Evaluation", "Locality-Sensitive-Hashing"]
 short_authors: "Andre Esser, Robert K\xFCbler, Floyd Zweydinger"
 ---
 We study the Closest Pair Problem in Hamming metric, which asks to find the

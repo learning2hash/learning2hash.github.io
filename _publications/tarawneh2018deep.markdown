@@ -7,9 +7,9 @@ conference: 2019 10th International Conference on Information and Communication 
   (ICICS)
 year: 2018
 bibkey: tarawneh2018deep
-citations: 27
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.05490'}]
-tags: ["Datasets", "Image Retrieval", "Neural Hashing", "Survey Paper"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Tarawneh et al.
 ---
 Facial image retrieval is a challenging task since faces have many similar

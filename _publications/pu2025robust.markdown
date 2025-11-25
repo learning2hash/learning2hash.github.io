@@ -3,12 +3,12 @@ layout: publication
 title: Robust Self-paced Hashing For Cross-modal Retrieval With Noisy Labels
 authors: Ruitao Pu, Yuan Sun, Yang Qin, Zhenwen Ren, Xiaomin Song, Huiming Zheng,
   Dezhong Peng
-conference: Arxiv
+conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2025
 bibkey: pu2025robust
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.01699'}]
-tags: ["Efficiency", "Hashing Methods", "Memory Efficiency", "Multimodal Retrieval", "Robustness", "Scalability"]
+tags: ["AAAI", "Hashing Methods", "Multimodal Retrieval", "Robustness"]
 short_authors: Pu et al.
 ---
 Cross-modal hashing (CMH) has appeared as a popular technique for cross-modal

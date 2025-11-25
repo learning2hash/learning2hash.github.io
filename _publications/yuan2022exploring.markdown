@@ -7,9 +7,9 @@ authors: Zhiqiang Yuan, Wenkai Zhang, Kun Fu, Xuan Li, Chubo Deng, Hongqi Wang, 
 conference: IEEE Transactions on Geoscience and Remote Sensing
 year: 2022
 bibkey: yuan2022exploring
-citations: 137
+citations: 173
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.09868'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Yuan et al.
 ---
 Remote sensing (RS) cross-modal text-image retrieval has attracted extensive

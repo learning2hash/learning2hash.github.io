@@ -6,9 +6,9 @@ authors: Benyi Hu, Ren-Jie Song, Xiu-Shen Wei, Yazhou Yao, Xian-Sheng Hua, Yuehu
 conference: Proceedings of the 28th ACM International Conference on Multimedia
 year: 2020
 bibkey: hu2020pyretri
-citations: 18
+citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.02154'}]
-tags: ["Image Retrieval", "Neural Hashing", "Tools & Libraries", "Unsupervised"]
+tags: ["Image Retrieval", "Tools & Libraries", "Unsupervised"]
 short_authors: Hu et al.
 ---
 Despite significant progress of applying deep learning methods to the field

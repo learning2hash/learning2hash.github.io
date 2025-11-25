@@ -5,10 +5,10 @@ authors: Haonan Li, Martin Tomko, Timothy Baldwin
 conference: Arxiv
 year: 2024
 bibkey: li2024location
-citations: 0
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/haonan-li/LAMB'}, {name: Paper,
     url: 'https://arxiv.org/abs/2401.02187'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Recommender Systems"]
 short_authors: Haonan Li, Martin Tomko, Timothy Baldwin
 ---
 Answering real-world tourism questions that seek Point-of-Interest (POI)

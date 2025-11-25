@@ -3,12 +3,12 @@ layout: publication
 title: Transformer-empowered Multi-modal Item Embedding For Enhanced Image Search
   In E-commerce
 authors: Chang Liu, Peng Hou, Anxiang Zeng, Han Yu
-conference: Arxiv
+conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2023
 bibkey: liu2023transformer
-citations: 0
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.17954'}]
-tags: ["Image Retrieval"]
+tags: ["AAAI", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Liu et al.
 ---
 Over the past decade, significant advances have been made in the field of

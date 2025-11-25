@@ -5,9 +5,9 @@ authors: Hamid R. Tizhoosh, Christopher Mitcheltree, Shujin Zhu, Shamak Dutta
 conference: 2016 23rd International Conference on Pattern Recognition (ICPR)
 year: 2016
 bibkey: tizhoosh2016barcodes
-citations: 16
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.05112'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Tizhoosh et al.
 ---
 Using content-based binary codes to tag digital images has emerged as a

@@ -5,9 +5,9 @@ authors: Icaro Cavalcante Dourado, Ricardo da Silva Torres
 conference: Arxiv
 year: 2019
 bibkey: dourado2019fusion
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.06011'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Unsupervised"]
+tags: ["Efficiency", "Graph Based ANN", "Unsupervised"]
 short_authors: Icaro Cavalcante Dourado, Ricardo da Silva Torres
 ---
 The vast increase in amount and complexity of digital content led to a wide

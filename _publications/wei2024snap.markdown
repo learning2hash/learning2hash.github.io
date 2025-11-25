@@ -3,7 +3,7 @@ layout: publication
 title: 'Snap And Diagnose: An Advanced Multimodal Retrieval System For Identifying
   Plant Diseases In The Wild'
 authors: Tianqi Wei, Zhi Chen, Xin Yu
-conference: Arxiv
+conference: Proceedings of the 6th ACM International Conference on Multimedia in Asia
 year: 2024
 bibkey: wei2024snap
 citations: 0

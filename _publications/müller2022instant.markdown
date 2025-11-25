@@ -5,9 +5,9 @@ authors: "Thomas M\xFCller, Alex Evans, Christoph Schied, Alexander Keller"
 conference: ACM Transactions on Graphics
 year: 2022
 bibkey: "m\xFCller2022instant"
-citations: 2196
+citations: 3023
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.05989'}]
-tags: ["Efficiency"]
+tags: ["Efficiency", "Memory Efficiency", "Neural Hashing"]
 short_authors: "M\xFCller et al."
 ---
 Neural graphics primitives, parameterized by fully connected neural networks,

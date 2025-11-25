@@ -6,9 +6,9 @@ authors: Peng Xu, Yongye Huang, Tongtong Yuan, Tao Xiang, Timothy M. Hospedales,
 conference: Arxiv
 year: 2020
 bibkey: xu2020on
-citations: 4
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.04101'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods", "Neural Hashing", "Scalability", "Tools & Libraries"]
+tags: ["Few Shot & Zero Shot", "Hashing Methods", "Large Scale Search", "Neural Hashing", "Scalability"]
 short_authors: Xu et al.
 ---
 In this paper, we study learning semantic representations for million-scale

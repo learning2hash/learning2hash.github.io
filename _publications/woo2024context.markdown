@@ -7,7 +7,7 @@ year: 2024
 bibkey: woo2024context
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.19341'}]
-tags: ["Datasets", "Few Shot & Zero Shot"]
+tags: ["Few Shot & Zero Shot", "Image Retrieval", "Robustness"]
 short_authors: Soojin Woo, Seong-Woo Kim
 ---
 In vision-based robot localization and SLAM, Visual Place Recognition (VPR)

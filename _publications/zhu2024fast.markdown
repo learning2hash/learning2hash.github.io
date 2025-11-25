@@ -8,7 +8,7 @@ bibkey: zhu2024fast
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/RichardZhu123/ferns\'}, {
     name: Paper, url: 'https://arxiv.org/abs/2405.04435'}]
-tags: ["Evaluation", "Tree Based ANN"]
+tags: ["Evaluation", "Large Scale Search", "Similarity Search", "Tree Based ANN", "Vector Indexing"]
 short_authors: Richard Zhu
 ---
 Exact nearest neighbor search is a computationally intensive process, and

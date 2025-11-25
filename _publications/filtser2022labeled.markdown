@@ -6,9 +6,9 @@ authors: Arnold Filtser
 conference: Arxiv
 year: 2022
 bibkey: filtser2022labeled
-citations: 1
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.11846'}]
-tags: ["Uncategorized"]
+tags: ["Distance Metric Learning", "Efficiency", "Graph Based ANN", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Arnold Filtser
 ---
 Chan, Har-Peled, and Jones [SICOMP 2020] developed locality-sensitive

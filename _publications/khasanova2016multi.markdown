@@ -7,7 +7,7 @@ year: 2016
 bibkey: khasanova2016multi
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.03406'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Renata Khasanova, Xiaowen Dong, Pascal Frossard
 ---
 The analysis of large collections of image data is still a challenging

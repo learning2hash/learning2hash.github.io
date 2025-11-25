@@ -6,9 +6,9 @@ authors: "Artem Lutov, Dingqi Yang, Philippe Cudr\xE9-Mauroux"
 conference: 2019 IEEE International Conference on Big Data (Big Data)
 year: 2019
 bibkey: lutov2019bridging
-citations: 7
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.08808'}]
-tags: ["Distance Metric Learning"]
+tags: ["Distance Metric Learning", "Graph Based ANN"]
 short_authors: "Artem Lutov, Dingqi Yang, Philippe Cudr\xE9-Mauroux"
 ---
 Graph embedding has become a key component of many data mining and analysis

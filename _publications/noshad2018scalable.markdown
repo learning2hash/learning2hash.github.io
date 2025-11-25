@@ -2,12 +2,12 @@
 layout: publication
 title: Scalable Hash-based Estimation Of Divergence Measures
 authors: Morteza Noshad, Alfred O. Hero
-conference: Arxiv
+conference: 2018 Information Theory and Applications Workshop (ITA)
 year: 2018
 bibkey: noshad2018scalable
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.00398'}]
-tags: ["Hashing Methods"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
 short_authors: Morteza Noshad, Alfred O. Hero
 ---
 We propose a scalable divergence estimation method based on hashing. Consider

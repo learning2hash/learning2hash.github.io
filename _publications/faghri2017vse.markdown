@@ -5,9 +5,9 @@ authors: Fartash Faghri, David J. Fleet, Jamie Ryan Kiros, Sanja Fidler
 conference: Arxiv
 year: 2017
 bibkey: faghri2017vse
-citations: 564
+citations: 578
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.05612'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Faghri et al.
 ---
 We present a new technique for learning visual-semantic embeddings for

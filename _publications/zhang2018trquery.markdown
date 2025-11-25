@@ -7,7 +7,7 @@ year: 2018
 bibkey: zhang2018trquery
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.06205'}]
-tags: ["Datasets", "Efficiency", "Tools & Libraries"]
+tags: ["Datasets", "Efficiency", "Recommender Systems"]
 short_authors: Lijing Zhang, Xiaowang Zhang, Zhiyong Feng
 ---
 In this paper, we present an embedding-based framework (TrQuery) for

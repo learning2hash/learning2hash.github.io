@@ -5,9 +5,9 @@ authors: Anoubhav Agarwaal, Prabhat Kanaujia, Sartaki Sinha Roy, Susmita Ghose
 conference: Arxiv
 year: 2023
 bibkey: agarwaal2023robust
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.09559'}]
-tags: ["Datasets", "Memory Efficiency", "Robustness", "Similarity Search"]
+tags: ["Memory Efficiency", "Robustness", "Similarity Search"]
 short_authors: Agarwaal et al.
 ---
 This research paper presents a novel audio fingerprinting system for

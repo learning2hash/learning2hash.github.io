@@ -2,12 +2,12 @@
 layout: publication
 title: Recall@k Surrogate Loss With Large Batches And Similarity Mixup
 authors: Yash Patel, Giorgos Tolias, Jiri Matas
-conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2021
 bibkey: patel2021recall
-citations: 28
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.11179'}]
-tags: ["CVPR", "Distance Metric Learning", "Evaluation"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Yash Patel, Giorgos Tolias, Jiri Matas
 ---
 This work focuses on learning deep visual representation models for retrieval

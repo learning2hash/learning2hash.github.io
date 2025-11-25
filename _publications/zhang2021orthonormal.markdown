@@ -2,12 +2,12 @@
 layout: publication
 title: Orthonormal Product Quantization Network For Scalable Face Image Retrieval
 authors: Ming Zhang, Xuefei Zhe, Hong Yan
-conference: Pattern Recognition
+conference: Arxiv
 year: 2021
 bibkey: zhang2021orthonormal
-citations: 12
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.00327'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Scalability", "Tools & Libraries"]
+tags: ["Hashing Methods", "Image Retrieval", "Quantization", "Scalability"]
 short_authors: Ming Zhang, Xuefei Zhe, Hong Yan
 ---
 Existing deep quantization methods provided an efficient solution for

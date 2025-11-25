@@ -9,7 +9,7 @@ year: 2024
 bibkey: song2024comparing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.12801'}]
-tags: ["Datasets", "EMNLP", "Evaluation", "Re-Ranking", "Tools & Libraries"]
+tags: ["EMNLP", "Evaluation", "Re-Ranking", "Scalability"]
 short_authors: Song et al.
 ---
 A common retrieve-and-rerank paradigm involves retrieving relevant candidates

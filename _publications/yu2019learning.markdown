@@ -6,10 +6,10 @@ authors: Lu Yu, Vacit Oguz Yazici, Xialei Liu, Joost van de Weijer, Yongmei Chen
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: yu2019learning
-citations: 121
+citations: 126
 additional_links: [{name: Code, url: 'https://github.com/yulu0724/EmbeddingDistillation'},
   {name: Paper, url: 'https://arxiv.org/abs/1904.03624'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Supervised"]
+tags: ["CVPR", "Datasets", "Distance Metric Learning", "Image Retrieval", "Supervised"]
 short_authors: Yu et al.
 ---
 Metric learning networks are used to compute image embeddings, which are

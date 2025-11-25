@@ -6,9 +6,9 @@ authors: Weihua Hu, Takeru Miyato, Seiya Tokui, Eiichi Matsumoto, Masashi Sugiya
 conference: Arxiv
 year: 2017
 bibkey: hu2017learning
-citations: 206
+citations: 189
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.08720'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Unsupervised"]
+tags: ["Hashing Methods", "Unsupervised"]
 short_authors: Hu et al.
 ---
 Learning discrete representations of data is a central machine learning task

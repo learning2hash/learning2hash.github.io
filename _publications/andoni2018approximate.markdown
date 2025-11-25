@@ -2,12 +2,12 @@
 layout: publication
 title: Approximate Nearest Neighbor Search In High Dimensions
 authors: Alexandr Andoni, Piotr Indyk, Ilya Razenshteyn
-conference: International Congress of Mathematicians 2018
+conference: Proceedings of the International Congress of Mathematicians (ICM 2018)
 year: 2018
 bibkey: andoni2018approximate
-citations: 17
+citations: 40
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.09823'}]
-tags: ["Survey Paper"]
+tags: ["Efficiency", "Memory Efficiency", "Similarity Search", "Survey Paper", "Tree Based ANN"]
 short_authors: Alexandr Andoni, Piotr Indyk, Ilya Razenshteyn
 ---
 The nearest neighbor problem is defined as follows: Given a set \(P\) of \(n\)

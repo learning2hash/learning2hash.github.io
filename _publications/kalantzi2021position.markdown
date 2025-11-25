@@ -5,9 +5,9 @@ authors: Maria Kalantzi, George Karypis
 conference: 2021 IEEE International Conference on Big Data (Big Data)
 year: 2021
 bibkey: kalantzi2021position
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.00101'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Recommender Systems"]
+tags: ["Graph Based ANN", "Hashing Methods", "Memory Efficiency", "Scalability"]
 short_authors: Maria Kalantzi, George Karypis
 ---
 Graph Neural Networks (GNNs) bring the power of deep representation learning

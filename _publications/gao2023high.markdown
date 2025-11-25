@@ -6,9 +6,9 @@ authors: Jianyang Gao, Cheng Long
 conference: Proceedings of the ACM on Management of Data
 year: 2023
 bibkey: gao2023high
-citations: 26
+citations: 42
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.09855'}]
-tags: ["Efficiency", "Evaluation"]
+tags: ["Efficiency", "Similarity Search"]
 short_authors: Jianyang Gao, Cheng Long
 ---
 Approximate K nearest neighbor (AKNN) search is a fundamental and challenging

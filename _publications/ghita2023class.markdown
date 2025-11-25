@@ -7,7 +7,7 @@ year: 2023
 bibkey: ghita2023class
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.00630'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Alexandru Ghita, Radu Tudor Ionescu
 ---
 The performance of neural networks in content-based image retrieval (CBIR) is

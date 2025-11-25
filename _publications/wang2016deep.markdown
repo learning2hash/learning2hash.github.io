@@ -2,12 +2,12 @@
 layout: publication
 title: Deep Supervised Hashing With Triplet Labels
 authors: Xiaofang Wang, Yi Shi, Kris M. Kitani
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2016
 bibkey: wang2016deep
-citations: 86
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.03900'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Supervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Xiaofang Wang, Yi Shi, Kris M. Kitani
 ---
 Hashing is one of the most popular and powerful approximate nearest neighbor

@@ -2,12 +2,12 @@
 layout: publication
 title: Asymmetric Correlation Quantization Hashing For Cross-modal Retrieval
 authors: Lu Wang, Jie Yang
-conference: IEEE Transactions on Multimedia
+conference: Arxiv
 year: 2020
 bibkey: wang2020asymmetric
-citations: 22
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.04625'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Scalability", "Similarity Search", "Tools & Libraries"]
+tags: ["Compact Codes", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Similarity Search"]
 short_authors: Lu Wang, Jie Yang
 ---
 Due to the superiority in similarity computation and database storage for

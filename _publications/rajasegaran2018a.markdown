@@ -2,12 +2,12 @@
 layout: publication
 title: A Neural Embeddings Approach For Detecting Mobile Counterfeit Apps
 authors: Jathushan Rajasegaran, Suranga Seneviratne, Guillaume Jourjon
-conference: 'WWW ''19: The Web Conference'
+conference: Arxiv
 year: 2018
 bibkey: rajasegaran2018a
-citations: 17
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.09882'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Privacy & Security", "Similarity Search"]
 short_authors: Jathushan Rajasegaran, Suranga Seneviratne, Guillaume Jourjon
 ---
 Counterfeit apps impersonate existing popular apps in attempts to misguide

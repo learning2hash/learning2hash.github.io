@@ -7,9 +7,9 @@ authors: Yanqing Shen, Sanping Zhou, Jingwen Fu, Ruotong Wang, Shitao Chen, Nann
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2025
 bibkey: shen2025structvpr
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.06601'}]
-tags: ["Efficiency", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Neural Hashing", "Re-Ranking", "Tools & Libraries"]
+tags: ["Efficiency", "Image Retrieval", "Re-Ranking"]
 short_authors: Shen et al.
 ---
 Visual place recognition is a challenging task for autonomous driving and

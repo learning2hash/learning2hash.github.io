@@ -3,12 +3,12 @@ layout: publication
 title: Deep Feature Learning Via Structured Graph Laplacian Embedding For Person Re-identification
 authors: de Cheng, Yihong Gong, Zhihui Li, Weiwei Shi, Alexander G. Hauptmann, Nanning
   Zheng
-conference: Pattern Recognition
+conference: Arxiv
 year: 2017
 bibkey: cheng2017deep
-citations: 44
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.07791'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation"]
+tags: ["Datasets", "Distance Metric Learning"]
 short_authors: Cheng et al.
 ---
 Learning the distance metric between pairs of examples is of great importance

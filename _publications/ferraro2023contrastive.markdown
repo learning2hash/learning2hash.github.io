@@ -5,9 +5,9 @@ authors: Andres Ferraro, Jaehun Kim, Sergio Oramas, Andreas Ehmann, Fabien Gouyo
 conference: Arxiv
 year: 2023
 bibkey: ferraro2023contrastive
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.06556'}]
-tags: ["Datasets", "Recommender Systems", "Self-Supervised"]
+tags: ["Multimodal Retrieval", "Recommender Systems", "Self-Supervised"]
 short_authors: Ferraro et al.
 ---
 Music retrieval and recommendation applications often rely on content

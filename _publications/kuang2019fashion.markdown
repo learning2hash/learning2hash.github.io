@@ -8,7 +8,7 @@ year: 2019
 bibkey: kuang2019fashion
 citations: 89
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.11754'}]
-tags: ["Evaluation", "ICCV"]
+tags: ["Evaluation", "Graph Based ANN", "ICCV", "Image Retrieval", "Similarity Search"]
 short_authors: Kuang et al.
 ---
 Matching clothing images from customers and online shopping stores has rich

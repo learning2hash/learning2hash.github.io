@@ -5,9 +5,9 @@ authors: Heng Qi, Wu Liu, Liang Liu
 conference: 2017 IEEE Global Conference on Signal and Information Processing (GlobalSIP)
 year: 2017
 bibkey: qi2017an
-citations: 8
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.07750'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Heng Qi, Wu Liu, Liang Liu
 ---
 Mobile visual search applications are emerging that enable users to sense

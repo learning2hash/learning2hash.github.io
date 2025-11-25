@@ -5,9 +5,9 @@ authors: Song Liu, Haoqi Fan, Shengsheng Qian, Yiru Chen, Wenkui Ding, Zhongyuan
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: liu2021hit
-citations: 137
+citations: 121
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.15049'}]
-tags: ["Datasets", "Evaluation", "ICCV", "Scalability", "Text Retrieval"]
+tags: ["ICCV", "Multimodal Retrieval", "Video Retrieval"]
 short_authors: Liu et al.
 ---
 Video-Text Retrieval has been a hot research topic with the growth of

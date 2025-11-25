@@ -7,10 +7,10 @@ conference: Proceedings of the 2023 Conference on Empirical Methods in Natural L
   Processing
 year: 2023
 bibkey: wang2023balance
-citations: 4
+citations: 6
 additional_links: [{name: Code, url: 'https://github.com/yimuwangcs/Better_Cross_Modal_Retrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2310.11612'}]
-tags: ["EMNLP", "Evaluation", "Multimodal Retrieval", "Re-Ranking", "Tools & Libraries"]
+tags: ["EMNLP", "Evaluation", "Multimodal Retrieval"]
 short_authors: Yimu Wang, Xiangru Jian, Bo Xue
 ---
 In this work, we present a post-processing solution to address the hubness

@@ -6,9 +6,9 @@ authors: Runhui Wang, Luyang Kong, Yefan Tao, Andrew Borthwick, Davor Golac, Hen
 conference: Proceedings of the 2024 SIAM International Conference on Data Mining (SDM)
 year: 2024
 bibkey: wang2024neural
-citations: 0
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.18064'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Supervised"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Locality-Sensitive-Hashing", "Neural Hashing"]
 short_authors: Wang et al.
 ---
 Locality-sensitive hashing (LSH) is a fundamental algorithmic technique

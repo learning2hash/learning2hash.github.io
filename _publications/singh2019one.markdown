@@ -7,7 +7,7 @@ year: 2019
 bibkey: singh2019one
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.12120'}]
-tags: ["Evaluation", "Tools & Libraries"]
+tags: ["Evaluation", "Recommender Systems"]
 short_authors: Singh et al.
 ---
 Online shopping caters to the needs of millions of users daily. Search,

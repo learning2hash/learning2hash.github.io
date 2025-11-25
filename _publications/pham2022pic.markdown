@@ -2,13 +2,12 @@
 layout: publication
 title: 'Pic: A Phrase-in-context Dataset For Phrase Understanding And Semantic Search'
 authors: Thang M. Pham, Seunghyun Yoon, Trung Bui, Anh Nguyen
-conference: Proceedings of the 17th Conference of the European Chapter of the Association
-  for Computational Linguistics
+conference: Arxiv
 year: 2022
 bibkey: pham2022pic
-citations: 2
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.09068'}]
-tags: ["Datasets", "Eacl", "Evaluation"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Pham et al.
 ---
 While contextualized word embeddings have been a de-facto standard, learning

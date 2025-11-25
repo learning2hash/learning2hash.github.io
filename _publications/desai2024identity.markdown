@@ -2,13 +2,12 @@
 layout: publication
 title: 'Identity With Locality: An Ideal Hash For Gene Sequence Search'
 authors: Aditya Desai, Gaurav Gupta, Tianyi Zhang, Anshumali Shrivastava
-conference: 'KDD ''25: The 31st ACM SIGKDD Conference on Knowledge Discovery and Data
-  Mining'
+conference: Arxiv
 year: 2024
 bibkey: desai2024identity
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.14901'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "KDD", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Desai et al.
 ---
 Gene sequence search is a fundamental operation in computational genomics.

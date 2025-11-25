@@ -2,12 +2,12 @@
 layout: publication
 title: Revisiting Binary Local Image Description For Resource Limited Devices
 authors: "Iago Su\xE1rez, Jos\xE9 M. Buenaposada, Luis Baumela"
-conference: IEEE Robotics and Automation Letters
+conference: Arxiv
 year: 2021
 bibkey: "su\xE1rez2021revisiting"
-citations: 11
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.08380'}]
-tags: ["Uncategorized"]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: "Iago Su\xE1rez, Jos\xE9 M. Buenaposada, Luis Baumela"
 ---
 The advent of a panoply of resource limited devices opens up new challenges

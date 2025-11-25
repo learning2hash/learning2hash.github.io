@@ -5,9 +5,9 @@ authors: Ryan Moulton, Yunjiang Jiang
 conference: 2018 IEEE International Conference on Data Mining (ICDM)
 year: 2018
 bibkey: moulton2018maximally
-citations: 15
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.04052'}]
-tags: ["Locality-Sensitive-Hashing"]
+tags: ["Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Ryan Moulton, Yunjiang Jiang
 ---
 We introduce simple, efficient algorithms for computing a MinHash of a

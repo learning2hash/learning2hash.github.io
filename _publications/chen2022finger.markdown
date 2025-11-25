@@ -3,12 +3,12 @@ layout: publication
 title: 'FINGER: Fast Inference For Graph-based Approximate Nearest Neighbor Search'
 authors: Patrick H. Chen, Chang Wei-Cheng, Yu Hsiang-Fu, Inderjit S. Dhillon, Hsieh
   Cho-Jui
-conference: 'WWW ''23: The ACM Web Conference 2023'
+conference: Arxiv
 year: 2022
 bibkey: chen2022finger
-citations: 19
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.11408'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Neural Hashing"]
+tags: ["Datasets", "Evaluation", "Graph Based ANN"]
 short_authors: Chen et al.
 ---
 Approximate K-Nearest Neighbor Search (AKNNS) has now become ubiquitous in

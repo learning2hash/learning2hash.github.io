@@ -3,13 +3,12 @@ layout: publication
 title: What Are You Token About? Dense Retrieval As Distributions Over The Vocabulary
 authors: Ori Ram, Liat Bezalel, Adi Zicher, Yonatan Belinkov, Jonathan Berant, Amir
   Globerson
-conference: 'Proceedings of the 61st Annual Meeting of the Association for Computational
-  Linguistics (Volume 1: Long Papers)'
+conference: Arxiv
 year: 2022
 bibkey: ram2022what
-citations: 10
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.10380'}]
-tags: ["Evaluation", "Few Shot & Zero Shot"]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
 short_authors: Ram et al.
 ---
 Dual encoders are now the dominant architecture for dense retrieval. Yet, we

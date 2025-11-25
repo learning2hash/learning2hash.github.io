@@ -6,9 +6,9 @@ authors: Yasser Shohoud, Maged Shoman, Sarah Abdelazim
 conference: Arxiv
 year: 2023
 bibkey: shohoud2023quranic
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.05120'}]
-tags: ["Datasets", "Distance Metric Learning"]
+tags: ["Similarity Search", "Text Retrieval", "Tools & Libraries"]
 short_authors: Yasser Shohoud, Maged Shoman, Sarah Abdelazim
 ---
 The Holy Book of Quran is believed to be the literal word of God (Allah) as

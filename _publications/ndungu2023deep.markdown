@@ -7,9 +7,9 @@ conference: 2023 XXXVth General Assembly and Scientific Symposium of the Interna
   Union of Radio Science (URSI GASS)
 year: 2023
 bibkey: ndungu2023deep
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.00932'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Supervised"]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Ndung'U et al.
 ---
 The shear number of sources that will be detected by next-generation radio

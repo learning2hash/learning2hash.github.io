@@ -5,9 +5,9 @@ authors: David Paulius, Nicholas Eales, Yu Sun
 conference: 'Robotics: Science and Systems XVI'
 year: 2020
 bibkey: paulius2020a
-citations: 21
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.06695'}]
-tags: ["Distance Metric Learning", "Neural Hashing"]
+tags: ["Distance Metric Learning", "RSS"]
 short_authors: David Paulius, Nicholas Eales, Yu Sun
 ---
 To represent motions from a mechanical point of view, this paper explores

@@ -5,10 +5,10 @@ authors: Jianfeng Wang, Xi Yin, Lijuan Wang, Lei Zhang
 conference: Arxiv
 year: 2020
 bibkey: wang2020hashing
-citations: 6
+citations: 7
 additional_links: [{name: Code, url: 'https://github.com/microsoft/hnms.git'}, {name: Paper,
     url: 'https://arxiv.org/abs/2005.11426'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods"]
+tags: ["Datasets", "Efficiency", "Hashing Methods"]
 short_authors: Wang et al.
 ---
 In this paper, we propose an algorithm, named hashing-based non-maximum

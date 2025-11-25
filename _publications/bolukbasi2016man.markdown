@@ -5,9 +5,9 @@ authors: Tolga Bolukbasi, Kai-Wei Chang, James Zou, Venkatesh Saligrama, Adam Ka
 conference: Arxiv
 year: 2016
 bibkey: bolukbasi2016man
-citations: 1436
+citations: 1357
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.06520'}]
-tags: ["Evaluation", "Tools & Libraries"]
+tags: ["Evaluation"]
 short_authors: Bolukbasi et al.
 ---
 The blind application of machine learning runs the risk of amplifying biases

@@ -7,7 +7,7 @@ year: 2018
 bibkey: mehra2018fast
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.04204'}]
-tags: ["Datasets", "Graph Based ANN", "Image Retrieval", "Neural Hashing", "Scalability", "Supervised"]
+tags: ["Datasets", "Graph Based ANN", "Image Retrieval", "Scalability", "Supervised"]
 short_authors: Akshay Mehra, Jihun Hamm, Mikhail Belkin
 ---
 An interactive image retrieval system learns which images in the database

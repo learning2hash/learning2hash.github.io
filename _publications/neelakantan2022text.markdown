@@ -9,9 +9,9 @@ authors: Arvind Neelakantan, Tao Xu, Raul Puri, Alec Radford, Jesse Michael Han,
 conference: Arxiv
 year: 2022
 bibkey: neelakantan2022text
-citations: 114
+citations: 146
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.10005'}]
-tags: ["Datasets", "Scalability", "Supervised", "Unsupervised"]
+tags: ["Evaluation", "Scalability", "Unsupervised"]
 short_authors: Neelakantan et al.
 ---
 Text embeddings are useful features in many applications such as semantic

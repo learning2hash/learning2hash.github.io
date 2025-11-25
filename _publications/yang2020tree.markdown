@@ -6,9 +6,9 @@ conference: Proceedings of the 43rd International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2020
 bibkey: yang2020tree
-citations: 123
+citations: 127
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.02503'}]
-tags: ["Datasets", "Evaluation", "SIGIR", "Video Retrieval"]
+tags: ["SIGIR", "Video Retrieval"]
 short_authors: Yang et al.
 ---
 The rapid growth of user-generated videos on the Internet has intensified the

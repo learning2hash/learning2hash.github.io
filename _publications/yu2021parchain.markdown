@@ -6,9 +6,9 @@ authors: Shangdi Yu, Yiqiu Wang, Yan Gu, Laxman Dhulipala, Julian Shun
 conference: Arxiv
 year: 2021
 bibkey: yu2021parchain
-citations: 0
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.04727'}]
-tags: ["Efficiency", "Tools & Libraries"]
+tags: ["Efficiency", "Memory Efficiency", "Scalability"]
 short_authors: Yu et al.
 ---
 This paper studies the hierarchical clustering problem, where the goal is to

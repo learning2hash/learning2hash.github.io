@@ -2,7 +2,7 @@
 layout: publication
 title: Towards Faster K-nearest-neighbor Machine Translation
 authors: Xiangyu Shi, Yunlong Liang, Jinan Xu, Yufeng Chen
-conference: Advances in Artificial Intelligence and Machine Learning
+conference: Advances in Artificial Intelligence and Machine Learning. 2024;4(1)111
 year: 2023
 bibkey: shi2023towards
 citations: 0

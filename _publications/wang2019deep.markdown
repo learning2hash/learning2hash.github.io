@@ -2,12 +2,12 @@
 layout: publication
 title: Deep Policy Hashing Network With Listwise Supervision
 authors: Shaoying Wang, Haijiang Lai, Yifan Yang, Jian Yin
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Proceedings of the 2019 on International Conference on Multimedia Retrieval
 year: 2019
 bibkey: wang2019deep
-citations: 46
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.01728'}]
-tags: ["AAAI", "Compact Codes", "Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Wang et al.
 ---
 Deep-networks-based hashing has become a leading approach for large-scale

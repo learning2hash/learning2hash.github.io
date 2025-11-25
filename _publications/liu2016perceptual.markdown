@@ -7,7 +7,7 @@ authors: Shenglan Liu, Jun Wu, Lin Feng, Yang Liu, Hong Qiao, Wenbo Luo Muxin Su
 conference: Arxiv
 year: 2016
 bibkey: liu2016perceptual
-citations: 8
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.07615'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Liu et al.

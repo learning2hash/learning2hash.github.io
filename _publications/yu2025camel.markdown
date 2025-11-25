@@ -5,10 +5,10 @@ authors: Hang Yu, Jiahao Wen, Zhedong Zheng
 conference: IEEE Transactions on Information Forensics and Security
 year: 2025
 bibkey: yu2025camel
-citations: 1
+citations: 5
 additional_links: [{name: Code, url: 'https://github.com/Jahawn-Wen/CAMeL-reID'},
   {name: Paper, url: 'https://arxiv.org/abs/2504.18782'}]
-tags: ["Privacy & Security", "Robustness", "Scalability", "Tools & Libraries"]
+tags: ["Multimodal Retrieval", "Robustness", "Scalability"]
 short_authors: Hang Yu, Jiahao Wen, Zhedong Zheng
 ---
 Text-based person retrieval aims to identify specific individuals within an

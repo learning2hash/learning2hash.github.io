@@ -1,0 +1,27 @@
+---
+layout: publication
+title: 'Image-text Retrieval: A Survey On Recent Research And Development'
+authors: Min Cao, Shiping Li, Juntao Li, Liqiang Nie, Min Zhang
+conference: Proceedings of the Thirty-First International Joint Conference on Artificial
+  Intelligence
+year: 2022
+bibkey: cao2022image
+citations: 74
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.14713'}]
+tags: ["Datasets", "Efficiency", "Image Retrieval", "Multimodal Retrieval", "Survey Paper"]
+short_authors: Cao et al.
+---
+In the past few years, cross-modal image-text retrieval (ITR) has experienced
+increased interest in the research community due to its excellent research
+value and broad real-world application. It is designed for the scenarios where
+the queries are from one modality and the retrieval galleries from another
+modality. This paper presents a comprehensive and up-to-date survey on the ITR
+approaches from four perspectives. By dissecting an ITR system into two
+processes: feature extraction and feature alignment, we summarize the recent
+advance of the ITR approaches from these two perspectives. On top of this, the
+efficiency-focused study on the ITR system is introduced as the third
+perspective. To keep pace with the times, we also provide a pioneering overview
+of the cross-modal pre-training ITR approaches as the fourth perspective.
+Finally, we outline the common benchmark datasets and valuation metric for ITR,
+and conduct the accuracy comparison among the representative ITR approaches.
+Some critical yet less studied issues are discussed at the end of the paper.

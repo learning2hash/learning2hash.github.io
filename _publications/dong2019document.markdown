@@ -7,9 +7,9 @@ conference: Proceedings of the 2019 Conference on Empirical Methods in Natural L
   (EMNLP-IJCNLP)
 year: 2019
 bibkey: dong2019document
-citations: 19
+citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.11078'}]
-tags: ["Compact Codes", "Datasets", "EMNLP", "Efficiency", "Evaluation", "Hashing Methods", "Scalability", "Unsupervised"]
+tags: ["EMNLP", "Efficiency", "Evaluation", "Hashing Methods", "Unsupervised"]
 short_authors: Dong et al.
 ---
 Hashing is promising for large-scale information retrieval tasks thanks to

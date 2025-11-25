@@ -6,7 +6,7 @@ authors: Maxim Pisov, Gleb Makarchuk, Valery Kostjuchenko, Alexandra Dalechina, 
 conference: Arxiv
 year: 2018
 bibkey: pisov2018brain
-citations: 5
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.09369'}]
 tags: ["Distance Metric Learning", "Image Retrieval"]
 short_authors: Pisov et al.

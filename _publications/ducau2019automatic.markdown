@@ -5,9 +5,9 @@ authors: Felipe N. Ducau, Ethan M. Rudd, Tad M. Heppner, Alex Long, Konstantin B
 conference: Arxiv
 year: 2019
 bibkey: ducau2019automatic
-citations: 11
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.06262'}]
-tags: ["Neural Hashing"]
+tags: ["Privacy & Security", "Similarity Search"]
 short_authors: Ducau et al.
 ---
 With the rapid proliferation and increased sophistication of malicious

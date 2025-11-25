@@ -2,12 +2,12 @@
 layout: publication
 title: Improving Cross-modal Retrieval With Set Of Diverse Embeddings
 authors: Dongwon Kim, Namyup Kim, Suha Kwak
-conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2022
 bibkey: kim2022improving
-citations: 51
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.16761'}]
-tags: ["CVPR", "Datasets", "Multimodal Retrieval"]
+tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Dongwon Kim, Namyup Kim, Suha Kwak
 ---
 Cross-modal retrieval across image and text modalities is a challenging task

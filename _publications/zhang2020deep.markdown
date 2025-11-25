@@ -7,7 +7,7 @@ year: 2020
 bibkey: zhang2020deep
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.00944'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Recommender Systems", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Neural Hashing", "Recommender Systems"]
 short_authors: Zhang et al.
 ---
 Recommendation efficiency and data sparsity problems have been regarded as

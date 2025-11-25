@@ -6,9 +6,9 @@ conference: Proceedings of the 30th ACM International Conference on Information 
   Knowledge Management
 year: 2021
 bibkey: wang2021fully
-citations: 22
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.04607'}]
-tags: ["CIKM", "Datasets", "Evaluation", "Recommender Systems"]
+tags: ["CIKM", "Recommender Systems"]
 short_authors: Wang et al.
 ---
 Recently, Graph Convolution Network (GCN) based methods have achieved

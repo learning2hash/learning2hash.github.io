@@ -5,9 +5,9 @@ authors: Michael Wray, Diane Larlus, Gabriela Csurka, Dima Damen
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: wray2019fine
-citations: 132
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.03477'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "ICCV", "Multimodal Retrieval", "Scalability", "Video Retrieval"]
+tags: ["Few Shot & Zero Shot", "ICCV", "Multimodal Retrieval", "Video Retrieval"]
 short_authors: Wray et al.
 ---
 We address the problem of cross-modal fine-grained action retrieval between

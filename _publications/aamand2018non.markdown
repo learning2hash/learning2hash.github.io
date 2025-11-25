@@ -2,10 +2,10 @@
 layout: publication
 title: Non-empty Bins With Simple Tabulation Hashing
 authors: Anders Aamand, Mikkel Thorup
-conference: Proceedings of the Thirtieth Annual ACM-SIAM Symposium on Discrete Algorithms
+conference: Arxiv
 year: 2018
 bibkey: aamand2018non
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.13187'}]
 tags: ["Hashing Methods"]
 short_authors: Anders Aamand, Mikkel Thorup

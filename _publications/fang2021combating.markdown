@@ -5,9 +5,9 @@ authors: Jiansheng Fang, Huazhu Fu, Dan Zeng, Xiao Yan, Yuguang Yan, Jiang Liu
 conference: IEEE Journal of Biomedical and Health Informatics
 year: 2021
 bibkey: fang2021combating
-citations: 10
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.08872'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval"]
 short_authors: Fang et al.
 ---
 When encountering a dubious diagnostic case, medical instance retrieval can

@@ -6,7 +6,7 @@ conference: Proceedings of the 43rd International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2020
 bibkey: maheshwari2020learning
-citations: 5
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.09904'}]
 tags: ["Evaluation", "Image Retrieval", "SIGIR"]
 short_authors: Paridhi Maheshwari, Manoj Ghuhan, Vishwa Vinay

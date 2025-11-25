@@ -3,13 +3,12 @@ layout: publication
 title: 'CODER: An Efficient Framework For Improving Retrieval Through Contextual Document
   Embedding Reranking'
 authors: George Zerveas, Navid Rekabsaz, Daniel Cohen, Carsten Eickhoff
-conference: Proceedings of the 2022 Conference on Empirical Methods in Natural Language
-  Processing
+conference: Arxiv
 year: 2021
 bibkey: zerveas2021coder
-citations: 5
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.08766'}]
-tags: ["EMNLP", "Evaluation", "Self-Supervised", "Similarity Search", "Tools & Libraries"]
+tags: ["Evaluation", "Re-Ranking", "Self-Supervised", "Similarity Search"]
 short_authors: Zerveas et al.
 ---
 Contrastive learning has been the dominant approach to training dense

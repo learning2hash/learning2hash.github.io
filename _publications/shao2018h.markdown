@@ -5,9 +5,9 @@ authors: Tianjia Shao, Yin Yang, Yanlin Weng, Qiming Hou, Kun Zhou
 conference: IEEE Transactions on Visualization and Computer Graphics
 year: 2018
 bibkey: shao2018h
-citations: 30
+citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.11385'}]
-tags: ["Evaluation", "Hashing Methods", "Tree Based ANN"]
+tags: ["Hashing Methods", "Memory Efficiency"]
 short_authors: Shao et al.
 ---
 We present a novel spatial hashing based data structure to facilitate 3D

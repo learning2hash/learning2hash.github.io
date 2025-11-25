@@ -7,9 +7,9 @@ conference: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery
   Data Mining
 year: 2022
 bibkey: gao2022clusterea
-citations: 30
+citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.10312'}]
-tags: ["Datasets", "KDD", "Scalability", "Tools & Libraries"]
+tags: ["KDD", "Scalability"]
 short_authors: Gao et al.
 ---
 Entity alignment (EA) aims at finding equivalent entities in different

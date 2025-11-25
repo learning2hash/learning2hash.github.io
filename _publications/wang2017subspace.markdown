@@ -7,7 +7,7 @@ year: 2017
 bibkey: wang2017subspace
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.07775'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries"]
+tags: ["Evaluation", "Scalability"]
 short_authors: Jing Wang
 ---
 Most natural language processing tasks can be formulated as the approximated

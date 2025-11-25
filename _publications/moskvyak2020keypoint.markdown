@@ -5,9 +5,9 @@ authors: Olga Moskvyak, Frederic Maire, Feras Dayoub, Mahsa Baktashmotlagh
 conference: 2021 IEEE Winter Conference on Applications of Computer Vision (WACV)
 year: 2020
 bibkey: moskvyak2020keypoint
-citations: 18
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.11368'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Moskvyak et al.
 ---
 Learning embeddings that are invariant to the pose of the object is crucial

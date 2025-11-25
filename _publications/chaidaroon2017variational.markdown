@@ -6,9 +6,9 @@ conference: Proceedings of the 40th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2017
 bibkey: chaidaroon2017variational
-citations: 71
+citations: 68
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.03436'}]
-tags: ["Compact Codes", "Hashing Methods", "Neural Hashing", "SIGIR", "Scalability", "Similarity Search", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["Hashing Methods", "Neural Hashing", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Suthee Chaidaroon, Yi Fang
 ---
 As the amount of textual data has been rapidly increasing over the past

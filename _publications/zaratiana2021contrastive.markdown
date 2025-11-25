@@ -5,9 +5,9 @@ authors: Urchade Zaratiana
 conference: Arxiv
 year: 2021
 bibkey: zaratiana2021contrastive
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.04217'}]
-tags: ["Self-Supervised"]
+tags: ["Self-Supervised", "Similarity Search"]
 short_authors: Urchade Zaratiana
 ---
 String representation Learning (SRL) is an important task in the field of

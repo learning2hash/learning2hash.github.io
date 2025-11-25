@@ -6,10 +6,10 @@ authors: Xiang An, Jiankang Deng, Kaicheng Yang, Jaiwei Li, Ziyong Feng, Jia Guo
 conference: Arxiv
 year: 2023
 bibkey: an2023unicom
-citations: 10
+citations: 17
 additional_links: [{name: Code, url: 'https://github.com/deepglint/unicom'}, {name: Paper,
     url: 'https://arxiv.org/abs/2304.05884'}]
-tags: ["Datasets", "Image Retrieval", "Scalability", "Supervised", "Unsupervised"]
+tags: ["Evaluation", "Image Retrieval", "Scalability", "Unsupervised"]
 short_authors: An et al.
 ---
 Modern image retrieval methods typically rely on fine-tuning pre-trained

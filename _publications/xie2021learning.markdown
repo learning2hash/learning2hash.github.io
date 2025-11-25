@@ -6,7 +6,7 @@ authors: Zhongwei Xie, Ling Liu, Yanzhao Wu, Lin Li, Luo Zhong
 conference: IEEE Transactions on Services Computing
 year: 2021
 bibkey: xie2021learning
-citations: 25
+citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.00724'}]
 tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
 short_authors: Xie et al.

@@ -8,7 +8,7 @@ year: 2025
 bibkey: tavares2025multi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.03769'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Recommender Systems"]
 short_authors: "Tiago Fernandes Tavares, Fabio Jos\xE9 Ayres"
 ---
 Music genres are shaped by both the stylistic features of songs and the

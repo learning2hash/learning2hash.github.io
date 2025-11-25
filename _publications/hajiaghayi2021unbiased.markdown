@@ -7,7 +7,7 @@ year: 2021
 bibkey: hajiaghayi2021unbiased
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.07719'}]
-tags: ["Datasets", "Scalability"]
+tags: ["Datasets", "Large Scale Search"]
 short_authors: Mahdi Hajiaghayi, Monir Hajiaghayi, Mark Bolin
 ---
 In this paper, we present a multi-lingual sentence encoder that can be used

@@ -5,7 +5,7 @@ authors: "Luis G. Camara, Libor P\u0159eu\u010Dil"
 conference: 2019 European Conference on Mobile Robots (ECMR)
 year: 2019
 bibkey: camara2019spatio
-citations: 25
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.07671'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: "Luis G. Camara, Libor P\u0159eu\u010Dil"

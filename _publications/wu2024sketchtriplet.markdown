@@ -2,12 +2,12 @@
 layout: publication
 title: 'Sketchtriplet: Self-supervised Scenarized Sketch-text-image Triplet Generation'
 authors: Zhenbei Wu, Qiang Wang, Jie Yang
-conference: IEEE Internet of Things Journal
+conference: Arxiv
 year: 2024
 bibkey: wu2024sketchtriplet
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.18801'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Scalability", "Self-Supervised", "Supervised"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised"]
 short_authors: Zhenbei Wu, Qiang Wang, Jie Yang
 ---
 The scarcity of free-hand sketch presents a challenging problem. Despite the

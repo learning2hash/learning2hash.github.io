@@ -5,9 +5,9 @@ authors: Antoine Miech, Jean-Baptiste Alayrac, Ivan Laptev, Josef Sivic, Andrew 
 conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2021
 bibkey: miech2021thinking
-citations: 112
+citations: 96
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.16553'}]
-tags: ["CVPR", "Datasets", "Hybrid ANN Methods", "Re-Ranking", "Scalability", "Similarity Search"]
+tags: ["Datasets", "Efficiency", "Image Retrieval", "Re-Ranking", "Video Retrieval"]
 short_authors: Miech et al.
 ---
 Our objective is language-based search of large-scale image and video

@@ -6,7 +6,7 @@ authors: Yin-Hsi Kuo, Winston H. Hsu
 conference: Arxiv
 year: 2016
 bibkey: kuo2016de
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.08999'}]
 tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Video Retrieval"]
 short_authors: Yin-Hsi Kuo, Winston H. Hsu

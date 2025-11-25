@@ -2,13 +2,12 @@
 layout: publication
 title: 'K-nnn: Nearest Neighbors Of Neighbors For Anomaly Detection'
 authors: Ori Nizan, Ayellet Tal
-conference: 2024 IEEE/CVF Winter Conference on Applications of Computer Vision Workshops
-  (WACVW)
+conference: Arxiv
 year: 2023
 bibkey: nizan2023k
-citations: 5
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.17695'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Distance Metric Learning", "Unsupervised"]
 short_authors: Ori Nizan, Ayellet Tal
 ---
 Anomaly detection aims at identifying images that deviate significantly from

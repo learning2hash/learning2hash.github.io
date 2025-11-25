@@ -8,7 +8,7 @@ bibkey: wang2024unifying
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/wonderCS1213/UniEA'}, {name: Paper,
     url: 'https://arxiv.org/abs/2412.05028'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised"]
+tags: ["Graph Based ANN", "Self-Supervised"]
 short_authors: Wang et al.
 ---
 Entity alignment aims to match identical entities across different knowledge

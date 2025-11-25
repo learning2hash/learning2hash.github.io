@@ -1,0 +1,28 @@
+---
+layout: publication
+title: Soft Seeded SSL Graphs For Unsupervised Semantic Similarity-based Retrieval
+authors: Avikalp Srivastava, Madhav Datt
+conference: Proceedings of the 2017 ACM on Conference on Information and Knowledge
+  Management
+year: 2017
+bibkey: srivastava2017soft
+citations: 4
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.05574'}]
+tags: ["Graph Based ANN", "Text Retrieval", "Unsupervised"]
+short_authors: Avikalp Srivastava, Madhav Datt
+---
+Semantic similarity based retrieval is playing an increasingly important role
+in many IR systems such as modern web search, question-answering, similar
+document retrieval etc. Improvements in retrieval of semantically similar
+content are very significant to applications like Quora, Stack Overflow, Siri
+etc. We propose a novel unsupervised model for semantic similarity based
+content retrieval, where we construct semantic flow graphs for each query, and
+introduce the concept of "soft seeding" in graph based semi-supervised learning
+(SSL) to convert this into an unsupervised model.
+  We demonstrate the effectiveness of our model on an equivalent question
+retrieval problem on the Stack Exchange QA dataset, where our unsupervised
+approach significantly outperforms the state-of-the-art unsupervised models,
+and produces comparable results to the best supervised models. Our research
+provides a method to tackle semantic similarity based retrieval without any
+training data, and allows seamless extension to different domain QA
+communities, as well as to other semantic equivalence tasks.

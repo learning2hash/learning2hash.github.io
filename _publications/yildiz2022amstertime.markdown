@@ -6,9 +6,9 @@ authors: Burak Yildiz, Seyran Khademi, Ronald Maria Siebes, Jan van Gemert
 conference: 2022 26th International Conference on Pattern Recognition (ICPR)
 year: 2022
 bibkey: yildiz2022amstertime
-citations: 8
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.16291'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Self-Supervised", "Supervised"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Self-Supervised"]
 short_authors: Yildiz et al.
 ---
 We introduce AmsterTime: a challenging dataset to benchmark visual place

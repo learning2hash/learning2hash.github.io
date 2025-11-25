@@ -1,0 +1,26 @@
+---
+layout: publication
+title: Cross-modal Coherence For Text-to-image Retrieval
+authors: Malihe Alikhani, Fangda Han, Hareesh Ravi, Mubbasir Kapadia, Vladimir Pavlovic,
+  Matthew Stone
+conference: Arxiv
+year: 2021
+bibkey: alikhani2021cross
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.11047'}]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
+short_authors: Alikhani et al.
+---
+Common image-text joint understanding techniques presume that images and the
+associated text can universally be characterized by a single implicit model.
+However, co-occurring images and text can be related in qualitatively different
+ways, and explicitly modeling it could improve the performance of current joint
+understanding models. In this paper, we train a Cross-Modal Coherence Modelfor
+text-to-image retrieval task. Our analysis shows that models trained with
+image--text coherence relations can retrieve images originally paired with
+target text more often than coherence-agnostic models. We also show via human
+evaluation that images retrieved by the proposed coherence-aware model are
+preferred over a coherence-agnostic baseline by a huge margin. Our findings
+provide insights into the ways that different modalities communicate and the
+role of coherence relations in capturing commonsense inferences in text and
+imagery.

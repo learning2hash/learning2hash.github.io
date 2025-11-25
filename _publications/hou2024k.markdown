@@ -6,7 +6,7 @@ authors: Abe Bohan Hou, Jingyu Zhang, Yichen Wang, Daniel Khashabi, Tianxing He
 conference: Findings of the Association for Computational Linguistics ACL 2024
 year: 2024
 bibkey: hou2024k
-citations: 4
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.11399'}]
 tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Robustness"]
 short_authors: Hou et al.

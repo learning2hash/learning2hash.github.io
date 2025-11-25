@@ -5,9 +5,9 @@ authors: Paolo Ferragina, Hans-Peter Lehmann, Peter Sanders, Giorgio Vinciguerra
 conference: Arxiv
 year: 2023
 bibkey: ferragina2023learned
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.11012'}]
-tags: ["Datasets", "Hashing Methods"]
+tags: ["Hashing Methods", "Memory Efficiency"]
 short_authors: Ferragina et al.
 ---
 A Monotone Minimal Perfect Hash Function (MMPHF) constructed on a set S of

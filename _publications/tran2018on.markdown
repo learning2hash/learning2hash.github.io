@@ -7,9 +7,9 @@ authors: Ngoc-Trung Tran, Dang-Khoa Le Tan, Anh-Dzung Doan, Thanh-Toan Do, Tuan-
 conference: IEEE Transactions on Image Processing
 year: 2018
 bibkey: tran2018on
-citations: 38
+citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.03510'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Scalability"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Scalability"]
 short_authors: Tran et al.
 ---
 We present the design of an entire on-device system for large-scale urban

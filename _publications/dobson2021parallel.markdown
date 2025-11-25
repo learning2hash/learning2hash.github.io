@@ -2,13 +2,12 @@
 layout: publication
 title: Parallel Nearest Neighbors In Low Dimensions With Batch Updates
 authors: Magdalen Dobson, Guy Blelloch
-conference: 2022 Proceedings of the Symposium on Algorithm Engineering and Experiments
-  (ALENEX)
+conference: Arxiv
 year: 2021
 bibkey: dobson2021parallel
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.04182'}]
-tags: ["Efficiency", "Evaluation", "Tree Based ANN"]
+tags: ["Efficiency", "Tree Based ANN"]
 short_authors: Magdalen Dobson, Guy Blelloch
 ---
 We present a set of parallel algorithms for computing exact k-nearest

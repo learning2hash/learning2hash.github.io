@@ -6,9 +6,9 @@ authors: Dwaipayan Roy, Debasis Ganguly, Mandar Mitra, Gareth J. F. Jones
 conference: Arxiv
 year: 2016
 bibkey: roy2016representing
-citations: 11
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.07869'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: ["Distance Metric Learning", "Evaluation", "Text Retrieval"]
 short_authors: Roy et al.
 ---
 A major difficulty in applying word vector embeddings in IR is in devising an

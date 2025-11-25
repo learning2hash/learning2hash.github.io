@@ -5,9 +5,9 @@ authors: Osman Tursun, Simon Denman, Sridha Sridharan, Clinton Fookes
 conference: Computer Vision and Image Understanding
 year: 2020
 bibkey: tursun2020learning
-citations: 4
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.01642'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Tursun et al.
 ---
 Off-the-shelf convolutional neural network features achieve outstanding

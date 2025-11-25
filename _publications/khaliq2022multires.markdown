@@ -6,10 +6,10 @@ authors: Ahmad Khaliq, Michael Milford, Sourav Garg
 conference: IEEE Robotics and Automation Letters
 year: 2022
 bibkey: khaliq2022multires
-citations: 38
+citations: 43
 additional_links: [{name: Code, url: 'https://github.com/Ahmedest61/MultiRes-NetVLAD'},
   {name: Paper, url: 'https://arxiv.org/abs/2202.09146'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Ahmad Khaliq, Michael Milford, Sourav Garg
 ---
 Visual Place Recognition (VPR) is a crucial component of 6-DoF localization,

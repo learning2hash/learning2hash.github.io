@@ -6,9 +6,9 @@ conference: Proceedings of the 25th ACM International on Conference on Informati
   and Knowledge Management
 year: 2016
 bibkey: pham2016scalability
-citations: 11
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.02620'}]
-tags: ["CIKM", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Similarity Search"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Similarity Search"]
 short_authors: Ninh Pham, Rasmus Pagh
 ---
 Locality-sensitive hashing (LSH) has emerged as the dominant algorithmic

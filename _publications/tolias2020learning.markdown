@@ -5,9 +5,9 @@ authors: "Giorgos Tolias, Tomas Jenicek, Ond\u0159ej Chum"
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: tolias2020learning
-citations: 82
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.13172'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Image Retrieval", "Scalability"]
 short_authors: "Giorgos Tolias, Tomas Jenicek, Ond\u0159ej Chum"
 ---
 We propose an efficient method to learn deep local descriptors for

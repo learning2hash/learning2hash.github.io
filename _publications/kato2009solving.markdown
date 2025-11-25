@@ -2,13 +2,12 @@
 layout: publication
 title: Solving \(k\)-nearest Neighbor Problem On Multiple Graphics Processors
 authors: Kimikazu Kato, Tikara Hosino
-conference: 2010 10th IEEE/ACM International Conference on Cluster, Cloud and Grid
-  Computing (CCGrid)
+conference: Arxiv
 year: 2009
 bibkey: kato2009solving
-citations: 21
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/0906.0231'}]
-tags: ["Recommender Systems"]
+tags: ["Large Scale Search", "Memory Efficiency", "Recommender Systems", "Scalability", "Similarity Search"]
 short_authors: Kimikazu Kato, Tikara Hosino
 ---
 The recommendation system is a software system to predict customers' unknown

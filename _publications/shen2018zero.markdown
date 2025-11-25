@@ -5,9 +5,9 @@ authors: Yuming Shen, Li Liu, Fumin Shen, Ling Shao
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: shen2018zero
-citations: 155
+citations: 161
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.02284'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Scalability", "Similarity Search"]
+tags: ["CVPR", "Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Similarity Search"]
 short_authors: Shen et al.
 ---
 Recent studies show that large-scale sketch-based image retrieval (SBIR) can

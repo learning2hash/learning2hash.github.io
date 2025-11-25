@@ -5,9 +5,9 @@ authors: Dahun Kim, Anelia Angelova, Weicheng Kuo
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: kim2023region
-citations: 44
+citations: 55
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.07011'}]
-tags: ["CVPR", "Few Shot & Zero Shot", "Text Retrieval"]
+tags: ["CVPR", "Few Shot & Zero Shot", "Self-Supervised"]
 short_authors: Dahun Kim, Anelia Angelova, Weicheng Kuo
 ---
 We present Region-aware Open-vocabulary Vision Transformers (RO-ViT) - a

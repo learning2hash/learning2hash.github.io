@@ -3,12 +3,12 @@ layout: publication
 title: 'Mucai At Wojoodner 2024: Arabic Named Entity Recognition With Nearest Neighbor
   Search'
 authors: Ahmed Abdou, Tasneem Mohsen
-conference: Arxiv
+conference: Proceedings of The Second Arabic Natural Language Processing Conference
 year: 2024
 bibkey: abdou2024mucai
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.03652'}]
-tags: ["Datasets", "Similarity Search"]
+tags: ["Datasets"]
 short_authors: Ahmed Abdou, Tasneem Mohsen
 ---
 Named Entity Recognition (NER) is a task in Natural Language Processing (NLP)

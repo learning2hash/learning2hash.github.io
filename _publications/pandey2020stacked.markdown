@@ -5,9 +5,9 @@ authors: Anubha Pandey, Ashish Mishra, Vinay Kumar Verma, Anurag Mittal, Hema A.
 conference: 2020 IEEE Winter Conference on Applications of Computer Vision (WACV)
 year: 2020
 bibkey: pandey2020stacked
-citations: 30
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.06657'}]
-tags: ["Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval", "Robustness"]
+tags: ["Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Pandey et al.
 ---
 Conventional approaches to Sketch-Based Image Retrieval (SBIR) assume that

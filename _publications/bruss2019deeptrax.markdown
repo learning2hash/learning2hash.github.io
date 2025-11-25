@@ -7,9 +7,9 @@ conference: 2019 18th IEEE International Conference On Machine Learning And Appl
   (ICMLA)
 year: 2019
 bibkey: bruss2019deeptrax
-citations: 35
+citations: 38
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.07225'}]
-tags: ["Datasets", "ICML", "Tools & Libraries"]
+tags: ["Datasets", "Graph Based ANN", "ICML"]
 short_authors: Bruss et al.
 ---
 Financial transactions can be considered edges in a heterogeneous graph

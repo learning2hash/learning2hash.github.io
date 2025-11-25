@@ -2,12 +2,12 @@
 layout: publication
 title: Open-set Representation Learning Through Combinatorial Embedding
 authors: Geeho Kim, Junoh Kang, Bohyung Han
-conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2021
 bibkey: kim2021open
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.15278'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: ["Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Geeho Kim, Junoh Kang, Bohyung Han
 ---
 Visual recognition tasks are often limited to dealing with a small subset of

@@ -4,10 +4,10 @@ title: 'Wl-align: Weisfeiler-lehman Relabeling For Aligning Users Across Network
   Via Regularized Representation Learning'
 authors: Li Liu, Penggang Chen, Xin Li, William K. Cheung, Youmin Zhang, Qun Liu,
   Guoyin Wang
-conference: IEEE Transactions on Knowledge and Data Engineering
+conference: Arxiv
 year: 2022
 bibkey: liu2022wl
-citations: 8
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/ChenPengGang/WLAlignCode'},
   {name: Paper, url: 'https://arxiv.org/abs/2212.14182'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Tools & Libraries"]

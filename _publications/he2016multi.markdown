@@ -1,0 +1,28 @@
+---
+layout: publication
+title: Multi-view Recurrent Neural Acoustic Word Embeddings
+authors: Wanjia He, Weiran Wang, Karen Livescu
+conference: Arxiv
+year: 2016
+bibkey: he2016multi
+citations: 33
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.04496'}]
+tags: ["Audio Retrieval", "Distance Metric Learning", "Evaluation", "Similarity Search", "Unsupervised"]
+short_authors: Wanjia He, Weiran Wang, Karen Livescu
+---
+Recent work has begun exploring neural acoustic word
+embeddings---fixed-dimensional vector representations of arbitrary-length
+speech segments corresponding to words. Such embeddings are applicable to
+speech retrieval and recognition tasks, where reasoning about whole words may
+make it possible to avoid ambiguous sub-word representations. The main idea is
+to map acoustic sequences to fixed-dimensional vectors such that examples of
+the same word are mapped to similar vectors, while different-word examples are
+mapped to very different vectors. In this work we take a multi-view approach to
+learning acoustic word embeddings, in which we jointly learn to embed acoustic
+sequences and their corresponding character sequences. We use deep
+bidirectional LSTM embedding models and multi-view contrastive losses. We study
+the effect of different loss variants, including fixed-margin and
+cost-sensitive losses. Our acoustic word embeddings improve over previous
+approaches for the task of word discrimination. We also present results on
+other tasks that are enabled by the multi-view approach, including cross-view
+word discrimination and word similarity.

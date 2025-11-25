@@ -9,7 +9,7 @@ year: 2022
 bibkey: fosset2022docent
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.05648'}]
-tags: ["Graph Based ANN", "Recommender Systems"]
+tags: ["Evaluation", "Graph Based ANN", "Recommender Systems"]
 short_authors: Fosset et al.
 ---
 Recommendation systems have been widely used in various domains such as

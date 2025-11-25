@@ -5,9 +5,9 @@ authors: Lee-Ad Gottlieb, Aryeh Kontorovich, Pinhas Nisnevitch
 conference: IEEE Transactions on Information Theory
 year: 2014
 bibkey: gottlieb2014near
-citations: 12
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1404.3368'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Memory Efficiency", "Similarity Search"]
 short_authors: Lee-Ad Gottlieb, Aryeh Kontorovich, Pinhas Nisnevitch
 ---
 We present the first sample compression algorithm for nearest neighbors with

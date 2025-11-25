@@ -5,9 +5,9 @@ authors: Ashish Ranjan, Varun Nagesh Jolly Behera, Motahar Reza
 conference: Arxiv
 year: 2020
 bibkey: ranjan2020a
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.00443'}]
-tags: ["Efficiency"]
+tags: ["Efficiency", "Image Retrieval", "Large Scale Search", "Scalability"]
 short_authors: Ashish Ranjan, Varun Nagesh Jolly Behera, Motahar Reza
 ---
 We present a new facial recognition system, capable of identifying a person,

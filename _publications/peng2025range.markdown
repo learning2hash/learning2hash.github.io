@@ -7,7 +7,7 @@ year: 2025
 bibkey: peng2025range
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.11742'}]
-tags: ["Datasets", "Distance Metric Learning", "Hybrid ANN Methods", "Re-Ranking", "Robustness", "Similarity Search"]
+tags: ["Distance Metric Learning", "Hybrid ANN Methods", "Re-Ranking", "Similarity Search"]
 short_authors: Peng et al.
 ---
 Image-to-point cloud cross-modal Visual Place Recognition (VPR) is a

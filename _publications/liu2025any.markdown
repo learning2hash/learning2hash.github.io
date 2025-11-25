@@ -3,13 +3,12 @@ layout: publication
 title: 'Any Information Is Just Worth One Single Screenshot: Unifying Search With
   Visualized Information Retrieval'
 authors: Ze Liu, Zhengyang Liang, Junjie Zhou, Zheng Liu, Defu Lian
-conference: 'Proceedings of the 63rd Annual Meeting of the Association for Computational
-  Linguistics (Volume 1: Long Papers)'
+conference: Arxiv
 year: 2025
 bibkey: liu2025any
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.11431'}]
-tags: ["Datasets", "Evaluation", "Scalability"]
+tags: ["Datasets", "Efficiency", "Multimodal Retrieval", "Scalability"]
 short_authors: Liu et al.
 ---
 With the popularity of multimodal techniques, it receives growing interests

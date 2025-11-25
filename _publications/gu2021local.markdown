@@ -3,12 +3,12 @@ layout: publication
 title: Local Citation Recommendation With Hierarchical-attention Text Encoder And
   Scibert-based Reranking
 authors: Nianlong Gu, Yingqiang Gao, Richard H. R. Hahnloser
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2021
 bibkey: gu2021local
-citations: 15
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.01206'}]
-tags: ["Datasets", "Evaluation", "Re-Ranking", "Recommender Systems", "Scalability"]
+tags: ["Datasets", "Re-Ranking", "Recommender Systems"]
 short_authors: Nianlong Gu, Yingqiang Gao, Richard H. R. Hahnloser
 ---
 The goal of local citation recommendation is to recommend a missing reference

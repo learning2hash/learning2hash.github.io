@@ -7,7 +7,7 @@ year: 2017
 bibkey: yan2017privmin
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.07258'}]
-tags: ["Datasets", "Locality-Sensitive-Hashing", "Privacy & Security"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Privacy & Security"]
 short_authors: Yan et al.
 ---
 In many industrial applications of big data, the Jaccard Similarity

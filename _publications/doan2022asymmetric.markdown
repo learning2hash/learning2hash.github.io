@@ -2,13 +2,12 @@
 layout: publication
 title: Asymmetric Hashing For Fast Ranking Via Neural Network Measures
 authors: Khoa Doan, Shulong Tan, Weijie Zhao, Ping Li
-conference: 'SIGIR ''23: The 46th International ACM SIGIR Conference on Research and
-  Development in Information Retrieval'
+conference: Arxiv
 year: 2022
 bibkey: doan2022asymmetric
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.00619'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Graph Based ANN", "Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems", "SIGIR", "Similarity Search", "Tools & Libraries"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Neural Hashing", "Recommender Systems", "Similarity Search"]
 short_authors: Doan et al.
 ---
 Fast item ranking is an important task in recommender systems. In previous

@@ -5,9 +5,9 @@ authors: Unnat Jain, Vinay P. Namboodiri, Gaurav Pandey
 conference: 2017 14th Conference on Computer and Robot Vision (CRV)
 year: 2017
 bibkey: jain2017compact
-citations: 6
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.08103'}]
-tags: ["Compact Codes", "Hashing Methods", "Neural Hashing", "Robustness", "Supervised"]
+tags: ["Compact Codes", "Hashing Methods", "Robustness", "Supervised"]
 short_authors: Unnat Jain, Vinay P. Namboodiri, Gaurav Pandey
 ---
 Robust visual place recognition (VPR) requires scene representations that are

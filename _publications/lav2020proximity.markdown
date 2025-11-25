@@ -2,12 +2,12 @@
 layout: publication
 title: Proximity Preserving Binary Code Using Signed Graph-cut
 authors: Inbal Lav, Shai Avidan, Yoram Singer, Yacov Hel-Or
-conference: AAAI Conference on Artificial Intelligence Feb. 2020
+conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2020
 bibkey: lav2020proximity
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.01793'}]
-tags: ["AAAI", "Compact Codes", "Hashing Methods", "Tools & Libraries"]
+tags: ["AAAI", "Compact Codes", "Hashing Methods"]
 short_authors: Lav et al.
 ---
 We introduce a binary embedding framework, called Proximity Preserving Code

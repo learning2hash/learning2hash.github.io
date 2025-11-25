@@ -6,9 +6,9 @@ authors: Tsun-Hsuan Wang, Hung-Jui Huang, Juan-Ting Lin, Chan-Wei Hu, Kuo-Hao Ze
 conference: 2018 IEEE International Conference on Robotics and Automation (ICRA)
 year: 2018
 bibkey: wang2018omnidirectional
-citations: 67
+citations: 70
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.04228'}]
-tags: ["Datasets", "ICRA"]
+tags: ["Distance Metric Learning", "ICRA", "Image Retrieval"]
 short_authors: Wang et al.
 ---
 \( \)Visual place recognition is challenging, especially when only a few place

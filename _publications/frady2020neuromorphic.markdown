@@ -6,9 +6,9 @@ authors: E. Paxon Frady, Garrick Orchard, David Florey, Nabil Imam, Ruokun Liu, 
 conference: Proceedings of the Neuro-inspired Computational Elements Workshop
 year: 2020
 bibkey: frady2020neuromorphic
-citations: 47
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.12691'}]
-tags: ["Datasets", "Efficiency"]
+tags: ["Datasets", "Efficiency", "Large Scale Search", "Scalability", "Similarity Search"]
 short_authors: Frady et al.
 ---
 Neuromorphic computing applies insights from neuroscience to uncover

@@ -5,9 +5,9 @@ authors: Andreas Veit, Serge Belongie, Theofanis Karaletsos
 conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2016
 bibkey: veit2016conditional
-citations: 99
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.07810'}]
-tags: ["CVPR"]
+tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Similarity Search"]
 short_authors: Andreas Veit, Serge Belongie, Theofanis Karaletsos
 ---
 What makes images similar? To measure the similarity between images, they are

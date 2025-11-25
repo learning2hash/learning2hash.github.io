@@ -2,12 +2,12 @@
 layout: publication
 title: Deep Metric Learning By Online Soft Mining And Class-aware Attention
 authors: Xinshao Wang, Yang Hua, Elyor Kodirov, Guosheng Hu, Neil M. Robertson
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2018
 bibkey: wang2018deep
-citations: 22
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.01459'}]
-tags: ["AAAI", "Datasets", "Distance Metric Learning", "Evaluation"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Wang et al.
 ---
 Deep metric learning aims to learn a deep embedding that can capture the

@@ -7,9 +7,9 @@ authors: Ru-Ze Liang, Lihui Shi, Haoxiang Wang, Jiandong Meng, Jim Jing-Yan Wang
 conference: Arxiv
 year: 2016
 bibkey: liang2016optimizing
-citations: 52
+citations: 56
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.06620'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Similarity Search"]
 short_authors: Liang et al.
 ---
 In this paper we study the problem of content-based image retrieval. In this

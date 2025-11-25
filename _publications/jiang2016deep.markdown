@@ -2,12 +2,12 @@
 layout: publication
 title: Deep Cross-modal Hashing
 authors: Qing-Yuan Jiang, Wu-Jun Li
-conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2016
 bibkey: jiang2016deep
-citations: 628
+citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.02255'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Hashing Methods", "Memory Efficiency", "Similarity Search", "Tools & Libraries"]
+tags: ["Hashing Methods", "Multimodal Retrieval", "Similarity Search"]
 short_authors: Qing-Yuan Jiang, Wu-Jun Li
 ---
 Due to its low storage cost and fast query speed, cross-modal hashing (CMH)

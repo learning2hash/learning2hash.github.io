@@ -7,9 +7,9 @@ conference: 2018 IEEE/RSJ International Conference on Intelligent Robots and Sys
   (IROS)
 year: 2018
 bibkey: panphattarasap2018automated
-citations: 14
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.00788'}]
-tags: ["Evaluation", "IROS", "Scalability"]
+tags: ["Scalability"]
 short_authors: Pilailuck Panphattarasap, Andrew Calway
 ---
 We describe a novel approach to image based localisation in urban

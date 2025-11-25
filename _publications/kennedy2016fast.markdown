@@ -5,7 +5,7 @@ authors: Christopher Kennedy, Rachel Ward
 conference: Arxiv
 year: 2016
 bibkey: kennedy2016fast
-citations: 9
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.06922'}]
 tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Christopher Kennedy, Rachel Ward

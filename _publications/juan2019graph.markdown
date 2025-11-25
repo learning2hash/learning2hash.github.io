@@ -6,9 +6,9 @@ authors: da-Cheng Juan, Chun-Ta Lu, Zhen Li, Futang Peng, Aleksei Timofeev, Yi-T
 conference: Arxiv
 year: 2019
 bibkey: juan2019graph
-citations: 33
+citations: 28
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.10814'}]
-tags: ["Evaluation", "Image Retrieval", "Scalability", "Tools & Libraries"]
+tags: ["Graph Based ANN", "Image Retrieval", "Scalability"]
 short_authors: Juan et al.
 ---
 Learning image representations to capture fine-grained semantics has been a

@@ -3,12 +3,12 @@ layout: publication
 title: 'Learning To Rank Words: Optimizing Ranking Metrics For Word Spotting'
 authors: "Pau Riba, Adri\xE0 Molina, Lluis Gomez, Oriol Ramos-Terrades, Josep Llad\xF3\
   s"
-conference: Pattern Recognition
+conference: Lecture Notes in Computer Science
 year: 2021
 bibkey: riba2021learning
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.05144'}]
-tags: ["CVPR", "Evaluation"]
+tags: ["Evaluation"]
 short_authors: Riba et al.
 ---
 In this paper, we explore and evaluate the use of ranking-based objective

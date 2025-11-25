@@ -8,7 +8,7 @@ year: 2020
 bibkey: meisburger2020distributed
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.03260'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: ["Efficiency", "Large Scale Search", "Locality-Sensitive-Hashing", "Scalability", "Similarity Search"]
 short_authors: Nicholas Meisburger, Anshumali Shrivastava
 ---
 We present SLASH (Sketched LocAlity Sensitive Hashing), an MPI (Message

@@ -5,9 +5,9 @@ authors: Christopher Morris, Nils M. Kriege, Kristian Kersting, Petra Mutzel
 conference: 2016 IEEE 16th International Conference on Data Mining (ICDM)
 year: 2016
 bibkey: morris2016faster
-citations: 89
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.00064'}]
-tags: ["Evaluation", "Hashing Methods", "Tools & Libraries"]
+tags: ["Evaluation", "Hashing Methods", "Scalability"]
 short_authors: Morris et al.
 ---
 While state-of-the-art kernels for graphs with discrete labels scale well to

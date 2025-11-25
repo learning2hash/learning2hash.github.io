@@ -5,9 +5,9 @@ authors: Yuming Shen, Jie Qin, Jiaxin Chen, Li Liu, Fan Zhu
 conference: 2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)
 year: 2019
 bibkey: shen2019embarrassingly
-citations: 20
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.09573'}]
-tags: ["Compact Codes", "Hashing Methods", "ICCV", "Scalability"]
+tags: ["Compact Codes", "Hashing Methods", "ICCV"]
 short_authors: Shen et al.
 ---
 Recent binary representation learning models usually require sophisticated

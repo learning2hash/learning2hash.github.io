@@ -5,9 +5,9 @@ authors: Hanjiang Hu, Zhijian Qiao, Ming Cheng, Zhe Liu, Hesheng Wang
 conference: IEEE Transactions on Image Processing
 year: 2020
 bibkey: hu2020dasgil
-citations: 49
+citations: 45
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.00573'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Robustness", "Scalability"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Robustness"]
 short_authors: Hu et al.
 ---
 Long-Term visual localization under changing environments is a challenging

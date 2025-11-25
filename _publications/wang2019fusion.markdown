@@ -7,7 +7,7 @@ year: 2019
 bibkey: wang2019fusion
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.11171'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Supervised", "Tools & Libraries"]
+tags: ["Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Wang et al.
 ---
 Deep hashing has recently received attention in cross-modal retrieval for its

@@ -4,11 +4,11 @@ title: Efficient Point-to-subspace Query In \(\ell^1\) With Application To Robus
   Object Instance Recognition
 authors: Ju Sun, Yuqian Zhang, John Wright
 conference: SIAM Journal on Imaging Sciences
-year: 2014
+year: 2012
 bibkey: sun2012efficient
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1208.0432'}]
-tags: ["Scalability"]
+tags: ["Efficiency", "Robustness", "Scalability"]
 short_authors: Ju Sun, Yuqian Zhang, John Wright
 ---
 Motivated by vision tasks such as robust face and object recognition, we

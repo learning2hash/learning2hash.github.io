@@ -2,13 +2,12 @@
 layout: publication
 title: Graph Convolution For Re-ranking In Person Re-identification
 authors: Yuqi Zhang, Qian Qi, Chong Liu, Weihua Chen, Fan Wang, Hao Li, Rong Jin
-conference: ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech
-  and Signal Processing (ICASSP)
+conference: Arxiv
 year: 2021
 bibkey: zhang2021graph
-citations: 11
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.02220'}]
-tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "Graph Based ANN", "Hybrid ANN Methods", "ICASSP", "Neural Hashing", "Re-Ranking"]
+tags: ["Distance Metric Learning", "Graph Based ANN", "Image Retrieval", "Re-Ranking", "Video Retrieval"]
 short_authors: Zhang et al.
 ---
 Nowadays, deep learning is widely applied to extract features for similarity

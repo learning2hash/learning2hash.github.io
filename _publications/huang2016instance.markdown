@@ -2,12 +2,12 @@
 layout: publication
 title: Instance-aware Image And Sentence Matching With Selective Multimodal LSTM
 authors: Yan Huang, Wei Wang, Liang Wang
-conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2016
 bibkey: huang2016instance
-citations: 156
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.05588'}]
-tags: ["CVPR", "Datasets", "Evaluation"]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Yan Huang, Wei Wang, Liang Wang
 ---
 Effective image and sentence matching depends on how to well measure their

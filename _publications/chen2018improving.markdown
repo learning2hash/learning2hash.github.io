@@ -2,12 +2,12 @@
 layout: publication
 title: Improving Deep Binary Embedding Networks By Order-aware Reweighting Of Triplets
 authors: Jikai Chen, Hanjiang Lai, Libing Geng, Yan Pan
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2018
 bibkey: chen2018improving
-citations: 152
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.06061'}]
-tags: ["Compact Codes", "Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Image Retrieval"]
+tags: ["Compact Codes", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Image Retrieval"]
 short_authors: Chen et al.
 ---
 In this paper, we focus on triplet-based deep binary embedding networks for

@@ -6,9 +6,9 @@ conference: Proceedings of the 2023 Conference on Empirical Methods in Natural L
   Processing
 year: 2023
 bibkey: yang2023quantifying
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.14672'}]
-tags: ["Datasets", "EMNLP", "Scalability", "Self-Supervised", "Supervised"]
+tags: ["EMNLP", "Self-Supervised", "Similarity Search"]
 short_authors: Yang et al.
 ---
 Record linkage is a bedrock of quantitative social science, as analyses often

@@ -7,9 +7,9 @@ conference: 2024 IEEE International Conference on Visual Communications and Imag
   Processing (VCIP)
 year: 2024
 bibkey: teng2024mvbind
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.09286'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Recommender Systems", "Self-Supervised", "Supervised"]
+tags: ["Datasets", "Multimodal Retrieval", "Recommender Systems", "Self-Supervised"]
 short_authors: Teng et al.
 ---
 Recent years have witnessed the rapid development of short videos, which

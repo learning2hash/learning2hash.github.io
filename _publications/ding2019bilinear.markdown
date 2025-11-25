@@ -5,9 +5,9 @@ authors: Yujuan Ding, Wai Kueng Wong, Zhihui Lai, Zheng Zhang
 conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2019
 bibkey: ding2019bilinear
-citations: 14
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.01474'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Supervised", "Tools & Libraries"]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Supervised"]
 short_authors: Ding et al.
 ---
 Hashing has been recognized as an efficient representation learning method to

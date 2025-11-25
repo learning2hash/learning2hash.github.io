@@ -6,9 +6,9 @@ authors: Bhavya Vasudeva, Puneesh Deora, Saumik Bhattacharya, Umapada Pal, Sukal
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: vasudeva2021loop
-citations: 12
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.09335'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "ICCV", "Image Retrieval"]
+tags: ["Distance Metric Learning", "ICCV", "Image Retrieval"]
 short_authors: Vasudeva et al.
 ---
 Deep metric learning has been effectively used to learn distance metrics for

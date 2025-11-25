@@ -6,7 +6,7 @@ conference: 2017 Seventh International Conference on Image Processing Theory, To
   and Applications (IPTA)
 year: 2017
 bibkey: babaie2017local
-citations: 19
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.04097'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Babaie et al.

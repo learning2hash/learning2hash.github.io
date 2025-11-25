@@ -8,7 +8,7 @@ year: 2024
 bibkey: dong2024simisketch
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.19711'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Dong et al.
 ---
 The challenge of estimating similarity between sets has been a significant

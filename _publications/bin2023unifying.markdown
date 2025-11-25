@@ -2,13 +2,13 @@
 layout: publication
 title: Unifying Two-stream Encoders With Transformers For Cross-modal Retrieval
 authors: Yi Bin, Haoxuan Li, Yahui Xu, Xing Xu, Yang Yang, Heng Tao Shen
-conference: Proceedings of the 31st ACM International Conference on Multimedia
+conference: 'MM ''23: The 31st ACM International Conference on Multimedia'
 year: 2023
 bibkey: bin2023unifying
-citations: 18
+citations: 26
 additional_links: [{name: Code, url: 'https://github.com/LuminosityX/HAT'}, {name: Paper,
     url: 'https://arxiv.org/abs/2308.04343'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Tools & Libraries"]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Bin et al.
 ---
 Most existing cross-modal retrieval methods employ two-stream encoders with

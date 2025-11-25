@@ -5,9 +5,9 @@ authors: Sanping Zhou, Jinjun Wang, Rui Shi, Qiqi Hou, Yihong Gong, Nanning Zhen
 conference: IEEE Transactions on Multimedia
 year: 2017
 bibkey: zhou2017large
-citations: 73
+citations: 74
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.05512'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Neural Hashing"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Zhou et al.
 ---
 Person re-identification (Re-ID) aims at matching images of the same person

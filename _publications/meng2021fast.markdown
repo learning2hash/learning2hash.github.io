@@ -3,13 +3,13 @@ layout: publication
 title: Fast Nearest Neighbor Machine Translation
 authors: Yuxian Meng, Xiaoya Li, Xiayu Zheng, Fei Wu, Xiaofei Sun, Tianwei Zhang,
   Jiwei Li
-conference: 'Findings of the Association for Computational Linguistics: ACL 2022'
+conference: Arxiv
 year: 2021
 bibkey: meng2021fast
-citations: 12
+citations: 14
 additional_links: [{name: Code, url: 'https://github.com/ShannonAI/fast-knn-nmt'},
   {name: Paper, url: 'https://arxiv.org/abs/2105.14528'}]
-tags: ["Efficiency", "Evaluation"]
+tags: ["Efficiency"]
 short_authors: Meng et al.
 ---
 Though nearest neighbor Machine Translation (\(k\)NN-MT)

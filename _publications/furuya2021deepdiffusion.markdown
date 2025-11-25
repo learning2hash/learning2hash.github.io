@@ -3,10 +3,10 @@ layout: publication
 title: 'Deepdiffusion: Unsupervised Learning Of Retrieval-adapted Representations
   Via Diffusion-based Ranking On Latent Feature Manifold'
 authors: Takahiko Furuya, Ryutarou Ohbuchi
-conference: IEEE Access
+conference: Arxiv
 year: 2021
 bibkey: furuya2021deepdiffusion
-citations: 2
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/takahikof/DeepDiffusion'},
   {name: Paper, url: 'https://arxiv.org/abs/2112.07082'}]
 tags: ["Distance Metric Learning", "Evaluation", "Unsupervised"]

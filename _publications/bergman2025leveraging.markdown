@@ -6,9 +6,9 @@ authors: Shai Bergman, Zhang Ji, Anne-Marie Kermarrec, Diana Petrescu, Rafael Pi
 conference: Proceedings of the 5th Workshop on Machine Learning and Systems
 year: 2025
 bibkey: bergman2025leveraging
-citations: 0
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.05530'}]
-tags: ["Efficiency", "Evaluation"]
+tags: ["Efficiency", "Similarity Search"]
 short_authors: Bergman et al.
 ---
 Retrieval-augmented generation (RAG) enhances the reliability of large

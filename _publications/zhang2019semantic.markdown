@@ -2,12 +2,12 @@
 layout: publication
 title: Semantic Hierarchy Preserving Deep Hashing For Large-scale Image Retrieval
 authors: Ming Zhang, Xuefei Zhe, Le Ou-Yang, Shifeng Chen, Hong Yan
-conference: IEEE Transactions on Image Processing
+conference: Arxiv
 year: 2019
 bibkey: zhang2019semantic
-citations: 11
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.11259'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Similarity Search"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Similarity Search"]
 short_authors: Zhang et al.
 ---
 Deep hashing models have been proposed as an efficient method for large-scale

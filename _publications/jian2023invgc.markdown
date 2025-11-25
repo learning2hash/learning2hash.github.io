@@ -5,10 +5,10 @@ authors: Xiangru Jian, Yimu Wang
 conference: 'Findings of the Association for Computational Linguistics: EMNLP 2023'
 year: 2023
 bibkey: jian2023invgc
-citations: 1
+citations: 2
 additional_links: [{name: Code, url: 'https://github.com/yimuwangcs/Better_Cross_Modal_Retrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2310.13276'}]
-tags: ["Datasets", "EMNLP", "Efficiency", "Evaluation", "Multimodal Retrieval", "Re-Ranking"]
+tags: ["EMNLP", "Efficiency", "Multimodal Retrieval"]
 short_authors: Xiangru Jian, Yimu Wang
 ---
 Over recent decades, significant advancements in cross-modal retrieval are

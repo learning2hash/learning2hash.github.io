@@ -5,9 +5,9 @@ authors: Lu Jin, Xiangbo Shu, Kai Li, Zechao Li, Guo-Jun Qi, Jinhui Tang
 conference: IEEE Transactions on Image Processing
 year: 2018
 bibkey: jin2018deep
-citations: 38
+citations: 93
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.02459'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Tools & Libraries"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Similarity Search"]
 short_authors: Jin et al.
 ---
 Hashing has attracted increasing research attentions in recent years due to

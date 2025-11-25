@@ -5,9 +5,9 @@ authors: "Martin Aum\xFCller, Tobias Christiani, Rasmus Pagh, Michael Vesterli"
 conference: Arxiv
 year: 2019
 bibkey: "aum\xFCller2019puffinn"
-citations: 6
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.12211'}]
-tags: ["Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Locality-Sensitive-Hashing", "Memory Efficiency", "Similarity Search"]
 short_authors: "Aum\xFCller et al."
 ---
 We present PUFFINN, a parameterless LSH-based index for solving the

@@ -7,7 +7,7 @@ conference: International Journal of Computer Science and Information Security (
   Volume 14 Issue 11 Publication date 2016/11
 year: 2017
 bibkey: ali2017content
-citations: 9
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.08492'}]
 tags: ["Evaluation", "Image Retrieval"]
 short_authors: Ali et al.

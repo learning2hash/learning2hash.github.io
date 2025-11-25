@@ -7,9 +7,9 @@ authors: Sicheng Zhao, Yaxian Li, Xingxu Yao, Weizhi Nie, Pengfei Xu, Jufeng Yan
 conference: Proceedings of the 28th ACM International Conference on Multimedia
 year: 2020
 bibkey: zhao2020emotion
-citations: 26
+citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.05103'}]
-tags: ["Datasets", "Distance Metric Learning", "Scalability"]
+tags: ["Datasets", "Distance Metric Learning"]
 short_authors: Zhao et al.
 ---
 Both images and music can convey rich semantics and are widely used to induce

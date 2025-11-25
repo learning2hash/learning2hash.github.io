@@ -5,9 +5,9 @@ authors: Andrea Salvi, Simone Ercoli, Marco Bertini, Alberto del Bimbo
 conference: 2016 IEEE International Symposium on Multimedia (ISM)
 year: 2016
 bibkey: salvi2016bloom
-citations: 5
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.00957'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval"]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Image Retrieval"]
 short_authors: Salvi et al.
 ---
 This paper presents a novel method for efficient image retrieval, based on a

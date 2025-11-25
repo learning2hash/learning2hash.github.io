@@ -5,10 +5,10 @@ authors: Ahmad Khaliq, Ming Xu, Stephen Hausler, Michael Milford, Sourav Garg
 conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: khaliq2024vlad
-citations: 2
+citations: 4
 additional_links: [{name: Code, url: 'https://github.com/Ahmedest61/VLAD-BuFF/'},
   {name: Paper, url: 'https://arxiv.org/abs/2409.19293'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Khaliq et al.
 ---
 Visual Place Recognition (VPR) is a crucial component of many visual

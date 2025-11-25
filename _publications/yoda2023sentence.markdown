@@ -7,7 +7,7 @@ year: 2023
 bibkey: yoda2023sentence
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.12990'}]
-tags: ["Evaluation", "Self-Supervised", "Tools & Libraries"]
+tags: ["Evaluation", "Self-Supervised"]
 short_authors: Yoda et al.
 ---
 Recent progress in sentence embedding, which represents the meaning of a

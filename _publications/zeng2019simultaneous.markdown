@@ -5,9 +5,9 @@ authors: Haien Zeng, Hanjiang Lai, Jian Yin
 conference: Arxiv
 year: 2019
 bibkey: zeng2019simultaneous
-citations: 5
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.08028'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: ["Compact Codes", "Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Haien Zeng, Hanjiang Lai, Jian Yin
 ---
 Fine-grained image hashing is a challenging problem due to the difficulties

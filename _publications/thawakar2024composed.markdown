@@ -6,10 +6,10 @@ authors: Omkar Thawakar, Muzammal Naseer, Rao Muhammad Anwer, Salman Khan, Micha
 conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2024
 bibkey: thawakar2024composed
-citations: 2
+citations: 4
 additional_links: [{name: Code, url: 'https://github.com/OmkarThawakar/composed-video-retrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.16997'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries", "Video Retrieval"]
+tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Video Retrieval"]
 short_authors: Thawakar et al.
 ---
 Composed video retrieval (CoVR) is a challenging problem in computer vision

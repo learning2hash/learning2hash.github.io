@@ -8,7 +8,7 @@ year: 2019
 bibkey: chen2019video
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.11862'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Video Retrieval"]
 short_authors: Chen et al.
 ---
 Recently, the applications of person re-identification in visual surveillance

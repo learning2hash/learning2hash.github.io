@@ -6,7 +6,7 @@ authors: Wei-Lin Hsiao, Kristen Grauman
 conference: 2017 IEEE International Conference on Computer Vision (ICCV)
 year: 2017
 bibkey: hsiao2017learning
-citations: 99
+citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.03376'}]
 tags: ["ICCV", "Unsupervised"]
 short_authors: Wei-Lin Hsiao, Kristen Grauman

@@ -6,9 +6,9 @@ authors: Rahul Mitra, Nehal Doiphode, Utkarsh Gautam, Sanath Narayan, Shuaib Ahm
 conference: Arxiv
 year: 2018
 bibkey: mitra2018a
-citations: 15
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.01466'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Mitra et al.
 ---
 We propose a new dataset for learning local image descriptors which can be

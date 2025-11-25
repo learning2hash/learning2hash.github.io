@@ -5,9 +5,9 @@ authors: Yicong Tian, Chen Chen, Mubarak Shah
 conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2017
 bibkey: tian2017cross
-citations: 180
+citations: 200
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.07815'}]
-tags: ["CVPR", "Datasets", "Tools & Libraries"]
+tags: ["CVPR", "Datasets", "Image Retrieval"]
 short_authors: Yicong Tian, Chen Chen, Mubarak Shah
 ---
 In this paper, we address the problem of cross-view image geo-localization.

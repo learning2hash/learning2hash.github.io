@@ -7,9 +7,9 @@ conference: Proceedings of the 24th ACM SIGKDD International Conference on Knowl
   Discovery &amp; Data Mining
 year: 2018
 bibkey: shan2018recurrent
-citations: 10
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.06466'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "KDD", "Large Scale Search", "Neural Hashing", "Scalability"]
+tags: ["Efficiency", "KDD", "Large Scale Search", "Scalability"]
 short_authors: Shan et al.
 ---
 Rapid advances in GPU hardware and multiple areas of Deep Learning open up a

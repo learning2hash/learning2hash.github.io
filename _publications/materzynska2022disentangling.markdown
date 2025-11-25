@@ -1,0 +1,27 @@
+---
+layout: publication
+title: Disentangling Visual And Written Concepts In CLIP
+authors: Joanna Materzynska, Antonio Torralba, David Bau
+conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2022
+bibkey: materzynska2022disentangling
+citations: 26
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.07835'}]
+tags: ["CVPR", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+short_authors: Joanna Materzynska, Antonio Torralba, David Bau
+---
+The CLIP network measures the similarity between natural text and images; in
+this work, we investigate the entanglement of the representation of word images
+and natural images in its image encoder. First, we find that the image encoder
+has an ability to match word images with natural images of scenes described by
+those words. This is consistent with previous research that suggests that the
+meaning and the spelling of a word might be entangled deep within the network.
+On the other hand, we also find that CLIP has a strong ability to match
+nonsense words, suggesting that processing of letters is separated from
+processing of their meaning. To explicitly determine whether the spelling
+capability of CLIP is separable, we devise a procedure for identifying
+representation subspaces that selectively isolate or eliminate spelling
+capabilities. We benchmark our methods against a range of retrieval tasks, and
+we also test them by measuring the appearance of text in CLIP-guided generated
+images. We find that our methods are able to cleanly separate spelling
+capabilities of CLIP from the visual processing of natural images.

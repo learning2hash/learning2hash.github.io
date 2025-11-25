@@ -5,9 +5,9 @@ authors: "Filip Radenovi\u0107, Giorgos Tolias, Ond\u0159ej Chum"
 conference: Lecture Notes in Computer Science
 year: 2016
 bibkey: "radenovi\u01072016cnn"
-citations: 523
+citations: 177
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.02426'}]
-tags: ["Compact Codes", "Evaluation", "Image Retrieval", "Unsupervised"]
+tags: ["Compact Codes", "Image Retrieval", "Unsupervised"]
 short_authors: "Filip Radenovi\u0107, Giorgos Tolias, Ond\u0159ej Chum"
 ---
 Convolutional Neural Networks (CNNs) achieve state-of-the-art performance in

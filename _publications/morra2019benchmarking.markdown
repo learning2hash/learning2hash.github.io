@@ -5,9 +5,9 @@ authors: Lia Morra, Fabrizio Lamberti
 conference: Expert Systems with Applications
 year: 2019
 bibkey: morra2019benchmarking
-citations: 28
+citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.02821'}]
-tags: ["Datasets", "Evaluation", "Large Scale Search", "Neural Hashing", "Scalability", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Large Scale Search", "Unsupervised"]
 short_authors: Lia Morra, Fabrizio Lamberti
 ---
 Unsupervised near-duplicate detection has many practical applications ranging

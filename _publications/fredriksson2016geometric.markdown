@@ -5,9 +5,9 @@ authors: Kimmo Fredriksson
 conference: Arxiv
 year: 2016
 bibkey: fredriksson2016geometric
-citations: 6
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.05944'}]
-tags: ["Efficiency", "Evaluation"]
+tags: ["Efficiency", "Memory Efficiency", "Similarity Search", "Tree Based ANN"]
 short_authors: Kimmo Fredriksson
 ---
 Geometric Near-neighbor Access Tree (GNAT) is a metric space indexing method

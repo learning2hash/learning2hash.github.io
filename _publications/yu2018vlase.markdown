@@ -7,9 +7,9 @@ conference: 2018 IEEE/RSJ International Conference on Intelligent Robots and Sys
   (IROS)
 year: 2018
 bibkey: yu2018vlase
-citations: 41
+citations: 40
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.02536'}]
-tags: ["Evaluation", "IROS", "Image Retrieval", "Tools & Libraries"]
+tags: ["IROS", "Image Retrieval"]
 short_authors: Yu et al.
 ---
 In this paper, we propose VLASE, a framework to use semantic edge features

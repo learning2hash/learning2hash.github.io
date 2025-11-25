@@ -9,7 +9,7 @@ year: 2024
 bibkey: vecchiato2024a
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.11731'}]
-tags: ["Datasets", "SIGIR"]
+tags: ["Datasets", "SIGIR", "Similarity Search"]
 short_authors: Vecchiato et al.
 ---
 A critical piece of the modern information retrieval puzzle is approximate

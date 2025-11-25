@@ -5,9 +5,9 @@ authors: Huibing Wang, Mingze Yao, Guangqi Jiang, Zetian Mi, Xianping Fu
 conference: Arxiv
 year: 2023
 bibkey: wang2023graph
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.02484'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Quantization", "Scalability", "Supervised", "Unsupervised"]
+tags: ["Compact Codes", "Graph Based ANN", "Hashing Methods", "Quantization", "Unsupervised"]
 short_authors: Wang et al.
 ---
 Unsupervised hashing methods have attracted widespread attention with the

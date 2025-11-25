@@ -7,7 +7,7 @@ year: 2019
 bibkey: jafari2019efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.07101'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search", "Vector Indexing"]
+tags: ["Efficiency", "Image Retrieval", "Locality-Sensitive-Hashing", "Similarity Search", "Vector Indexing"]
 short_authors: "Omid Jafari, Parth Nagarkar, Jonathan Monta\xF1o"
 ---
 Finding similar images is a necessary operation in many multimedia

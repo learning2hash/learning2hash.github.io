@@ -2,12 +2,12 @@
 layout: publication
 title: End-to-end Supervised Product Quantization For Image Search And Retrieval
 authors: Benjamin Klein, Lior Wolf
-conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2017
 bibkey: klein2017end
-citations: 50
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08589'}]
-tags: ["CVPR", "Hashing Methods", "Image Retrieval", "Memory Efficiency", "Quantization", "Supervised", "Unsupervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Quantization", "Supervised"]
 short_authors: Benjamin Klein, Lior Wolf
 ---
 Product Quantization, a dictionary based hashing method, is one of the

@@ -5,9 +5,9 @@ authors: "S\xF8ren Dahlgaard, Mathias B\xE6k Tejs Knudsen, Mikkel Thorup"
 conference: Arxiv
 year: 2017
 bibkey: dahlgaard2017practical
-citations: 16
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08797'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
+tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: "S\xF8ren Dahlgaard, Mathias B\xE6k Tejs Knudsen, Mikkel Thorup"
 ---
 Hashing is a basic tool for dimensionality reduction employed in several

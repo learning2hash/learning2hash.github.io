@@ -1,22 +1,29 @@
 ---
 layout: publication
-title: Deep Hashing Via Discrepancy Minimization
-authors: Zhixiang Chen, Xin Yuan, Jiwen Lu*, Qi Tian, And Zhou
-conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
+title: Deep Cross-modality Adaptation Via Semantics Preserving Adversarial Learning
+  For Sketch-based 3D Shape Retrieval
+authors: Jiaxin Chen, Yi Fang
+conference: Lecture Notes in Computer Science
 year: 2018
 bibkey: chen2018deep
-citations: 60
-additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0540.pdf'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Hashing Methods", "Neural Hashing", "Tools & Libraries"]
-short_authors: Chen et al.
+citations: 68
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.01806'}]
+tags: ["Distance Metric Learning", "Multimodal Retrieval"]
+short_authors: Jiaxin Chen, Yi Fang
 ---
-This paper presents a discrepancy minimizing model to
-address the discrete optimization problem in hashing learning. The discrete optimization introduced by binary constraint is an NP-hard mixed integer programming problem.
-It is usually addressed by relaxing the binary variables into
-continuous variables to adapt to the gradient based learning of hashing functions, especially the training of deep
-neural networks. To deal with the objective discrepancy
-caused by relaxation, we transform the original binary optimization into differentiable optimization problem over hash
-functions through series expansion. This transformation decouples the binary constraint and the similarity preserving
-hashing function optimization. The transformed objective
-is optimized in a tractable alternating optimization framework with gradual discrepancy minimization. Extensive experimental results on three benchmark datasets validate the
-efficacy of the proposed discrepancy minimizing hashing.
+Due to the large cross-modality discrepancy between 2D sketches and 3D
+shapes, retrieving 3D shapes by sketches is a significantly challenging task.
+To address this problem, we propose a novel framework to learn a discriminative
+deep cross-modality adaptation model in this paper. Specifically, we first
+separately adopt two metric networks, following two deep convolutional neural
+networks (CNNs), to learn modality-specific discriminative features based on an
+importance-aware metric learning method. Subsequently, we explicitly introduce
+a cross-modality transformation network to compensate for the divergence
+between two modalities, which can transfer features of 2D sketches to the
+feature space of 3D shapes. We develop an adversarial learning based method to
+train the transformation model, by simultaneously enhancing the holistic
+correlations between data distributions of two modalities, and mitigating the
+local semantic divergences through minimizing a cross-modality mean discrepancy
+term. Experimental results on the SHREC 2013 and SHREC 2014 datasets clearly
+show the superior retrieval performance of our proposed model, compared to the
+state-of-the-art approaches.

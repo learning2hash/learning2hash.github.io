@@ -5,9 +5,9 @@ authors: Chaitanya K. Ryali, John J. Hopfield, Leopold Grinberg, Dmitry Krotov
 conference: Proceedings of the International Conference on Machine Learning 2020 pp.8739-8750
 year: 2020
 bibkey: ryali2020bio
-citations: 4
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.04907'}]
-tags: ["Evaluation", "Hashing Methods", "ICML", "Locality-Sensitive-Hashing", "Similarity Search", "Unsupervised"]
+tags: ["Hashing Methods", "ICML", "Locality-Sensitive-Hashing", "Similarity Search", "Unsupervised"]
 short_authors: Ryali et al.
 ---
 The fruit fly Drosophila's olfactory circuit has inspired a new locality

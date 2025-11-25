@@ -7,9 +7,9 @@ authors: Bingyuan Liu, Jiantao Zhang, Xiaoting Zhang, Wei Zhang, Chuanhui Yu, Yu
 conference: Arxiv
 year: 2019
 bibkey: liu2019furnishing
-citations: 6
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.09299'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Supervised", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised"]
 short_authors: Liu et al.
 ---
 Understanding interior scenes has attracted enormous interest in computer

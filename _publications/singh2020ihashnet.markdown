@@ -6,9 +6,9 @@ authors: Avantika Singh, Chirag Vashist, Pratyush Gaurav, Aditya Nigam, Rameshwa
 conference: 2020 IEEE International Joint Conference on Biometrics (IJCB)
 year: 2020
 bibkey: singh2020ihashnet
-citations: 5
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.03881'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Vector Indexing"]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Neural Hashing"]
 short_authors: Singh et al.
 ---
 Massive biometric deployments are pervasive in today's world. But despite the

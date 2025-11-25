@@ -5,9 +5,9 @@ authors: Wenxuan Fang, Kai Zhang, Yoli Shavit, Wensen Feng
 conference: 2022 International Joint Conference on Neural Networks (IJCNN)
 year: 2022
 bibkey: fang2022adversarial
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.03871'}]
-tags: ["Datasets", "Image Retrieval", "Robustness"]
+tags: ["Image Retrieval", "Robustness"]
 short_authors: Fang et al.
 ---
 Image retrieval methods for place recognition learn global image descriptors

@@ -6,9 +6,9 @@ authors: Jacob Devlin, Saurabh Gupta, Ross Girshick, Margaret Mitchell, C. Lawre
 conference: Arxiv
 year: 2015
 bibkey: devlin2015exploring
-citations: 177
+citations: 158
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1505.04467'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Devlin et al.
 ---
 We explore a variety of nearest neighbor baseline approaches for image

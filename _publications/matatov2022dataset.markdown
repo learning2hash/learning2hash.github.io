@@ -6,9 +6,9 @@ authors: Hana Matatov, Mor Naaman, Ofra Amir
 conference: Arxiv
 year: 2022
 bibkey: matatov2022dataset
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.07167'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability", "Survey Paper"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Hana Matatov, Mor Naaman, Ofra Amir
 ---
 The massive spread of visual content through the web and social media poses

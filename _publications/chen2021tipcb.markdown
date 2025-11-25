@@ -4,13 +4,13 @@ title: 'TIPCB: A Simple But Effective Part-based Convolutional Baseline For Text
   Person Search'
 authors: Yuhao Chen, Guoqing Zhang, Yujiang Lu, Zhenxing Wang, Yuhui Zheng, Ruili
   Wang
-conference: Neurocomputing
+conference: Arxiv
 year: 2021
 bibkey: chen2021tipcb
-citations: 159
+citations: 7
 additional_links: [{name: Code, url: 'https://github.com/OrangeYHChen/TIPCB'}, {name: Paper,
     url: 'https://arxiv.org/abs/2105.11628'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Chen et al.
 ---
 Text-based person search is a sub-task in the field of image retrieval, which

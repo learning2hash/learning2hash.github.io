@@ -5,9 +5,9 @@ authors: Ahmet Iscen, Giorgos Tolias, Yannis Avrithis, Ondrej Chum
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: iscen2018mining
-citations: 113
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.11095'}]
-tags: ["CVPR", "Distance Metric Learning", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["CVPR", "Distance Metric Learning", "Unsupervised"]
 short_authors: Iscen et al.
 ---
 In this work we present a novel unsupervised framework for hard training

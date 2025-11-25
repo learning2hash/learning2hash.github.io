@@ -6,9 +6,9 @@ authors: Qijiong Liu, Hengchang Hu, Jiahao Wu, Jieming Zhu, Min-Yen Kan, Xiao-Mi
 conference: Companion Proceedings of the ACM Web Conference 2024
 year: 2024
 bibkey: liu2024discrete
-citations: 2
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.08206'}]
-tags: ["Efficiency", "Memory Efficiency", "Recommender Systems"]
+tags: ["Efficiency", "Memory Efficiency", "Quantization", "Recommender Systems"]
 short_authors: Liu et al.
 ---
 Incorporating item content information into click-through rate (CTR)

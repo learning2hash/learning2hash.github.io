@@ -5,9 +5,9 @@ authors: Yuefu Zhou, Shanshan Huang, Ya Zhang, Yanfeng Wang
 conference: 2017 IEEE Visual Communications and Image Processing (VCIP)
 year: 2017
 bibkey: zhou2017deep
-citations: 4
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.11445'}]
-tags: ["Evaluation", "Hashing Methods", "Neural Hashing", "Quantization"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
 short_authors: Zhou et al.
 ---
 With the explosive growth of image databases, deep hashing, which learns

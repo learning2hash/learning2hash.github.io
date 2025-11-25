@@ -6,9 +6,9 @@ authors: Liang Lin, Guangrun Wang, Wangmeng Zuo, Xiangchu Feng, Lei Zhang
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2016
 bibkey: lin2016cross
-citations: 153
+citations: 154
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.04039'}]
-tags: ["Evaluation"]
+tags: ["Distance Metric Learning", "Evaluation", "Similarity Search"]
 short_authors: Lin et al.
 ---
 Cross-domain visual data matching is one of the fundamental problems in many

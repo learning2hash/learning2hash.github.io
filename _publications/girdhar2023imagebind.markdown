@@ -6,9 +6,9 @@ authors: Rohit Girdhar, Alaaeldin El-Nouby, Zhuang Liu, Mannat Singh, Kalyan Vas
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: girdhar2023imagebind
-citations: 359
+citations: 552
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.05665'}]
-tags: ["CVPR", "Few Shot & Zero Shot", "Multimodal Retrieval", "Supervised"]
+tags: ["CVPR", "Few Shot & Zero Shot", "Multimodal Retrieval"]
 short_authors: Girdhar et al.
 ---
 We present ImageBind, an approach to learn a joint embedding across six

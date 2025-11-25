@@ -4,13 +4,13 @@ title: Learning Sequence Descriptor Based On Spatio-temporal Attention For Visua
   Place Recognition
 authors: Junqiao Zhao, Fenglin Zhang, Yingfeng Cai, Gengxuan Tian, Wenjie Mu, Chen
   Ye, Tiantian Feng
-conference: IEEE Robotics and Automation Letters
+conference: Arxiv
 year: 2023
 bibkey: zhao2023learning
-citations: 7
+citations: 2
 additional_links: [{name: Code, url: 'https://github.com/tiev-tongji/Spatio-Temporal-SeqVPR'},
   {name: Paper, url: 'https://arxiv.org/abs/2305.11467'}]
-tags: ["Datasets", "Evaluation", "Robustness"]
+tags: ["Datasets", "Robustness"]
 short_authors: Zhao et al.
 ---
 Visual Place Recognition (VPR) aims to retrieve frames from a geotagged

@@ -2,13 +2,13 @@
 layout: publication
 title: Hadamard Matrix Guided Online Hashing
 authors: Mingbao Lin, Rongrong Ji, Hong Liu, Xiaoshuai Sun, Shen Chen, Qi Tian
-conference: International Journal of Computer Vision
+conference: Arxiv
 year: 2019
 bibkey: lin2019hadamard
-citations: 37
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/lmbxmu/mycode'}, {name: Paper,
     url: 'https://arxiv.org/abs/1905.04454'}]
-tags: ["Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing", "Scalability", "Supervised"]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Supervised"]
 short_authors: Lin et al.
 ---
 Online image hashing has attracted increasing research attention recently,

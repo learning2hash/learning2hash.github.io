@@ -6,9 +6,9 @@ authors: Anjan Dutta, Zeynep Akata
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: dutta2019semantically
-citations: 153
+citations: 159
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.03372'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Robustness"]
+tags: ["CVPR", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Anjan Dutta, Zeynep Akata
 ---
 Zero-shot sketch-based image retrieval (SBIR) is an emerging task in computer

@@ -5,9 +5,9 @@ authors: "Filip Radenovi\u0107, Giorgos Tolias, Ond\u0159ej Chum"
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2017
 bibkey: "radenovi\u01072017fine"
-citations: 978
+citations: 195
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.02512'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Efficiency", "Image Retrieval"]
 short_authors: "Filip Radenovi\u0107, Giorgos Tolias, Ond\u0159ej Chum"
 ---
 Image descriptors based on activations of Convolutional Neural Networks

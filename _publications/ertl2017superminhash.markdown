@@ -5,7 +5,7 @@ authors: Otmar Ertl
 conference: Arxiv
 year: 2017
 bibkey: ertl2017superminhash
-citations: 13
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.05698'}]
 tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Otmar Ertl

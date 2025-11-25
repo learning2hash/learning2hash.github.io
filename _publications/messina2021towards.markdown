@@ -7,9 +7,9 @@ authors: "Nicola Messina, Giuseppe Amato, Fabrizio Falchi, Claudio Gennaro, St\x
 conference: 2021 International Conference on Content-Based Multimedia Indexing (CBMI)
 year: 2021
 bibkey: messina2021towards
-citations: 7
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.00358'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Messina et al.
 ---
 Cross-modal retrieval is an important functionality in modern search engines,

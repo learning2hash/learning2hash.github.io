@@ -2,12 +2,12 @@
 layout: publication
 title: Fusing Audio And Metadata Embeddings Improves Language-based Audio Retrieval
 authors: Paul Primus, Gerhard Widmer
-conference: Arxiv
+conference: 2024 32nd European Signal Processing Conference (EUSIPCO)
 year: 2024
 bibkey: primus2024fusing
-citations: 0
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.15897'}]
-tags: ["Evaluation"]
+tags: ["Audio Retrieval", "Evaluation", "Multimodal Retrieval"]
 short_authors: Paul Primus, Gerhard Widmer
 ---
 Matching raw audio signals with textual descriptions requires understanding

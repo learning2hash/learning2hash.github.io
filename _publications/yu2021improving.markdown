@@ -6,9 +6,9 @@ conference: Proceedings of the 30th ACM International Conference on Information 
   Knowledge Management
 year: 2021
 bibkey: yu2021improving
-citations: 44
+citations: 50
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.13454'}]
-tags: ["CIKM", "Datasets", "Distance Metric Learning"]
+tags: ["CIKM", "Distance Metric Learning", "Text Retrieval"]
 short_authors: Hongchien Yu, Chenyan Xiong, Jamie Callan
 ---
 Dense retrieval systems conduct first-stage retrieval using embedded

@@ -2,12 +2,12 @@
 layout: publication
 title: Cross-media Similarity Evaluation For Web Image Retrieval In The Wild
 authors: Jianfeng Dong, Xirong Li, Duanqing Xu
-conference: IEEE Transactions on Multimedia
+conference: Arxiv
 year: 2017
 bibkey: dong2017cross
-citations: 18
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.01305'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Scalability"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Jianfeng Dong, Xirong Li, Duanqing Xu
 ---
 In order to retrieve unlabeled images by textual queries, cross-media

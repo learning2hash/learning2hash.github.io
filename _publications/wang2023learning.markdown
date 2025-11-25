@@ -6,9 +6,9 @@ authors: Binbin Wang, Mingming Li, Zhixiong Zeng, Jingwei Zhuo, Songlin Wang, Su
 conference: Companion Proceedings of the ACM Web Conference 2023
 year: 2023
 bibkey: wang2023learning
-citations: 5
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.11009'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Large Scale Search", "Scalability", "Tools & Libraries"]
+tags: ["Efficiency", "Large Scale Search", "Scalability", "Similarity Search"]
 short_authors: Wang et al.
 ---
 Retrieving relevant items that match users' queries from billion-scale corpus

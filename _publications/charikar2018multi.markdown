@@ -5,9 +5,9 @@ authors: Moses Charikar, Paris Siminelakis
 conference: 2019 IEEE 60th Annual Symposium on Foundations of Computer Science (FOCS)
 year: 2018
 bibkey: charikar2018multi
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.07635'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods"]
 short_authors: Moses Charikar, Paris Siminelakis
 ---
 A basic computational primitive in the analysis of massive datasets is

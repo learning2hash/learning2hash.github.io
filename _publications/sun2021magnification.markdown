@@ -6,7 +6,7 @@ authors: Yibao Sun, Xingru Huang, Yaqi Wang, Huiyu Zhou, Qianni Zhang
 conference: Arxiv
 year: 2021
 bibkey: sun2021magnification
-citations: 4
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.01063'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Sun et al.

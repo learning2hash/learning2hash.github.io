@@ -8,7 +8,7 @@ year: 2021
 bibkey: bera2021quint
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.04206'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods"]
+tags: ["Efficiency", "Hashing Methods"]
 short_authors: Bera et al.
 ---
 Representation learning using network embedding has received tremendous

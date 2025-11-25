@@ -5,9 +5,9 @@ authors: "Artsiom Sanakoyeu, Vadim Tschernezki, Uta B\xFCchler, Bj\xF6rn Ommer"
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: sanakoyeu2019divide
-citations: 122
+citations: 113
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.05990'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation"]
+tags: ["CVPR", "Datasets", "Distance Metric Learning"]
 short_authors: Sanakoyeu et al.
 ---
 Learning the embedding space, where semantically similar objects are located

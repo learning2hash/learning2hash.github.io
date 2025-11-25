@@ -5,9 +5,9 @@ authors: Yao Tian, Tingyun Yan, Xi Zhao, Kai Huang, Xiaofang Zhou
 conference: IEEE Transactions on Knowledge and Data Engineering
 year: 2022
 bibkey: tian2022a
-citations: 13
+citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.10028'}]
-tags: ["Datasets", "Similarity Search", "Vector Indexing"]
+tags: ["Efficiency", "Similarity Search", "Vector Indexing"]
 short_authors: Tian et al.
 ---
 Indexing is an effective way to support efficient query processing in large

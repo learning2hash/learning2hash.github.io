@@ -5,9 +5,9 @@ authors: Evgeniya Ustinova, Victor Lempitsky
 conference: Arxiv
 year: 2016
 bibkey: ustinova2016learning
-citations: 271
+citations: 260
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.00822'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Distance Metric Learning", "Similarity Search", "Unsupervised"]
 short_authors: Evgeniya Ustinova, Victor Lempitsky
 ---
 We suggest a loss for learning deep embeddings. The new loss does not

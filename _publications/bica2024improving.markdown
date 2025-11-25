@@ -9,7 +9,7 @@ year: 2024
 bibkey: bica2024improving
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.09865'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: ["Distance Metric Learning", "Evaluation", "Multimodal Retrieval"]
 short_authors: Bica et al.
 ---
 We introduce SPARse Fine-grained Contrastive Alignment (SPARC), a simple

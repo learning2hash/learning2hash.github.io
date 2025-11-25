@@ -8,7 +8,7 @@ year: 2019
 bibkey: krishna2019video
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.09518'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: ["Hashing Methods", "Neural Hashing", "Scalability", "Video Retrieval"]
 short_authors: Arjun Krishna, A S Akil Arif Ibrahim
 ---
 In this report, we introduce a video hashing method for scalable video

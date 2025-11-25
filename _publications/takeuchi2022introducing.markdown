@@ -5,9 +5,9 @@ authors: Daiki Takeuchi, Yasunori Ohishi, Daisuke Niizumi, Noboru Harada, Kunio 
 conference: Interspeech 2022
 year: 2022
 bibkey: takeuchi2022introducing
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.09732'}]
-tags: ["Datasets"]
+tags: ["Audio Retrieval", "Datasets", "Interspeech"]
 short_authors: Takeuchi et al.
 ---
 The amount of audio data available on public websites is growing rapidly, and

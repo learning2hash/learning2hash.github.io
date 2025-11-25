@@ -7,9 +7,9 @@ conference: 'Proceedings of the 2022 Conference of the North American Chapter of
   Association for Computational Linguistics: Human Language Technologies'
 year: 2022
 bibkey: ren2022leaner
-citations: 5
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.13913'}]
-tags: ["Image Retrieval", "NAACL", "Tools & Libraries"]
+tags: ["Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Siyu Ren, Kenny Q. Zhu
 ---
 Current text-image approaches (e.g., CLIP) typically adopt dual-encoder

@@ -5,7 +5,7 @@ authors: Sobhan Shafiei, Morteza Babaie, Shivam Kalra, H. R. Tizhoosh
 conference: Arxiv
 year: 2021
 bibkey: shafiei2021colored
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.07611'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Shafiei et al.

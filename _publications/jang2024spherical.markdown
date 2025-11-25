@@ -6,9 +6,9 @@ authors: Young Kyun Jang, Dat Huynh, Ashish Shah, Wen-Kai Chen, Ser-Nam Lim
 conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: jang2024spherical
-citations: 3
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.00571'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Scalability", "Supervised"]
+tags: ["Few Shot & Zero Shot", "Image Retrieval", "Scalability"]
 short_authors: Jang et al.
 ---
 Composed Image Retrieval (CIR) is a complex task that retrieves images using

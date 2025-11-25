@@ -3,12 +3,12 @@ layout: publication
 title: Supervised Deep Hashing For Hierarchical Labeled Data
 authors: Dan Wang, Heyan Huang, Chi Lu, Bo-Si Feng, Liqiang Nie, Guihua Wen, Xian-Ling
   Mao
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2017
 bibkey: wang2017supervised
-citations: 10
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.02088'}]
-tags: ["AAAI", "Datasets", "Hashing Methods", "Neural Hashing", "Scalability", "Supervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Wang et al.
 ---
 Recently, hashing methods have been widely used in large-scale image

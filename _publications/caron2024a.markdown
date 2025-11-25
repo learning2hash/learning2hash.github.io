@@ -2,12 +2,12 @@
 layout: publication
 title: A Generative Approach For Wikipedia-scale Visual Entity Recognition
 authors: Mathilde Caron, Ahmet Iscen, Alireza Fathi, Cordelia Schmid
-conference: Arxiv
+conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2024
 bibkey: caron2024a
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.02041'}]
-tags: ["Evaluation", "Large Scale Search", "Scalability", "Tools & Libraries"]
+tags: ["CVPR", "Large Scale Search", "Scalability"]
 short_authors: Caron et al.
 ---
 In this paper, we address web-scale visual entity recognition, specifically

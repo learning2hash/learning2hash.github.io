@@ -2,13 +2,13 @@
 layout: publication
 title: Search Efficient Binary Network Embedding
 authors: Daokun Zhang, Jie Yin, Xingquan Zhu, Chengqi Zhang
-conference: ACM Transactions on Knowledge Discovery from Data
+conference: TKDD-2021
 year: 2019
 bibkey: zhang2019search
-citations: 2
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/daokunzhang/BinaryNE'}, {
     name: Paper, url: 'https://arxiv.org/abs/1901.04097'}]
-tags: ["Compact Codes", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Memory Efficiency", "Scalability", "Similarity Search"]
+tags: ["Compact Codes", "Distance Metric Learning", "Hashing Methods", "Memory Efficiency", "Similarity Search"]
 short_authors: Zhang et al.
 ---
 Traditional network embedding primarily focuses on learning a continuous

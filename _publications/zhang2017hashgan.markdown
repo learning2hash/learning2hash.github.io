@@ -6,9 +6,9 @@ authors: Xi Zhang, Siyu Zhou, Jiashi Feng, Hanjiang Lai, Bo Li, Yan Pan, Jian Yi
 conference: Arxiv
 year: 2017
 bibkey: zhang2017hashgan
-citations: 17
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.09347'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Robustness", "Tools & Libraries"]
+tags: ["Evaluation", "Hashing Methods", "Multimodal Retrieval"]
 short_authors: Zhang et al.
 ---
 As the rapid growth of multi-modal data, hashing methods for cross-modal

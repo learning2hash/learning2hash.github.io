@@ -6,9 +6,9 @@ conference: 2018 IEEE International Conference on Image Processing, Applications
   Systems (IPAS)
 year: 2018
 bibkey: tonioni2018a
-citations: 44
+citations: 45
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.01733'}]
-tags: ["Evaluation", "Image Retrieval", "Neural Hashing", "Similarity Search"]
+tags: ["Evaluation", "Image Retrieval", "Similarity Search"]
 short_authors: Alessio Tonioni, Eugenio Serra, Luigi di Stefano
 ---
 Recognition of grocery products in store shelves poses peculiar challenges.

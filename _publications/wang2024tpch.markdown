@@ -4,13 +4,13 @@ title: 'TPCH: Tensor-interacted Projection And Cooperative Hashing For Multi-vie
   Clustering'
 authors: Zhongwen Wang, Xingfeng Li, Yinghui Sun, Quansen Sun, Yuan Sun, Han Ling,
   Jian Dai, Zhenwen Ren
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2024
 bibkey: wang2024tpch
-citations: 1
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/jankin-wang/TPCH\'}, {name: Paper,
     url: 'https://arxiv.org/abs/2412.18847'}]
-tags: ["AAAI", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Scalability"]
+tags: ["Efficiency", "Hashing Methods", "Scalability"]
 short_authors: Wang et al.
 ---
 In recent years, anchor and hash-based multi-view clustering methods have

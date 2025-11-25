@@ -5,9 +5,9 @@ authors: Yiwei Ma, Guohai Xu, Xiaoshuai Sun, Ming Yan, Ji Zhang, Rongrong Ji
 conference: Proceedings of the 30th ACM International Conference on Multimedia
 year: 2022
 bibkey: ma2022x
-citations: 165
+citations: 217
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.07285'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Self-Supervised", "Text Retrieval"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Self-Supervised", "Video Retrieval"]
 short_authors: Ma et al.
 ---
 Video-text retrieval has been a crucial and fundamental task in multi-modal

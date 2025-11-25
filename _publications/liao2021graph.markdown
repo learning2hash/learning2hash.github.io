@@ -2,13 +2,13 @@
 layout: publication
 title: Graph Sampling Based Deep Metric Learning For Generalizable Person Re-identification
 authors: Shengcai Liao, Ling Shao
-conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2021
 bibkey: liao2021graph
-citations: 106
+citations: 9
 additional_links: [{name: Code, url: 'https://github.com/ShengcaiLiao/QAConv'}, {
     name: Paper, url: 'https://arxiv.org/abs/2104.01546'}]
-tags: ["CVPR", "Distance Metric Learning", "Efficiency", "Scalability"]
+tags: ["Distance Metric Learning", "Efficiency", "Graph Based ANN"]
 short_authors: Shengcai Liao, Ling Shao
 ---
 Recent studies show that, both explicit deep feature matching as well as

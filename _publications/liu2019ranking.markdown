@@ -6,9 +6,9 @@ authors: Xuanwu Liu, Guoxian Yu, Carlotta Domeniconi, Jun Wang, Yazhou Ren, Maoz
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2019
 bibkey: liu2019ranking
-citations: 59
+citations: 65
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.04450'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Hashing Methods", "Memory Efficiency", "Multimodal Retrieval", "Supervised"]
+tags: ["AAAI", "Hashing Methods", "Multimodal Retrieval", "Supervised"]
 short_authors: Liu et al.
 ---
 Cross-modal hashing has been receiving increasing interests for its low

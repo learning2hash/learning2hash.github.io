@@ -6,9 +6,9 @@ conference: Proceedings of the 2021 ACM SIGIR International Conference on Theory
   Information Retrieval
 year: 2021
 bibkey: wang2021pseudo
-citations: 54
+citations: 47
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.11251'}]
-tags: ["Datasets", "Evaluation", "SIGIR"]
+tags: ["Re-Ranking", "SIGIR"]
 short_authors: Wang et al.
 ---
 Pseudo-relevance feedback mechanisms, from Rocchio to the relevance models,

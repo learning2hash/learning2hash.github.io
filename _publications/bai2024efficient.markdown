@@ -6,9 +6,9 @@ authors: Ziqian Bai, Feitong Tan, Sean Fanello, Rohit Pandey, Mingsong Dou, Shic
 conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2024
 bibkey: bai2024efficient
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.01543'}]
-tags: ["CVPR", "Efficiency", "Evaluation"]
+tags: ["CVPR", "Efficiency"]
 short_authors: Bai et al.
 ---
 3D head avatars built with neural implicit volumetric representations have

@@ -7,7 +7,7 @@ year: 2018
 bibkey: thoreau2018deep
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.07592'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Evaluation"]
+tags: ["Distance Metric Learning", "Efficiency", "Evaluation"]
 short_authors: Michael Thoreau, Navinda Kottege
 ---
 Tracking by detection is a common approach to solving the Multiple Object

@@ -6,10 +6,10 @@ authors: Sergio Izquierdo, Javier Civera
 conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: izquierdo2024close
-citations: 3
+citations: 4
 additional_links: [{name: Code, url: 'https://github.com/serizba/cliquemining'}, {
     name: Paper, url: 'https://arxiv.org/abs/2407.02422'}]
-tags: ["Evaluation"]
+tags: ["Distance Metric Learning", "Evaluation", "Graph Based ANN", "Image Retrieval"]
 short_authors: Sergio Izquierdo, Javier Civera
 ---
 Visual Place Recognition (VPR) plays a critical role in many localization and

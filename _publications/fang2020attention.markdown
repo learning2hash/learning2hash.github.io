@@ -5,9 +5,9 @@ authors: Jiansheng Fang, Yanwu Xu, Xiaoqing Zhang, Yan Hu, Jiang Liu
 conference: 2020 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
 year: 2020
 bibkey: fang2020attention
-citations: 12
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.03466'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Fang et al.
 ---
 Deep hashing methods have been proved to be effective for the large-scale

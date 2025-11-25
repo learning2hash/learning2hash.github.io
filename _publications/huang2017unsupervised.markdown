@@ -5,9 +5,9 @@ authors: Shanshan Huang, Yichao Xiong, Ya Zhang, Jia Wang
 conference: Proceedings of the on Thematic Workshops of ACM Multimedia 2017
 year: 2017
 bibkey: huang2017unsupervised
-citations: 54
+citations: 58
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.08798'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Quantization", "Scalability", "Supervised", "Unsupervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Quantization", "Unsupervised"]
 short_authors: Huang et al.
 ---
 Hashing has played a pivotal role in large-scale image retrieval. With the

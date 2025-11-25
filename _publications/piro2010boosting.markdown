@@ -2,12 +2,12 @@
 layout: publication
 title: Boosting K-nn For Categorization Of Natural Scenes
 authors: Paolo Piro, Richard Nock, Frank Nielsen, Michel Barlaud
-conference: International Journal of Computer Vision
+conference: Arxiv
 year: 2010
 bibkey: piro2010boosting
-citations: 11
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1001.1221'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Image Retrieval", "Supervised"]
 short_authors: Piro et al.
 ---
 The k-nearest neighbors (k-NN) classification rule has proven extremely

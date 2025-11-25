@@ -7,7 +7,7 @@ year: 2016
 bibkey: koutaki2016fast
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.10017'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Quantization", "Scalability", "Supervised"]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Image Retrieval", "Supervised"]
 short_authors: Gou Koutaki, Keiichiro Shirai, Mitsuru Ambai
 ---
 In this paper, we propose a learning-based supervised discrete hashing

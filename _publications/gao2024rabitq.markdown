@@ -6,9 +6,9 @@ authors: Jianyang Gao, Cheng Long
 conference: Proceedings of the ACM on Management of Data
 year: 2024
 bibkey: gao2024rabitq
-citations: 18
+citations: 28
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.12497'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Quantization", "Similarity Search"]
+tags: ["Efficiency", "Quantization", "Similarity Search"]
 short_authors: Jianyang Gao, Cheng Long
 ---
 Searching for approximate nearest neighbors (ANN) in the high-dimensional

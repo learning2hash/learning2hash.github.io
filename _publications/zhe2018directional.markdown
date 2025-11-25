@@ -3,12 +3,12 @@ layout: publication
 title: Directional Statistics-based Deep Metric Learning For Image Classification
   And Retrieval
 authors: Xuefei Zhe, Shifeng Chen, Hong Yan
-conference: Pattern Recognition
+conference: Arxiv
 year: 2018
 bibkey: zhe2018directional
-citations: 54
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.09662'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Xuefei Zhe, Shifeng Chen, Hong Yan
 ---
 Deep distance metric learning (DDML), which is proposed to learn image

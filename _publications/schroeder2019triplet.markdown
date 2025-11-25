@@ -5,9 +5,9 @@ authors: Brigit Schroeder, Subarna Tripathi, Hanlin Tang
 conference: 2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)
 year: 2019
 bibkey: schroeder2019triplet
-citations: 17
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.09256'}]
-tags: ["Evaluation", "ICCV", "Image Retrieval"]
+tags: ["Evaluation", "ICCV", "Image Retrieval", "Supervised"]
 short_authors: Brigit Schroeder, Subarna Tripathi, Hanlin Tang
 ---
 Scene graphs have become an important form of structured knowledge for tasks

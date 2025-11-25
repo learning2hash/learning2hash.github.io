@@ -5,9 +5,9 @@ authors: Pascal Mettes, William Thong, Cees G. M. Snoek
 conference: International Journal of Computer Vision
 year: 2021
 bibkey: mettes2021object
-citations: 18
+citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.04715'}]
-tags: ["Datasets", "Evaluation", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Video Retrieval"]
 short_authors: Pascal Mettes, William Thong, Cees G. M. Snoek
 ---
 This work strives for the classification and localization of human actions in

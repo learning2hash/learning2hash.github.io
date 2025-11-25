@@ -5,7 +5,7 @@ authors: Leo Sampaio Ferraz Ribeiro, Tu Bui, John Collomosse, Moacir Ponti
 conference: 2021 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)
 year: 2021
 bibkey: ribeiro2021scene
-citations: 6
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.07353'}]
 tags: ["ICCV", "Image Retrieval", "Self-Supervised"]
 short_authors: Ribeiro et al.

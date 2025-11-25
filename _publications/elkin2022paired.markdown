@@ -8,7 +8,7 @@ year: 2022
 bibkey: elkin2022paired
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.06553'}]
-tags: ["Datasets", "Tree Based ANN"]
+tags: ["Scalability", "Similarity Search", "Tree Based ANN"]
 short_authors: Yury Elkin, Vitaliy Kurlin
 ---
 This paper studies the important problem of finding all \(k\)-nearest neighbors

@@ -7,7 +7,7 @@ year: 2018
 bibkey: wei2018optimal
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.07527'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Alexander Wei
 ---
 We show that approximate near neighbor search in high dimensions can be

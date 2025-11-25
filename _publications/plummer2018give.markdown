@@ -2,12 +2,12 @@
 layout: publication
 title: Give Me A Hint! Navigating Image Databases Using Human-in-the-loop Feedback
 authors: Bryan A. Plummer, M. Hadi Kiapour, Shuai Zheng, Robinson Piramuthu
-conference: 2019 IEEE Winter Conference on Applications of Computer Vision (WACV)
+conference: Arxiv
 year: 2018
 bibkey: plummer2018give
-citations: 8
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.08714'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: ["Datasets", "Image Retrieval", "Similarity Search"]
 short_authors: Plummer et al.
 ---
 In this paper, we introduce an attribute-based interactive image search which

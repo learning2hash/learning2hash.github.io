@@ -2,12 +2,12 @@
 layout: publication
 title: Supervised Hashing With End-to-end Binary Deep Neural Network
 authors: Dang-Khoa Le Tan, Thanh-Toan Do, Ngai-Man Cheung
-conference: 2018 25th IEEE International Conference on Image Processing (ICIP)
+conference: Arxiv
 year: 2017
 bibkey: tan2017supervised
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08901'}]
-tags: ["Compact Codes", "Datasets", "Hashing Methods", "Image Retrieval", "Scalability", "Supervised"]
+tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Scalability", "Supervised"]
 short_authors: Dang-Khoa Le Tan, Thanh-Toan Do, Ngai-Man Cheung
 ---
 Image hashing is a popular technique applied to large scale content-based

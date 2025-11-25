@@ -5,9 +5,9 @@ authors: Jiansheng Fang, Huazhu Fu, Jiang Liu
 conference: Medical Image Analysis
 year: 2021
 bibkey: fang2021deep
-citations: 53
+citations: 60
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.12346'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Tools & Libraries"]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Jiansheng Fang, Huazhu Fu, Jiang Liu
 ---
 Deep hashing methods have been shown to be the most efficient approximate

@@ -5,9 +5,9 @@ authors: Jaiyam Sharma, Saket Navlakha
 conference: Arxiv
 year: 2018
 bibkey: sharma2018improving
-citations: 6
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.01844'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Jaiyam Sharma, Saket Navlakha
 ---
 We propose a new class of data-independent locality-sensitive hashing (LSH)

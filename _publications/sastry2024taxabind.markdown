@@ -8,7 +8,7 @@ bibkey: sastry2024taxabind
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/mvrl/TaxaBind'}, {name: Paper,
     url: 'https://arxiv.org/abs/2411.00683'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Neural Hashing"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval"]
 short_authors: Sastry et al.
 ---
 We present TaxaBind, a unified embedding space for characterizing any species

@@ -6,9 +6,9 @@ authors: Suraj Kothawade, Donna Roy, Michele Fenzi, Elmar Haussmann, Jose M. Alv
 conference: 2022 IEEE Intelligent Vehicles Symposium (IV)
 year: 2022
 bibkey: kothawade2022object
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.01778'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
+tags: ["Datasets", "Image Retrieval", "Scalability"]
 short_authors: Kothawade et al.
 ---
 Retrieving images with objects that are semantically similar to objects of

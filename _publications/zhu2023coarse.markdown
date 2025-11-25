@@ -6,10 +6,10 @@ authors: Yunquan Zhu, Xinkai Gao, Bo Ke, Ruizhi Qiao, Xing Sun
 conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2023
 bibkey: zhu2023coarse
-citations: 6
+citations: 7
 additional_links: [{name: Code, url: 'https://github.com/bassyess/CFCD'}, {name: Paper,
     url: 'https://arxiv.org/abs/2308.04008'}]
-tags: ["Efficiency", "Evaluation", "ICCV", "Image Retrieval", "Re-Ranking", "Tools & Libraries"]
+tags: ["Efficiency", "ICCV", "Image Retrieval"]
 short_authors: Zhu et al.
 ---
 Image retrieval targets to find images from a database that are visually

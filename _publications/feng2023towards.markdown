@@ -8,7 +8,7 @@ year: 2023
 bibkey: feng2023towards
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.18076'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing"]
+tags: ["Efficiency", "Hashing Methods", "Neural Hashing"]
 short_authors: Feng et al.
 ---
 Deep hashing retrieval has gained widespread use in big data retrieval due to

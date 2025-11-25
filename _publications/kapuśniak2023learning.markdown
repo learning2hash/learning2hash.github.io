@@ -8,7 +8,7 @@ year: 2023
 bibkey: "kapu\u015Bniak2023learning"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.03865'}]
-tags: ["Self-Supervised", "Supervised"]
+tags: ["Graph Based ANN", "Self-Supervised"]
 short_authors: "Kapu\u015Bniak et al."
 ---
 The rapid expansion of genomic sequence data calls for new methods to achieve

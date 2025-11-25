@@ -5,9 +5,9 @@ authors: "Amro Abbas, Kushal Tirumala, D\xE1niel Simig, Surya Ganguli, Ari S. Mo
 conference: Arxiv
 year: 2023
 bibkey: abbas2023semdedup
-citations: 7
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.09540'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Large Scale Search", "Scalability"]
+tags: ["Efficiency", "Large Scale Search", "Scalability"]
 short_authors: Abbas et al.
 ---
 Progress in machine learning has been driven in large part by massive

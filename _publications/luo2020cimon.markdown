@@ -3,12 +3,12 @@ layout: publication
 title: 'CIMON: Towards High-quality Hash Codes'
 authors: Xiao Luo, Daqing Wu, Zeyu Ma, Chong Chen, Minghua Deng, Jinwen Ma, Zhongming
   Jin, Jianqiang Huang, Xian-Sheng Hua
-conference: Thirtieth International Joint Conference on Artificial Intelligence {IJCAI-21}
+conference: Arxiv
 year: 2020
 bibkey: luo2020cimon
-citations: 25
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.07804'}]
-tags: ["AAAI", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "IJCAI", "Robustness", "Supervised", "Unsupervised"]
+tags: ["Efficiency", "Hashing Methods", "Robustness", "Unsupervised"]
 short_authors: Luo et al.
 ---
 Recently, hashing is widely used in approximate nearest neighbor search for

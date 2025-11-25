@@ -9,7 +9,7 @@ bibkey: sun2023rethinking
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/OpenMatch/ANCE-Tele'}, {
     name: Paper, url: 'https://arxiv.org/abs/2304.05845'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Supervised"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Sun et al.
 ---
 Few-shot dense retrieval (DR) aims to effectively generalize to novel search

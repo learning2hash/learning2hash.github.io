@@ -4,14 +4,12 @@ title: Integrating Semantics And Neighborhood Information With Graph-driven Gene
   Models For Document Retrieval
 authors: Zijing Ou, Qinliang Su, Jianxing Yu, Bang Liu, Jingwen Wang, Ruihui Zhao,
   Changyou Chen, Yefeng Zheng
-conference: 'Proceedings of the 59th Annual Meeting of the Association for Computational
-  Linguistics and the 11th International Joint Conference on Natural Language Processing
-  (Volume 1: Long Papers)'
+conference: ACL2021
 year: 2021
 bibkey: ou2021integrating
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.13066'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Memory Efficiency", "Scalability", "Text Retrieval"]
+tags: ["Efficiency", "Hashing Methods", "Memory Efficiency"]
 short_authors: Ou et al.
 ---
 With the need of fast retrieval speed and small memory footprint, document

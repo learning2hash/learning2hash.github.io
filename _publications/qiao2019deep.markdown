@@ -5,9 +5,9 @@ authors: Shishi Qiao, Ruiping Wang, Shiguang Shan, Xilin Chen
 conference: IEEE Transactions on Image Processing
 year: 2019
 bibkey: qiao2019deep
-citations: 21
+citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.01048'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Tools & Libraries", "Video Retrieval"]
+tags: ["Hashing Methods", "Video Retrieval"]
 short_authors: Qiao et al.
 ---
 Retrieving videos of a particular person with face image as a query via

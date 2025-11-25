@@ -7,7 +7,7 @@ year: 2023
 bibkey: lin2023searching
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.01556'}]
-tags: ["Datasets", "Graph Based ANN"]
+tags: ["Datasets", "Evaluation", "Similarity Search", "Vector Indexing"]
 short_authors: Jimmy Lin, Tommaso Teofili
 ---
 Nearly all implementations of top-\(k\) retrieval with dense vector

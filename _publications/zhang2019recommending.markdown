@@ -5,7 +5,7 @@ authors: Shuo Zhang, Krisztian Balog
 conference: Arxiv
 year: 2019
 bibkey: zhang2019recommending
-citations: 8
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.03595'}]
 tags: ["Evaluation", "Recommender Systems", "Tools & Libraries"]
 short_authors: Shuo Zhang, Krisztian Balog

@@ -2,12 +2,12 @@
 layout: publication
 title: Effective Image Retrieval Via Multilinear Multi-index Fusion
 authors: Zhizhong Zhang, Yuan Xie, Wensheng Zhang, Qi Tian
-conference: IEEE Transactions on Multimedia
+conference: Arxiv
 year: 2017
 bibkey: zhang2017effective
-citations: 19
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.09304'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries", "Vector Indexing"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Zhang et al.
 ---
 Multi-index fusion has demonstrated impressive performances in retrieval task

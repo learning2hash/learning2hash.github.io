@@ -5,9 +5,9 @@ authors: Chenggang Yan, Biao Gong, Yuxuan Wei, Yue Gao
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2020
 bibkey: yan2020deep
-citations: 421
+citations: 457
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.00169'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Supervised"]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Yan et al.
 ---
 Hashing is an efficient method for nearest neighbor search in large-scale

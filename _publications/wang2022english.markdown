@@ -6,10 +6,10 @@ conference: Proceedings of the 2022 Conference on Empirical Methods in Natural L
   Processing
 year: 2022
 bibkey: wang2022english
-citations: 12
+citations: 14
 additional_links: [{name: Code, url: 'https://github.com/yaushian/mSimCSE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2211.06127'}]
-tags: ["EMNLP", "Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: ["EMNLP", "Self-Supervised", "Unsupervised"]
 short_authors: Yau-Shian Wang, Ashley Wu, Graham Neubig
 ---
 Universal cross-lingual sentence embeddings map semantically similar

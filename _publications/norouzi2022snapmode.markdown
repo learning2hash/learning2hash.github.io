@@ -8,7 +8,7 @@ year: 2022
 bibkey: norouzi2022snapmode
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.03998'}]
-tags: ["Datasets", "Robustness", "Scalability", "Tools & Libraries"]
+tags: ["Image Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Norouzi et al.
 ---
 Fashion is now among the largest industries worldwide, for it represents

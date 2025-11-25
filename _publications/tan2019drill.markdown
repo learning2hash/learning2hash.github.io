@@ -7,9 +7,9 @@ authors: Fuwen Tan, Paola Cascante-Bonilla, Xiaoxiao Guo, Hui Wu, Song Feng, Vic
 conference: Arxiv
 year: 2019
 bibkey: tan2019drill
-citations: 14
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.03826'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Tan et al.
 ---
 This paper explores the task of interactive image retrieval using natural

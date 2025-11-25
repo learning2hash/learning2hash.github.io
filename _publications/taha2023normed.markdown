@@ -7,7 +7,7 @@ year: 2023
 bibkey: taha2023normed
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.01502'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems"]
+tags: ["Datasets", "Recommender Systems"]
 short_authors: Taha et al.
 ---
 Theoretical results from discrete geometry suggest that normed spaces can

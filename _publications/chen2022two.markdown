@@ -5,9 +5,9 @@ authors: Ran Chen, Hanli Wang, Lei Wang, Sam Kwong
 conference: Arxiv
 year: 2022
 bibkey: chen2022two
-citations: 5
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.05349'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries"]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Chen et al.
 ---
 Reasoning-based approaches have demonstrated their powerful ability for the

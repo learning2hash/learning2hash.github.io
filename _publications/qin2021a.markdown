@@ -1,0 +1,35 @@
+---
+layout: publication
+title: A Domain-oblivious Approach For Learning Concise Representations Of Filtered
+  Topological Spaces For Clustering
+authors: Yu Qin, Brittany Terese Fasy, Carola Wenk, Brian Summa
+conference: IEEE Transactions on Visualization and Computer Graphics
+year: 2021
+bibkey: qin2021a
+citations: 4
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.12208'}]
+tags: ["Evaluation", "Hashing Methods", "Memory Efficiency", "Scalability"]
+short_authors: Qin et al.
+---
+Persistence diagrams have been widely used to quantify the underlying
+features of filtered topological spaces in data visualization. In many
+applications, computing distances between diagrams is essential; however,
+computing these distances has been challenging due to the computational cost.
+In this paper, we propose a persistence diagram hashing framework that learns a
+binary code representation of persistence diagrams, which allows for fast
+computation of distances. This framework is built upon a generative adversarial
+network (GAN) with a diagram distance loss function to steer the learning
+process. Instead of using standard representations, we hash diagrams into
+binary codes, which have natural advantages in large-scale tasks. The training
+of this model is domain-oblivious in that it can be computed purely from
+synthetic, randomly created diagrams. As a consequence, our proposed method is
+directly applicable to various datasets without the need for retraining the
+model. These binary codes, when compared using fast Hamming distance, better
+maintain topological similarity properties between datasets than other
+vectorized representations. To evaluate this method, we apply our framework to
+the problem of diagram clustering and we compare the quality and performance of
+our approach to the state-of-the-art. In addition, we show the scalability of
+our approach on a dataset with 10k persistence diagrams, which is not possible
+with current techniques. Moreover, our experimental results demonstrate that
+our method is significantly faster with the potential of less memory usage,
+while retaining comparable or better quality comparisons.

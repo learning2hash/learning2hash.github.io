@@ -7,9 +7,9 @@ authors: "Yash Patel, Lluis Gomez, Raul Gomez, Mar\xE7al Rusi\xF1ol, Dimosthenis
 conference: Arxiv
 year: 2018
 bibkey: patel2018texttopicnet
-citations: 5
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.02110'}]
-tags: ["Datasets", "Evaluation", "Neural Hashing", "Self-Supervised", "Supervised"]
+tags: ["Image Retrieval", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Patel et al.
 ---
 The immense success of deep learning based methods in computer vision heavily

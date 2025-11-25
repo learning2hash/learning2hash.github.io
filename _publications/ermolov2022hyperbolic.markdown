@@ -6,7 +6,7 @@ authors: Aleksandr Ermolov, Leyla Mirvakhabova, Valentin Khrulkov, Nicu Sebe, Iv
 conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2022
 bibkey: ermolov2022hyperbolic
-citations: 65
+citations: 82
 additional_links: [{name: Code, url: 'https://github.com/htdt/hyp_metric'}, {name: Paper,
     url: 'https://arxiv.org/abs/2203.10833'}]
 tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation"]

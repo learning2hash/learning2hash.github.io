@@ -7,10 +7,10 @@ conference: 'Proceedings of the 2021 Conference of the North American Chapter of
   Association for Computational Linguistics: Human Language Technologies'
 year: 2021
 bibkey: sun2021lightningdot
-citations: 73
+citations: 79
 additional_links: [{name: Code, url: 'https://github.com/intersun/LightningDOT'},
   {name: Paper, url: 'https://arxiv.org/abs/2103.08784'}]
-tags: ["Efficiency", "Hybrid ANN Methods", "NAACL", "Re-Ranking", "Scalability", "Text Retrieval"]
+tags: ["Efficiency", "Image Retrieval", "Multimodal Retrieval", "Re-Ranking"]
 short_authors: Sun et al.
 ---
 Multimodal pre-training has propelled great advancement in

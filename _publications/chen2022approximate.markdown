@@ -8,9 +8,9 @@ conference: Proceedings of the 31st ACM International Conference on Information 
   Knowledge Management
 year: 2022
 bibkey: chen2022approximate
-citations: 14
+citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.10226'}]
-tags: ["CIKM", "Datasets", "Distance Metric Learning", "Efficiency", "Evaluation", "Graph Based ANN", "Recommender Systems", "Robustness", "Scalability", "Similarity Search"]
+tags: ["Distance Metric Learning", "Efficiency", "Graph Based ANN", "Recommender Systems", "Similarity Search"]
 short_authors: Chen et al.
 ---
 Model-based methods for recommender systems have been studied extensively for

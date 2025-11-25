@@ -3,12 +3,12 @@ layout: publication
 title: Multi-modal Reasoning Graph For Scene-text Based Fine-grained Image Classification
   And Retrieval
 authors: Andres Mafla, Sounak Dey, Ali Furkan Biten, Lluis Gomez, Dimosthenis Karatzas
-conference: 2021 IEEE Winter Conference on Applications of Computer Vision (WACV)
+conference: Arxiv
 year: 2020
 bibkey: mafla2020multi
-citations: 29
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.09809'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Mafla et al.
 ---
 Scene text instances found in natural images carry explicit semantic

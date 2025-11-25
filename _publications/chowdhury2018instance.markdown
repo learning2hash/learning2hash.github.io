@@ -3,13 +3,12 @@ layout: publication
 title: Instance-based Inductive Deep Transfer Learning By Cross-dataset Querying With
   Locality Sensitive Hashing
 authors: Somnath Basu Roy Chowdhury, K M Annervaz, Ambedkar Dukkipati
-conference: Proceedings of the 2nd Workshop on Deep Learning Approaches for Low-Resource
-  NLP (DeepLo 2019)
+conference: Arxiv
 year: 2018
 bibkey: chowdhury2018instance
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.05934'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Neural Hashing", "Supervised"]
+tags: ["Datasets", "Locality-Sensitive-Hashing", "Supervised"]
 short_authors: Somnath Basu Roy Chowdhury, K M Annervaz, Ambedkar Dukkipati
 ---
 Supervised learning models are typically trained on a single dataset and the

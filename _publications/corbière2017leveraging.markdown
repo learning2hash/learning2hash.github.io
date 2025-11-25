@@ -5,9 +5,9 @@ authors: "Charles Corbi\xE8re, Hedi Ben-Younes, Alexandre Ram\xE9, Charles Ollio
 conference: 2017 IEEE International Conference on Computer Vision Workshops (ICCVW)
 year: 2017
 bibkey: "corbi\xE8re2017leveraging"
-citations: 59
+citations: 98
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.09426'}]
-tags: ["Datasets", "ICCV", "Image Retrieval", "Supervised"]
+tags: ["Datasets", "ICCV", "Image Retrieval"]
 short_authors: "Corbi\xE8re et al."
 ---
 In this paper, we present a method to learn a visual representation adapted

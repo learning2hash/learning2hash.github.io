@@ -6,9 +6,9 @@ conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2019
 bibkey: verma2019generative
-citations: 26
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.08542'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["CVPR", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Verma et al.
 ---
 We present a probabilistic model for Sketch-Based Image Retrieval (SBIR)

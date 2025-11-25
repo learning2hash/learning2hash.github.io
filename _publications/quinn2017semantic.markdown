@@ -5,7 +5,7 @@ authors: Max H. Quinn, Erik Conser, Jordan M. Witte, Melanie Mitchell
 conference: 2018 IEEE 12th International Conference on Semantic Computing (ICSC)
 year: 2017
 bibkey: quinn2017semantic
-citations: 4
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.00088'}]
 tags: ["Evaluation", "Image Retrieval"]
 short_authors: Quinn et al.

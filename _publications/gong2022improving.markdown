@@ -6,9 +6,9 @@ authors: Yan Gong, Georgina Cosma
 conference: Pattern Recognition
 year: 2022
 bibkey: gong2022improving
-citations: 13
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.04754'}]
-tags: ["CVPR", "Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Yan Gong, Georgina Cosma
 ---
 Visual Semantic Embedding (VSE) aims to extract the semantics of images and

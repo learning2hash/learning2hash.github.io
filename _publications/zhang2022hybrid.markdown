@@ -2,14 +2,13 @@
 layout: publication
 title: Hybrid Inverted Index Is A Robust Accelerator For Dense Retrieval
 authors: Peitian Zhang, Zheng Liu, Shitao Xiao, Zhicheng Dou, Jing Yao
-conference: Proceedings of the 2023 Conference on Empirical Methods in Natural Language
-  Processing
+conference: Arxiv
 year: 2022
 bibkey: zhang2022hybrid
-citations: 2
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/namespace-Pt/Adon/tree/HI2'},
   {name: Paper, url: 'https://arxiv.org/abs/2210.05521'}]
-tags: ["EMNLP", "Efficiency", "Unsupervised", "Vector Indexing"]
+tags: ["Efficiency", "Unsupervised", "Vector Indexing"]
 short_authors: Zhang et al.
 ---
 Inverted file structure is a common technique for accelerating dense

@@ -3,7 +3,7 @@ layout: publication
 title: 'Descriptor Distillation: A Teacher-student-regularized Framework For Learning
   Local Descriptors'
 authors: Yuzhen Liu, Qiulei Dong
-conference: International Journal of Computer Vision
+conference: Arxiv
 year: 2022
 bibkey: liu2022descriptor
 citations: 0

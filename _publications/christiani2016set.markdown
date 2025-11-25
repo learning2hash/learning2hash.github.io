@@ -2,12 +2,12 @@
 layout: publication
 title: Set Similarity Search Beyond Minhash
 authors: Tobias Christiani, Rasmus Pagh
-conference: 'STOC ''17: Symposium on Theory of Computing'
+conference: Arxiv
 year: 2016
 bibkey: christiani2016set
-citations: 26
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.07710'}]
-tags: ["Distance Metric Learning", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Tobias Christiani, Rasmus Pagh
 ---
 We consider the problem of approximate set similarity search under

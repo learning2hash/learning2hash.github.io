@@ -3,7 +3,7 @@ layout: publication
 title: Context Unaware Knowledge Distillation For Image Retrieval
 authors: Bytasandram Yaswanth Reddy, Shiv Ram Dubey, Rakesh Kumar Sanodiya, Ravi Ranjan
   Prasad Karn
-conference: Lecture Notes in Networks and Systems
+conference: Arxiv
 year: 2022
 bibkey: reddy2022context
 citations: 0

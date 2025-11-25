@@ -6,9 +6,9 @@ conference: Proceedings of the 43rd International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2020
 bibkey: li2020hierarchical
-citations: 103
+citations: 112
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.12566'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "SIGIR", "Tools & Libraries"]
+tags: ["Recommender Systems", "SIGIR"]
 short_authors: Li et al.
 ---
 Fashion outfit recommendation has attracted increasing attentions from online

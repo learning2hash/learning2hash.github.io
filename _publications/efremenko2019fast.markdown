@@ -3,7 +3,7 @@ layout: publication
 title: Fast And Bayes-consistent Nearest Neighbors
 authors: Klim Efremenko, Aryeh Kontorovich, Moshe Noivirt
 conference: Arxiv
-year: 2020
+year: 2019
 bibkey: efremenko2019fast
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.05270'}]

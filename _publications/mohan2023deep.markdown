@@ -5,7 +5,7 @@ authors: Deen Dayal Mohan, Bhavin Jawade, Srirangaraj Setlur, Venu Govindaraj
 conference: Handbook of Statistics
 year: 2023
 bibkey: mohan2023deep
-citations: 4
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.10046'}]
 tags: ["Distance Metric Learning", "Supervised", "Survey Paper"]
 short_authors: Mohan et al.

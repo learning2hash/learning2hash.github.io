@@ -2,12 +2,12 @@
 layout: publication
 title: Transfer Adversarial Hashing For Hamming Space Retrieval
 authors: Zhangjie Cao, Mingsheng Long, Chao Huang, Jianmin Wang
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2017
 bibkey: cao2017transfer
-citations: 12
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.04616'}]
-tags: ["AAAI", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness", "Scalability"]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Cao et al.
 ---
 Hashing is widely applied to large-scale image retrieval due to the storage

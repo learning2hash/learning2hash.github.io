@@ -5,9 +5,9 @@ authors: Lucy H. Lin, Noah A. Smith
 conference: Arxiv
 year: 2019
 bibkey: lin2019situating
-citations: 4
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.10724'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: Lucy H. Lin, Noah A. Smith
 ---
 As distributed approaches to natural language semantics have developed and

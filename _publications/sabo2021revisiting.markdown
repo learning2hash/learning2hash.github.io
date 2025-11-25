@@ -6,9 +6,9 @@ authors: Ofer Sabo, Yanai Elazar, Yoav Goldberg, Ido Dagan
 conference: Transactions of the Association for Computational Linguistics
 year: 2021
 bibkey: sabo2021revisiting
-citations: 28
+citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.08481'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Supervised", "TACL"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Supervised"]
 short_authors: Sabo et al.
 ---
 We explore Few-Shot Learning (FSL) for Relation Classification (RC). Focusing

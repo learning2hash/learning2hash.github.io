@@ -8,7 +8,7 @@ year: 2025
 bibkey: lei2025enhancing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.09749'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Large Scale Search", "Similarity Search"]
 short_authors: Lei et al.
 ---
 Recent large language models (LLMs) have demonstrated exceptional performance

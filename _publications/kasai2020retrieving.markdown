@@ -8,7 +8,7 @@ year: 2020
 bibkey: kasai2020retrieving
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.09183'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Tools & Libraries"]
+tags: ["Evaluation", "Multimodal Retrieval", "Video Retrieval"]
 short_authors: Kasai et al.
 ---
 In this paper, we present a framework that jointly retrieves and

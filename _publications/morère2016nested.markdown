@@ -3,12 +3,12 @@ layout: publication
 title: Nested Invariance Pooling And RBM Hashing For Image Instance Retrieval
 authors: "Olivier Mor\xE8re, Jie Lin, Antoine Veillard, Vijay Chandrasekhar, Tomaso\
   \ Poggio"
-conference: 'ICMR ''17: International Conference on Multimedia Retrieval'
+conference: Arxiv
 year: 2016
 bibkey: "mor\xE8re2016nested"
-citations: 13
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.04595'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Multimodal Retrieval"]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Image Retrieval"]
 short_authors: "Mor\xE8re et al."
 ---
 The goal of this work is the computation of very compact binary hashes for

@@ -2,13 +2,13 @@
 layout: publication
 title: Optimal Transport Aggregation For Visual Place Recognition
 authors: Sergio Izquierdo, Javier Civera
-conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2023
 bibkey: izquierdo2023optimal
-citations: 66
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/serizba/salad'}, {name: Paper,
     url: 'https://arxiv.org/abs/2311.15937'}]
-tags: ["CVPR", "Datasets", "Hybrid ANN Methods", "Re-Ranking"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Sergio Izquierdo, Javier Civera
 ---
 The task of Visual Place Recognition (VPR) aims to match a query image

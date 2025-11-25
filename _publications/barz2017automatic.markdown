@@ -2,12 +2,13 @@
 layout: publication
 title: Automatic Query Image Disambiguation For Content-based Image Retrieval
 authors: "Bj\xF6rn Barz, Joachim Denzler"
-conference: International Conference on Computer Vision Theory and Applications
+conference: Proceedings of the 13th International Joint Conference on Computer Vision,
+  Imaging and Computer Graphics Theory and Applications
 year: 2017
 bibkey: barz2017automatic
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.00953'}]
-tags: ["Datasets", "Evaluation", "ICCV", "Image Retrieval"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: "Bj\xF6rn Barz, Joachim Denzler"
 ---
 Query images presented to content-based image retrieval systems often have

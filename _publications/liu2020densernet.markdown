@@ -4,12 +4,12 @@ title: 'Densernet: Weakly Supervised Visual Localization Using Multi-scale Featu
   Aggregation'
 authors: Dongfang Liu, Yiming Cui, Liqi Yan, Christos Mousas, Baijian Yang, Yingjie
   Chen
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2020
 bibkey: liu2020densernet
-citations: 116
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.02366'}]
-tags: ["AAAI", "Image Retrieval", "Scalability", "Supervised"]
+tags: ["Evaluation", "Image Retrieval", "Scalability", "Supervised"]
 short_authors: Liu et al.
 ---
 In this work, we introduce a Denser Feature Network (DenserNet) for visual

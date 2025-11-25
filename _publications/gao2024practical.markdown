@@ -4,12 +4,12 @@ title: Practical And Asymptotically Optimal Quantization Of High-dimensional Vec
   In Euclidean Space For Approximate Nearest Neighbor Search
 authors: Jianyang Gao, Yutong Gou, Yuexuan Xu, Yongyi Yang, Cheng Long, Raymond Chi-Wing
   Wong
-conference: Proceedings of the ACM on Management of Data
+conference: Arxiv
 year: 2024
 bibkey: gao2024practical
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.09913'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Quantization"]
+tags: ["Efficiency", "Quantization"]
 short_authors: Gao et al.
 ---
 Approximate nearest neighbor (ANN) query in high-dimensional Euclidean space

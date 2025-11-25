@@ -9,7 +9,7 @@ bibkey: lebailly2023cribo
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/tileb1/CrIBo'}, {name: Paper,
     url: 'https://arxiv.org/abs/2310.07855'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised"]
+tags: ["Datasets", "Self-Supervised"]
 short_authors: Lebailly et al.
 ---
 Leveraging nearest neighbor retrieval for self-supervised representation

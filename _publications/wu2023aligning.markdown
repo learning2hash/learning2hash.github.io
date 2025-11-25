@@ -5,7 +5,7 @@ authors: Size Wu, Wenwei Zhang, Sheng Jin, Wentao Liu, Chen Change Loy
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: wu2023aligning
-citations: 63
+citations: 89
 additional_links: [{name: Code, url: 'https://github.com/wusize/ovdet'}, {name: Paper,
     url: 'https://arxiv.org/abs/2302.13996'}]
 tags: ["CVPR", "Datasets", "Scalability"]

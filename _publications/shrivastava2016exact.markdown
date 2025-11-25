@@ -7,7 +7,7 @@ year: 2016
 bibkey: shrivastava2016exact
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.08393'}]
-tags: ["Datasets", "Hashing Methods"]
+tags: ["Evaluation", "Hashing Methods", "Scalability"]
 short_authors: Anshumali Shrivastava
 ---
 Weighted minwise hashing (WMH) is one of the fundamental subroutine, required

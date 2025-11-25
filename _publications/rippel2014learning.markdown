@@ -5,9 +5,9 @@ authors: Oren Rippel, Michael A. Gelbart, Ryan P. Adams
 conference: Arxiv
 year: 2014
 bibkey: rippel2014learning
-citations: 49
+citations: 44
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1402.0915'}]
-tags: ["Efficiency"]
+tags: ["Compact Codes", "Efficiency", "Neural Hashing", "Similarity Search", "Unsupervised"]
 short_authors: Oren Rippel, Michael A. Gelbart, Ryan P. Adams
 ---
 In this paper, we study ordered representations of data in which different

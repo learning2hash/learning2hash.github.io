@@ -6,9 +6,9 @@ authors: Robert Litschko, Ekaterina Artemova, Barbara Plank
 conference: 'Findings of the Association for Computational Linguistics: ACL 2023'
 year: 2023
 bibkey: litschko2023boosting
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.05295'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Re-Ranking"]
 short_authors: Robert Litschko, Ekaterina Artemova, Barbara Plank
 ---
 Transferring information retrieval (IR) models from a high-resource language

@@ -1,0 +1,29 @@
+---
+layout: publication
+title: '3D-CSL: Self-supervised 3D Context Similarity Learning For Near-duplicate
+  Video Retrieval'
+authors: Rui Deng, Qian Wu, Yuke Li
+conference: Arxiv
+year: 2022
+bibkey: deng20223d
+citations: 1
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.05352'}]
+tags: ["Efficiency", "Self-Supervised", "Video Retrieval"]
+short_authors: Rui Deng, Qian Wu, Yuke Li
+---
+In this paper, we introduce 3D-CSL, a compact pipeline for Near-Duplicate
+Video Retrieval (NDVR), and explore a novel self-supervised learning strategy
+for video similarity learning. Most previous methods only extract video spatial
+features from frames separately and then design kinds of complex mechanisms to
+learn the temporal correlations among frame features. However, parts of
+spatiotemporal dependencies have already been lost. To address this, our 3D-CSL
+extracts global spatiotemporal dependencies in videos end-to-end with a 3D
+transformer and find a good balance between efficiency and effectiveness by
+matching on clip-level. Furthermore, we propose a two-stage self-supervised
+similarity learning strategy to optimize the entire network. Firstly, we
+propose PredMAE to pretrain the 3D transformer with video prediction task;
+Secondly, ShotMix, a novel video-specific augmentation, and FCS loss, a novel
+triplet loss, are proposed further promote the similarity learning results. The
+experiments on FIVR-200K and CC_WEB_VIDEO demonstrate the superiority and
+reliability of our method, which achieves the state-of-the-art performance on
+clip-level NDVR.

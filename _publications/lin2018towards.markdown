@@ -3,7 +3,7 @@ layout: publication
 title: Towards A Theoretical Understanding Of Hashing-based Neural Nets
 authors: Yibo Lin, Zhao Song, Lin F. Yang
 conference: Arxiv
-year: 2019
+year: 2018
 bibkey: lin2018towards
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.10244'}]

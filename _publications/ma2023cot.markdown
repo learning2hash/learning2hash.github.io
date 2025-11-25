@@ -8,7 +8,7 @@ year: 2023
 bibkey: ma2023cot
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.10195'}]
-tags: ["Scalability"]
+tags: ["Self-Supervised", "Text Retrieval"]
 short_authors: Ma et al.
 ---
 Passage retrieval aims to retrieve relevant passages from large collections

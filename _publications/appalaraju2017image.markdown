@@ -5,9 +5,9 @@ authors: Srikar Appalaraju, Vineet Chaoji
 conference: Arxiv
 year: 2017
 bibkey: appalaraju2017image
-citations: 58
+citations: 61
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.08761'}]
-tags: ["Uncategorized"]
+tags: ["Distance Metric Learning", "Image Retrieval", "Similarity Search", "Supervised"]
 short_authors: Srikar Appalaraju, Vineet Chaoji
 ---
 Image similarity involves fetching similar looking images given a reference

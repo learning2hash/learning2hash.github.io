@@ -2,10 +2,10 @@
 layout: publication
 title: Query-adaptive Image Retrieval By Deep Weighted Hashing
 authors: Jian Zhang, Yuxin Peng
-conference: IEEE Transactions on Multimedia
+conference: Arxiv
 year: 2016
 bibkey: zhang2016query
-citations: 47
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.02541'}]
 tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Jian Zhang, Yuxin Peng

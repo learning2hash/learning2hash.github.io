@@ -5,9 +5,9 @@ authors: Yichun Shi, Charles Otto, Anil K. Jain
 conference: IEEE Transactions on Information Forensics and Security
 year: 2017
 bibkey: shi2017face
-citations: 85
+citations: 86
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.05067'}]
-tags: ["Datasets", "Evaluation", "Supervised"]
+tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Yichun Shi, Charles Otto, Anil K. Jain
 ---
 Clustering face images according to their identity has two important

@@ -2,12 +2,12 @@
 layout: publication
 title: Bi-encoder Cascades For Efficient Image Search
 authors: "Robert H\xF6nig, Jan Ackermann, Mingyuan Chi"
-conference: Arxiv
+conference: 2023 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)
 year: 2023
 bibkey: "h\xF6nig2023bi"
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.15595'}]
-tags: ["Image Retrieval", "Scalability"]
+tags: ["ICCV", "Image Retrieval", "Scalability"]
 short_authors: "Robert H\xF6nig, Jan Ackermann, Mingyuan Chi"
 ---
 Modern neural encoders offer unprecedented text-image retrieval (TIR)

@@ -2,13 +2,13 @@
 layout: publication
 title: 'Earthloc: Astronaut Photography Localization By Indexing Earth From Space'
 authors: Gabriele Berton, Alex Stoken, Barbara Caputo, Carlo Masone
-conference: Arxiv
+conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2024
 bibkey: berton2024earthloc
-citations: 0
+citations: 2
 additional_links: [{name: Code, url: 'https://github.com/gmberton/EarthLoc'}, {name: Paper,
     url: 'https://arxiv.org/abs/2403.06758'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
+tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Berton et al.
 ---
 Astronaut photography, spanning six decades of human spaceflight, presents a

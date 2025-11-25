@@ -8,7 +8,7 @@ year: 2023
 bibkey: gupta2023caps
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.15014'}]
-tags: ["Evaluation", "Graph Based ANN", "Similarity Search"]
+tags: ["Similarity Search"]
 short_authors: Gupta et al.
 ---
 With the surging popularity of approximate near-neighbor search (ANNS),

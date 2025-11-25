@@ -2,12 +2,12 @@
 layout: publication
 title: New Instability Results For High Dimensional Nearest Neighbor Search
 authors: Chris Giannella
-conference: Information Processing Letters
+conference: Information Processing Letters 109(19) 2009
 year: 2009
 bibkey: giannella2009new
-citations: 8
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/0906.0684'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Scalability", "Similarity Search"]
 short_authors: Chris Giannella
 ---
 Consider a dataset of n(d) points generated independently from R^d according

@@ -6,10 +6,10 @@ conference: Proceedings of the Twenty-Eighth International Joint Conference on A
   Intelligence
 year: 2019
 bibkey: song2019deep
-citations: 17
+citations: 3
 additional_links: [{name: Code, url: 'https://github.com/cfm-uestc/DRQ'}, {name: Paper,
     url: 'https://arxiv.org/abs/1906.06699'}]
-tags: ["AAAI", "Compact Codes", "Datasets", "Evaluation", "IJCAI", "Image Retrieval", "Quantization", "Tools & Libraries"]
+tags: ["Compact Codes", "Image Retrieval", "Quantization", "Similarity Search"]
 short_authors: Song et al.
 ---
 Quantization has been an effective technology in ANN (approximate nearest

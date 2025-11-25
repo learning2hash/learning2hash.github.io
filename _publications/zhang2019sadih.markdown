@@ -5,9 +5,9 @@ authors: Zheng Zhang, Guo-Sen Xie, Yang Li, Sheng Li, Zi Huang
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2019
 bibkey: zhang2019sadih
-citations: 17
+citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.01739'}]
-tags: ["AAAI", "Datasets", "Hashing Methods", "Memory Efficiency", "Scalability", "Similarity Search", "Supervised", "Tools & Libraries"]
+tags: ["AAAI", "Hashing Methods", "Scalability", "Similarity Search", "Supervised"]
 short_authors: Zhang et al.
 ---
 Due to its low storage cost and fast query speed, hashing has been recognized

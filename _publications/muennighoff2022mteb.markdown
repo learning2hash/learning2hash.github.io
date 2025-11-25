@@ -2,14 +2,13 @@
 layout: publication
 title: 'MTEB: Massive Text Embedding Benchmark'
 authors: "Niklas Muennighoff, Nouamane Tazi, Lo\xEFc Magne, Nils Reimers"
-conference: Proceedings of the 17th Conference of the European Chapter of the Association
-  for Computational Linguistics
+conference: Arxiv
 year: 2022
 bibkey: muennighoff2022mteb
-citations: 223
+citations: 57
 additional_links: [{name: Code, url: 'https://github.com/embeddings-benchmark/mteb'},
   {name: Paper, url: 'https://arxiv.org/abs/2210.07316'}]
-tags: ["Datasets", "Eacl", "Evaluation"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Muennighoff et al.
 ---
 Text embeddings are commonly evaluated on a small set of datasets from a

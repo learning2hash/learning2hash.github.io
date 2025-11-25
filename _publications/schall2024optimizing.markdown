@@ -3,12 +3,12 @@ layout: publication
 title: Optimizing CLIP Models For Image Retrieval With Maintained Joint-embedding
   Alignment
 authors: Konstantin Schall, Kai Uwe Barthel, Nico Hezel, Klaus Jung
-conference: Arxiv
+conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: schall2024optimizing
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.01936'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval", "Robustness", "Scalability", "Similarity Search"]
+tags: ["Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval", "Robustness", "Similarity Search"]
 short_authors: Schall et al.
 ---
 Contrastive Language and Image Pairing (CLIP), a transformative method in

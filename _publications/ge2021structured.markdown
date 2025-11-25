@@ -5,9 +5,9 @@ authors: Xuri Ge, Fuhai Chen, Joemon M. Jose, Zhilong Ji, Zhongqin Wu, Xiao Liu
 conference: Proceedings of the 29th ACM International Conference on Multimedia
 year: 2021
 bibkey: ge2021structured
-citations: 43
+citations: 47
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.02417'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Ge et al.
 ---
 The current state-of-the-art image-sentence retrieval methods implicitly

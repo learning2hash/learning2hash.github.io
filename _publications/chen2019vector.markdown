@@ -6,10 +6,10 @@ authors: Wei Chen, Jincai Chen, Fuhao Zou, Yuan-Fang Li, Ping Lu, Qiang Wang, We
 conference: Future Generation Computer Systems
 year: 2019
 bibkey: chen2019vector
-citations: 7
+citations: 10
 additional_links: [{name: Code, url: 'https://github.com/zjuchenwei/vector-line-quantization'},
   {name: Paper, url: 'https://arxiv.org/abs/1901.00275'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Large Scale Search", "Quantization", "Scalability", "Similarity Search", "Tools & Libraries", "Vector Indexing"]
+tags: ["Evaluation", "Large Scale Search", "Quantization", "Similarity Search", "Vector Indexing"]
 short_authors: Chen et al.
 ---
 Billion-scale high-dimensional approximate nearest neighbour (ANN) search has

@@ -7,7 +7,7 @@ year: 2024
 bibkey: bawazir2024uni
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.15207'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised", "Text Retrieval", "Tools & Libraries"]
+tags: ["Evaluation", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Ameera Bawazir, Kebin Wu, Wenbin Li
 ---
 Recent advancements in vision-language pre-training via contrastive learning

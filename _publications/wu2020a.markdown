@@ -1,0 +1,26 @@
+---
+layout: publication
+title: A Gan-based Tunable Image Compression System
+authors: Lirong Wu, Kejie Huang, Haibin Shen
+conference: 2020 IEEE Winter Conference on Applications of Computer Vision (WACV)
+year: 2020
+bibkey: wu2020a
+citations: 39
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.06580'}]
+tags: ["Datasets", "Evaluation", "Robustness"]
+short_authors: Lirong Wu, Kejie Huang, Haibin Shen
+---
+The method of importance map has been widely adopted in DNN-based lossy image
+compression to achieve bit allocation according to the importance of image
+contents. However, insufficient allocation of bits in non-important regions
+often leads to severe distortion at low bpp (bits per pixel), which hampers the
+development of efficient content-weighted image compression systems. This paper
+rethinks content-based compression by using Generative Adversarial Network
+(GAN) to reconstruct the non-important regions. Moreover, multiscale pyramid
+decomposition is applied to both the encoder and the discriminator to achieve
+global compression of high-resolution images. A tunable compression scheme is
+also proposed in this paper to compress an image to any specific compression
+ratio without retraining the model. The experimental results show that our
+proposed method improves MS-SSIM by more than 10.3% compared to the recently
+reported GAN-based method to achieve the same low bpp (0.05) on the Kodak
+dataset.

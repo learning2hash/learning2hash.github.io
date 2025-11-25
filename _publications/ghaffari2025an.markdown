@@ -6,7 +6,7 @@ authors: Shervin Ghaffari, Zohre Bahranifard, Mohammad Akbari
 conference: Arxiv
 year: 2025
 bibkey: ghaffari2025an
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2507.07061'}]
 tags: ["Datasets", "Efficiency", "Evaluation"]
 short_authors: Shervin Ghaffari, Zohre Bahranifard, Mohammad Akbari

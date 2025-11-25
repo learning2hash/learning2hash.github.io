@@ -3,12 +3,12 @@ layout: publication
 title: Benchmarking Pretrained Vision Embeddings For Near- And Duplicate Detection
   In Medical Images
 authors: Tuan Truong, Farnaz Khun Jush, Matthias Lenga
-conference: 2024 IEEE International Symposium on Biomedical Imaging (ISBI)
+conference: Arxiv
 year: 2023
 bibkey: truong2023benchmarking
-citations: 5
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.07273'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised", "Similarity Search", "Supervised", "Vector Indexing"]
+tags: ["Datasets", "Evaluation", "Self-Supervised", "Similarity Search", "Vector Indexing"]
 short_authors: Tuan Truong, Farnaz Khun Jush, Matthias Lenga
 ---
 Near- and duplicate image detection is a critical concern in the field of

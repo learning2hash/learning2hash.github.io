@@ -5,9 +5,9 @@ authors: Haibo Jin, Xiaobo Wang, Shengcai Liao, Stan Z. Li
 conference: 2017 IEEE International Joint Conference on Biometrics (IJCB)
 year: 2017
 bibkey: jin2017deep
-citations: 30
+citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.03332'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Evaluation"]
 short_authors: Jin et al.
 ---
 Person re-identification task has been greatly boosted by deep convolutional

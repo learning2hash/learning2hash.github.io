@@ -5,9 +5,9 @@ authors: Noa Garcia, Benjamin Renoust, Yuta Nakashima
 conference: Proceedings of the 2019 on International Conference on Multimedia Retrieval
 year: 2019
 bibkey: garcia2019context
-citations: 26
+citations: 53
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.04985'}]
-tags: ["Evaluation", "Multimodal Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Noa Garcia, Benjamin Renoust, Yuta Nakashima
 ---
 Automatic art analysis aims to classify and retrieve artistic representations

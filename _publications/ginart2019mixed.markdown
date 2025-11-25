@@ -3,12 +3,12 @@ layout: publication
 title: Mixed Dimension Embeddings With Application To Memory-efficient Recommendation
   Systems
 authors: Antonio Ginart, Maxim Naumov, Dheevatsa Mudigere, Jiyan Yang, James Zou
-conference: 2021 IEEE International Symposium on Information Theory (ISIT)
+conference: Arxiv
 year: 2019
 bibkey: ginart2019mixed
-citations: 34
+citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.11810'}]
-tags: ["Datasets", "Evaluation", "Memory Efficiency", "Recommender Systems", "Scalability"]
+tags: ["Memory Efficiency", "Recommender Systems"]
 short_authors: Ginart et al.
 ---
 Embedding representations power machine intelligence in many applications,

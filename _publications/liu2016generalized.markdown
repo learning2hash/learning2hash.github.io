@@ -5,9 +5,9 @@ authors: Shicong Liu, Junru Shao, Hongtao Lu
 conference: 2016 IEEE International Conference on Multimedia and Expo (ICME)
 year: 2016
 bibkey: liu2016generalized
-citations: 5
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.05345'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Quantization", "Similarity Search", "Survey Paper", "Tools & Libraries"]
+tags: ["Efficiency", "Large Scale Search", "Quantization", "Scalability", "Similarity Search"]
 short_authors: Shicong Liu, Junru Shao, Hongtao Lu
 ---
 Vector quantization is an essential tool for tasks involving large scale

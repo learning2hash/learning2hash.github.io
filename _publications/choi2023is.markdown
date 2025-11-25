@@ -8,7 +8,7 @@ year: 2023
 bibkey: choi2023is
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.11095'}]
-tags: ["Evaluation", "Multimodal Retrieval", "Neural Hashing", "Self-Supervised", "Text Retrieval"]
+tags: ["Evaluation", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Choi et al.
 ---
 Encoded representations from a pretrained deep learning model (e.g., BERT

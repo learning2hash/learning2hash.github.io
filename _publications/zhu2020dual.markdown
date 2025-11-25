@@ -5,10 +5,10 @@ authors: Lei Zhu, Hui Cui, Zhiyong Cheng, Jingjing Li, Zheng Zhang
 conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2020
 bibkey: zhu2020dual
-citations: 39
+citations: 45
 additional_links: [{name: Code, url: 'https://github.com/research2020-1/DSTDH'}, {
     name: Paper, url: 'https://arxiv.org/abs/2006.05586'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Memory Efficiency", "Neural Hashing", "Scalability", "Tools & Libraries", "Unsupervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Unsupervised"]
 short_authors: Zhu et al.
 ---
 Social network stores and disseminates a tremendous amount of user shared

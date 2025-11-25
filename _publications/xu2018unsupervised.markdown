@@ -2,12 +2,12 @@
 layout: publication
 title: Unsupervised Semantic-based Aggregation Of Deep Convolutional Features
 authors: Jian Xu, Chunheng Wang, Chengzuo Qi, Cunzhao Shi, Baihua Xiao
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: IEEE Transactions on Image Processing
 year: 2018
 bibkey: xu2018unsupervised
-citations: 51
+citations: 43
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.01422'}]
-tags: ["AAAI", "Evaluation", "Supervised", "Unsupervised"]
+tags: ["Evaluation", "Image Retrieval", "Unsupervised"]
 short_authors: Xu et al.
 ---
 In this paper, we propose a simple but effective semantic-based aggregation

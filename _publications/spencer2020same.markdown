@@ -1,0 +1,33 @@
+---
+layout: publication
+title: 'Same Features, Different Day: Weakly Supervised Feature Learning For Seasonal
+  Invariance'
+authors: Jaime Spencer, Richard Bowden, Simon Hadfield
+conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2020
+bibkey: spencer2020same
+citations: 20
+additional_links: [{name: Code, url: 'https://github.com/jspenmar/DejaVu_Features'},
+  {name: Paper, url: 'https://arxiv.org/abs/2003.13431'}]
+tags: ["CVPR", "Image Retrieval", "Unsupervised"]
+short_authors: Jaime Spencer, Richard Bowden, Simon Hadfield
+---
+"Like night and day" is a commonly used expression to imply that two things
+are completely different. Unfortunately, this tends to be the case for current
+visual feature representations of the same scene across varying seasons or
+times of day. The aim of this paper is to provide a dense feature
+representation that can be used to perform localization, sparse matching or
+image retrieval, regardless of the current seasonal or temporal appearance.
+  Recently, there have been several proposed methodologies for deep learning
+dense feature representations. These methods make use of ground truth
+pixel-wise correspondences between pairs of images and focus on the spatial
+properties of the features. As such, they don't address temporal or seasonal
+variation. Furthermore, obtaining the required pixel-wise correspondence data
+to train in cross-seasonal environments is highly complex in most scenarios.
+  We propose Deja-Vu, a weakly supervised approach to learning season invariant
+features that does not require pixel-wise ground truth data. The proposed
+system only requires coarse labels indicating if two images correspond to the
+same location or not. From these labels, the network is trained to produce
+"similar" dense feature maps for corresponding locations despite environmental
+changes. Code will be made available at:
+https://github.com/jspenmar/DejaVu_Features

@@ -4,12 +4,12 @@ title: GRAPE For Fast And Scalable Graph Processing And Random Walk-based Embedd
 authors: Luca Cappelletti, Tommaso Fontana, Elena Casiraghi, Vida Ravanmehr, Tiffany
   J. Callahan, Carlos Cano, Marcin P. Joachimiak, Christopher J. Mungall, Peter N.
   Robinson, Justin Reese, Giorgio Valentini
-conference: Nature Computational Science
+conference: Arxiv
 year: 2021
 bibkey: cappelletti2021grape
-citations: 26
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.06196'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Graph Based ANN", "Scalability", "Tools & Libraries"]
 short_authors: Cappelletti et al.
 ---
 Graph Representation Learning (GRL) methods opened new avenues for addressing

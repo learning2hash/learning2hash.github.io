@@ -3,12 +3,12 @@ layout: publication
 title: Faster Nearest Neighbor Machine Translation
 authors: Shuhe Wang, Jiwei Li, Yuxian Meng, Rongbin Ouyang, Guoyin Wang, Xiaoya Li,
   Tianwei Zhang, Shi Zong
-conference: 'Findings of the Association for Computational Linguistics: ACL 2022'
-year: 2022
+conference: Arxiv
+year: 2021
 bibkey: wang2021faster
-citations: 25
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.08152'}]
-tags: ["Evaluation"]
+tags: ["Efficiency"]
 short_authors: Wang et al.
 ---
 \(k\)NN based neural machine translation (\(k\)NN-MT) has achieved

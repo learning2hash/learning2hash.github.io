@@ -3,12 +3,12 @@ layout: publication
 title: Learning Binary And Sparse Permutation-invariant Representations For Fast And
   Memory Efficient Whole Slide Image Search
 authors: Sobhan Hemati, Shivam Kalra, Morteza Babaie, H. R. Tizhoosh
-conference: Computers in Biology and Medicine
+conference: Arxiv
 year: 2022
 bibkey: hemati2022learning
-citations: 8
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.13653'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Memory Efficiency", "Tools & Libraries"]
+tags: ["Datasets", "Efficiency", "Image Retrieval", "Memory Efficiency", "Similarity Search"]
 short_authors: Hemati et al.
 ---
 Learning suitable Whole slide images (WSIs) representations for efficient

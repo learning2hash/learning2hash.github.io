@@ -5,9 +5,9 @@ authors: Shengyong Ding, Liang Lin, Guangrun Wang, Hongyang Chao
 conference: Pattern Recognition
 year: 2015
 bibkey: ding2015deep
-citations: 732
+citations: 727
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1512.03622'}]
-tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
+tags: ["Distance Metric Learning"]
 short_authors: Ding et al.
 ---
 Identifying the same individual across different scenes is an important yet

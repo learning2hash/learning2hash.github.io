@@ -5,9 +5,9 @@ authors: Jason Weston, Ron Weiss, Hector Yee
 conference: Arxiv
 year: 2013
 bibkey: weston2013affinity
-citations: 3
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1301.4171'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "Supervised"]
+tags: ["Recommender Systems", "Supervised"]
 short_authors: Jason Weston, Ron Weiss, Hector Yee
 ---
 Supervised (linear) embedding models like Wsabie and PSI have proven

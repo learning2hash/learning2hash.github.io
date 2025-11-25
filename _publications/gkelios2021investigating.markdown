@@ -6,7 +6,7 @@ conference: 2021 17th International Conference on Distributed Computing in Senso
   Systems (DCOSS)
 year: 2021
 bibkey: gkelios2021investigating
-citations: 30
+citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.03771'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Socratis Gkelios, Yiannis Boutalis, Savvas A. Chatzichristofis

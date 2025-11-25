@@ -2,12 +2,12 @@
 layout: publication
 title: Fast Cosine Similarity Search In Binary Space With Angular Multi-index Hashing
 authors: Sepehr Eghbali, Ladan Tahvildari
-conference: IEEE Transactions on Knowledge and Data Engineering
+conference: Arxiv
 year: 2016
 bibkey: eghbali2016fast
-citations: 13
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.00574'}]
-tags: ["Compact Codes", "Datasets", "Distance Metric Learning", "Hashing Methods", "Similarity Search", "Vector Indexing"]
+tags: ["Hashing Methods", "Similarity Search", "Vector Indexing"]
 short_authors: Sepehr Eghbali, Ladan Tahvildari
 ---
 Given a large dataset of binary codes and a binary query point, we address

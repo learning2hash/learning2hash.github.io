@@ -7,7 +7,7 @@ year: 2023
 bibkey: chena2023active
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.05425'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Scalability"]
+tags: ["Datasets", "Distance Metric Learning", "Scalability"]
 short_authors: Chena et al.
 ---
 Recently, commonsense learning has been a hot topic in image-text matching.

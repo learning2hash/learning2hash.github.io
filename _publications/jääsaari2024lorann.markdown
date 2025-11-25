@@ -1,0 +1,28 @@
+---
+layout: publication
+title: 'Lorann: Low-rank Matrix Factorization For Approximate Nearest Neighbor Search'
+authors: "Elias J\xE4\xE4saari, Ville Hyv\xF6nen, Teemu Roos"
+conference: Advances in Neural Information Processing Systems 37
+year: 2024
+bibkey: "j\xE4\xE4saari2024lorann"
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.18926'}]
+tags: ["Graph Based ANN", "NEURIPS", "Scalability", "Similarity Search", "Supervised"]
+short_authors: "Elias J\xE4\xE4saari, Ville Hyv\xF6nen, Teemu Roos"
+---
+Approximate nearest neighbor (ANN) search is a key component in many modern
+machine learning pipelines; recent use cases include retrieval-augmented
+generation (RAG) and vector databases. Clustering-based ANN algorithms, that
+use score computation methods based on product quantization (PQ), are often
+used in industrial-scale applications due to their scalability and suitability
+for distributed and disk-based implementations. However, they have slower query
+times than the leading graph-based ANN algorithms. In this work, we propose a
+new supervised score computation method based on the observation that inner
+product approximation is a multivariate (multi-output) regression problem that
+can be solved efficiently by reduced-rank regression. Our experiments show that
+on modern high-dimensional data sets, the proposed reduced-rank regression
+(RRR) method is superior to PQ in both query latency and memory usage. We also
+introduce LoRANN, a clustering-based ANN library that leverages the proposed
+score computation method. LoRANN is competitive with the leading graph-based
+algorithms and outperforms the state-of-the-art GPU ANN methods on
+high-dimensional data sets.

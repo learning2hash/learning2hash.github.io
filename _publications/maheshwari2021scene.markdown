@@ -5,9 +5,9 @@ authors: Paridhi Maheshwari, Ritwick Chaudhry, Vishwa Vinay
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2021
 bibkey: maheshwari2021scene
-citations: 10
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.02381'}]
-tags: ["AAAI", "Distance Metric Learning", "Image Retrieval", "Self-Supervised"]
+tags: ["AAAI", "Distance Metric Learning", "Image Retrieval", "Self-Supervised", "Similarity Search"]
 short_authors: Paridhi Maheshwari, Ritwick Chaudhry, Vishwa Vinay
 ---
 Scene graphs are a powerful structured representation of the underlying

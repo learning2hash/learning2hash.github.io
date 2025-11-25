@@ -7,7 +7,7 @@ year: 2021
 bibkey: nam2021shapey
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.08174'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Jong Woo Nam, Amanda S. Rios, Bartlett W. Mel
 ---
 Object recognition in humans depends primarily on shape cues. We have

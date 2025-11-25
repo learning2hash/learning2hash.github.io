@@ -6,9 +6,9 @@ conference: 2017 IEEE International Conference on Acoustics, Speech and Signal P
   (ICASSP)
 year: 2016
 bibkey: sablayrolles2016how
-citations: 47
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.06753'}]
-tags: ["Compact Codes", "Evaluation", "Hashing Methods", "ICASSP", "Supervised", "Unsupervised"]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "ICASSP", "Supervised"]
 short_authors: Sablayrolles et al.
 ---
 Hashing produces compact representations for documents, to perform tasks like

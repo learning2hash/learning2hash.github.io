@@ -2,12 +2,12 @@
 layout: publication
 title: Enhance Feature Discrimination For Unsupervised Hashing
 authors: Tuan Hoang, Thanh-Toan Do, Dang-Khoa Le Tan, Ngai-Man Cheung
-conference: 2017 IEEE International Conference on Image Processing (ICIP)
+conference: Arxiv
 year: 2017
 bibkey: hoang2017enhance
-citations: 4
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.01754'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Quantization", "Supervised", "Unsupervised"]
+tags: ["Evaluation", "Hashing Methods", "Quantization", "Unsupervised"]
 short_authors: Hoang et al.
 ---
 We introduce a novel approach to improve unsupervised hashing. Specifically,

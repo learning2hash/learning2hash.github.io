@@ -7,7 +7,7 @@ year: 2019
 bibkey: rossetto2019query
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.12526'}]
-tags: ["Similarity Search", "Video Retrieval"]
+tags: ["Image Retrieval", "Similarity Search", "Video Retrieval"]
 short_authors: Luca Rossetto, Ralph Gasser, Heiko Schuldt
 ---
 Sketch-based query formulation is very common in image and video retrieval as

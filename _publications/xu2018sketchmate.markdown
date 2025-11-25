@@ -6,9 +6,9 @@ authors: Peng Xu, Yongye Huang, Tongtong Yuan, Kaiyue Pang, Yi-Zhe Song, Tao Xia
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: xu2018sketchmate
-citations: 128
+citations: 133
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.01401'}]
-tags: ["CVPR", "Compact Codes", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods", "Neural Hashing", "Scalability", "Similarity Search", "Tools & Libraries"]
+tags: ["Compact Codes", "Few Shot & Zero Shot", "Hashing Methods", "Large Scale Search", "Neural Hashing"]
 short_authors: Xu et al.
 ---
 We propose a deep hashing framework for sketch retrieval that, for the first

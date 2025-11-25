@@ -6,7 +6,7 @@ authors: Kuntal Dey, Ritvik Shrivastava, Saroj Kaushik, L. Venkata Subramaniam
 conference: 2017 IEEE International Conference on Data Mining Workshops (ICDMW)
 year: 2017
 bibkey: dey2017emtagger
-citations: 30
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.01562'}]
 tags: ["Recommender Systems", "Tools & Libraries"]
 short_authors: Dey et al.

@@ -3,12 +3,12 @@ layout: publication
 title: 'Inret: A General Framework For Accurate Retrieval Of Inrs For Shapes'
 authors: Yushi Guan, Daniel Kwan, Ruofan Liang, Selvakumar Panneer, Nilesh Jain, Nilesh
   Ahuja, Nandita Vijaykumar
-conference: Arxiv
+conference: 2025 International Conference on 3D Vision (3DV)
 year: 2025
 bibkey: guan2025inret
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.15722'}]
-tags: ["Tools & Libraries"]
+tags: ["Image Retrieval", "Similarity Search"]
 short_authors: Guan et al.
 ---
 Implicit neural representations (INRs) have become an important method for

@@ -7,7 +7,7 @@ year: 2024
 bibkey: "r\xF6der2024deep"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.12575'}]
-tags: ["Efficiency", "Hashing Methods", "Scalability", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Privacy & Security", "Scalability"]
 short_authors: "Manuel R\xF6der, Frank-Michael Schleif"
 ---
 This extended abstract explores the integration of federated learning with

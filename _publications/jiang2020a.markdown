@@ -6,7 +6,7 @@ authors: Shuo Jiang, Jianxi Luo, Guillermo Ruiz Pava, Jie Hu, Christopher L. Mag
 conference: 'Volume 9: 40th Computers and Information in Engineering Conference (CIE)'
 year: 2020
 bibkey: jiang2020a
-citations: 8
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.08741'}]
 tags: ["Evaluation", "Image Retrieval"]
 short_authors: Jiang et al.

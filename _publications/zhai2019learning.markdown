@@ -6,9 +6,9 @@ conference: Proceedings of the 25th ACM SIGKDD International Conference on Knowl
   Discovery &amp; Data Mining
 year: 2019
 bibkey: zhai2019learning
-citations: 33
+citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.01707'}]
-tags: ["Compact Codes", "Evaluation", "Image Retrieval", "KDD", "Recommender Systems"]
+tags: ["Distance Metric Learning", "Image Retrieval", "KDD", "Recommender Systems"]
 short_authors: Zhai et al.
 ---
 At Pinterest, we utilize image embeddings throughout our search and

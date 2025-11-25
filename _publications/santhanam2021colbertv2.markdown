@@ -3,13 +3,12 @@ layout: publication
 title: 'Colbertv2: Effective And Efficient Retrieval Via Lightweight Late Interaction'
 authors: Keshav Santhanam, Omar Khattab, Jon Saad-Falcon, Christopher Potts, Matei
   Zaharia
-conference: 'Proceedings of the 2022 Conference of the North American Chapter of the
-  Association for Computational Linguistics: Human Language Technologies'
+conference: Arxiv
 year: 2021
 bibkey: santhanam2021colbertv2
-citations: 146
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.01488'}]
-tags: ["NAACL", "Similarity Search"]
+tags: ["Efficiency", "Evaluation", "Memory Efficiency", "Similarity Search"]
 short_authors: Santhanam et al.
 ---
 Neural information retrieval (IR) has greatly advanced search and other

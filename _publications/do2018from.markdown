@@ -4,12 +4,12 @@ title: From Selective Deep Convolutional Features To Compact Binary Representati
   For Image Retrieval
 authors: Thanh-Toan Do, Tuan Hoang, Dang-Khoa Le Tan, Huu Le, Tam V. Nguyen, Ngai-Man
   Cheung
-conference: ACM Transactions on Multimedia Computing, Communications, and Applications
+conference: Arxiv
 year: 2018
 bibkey: do2018from
-citations: 23
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02899'}]
-tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Scalability", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval"]
 short_authors: Do et al.
 ---
 In the large-scale image retrieval task, the two most important requirements

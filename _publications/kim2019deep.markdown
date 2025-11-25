@@ -5,9 +5,9 @@ authors: Sungyeon Kim, Minkyo Seo, Ivan Laptev, Minsu Cho, Suha Kwak
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: kim2019deep
-citations: 89
+citations: 90
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.09626'}]
-tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["CVPR", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Kim et al.
 ---
 Metric Learning for visual similarity has mostly adopted binary supervision

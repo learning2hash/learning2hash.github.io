@@ -2,12 +2,12 @@
 layout: publication
 title: Meta-prod2vec - Product Embeddings Using Side-information For Recommendation
 authors: Flavian Vasile, Elena Smirnova, Alexis Conneau
-conference: Proceedings of the 10th ACM Conference on Recommender Systems
+conference: Arxiv
 year: 2016
 bibkey: vasile2016meta
-citations: 120
+citations: 118
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.07326'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems"]
+tags: ["Datasets", "Recommender Systems"]
 short_authors: Flavian Vasile, Elena Smirnova, Alexis Conneau
 ---
 We propose Meta-Prod2vec, a novel method to compute item similarities for

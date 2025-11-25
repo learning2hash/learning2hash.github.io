@@ -5,9 +5,9 @@ authors: Yan Zhang, Ivor W. Tsang, Lixin Duan
 conference: IEEE Intelligent Systems
 year: 2020
 bibkey: zhang2020collaborative
-citations: 8
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.00953'}]
-tags: ["Compact Codes", "Datasets", "Efficiency", "Hashing Methods", "Recommender Systems", "Scalability", "Tools & Libraries"]
+tags: ["Compact Codes", "Efficiency", "Hashing Methods", "Recommender Systems"]
 short_authors: Yan Zhang, Ivor W. Tsang, Lixin Duan
 ---
 Cold-start has being a critical issue in recommender systems with the

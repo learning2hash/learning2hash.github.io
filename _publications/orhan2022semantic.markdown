@@ -7,9 +7,9 @@ conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2022
 bibkey: orhan2022semantic
-citations: 5
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.16945'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Self-Supervised", "Supervised"]
+tags: ["CVPR", "Self-Supervised"]
 short_authors: Semih Orhan, Jose J. Guerrero, Yalin Bastanlar
 ---
 Any city-scale visual localization system has to overcome long-term

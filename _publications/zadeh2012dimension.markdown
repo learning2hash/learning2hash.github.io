@@ -3,11 +3,11 @@ layout: publication
 title: Dimension Independent Similarity Computation
 authors: Reza Bosagh Zadeh, Ashish Goel
 conference: Arxiv
-year: 2013
+year: 2012
 bibkey: zadeh2012dimension
-citations: 53
+citations: 52
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1206.2082'}]
-tags: ["Locality-Sensitive-Hashing", "Tools & Libraries"]
+tags: ["Locality-Sensitive-Hashing", "Scalability"]
 short_authors: Reza Bosagh Zadeh, Ashish Goel
 ---
 We present a suite of algorithms for Dimension Independent Similarity

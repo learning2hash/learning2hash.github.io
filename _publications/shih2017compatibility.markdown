@@ -2,12 +2,12 @@
 layout: publication
 title: Compatibility Family Learning For Item Recommendation And Generation
 authors: Yong-Siang Shih, Kai-Yueh Chang, Hsuan-Tien Lin, Min Sun
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2017
 bibkey: shih2017compatibility
-citations: 24
+citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.01262'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Recommender Systems", "Robustness"]
+tags: ["Datasets", "Evaluation", "Recommender Systems"]
 short_authors: Shih et al.
 ---
 Compatibility between items, such as clothes and shoes, is a major factor

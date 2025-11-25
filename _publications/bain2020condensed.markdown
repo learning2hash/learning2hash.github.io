@@ -2,12 +2,12 @@
 layout: publication
 title: 'Condensed Movies: Story Based Retrieval With Contextual Embeddings'
 authors: Max Bain, Arsha Nagrani, Andrew Brown, Andrew Zisserman
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2020
 bibkey: bain2020condensed
-citations: 42
+citations: 71
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.04208'}]
-tags: ["Datasets", "Evaluation", "Video Retrieval"]
+tags: ["Datasets", "Video Retrieval"]
 short_authors: Bain et al.
 ---
 Our objective in this work is long range understanding of the narrative

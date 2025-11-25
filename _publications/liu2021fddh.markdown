@@ -5,10 +5,10 @@ authors: Xin Liu, Xingzhi Wang, Yiu-Ming Cheung
 conference: IEEE Transactions on Neural Networks and Learning Systems
 year: 2021
 bibkey: liu2021fddh
-citations: 53
+citations: 60
 additional_links: [{name: Code, url: 'https://github.com/starxliu/FDDH'}, {name: Paper,
     url: 'https://arxiv.org/abs/2105.07128'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Scalability", "Similarity Search"]
+tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Similarity Search"]
 short_authors: Xin Liu, Xingzhi Wang, Yiu-Ming Cheung
 ---
 Cross-modal hashing, favored for its effectiveness and efficiency, has

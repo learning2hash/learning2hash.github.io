@@ -6,10 +6,10 @@ authors: Minjeong Kim, Minsuk Choi, Sunwoong Lee, Jian Tang, Haesun Park, Jaegul
 conference: Arxiv
 year: 2016
 bibkey: kim2016pixelsne
-citations: 5
+citations: 4
 additional_links: [{name: Code, url: 'https://github.com/awesome-davian/PixelSNE'},
   {name: Paper, url: 'https://arxiv.org/abs/1611.02568'}]
-tags: ["Evaluation", "Scalability", "Tree Based ANN"]
+tags: ["Evaluation", "Scalability"]
 short_authors: Kim et al.
 ---
 Embedding and visualizing large-scale high-dimensional data in a

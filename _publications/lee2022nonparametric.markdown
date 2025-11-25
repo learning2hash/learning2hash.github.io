@@ -1,0 +1,25 @@
+---
+layout: publication
+title: Nonparametric Decoding For Generative Retrieval
+authors: Hyunji Lee, Jaeyoung Kim, Hoyeon Chang, Hanseok Oh, Sohee Yang, Vlad Karpukhin,
+  Yi Lu, Minjoon Seo
+conference: Arxiv
+year: 2022
+bibkey: lee2022nonparametric
+citations: 4
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.02068'}]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
+short_authors: Lee et al.
+---
+The generative retrieval model depends solely on the information encoded in
+its model parameters without external memory, its information capacity is
+limited and fixed. To overcome the limitation, we propose Nonparametric
+Decoding (Np Decoding) which can be applied to existing generative retrieval
+models. Np Decoding uses nonparametric contextualized vocab embeddings
+(external memory) rather than vanilla vocab embeddings as decoder vocab
+embeddings. By leveraging the contextualized vocab embeddings, the generative
+retrieval model is able to utilize both the parametric and nonparametric space.
+Evaluation over 9 datasets (8 single-hop and 1 multi-hop) in the document
+retrieval task shows that applying Np Decoding to generative retrieval models
+significantly improves the performance. We also show that Np Decoding is data-
+and parameter-efficient, and shows high performance in the zero-shot setting.

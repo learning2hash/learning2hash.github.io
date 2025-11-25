@@ -6,9 +6,9 @@ conference: Proceedings of the 11th International Conference on Distributed Smar
   Cameras
 year: 2017
 bibkey: magliani2017a
-citations: 13
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.05754'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Federico Magliani, Navid Mahmoudian Bidgoli, Andrea Prati
 ---
 The current state of the research in landmark recognition highlights the good

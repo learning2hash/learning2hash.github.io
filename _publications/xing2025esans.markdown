@@ -8,7 +8,7 @@ year: 2025
 bibkey: xing2025esans
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.16077'}]
-tags: ["Efficiency", "Evaluation", "Recommender Systems", "Scalability"]
+tags: ["Efficiency", "Recommender Systems", "Scalability"]
 short_authors: Xing et al.
 ---
 Industrial recommendation systems typically involve a two-stage process:

@@ -1,0 +1,28 @@
+---
+layout: publication
+title: 'Dr. Splat: Directly Referring 3D Gaussian Splatting Via Direct Language Embedding
+  Registration'
+authors: Kim Jun-Seong, Geonu Kim, Kim Yu-Ji, Yu-Chiang Frank Wang, Jaesung Choe,
+  Tae-Hyun Oh
+conference: Arxiv
+year: 2025
+bibkey: junseong2025dr
+citations: 0
+additional_links: [{name: Other, url: 'https://drsplat.github.io/'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2502.16652'}]
+tags: ["Quantization", "Scalability"]
+short_authors: Jun-Seong et al.
+---
+We introduce Dr. Splat, a novel approach for open-vocabulary 3D scene
+understanding leveraging 3D Gaussian Splatting. Unlike existing
+language-embedded 3DGS methods, which rely on a rendering process, our method
+directly associates language-aligned CLIP embeddings with 3D Gaussians for
+holistic 3D scene understanding. The key of our method is a language feature
+registration technique where CLIP embeddings are assigned to the dominant
+Gaussians intersected by each pixel-ray. Moreover, we integrate Product
+Quantization (PQ) trained on general large-scale image data to compactly
+represent embeddings without per-scene optimization. Experiments demonstrate
+that our approach significantly outperforms existing approaches in 3D
+perception benchmarks, such as open-vocabulary 3D semantic segmentation, 3D
+object localization, and 3D object selection tasks. For video results, please
+visit : https://drsplat.github.io/

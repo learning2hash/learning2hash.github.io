@@ -2,12 +2,12 @@
 layout: publication
 title: Fuzzy Logic Based Logical Query Answering On Knowledge Graphs
 authors: Xuelu Chen, Ziniu Hu, Yizhou Sun
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2021
 bibkey: chen2021fuzzy
-citations: 40
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.02390'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Scalability", "Similarity Search", "Tools & Libraries"]
+tags: ["Scalability", "Similarity Search", "Tools & Libraries"]
 short_authors: Xuelu Chen, Ziniu Hu, Yizhou Sun
 ---
 Answering complex First-Order Logical (FOL) queries on large-scale incomplete

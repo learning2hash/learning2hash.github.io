@@ -7,7 +7,7 @@ year: 2018
 bibkey: gu2018unsupervised
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.05906'}]
-tags: ["Datasets", "Unsupervised"]
+tags: ["Tools & Libraries", "Unsupervised"]
 short_authors: Yao Gu, Mayank Kejriwal
 ---
 In social media like Twitter, hashtags carry a lot of semantic information

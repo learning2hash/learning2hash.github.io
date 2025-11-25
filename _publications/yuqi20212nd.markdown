@@ -6,10 +6,10 @@ authors: Zhang Yuqi, Xu Xianzhe, Chen Weihua, Wang Yaohua, Zhang Fangyi, Wang Fa
 conference: Arxiv
 year: 2021
 bibkey: yuqi20212nd
-citations: 0
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/WesleyZhang1991/Google_Landmark_Retrieval_2021_2nd_Place_Solution'},
   {name: Paper, url: 'https://arxiv.org/abs/2110.04294'}]
-tags: ["Evaluation"]
+tags: ["Image Retrieval", "Re-Ranking"]
 short_authors: Yuqi et al.
 ---
 This paper presents the 2nd place solution to the Google Landmark Retrieval

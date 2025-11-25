@@ -5,9 +5,9 @@ authors: Leonid Boytsov, Eric Nyberg
 conference: Lecture Notes in Computer Science
 year: 2019
 bibkey: boytsov2019pruning
-citations: 4
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.03539'}]
-tags: ["Tree Based ANN"]
+tags: ["Similarity Search", "Tree Based ANN"]
 short_authors: Leonid Boytsov, Eric Nyberg
 ---
 We focus on low-dimensional non-metric search, where tree-based approaches

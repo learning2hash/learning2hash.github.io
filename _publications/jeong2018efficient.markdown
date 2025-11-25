@@ -8,7 +8,7 @@ bibkey: jeong2018efficient
 citations: 9
 additional_links: [{name: Code, url: 'https://github.com/maestrojeong/Deep-Hash-Table-ICML18'},
   {name: Paper, url: 'https://arxiv.org/abs/1805.05809'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Evaluation", "Hashing Methods"]
+tags: ["Distance Metric Learning", "Efficiency", "Hashing Methods", "Neural Hashing", "Quantization"]
 short_authors: Yeonwoo Jeong, Hyun Oh Song
 ---
 Embedding representation learning via neural networks is at the core

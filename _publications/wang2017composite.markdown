@@ -5,9 +5,9 @@ authors: Jingdong Wang, Ting Zhang
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2017
 bibkey: wang2017composite
-citations: 21
+citations: 28
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.00955'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Quantization", "Similarity Search", "Tools & Libraries", "Vector Indexing"]
+tags: ["Efficiency", "Quantization", "Similarity Search", "Vector Indexing"]
 short_authors: Jingdong Wang, Ting Zhang
 ---
 This paper studies the compact coding approach to approximate nearest

@@ -6,10 +6,10 @@ authors: Jiamin Zhuang, Jing Yu, Yang Ding, Xiangyan Qu, Yue Hu
 conference: IEEE Transactions on Multimedia
 year: 2023
 bibkey: zhuang2023towards
-citations: 5
+citations: 15
 additional_links: [{name: Code, url: 'https://github.com/Zjamie813/SelfAlign'}, {
     name: Paper, url: 'https://arxiv.org/abs/2308.14009'}]
-tags: ["Datasets", "Efficiency", "Self-Supervised", "Similarity Search", "Supervised", "Text Retrieval", "Tools & Libraries"]
+tags: ["Efficiency", "Image Retrieval", "Self-Supervised", "Similarity Search"]
 short_authors: Zhuang et al.
 ---
 Image-text retrieval requires the system to bridge the heterogenous gap

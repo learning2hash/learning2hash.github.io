@@ -4,14 +4,13 @@ title: 'CITADEL: Conditional Token Interaction Via Dynamic Lexical Routing For E
   And Effective Multi-vector Retrieval'
 authors: Minghan Li, Sheng-Chieh Lin, Barlas Oguz, Asish Ghoshal, Jimmy Lin, Yashar
   Mehdad, Wen-Tau Yih, Xilun Chen
-conference: 'Proceedings of the 61st Annual Meeting of the Association for Computational
-  Linguistics (Volume 1: Long Papers)'
+conference: Arxiv
 year: 2022
 bibkey: li2022citadel
-citations: 10
+citations: 3
 additional_links: [{name: Code, url: 'https://github.com/facebookresearch/dpr-scale'},
   {name: Paper, url: 'https://arxiv.org/abs/2211.10411'}]
-tags: ["Evaluation"]
+tags: ["Efficiency", "Evaluation", "Large Scale Search", "Similarity Search"]
 short_authors: Li et al.
 ---
 Multi-vector retrieval methods combine the merits of sparse (e.g. BM25) and

@@ -2,12 +2,12 @@
 layout: publication
 title: 'Indirect: Language-guided Zero-shot Deep Metric Learning For Images'
 authors: Konstantin Kobs, Michael Steininger, Andreas Hotho
-conference: 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+conference: Arxiv
 year: 2022
 bibkey: kobs2022indirect
-citations: 4
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.12760'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Supervised"]
+tags: ["Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Konstantin Kobs, Michael Steininger, Andreas Hotho
 ---
 Common Deep Metric Learning (DML) datasets specify only one notion of

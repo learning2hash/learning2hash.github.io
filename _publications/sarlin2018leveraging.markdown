@@ -6,9 +6,9 @@ authors: "Paul-Edouard Sarlin, Fr\xE9d\xE9ric Debraine, Marcin Dymczyk, Roland S
 conference: Arxiv
 year: 2018
 bibkey: sarlin2018leveraging
-citations: 51
+citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.01019'}]
-tags: ["Efficiency", "Evaluation", "Neural Hashing", "Robustness", "Scalability"]
+tags: ["Efficiency", "Robustness", "Scalability"]
 short_authors: Sarlin et al.
 ---
 Many robotics applications require precise pose estimates despite operating

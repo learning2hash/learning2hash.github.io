@@ -6,7 +6,7 @@ conference: Proceedings of the 2020 Conference on Empirical Methods in Natural L
   Processing (EMNLP)
 year: 2020
 bibkey: epure2020modeling
-citations: 5
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.06325'}]
 tags: ["EMNLP", "Evaluation", "Unsupervised"]
 short_authors: Epure et al.

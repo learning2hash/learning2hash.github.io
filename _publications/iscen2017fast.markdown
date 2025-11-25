@@ -2,12 +2,12 @@
 layout: publication
 title: Fast Spectral Ranking For Similarity Search
 authors: Ahmet Iscen, Yannis Avrithis, Giorgos Tolias, Teddy Furon, Ondrej Chum
-conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2017
 bibkey: iscen2017fast
-citations: 30
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.06935'}]
-tags: ["CVPR", "Datasets", "Efficiency", "Neural Hashing", "Similarity Search"]
+tags: ["Datasets", "Efficiency", "Similarity Search"]
 short_authors: Iscen et al.
 ---
 Despite the success of deep learning on representing images for particular

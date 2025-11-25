@@ -8,9 +8,9 @@ conference: 'Findings of the Association for Computational Linguistics: ACL-IJCN
   2021'
 year: 2021
 bibkey: ren2021pair
-citations: 22
+citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.06027'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Similarity Search", "Text Retrieval"]
 short_authors: Ren et al.
 ---
 Recently, dense passage retrieval has become a mainstream approach to finding

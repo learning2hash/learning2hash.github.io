@@ -6,10 +6,10 @@ authors: Pinaki Nath Chowdhury, Ayan Kumar Bhunia, Aneeshan Sain, Subhadeep Kole
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: chowdhury2023what
-citations: 36
+citations: 38
 additional_links: [{name: Code, url: 'https://pinakinathc.github.io/sketch-detect'},
   {name: Paper, url: 'https://arxiv.org/abs/2303.15149'}]
-tags: ["CVPR", "Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Supervised", "Tools & Libraries"]
+tags: ["CVPR", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Chowdhury et al.
 ---
 Sketches are highly expressive, inherently capturing subjective and

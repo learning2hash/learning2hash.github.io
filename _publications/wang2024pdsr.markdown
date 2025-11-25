@@ -9,7 +9,7 @@ year: 2024
 bibkey: wang2024pdsr
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.15688'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems"]
+tags: ["Locality-Sensitive-Hashing", "Privacy & Security", "Recommender Systems"]
 short_authors: Wang et al.
 ---
 The last decade has witnessed a tremendous growth of service computing, while

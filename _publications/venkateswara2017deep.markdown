@@ -5,9 +5,9 @@ authors: Hemanth Venkateswara, Jose Eusebio, Shayok Chakraborty, Sethuraman Panc
 conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2017
 bibkey: venkateswara2017deep
-citations: 1727
+citations: 1903
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.07522'}]
-tags: ["CVPR", "Datasets", "Efficiency", "Hashing Methods", "Neural Hashing", "Tools & Libraries", "Unsupervised"]
+tags: ["CVPR", "Datasets", "Hashing Methods", "Neural Hashing", "Unsupervised"]
 short_authors: Venkateswara et al.
 ---
 In recent years, deep neural networks have emerged as a dominant machine

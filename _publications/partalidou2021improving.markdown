@@ -2,12 +2,12 @@
 layout: publication
 title: Improving Zero-shot Entity Retrieval Through Effective Dense Representations
 authors: Eleni Partalidou, Despina Christou, Grigorios Tsoumakas
-conference: 'SETN 2022: 12th Hellenic Conference on Artificial Intelligence'
+conference: Arxiv
 year: 2021
 bibkey: partalidou2021improving
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.04156'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Eleni Partalidou, Despina Christou, Grigorios Tsoumakas
 ---
 Entity Linking (EL) seeks to align entity mentions in text to entries in a

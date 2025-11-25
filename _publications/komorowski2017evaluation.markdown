@@ -2,12 +2,12 @@
 layout: publication
 title: Evaluation Of Hashing Methods Performance On Binary Feature Descriptors
 authors: Jacek Komorowski, Tomasz Trzcinski
-conference: Arxiv
+conference: Advances in Intelligent Systems and Computing
 year: 2017
 bibkey: komorowski2017evaluation
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.06825'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
+tags: ["Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Jacek Komorowski, Tomasz Trzcinski
 ---
 In this paper we evaluate performance of data-dependent hashing methods on

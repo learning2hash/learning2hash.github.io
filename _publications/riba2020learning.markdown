@@ -5,9 +5,9 @@ authors: "Pau Riba, Andreas Fischer, Josep Llad\xF3s, Alicia Forn\xE9s"
 conference: Pattern Recognition
 year: 2020
 bibkey: riba2020learning
-citations: 26
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.07641'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Graph Based ANN", "Neural Hashing", "Tools & Libraries"]
+tags: ["Distance Metric Learning", "Evaluation", "Graph Based ANN"]
 short_authors: Riba et al.
 ---
 The emergence of geometric deep learning as a novel framework to deal with

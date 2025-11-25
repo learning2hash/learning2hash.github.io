@@ -8,7 +8,7 @@ year: 2018
 bibkey: mohammadi2018multi
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.03099'}]
-tags: ["Datasets", "Evaluation", "Locality-Sensitive-Hashing"]
+tags: ["Evaluation", "Large Scale Search", "Locality-Sensitive-Hashing", "Scalability", "Similarity Search"]
 short_authors: Hamid Mohammadi, Amin Nikoukaran
 ---
 The importance of an efficient and scalable document similarity detection

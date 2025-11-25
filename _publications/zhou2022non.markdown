@@ -1,0 +1,29 @@
+---
+layout: publication
+title: Non-contrastive Learning Meets Language-image Pre-training
+authors: Jinghao Zhou, Li Dong, Zhe Gan, Lijuan Wang, Furu Wei
+conference: Arxiv
+year: 2022
+bibkey: zhou2022non
+citations: 2
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.09304'}]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Self-Supervised"]
+short_authors: Zhou et al.
+---
+Contrastive language-image pre-training (CLIP) serves as a de-facto standard
+to align images and texts. Nonetheless, the loose correlation between images
+and texts of web-crawled data renders the contrastive objective data
+inefficient and craving for a large training batch size. In this work, we
+explore the validity of non-contrastive language-image pre-training (nCLIP),
+and study whether nice properties exhibited in visual self-supervised models
+can emerge. We empirically observe that the non-contrastive objective nourishes
+representation learning while sufficiently underperforming under zero-shot
+recognition. Based on the above study, we further introduce xCLIP, a
+multi-tasking framework combining CLIP and nCLIP, and show that nCLIP aids CLIP
+in enhancing feature semantics. The synergy between two objectives lets xCLIP
+enjoy the best of both worlds: superior performance in both zero-shot transfer
+and representation learning. Systematic evaluation is conducted spanning a wide
+variety of downstream tasks including zero-shot classification, out-of-domain
+classification, retrieval, visual representation learning, and textual
+representation learning, showcasing a consistent performance gain and
+validating the effectiveness of xCLIP.

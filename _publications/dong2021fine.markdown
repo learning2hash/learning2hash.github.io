@@ -7,10 +7,10 @@ authors: Jianfeng Dong, Zhe Ma, Xiaofeng Mao, Xun Yang, Yuan He, Richang Hong, S
 conference: IEEE Transactions on Image Processing
 year: 2021
 bibkey: dong2021fine
-citations: 33
+citations: 40
 additional_links: [{name: Code, url: 'https://github.com/maryeon/asenpp'}, {name: Paper,
     url: 'https://arxiv.org/abs/2104.02429'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Re-Ranking"]
 short_authors: Dong et al.
 ---
 This paper strives to predict fine-grained fashion similarity. In this

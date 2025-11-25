@@ -2,12 +2,12 @@
 layout: publication
 title: 'SLADE: A Self-training Framework For Distance Metric Learning'
 authors: Jiali Duan, Yen-Liang Lin, Son Tran, Larry S. Davis, C. -C. Jay Kuo
-conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2020
 bibkey: duan2020slade
-citations: 7
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.10269'}]
-tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Self-Supervised", "Supervised", "Tools & Libraries"]
+tags: ["Distance Metric Learning", "Self-Supervised"]
 short_authors: Duan et al.
 ---
 Most existing distance metric learning approaches use fully labeled data to

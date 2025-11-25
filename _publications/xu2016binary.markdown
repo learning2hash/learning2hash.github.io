@@ -7,7 +7,7 @@ year: 2016
 bibkey: xu2016binary
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.01657'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Hashing Methods", "Tools & Libraries", "Video Retrieval"]
+tags: ["Distance Metric Learning", "Efficiency", "Hashing Methods", "Video Retrieval"]
 short_authors: Xu et al.
 ---
 The query-by-image video retrieval (QBIVR) task has been attracting

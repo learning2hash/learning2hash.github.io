@@ -5,7 +5,7 @@ authors: Naama Kraus, David Carmel, Idit Keidar
 conference: 2017 IEEE International Conference on Big Data (Big Data)
 year: 2017
 bibkey: kraus2017fishing
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.02062'}]
 tags: ["Datasets", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Naama Kraus, David Carmel, Idit Keidar

@@ -5,9 +5,9 @@ authors: Tuan Hoang, Thanh-Toan Do, Tam V. Nguyen, Ngai-Man Cheung
 conference: IEEE Transactions on Image Processing
 year: 2020
 bibkey: hoang2020unsupervised
-citations: 28
+citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.00223'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Tools & Libraries", "Unsupervised"]
+tags: ["Evaluation", "Hashing Methods", "Multimodal Retrieval", "Unsupervised"]
 short_authors: Hoang et al.
 ---
 This paper presents a novel framework, namely Deep Cross-modality Spectral

@@ -7,7 +7,7 @@ year: 2024
 bibkey: engels2024approximate
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.00943'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Tools & Libraries", "Tree Based ANN"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Tree Based ANN"]
 short_authors: Engels et al.
 ---
 We define and investigate the problem of \(\textit\{c-approximate window

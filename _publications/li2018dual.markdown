@@ -2,12 +2,12 @@
 layout: publication
 title: Dual Asymmetric Deep Hashing Learning
 authors: Jinxing Li, Bob Zhang, Guangming Lu, David Zhang
-conference: IEEE Access
+conference: Arxiv
 year: 2018
 bibkey: li2018dual
-citations: 15
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.08360'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Neural Hashing", "Supervised"]
+tags: ["Hashing Methods", "Neural Hashing", "Supervised"]
 short_authors: Li et al.
 ---
 Due to the impressive learning power, deep learning has achieved a remarkable

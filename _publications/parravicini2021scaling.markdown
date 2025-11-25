@@ -7,9 +7,9 @@ authors: Alberto Parravicini, Luca Giuseppe Cellamare, Marco Siracusa, Marco Dom
 conference: 2021 58th ACM/IEEE Design Automation Conference (DAC)
 year: 2021
 bibkey: parravicini2021scaling
-citations: 9
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.04808'}]
-tags: ["Efficiency", "Evaluation"]
+tags: ["Efficiency", "Similarity Search"]
 short_authors: Parravicini et al.
 ---
 Top-K SpMV is a key component of similarity-search on sparse embeddings. This

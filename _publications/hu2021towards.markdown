@@ -5,9 +5,9 @@ authors: Conghui Hu, Yongxin Yang, Yunpeng Li, Timothy M. Hospedales, Yi-Zhe Son
 conference: Arxiv
 year: 2021
 bibkey: hu2021towards
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.08237'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Scalability", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["Few Shot & Zero Shot", "Image Retrieval", "Scalability", "Unsupervised"]
 short_authors: Hu et al.
 ---
 The practical value of existing supervised sketch-based image retrieval

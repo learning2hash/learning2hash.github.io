@@ -1,31 +1,30 @@
 ---
 layout: publication
-title: Weakly Supervised Deep Hyperspherical Quantization For Image Retrieval
-authors: Jinpeng Wang, Bin Chen, Qiang Zhang, Zaiqiao Meng, Shangsong Liang, Shu-Tao
-  Xia
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+title: Weakly-supervised Instance Segmentation Via Class-agnostic Learning With Salient
+  Images
+authors: Xinggang Wang, Jiapei Feng, Bin Hu, Qi Ding, Longjin Ran, Xiaoxin Chen, Wenyu
+  Liu
+conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2021
 bibkey: wang2021weakly
-citations: 11
-additional_links: [{name: Code, url: 'https://github.com/gimpong/AAAI21-WSDHQ'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2404.04998'}]
-tags: ["AAAI", "Efficiency", "Evaluation", "Image Retrieval", "Quantization", "Scalability", "Supervised"]
+citations: 34
+additional_links: [{name: Code, url: 'https://github.com/hustvl/BoxCaseg'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2104.01526'}]
+tags: ["CVPR", "Datasets", "Supervised"]
 short_authors: Wang et al.
 ---
-Deep quantization methods have shown high efficiency on large-scale image
-retrieval. However, current models heavily rely on ground-truth information,
-hindering the application of quantization in label-hungry scenarios. A more
-realistic demand is to learn from inexhaustible uploaded images that are
-associated with informal tags provided by amateur users. Though such sketchy
-tags do not obviously reveal the labels, they actually contain useful semantic
-information for supervising deep quantization. To this end, we propose
-Weakly-Supervised Deep Hyperspherical Quantization (WSDHQ), which is the first
-work to learn deep quantization from weakly tagged images. Specifically, 1) we
-use word embeddings to represent the tags and enhance their semantic
-information based on a tag correlation graph. 2) To better preserve semantic
-information in quantization codes and reduce quantization error, we jointly
-learn semantics-preserving embeddings and supervised quantizer on hypersphere
-by employing a well-designed fusion layer and tailor-made loss functions.
-Extensive experiments show that WSDHQ can achieve state-of-art performance on
-weakly-supervised compact coding. Code is available at
-https://github.com/gimpong/AAAI21-WSDHQ.
+Humans have a strong class-agnostic object segmentation ability and can
+outline boundaries of unknown objects precisely, which motivates us to propose
+a box-supervised class-agnostic object segmentation (BoxCaseg) based solution
+for weakly-supervised instance segmentation. The BoxCaseg model is jointly
+trained using box-supervised images and salient images in a multi-task learning
+manner. The fine-annotated salient images provide class-agnostic and precise
+object localization guidance for box-supervised images. The object masks
+predicted by a pretrained BoxCaseg model are refined via a novel merged and
+dropped strategy as proxy ground truth to train a Mask R-CNN for
+weakly-supervised instance segmentation. Only using \(7991\) salient images, the
+weakly-supervised Mask R-CNN is on par with fully-supervised Mask R-CNN on
+PASCAL VOC and significantly outperforms previous state-of-the-art
+box-supervised instance segmentation methods on COCO. The source code,
+pretrained models and datasets are available at
+https://github.com/hustvl/BoxCaseg.

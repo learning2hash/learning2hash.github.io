@@ -2,12 +2,12 @@
 layout: publication
 title: Pose-guided Multi-granularity Attention Network For Text-based Person Search
 authors: Ya Jing, Chenyang Si, Junbo Wang, Wei Wang, Liang Wang, Tieniu Tan
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2018
 bibkey: jing2018pose
-citations: 138
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.08440'}]
-tags: ["AAAI", "Datasets"]
+tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Jing et al.
 ---
 Text-based person search aims to retrieve the corresponding person images in

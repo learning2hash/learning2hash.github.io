@@ -6,9 +6,9 @@ authors: Xuhui Jia, Kai Han, Yukun Zhu, Bradley Green
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: jia2021joint
-citations: 46
+citations: 53
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.12673'}]
-tags: ["Hashing Methods", "ICCV", "Scalability", "Self-Supervised", "Supervised", "Tools & Libraries"]
+tags: ["Hashing Methods", "ICCV", "Multimodal Retrieval", "Self-Supervised", "Unsupervised"]
 short_authors: Jia et al.
 ---
 This paper studies the problem of novel category discovery on single- and

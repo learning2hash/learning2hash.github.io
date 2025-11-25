@@ -5,9 +5,9 @@ authors: Daiguo Deng, Ruomei Wang, Hefeng Wu, Huayong He, Qi Li, Xiaonan Luo
 conference: Image and Vision Computing
 year: 2017
 bibkey: deng2017learning
-citations: 38
+citations: 40
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.10211'}]
-tags: ["Datasets", "Image Retrieval", "Scalability"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Deng et al.
 ---
 Fabric image retrieval is beneficial to many applications including clothing

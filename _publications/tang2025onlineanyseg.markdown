@@ -7,9 +7,9 @@ authors: Yijie Tang, Jiazhao Zhang, Yuqing Lan, Yulan Guo, Dezun Dong, Chenyang 
 conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2025
 bibkey: tang2025onlineanyseg
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.01309'}]
-tags: ["CVPR", "Efficiency", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods"]
+tags: ["CVPR", "Efficiency", "Few Shot & Zero Shot", "Hashing Methods"]
 short_authors: Tang et al.
 ---
 Online zero-shot 3D instance segmentation of a progressively reconstructed

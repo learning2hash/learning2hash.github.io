@@ -3,12 +3,12 @@ layout: publication
 title: Audio-based Near-duplicate Video Retrieval With Audio Similarity Learning
 authors: Pavlos Avgoustinakis, Giorgos Kordopatis-Zilos, Symeon Papadopoulos, Andreas
   L. Symeonidis, Ioannis Kompatsiaris
-conference: 2020 25th International Conference on Pattern Recognition (ICPR)
+conference: Arxiv
 year: 2020
 bibkey: avgoustinakis2020audio
-citations: 7
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.08737'}]
-tags: ["Datasets", "Distance Metric Learning", "Video Retrieval"]
+tags: ["Audio Retrieval", "Datasets", "Distance Metric Learning", "Video Retrieval"]
 short_authors: Avgoustinakis et al.
 ---
 In this work, we address the problem of audio-based near-duplicate video

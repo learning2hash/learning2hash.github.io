@@ -6,9 +6,9 @@ authors: Akifumi Okuno, Geewook Kim, Hidetoshi Shimodaira
 conference: Arxiv
 year: 2018
 bibkey: okuno2018graph
-citations: 2
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.03463'}]
-tags: ["Datasets", "Distance Metric Learning"]
+tags: ["Distance Metric Learning", "Graph Based ANN"]
 short_authors: Akifumi Okuno, Geewook Kim, Hidetoshi Shimodaira
 ---
 We propose shifted inner-product similarity (SIPS), which is a novel yet very

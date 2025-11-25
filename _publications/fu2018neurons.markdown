@@ -3,13 +3,12 @@ layout: publication
 title: 'Neurons Merging Layer: Towards Progressive Redundancy Reduction For Deep Supervised
   Hashing'
 authors: Chaoyou Fu, Liangchen Song, Xiang Wu, Guoli Wang, Ran He
-conference: Twenty-Eighth International Joint Conference on Artificial Intelligence
-  {IJCAI-19}
+conference: Arxiv
 year: 2018
 bibkey: fu2018neurons
-citations: 3
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.02302'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Hashing Methods", "IJCAI", "Neural Hashing", "Supervised"]
+tags: ["Hashing Methods", "Neural Hashing", "Supervised"]
 short_authors: Fu et al.
 ---
 Deep supervised hashing has become an active topic in information retrieval.

@@ -4,13 +4,13 @@ title: 'Autossvh: Exploring Automated Frame Sampling For Efficient Self-supervis
   Video Hashing'
 authors: Niu Lian, Jun Li, Jinpeng Wang, Ruisheng Luo, Yaowei Wang, Shu-Tao Xia, Bin
   Chen
-conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2025
 bibkey: lian2025autossvh
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/EliSpectre/CVPR25-AutoSSVH'},
   {name: Paper, url: 'https://arxiv.org/abs/2504.03587'}]
-tags: ["CVPR", "Efficiency", "Hashing Methods", "Robustness", "Self-Supervised", "Supervised", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Self-Supervised"]
 short_authors: Lian et al.
 ---
 Self-Supervised Video Hashing (SSVH) compresses videos into hash codes for

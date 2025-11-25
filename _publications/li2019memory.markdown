@@ -7,7 +7,7 @@ year: 2019
 bibkey: li2019memory
 citations: 44
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.04992'}]
-tags: ["ICCV", "Supervised"]
+tags: ["Few Shot & Zero Shot", "ICCV", "Image Retrieval"]
 short_authors: Li et al.
 ---
 Learning discriminative image feature embeddings is of great importance to

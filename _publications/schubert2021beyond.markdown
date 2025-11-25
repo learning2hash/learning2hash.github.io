@@ -7,7 +7,7 @@ year: 2021
 bibkey: schubert2021beyond
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.08366'}]
-tags: ["Datasets", "Evaluation", "ICRA"]
+tags: ["Datasets", "Efficiency", "Evaluation", "ICRA", "Image Retrieval"]
 short_authors: Stefan Schubert, Peer Neubert, Peter Protzel
 ---
 Visual place recognition is the task of recognizing same places of query

@@ -7,7 +7,7 @@ year: 2016
 bibkey: gehrig2016visual
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.03548'}]
-tags: ["Datasets", "Evaluation", "ICRA", "Tools & Libraries"]
+tags: ["Evaluation", "ICRA", "Image Retrieval", "Similarity Search"]
 short_authors: Gehrig et al.
 ---
 We propose a novel scoring concept for visual place recognition based on

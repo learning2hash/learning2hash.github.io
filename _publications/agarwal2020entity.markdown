@@ -5,7 +5,7 @@ authors: Oshin Agarwal, Daniel M. Bikel
 conference: Arxiv
 year: 2020
 bibkey: agarwal2020entity
-citations: 7
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.03555'}]
 tags: ["Datasets", "Re-Ranking"]
 short_authors: Oshin Agarwal, Daniel M. Bikel

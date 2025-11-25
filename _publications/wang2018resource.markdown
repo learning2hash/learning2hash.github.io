@@ -6,10 +6,10 @@ authors: Yan Wang, Lequn Wang, Yurong You, Xu Zou, Vincent Chen, Serena Li, Gao 
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: wang2018resource
-citations: 264
+citations: 277
 additional_links: [{name: Code, url: 'https://github.com/mileyan/DARENet'}, {name: Paper,
     url: 'https://arxiv.org/abs/1805.08805'}]
-tags: ["CVPR", "Datasets"]
+tags: ["CVPR", "Datasets", "Evaluation", "Memory Efficiency", "Scalability"]
 short_authors: Wang et al.
 ---
 Not all people are equally easy to identify: color statistics might be enough

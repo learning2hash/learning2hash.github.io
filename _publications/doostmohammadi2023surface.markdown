@@ -1,0 +1,26 @@
+---
+layout: publication
+title: Surface-based Retrieval Reduces Perplexity Of Retrieval-augmented Language
+  Models
+authors: Ehsan Doostmohammadi, Tobias Norlund, Marco Kuhlmann, Richard Johansson
+conference: 'Proceedings of the 61st Annual Meeting of the Association for Computational
+  Linguistics (Volume 2: Short Papers)'
+year: 2023
+bibkey: doostmohammadi2023surface
+citations: 2
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.16243'}]
+tags: ["Evaluation", "Re-Ranking"]
+short_authors: Doostmohammadi et al.
+---
+Augmenting language models with a retrieval mechanism has been shown to
+significantly improve their performance while keeping the number of parameters
+low. Retrieval-augmented models commonly rely on a semantic retrieval mechanism
+based on the similarity between dense representations of the query chunk and
+potential neighbors. In this paper, we study the state-of-the-art Retro model
+and observe that its performance gain is better explained by surface-level
+similarities, such as token overlap. Inspired by this, we replace the semantic
+retrieval in Retro with a surface-level method based on BM25, obtaining a
+significant reduction in perplexity. As full BM25 retrieval can be
+computationally costly for large datasets, we also apply it in a re-ranking
+scenario, gaining part of the perplexity reduction with minimal computational
+overhead.

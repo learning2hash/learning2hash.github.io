@@ -3,12 +3,12 @@ layout: publication
 title: 'Node2bits: Compact Time- And Attribute-aware Node Representations For User
   Stitching'
 authors: di Jin, Mark Heimann, Ryan Rossi, Danai Koutra
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2019
 bibkey: jin2019node2bits
-citations: 13
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.08572'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Similarity Search", "Tools & Libraries"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems", "Scalability", "Similarity Search"]
 short_authors: Jin et al.
 ---
 Identity stitching, the task of identifying and matching various online

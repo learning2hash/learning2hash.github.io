@@ -5,9 +5,9 @@ authors: Hai X. Pham, Ricardo Guerrero, Jiatong Li, Vladimir Pavlovic
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2021
 bibkey: pham2021chef
-citations: 13
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.02547'}]
-tags: ["AAAI", "Multimodal Retrieval", "Tools & Libraries"]
+tags: ["AAAI", "Multimodal Retrieval"]
 short_authors: Pham et al.
 ---
 Despite the abundance of multi-modal data, such as image-text pairs, there

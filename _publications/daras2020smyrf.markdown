@@ -5,9 +5,9 @@ authors: Giannis Daras, Nikita Kitaev, Augustus Odena, Alexandros G. Dimakis
 conference: Arxiv
 year: 2020
 bibkey: daras2020smyrf
-citations: 12
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.05315'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Locality-Sensitive-Hashing", "Memory Efficiency"]
 short_authors: Daras et al.
 ---
 We propose a novel type of balanced clustering algorithm to approximate

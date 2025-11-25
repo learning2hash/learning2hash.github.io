@@ -2,7 +2,8 @@
 layout: publication
 title: Robust Set Reconciliation Via Locality Sensitive Hashing
 authors: Michael Mitzenmacher, Tom Morgan
-conference: 'SIGMOD/PODS ''19: International Conference on Management of Data'
+conference: Proceedings of the 38th ACM SIGMOD-SIGACT-SIGAI Symposium on Principles
+  of Database Systems
 year: 2018
 bibkey: mitzenmacher2018robust
 citations: 1

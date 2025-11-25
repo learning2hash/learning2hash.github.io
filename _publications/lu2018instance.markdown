@@ -6,9 +6,9 @@ authors: Peng Lu, Hangyu Lin, Yanwei Fu, Shaogang Gong, Yu-Gang Jiang, Xiangyang
 conference: Arxiv
 year: 2018
 bibkey: lu2018instance
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.11375'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Lu et al.
 ---
 Sketch has been employed as an effective communicative tool to express the

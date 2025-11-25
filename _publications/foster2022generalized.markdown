@@ -7,7 +7,7 @@ year: 2022
 bibkey: foster2022generalized
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.10022'}]
-tags: ["Datasets", "Graph Based ANN", "Similarity Search"]
+tags: ["Graph Based ANN", "Similarity Search"]
 short_authors: Cole Foster, Berk Sevilmis, Benjamin Kimia
 ---
 Similarity search is a fundamental building block for information retrieval

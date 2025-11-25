@@ -6,9 +6,9 @@ authors: Alexander Long, Wei Yin, Thalaiyasingam Ajanthan, Vu Nguyen, Pulak Purk
 conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2022
 bibkey: long2022retrieval
-citations: 42
+citations: 57
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.11233'}]
-tags: ["CVPR", "Datasets", "Evaluation"]
+tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Long et al.
 ---
 We introduce Retrieval Augmented Classification (RAC), a generic approach to

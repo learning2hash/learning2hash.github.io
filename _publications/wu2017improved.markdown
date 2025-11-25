@@ -2,12 +2,12 @@
 layout: publication
 title: Improved Consistent Weighted Sampling Revisited
 authors: Wei Wu, Bin Li, Ling Chen, Chengqi Zhang, Philip S. Yu
-conference: IEEE Transactions on Knowledge and Data Engineering
+conference: Arxiv
 year: 2017
 bibkey: wu2017improved
-citations: 13
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.01172'}]
-tags: ["Uncategorized"]
+tags: ["Hashing Methods", "Similarity Search"]
 short_authors: Wu et al.
 ---
 Min-Hash is a popular technique for efficiently estimating the Jaccard

@@ -6,10 +6,10 @@ authors: George Stein, Peter Harrington, Jacqueline Blaum, Tomislav Medan, Zarij
 conference: Arxiv
 year: 2021
 bibkey: stein2021self
-citations: 13
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/georgestein/galaxy_search'},
   {name: Paper, url: 'https://arxiv.org/abs/2110.13151'}]
-tags: ["Datasets", "Self-Supervised", "Similarity Search", "Supervised"]
+tags: ["Datasets", "Self-Supervised", "Similarity Search"]
 short_authors: Stein et al.
 ---
 We present the use of self-supervised learning to explore and exploit large

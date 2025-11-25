@@ -5,7 +5,7 @@ authors: Sihang Zeng, Zheng Yuan, Sheng Yu
 conference: Proceedings of the 21st Workshop on Biomedical Language Processing
 year: 2022
 bibkey: zeng2022automatic
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.00391'}]
 tags: ["Graph Based ANN", "Self-Supervised"]
 short_authors: Sihang Zeng, Zheng Yuan, Sheng Yu

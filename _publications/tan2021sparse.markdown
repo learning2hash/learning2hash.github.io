@@ -7,9 +7,9 @@ conference: Proceedings of the 14th ACM International Conference on Web Search a
   Data Mining
 year: 2021
 bibkey: tan2021sparse
-citations: 109
+citations: 135
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.09267'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "Scalability"]
+tags: ["Datasets", "Recommender Systems", "Scalability"]
 short_authors: Tan et al.
 ---
 Recent methods in sequential recommendation focus on learning an overall

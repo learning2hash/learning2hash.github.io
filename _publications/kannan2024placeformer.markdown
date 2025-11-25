@@ -6,9 +6,9 @@ authors: Shyam Sundar Kannan, Byung-Cheol Min
 conference: IEEE Robotics and Automation Letters
 year: 2024
 bibkey: kannan2024placeformer
-citations: 3
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.13082'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
+tags: ["Efficiency", "Image Retrieval", "Re-Ranking"]
 short_authors: Shyam Sundar Kannan, Byung-Cheol Min
 ---
 Visual place recognition is a challenging task in the field of computer

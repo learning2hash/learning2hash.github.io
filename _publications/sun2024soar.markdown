@@ -7,7 +7,7 @@ year: 2024
 bibkey: sun2024soar
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.00774'}]
-tags: ["Evaluation", "Similarity Search"]
+tags: ["Efficiency", "NEURIPS", "Similarity Search", "Tree Based ANN", "Vector Indexing"]
 short_authors: Sun et al.
 ---
 This paper introduces SOAR: Spilling with Orthogonality-Amplified Residuals,

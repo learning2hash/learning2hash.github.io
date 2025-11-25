@@ -7,9 +7,9 @@ authors: Kelly Lais Wiggers, Alceu de Souza Britto Junior, Alessandro Lameiras K
 conference: Arxiv
 year: 2019
 bibkey: wiggers2019deep
-citations: 4
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.09404'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Wiggers et al.
 ---
 This paper describes two approaches for content-based image retrieval and

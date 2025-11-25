@@ -3,12 +3,12 @@ layout: publication
 title: Learning Diverse And Discriminative Representations Via The Principle Of Maximal
   Coding Rate Reduction
 authors: Yaodong Yu, Kwan Ho Ryan Chan, Chong You, Chaobing Song, Yi Ma
-conference: Pattern Analysis and Applications
+conference: Arxiv
 year: 2020
 bibkey: yu2020learning
-citations: 4
+citations: 58
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.08558'}]
-tags: ["Datasets", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: ["Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Yu et al.
 ---
 To learn intrinsic low-dimensional structures from high-dimensional data that

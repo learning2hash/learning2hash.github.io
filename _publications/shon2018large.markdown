@@ -2,12 +2,12 @@
 layout: publication
 title: Large-scale Speaker Retrieval On Random Speaker Variability Subspace
 authors: Suwon Shon, Younggun Lee, Taesu Kim
-conference: Interspeech 2019
+conference: Arxiv
 year: 2018
 bibkey: shon2018large
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.10812'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
+tags: ["Hashing Methods", "Large Scale Search", "Locality-Sensitive-Hashing", "Scalability"]
 short_authors: Suwon Shon, Younggun Lee, Taesu Kim
 ---
 This paper describes a fast speaker search system to retrieve segments of the

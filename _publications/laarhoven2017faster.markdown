@@ -7,7 +7,7 @@ year: 2017
 bibkey: laarhoven2017faster
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.02828'}]
-tags: ["Hashing Methods"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Thijs Laarhoven
 ---
 To overcome the large memory requirement of classical lattice sieving

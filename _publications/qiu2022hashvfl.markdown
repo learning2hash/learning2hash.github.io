@@ -3,12 +3,12 @@ layout: publication
 title: 'Hashvfl: Defending Against Data Reconstruction Attacks In Vertical Federated
   Learning'
 authors: Pengyu Qiu, Xuhong Zhang, Shouling Ji, Chong Fu, Xing Yang, Ting Wang
-conference: IEEE Transactions on Information Forensics and Security
+conference: Arxiv
 year: 2022
 bibkey: qiu2022hashvfl
-citations: 16
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.00325'}]
-tags: ["Evaluation", "Hashing Methods", "Robustness"]
+tags: ["Evaluation", "Hashing Methods", "Privacy & Security", "Robustness"]
 short_authors: Qiu et al.
 ---
 Vertical Federated Learning (VFL) is a trending collaborative machine

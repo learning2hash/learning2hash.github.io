@@ -7,9 +7,9 @@ conference: Proceedings of the 45th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2022
 bibkey: cui2022video
-citations: 22
+citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.09409'}]
-tags: ["Evaluation", "SIGIR", "Self-Supervised", "Supervised"]
+tags: ["SIGIR", "Self-Supervised", "Supervised", "Video Retrieval"]
 short_authors: Cui et al.
 ---
 Video moment retrieval aims at finding the start and end timestamps of a

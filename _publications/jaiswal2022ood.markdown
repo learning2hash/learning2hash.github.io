@@ -6,9 +6,9 @@ authors: Shikhar Jaiswal, Ravishankar Krishnaswamy, Ankit Garg, Harsha Vardhan S
 conference: Arxiv
 year: 2022
 bibkey: jaiswal2022ood
-citations: 4
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.12850'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Memory Efficiency", "Tools & Libraries", "Vector Indexing"]
+tags: ["Efficiency", "Graph Based ANN", "Memory Efficiency"]
 short_authors: Jaiswal et al.
 ---
 State-of-the-art algorithms for Approximate Nearest Neighbor Search (ANNS)

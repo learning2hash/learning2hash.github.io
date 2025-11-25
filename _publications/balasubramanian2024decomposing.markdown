@@ -1,0 +1,32 @@
+---
+layout: publication
+title: Decomposing And Interpreting Image Representations Via Text In Vits Beyond
+  CLIP
+authors: Sriram Balasubramanian, Samyadeep Basu, Soheil Feizi
+conference: Arxiv
+year: 2024
+bibkey: balasubramanian2024decomposing
+citations: 0
+additional_links: [{name: Code, url: 'https://github.com/SriramB-98/vit-decompose'},
+  {name: Paper, url: 'https://arxiv.org/abs/2406.01583'}]
+tags: ["Image Retrieval", "Tools & Libraries"]
+short_authors: Sriram Balasubramanian, Samyadeep Basu, Soheil Feizi
+---
+Recent work has explored how individual components of the CLIP-ViT model
+contribute to the final representation by leveraging the shared image-text
+representation space of CLIP. These components, such as attention heads and
+MLPs, have been shown to capture distinct image features like shape, color or
+texture. However, understanding the role of these components in arbitrary
+vision transformers (ViTs) is challenging. To this end, we introduce a general
+framework which can identify the roles of various components in ViTs beyond
+CLIP. Specifically, we (a) automate the decomposition of the final
+representation into contributions from different model components, and (b)
+linearly map these contributions to CLIP space to interpret them via text.
+Additionally, we introduce a novel scoring function to rank components by their
+importance with respect to specific features. Applying our framework to various
+ViT variants (e.g. DeiT, DINO, DINOv2, Swin, MaxViT), we gain insights into the
+roles of different components concerning particular image features. These
+insights facilitate applications such as image retrieval using text
+descriptions or reference images, visualizing token importance heatmaps, and
+mitigating spurious correlations. We release our code to reproduce the
+experiments at https://github.com/SriramB-98/vit-decompose

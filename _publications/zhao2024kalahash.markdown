@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhao2024kalahash
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.19417'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Scalability", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Neural Hashing"]
 short_authors: Zhao et al.
 ---
 Deep hashing has been widely used for large-scale approximate nearest

@@ -7,10 +7,10 @@ conference: 'Proceedings of the 59th Annual Meeting of the Association for Compu
   (Volume 2: Short Papers)'
 year: 2021
 bibkey: yamada2021efficient
-citations: 46
+citations: 51
 additional_links: [{name: Code, url: 'https://github.com/studio-ousia/bpr'}, {name: Paper,
     url: 'https://arxiv.org/abs/2106.00882'}]
-tags: ["Compact Codes", "Hashing Methods"]
+tags: ["Compact Codes", "Efficiency", "Hashing Methods", "Re-Ranking"]
 short_authors: Ikuya Yamada, Akari Asai, Hannaneh Hajishirzi
 ---
 Most state-of-the-art open-domain question answering systems use a neural

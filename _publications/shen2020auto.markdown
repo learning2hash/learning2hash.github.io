@@ -6,10 +6,10 @@ authors: Yuming Shen, Jie Qin, Jiaxin Chen, Mengyang Yu, Li Liu, Fan Zhu, Fumin 
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2020
 bibkey: shen2020auto
-citations: 114
+citations: 128
 additional_links: [{name: Code, url: 'https://github.com/ymcidence/TBH'}, {name: Paper,
     url: 'https://arxiv.org/abs/2002.11930'}]
-tags: ["CVPR", "Compact Codes", "Datasets", "Evaluation", "Graph Based ANN", "Hashing Methods", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["CVPR", "Graph Based ANN", "Hashing Methods", "Unsupervised"]
 short_authors: Shen et al.
 ---
 Conventional unsupervised hashing methods usually take advantage of

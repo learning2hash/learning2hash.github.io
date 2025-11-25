@@ -2,12 +2,13 @@
 layout: publication
 title: 'VISER: Visual Self-regularization'
 authors: Hamid Izadinia, Pierre Garrigues
-conference: Arxiv
+conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
+  (CVPRW)
 year: 2018
 bibkey: izadinia2018viser
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02568'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Supervised"]
+tags: ["Datasets", "Evaluation", "Robustness", "Self-Supervised", "Supervised"]
 short_authors: Hamid Izadinia, Pierre Garrigues
 ---
 In this work, we propose the use of large set of unlabeled images as a source

@@ -10,7 +10,7 @@ year: 2021
 bibkey: xia2021searchgcn
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.00525'}]
-tags: ["Recommender Systems", "SIGIR"]
+tags: ["Graph Based ANN", "Recommender Systems", "SIGIR"]
 short_authors: Xia et al.
 ---
 Graph convolution networks (GCN), which recently becomes new state-of-the-art

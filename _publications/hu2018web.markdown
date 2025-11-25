@@ -7,9 +7,9 @@ conference: Proceedings of the 24th ACM SIGKDD International Conference on Knowl
   Discovery &amp; Data Mining
 year: 2018
 bibkey: hu2018web
-citations: 49
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.04914'}]
-tags: ["Image Retrieval", "KDD", "Large Scale Search", "Neural Hashing", "Scalability", "Tools & Libraries"]
+tags: ["Image Retrieval", "KDD", "Large Scale Search", "Scalability"]
 short_authors: Hu et al.
 ---
 In this paper, we introduce a web-scale general visual search system deployed

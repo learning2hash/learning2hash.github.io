@@ -6,9 +6,9 @@ authors: Zhedong Zheng, Liang Zheng, Michael Garrett, Yi Yang, Mingliang Xu, Yi-
 conference: ACM Transactions on Multimedia Computing, Communications, and Applications
 year: 2017
 bibkey: zheng2017dual
-citations: 437
+citations: 469
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.05535'}]
-tags: ["Datasets", "Unsupervised"]
+tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval", "Supervised", "Unsupervised"]
 short_authors: Zheng et al.
 ---
 Matching images and sentences demands a fine understanding of both

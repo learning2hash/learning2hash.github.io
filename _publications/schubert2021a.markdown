@@ -5,9 +5,9 @@ authors: Erich Schubert
 conference: Lecture Notes in Computer Science
 year: 2021
 bibkey: schubert2021a
-citations: 20
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.04071'}]
-tags: ["Distance Metric Learning", "Hashing Methods", "Similarity Search", "Tree Based ANN"]
+tags: ["Locality-Sensitive-Hashing", "Similarity Search", "Tree Based ANN"]
 short_authors: Erich Schubert
 ---
 Similarity search is a fundamental problem for many data analysis techniques.

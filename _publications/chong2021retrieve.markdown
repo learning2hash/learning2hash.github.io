@@ -5,9 +5,9 @@ authors: Min Jin Chong, Wen-Sheng Chu, Abhishek Kumar, David Forsyth
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: chong2021retrieve
-citations: 21
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.06256'}]
-tags: ["ICCV", "Tools & Libraries", "Unsupervised"]
+tags: ["ICCV", "Image Retrieval", "Unsupervised"]
 short_authors: Chong et al.
 ---
 We present Retrieve in Style (RIS), an unsupervised framework for facial

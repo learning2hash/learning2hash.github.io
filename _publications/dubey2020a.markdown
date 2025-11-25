@@ -5,9 +5,9 @@ authors: Shiv Ram Dubey
 conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2020
 bibkey: dubey2020a
-citations: 244
+citations: 300
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.00641'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Survey Paper"]
+tags: ["Evaluation", "Image Retrieval", "Survey Paper"]
 short_authors: Shiv Ram Dubey
 ---
 The content based image retrieval aims to find the similar images from a

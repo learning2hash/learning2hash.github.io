@@ -7,7 +7,7 @@ year: 2022
 bibkey: li2022an
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.06806'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Privacy & Security"]
 short_authors: Kitty Li, Ninh Pham
 ---
 In collaborative outlier detection, multiple participants exchange their

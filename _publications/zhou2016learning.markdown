@@ -6,7 +6,7 @@ authors: Weixun Zhou, Shawn Newsam, Congmin Li, Zhenfeng Shao
 conference: Remote Sensing
 year: 2016
 bibkey: zhou2016learning
-citations: 176
+citations: 179
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.03023'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Zhou et al.

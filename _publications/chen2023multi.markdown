@@ -1,30 +1,29 @@
 ---
 layout: publication
-title: Multi-level Visual Similarity Based Personalized Tourist Attraction Recommendation
-  Using Geo-tagged Photos
-authors: Ling Chen, Dandan Lyu, Shanshan Yu, Gencai Chen
-conference: ACM Transactions on Knowledge Discovery from Data
+title: Multi-content Interaction Network For Few-shot Segmentation
+authors: Hao Chen, Yunlong Yu, Yonghan Dong, Zheming Lu, Yingming Li, Zhongfei Zhang
+conference: Arxiv
 year: 2023
 bibkey: chen2023multi
-citations: 9
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.08275'}]
-tags: ["Datasets", "Recommender Systems"]
+citations: 1
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.06304'}]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Chen et al.
 ---
-Geo-tagged photo based tourist attraction recommendation can discover users'
-travel preferences from their taken photos, so as to recommend suitable tourist
-attractions to them. However, existing visual content based methods cannot
-fully exploit the user and tourist attraction information of photos to extract
-visual features, and do not differentiate the significances of different
-photos. In this paper, we propose multi-level visual similarity based
-personalized tourist attraction recommendation using geo-tagged photos (MEAL).
-MEAL utilizes the visual contents of photos and interaction behavior data to
-obtain the final embeddings of users and tourist attractions, which are then
-used to predict the visit probabilities. Specifically, by crossing the user and
-tourist attraction information of photos, we define four visual similarity
-levels and introduce a corresponding quintuplet loss to embed the visual
-contents of photos. In addition, to capture the significances of different
-photos, we exploit the self-attention mechanism to obtain the visual
-representations of users and tourist attractions. We conducted experiments on a
-dataset crawled from Flickr, and the experimental results proved the advantage
-of this method.
+Few-Shot Segmentation (FSS) is challenging for limited support images and
+large intra-class appearance discrepancies. Most existing approaches focus on
+extracting high-level representations of the same layers for support-query
+correlations, neglecting the shift issue between different layers and scales,
+due to the huge difference between support and query samples. In this paper, we
+propose a Multi-Content Interaction Network (MCINet) to remedy this issue by
+fully exploiting and interacting with the multi-scale contextual information
+contained in the support-query pairs to supplement the same-layer correlations.
+Specifically, MCINet improves FSS from the perspectives of boosting the query
+representations by incorporating the low-level structural information from
+another query branch into the high-level semantic features, enhancing the
+support-query correlations by exploiting both the same-layer and adjacent-layer
+features, and refining the predicted results by a multi-scale mask prediction
+strategy, with which the different scale contents have bidirectionally
+interacted. Experiments on two benchmarks demonstrate that our approach reaches
+SOTA performances and outperforms the best competitors with many desirable
+advantages, especially on the challenging COCO dataset.

@@ -2,14 +2,13 @@
 layout: publication
 title: Learning Co-segmentation By Segment Swapping For Retrieval And Discovery
 authors: Xi Shen, Alexei A. Efros, Armand Joulin, Mathieu Aubry
-conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
-  (CVPRW)
+conference: Arxiv
 year: 2021
 bibkey: shen2021learning
-citations: 8
+citations: 3
 additional_links: [{name: Code, url: 'http://imagine.enpc.fr/~shenx/SegSwap/'}, {
     name: Paper, url: 'https://arxiv.org/abs/2110.15904'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Unsupervised"]
 short_authors: Shen et al.
 ---
 The goal of this work is to efficiently identify visually similar patterns in

@@ -6,9 +6,9 @@ authors: Zian Liu, Zhi Zhang, Siqi Ma, Dongxi Liu, Jun Zhang, Chao Chen, Shigang
 conference: Arxiv
 year: 2023
 bibkey: liu2023semdiff
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.01463'}]
-tags: ["Evaluation", "Tools & Libraries"]
+tags: ["Evaluation", "Graph Based ANN", "Privacy & Security", "Similarity Search", "Tools & Libraries"]
 short_authors: Liu et al.
 ---
 Binary similarity detection is a critical technique that has been applied in

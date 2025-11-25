@@ -2,12 +2,12 @@
 layout: publication
 title: A Cryptanalysis Of Two Cancelable Biometric Schemes Based On Index-of-max Hashing
 authors: Kevin Atighehchi, Loubna Ghammam, Koray Karabina, Patrick Lacharme
-conference: IEEE Transactions on Information Forensics and Security
+conference: Arxiv
 year: 2019
 bibkey: atighehchi2019a
-citations: 47
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.01389'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Privacy & Security"]
 short_authors: Atighehchi et al.
 ---
 Cancelable biometric schemes generate secure biometric templates by combining

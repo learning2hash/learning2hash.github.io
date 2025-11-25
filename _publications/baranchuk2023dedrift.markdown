@@ -5,9 +5,9 @@ authors: Dmitry Baranchuk, Matthijs Douze, Yash Upadhyay, I. Zeki Yalniz
 conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2023
 bibkey: baranchuk2023dedrift
-citations: 2
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.02752'}]
-tags: ["Datasets", "Efficiency", "ICCV", "Scalability", "Similarity Search"]
+tags: ["Efficiency", "ICCV", "Scalability", "Similarity Search"]
 short_authors: Baranchuk et al.
 ---
 The statistical distribution of content uploaded and searched on media

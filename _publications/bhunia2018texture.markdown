@@ -8,7 +8,7 @@ year: 2018
 bibkey: bhunia2018texture
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.01401'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Similarity Search"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Similarity Search"]
 short_authors: Bhunia et al.
 ---
 With the large-scale explosion of images and videos over the internet,

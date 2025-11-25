@@ -7,7 +7,7 @@ year: 2024
 bibkey: cai2024recall
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.15342'}]
-tags: ["Evaluation"]
+tags: ["Efficiency", "Memory Efficiency", "Multimodal Retrieval"]
 short_authors: Cai et al.
 ---
 Human memory is inherently prone to forgetting. To address this, multimodal

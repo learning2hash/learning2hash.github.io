@@ -8,9 +8,9 @@ conference: Proceedings of the 44th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2021
 bibkey: zhang2021joint
-citations: 6
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.03933'}]
-tags: ["Evaluation", "Quantization", "SIGIR", "Vector Indexing"]
+tags: ["Quantization", "SIGIR", "Similarity Search", "Vector Indexing"]
 short_authors: Zhang et al.
 ---
 Embedding index that enables fast approximate nearest neighbor(ANN) search,

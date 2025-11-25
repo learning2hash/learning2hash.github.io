@@ -2,12 +2,12 @@
 layout: publication
 title: Integrating Scene Text And Visual Appearance For Fine-grained Image Classification
 authors: Xiang Bai, Mingkun Yang, Pengyuan Lyu, Yongchao Xu, Jiebo Luo
-conference: IEEE Access
+conference: Arxiv
 year: 2017
 bibkey: bai2017integrating
-citations: 64
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.04613'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries"]
+tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Bai et al.
 ---
 Text in natural images contains rich semantics that are often highly relevant

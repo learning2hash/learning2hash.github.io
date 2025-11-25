@@ -8,7 +8,7 @@ year: 2020
 bibkey: messina2020curatornet
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.04426'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems"]
+tags: ["Evaluation", "Recommender Systems"]
 short_authors: Messina et al.
 ---
 Although there are several visually-aware recommendation models in domains

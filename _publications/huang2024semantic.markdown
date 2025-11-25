@@ -7,7 +7,7 @@ year: 2024
 bibkey: huang2024semantic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.19128'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Quantization", "Tools & Libraries"]
+tags: ["Few Shot & Zero Shot", "Multimodal Retrieval", "Quantization"]
 short_authors: Hai Huang, Shulei Wang, Yan Xia
 ---
 Recent research in the domain of multimodal unified representations

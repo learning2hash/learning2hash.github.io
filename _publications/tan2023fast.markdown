@@ -2,12 +2,12 @@
 layout: publication
 title: Fast Locality Sensitive Hashing With Theoretical Guarantee
 authors: Zongyuan Tan, Hongya Wang, Bo Xu, Minjie Luo, Ming Du
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2023
 bibkey: tan2023fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.15479'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Tan et al.
 ---
 Locality-sensitive hashing (LSH) is an effective randomized technique widely

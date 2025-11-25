@@ -5,9 +5,9 @@ authors: "Xindi Wu, Kwunfung Lau, Francesco Ferroni, Aljo\u0161a O\u0161ep, Deva
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: wu2023pix2map
-citations: 3
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.04224'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["CVPR", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Wu et al.
 ---
 Self-driving vehicles rely on urban street maps for autonomous navigation. In

@@ -2,13 +2,13 @@
 layout: publication
 title: 'MILE: A Multi-level Framework For Scalable Graph Embedding'
 authors: Jiongqian Liang, Saket Gurukar, Srinivasan Parthasarathy
-conference: Proceedings of the International AAAI Conference on Web and Social Media
+conference: Arxiv
 year: 2018
 bibkey: liang2018mile
-citations: 38
+citations: 27
 additional_links: [{name: Code, url: 'https://github.com/jiongqian/MILE'}, {name: Paper,
     url: 'https://arxiv.org/abs/1802.09612'}]
-tags: ["AAAI", "Datasets", "Scalability", "Tools & Libraries"]
+tags: ["Datasets", "Scalability", "Tools & Libraries"]
 short_authors: Jiongqian Liang, Saket Gurukar, Srinivasan Parthasarathy
 ---
 Recently there has been a surge of interest in designing graph embedding

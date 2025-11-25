@@ -5,9 +5,9 @@ authors: Dipu Manandhar, Muhammet Bastan, Kim-Hui Yap
 conference: Journal of Visual Communication and Image Representation
 year: 2019
 bibkey: manandhar2019semantic
-citations: 10
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.06047'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Dipu Manandhar, Muhammet Bastan, Kim-Hui Yap
 ---
 Deep metric learning applied to various applications has shown promising

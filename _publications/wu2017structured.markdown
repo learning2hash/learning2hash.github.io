@@ -6,9 +6,9 @@ authors: Lin Wu, Yang Wang
 conference: Computer Vision and Image Understanding
 year: 2017
 bibkey: wu2017structured
-citations: 72
+citations: 75
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.04179'}]
-tags: ["Efficiency", "Hashing Methods", "Neural Hashing", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Neural Hashing"]
 short_authors: Lin Wu, Yang Wang
 ---
 Given a pedestrian image as a query, the purpose of person re-identification

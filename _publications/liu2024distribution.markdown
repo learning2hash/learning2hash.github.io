@@ -2,13 +2,13 @@
 layout: publication
 title: Distribution-consistency-guided Multi-modal Hashing
 authors: Jin-Yu Liu, Xian-Ling Mao, Tian-Yi Che, Rong-Cheng Tu
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2024
 bibkey: liu2024distribution
-citations: 3
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/LiuJinyu1229/DCGMH'}, {name: Paper,
     url: 'https://arxiv.org/abs/2412.11216'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
+tags: ["Hashing Methods", "Multimodal Retrieval", "Supervised"]
 short_authors: Liu et al.
 ---
 Multi-modal hashing methods have gained popularity due to their fast speed

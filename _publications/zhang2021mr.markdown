@@ -2,10 +2,10 @@
 layout: publication
 title: 'Mr. Tydi: A Multi-lingual Benchmark For Dense Retrieval'
 authors: Xinyu Zhang, Xueguang Ma, Peng Shi, Jimmy Lin
-conference: Proceedings of the 1st Workshop on Multilingual Representation Learning
+conference: Arxiv
 year: 2021
 bibkey: zhang2021mr
-citations: 27
+citations: 13
 additional_links: [{name: Code, url: 'https://github.com/castorini/mr.tydi'}, {name: Paper,
     url: 'https://arxiv.org/abs/2108.08787'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]

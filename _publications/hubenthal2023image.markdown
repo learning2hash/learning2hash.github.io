@@ -5,9 +5,9 @@ authors: Mark Hubenthal, Suren Kumar
 conference: 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
 year: 2023
 bibkey: hubenthal2023image
-citations: 4
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.10206'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Distance Metric Learning", "Few Shot & Zero Shot"]
 short_authors: Mark Hubenthal, Suren Kumar
 ---
 Open-set logo recognition is commonly solved by first detecting possible logo

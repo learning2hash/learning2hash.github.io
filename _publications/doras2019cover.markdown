@@ -8,7 +8,7 @@ year: 2019
 bibkey: doras2019cover
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.01824'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Scalability"]
 short_authors: Guillaume Doras, Geoffroy Peeters
 ---
 Automatic cover detection -- the task of finding in an audio database all the

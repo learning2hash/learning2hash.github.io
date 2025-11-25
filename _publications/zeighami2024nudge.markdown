@@ -7,7 +7,7 @@ year: 2024
 bibkey: zeighami2024nudge
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.02343'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: ["Efficiency", "Image Retrieval", "Similarity Search", "Vector Indexing"]
 short_authors: Sepanta Zeighami, Zac Wellmer, Aditya Parameswaran
 ---
 \(k\)-Nearest Neighbor search on dense vector embeddings (\(k\)-NN retrieval)

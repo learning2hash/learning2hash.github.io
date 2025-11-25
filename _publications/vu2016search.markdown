@@ -5,9 +5,9 @@ authors: Thanh Vu, Dat Quoc Nguyen, Mark Johnson, Dawei Song, Alistair Willis
 conference: Lecture Notes in Computer Science
 year: 2016
 bibkey: vu2016search
-citations: 26
+citations: 47
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.03597'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Large Scale Search", "Recommender Systems"]
 short_authors: Vu et al.
 ---
 Recent research has shown that the performance of search personalization

@@ -2,12 +2,12 @@
 layout: publication
 title: Reinforcing Short-length Hashing
 authors: Xingbo Liu, Xiushan Nie, Qi Dai, Yupan Huang, Yilong Yin
-conference: IEEE Transactions on Circuits and Systems for Video Technology
+conference: Arxiv
 year: 2020
 bibkey: liu2020reinforcing
-citations: 28
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.11511'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability"]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval"]
 short_authors: Liu et al.
 ---
 Due to the compelling efficiency in retrieval and storage,

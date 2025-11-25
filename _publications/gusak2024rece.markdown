@@ -6,9 +6,9 @@ conference: Proceedings of the 33rd ACM International Conference on Information 
   Knowledge Management
 year: 2024
 bibkey: gusak2024rece
-citations: 3
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.02354'}]
-tags: ["CIKM", "Datasets", "Evaluation", "Hashing Methods", "Memory Efficiency", "Recommender Systems", "Scalability"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Memory Efficiency", "Recommender Systems", "Scalability"]
 short_authors: Gusak et al.
 ---
 Scalability is a major challenge in modern recommender systems. In sequential

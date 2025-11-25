@@ -5,9 +5,9 @@ authors: Pierre Jacob, David Picard, Aymeric Histace, Edouard Klein
 conference: 2019 IEEE International Conference on Image Processing (ICIP)
 year: 2019
 bibkey: jacob2019efficient
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.01972'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Efficiency", "Image Retrieval"]
 short_authors: Jacob et al.
 ---
 Learning rich and compact representations is an open topic in many fields

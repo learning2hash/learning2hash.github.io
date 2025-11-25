@@ -5,9 +5,9 @@ authors: Marco Peer, Florian Kleber, Robert Sablatnig
 conference: Lecture Notes in Computer Science
 year: 2023
 bibkey: peer2023towards
-citations: 7
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.05358'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Unsupervised"]
+tags: ["Datasets", "Graph Based ANN", "Re-Ranking", "Unsupervised"]
 short_authors: Marco Peer, Florian Kleber, Robert Sablatnig
 ---
 This paper presents an unsupervised approach for writer retrieval based on

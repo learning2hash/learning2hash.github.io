@@ -7,9 +7,9 @@ authors: "Karl Audun Kagnes Borgersen, Morten Goodwin, Jivitesh Sharma, Tobias A
 conference: Lecture Notes in Computer Science
 year: 2023
 bibkey: borgersen2023corrembed
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.16126'}]
-tags: ["Evaluation", "Similarity Search"]
+tags: ["Evaluation", "Recommender Systems", "Similarity Search"]
 short_authors: Borgersen et al.
 ---
 Detecting visually similar images is a particularly useful attribute to look

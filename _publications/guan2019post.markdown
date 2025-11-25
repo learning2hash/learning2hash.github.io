@@ -7,7 +7,7 @@ year: 2019
 bibkey: guan2019post
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.02079'}]
-tags: ["Evaluation", "Quantization", "Recommender Systems"]
+tags: ["Quantization", "Recommender Systems"]
 short_authors: Guan et al.
 ---
 Continuous representations have been widely adopted in recommender systems

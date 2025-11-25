@@ -6,9 +6,9 @@ conference: 2016 IEEE Conference on Computer Vision and Pattern Recognition Work
   (CVPRW)
 year: 2016
 bibkey: salvador2016faster
-citations: 122
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.08893'}]
-tags: ["CVPR", "Evaluation"]
+tags: ["CVPR", "Evaluation", "Image Retrieval", "Re-Ranking"]
 short_authors: Salvador et al.
 ---
 Image representations derived from pre-trained Convolutional Neural Networks

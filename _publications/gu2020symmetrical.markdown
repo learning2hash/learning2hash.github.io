@@ -5,9 +5,9 @@ authors: Geonmo Gu, Byungsoo Ko
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2020
 bibkey: gu2020symmetrical
-citations: 21
+citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.11658'}]
-tags: ["AAAI", "Distance Metric Learning", "Robustness"]
+tags: ["AAAI", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Geonmo Gu, Byungsoo Ko
 ---
 Deep metric learning aims to learn embeddings that contain semantic

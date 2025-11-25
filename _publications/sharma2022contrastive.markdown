@@ -7,9 +7,9 @@ conference: Proceedings of the Thirteenth Indian Conference on Computer Vision, 
   and Image Processing
 year: 2022
 bibkey: sharma2022contrastive
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.12926'}]
-tags: ["Datasets", "Scalability", "Tools & Libraries"]
+tags: ["Datasets", "Scalability"]
 short_authors: Nakul Sharma, Abhirama S. Penamakuri, Anand Mishra
 ---
 In this paper, we study the problem of identifying logos of business brands

@@ -3,12 +3,12 @@ layout: publication
 title: Contrastive Masked Auto-encoders Based Self-supervised Hashing For 2D Image
   And 3D Point Cloud Cross-modal Retrieval
 authors: Rukai Wei, Heng Cui, Yu Liu, Yufeng Hou, Yanzhao Xie, Ke Zhou
-conference: Arxiv
+conference: 2024 IEEE International Conference on Multimedia and Expo (ICME)
 year: 2024
 bibkey: wei2024contrastive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.05711'}]
-tags: ["Datasets", "Hashing Methods", "Multimodal Retrieval", "Self-Supervised", "Supervised"]
+tags: ["Hashing Methods", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Wei et al.
 ---
 Implementing cross-modal hashing between 2D images and 3D point-cloud data is

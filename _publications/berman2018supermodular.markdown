@@ -7,7 +7,7 @@ year: 2018
 bibkey: berman2018supermodular
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.06686'}]
-tags: ["Locality-Sensitive-Hashing", "Scalability"]
+tags: ["Locality-Sensitive-Hashing", "Scalability", "Similarity Search"]
 short_authors: Maxim Berman, Matthew B. Blaschko
 ---
 In this work, we show deep connections between Locality Sensitive Hashability

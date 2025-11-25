@@ -5,10 +5,10 @@ authors: Xiangteng He, Yuxin Peng, Liu Xie
 conference: Proceedings of the 27th ACM International Conference on Multimedia
 year: 2019
 bibkey: he2019a
-citations: 32
+citations: 78
 additional_links: [{name: Code, url: 'https://github.com/PKU-ICST-MIPL/FGCrossNet_ACMMM2019'},
   {name: Paper, url: 'https://arxiv.org/abs/1907.04476'}]
-tags: ["Evaluation"]
+tags: ["Audio Retrieval", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Video Retrieval"]
 short_authors: Xiangteng He, Yuxin Peng, Liu Xie
 ---
 Cross-media retrieval is to return the results of various media types

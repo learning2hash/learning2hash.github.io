@@ -7,9 +7,9 @@ conference: Proceedings of the 31st ACM International Conference on Information 
   Knowledge Management
 year: 2022
 bibkey: wu2022hqann
-citations: 8
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.07940'}]
-tags: ["CIKM", "Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Hybrid ANN Methods", "Similarity Search", "Tools & Libraries"]
+tags: ["Efficiency", "Graph Based ANN", "Hybrid ANN Methods", "Similarity Search"]
 short_authors: Wu et al.
 ---
 The in-memory approximate nearest neighbor search (ANNS) algorithms have

@@ -6,9 +6,9 @@ authors: Dan Ruta, Andrew Gilbert, Pranav Aggarwal, Naveen Marri, Ajinkya Kale, 
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: ruta2022stylebabel
-citations: 6
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.05321'}]
-tags: ["Datasets", "Text Retrieval"]
+tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Ruta et al.
 ---
 We present StyleBabel, a unique open access dataset of natural language

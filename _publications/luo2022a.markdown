@@ -2,12 +2,12 @@
 layout: publication
 title: A Sequence Tagging Based Framework For Few-shot Relation Extraction
 authors: Xukun Luo, Ping Wang
-conference: ACM Transactions on Knowledge Discovery from Data
+conference: Arxiv
 year: 2022
 bibkey: luo2022a
-citations: 172
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.08053'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Tools & Libraries"]
+tags: ["Few Shot & Zero Shot"]
 short_authors: Xukun Luo, Ping Wang
 ---
 Relation Extraction (RE) refers to extracting the relation triples in the

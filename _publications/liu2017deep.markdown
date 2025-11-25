@@ -5,9 +5,9 @@ authors: Li Liu, Fumin Shen, Yuming Shen, Xianglong Liu, Ling Shao
 conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2017
 bibkey: liu2017deep
-citations: 269
+citations: 271
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.05605'}]
-tags: ["CVPR", "Datasets", "Hashing Methods", "Image Retrieval", "Memory Efficiency", "Scalability", "Tools & Libraries"]
+tags: ["CVPR", "Hashing Methods", "Image Retrieval", "Scalability"]
 short_authors: Liu et al.
 ---
 Free-hand sketch-based image retrieval (SBIR) is a specific cross-view

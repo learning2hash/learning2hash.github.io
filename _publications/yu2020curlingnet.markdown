@@ -8,7 +8,7 @@ year: 2020
 bibkey: yu2020curlingnet
 citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.12299'}]
-tags: ["Uncategorized"]
+tags: ["Distance Metric Learning", "Evaluation", "ICCV", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Yu et al.
 ---
 We present an approach named CurlingNet that can measure the semantic

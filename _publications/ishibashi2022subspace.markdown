@@ -2,14 +2,12 @@
 layout: publication
 title: Subspace Representations For Soft Set Operations And Sentence Similarities
 authors: Yoichi Ishibashi, Sho Yokoi, Katsuhito Sudoh, Satoshi Nakamura
-conference: 'Proceedings of the 2024 Conference of the North American Chapter of the
-  Association for Computational Linguistics: Human Language Technologies (Volume 1:
-  Long Papers)'
+conference: Arxiv
 year: 2022
 bibkey: ishibashi2022subspace
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.13034'}]
-tags: ["NAACL"]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: Ishibashi et al.
 ---
 In the field of natural language processing (NLP), continuous vector

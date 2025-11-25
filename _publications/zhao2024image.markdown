@@ -1,0 +1,27 @@
+---
+layout: publication
+title: Image And Video Tokenization With Binary Spherical Quantization
+authors: "Yue Zhao, Yuanjun Xiong, Philipp Kr\xE4henb\xFChl"
+conference: Arxiv
+year: 2024
+bibkey: zhao2024image
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.07548'}]
+tags: ["CVPR", "Evaluation", "Quantization"]
+short_authors: "Yue Zhao, Yuanjun Xiong, Philipp Kr\xE4henb\xFChl"
+---
+We propose a new transformer-based image and video tokenizer with Binary
+Spherical Quantization (BSQ). BSQ projects the high-dimensional visual
+embedding to a lower-dimensional hypersphere and then applies binary
+quantization. BSQ is (1) parameter-efficient without an explicit codebook, (2)
+scalable to arbitrary token dimensions, and (3) compact: compressing visual
+data by up to 100\(\times\) with minimal distortion. Our tokenizer uses a
+transformer encoder and decoder with simple block-wise causal masking to
+support variable-length videos as input. The resulting BSQ-ViT achieves
+state-of-the-art visual reconstruction quality on image and video
+reconstruction benchmarks with 2.4\(\times\) throughput compared to the best
+prior methods. Furthermore, by learning an autoregressive prior for adaptive
+arithmetic coding, BSQ-ViT achieves comparable results on video compression
+with state-of-the-art video compression standards. BSQ-ViT also enables masked
+language models to achieve competitive image synthesis quality to GAN- and
+diffusion-based methods.

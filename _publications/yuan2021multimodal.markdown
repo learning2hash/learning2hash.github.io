@@ -6,9 +6,9 @@ authors: Xin Yuan, Zhe Lin, Jason Kuen, Jianming Zhang, Yilin Wang, Michael Mair
 conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2021
 bibkey: yuan2021multimodal
-citations: 128
+citations: 151
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.12836'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Multimodal Retrieval", "Scalability", "Tools & Libraries"]
+tags: ["CVPR", "Distance Metric Learning", "Multimodal Retrieval"]
 short_authors: Yuan et al.
 ---
 We develop an approach to learning visual representations that embraces

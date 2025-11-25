@@ -7,9 +7,9 @@ conference: 'Proceedings of the Third Conference on Machine Translation: Researc
   Papers'
 year: 2018
 bibkey: guo2018effective
-citations: 120
+citations: 111
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.11906'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Similarity Search", "Unsupervised"]
 short_authors: Guo et al.
 ---
 This paper presents an effective approach for parallel corpus mining using

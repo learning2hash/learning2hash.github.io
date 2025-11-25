@@ -7,9 +7,9 @@ conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2024
 bibkey: dutto2024collaborative
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.13324'}]
-tags: ["CVPR", "Self-Supervised", "Tools & Libraries"]
+tags: ["CVPR", "Image Retrieval", "Self-Supervised"]
 short_authors: Dutto et al.
 ---
 Visual Place Recognition (VPR) aims to estimate the location of an image by

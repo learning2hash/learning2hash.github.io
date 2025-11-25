@@ -5,9 +5,9 @@ authors: Thanh-Toan Do, Anh-Dzung Doan, Duc-Thanh Nguyen, Ngai-Man Cheung
 conference: Lecture Notes in Computer Science
 year: 2016
 bibkey: do2016binary
-citations: 20
+citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.05396'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
+tags: ["Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Do et al.
 ---
 This paper proposes two approaches for inferencing binary codes in two-step

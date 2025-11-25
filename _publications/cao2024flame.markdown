@@ -1,0 +1,33 @@
+---
+layout: publication
+title: 'FLAME: Frozen Large Language Models Enable Data-efficient Language-image Pre-training'
+authors: Anjia Cao, Xing Wei, Zhiheng Ma
+conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2024
+bibkey: cao2024flame
+citations: 0
+additional_links: [{name: Code, url: 'https://github.com/MIV-XJTU/FLAME'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2411.11927'}]
+tags: ["CVPR", "Evaluation", "Multimodal Retrieval", "Text Retrieval"]
+short_authors: Anjia Cao, Xing Wei, Zhiheng Ma
+---
+Language-image pre-training faces significant challenges due to limited data
+in specific formats and the constrained capacities of text encoders. While
+prevailing methods attempt to address these issues through data augmentation
+and architecture modifications, they continue to struggle with processing
+long-form text inputs, and the inherent limitations of traditional CLIP text
+encoders lead to suboptimal downstream generalization. In this paper, we
+propose FLAME (Frozen Large lAnguage Models Enable data-efficient
+language-image pre-training) that leverages frozen large language models as
+text encoders, naturally processing long text inputs and demonstrating
+impressive multilingual generalization. FLAME comprises two key components: 1)
+a multifaceted prompt distillation technique for extracting diverse semantic
+representations from long captions, which better aligns with the multifaceted
+nature of images, and 2) a facet-decoupled attention mechanism, complemented by
+an offline embedding strategy, to ensure efficient computation. Extensive
+empirical evaluations demonstrate FLAME's superior performance. When trained on
+CC3M, FLAME surpasses the previous state-of-the-art by 4.9% in ImageNet top-1
+accuracy. On YFCC15M, FLAME surpasses the WIT-400M-trained CLIP by 44.4% in
+average image-to-text recall@1 across 36 languages, and by 34.6% in
+text-to-image recall@1 for long-context retrieval on Urban-1k. Code is
+available at https://github.com/MIV-XJTU/FLAME.

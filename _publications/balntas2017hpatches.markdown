@@ -5,9 +5,9 @@ authors: Vassileios Balntas, Karel Lenc, Andrea Vedaldi, Krystian Mikolajczyk
 conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2017
 bibkey: balntas2017hpatches
-citations: 671
+citations: 72
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.05939'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Neural Hashing"]
+tags: ["CVPR", "Datasets", "Evaluation"]
 short_authors: Balntas et al.
 ---
 In this paper, we propose a novel benchmark for evaluating local image

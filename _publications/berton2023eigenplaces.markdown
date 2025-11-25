@@ -5,10 +5,10 @@ authors: Gabriele Berton, Gabriele Trivigno, Barbara Caputo, Carlo Masone
 conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2023
 bibkey: berton2023eigenplaces
-citations: 36
+citations: 77
 additional_links: [{name: Code, url: 'https://github.com/gmberton/EigenPlaces\'},
   {name: Code, url: 'https://github.com/gmberton/auto_VPR\'}, {name: Paper, url: 'https://arxiv.org/abs/2308.10832'}]
-tags: ["Datasets", "ICCV", "Image Retrieval", "Robustness"]
+tags: ["ICCV", "Image Retrieval", "Robustness"]
 short_authors: Berton et al.
 ---
 Visual Place Recognition is a task that aims to predict the place of an image

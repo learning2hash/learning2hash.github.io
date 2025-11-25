@@ -5,9 +5,9 @@ authors: Xu Wang, Dezhong Peng, Ming Yan, Peng Hu
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2023
 bibkey: wang2023correspondence
-citations: 8
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.06081'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Image Retrieval", "Unsupervised"]
+tags: ["AAAI", "Image Retrieval", "Unsupervised"]
 short_authors: Wang et al.
 ---
 Cross-domain image retrieval aims at retrieving images across different

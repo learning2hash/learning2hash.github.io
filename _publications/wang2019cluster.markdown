@@ -2,12 +2,12 @@
 layout: publication
 title: Cluster-wise Unsupervised Hashing For Cross-modal Similarity Search
 authors: Lu Wang, Jie Yang
-conference: Pattern Recognition
+conference: Arxiv
 year: 2019
 bibkey: wang2019cluster
-citations: 28
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.07923'}]
-tags: ["CVPR", "Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Scalability", "Similarity Search", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["Compact Codes", "Datasets", "Hashing Methods", "Similarity Search", "Unsupervised"]
 short_authors: Lu Wang, Jie Yang
 ---
 Large-scale cross-modal hashing similarity retrieval has attracted more and

@@ -6,7 +6,7 @@ authors: "Milo\u0161 Nikoli\u0107, Ghouthi Boukli Hacene, Ciaran Bannon, Alberto
 conference: Arxiv
 year: 2020
 bibkey: "nikoli\u01072020bitpruning"
-citations: 13
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.03090'}]
 tags: ["Memory Efficiency", "Quantization"]
 short_authors: "Nikoli\u0107 et al."

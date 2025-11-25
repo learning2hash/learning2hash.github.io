@@ -5,9 +5,9 @@ authors: Jian Zhang, Yuxin Peng
 conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2016
 bibkey: zhang2016ssdh
-citations: 107
+citations: 157
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.08477'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Similarity Search", "Supervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Similarity Search"]
 short_authors: Jian Zhang, Yuxin Peng
 ---
 Hashing methods have been widely used for efficient similarity retrieval on

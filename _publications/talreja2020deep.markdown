@@ -5,9 +5,9 @@ authors: Veeru Talreja, Matthew Valenti, Nasser Nasrabadi
 conference: IEEE Transactions on Information Forensics and Security
 year: 2020
 bibkey: talreja2020deep
-citations: 24
+citations: 73
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.14758'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Tools & Libraries"]
+tags: ["Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Neural Hashing", "Privacy & Security"]
 short_authors: Veeru Talreja, Matthew Valenti, Nasser Nasrabadi
 ---
 When compared to unimodal systems, multimodal biometric systems have several

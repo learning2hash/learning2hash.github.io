@@ -2,13 +2,13 @@
 layout: publication
 title: Retrieval Robust To Object Motion Blur
 authors: Rong Zou, Marc Pollefeys, Denys Rozumnyi
-conference: Arxiv
+conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: zou2024retrieval
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/Rong-Zou/Retrieval-Robust-to-Object-Motion-Blur'},
   {name: Paper, url: 'https://arxiv.org/abs/2404.18025'}]
-tags: ["Datasets", "Scalability"]
+tags: ["Datasets", "Image Retrieval", "Robustness"]
 short_authors: Rong Zou, Marc Pollefeys, Denys Rozumnyi
 ---
 Moving objects are frequently seen in daily life and usually appear blurred

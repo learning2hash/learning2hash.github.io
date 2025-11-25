@@ -5,9 +5,9 @@ authors: Bin Li, Ye Shi, Qian Yu, Jingya Wang
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2024
 bibkey: li2024unsupervised
-citations: 2
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.18411'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Image Retrieval", "Self-Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["AAAI", "Image Retrieval", "Self-Supervised", "Unsupervised"]
 short_authors: Li et al.
 ---
 Unsupervised cross-domain image retrieval (UCIR) aims to retrieve images

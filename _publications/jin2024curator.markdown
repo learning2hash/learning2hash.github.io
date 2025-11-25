@@ -7,7 +7,7 @@ year: 2024
 bibkey: jin2024curator
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.07119'}]
-tags: ["Efficiency", "Evaluation", "Memory Efficiency", "Vector Indexing"]
+tags: ["Efficiency", "Memory Efficiency", "Vector Indexing"]
 short_authors: Jin et al.
 ---
 Vector databases have emerged as key enablers for bridging intelligent

@@ -7,10 +7,10 @@ authors: Jiun Tian Hoe, Kam Woh Ng, Tianyu Zhang, Chee Seng Chan, Yi-Zhe Song, T
 conference: Arxiv
 year: 2021
 bibkey: hoe2021one
-citations: 48
+citations: 13
 additional_links: [{name: Code, url: 'https://github.com/kamwoh/orthohash'}, {name: Paper,
     url: 'https://arxiv.org/abs/2109.14449'}]
-tags: ["Distance Metric Learning", "Hashing Methods", "Neural Hashing", "Quantization", "Scalability"]
+tags: ["Distance Metric Learning", "Hashing Methods", "Neural Hashing", "Quantization"]
 short_authors: Hoe et al.
 ---
 A deep hashing model typically has two main learning objectives: to make the

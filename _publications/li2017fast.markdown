@@ -5,9 +5,9 @@ authors: Ke Li, Jitendra Malik
 conference: Arxiv
 year: 2017
 bibkey: li2017fast
-citations: 14
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.00440'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: ["Efficiency", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Ke Li, Jitendra Malik
 ---
 Most exact methods for k-nearest neighbour search suffer from the curse of

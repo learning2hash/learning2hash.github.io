@@ -7,9 +7,9 @@ authors: Diego Valsesia, Sophie Marie Fosson, Chiara Ravazzi, Tiziano Bianchi, E
 conference: Pattern Recognition Letters
 year: 2019
 bibkey: valsesia2019analysis
-citations: 3
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.01802'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Distance Metric Learning", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Valsesia et al.
 ---
 Embeddings provide compact representations of signals in order to perform

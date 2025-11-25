@@ -2,12 +2,12 @@
 layout: publication
 title: 'SIMCO: Similarity-based Object Counting'
 authors: Marco Godi, Christian Joppi, Andrea Giachetti, Marco Cristani
-conference: Arxiv
+conference: 2020 25th International Conference on Pattern Recognition (ICPR)
 year: 2019
 bibkey: godi2019simco
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.07092'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Unsupervised"]
+tags: ["Datasets", "Distance Metric Learning", "Unsupervised"]
 short_authors: Godi et al.
 ---
 We present SIMCO, the first agnostic multi-class object counting approach.

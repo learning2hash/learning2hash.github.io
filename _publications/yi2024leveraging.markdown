@@ -5,10 +5,10 @@ authors: Chao Yi, Lu Ren, de-Chuan Zhan, Han-Jia Ye
 conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2024
 bibkey: yi2024leveraging
-citations: 1
+citations: 4
 additional_links: [{name: Code, url: 'https://github.com/YCaigogogo/CVPR24-CODER'},
   {name: Paper, url: 'https://arxiv.org/abs/2404.17753'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Self-Supervised"]
+tags: ["CVPR", "Few Shot & Zero Shot", "Self-Supervised"]
 short_authors: Yi et al.
 ---
 CLIP showcases exceptional cross-modal matching capabilities due to its

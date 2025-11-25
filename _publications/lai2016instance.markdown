@@ -5,9 +5,9 @@ authors: Hanjiang Lai, Pan Yan, Xiangbo Shu, Yunchao Wei, Shuicheng Yan
 conference: IEEE Transactions on Image Processing
 year: 2016
 bibkey: lai2016instance
-citations: 78
+citations: 125
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.03234'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Supervised", "Unsupervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Similarity Search", "Supervised"]
 short_authors: Lai et al.
 ---
 Similarity-preserving hashing is a commonly used method for nearest neighbour

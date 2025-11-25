@@ -5,9 +5,9 @@ authors: "Bogdan Kosti\u0107, Julian Risch, Timo M\xF6ller"
 conference: Proceedings of the 3rd Workshop on Machine Reading for Question Answering
 year: 2021
 bibkey: "kosti\u01072021multi"
-citations: 12
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.04049'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
 short_authors: "Bogdan Kosti\u0107, Julian Risch, Timo M\xF6ller"
 ---
 Open-domain extractive question answering works well on textual data by first

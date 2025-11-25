@@ -5,9 +5,9 @@ authors: Xin Ji, Wei Wang, Meihui Zhang, Yang Yang
 conference: Proceedings of the 25th ACM international conference on Multimedia
 year: 2017
 bibkey: ji2017cross
-citations: 79
+citations: 63
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.01784'}]
-tags: ["Datasets", "Efficiency", "Image Retrieval"]
+tags: ["Efficiency", "Image Retrieval"]
 short_authors: Ji et al.
 ---
 With the proliferation of e-commerce websites and the ubiquitousness of smart

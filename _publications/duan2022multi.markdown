@@ -6,9 +6,9 @@ authors: Jiali Duan, Liqun Chen, Son Tran, Jinyu Yang, Yi Xu, Belinda Zeng, Tris
 conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2022
 bibkey: duan2022multi
-citations: 40
+citations: 48
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.00048'}]
-tags: ["CVPR", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["CVPR", "Few Shot & Zero Shot", "Multimodal Retrieval"]
 short_authors: Duan et al.
 ---
 Aligning signals from different modalities is an important step in

@@ -5,9 +5,9 @@ authors: "Golsa Tahmasebzadeh, Sherzod Hakimov, Eric M\xFCller-Budack, Ralph Ewe
 conference: CLEOPATRA Workshop co-located with ESWC 2020
 year: 2020
 bibkey: tahmasebzadeh2020a
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.06390'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Multimodal Retrieval"]
 short_authors: Tahmasebzadeh et al.
 ---
 Content-based information retrieval is based on the information contained in

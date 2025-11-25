@@ -2,13 +2,12 @@
 layout: publication
 title: Improving Hateful Meme Detection Through Retrieval-guided Contrastive Learning
 authors: Jingbiao Mei, Jinghong Chen, Weizhe Lin, Bill Byrne, Marcus Tomalin
-conference: 'Proceedings of the 62nd Annual Meeting of the Association for Computational
-  Linguistics (Volume 1: Long Papers)'
+conference: Arxiv
 year: 2023
 bibkey: mei2023improving
-citations: 7
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.08110'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Mei et al.
 ---
 Hateful memes have emerged as a significant concern on the Internet.

@@ -6,9 +6,9 @@ conference: Proceedings of the 44th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2021
 bibkey: wang2021cross
-citations: 33
+citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.15154'}]
-tags: ["Efficiency", "Recommender Systems", "SIGIR", "Scalability"]
+tags: ["Efficiency", "Recommender Systems", "SIGIR"]
 short_authors: Jinpeng Wang, Jieming Zhu, Xiuqiang He
 ---
 The two-tower architecture has been widely applied for learning item and user

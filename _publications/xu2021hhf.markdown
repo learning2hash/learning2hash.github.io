@@ -3,13 +3,13 @@ layout: publication
 title: 'HHF: Hashing-guided Hinge Function For Deep Hashing Retrieval'
 authors: Chengyin Xu, Zenghao Chai, Zhengzhuo Xu, Hongjia Li, Qiruyi Zuo, Lingyu Yang,
   Chun Yuan
-conference: IEEE Transactions on Multimedia
+conference: Arxiv
 year: 2021
 bibkey: xu2021hhf
-citations: 30
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/JerryXu0129/HHF'}, {name: Paper,
     url: 'https://arxiv.org/abs/2112.02225'}]
-tags: ["Distance Metric Learning", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Scalability"]
+tags: ["Distance Metric Learning", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
 short_authors: Xu et al.
 ---
 Deep hashing has shown promising performance in large-scale image retrieval.

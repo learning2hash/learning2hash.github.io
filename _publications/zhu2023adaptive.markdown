@@ -3,13 +3,13 @@ layout: publication
 title: Adaptive Confidence Multi-view Hashing For Multimedia Retrieval
 authors: Jian Zhu, Yu Cui, Zhangmin Huang, Xingyu Li, Lei Liu, Lingfang Zeng, Li-Rong
   Dai
-conference: 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+conference: Arxiv
 year: 2023
 bibkey: zhu2023adaptive
-citations: 25
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/HackerHyper/ACMVH'}, {name: Paper,
     url: 'https://arxiv.org/abs/2312.07327'}]
-tags: ["Datasets", "Hashing Methods"]
+tags: ["Hashing Methods", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Zhu et al.
 ---
 The multi-view hash method converts heterogeneous data from multiple views

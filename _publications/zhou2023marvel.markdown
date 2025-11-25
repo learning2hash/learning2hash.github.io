@@ -4,14 +4,13 @@ title: 'MARVEL: Unlocking The Multi-modal Capability Of Dense Retrieval Via Visu
   Module Plugin'
 authors: Tianshuo Zhou, Sen Mei, Xinze Li, Zhenghao Liu, Chenyan Xiong, Zhiyuan Liu,
   Yu Gu, Ge Yu
-conference: 'Proceedings of the 62nd Annual Meeting of the Association for Computational
-  Linguistics (Volume 1: Long Papers)'
+conference: Arxiv
 year: 2023
 bibkey: zhou2023marvel
-citations: 3
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/OpenMatch/MARVEL'}, {name: Paper,
     url: 'https://arxiv.org/abs/2310.14037'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval"]
+tags: ["Datasets", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Zhou et al.
 ---
 This paper proposes Multi-modAl Retrieval model via Visual modulE pLugin

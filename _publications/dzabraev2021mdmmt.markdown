@@ -6,9 +6,9 @@ conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2021
 bibkey: dzabraev2021mdmmt
-citations: 111
+citations: 105
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.10699'}]
-tags: ["CVPR", "Datasets", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Video Retrieval"]
 short_authors: Dzabraev et al.
 ---
 We present a new state-of-the-art on the text to video retrieval task on

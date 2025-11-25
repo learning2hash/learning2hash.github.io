@@ -6,9 +6,9 @@ authors: Cun Mu, Jun Zhao, Guang Yang, Binwei Yang, Zheng Yan
 conference: Lecture Notes in Computer Science
 year: 2019
 bibkey: mu2019fast
-citations: 4
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.08498'}]
-tags: ["Compact Codes", "Text Retrieval"]
+tags: ["Compact Codes", "Efficiency", "Similarity Search", "Text Retrieval"]
 short_authors: Mu et al.
 ---
 A growing interest has been witnessed recently from both academia and

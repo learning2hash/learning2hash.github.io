@@ -6,9 +6,9 @@ authors: Meng Chen, Kai Zhang, Zhenying He, Yinan Jing, X. Sean Wang
 conference: Proceedings of the VLDB Endowment
 year: 2024
 bibkey: chen2024roargraph
-citations: 5
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.08933'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Recommender Systems"]
+tags: ["Efficiency", "Multimodal Retrieval", "Recommender Systems"]
 short_authors: Chen et al.
 ---
 Approximate Nearest Neighbor Search (ANNS) is a fundamental and critical

@@ -9,7 +9,7 @@ bibkey: somandepalli2020robust
 citations: 6
 additional_links: [{name: Other, url: 'https://sail.usc.edu/~ccmi/multiface'}, {name: Paper,
     url: 'https://arxiv.org/abs/2008.11289'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Self-Supervised", "Supervised"]
+tags: ["Datasets", "Distance Metric Learning", "Self-Supervised"]
 short_authors: Krishna Somandepalli, Rajat Hebbar, Shrikanth Narayanan
 ---
 Robust face clustering is a vital step in enabling computational

@@ -5,9 +5,9 @@ authors: Xian Wu, Moses Charikar
 conference: Arxiv
 year: 2020
 bibkey: wu2020nearest
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.00836'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Efficiency", "Similarity Search"]
 short_authors: Xian Wu, Moses Charikar
 ---
 Embedding into hyperbolic space is emerging as an effective representation

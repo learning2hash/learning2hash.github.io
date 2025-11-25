@@ -5,9 +5,9 @@ authors: Yanru Xiao, Cong Wang, Xing Gao
 conference: Arxiv
 year: 2023
 bibkey: xiao2023unsupervised
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.04228'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Robustness", "Unsupervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Quantization", "Robustness", "Unsupervised"]
 short_authors: Yanru Xiao, Cong Wang, Xing Gao
 ---
 The vulnerability in the algorithm supply chain of deep learning has imposed

@@ -5,9 +5,9 @@ authors: Raffaele Imbriaco, Clint Sebastian, Egor Bondarev, Peter H. N. de With
 conference: Remote Sensing
 year: 2019
 bibkey: imbriaco2019aggregated
-citations: 73
+citations: 69
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.09469'}]
-tags: ["Efficiency", "Evaluation", "Image Retrieval"]
+tags: ["Efficiency", "Image Retrieval"]
 short_authors: Imbriaco et al.
 ---
 Remote Sensing Image Retrieval remains a challenging topic due to the special

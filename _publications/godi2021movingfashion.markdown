@@ -5,9 +5,9 @@ authors: Marco Godi, Christian Joppi, Geri Skenderi, Marco Cristani
 conference: 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
 year: 2021
 bibkey: godi2021movingfashion
-citations: 11
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.02627'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Video Retrieval"]
 short_authors: Godi et al.
 ---
 Retrieving clothes which are worn in social media videos (Instagram, TikTok)

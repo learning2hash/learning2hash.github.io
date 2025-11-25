@@ -6,10 +6,10 @@ authors: Zheyuan Liu, Weixuan Sun, Damien Teney, Stephen Gould
 conference: Arxiv
 year: 2023
 bibkey: liu2023candidate
-citations: 5
+citations: 6
 additional_links: [{name: Code, url: 'https://github.com/Cuberick-Orion/Candidate-Reranking-CIR'},
   {name: Paper, url: 'https://arxiv.org/abs/2305.16304'}]
-tags: ["Datasets", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking", "Scalability"]
+tags: ["Evaluation", "Image Retrieval", "Re-Ranking", "Scalability"]
 short_authors: Liu et al.
 ---
 Composed image retrieval aims to find an image that best matches a given

@@ -7,9 +7,9 @@ authors: Haoran Wang, Dongliang He, Wenhao Wu, Boyang Xia, Min Yang, Fu Li, Yunl
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: wang2022coder
-citations: 17
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.09843'}]
-tags: ["Self-Supervised", "Text Retrieval"]
+tags: ["Image Retrieval", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Wang et al.
 ---
 Image-Text Retrieval (ITR) is challenging in bridging visual and lingual

@@ -5,9 +5,9 @@ authors: Yiluan Guo, Ngai-Man Cheung
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: guo2018efficient
-citations: 89
+citations: 90
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.11353'}]
-tags: ["CVPR", "Evaluation"]
+tags: ["CVPR", "Efficiency"]
 short_authors: Yiluan Guo, Ngai-Man Cheung
 ---
 Person Re-Identification (ReID) requires comparing two images of person

@@ -2,13 +2,13 @@
 layout: publication
 title: Object-aware Query Perturbation For Cross-modal Image-text Retrieval
 authors: Naoya Sogi, Takashi Shibata, Makoto Terao
-conference: Arxiv
+conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: sogi2024object
-citations: 0
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/NEC-N-SOGI/query-perturbation'},
   {name: Paper, url: 'https://arxiv.org/abs/2407.12346'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval", "Tools & Libraries"]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Naoya Sogi, Takashi Shibata, Makoto Terao
 ---
 The pre-trained vision and language (V\&L) models have substantially improved

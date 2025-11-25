@@ -1,27 +1,25 @@
 ---
 layout: publication
-title: Deep Triplet Quantization
-authors: Bin Liu, Yue Cao, Mingsheng Long, Jianmin Wang, Jingdong Wang
-conference: Proceedings of the 26th ACM international conference on Multimedia
+title: Deep Image Compression Via End-to-end Learning
+authors: Haojie Liu, Tong Chen, Qiu Shen, Tao Yue, Zhan Ma
+conference: Arxiv
 year: 2018
 bibkey: liu2018deep
-citations: 105
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.00153'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Similarity Search"]
+citations: 22
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.01496'}]
+tags: ["Datasets", "Quantization"]
 short_authors: Liu et al.
 ---
-Deep hashing establishes efficient and effective image retrieval by
-end-to-end learning of deep representations and hash codes from similarity
-data. We present a compact coding solution, focusing on deep learning to
-quantization approach that has shown superior performance over hashing
-solutions for similarity retrieval. We propose Deep Triplet Quantization (DTQ),
-a novel approach to learning deep quantization models from the similarity
-triplets. To enable more effective triplet training, we design a new triplet
-selection approach, Group Hard, that randomly selects hard triplets in each
-image group. To generate compact binary codes, we further apply a triplet
-quantization with weak orthogonality during triplet training. The quantization
-loss reduces the codebook redundancy and enhances the quantizability of deep
-representations through back-propagation. Extensive experiments demonstrate
-that DTQ can generate high-quality and compact binary codes, which yields
-state-of-the-art image retrieval performance on three benchmark datasets,
-NUS-WIDE, CIFAR-10, and MS-COCO.
+We present a lossy image compression method based on deep convolutional
+neural networks (CNNs), which outperforms the existing BPG, WebP, JPEG2000 and
+JPEG as measured via multi-scale structural similarity (MS-SSIM), at the same
+bit rate. Currently, most of the CNNs based approaches train the network using
+a L2 loss between the reconstructions and the ground-truths in the pixel
+domain, which leads to over-smoothing results and visual quality degradation
+especially at a very low bit rate. Therefore, we improve the subjective quality
+with the combination of a perception loss and an adversarial loss additionally.
+To achieve better rate-distortion optimization (RDO), we also introduce an
+easy-to-hard transfer learning when adding quantization error and rate
+constraint. Finally, we evaluate our method on public Kodak and the Test
+Dataset P/M released by the Computer Vision Lab of ETH Zurich, resulting in
+averaged 7.81% and 19.1% BD-rate reduction over BPG, respectively.

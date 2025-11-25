@@ -2,13 +2,13 @@
 layout: publication
 title: Attribute-guided Multi-level Attention Network For Fine-grained Fashion Retrieval
 authors: Ling Xiao, Toshihiko Yamasaki
-conference: IEEE Access
+conference: IEEE Access vol. 12 pp. 48068-48080 2024
 year: 2022
 bibkey: xiao2022attribute
-citations: 5
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/Dr-LingXiao/AG-MAN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2301.13014'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Ling Xiao, Toshihiko Yamasaki
 ---
 Fine-grained fashion retrieval searches for items that share a similar

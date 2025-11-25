@@ -3,13 +3,12 @@ layout: publication
 title: 'OPI At Semeval 2023 Task 1: Image-text Embeddings And Multimodal Information
   Retrieval For Visual Word Sense Disambiguation'
 authors: "S\u0142awomir Dadas"
-conference: Proceedings of the The 17th International Workshop on Semantic Evaluation
-  (SemEval-2023)
+conference: Arxiv
 year: 2023
 bibkey: dadas2023opi
-citations: 5
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.07127'}]
-tags: ["Evaluation", "Uncategorized"]
+tags: ["Multimodal Retrieval"]
 short_authors: "S\u0142awomir Dadas"
 ---
 The goal of visual word sense disambiguation is to find the image that best

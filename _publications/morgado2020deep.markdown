@@ -5,9 +5,9 @@ authors: Pedro Morgado, Yunsheng Li, Jose Costa Pereira, Mohammad Saberian, Nuno
 conference: International Journal of Computer Vision
 year: 2020
 bibkey: morgado2020deep
-citations: 6
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.13912'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing"]
+tags: ["Datasets", "Hashing Methods", "Neural Hashing"]
 short_authors: Morgado et al.
 ---
 Image hash codes are produced by binarizing the embeddings of convolutional

@@ -2,11 +2,10 @@
 layout: publication
 title: Contextualized Sparse Representations For Real-time Open-domain Question Answering
 authors: Jinhyuk Lee, Minjoon Seo, Hannaneh Hajishirzi, Jaewoo Kang
-conference: Proceedings of the 58th Annual Meeting of the Association for Computational
-  Linguistics
+conference: Arxiv
 year: 2019
 bibkey: lee2019contextualized
-citations: 17
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.02896'}]
 tags: ["Efficiency", "Scalability"]
 short_authors: Lee et al.

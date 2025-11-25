@@ -6,9 +6,9 @@ authors: "Biswajit Paria, Chih-Kuan Yeh, Ian E. H. Yen, Ning Xu, Pradeep Ravikum
 conference: Arxiv
 year: 2020
 bibkey: paria2020minimizing
-citations: 14
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.05665'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing", "Quantization", "Recommender Systems"]
+tags: ["Efficiency", "Image Retrieval", "Locality-Sensitive-Hashing", "Quantization", "Recommender Systems"]
 short_authors: Paria et al.
 ---
 Deep representation learning has become one of the most widely adopted

@@ -5,9 +5,9 @@ authors: Pierre Jacob, David Picard, Aymeric Histace, Edouard Klein
 conference: 2018 25th IEEE International Conference on Image Processing (ICIP)
 year: 2018
 bibkey: jacob2018leveraging
-citations: 2
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.08991'}]
-tags: ["Datasets", "Image Retrieval", "Tools & Libraries"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Jacob et al.
 ---
 Most image retrieval methods use global features that aggregate local

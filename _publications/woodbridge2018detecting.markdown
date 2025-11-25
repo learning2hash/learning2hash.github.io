@@ -5,9 +5,9 @@ authors: Jonathan Woodbridge, Hyrum S. Anderson, Anjum Ahuja, Daniel Grant
 conference: 2018 IEEE Security and Privacy Workshops (SPW)
 year: 2018
 bibkey: woodbridge2018detecting
-citations: 35
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.09738'}]
-tags: ["Datasets", "Evaluation", "Tree Based ANN"]
+tags: ["Datasets", "Efficiency", "Privacy & Security", "Similarity Search"]
 short_authors: Woodbridge et al.
 ---
 A homoglyph (name spoofing) attack is a common technique used by adversaries

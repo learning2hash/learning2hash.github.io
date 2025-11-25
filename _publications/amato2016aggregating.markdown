@@ -5,9 +5,9 @@ authors: Giuseppe Amato, Fabrizio Falchi, Lucia Vadicamo
 conference: Multimedia Tools and Applications
 year: 2016
 bibkey: amato2016aggregating
-citations: 6
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.00813'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Scalability", "Similarity Search"]
 short_authors: Giuseppe Amato, Fabrizio Falchi, Lucia Vadicamo
 ---
 Content-Based Image Retrieval based on local features is computationally

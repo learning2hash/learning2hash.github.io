@@ -5,7 +5,7 @@ authors: Eric Dodds, Jack Culpepper, Simao Herdade, Yang Zhang, Kofi Boakye
 conference: Arxiv
 year: 2020
 bibkey: dodds2020modality
-citations: 46
+citations: 47
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.00145'}]
 tags: ["Datasets", "Image Retrieval"]
 short_authors: Dodds et al.

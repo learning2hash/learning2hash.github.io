@@ -3,11 +3,11 @@ layout: publication
 title: 'SOLAR: Sparse Orthogonal Learned And Random Embeddings'
 authors: Tharun Medini, Beidi Chen, Anshumali Shrivastava
 conference: Arxiv
-year: 2021
+year: 2020
 bibkey: medini2020solar
-citations: 6
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.13225'}]
-tags: ["Datasets", "Efficiency", "Evaluation"]
+tags: ["Datasets", "Efficiency"]
 short_authors: Tharun Medini, Beidi Chen, Anshumali Shrivastava
 ---
 Dense embedding models are commonly deployed in commercial search engines,

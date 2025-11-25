@@ -7,7 +7,7 @@ year: 2021
 bibkey: wang2021towards
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.05130'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Vector Indexing"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Li Wang
 ---
 As data volumes continue to grow, clustering and outlier detection algorithms

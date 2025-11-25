@@ -6,9 +6,9 @@ authors: Jingkuan Song, Hanwang Zhang, Xiangpeng Li, Lianli Gao, Meng Wang, Rich
 conference: IEEE Transactions on Image Processing
 year: 2018
 bibkey: song2018self
-citations: 165
+citations: 271
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02305'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Self-Supervised", "Supervised", "Tools & Libraries", "Unsupervised", "Video Retrieval"]
+tags: ["Hashing Methods", "Self-Supervised", "Unsupervised", "Video Retrieval"]
 short_authors: Song et al.
 ---
 Existing video hash functions are built on three isolated stages: frame

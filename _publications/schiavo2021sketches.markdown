@@ -5,9 +5,9 @@ authors: Alessio Schiavo, Filippo Minutella, Mattia Daole, Marsha Gomez Gomez
 conference: Arxiv
 year: 2021
 bibkey: schiavo2021sketches
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.01147'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Schiavo et al.
 ---
 The adoption of an appropriate approximate similarity search method is an

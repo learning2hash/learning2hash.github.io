@@ -5,9 +5,9 @@ authors: Li Weng, Valerie Gouet-Brunet, Bahman Soheilian
 conference: Multimedia Tools and Applications
 year: 2020
 bibkey: weng2020semantic
-citations: 5
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.03388'}]
-tags: ["Evaluation", "Scalability", "Similarity Search"]
+tags: ["Scalability", "Similarity Search"]
 short_authors: Li Weng, Valerie Gouet-Brunet, Bahman Soheilian
 ---
 Visual localization is a useful alternative to standard localization

@@ -6,9 +6,9 @@ conference: in Proceedings of the 18th Conference on Natural Language Processing
   2022) pages 21-28 Potsdam Germany
 year: 2021
 bibkey: stammbach2021docscan
-citations: 4
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.04024'}]
-tags: ["Datasets", "Evaluation", "Supervised", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Unsupervised"]
 short_authors: Dominik Stammbach, Elliott Ash
 ---
 We introduce DocSCAN, a completely unsupervised text classification approach

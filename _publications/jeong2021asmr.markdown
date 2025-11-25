@@ -6,9 +6,9 @@ authors: Boseung Jeong, Jicheol Park, Suha Kwak
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: jeong2021asmr
-citations: 17
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.04533'}]
-tags: ["Distance Metric Learning", "ICCV"]
+tags: ["Distance Metric Learning", "Evaluation", "ICCV"]
 short_authors: Boseung Jeong, Jicheol Park, Suha Kwak
 ---
 Attribute-based person search is the task of finding person images that are

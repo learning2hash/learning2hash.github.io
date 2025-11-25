@@ -3,13 +3,13 @@ layout: publication
 title: 'Prompthash: Affinity-prompted Collaborative Cross-modal Learning For Adaptive
   Hashing Retrieval'
 authors: Qiang Zou, Shuli Cheng, Jiayi Chen
-conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2025
 bibkey: zou2025prompthash
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/ShiShuMo/PromptHash'}, {
     name: Paper, url: 'https://arxiv.org/abs/2503.16064'}]
-tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Self-Supervised", "Tools & Libraries"]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Qiang Zou, Shuli Cheng, Jiayi Chen
 ---
 Cross-modal hashing is a promising approach for efficient data retrieval and

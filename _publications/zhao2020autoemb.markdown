@@ -3,12 +3,12 @@ layout: publication
 title: 'Autoemb: Automated Embedding Dimensionality Search In Streaming Recommendations'
 authors: Xiangyu Zhao, Chong Wang, Ming Chen, Xudong Zheng, Xiaobing Liu, Jiliang
   Tang
-conference: 2021 IEEE International Conference on Data Mining (ICDM)
+conference: Arxiv
 year: 2020
 bibkey: zhao2020autoemb
-citations: 44
+citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.11252'}]
-tags: ["Datasets", "Evaluation", "Neural Hashing", "Recommender Systems", "Tools & Libraries"]
+tags: ["Datasets", "Recommender Systems", "Tools & Libraries"]
 short_authors: Zhao et al.
 ---
 Deep learning based recommender systems (DLRSs) often have embedding layers,

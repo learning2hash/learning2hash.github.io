@@ -7,7 +7,7 @@ year: 2021
 bibkey: radhakrishnan2021deep
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.01569'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Image Retrieval"]
 short_authors: Radhakrishnan et al.
 ---
 Ground texture based localization methods are potential prospects for

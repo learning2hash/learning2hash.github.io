@@ -6,9 +6,9 @@ authors: Heikki Arponen, Tom E Bishop
 conference: Arxiv
 year: 2019
 bibkey: arponen2019shrewd
-citations: 2
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.05602'}]
-tags: ["Distance Metric Learning", "Hashing Methods", "Neural Hashing", "Supervised"]
+tags: ["Distance Metric Learning", "Hashing Methods", "Neural Hashing"]
 short_authors: Heikki Arponen, Tom E Bishop
 ---
 Using class labels to represent class similarity is a typical approach to

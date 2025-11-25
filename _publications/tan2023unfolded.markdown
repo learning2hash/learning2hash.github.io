@@ -8,7 +8,7 @@ year: 2023
 bibkey: tan2023unfolded
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.02350'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems", "Scalability", "Similarity Search"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Privacy & Security", "Recommender Systems", "Similarity Search"]
 short_authors: Tan et al.
 ---
 Approximate nearest neighbour (ANN) search is an essential component of

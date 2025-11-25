@@ -1,0 +1,28 @@
+---
+layout: publication
+title: Enhanced Multimodal Representation Learning With Cross-modal KD
+authors: Mengxi Chen, Linyu Xing, Yu Wang, Ya Zhang
+conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2023
+bibkey: chen2023enhanced
+citations: 8
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.07646'}]
+tags: ["CVPR", "Self-Supervised", "Video Retrieval"]
+short_authors: Chen et al.
+---
+This paper explores the tasks of leveraging auxiliary modalities which are
+only available at training to enhance multimodal representation learning
+through cross-modal Knowledge Distillation (KD). The widely adopted mutual
+information maximization-based objective leads to a short-cut solution of the
+weak teacher, i.e., achieving the maximum mutual information by simply making
+the teacher model as weak as the student model. To prevent such a weak
+solution, we introduce an additional objective term, i.e., the mutual
+information between the teacher and the auxiliary modality model. Besides, to
+narrow down the information gap between the student and teacher, we further
+propose to minimize the conditional entropy of the teacher given the student.
+Novel training schemes based on contrastive learning and adversarial learning
+are designed to optimize the mutual information and the conditional entropy,
+respectively. Experimental results on three popular multimodal benchmark
+datasets have shown that the proposed method outperforms a range of
+state-of-the-art approaches for video recognition, video retrieval and emotion
+classification.

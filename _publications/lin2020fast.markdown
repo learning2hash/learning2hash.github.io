@@ -6,9 +6,9 @@ authors: Mingbao Lin, Rongrong Ji, Xiaoshuai Sun, Baochang Zhang, Feiyue Huang, 
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2020
 bibkey: lin2020fast
-citations: 23
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.00318'}]
-tags: ["Compact Codes", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability", "Supervised"]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Supervised"]
 short_authors: Lin et al.
 ---
 Online image hashing has received increasing research attention recently,

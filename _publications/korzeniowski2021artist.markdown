@@ -5,9 +5,9 @@ authors: Filip Korzeniowski, Sergio Oramas, Fabien Gouyon
 conference: Arxiv
 year: 2021
 bibkey: korzeniowski2021artist
-citations: 4
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.14541'}]
-tags: ["Datasets", "Distance Metric Learning", "Scalability"]
+tags: ["Datasets", "Graph Based ANN", "Scalability"]
 short_authors: Filip Korzeniowski, Sergio Oramas, Fabien Gouyon
 ---
 Artist similarity plays an important role in organizing, understanding, and

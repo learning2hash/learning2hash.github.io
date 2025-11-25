@@ -5,9 +5,9 @@ authors: Peng Chen, Tong Jia, Pengfei Wu, Jianjun Wu, Dongyue Chen
 conference: Arxiv
 year: 2019
 bibkey: chen2019learning
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.05860'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Unsupervised"]
+tags: ["Distance Metric Learning", "Unsupervised"]
 short_authors: Chen et al.
 ---
 Most existing person re-identification (ReID) methods have good feature

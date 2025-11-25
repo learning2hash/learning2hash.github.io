@@ -6,9 +6,9 @@ conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2023
 bibkey: chebbi2023deepsim
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.08056'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Robustness"]
+tags: ["CVPR", "Datasets", "Distance Metric Learning", "Robustness"]
 short_authors: Chebbi et al.
 ---
 We present three multi-scale similarity learning architectures, or DeepSim

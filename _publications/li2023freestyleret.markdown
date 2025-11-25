@@ -3,12 +3,12 @@ layout: publication
 title: 'Freestyleret: Retrieving Images From Style-diversified Queries'
 authors: Hao Li, Curise Jia, Peng Jin, Zesen Cheng, Kehan Li, Jialu Sui, Chang Liu,
   Li Yuan
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2023
 bibkey: li2023freestyleret
-citations: 3
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.02428'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Li et al.
 ---
 Image Retrieval aims to retrieve corresponding images based on a given query.

@@ -2,12 +2,12 @@
 layout: publication
 title: Weakly Supervised Deep Image Hashing Through Tag Embeddings
 authors: Vijetha Gattupalli, Yaoxin Zhuo, Baoxin Li
-conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2018
 bibkey: gattupalli2018weakly
-citations: 30
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.05804'}]
-tags: ["CVPR", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Supervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Vijetha Gattupalli, Yaoxin Zhuo, Baoxin Li
 ---
 Many approaches to semantic image hashing have been formulated as supervised

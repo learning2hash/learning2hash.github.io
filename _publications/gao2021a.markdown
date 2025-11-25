@@ -1,0 +1,34 @@
+---
+layout: publication
+title: A Discriminative Vectorial Framework For Multi-modal Feature Representation
+authors: Lei Gao, Ling Guan
+conference: IEEE Transactions on Multimedia
+year: 2021
+bibkey: gao2021a
+citations: 16
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.05597'}]
+tags: ["Hashing Methods", "Multimodal Retrieval"]
+short_authors: Lei Gao, Ling Guan
+---
+Due to the rapid advancements of sensory and computing technology,
+multi-modal data sources that represent the same pattern or phenomenon have
+attracted growing attention. As a result, finding means to explore useful
+information from these multi-modal data sources has quickly become a necessity.
+In this paper, a discriminative vectorial framework is proposed for multi-modal
+feature representation in knowledge discovery by employing multi-modal hashing
+(MH) and discriminative correlation maximization (DCM) analysis. Specifically,
+the proposed framework is capable of minimizing the semantic similarity among
+different modalities by MH and exacting intrinsic discriminative
+representations across multiple data sources by DCM analysis jointly, enabling
+a novel vectorial framework of multi-modal feature representation. Moreover,
+the proposed feature representation strategy is analyzed and further optimized
+based on canonical and non-canonical cases, respectively. Consequently, the
+generated feature representation leads to effective utilization of the input
+data sources of high quality, producing improved, sometimes quite impressive,
+results in various applications. The effectiveness and generality of the
+proposed framework are demonstrated by utilizing classical features and deep
+neural network (DNN) based features with applications to image and multimedia
+analysis and recognition tasks, including data visualization, face recognition,
+object recognition; cross-modal (text-image) recognition and audio emotion
+recognition. Experimental results show that the proposed solutions are superior
+to state-of-the-art statistical machine learning (SML) and DNN algorithms.

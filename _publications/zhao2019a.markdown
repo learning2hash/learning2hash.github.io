@@ -5,9 +5,9 @@ authors: Xiaonan Zhao, Huan Qi, Rui Luo, Larry Davis
 conference: 2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)
 year: 2019
 bibkey: zhao2019a
-citations: 22
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.12939'}]
-tags: ["Distance Metric Learning", "Evaluation", "ICCV", "Supervised"]
+tags: ["Distance Metric Learning", "ICCV", "Similarity Search"]
 short_authors: Zhao et al.
 ---
 We address the problem of distance metric learning in visual similarity

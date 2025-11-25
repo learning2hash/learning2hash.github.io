@@ -7,7 +7,7 @@ year: 2022
 bibkey: dirksen2022fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.04109'}]
-tags: ["Evaluation"]
+tags: ["Distance Metric Learning", "Efficiency", "Evaluation"]
 short_authors: Sjoerd Dirksen, Shahar Mendelson, Alexander Stollenwerk
 ---
 We consider the problem of embedding a subset of \(\mathbb\{R\}^n\) into a

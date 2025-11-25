@@ -5,7 +5,7 @@ authors: Alexander Black, Tu Bui, Long Mai, Hailin Jin, John Collomosse
 conference: 2021 IEEE International Conference on Image Processing (ICIP)
 year: 2021
 bibkey: black2021compositional
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.08009'}]
 tags: ["Distance Metric Learning", "Image Retrieval", "Quantization"]
 short_authors: Black et al.

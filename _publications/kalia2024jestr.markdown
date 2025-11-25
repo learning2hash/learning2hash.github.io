@@ -3,10 +3,10 @@ layout: publication
 title: 'JESTR: Joint Embedding Space Technique For Ranking Candidate Molecules For
   The Annotation Of Untargeted Metabolomics Data'
 authors: Apurva Kalia, Dilip Krishnan, Soha Hassoun
-conference: Arxiv
+conference: Bioinformatics
 year: 2024
 bibkey: kalia2024jestr
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.14464'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Apurva Kalia, Dilip Krishnan, Soha Hassoun

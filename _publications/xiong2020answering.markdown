@@ -7,9 +7,9 @@ authors: "Wenhan Xiong, Xiang Lorraine Li, Srini Iyer, Jingfei Du, Patrick Lewis
 conference: Arxiv
 year: 2020
 bibkey: xiong2020answering
-citations: 97
+citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.12756'}]
-tags: ["Datasets", "Efficiency", "Evaluation"]
+tags: ["Datasets", "Efficiency"]
 short_authors: Xiong et al.
 ---
 We propose a simple and efficient multi-hop dense retrieval approach for

@@ -3,12 +3,12 @@ layout: publication
 title: Progressive Feature Mining And External Knowledge-assisted Text-pedestrian
   Image Retrieval
 authors: Huafeng Li, Shedan Yang, Yafei Zhang, Dapeng Tao, Zhengtao Yu
-conference: IEEE Transactions on Multimedia
+conference: Arxiv
 year: 2023
 bibkey: li2023progressive
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.11994'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
+tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Li et al.
 ---
 Text-Pedestrian Image Retrieval aims to use the text describing pedestrian

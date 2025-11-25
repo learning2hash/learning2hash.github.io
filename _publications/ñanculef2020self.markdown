@@ -6,10 +6,10 @@ authors: "Ricardo \xD1anculef, Francisco Mena, Antonio MacAluso, Stefano Lodi, C
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: "\xF1anculef2020self"
-citations: 1
+citations: 5
 additional_links: [{name: Code, url: 'https://github.com/amacaluso/SSB-VAE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2007.08799'}]
-tags: ["Evaluation", "Hashing Methods", "Neural Hashing", "Robustness", "Scalability", "Self-Supervised", "Similarity Search", "Supervised", "Unsupervised"]
+tags: ["Hashing Methods", "Neural Hashing", "Self-Supervised", "Similarity Search", "Supervised"]
 short_authors: "\xD1anculef et al."
 ---
 Semantic hashing is an emerging technique for large-scale similarity search

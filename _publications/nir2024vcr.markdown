@@ -2,12 +2,12 @@
 layout: publication
 title: 'VCR: Video Representation For Contextual Retrieval'
 authors: Oron Nir, Idan Vidra, Avi Neeman, Barak Kinarti, Ariel Shamir
-conference: Arxiv
+conference: International Conference on Computing Machine Learning and Data Science
 year: 2024
 bibkey: nir2024vcr
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.07466'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Multimodal Retrieval", "Recommender Systems", "Video Retrieval"]
 short_authors: Nir et al.
 ---
 Streamlining content discovery within media archives requires integrating

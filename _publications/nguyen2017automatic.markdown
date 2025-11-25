@@ -6,9 +6,9 @@ authors: Dat Tien Nguyen, Firoj Alam, Ferda Ofli, Muhammad Imran
 conference: Arxiv
 year: 2017
 bibkey: nguyen2017automatic
-citations: 52
+citations: 59
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.02602'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Neural Hashing"]
+tags: ["Datasets", "Efficiency"]
 short_authors: Nguyen et al.
 ---
 The extensive use of social media platforms, especially during disasters,

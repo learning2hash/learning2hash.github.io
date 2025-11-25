@@ -7,9 +7,9 @@ authors: "Christian Ganh\xF6r, Marta Moscati, Anna Hausberger, Shah Nawaz, Marku
 conference: 18th ACM Conference on Recommender Systems
 year: 2024
 bibkey: "ganh\xF6r2024a"
-citations: 2
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.17864'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "Scalability"]
+tags: ["Datasets", "Recommender Systems"]
 short_authors: "Ganh\xF6r et al."
 ---
 Most recommender systems adopt collaborative filtering (CF) and provide

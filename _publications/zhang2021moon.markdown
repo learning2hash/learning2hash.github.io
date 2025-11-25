@@ -7,7 +7,7 @@ year: 2021
 bibkey: zhang2021moon
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.00883'}]
-tags: ["Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Memory Efficiency", "Scalability", "Tools & Libraries"]
+tags: ["Compact Codes", "Efficiency", "Hashing Methods", "Multimodal Retrieval", "Scalability"]
 short_authors: Zhang et al.
 ---
 In recent years, cross-media hashing technique has attracted increasing

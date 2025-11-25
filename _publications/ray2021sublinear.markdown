@@ -2,12 +2,12 @@
 layout: publication
 title: Sublinear Time Approximation Of Text Similarity Matrices
 authors: Archan Ray, Nicholas Monath, Andrew McCallum, Cameron Musco
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
+conference: Arxiv
 year: 2021
 bibkey: ray2021sublinear
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.09631'}]
-tags: ["AAAI"]
+tags: ["Efficiency", "Scalability", "Similarity Search", "Unsupervised"]
 short_authors: Ray et al.
 ---
 We study algorithms for approximating pairwise similarity matrices that arise

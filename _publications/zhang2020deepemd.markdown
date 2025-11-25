@@ -2,10 +2,10 @@
 layout: publication
 title: 'Deepemd: Differentiable Earth Mover''s Distance For Few-shot Learning'
 authors: Chi Zhang, Yujun Cai, Guosheng Lin, Chunhua Shen
-conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
+conference: Arxiv
 year: 2020
 bibkey: zhang2020deepemd
-citations: 68
+citations: 38
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.06777'}]
 tags: ["Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Zhang et al.

@@ -6,9 +6,9 @@ authors: Piotr Sankowski, Piotr Wygocki
 conference: Arxiv
 year: 2017
 bibkey: sankowski2017approximate
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.06395'}]
-tags: ["Efficiency"]
+tags: ["Efficiency", "Similarity Search", "Tree Based ANN", "Vector Indexing"]
 short_authors: Piotr Sankowski, Piotr Wygocki
 ---
 In this paper, we report progress on answering the open problem presented by

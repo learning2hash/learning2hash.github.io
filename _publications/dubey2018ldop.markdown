@@ -5,9 +5,9 @@ authors: Shiv Ram Dubey, Snehasis Mukherjee
 conference: Multimedia Tools and Applications
 year: 2018
 bibkey: dubey2018ldop
-citations: 30
+citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.07441'}]
-tags: ["Evaluation", "Image Retrieval", "Robustness", "Tools & Libraries"]
+tags: ["Evaluation", "Image Retrieval", "Robustness"]
 short_authors: Shiv Ram Dubey, Snehasis Mukherjee
 ---
 The local descriptors have gained wide range of attention due to their

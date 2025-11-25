@@ -7,7 +7,7 @@ year: 2022
 bibkey: zhang2022indicative
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.11898'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Neural Hashing"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Zhang et al.
 ---
 Deep learning became the game changer for image retrieval soon after it was

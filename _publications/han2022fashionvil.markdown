@@ -5,10 +5,10 @@ authors: Xiao Han, Licheng Yu, Xiatian Zhu, Li Zhang, Yi-Zhe Song, Tao Xiang
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: han2022fashionvil
-citations: 32
+citations: 37
 additional_links: [{name: Code, url: 'https://github.com/BrandonHanx/mmf'}, {name: Paper,
     url: 'https://arxiv.org/abs/2207.08150'}]
-tags: ["Image Retrieval", "Scalability", "Tools & Libraries"]
+tags: ["Image Retrieval", "Self-Supervised"]
 short_authors: Han et al.
 ---
 Large-scale Vision-and-Language (V+L) pre-training for representation

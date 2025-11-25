@@ -7,9 +7,9 @@ conference: Proceedings of the 43rd International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2020
 bibkey: hansen2020unsupervised
-citations: 22
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.00380'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing", "SIGIR", "Scalability", "Similarity Search", "Supervised", "Unsupervised"]
+tags: ["Hashing Methods", "SIGIR", "Similarity Search", "Unsupervised"]
 short_authors: Hansen et al.
 ---
 Semantic Hashing is a popular family of methods for efficient similarity

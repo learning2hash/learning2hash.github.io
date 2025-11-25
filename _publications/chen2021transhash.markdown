@@ -8,7 +8,7 @@ year: 2021
 bibkey: chen2021transhash
 citations: 50
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.01823'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Neural Hashing", "Scalability", "Tools & Libraries"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Similarity Search"]
 short_authors: Chen et al.
 ---
 Deep hamming hashing has gained growing popularity in approximate nearest

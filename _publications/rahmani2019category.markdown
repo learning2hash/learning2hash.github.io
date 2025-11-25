@@ -7,9 +7,9 @@ conference: Proceedings of the 2019 ACM SIGIR International Conference on Theory
   Information Retrieval
 year: 2019
 bibkey: rahmani2019category
-citations: 17
+citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.13376'}]
-tags: ["Datasets", "Recommender Systems", "SIGIR", "Scalability"]
+tags: ["Recommender Systems", "SIGIR"]
 short_authors: Rahmani et al.
 ---
 Recently, Point of interest (POI) recommendation has gained ever-increasing

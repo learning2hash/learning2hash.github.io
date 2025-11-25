@@ -7,7 +7,7 @@ year: 2024
 bibkey: iijima2024a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.15152'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: ["Image Retrieval", "Multimodal Retrieval", "Unsupervised"]
 short_authors: Lucas Iijima, Nikolaos Giakoumoglou, Tania Stathaki
 ---
 Cross-Domain Image Retrieval (CDIR) is a challenging task in computer vision,

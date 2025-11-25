@@ -2,12 +2,12 @@
 layout: publication
 title: Leveraging High-resolution Features For Improved Deep Hashing-based Image Retrieval
 authors: Aymene Berriche, Mehdi Adjal Zakaria, Riyadh Baghdadi
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2024
 bibkey: berriche2024leveraging
-citations: 2
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.13747'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Aymene Berriche, Mehdi Adjal Zakaria, Riyadh Baghdadi
 ---
 Deep hashing techniques have emerged as the predominant approach for

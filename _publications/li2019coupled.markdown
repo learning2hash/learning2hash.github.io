@@ -5,9 +5,9 @@ authors: Chao Li, Cheng Deng, Lei Wang, de Xie, Xianglong Liu
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2019
 bibkey: li2019coupled
-citations: 106
+citations: 116
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.02149'}]
-tags: ["AAAI", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Memory Efficiency", "Multimodal Retrieval", "Robustness", "Scalability", "Supervised", "Unsupervised"]
+tags: ["AAAI", "Hashing Methods", "Multimodal Retrieval", "Unsupervised"]
 short_authors: Li et al.
 ---
 In recent years, hashing has attracted more and more attention owing to its

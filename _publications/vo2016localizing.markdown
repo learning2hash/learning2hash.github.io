@@ -5,9 +5,9 @@ authors: Nam Vo, James Hays
 conference: Lecture Notes in Computer Science
 year: 2016
 bibkey: vo2016localizing
-citations: 250
+citations: 271
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.00161'}]
-tags: ["Datasets", "Efficiency", "Scalability"]
+tags: ["Datasets", "Efficiency", "Image Retrieval"]
 short_authors: Nam Vo, James Hays
 ---
 In this paper we aim to determine the location and orientation of a

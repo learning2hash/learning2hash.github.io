@@ -7,9 +7,9 @@ authors: Kento Tatsuno, Daisuke Miyashita, Taiga Ikeda, Kiyoshi Ishiyama, Kazuna
 conference: Arxiv
 year: 2024
 bibkey: tatsuno2024aisaq
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.06004'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Large Scale Search", "Memory Efficiency", "Quantization", "Scalability"]
+tags: ["Graph Based ANN", "Large Scale Search", "Memory Efficiency", "Quantization", "Scalability"]
 short_authors: Tatsuno et al.
 ---
 Graph-based approximate nearest neighbor search (ANNS) algorithms work

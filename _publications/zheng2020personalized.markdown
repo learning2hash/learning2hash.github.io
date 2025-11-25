@@ -3,12 +3,12 @@ layout: publication
 title: 'Personalized Fashion Recommendation From Personal Social Media Data: An Item-to-set
   Metric Learning Approach'
 authors: Haitian Zheng, Kefei Wu, Jong-Hwi Park, Wei Zhu, Jiebo Luo
-conference: 2021 IEEE International Conference on Big Data (Big Data)
+conference: Arxiv
 year: 2020
 bibkey: zheng2020personalized
-citations: 17
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.12439'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Recommender Systems", "Tools & Libraries"]
+tags: ["Datasets", "Distance Metric Learning", "Recommender Systems"]
 short_authors: Zheng et al.
 ---
 With the growth of online shopping for fashion products, accurate fashion

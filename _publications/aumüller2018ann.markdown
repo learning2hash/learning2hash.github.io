@@ -2,13 +2,13 @@
 layout: publication
 title: 'Ann-benchmarks: A Benchmarking Tool For Approximate Nearest Neighbor Algorithms'
 authors: "Martin Aum\xFCller, Erik Bernhardsson, Alexander Faithfull"
-conference: Information Systems
+conference: Arxiv
 year: 2018
 bibkey: "aum\xFCller2018ann"
-citations: 183
+citations: 5
 additional_links: [{name: Other, url: 'http://ann-benchmarks.com'}, {name: Paper,
     url: 'https://arxiv.org/abs/1807.05614'}]
-tags: ["Evaluation", "Similarity Search", "Survey Paper"]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: "Martin Aum\xFCller, Erik Bernhardsson, Alexander Faithfull"
 ---
 This paper describes ANN-Benchmarks, a tool for evaluating the performance of

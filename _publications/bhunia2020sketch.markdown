@@ -3,12 +3,12 @@ layout: publication
 title: 'Sketch Less For More: On-the-fly Fine-grained Sketch Based Image Retrieval'
 authors: Ayan Kumar Bhunia, Yongxin Yang, Timothy M. Hospedales, Tao Xiang, Yi-Zhe
   Song
-conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2020
 bibkey: bhunia2020sketch
-citations: 110
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.10310'}]
-tags: ["CVPR", "Datasets", "Efficiency", "Image Retrieval", "Multimodal Retrieval", "Tools & Libraries"]
+tags: ["Efficiency", "Image Retrieval"]
 short_authors: Bhunia et al.
 ---
 Fine-grained sketch-based image retrieval (FG-SBIR) addresses the problem of

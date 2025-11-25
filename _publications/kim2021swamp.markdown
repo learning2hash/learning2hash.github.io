@@ -7,7 +7,7 @@ year: 2021
 bibkey: kim2021swamp
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.05814'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval", "Supervised", "Text Retrieval", "Video Retrieval"]
+tags: ["Image Retrieval", "Multimodal Retrieval", "Supervised", "Text Retrieval", "Video Retrieval"]
 short_authors: Minyoung Kim
 ---
 We tackle the cross-modal retrieval problem, where learning is only

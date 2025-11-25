@@ -5,9 +5,9 @@ authors: Behrooz Razeghi, Slava Voloshynovskiy, Dimche Kostadinov, Olga Taran
 conference: 2017 IEEE Workshop on Information Forensics and Security (WIFS)
 year: 2017
 bibkey: razeghi2017privacy
-citations: 25
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.10297'}]
-tags: ["Evaluation", "Hashing Methods", "Tools & Libraries"]
+tags: ["Hashing Methods", "Privacy & Security", "Similarity Search"]
 short_authors: Razeghi et al.
 ---
 In this paper, we consider a privacy preserving encoding framework for

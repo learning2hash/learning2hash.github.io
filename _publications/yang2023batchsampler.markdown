@@ -8,10 +8,10 @@ conference: 'KDD ''23: The 29th ACM SIGKDD Conference on Knowledge Discovery and
   Mining'
 year: 2023
 bibkey: yang2023batchsampler
-citations: 6
+citations: 8
 additional_links: [{name: Code, url: 'https://github.com/THUDM/BatchSampler\'}, {
     name: Paper, url: 'https://arxiv.org/abs/2306.03355'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "KDD", "Self-Supervised", "Supervised"]
+tags: ["KDD", "Self-Supervised"]
 short_authors: Yang et al.
 ---
 In-Batch contrastive learning is a state-of-the-art self-supervised method

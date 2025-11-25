@@ -2,7 +2,7 @@
 layout: publication
 title: 'PDH : Probabilistic Deep Hashing Based On MAP Estimation Of Hamming Distance'
 authors: Yosuke Kaga, Masakazu Fujio, Kenta Takahashi, Tetsushi Ohki, Masakatsu Nishigaki
-conference: 2019 26th IEEE International Conference on Image Processing (ICIP)
+conference: 2019 IEEE International Conference on Image Processing (ICIP)
 year: 2019
 bibkey: kaga2019pdh
 citations: 0

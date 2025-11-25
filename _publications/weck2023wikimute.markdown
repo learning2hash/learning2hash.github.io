@@ -2,12 +2,13 @@
 layout: publication
 title: 'Wikimute: A Web-sourced Dataset Of Semantic Descriptions For Music Audio'
 authors: Benno Weck, Holger Kirchhoff, Peter Grosche, Xavier Serra
-conference: Lecture Notes in Computer Science
+conference: The Version of Record of this contribution is published in MultiMedia
+  Modeling. MMM 2024. Lecture Notes in Computer Science vol 14565. Springer Cham
 year: 2023
 bibkey: weck2023wikimute
-citations: 4
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.09207'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Neural Hashing"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
 short_authors: Weck et al.
 ---
 Multi-modal deep learning techniques for matching free-form text with music

@@ -5,9 +5,9 @@ authors: Tanya Piplani, David Bamman
 conference: Arxiv
 year: 2018
 bibkey: piplani2018deepseek
-citations: 5
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.03406'}]
-tags: ["Image Retrieval", "Neural Hashing"]
+tags: ["Image Retrieval"]
 short_authors: Tanya Piplani, David Bamman
 ---
 Most of the internet today is composed of digital media that includes videos

@@ -6,9 +6,9 @@ authors: Kenji Koide, Shuji Oishi, Masashi Yokozuka, Atsuhiko Banno
 conference: 2024 IEEE International Conference on Robotics and Automation (ICRA)
 year: 2024
 bibkey: koide2024megaparticles
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.16370'}]
-tags: ["Efficiency", "Hashing Methods", "ICRA", "Locality-Sensitive-Hashing", "Robustness"]
+tags: ["Efficiency", "ICRA", "Locality-Sensitive-Hashing", "Robustness"]
 short_authors: Koide et al.
 ---
 This paper presents a 6-DoF range-based Monte Carlo localization method with

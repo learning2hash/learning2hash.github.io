@@ -5,9 +5,9 @@ authors: Kun He, Yan Lu, Stan Sclaroff
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: he2018local
-citations: 209
+citations: 202
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.05312'}]
-tags: ["CVPR", "Evaluation"]
+tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Kun He, Yan Lu, Stan Sclaroff
 ---
 Extraction of local feature descriptors is a vital stage in the solution

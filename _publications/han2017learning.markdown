@@ -5,9 +5,9 @@ authors: Xintong Han, Zuxuan Wu, Yu-Gang Jiang, Larry S. Davis
 conference: Proceedings of the 25th ACM international conference on Multimedia
 year: 2017
 bibkey: han2017learning
-citations: 386
+citations: 290
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.05691'}]
-tags: ["Datasets", "Recommender Systems", "Tools & Libraries"]
+tags: ["Datasets", "Recommender Systems"]
 short_authors: Han et al.
 ---
 The ubiquity of online fashion shopping demands effective recommendation

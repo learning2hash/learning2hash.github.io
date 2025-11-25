@@ -6,9 +6,9 @@ authors: Xintong Han, Zuxuan Wu, Phoenix X. Huang, Xiao Zhang, Menglong Zhu, Yua
 conference: 2017 IEEE International Conference on Computer Vision (ICCV)
 year: 2017
 bibkey: han2017automatic
-citations: 184
+citations: 192
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.01311'}]
-tags: ["Datasets", "Evaluation", "ICCV"]
+tags: ["Datasets", "Evaluation", "ICCV", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Han et al.
 ---
 This paper proposes an automatic spatially-aware concept discovery approach

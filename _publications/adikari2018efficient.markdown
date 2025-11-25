@@ -5,9 +5,9 @@ authors: Tharindu Adikari, Stark C. Draper
 conference: Arxiv
 year: 2018
 bibkey: adikari2018efficient
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.11165'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Efficiency", "Scalability", "Tree Based ANN"]
 short_authors: Tharindu Adikari, Stark C. Draper
 ---
 We introduce a semiparametric approach to neighbor-based classification. We

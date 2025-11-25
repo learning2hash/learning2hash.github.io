@@ -7,7 +7,7 @@ authors: Eric Dodds, Huy Nguyen, Simao Herdade, Jack Culpepper, Andrew Kae, Pier
 conference: Arxiv
 year: 2018
 bibkey: dodds2018learning
-citations: 4
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.04652'}]
 tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Dodds et al.

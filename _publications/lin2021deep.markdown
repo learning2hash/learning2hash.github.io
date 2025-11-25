@@ -6,9 +6,9 @@ conference: Proceedings of the 30th ACM International Conference on Information 
   Knowledge Management
 year: 2021
 bibkey: lin2021deep
-citations: 8
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.07094'}]
-tags: ["CIKM", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised", "Unsupervised"]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Unsupervised"]
 short_authors: Lin et al.
 ---
 Hashing technology has been widely used in image retrieval due to its

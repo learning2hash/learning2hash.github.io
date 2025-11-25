@@ -8,9 +8,9 @@ authors: Jwala Dhamala, Emmanuel Azuh, Abdullah Al-Dujaili, Jonathan Rubin, Una-
 conference: IEEE Sensors Letters
 year: 2018
 bibkey: dhamala2018multivariate
-citations: 4
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.06106'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries", "Unsupervised"]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Unsupervised"]
 short_authors: Dhamala et al.
 ---
 Timely prediction of clinically critical events in Intensive Care Unit (ICU)

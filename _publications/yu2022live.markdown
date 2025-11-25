@@ -3,12 +3,12 @@ layout: publication
 title: Live Laparoscopic Video Retrieval With Compressed Uncertainty
 authors: Tong Yu, Pietro Mascagni, Juan Verde, Jacques Marescaux, Didier Mutter, Nicolas
   Padoy
-conference: Medical Image Analysis
+conference: Medical Image Analysis 88 (2023) 102866
 year: 2022
 bibkey: yu2022live
-citations: 5
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.04301'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Large Scale Search", "Scalability", "Tools & Libraries", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Large Scale Search", "Video Retrieval"]
 short_authors: Yu et al.
 ---
 Searching through large volumes of medical data to retrieve relevant

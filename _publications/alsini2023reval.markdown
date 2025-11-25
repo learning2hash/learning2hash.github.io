@@ -7,7 +7,7 @@ year: 2023
 bibkey: alsini2023reval
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.18330'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "Tools & Libraries"]
+tags: ["Evaluation", "Recommender Systems"]
 short_authors: Areej Alsini, Du Q. Huynh, Amitava Datta
 ---
 Automatic evaluation of hashtag recommendation models is a fundamental task

@@ -5,9 +5,9 @@ authors: Vinith Misra, Sumit Bhatia
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2018
 bibkey: misra2018bernoulli
-citations: 9
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.09211'}]
-tags: ["AAAI", "Datasets", "Hashing Methods", "Hybrid ANN Methods", "Neural Hashing", "Quantization", "Re-Ranking"]
+tags: ["AAAI", "Hashing Methods", "Neural Hashing", "Quantization"]
 short_authors: Vinith Misra, Sumit Bhatia
 ---
 Just as semantic hashing can accelerate information retrieval, binary valued

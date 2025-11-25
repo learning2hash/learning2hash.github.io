@@ -2,12 +2,12 @@
 layout: publication
 title: 'Fastquery: Communication-efficient Embedding Table Query For Private LLM Inference'
 authors: Chenqi Lin, Tianshi Xu, Zebin Yang, Runsheng Wang, Ru Huang, Meng Li
-conference: Arxiv
+conference: 'DAC ''24: 61st ACM/IEEE Design Automation Conference'
 year: 2024
 bibkey: lin2024fastquery
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.16241'}]
-tags: ["Quantization", "Robustness", "Tools & Libraries"]
+tags: ["Privacy & Security", "Quantization", "Robustness"]
 short_authors: Lin et al.
 ---
 With the fast evolution of large language models (LLMs), privacy concerns

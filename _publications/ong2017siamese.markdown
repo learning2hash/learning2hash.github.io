@@ -5,9 +5,9 @@ authors: Eng-Jon Ong, Sameed Husain, Miroslaw Bober
 conference: Arxiv
 year: 2017
 bibkey: ong2017siamese
-citations: 37
+citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.00338'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Eng-Jon Ong, Sameed Husain, Miroslaw Bober
 ---
 This paper addresses the problem of large scale image retrieval, with the aim

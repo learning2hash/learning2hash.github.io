@@ -2,12 +2,12 @@
 layout: publication
 title: Deep Forest With Hashing Screening And Window Screening
 authors: Pengfei Ma, Youxi Wu, Yan Li, Lei Guo, He Jiang, Xingquan Zhu, Xindong Wu
-conference: ACM Transactions on Knowledge Discovery from Data
+conference: Arxiv
 year: 2022
 bibkey: ma2022deep
-citations: 17
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.11951'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing"]
+tags: ["Evaluation", "Hashing Methods", "Neural Hashing"]
 short_authors: Ma et al.
 ---
 As a novel deep learning model, gcForest has been widely used in various

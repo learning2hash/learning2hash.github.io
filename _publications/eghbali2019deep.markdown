@@ -5,9 +5,9 @@ authors: Sepehr Eghbali, Ladan Tahvildari
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: eghbali2019deep
-citations: 27
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.02865'}]
-tags: ["CVPR", "Compact Codes", "Hashing Methods", "Image Retrieval", "Quantization", "Scalability", "Supervised"]
+tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Quantization", "Supervised"]
 short_authors: Sepehr Eghbali, Ladan Tahvildari
 ---
 Hashing methods, which encode high-dimensional images with compact discrete

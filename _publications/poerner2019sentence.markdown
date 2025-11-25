@@ -6,7 +6,7 @@ conference: Proceedings of the 58th Annual Meeting of the Association for Comput
   Linguistics
 year: 2019
 bibkey: poerner2019sentence
-citations: 8
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.03700'}]
 tags: ["Datasets", "Evaluation", "Unsupervised"]
 short_authors: "Nina Poerner, Ulli Waltinger, Hinrich Sch\xFCtze"

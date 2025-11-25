@@ -5,9 +5,9 @@ authors: Yan Feng, Bin Chen, Tao Dai, Shutao Xia
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2020
 bibkey: feng2020adversarial
-citations: 44
+citations: 43
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.11374'}]
-tags: ["AAAI", "Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Quantization", "Robustness", "Scalability"]
+tags: ["AAAI", "Efficiency", "Image Retrieval", "Quantization", "Robustness"]
 short_authors: Feng et al.
 ---
 Deep product quantization network (DPQN) has recently received much attention

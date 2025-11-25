@@ -7,9 +7,9 @@ conference: Proceedings of the 42nd International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2019
 bibkey: hansen2019unsupervised
-citations: 25
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.00671'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing", "SIGIR", "Scalability", "Similarity Search", "Unsupervised"]
+tags: ["Hashing Methods", "Neural Hashing", "SIGIR", "Similarity Search", "Unsupervised"]
 short_authors: Hansen et al.
 ---
 Fast similarity search is a key component in large-scale information

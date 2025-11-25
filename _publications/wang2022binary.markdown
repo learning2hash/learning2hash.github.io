@@ -6,9 +6,9 @@ authors: Xiaoqin Wang, Chen Chen, Rushi Lan, Licheng Liu, Zhenbing Liu, Huiyu Zh
 conference: ACM Transactions on Multimedia Computing, Communications, and Applications
 year: 2022
 bibkey: wang2022binary
-citations: 18
+citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.14883'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Similarity Search", "Supervised", "Unsupervised"]
+tags: ["Efficiency", "Hashing Methods", "Similarity Search", "Unsupervised"]
 short_authors: Wang et al.
 ---
 Unsupervised hashing has attracted much attention for binary representation

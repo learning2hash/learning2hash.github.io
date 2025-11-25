@@ -7,9 +7,9 @@ conference: 'Proceedings of the 56th Annual Meeting of the Association for Compu
   Linguistics (Volume 1: Long Papers)'
 year: 2018
 bibkey: shen2018nash
-citations: 65
+citations: 60
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.05361'}]
-tags: ["Datasets", "Hashing Methods", "Neural Hashing", "Similarity Search", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["Hashing Methods", "Neural Hashing", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Shen et al.
 ---
 Semantic hashing has become a powerful paradigm for fast similarity search in

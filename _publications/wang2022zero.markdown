@@ -7,7 +7,7 @@ year: 2022
 bibkey: wang2022zero
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.07275'}]
-tags: ["Efficiency", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Unsupervised"]
+tags: ["Efficiency", "Few Shot & Zero Shot", "Image Retrieval", "Unsupervised"]
 short_authors: Wang et al.
 ---
 CLIP (Contrastive Language-Image Pre-Training) has shown remarkable zero-shot

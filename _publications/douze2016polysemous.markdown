@@ -5,9 +5,9 @@ authors: "Matthijs Douze, Herv\xE9 J\xE9gou, Florent Perronnin"
 conference: Lecture Notes in Computer Science
 year: 2016
 bibkey: douze2016polysemous
-citations: 45
+citations: 41
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.01882'}]
-tags: ["Compact Codes", "Datasets", "Efficiency", "Evaluation", "Quantization", "Vector Indexing"]
+tags: ["Compact Codes", "Efficiency", "Quantization", "Vector Indexing"]
 short_authors: "Matthijs Douze, Herv\xE9 J\xE9gou, Florent Perronnin"
 ---
 This paper considers the problem of approximate nearest neighbor search in

@@ -8,7 +8,7 @@ year: 2024
 bibkey: mahowald2024integrating
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.01190'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability", "Tools & Libraries"]
+tags: ["Datasets", "Image Retrieval", "Large Scale Search", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Jamie Mahowald, Benjamin Charles Germain Lee
 ---
 Despite the prevalence and historical importance of maps in digital

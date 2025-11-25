@@ -7,7 +7,7 @@ year: 2024
 bibkey: vecchiato2024learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.05921'}]
-tags: ["Datasets"]
+tags: ["Efficiency", "Scalability", "Similarity Search", "Unsupervised"]
 short_authors: Thomas Vecchiato
 ---
 Developing increasingly efficient and accurate algorithms for approximate

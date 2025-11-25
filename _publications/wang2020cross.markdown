@@ -4,12 +4,12 @@ title: 'Cross-modal Food Retrieval: Learning A Joint Embedding Of Food Images An
   Recipes With Semantic Consistency And Attention Mechanism'
 authors: Hao Wang, Doyen Sahoo, Chenghao Liu, Ke Shu, Palakorn Achananuparp, Ee-Peng
   Lim, Steven C. H. Hoi
-conference: 2020 IEEE Winter Conference on Applications of Computer Vision (WACV)
+conference: Arxiv
 year: 2020
 bibkey: wang2020cross
-citations: 234
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.03955'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Scalability"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
 short_authors: Wang et al.
 ---
 Food retrieval is an important task to perform analysis of food-related

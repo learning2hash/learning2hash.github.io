@@ -5,9 +5,9 @@ authors: Andrew Borthwick, Stephen Ash, Bin Pang, Shehzad Qureshi, Timothy Jones
 conference: Communications in Computer and Information Science
 year: 2020
 bibkey: borthwick2020scalable
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.08285'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
 short_authors: Borthwick et al.
 ---
 In the field of database deduplication, the goal is to find approximately

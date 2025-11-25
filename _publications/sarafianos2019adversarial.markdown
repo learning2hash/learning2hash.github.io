@@ -5,9 +5,9 @@ authors: Nikolaos Sarafianos, Xiang Xu, Ioannis A. Kakadiaris
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: sarafianos2019adversarial
-citations: 214
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.10534'}]
-tags: ["Datasets", "Evaluation", "ICCV", "Robustness"]
+tags: ["Datasets", "Evaluation", "ICCV", "Multimodal Retrieval"]
 short_authors: Nikolaos Sarafianos, Xiang Xu, Ioannis A. Kakadiaris
 ---
 For many computer vision applications such as image captioning, visual

@@ -6,9 +6,9 @@ conference: Proceedings of the Twenty-Eighth International Joint Conference on A
   Intelligence
 year: 2019
 bibkey: wang2019position
-citations: 184
+citations: 190
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.09748'}]
-tags: ["AAAI", "Datasets", "Evaluation", "IJCAI", "Scalability"]
+tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Wang et al.
 ---
 Image-text matching tasks have recently attracted a lot of attention in the

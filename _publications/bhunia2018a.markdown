@@ -4,10 +4,10 @@ title: A Novel Feature Descriptor For Image Retrieval By Combining Modified Colo
   Histogram And Diagonally Symmetric Co-occurrence Texture Pattern
 authors: Ayan Kumar Bhunia, Avirup Bhattacharyya, Prithaj Banerjee, Partha Pratim
   Roy, Subrahmanyam Murala
-conference: Pattern Analysis and Applications
+conference: Arxiv
 year: 2018
 bibkey: bhunia2018a
-citations: 50
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.00879'}]
 tags: ["Evaluation", "Image Retrieval"]
 short_authors: Bhunia et al.

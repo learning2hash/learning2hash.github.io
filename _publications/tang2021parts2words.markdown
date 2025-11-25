@@ -3,13 +3,13 @@ layout: publication
 title: 'Parts2words: Learning Joint Embedding Of Point Clouds And Texts By Bidirectional
   Matching Between Parts And Words'
 authors: Chuan Tang, Xi Yang, Bojian Wu, Zhizhong Han, Yi Chang
-conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2021
 bibkey: tang2021parts2words
-citations: 9
+citations: 0
 additional_links: [{name: Code, url: 'https://github.com/JLUtangchuan/Parts2Words'},
   {name: Paper, url: 'https://arxiv.org/abs/2107.01872'}]
-tags: ["CVPR", "Datasets"]
+tags: ["Datasets", "Multimodal Retrieval"]
 short_authors: Tang et al.
 ---
 Shape-Text matching is an important task of high-level shape understanding.

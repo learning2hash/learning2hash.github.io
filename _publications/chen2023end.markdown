@@ -5,9 +5,9 @@ authors: Haonan Chen, Carlos Lassance, Jimmy Lin
 conference: Arxiv
 year: 2023
 bibkey: chen2023end
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.18503'}]
-tags: ["Graph Based ANN", "Similarity Search", "Tools & Libraries"]
+tags: ["Similarity Search", "Tools & Libraries"]
 short_authors: Haonan Chen, Carlos Lassance, Jimmy Lin
 ---
 The bi-encoder architecture provides a framework for understanding

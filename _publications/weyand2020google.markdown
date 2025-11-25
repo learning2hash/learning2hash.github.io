@@ -6,10 +6,10 @@ authors: Tobias Weyand, Andre Araujo, Bingyi Cao, Jack Sim
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2020
 bibkey: weyand2020google
-citations: 236
+citations: 263
 additional_links: [{name: Code, url: 'https://github.com/cvdfoundation/google-landmark'},
   {name: Paper, url: 'https://arxiv.org/abs/2004.01804'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval", "Scalability"]
+tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Weyand et al.
 ---
 While image retrieval and instance recognition techniques are progressing

@@ -5,10 +5,10 @@ authors: Jacek Komorowski
 conference: 2021 IEEE Winter Conference on Applications of Computer Vision (WACV)
 year: 2020
 bibkey: komorowski2020minkloc3d
-citations: 188
+citations: 8
 additional_links: [{name: Code, url: 'https://github.com/jac99/MinkLoc3D'}, {name: Paper,
     url: 'https://arxiv.org/abs/2011.04530'}]
-tags: ["Evaluation", "Scalability"]
+tags: ["Evaluation"]
 short_authors: Jacek Komorowski
 ---
 The paper presents a learning-based method for computing a discriminative 3D

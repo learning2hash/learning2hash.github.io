@@ -4,10 +4,10 @@ title: Decomposing Normal And Abnormal Features Of Medical Images For Content-ba
   Image Retrieval
 authors: Kazuma Kobayashi, Ryuichiro Hataya, Yusuke Kurose, Tatsuya Harada, Ryuji
   Hamamoto
-conference: Medical Image Analysis
-year: 2021
+conference: Arxiv
+year: 2020
 bibkey: kobayashi2020decomposing
-citations: 32
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.06224'}]
 tags: ["Image Retrieval", "Similarity Search"]
 short_authors: Kobayashi et al.

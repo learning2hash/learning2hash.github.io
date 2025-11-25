@@ -6,9 +6,9 @@ authors: "Yang Miao, Francis Engelmann, Olga Vysotska, Federico Tombari, Marc Po
 conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: miao2024scenegraphloc
-citations: 0
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.00469'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Graph Based ANN", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Miao et al.
 ---
 We introduce a novel problem, i.e., the localization of an input image within
