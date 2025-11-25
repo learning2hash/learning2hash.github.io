@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Search all Publications on Learning to Hash
-description: A list of research papers for Learning to Hash
+description: A list of research papers for Learning to Hash.
 ---
 
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">📚 Search Publications</h2>
@@ -477,7 +477,8 @@ description: A list of research papers for Learning to Hash
         paging: false,
         searching: true,
 
-        order: [[6,'desc'], [5,'desc'], [2,'desc'], [3,'desc']],
+        // Default sort: Year ↓ (newest first), then Citations
+        order: [[2,'desc'], [3,'desc']],
         columnDefs: [
           { targets: [5,6,7], visible: false, searchable: false },
           { targets: [4,8], visible: false, searchable: true },
@@ -554,12 +555,16 @@ description: A list of research papers for Learning to Hash
                   break;
                 case 'default':
                 default:
+                  // "Newest & NEW first": NEW flag + added_ts, then Year + Citations
                   datatable.order([[6,'desc'], [5,'desc'], [2,'desc'], [3,'desc']]).draw(false);
                   break;
               }
             };
 
-            sortEl.value = 'default';
+            // Start with Year ↓ (newest first) as the default sort
+            sortEl.value = 'year_desc';
+            applySort('year_desc');
+
             sortEl.addEventListener('change', () => applySort(sortEl.value));
           }
 
