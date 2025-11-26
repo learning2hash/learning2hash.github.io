@@ -15,14 +15,24 @@
   </script><noscript><img src="https://app.ardalio.com/7/4/2185304.png"></noscript>
   <!-- end code v 7.0 -->
 
-  <!-- MathJax -->
+ <!-- MathJax -->
   <script>
     window.MathJax = {
-      tex: { inlineMath: [["\\(","\\)"]], displayMath: [["\\[","\\]"]] },
-      options: { processHtmlClass: "mathjax-content", processEscapes: true }
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        // Only process elements with this class:
+        processHtmlClass: 'mathjax-content',
+        // And explicitly skip anything marked as no-mathjax
+        ignoreHtmlClass: 'no-mathjax'
+      }
     };
   </script>
-  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
   <link href="https://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
