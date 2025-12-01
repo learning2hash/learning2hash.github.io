@@ -67,7 +67,7 @@ As with any project, the first step is to set up a Python virtual environment to
 Let’s start by creating a clean Python environment for the tutorial. Run the following commands in your terminal:
 
 ```
-# 1. Create a new virtual environment called 'hashing\_tutorial'  
+# 1. Create a new virtual environment called 'hashing_tutorial'  
 python3 -m venv ./hashing_tutorial  
   
 # 2. Activate the environment  
@@ -287,7 +287,7 @@ from typing import Dict, Iterable, List, Tuple
   
 import numpy as np  
 import pandas as pd  
-from sklearn.metrics.pairwise import pairwise\_distances  
+from sklearn.metrics.pairwise import pairwise_distances  
 import time  
   
   
@@ -477,7 +477,7 @@ for i in range(n_iter):
  grh_hyperplanes[:, j] = np.random.randn(dim)  
  else:  
  svm = LinearSVC(C=1.0, max_iter=1000)  
- svm.fit(data_train, bin_indices\_bits[:, j])  
+ svm.fit(data_train, bin_indices_bits[:, j])  
  grh_hyperplanes[:, j] = svm.coef_.ravel()  
   
  # Update random_vectors for the next iteration  
