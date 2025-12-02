@@ -1,26 +1,30 @@
 ---
 layout: publication
-title: Multi-modal Relation Distillation For Unified 3D Representation Learning
-authors: Huiqun Wang, Yiping Bao, Panwang Pan, Zeming Li, Xiao Liu, Ruijie Yang, di
-  Huang
+title: Multi-scale Temporal Difference Transformer For Video-text Retrieval
+authors: Ni Wang, Dongliang Liao, Xing Xu
 conference: Arxiv
 year: 2024
 bibkey: wang2024multi
 citations: 0
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.14007'}]
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.16111'}]
 tags: ["Few Shot & Zero Shot", "Multimodal Retrieval"]
-short_authors: Wang et al.
+short_authors: Ni Wang, Dongliang Liao, Xing Xu
 ---
-Recent advancements in multi-modal pre-training for 3D point clouds have
-demonstrated promising results by aligning heterogeneous features across 3D
-shapes and their corresponding 2D images and language descriptions. However,
-current straightforward solutions often overlook intricate structural relations
-among samples, potentially limiting the full capabilities of multi-modal
-learning. To address this issue, we introduce Multi-modal Relation Distillation
-(MRD), a tri-modal pre-training framework, which is designed to effectively
-distill reputable large Vision-Language Models (VLM) into 3D backbones. MRD
-aims to capture both intra-relations within each modality as well as
-cross-relations between different modalities and produce more discriminative 3D
-shape representations. Notably, MRD achieves significant improvements in
-downstream zero-shot classification tasks and cross-modality retrieval tasks,
-delivering new state-of-the-art performance.
+Currently, in the field of video-text retrieval, there are many
+transformer-based methods. Most of them usually stack frame features and
+regrade frames as tokens, then use transformers for video temporal modeling.
+However, they commonly neglect the inferior ability of the transformer modeling
+local temporal information. To tackle this problem, we propose a transformer
+variant named Multi-Scale Temporal Difference Transformer (MSTDT). MSTDT mainly
+addresses the defects of the traditional transformer which has limited ability
+to capture local temporal information. Besides, in order to better model the
+detailed dynamic information, we make use of the difference feature between
+frames, which practically reflects the dynamic movement of a video. We extract
+the inter-frame difference feature and integrate the difference and frame
+feature by the multi-scale temporal transformer. In general, our proposed MSTDT
+consists of a short-term multi-scale temporal difference transformer and a
+long-term temporal transformer. The former focuses on modeling local temporal
+information, the latter aims at modeling global temporal information. At last,
+we propose a new loss to narrow the distance of similar samples. Extensive
+experiments show that backbone, such as CLIP, with MSTDT has attained a new
+state-of-the-art result.
