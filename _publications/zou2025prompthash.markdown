@@ -9,7 +9,7 @@ bibkey: zou2025prompthash
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/ShiShuMo/PromptHash'}, {
     name: Paper, url: 'https://arxiv.org/abs/2503.16064'}]
-tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Self-Supervised"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval"]
 short_authors: Qiang Zou, Shuli Cheng, Jiayi Chen
 ---
 Cross-modal hashing is a promising approach for efficient data retrieval and

@@ -7,7 +7,7 @@ year: 2020
 bibkey: zhang2020uncertainty
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.04525'}]
-tags: ["Distance Metric Learning", "Few Shot & Zero Shot", "Graph Based ANN"]
+tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Graph Based ANN", "Tools & Libraries"]
 short_authors: Zhang et al.
 ---
 Few-shot image classification learns to recognize new categories from limited

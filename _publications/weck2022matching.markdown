@@ -8,7 +8,7 @@ year: 2022
 bibkey: weck2022matching
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.02833'}]
-tags: ["Audio Retrieval", "Distance Metric Learning", "Evaluation", "Multimodal Retrieval"]
+tags: ["Audio Retrieval", "Distance Metric Learning", "Evaluation", "Neural Hashing", "Tools & Libraries"]
 short_authors: Weck et al.
 ---
 We present an analysis of large-scale pretrained deep learning models used

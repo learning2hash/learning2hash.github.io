@@ -8,7 +8,7 @@ year: 2022
 bibkey: xue2022hashformers
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.07904'}]
-tags: ["EMNLP", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["EMNLP", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Huiyin Xue, Nikolaos Aletras
 ---
 Transformer-based pre-trained language models are vocabulary-dependent,

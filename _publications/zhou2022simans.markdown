@@ -10,7 +10,7 @@ bibkey: zhou2022simans
 citations: 23
 additional_links: [{name: Code, url: 'https://github.com/microsoft/SimXNS'}, {name: Paper,
     url: 'https://arxiv.org/abs/2210.11773'}]
-tags: ["EMNLP", "Text Retrieval"]
+tags: ["Datasets", "EMNLP", "Text Retrieval"]
 short_authors: Zhou et al.
 ---
 Sampling proper negatives from a large document pool is vital to effectively

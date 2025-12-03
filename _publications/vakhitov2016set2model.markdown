@@ -7,7 +7,7 @@ year: 2016
 bibkey: vakhitov2016set2model
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.07697'}]
-tags: ["Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Image Retrieval"]
 short_authors: A. Vakhitov, A. Kuzmin, V. Lempitsky
 ---
 We present a new "learning-to-learn"-type approach that enables rapid

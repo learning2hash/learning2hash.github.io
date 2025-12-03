@@ -7,7 +7,7 @@ year: 2023
 bibkey: kim2023region
 citations: 55
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.07011'}]
-tags: ["CVPR", "Few Shot & Zero Shot", "Self-Supervised"]
+tags: ["CVPR", "Evaluation", "Few Shot & Zero Shot", "Self-Supervised", "Text Retrieval"]
 short_authors: Dahun Kim, Anelia Angelova, Weicheng Kuo
 ---
 We present Region-aware Open-vocabulary Vision Transformers (RO-ViT) - a

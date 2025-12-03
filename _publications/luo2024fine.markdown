@@ -9,7 +9,7 @@ year: 2024
 bibkey: luo2024fine
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.04408'}]
-tags: ["Memory Efficiency", "Recommender Systems"]
+tags: ["Datasets", "Memory Efficiency", "Neural Hashing", "Recommender Systems"]
 short_authors: Luo et al.
 ---
 Huge embedding tables in modern deep learning recommender models (DLRM)

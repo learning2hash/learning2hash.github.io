@@ -7,7 +7,7 @@ year: 2016
 bibkey: gordo2016deep
 citations: 741
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.01325'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: ["Datasets", "Image Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Gordo et al.
 ---
 We propose a novel approach for instance-level image retrieval. It produces a

@@ -9,7 +9,7 @@ bibkey: li2022blip
 citations: 850
 additional_links: [{name: Code, url: 'https://github.com/salesforce/BLIP'}, {name: Paper,
     url: 'https://arxiv.org/abs/2201.12086'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval", "Tools & Libraries"]
 short_authors: Li et al.
 ---
 Vision-Language Pre-training (VLP) has advanced the performance for many

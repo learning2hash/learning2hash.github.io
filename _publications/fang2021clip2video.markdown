@@ -7,7 +7,7 @@ year: 2021
 bibkey: fang2021clip2video
 citations: 130
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.11097'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Scalability", "Text Retrieval", "Tools & Libraries"]
 short_authors: Fang et al.
 ---
 We present CLIP2Video network to transfer the image-language pre-training

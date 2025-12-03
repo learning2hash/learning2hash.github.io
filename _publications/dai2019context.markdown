@@ -7,7 +7,7 @@ year: 2019
 bibkey: dai2019context
 citations: 117
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.10687'}]
-tags: ["Evaluation", "Text Retrieval", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Zhuyun Dai, Jamie Callan
 ---
 Term frequency is a common method for identifying the importance of a term in

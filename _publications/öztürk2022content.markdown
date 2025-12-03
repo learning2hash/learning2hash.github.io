@@ -7,7 +7,7 @@ year: 2022
 bibkey: "\xF6zt\xFCrk2022content"
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.15371'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: "\u015Eaban \xD6zt\xFCrk, Emin Celik, Tolga Cukur"
 ---
 Broadspread use of medical imaging devices with digital storage has paved the

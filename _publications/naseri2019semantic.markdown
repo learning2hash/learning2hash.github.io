@@ -7,7 +7,7 @@ year: 2019
 bibkey: naseri2019semantic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.01457'}]
-tags: ["Datasets", "Re-Ranking"]
+tags: ["Datasets", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Shahrzad Naseri, Sheikh Muhammad Sarwar, James Allan
 ---
 A common approach for knowledge-base entity search is to consider an entity

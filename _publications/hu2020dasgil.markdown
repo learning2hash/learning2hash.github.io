@@ -7,7 +7,7 @@ year: 2020
 bibkey: hu2020dasgil
 citations: 45
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.00573'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Robustness"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Robustness", "Scalability"]
 short_authors: Hu et al.
 ---
 Long-Term visual localization under changing environments is a challenging

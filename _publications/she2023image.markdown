@@ -8,7 +8,7 @@ year: 2023
 bibkey: she2023image
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.04617'}]
-tags: ["Datasets", "Distance Metric Learning", "Graph Based ANN"]
+tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Graph Based ANN", "Tools & Libraries"]
 short_authors: She et al.
 ---
 Matching landmark patches from a real-time image captured by an on-vehicle

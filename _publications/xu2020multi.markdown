@@ -7,7 +7,7 @@ year: 2020
 bibkey: xu2020multi
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.10719'}]
-tags: ["AAAI", "Efficiency", "Hashing Methods", "Quantization", "Recommender Systems"]
+tags: ["AAAI", "Datasets", "Efficiency", "Hashing Methods", "Quantization"]
 short_authors: Xu et al.
 ---
 Hashing is an effective technique to address the large-scale recommendation

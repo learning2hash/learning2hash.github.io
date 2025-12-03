@@ -8,7 +8,7 @@ year: 2021
 bibkey: afshari2021a
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.13703'}]
-tags: ["Evaluation", "Image Retrieval", "Similarity Search"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Mehdi Afshari, H. R. Tizhoosh
 ---
 Histopathology digital scans are large-size images that contain valuable

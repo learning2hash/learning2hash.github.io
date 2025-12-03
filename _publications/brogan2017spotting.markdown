@@ -10,7 +10,7 @@ bibkey: brogan2017spotting
 citations: 4
 additional_links: [{name: Other, url: 'https://www.nist.gov/itl/iad/mig/nimble-challenge'},
   {name: Paper, url: 'https://arxiv.org/abs/1705.00604'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability", "Text Retrieval"]
 short_authors: Brogan et al.
 ---
 As image tampering becomes ever more sophisticated and commonplace, the need

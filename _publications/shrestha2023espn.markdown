@@ -7,7 +7,7 @@ year: 2023
 bibkey: shrestha2023espn
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.05417'}]
-tags: ["Memory Efficiency", "Re-Ranking", "Scalability", "Similarity Search"]
+tags: ["Hybrid ANN Methods", "Re-Ranking", "Scalability", "Similarity Search"]
 short_authors: Susav Shrestha, Narasimha Reddy, Zongwang Li
 ---
 Recent advances in large language models have demonstrated remarkable

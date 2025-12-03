@@ -8,7 +8,7 @@ year: 2024
 bibkey: qiu2024hihpq
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.07212'}]
-tags: ["AAAI", "Image Retrieval", "Quantization", "Unsupervised"]
+tags: ["Image Retrieval", "Quantization", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Qiu et al.
 ---
 Existing unsupervised deep product quantization methods primarily aim for the

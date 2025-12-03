@@ -10,7 +10,7 @@ bibkey: yang2024transcending
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/yr666666/MSA'}, {name: Paper,
     url: 'https://arxiv.org/abs/2405.18959'}]
-tags: ["Multimodal Retrieval", "Text Retrieval"]
+tags: ["Datasets", "Text Retrieval"]
 short_authors: Yang et al.
 ---
 Remote Sensing Image-Text Retrieval (RSITR) is pivotal for knowledge services

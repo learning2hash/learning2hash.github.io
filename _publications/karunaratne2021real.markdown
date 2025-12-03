@@ -9,7 +9,7 @@ year: 2021
 bibkey: karunaratne2021real
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.02584'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Neural Hashing"]
 short_authors: Samurdhi Karunaratne, Samer Hanna, Danijela Cabric
 ---
 As the Internet of Things (IoT) continues to grow, ensuring the security of

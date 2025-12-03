@@ -7,7 +7,7 @@ year: 2017
 bibkey: bai2017integrating
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.04613'}]
-tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Bai et al.
 ---
 Text in natural images contains rich semantics that are often highly relevant

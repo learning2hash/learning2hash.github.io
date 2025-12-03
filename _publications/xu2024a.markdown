@@ -7,7 +7,7 @@ year: 2024
 bibkey: xu2024a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.02891'}]
-tags: ["Efficiency", "Similarity Search", "Text Retrieval"]
+tags: ["Efficiency", "Re-Ranking", "Similarity Search", "Text Retrieval", "Tree Based ANN"]
 short_authors: Haike Xu, Sandeep Silwal, Piotr Indyk
 ---
 We propose a new "bi-metric" framework for designing nearest neighbor data

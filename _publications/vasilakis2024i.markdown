@@ -8,7 +8,7 @@ year: 2024
 bibkey: vasilakis2024i
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.18058'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval"]
+tags: ["Evaluation", "Few Shot & Zero Shot"]
 short_authors: Yannis Vasilakis, Rachel Bittner, Johan Pauwels
 ---
 Music two-tower multimodal systems integrate audio and text modalities into a

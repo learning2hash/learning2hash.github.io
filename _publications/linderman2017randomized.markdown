@@ -8,7 +8,7 @@ year: 2017
 bibkey: linderman2017randomized
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.04712'}]
-tags: ["Efficiency", "Graph Based ANN", "Scalability"]
+tags: ["Efficiency"]
 short_authors: Linderman et al.
 ---
 If we pick \(n\) random points uniformly in \([0,1]^d\) and connect each point to

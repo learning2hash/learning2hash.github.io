@@ -7,7 +7,7 @@ year: 2024
 bibkey: leyvavallina2024regressing
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.16304'}]
-tags: ["Distance Metric Learning", "ICRA", "Image Retrieval", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "ICRA", "Re-Ranking"]
 short_authors: "Mar\xEDa Leyva-Vallina, Nicola Strisciuglio, Nicolai Petkov"
 ---
 Visual place recognition is a critical task in computer vision, especially

@@ -8,7 +8,7 @@ bibkey: li2024bert
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/leo4life2/algoml-final'},
   {name: Paper, url: 'https://arxiv.org/abs/2404.08836'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Zezheng Li, Kingston Yip
 ---
 This study introduces a novel BERT-LSH model that incorporates Locality

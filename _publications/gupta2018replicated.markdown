@@ -8,7 +8,7 @@ year: 2018
 bibkey: gupta2018replicated
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.02854'}]
-tags: ["Similarity Search", "Supervised", "Text Retrieval", "Unsupervised"]
+tags: ["Supervised", "Unsupervised"]
 short_authors: "Pankaj Gupta, Bernt Andrassy, Hinrich Sch\xFCtze"
 ---
 The goal of our industrial ticketing system is to retrieve a relevant

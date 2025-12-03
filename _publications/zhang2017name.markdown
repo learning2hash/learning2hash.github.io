@@ -8,7 +8,7 @@ year: 2017
 bibkey: zhang2017name
 citations: 116
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.02287'}]
-tags: ["CIKM", "Graph Based ANN", "Privacy & Security"]
+tags: ["CIKM", "Evaluation", "Text Retrieval"]
 short_authors: Baichuan Zhang, Mohammad Al Hasan
 ---
 In real-world, our DNA is unique but many people share names. This phenomenon

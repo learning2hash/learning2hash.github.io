@@ -9,7 +9,7 @@ year: 2020
 bibkey: karpukhin2020dense
 citations: 142
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.04906'}]
-tags: ["Datasets", "EMNLP", "Evaluation"]
+tags: ["Datasets", "EMNLP", "Evaluation", "Tools & Libraries"]
 short_authors: Karpukhin et al.
 ---
 Open-domain question answering relies on efficient passage retrieval to

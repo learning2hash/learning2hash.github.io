@@ -8,7 +8,7 @@ year: 2018
 bibkey: chen2018deep
 citations: 68
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.01806'}]
-tags: ["Distance Metric Learning", "Multimodal Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Robustness", "Tools & Libraries"]
 short_authors: Jiaxin Chen, Yi Fang
 ---
 Due to the large cross-modality discrepancy between 2D sketches and 3D

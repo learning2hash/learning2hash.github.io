@@ -7,7 +7,7 @@ year: 2021
 bibkey: ilievski2021user
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.05410'}]
-tags: ["Evaluation", "Recommender Systems", "Similarity Search", "Tools & Libraries"]
+tags: ["Evaluation", "Recommender Systems", "Tools & Libraries"]
 short_authors: Ilievski et al.
 ---
 While the similarity between two concept words has been evaluated and studied

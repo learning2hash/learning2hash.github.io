@@ -9,7 +9,7 @@ bibkey: wang2022hybrid
 citations: 6
 additional_links: [{name: Code, url: 'https://github.com/gimpong/WWW22-HCQ'}, {name: Paper,
     url: 'https://arxiv.org/abs/2202.03384'}]
-tags: ["Efficiency", "Quantization", "Video Retrieval"]
+tags: ["Datasets", "Efficiency", "Quantization", "Robustness", "Video Retrieval"]
 short_authors: Wang et al.
 ---
 With the recent boom of video-based social platforms (e.g., YouTube and

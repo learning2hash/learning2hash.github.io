@@ -8,7 +8,7 @@ year: 2019
 bibkey: reite2019unsupervised
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.02877'}]
-tags: ["Similarity Search", "Unsupervised"]
+tags: ["Neural Hashing", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Reite et al.
 ---
 The need for labeled data is among the most common and well-known practical

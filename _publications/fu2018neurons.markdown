@@ -8,7 +8,7 @@ year: 2018
 bibkey: fu2018neurons
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.02302'}]
-tags: ["Hashing Methods", "Neural Hashing", "Supervised"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing", "Supervised"]
 short_authors: Fu et al.
 ---
 Deep supervised hashing has become an active topic in information retrieval.

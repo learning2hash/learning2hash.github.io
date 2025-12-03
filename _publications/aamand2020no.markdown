@@ -8,7 +8,7 @@ year: 2020
 bibkey: aamand2020no
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.01156'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Memory Efficiency"]
+tags: ["Hashing Methods"]
 short_authors: Aamand et al.
 ---
 To get estimators that work within a certain error bound with high

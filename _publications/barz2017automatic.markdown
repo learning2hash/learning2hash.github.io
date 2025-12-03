@@ -8,7 +8,7 @@ year: 2017
 bibkey: barz2017automatic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.00953'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: "Bj\xF6rn Barz, Joachim Denzler"
 ---
 Query images presented to content-based image retrieval systems often have

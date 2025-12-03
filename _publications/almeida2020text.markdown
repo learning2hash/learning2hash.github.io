@@ -7,7 +7,7 @@ year: 2020
 bibkey: almeida2020text
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.06634'}]
-tags: ["Similarity Search", "Tools & Libraries", "Unsupervised"]
+tags: ["Uncategorized"]
 short_authors: "Caio Almeida, D\xE9bora Santos"
 ---
 Fake news is a growing problem in the last years, especially during

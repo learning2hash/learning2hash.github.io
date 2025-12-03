@@ -7,7 +7,7 @@ year: 2021
 bibkey: paul2021universal
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.08356'}]
-tags: ["ICCV", "Scalability", "Similarity Search"]
+tags: ["Datasets", "Evaluation", "ICCV", "Scalability", "Similarity Search"]
 short_authors: Soumava Paul, Titir Dutta, Soma Biswas
 ---
 In this work, for the first time, we address the problem of universal

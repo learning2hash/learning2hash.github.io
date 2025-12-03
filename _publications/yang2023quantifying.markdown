@@ -8,7 +8,7 @@ year: 2023
 bibkey: yang2023quantifying
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.14672'}]
-tags: ["EMNLP", "Self-Supervised", "Similarity Search"]
+tags: ["Datasets", "EMNLP", "Scalability", "Self-Supervised", "Supervised"]
 short_authors: Yang et al.
 ---
 Record linkage is a bedrock of quantitative social science, as analyses often

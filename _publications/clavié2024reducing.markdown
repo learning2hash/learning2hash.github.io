@@ -8,7 +8,7 @@ year: 2024
 bibkey: "clavi\xE92024reducing"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.14683'}]
-tags: ["Datasets", "Efficiency", "Memory Efficiency"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Memory Efficiency"]
 short_authors: "Benjamin Clavi\xE9, Antoine Chaffin, Griffin Adams"
 ---
 Over the last few years, multi-vector retrieval methods, spearheaded by

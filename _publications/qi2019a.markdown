@@ -8,7 +8,7 @@ bibkey: qi2019a
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/qiqi-helloworld/A-Simple-and-Effective-Framework-for-Pairewise-Distance-Metric-Learning'},
   {name: Paper, url: 'https://arxiv.org/abs/1912.11194'}]
-tags: ["Distance Metric Learning", "Tools & Libraries"]
+tags: ["Distance Metric Learning", "Evaluation", "Neural Hashing", "Tools & Libraries"]
 short_authors: Qi et al.
 ---
 Deep metric learning (DML) has received much attention in deep learning due

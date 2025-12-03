@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhao2024self
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.03740'}]
-tags: ["Datasets", "Image Retrieval", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Zhao et al.
 ---
 In the domain of image layout representation learning, the critical process

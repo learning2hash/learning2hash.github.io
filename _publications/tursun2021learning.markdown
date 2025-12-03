@@ -8,7 +8,7 @@ year: 2021
 bibkey: tursun2021learning
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.07240'}]
-tags: ["Image Retrieval", "Large Scale Search", "Unsupervised"]
+tags: ["Datasets", "Image Retrieval", "Large Scale Search", "Supervised", "Unsupervised"]
 short_authors: Tursun et al.
 ---
 Large-scale trademark retrieval is an important content-based image retrieval

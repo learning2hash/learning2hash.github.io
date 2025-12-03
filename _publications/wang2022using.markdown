@@ -7,7 +7,7 @@ year: 2022
 bibkey: wang2022using
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.05561'}]
-tags: ["Multimodal Retrieval", "Self-Supervised"]
+tags: ["Multimodal Retrieval", "Self-Supervised", "Tools & Libraries"]
 short_authors: Wang et al.
 ---
 Image-text multimodal representation learning aligns data across modalities

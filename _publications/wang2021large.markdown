@@ -7,7 +7,7 @@ year: 2021
 bibkey: wang2021large
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.15386'}]
-tags: ["Graph Based ANN", "Scalability"]
+tags: ["Datasets", "Graph Based ANN", "Scalability"]
 short_authors: Hui Wang, Wan-Lei Zhao, Xiangxiang Zeng
 ---
 k-nearest neighbor graph is a key data structure in many disciplines such as

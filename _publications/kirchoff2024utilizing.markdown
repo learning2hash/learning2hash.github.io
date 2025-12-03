@@ -9,7 +9,7 @@ year: 2024
 bibkey: kirchoff2024utilizing
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.07970'}]
-tags: ["Efficiency", "Similarity Search", "Tree Based ANN"]
+tags: ["Datasets", "Evaluation", "Similarity Search", "Tools & Libraries", "Tree Based ANN"]
 short_authors: Kirchoff et al.
 ---
 Nearest neighbor-based similarity searching is a common task in chemistry,

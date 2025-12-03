@@ -8,7 +8,7 @@ bibkey: alibey2023global
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/amaralibey/GPM'}, {name: Paper,
     url: 'https://arxiv.org/abs/2302.14217'}]
-tags: ["Datasets", "Evaluation", "Scalability"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Scalability"]
 short_authors: "Amar Ali-Bey, Brahim Chaib-Draa, Philippe Gigu\xE8re"
 ---
 Learning deep representations for visual place recognition is commonly

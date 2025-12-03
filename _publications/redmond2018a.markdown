@@ -8,7 +8,7 @@ year: 2018
 bibkey: redmond2018a
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.09652'}]
-tags: ["Privacy & Security", "Similarity Search"]
+tags: ["Compact Codes", "Evaluation"]
 short_authors: Kimberly Redmond, Lannan Luo, Qiang Zeng
 ---
 Given a closed-source program, such as most of proprietary software and

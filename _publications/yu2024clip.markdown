@@ -8,7 +8,7 @@ bibkey: yu2024clip
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/nengdong96/CSDN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2401.05806'}]
-tags: ["Evaluation", "Multimodal Retrieval"]
+tags: ["Evaluation"]
 short_authors: Yu et al.
 ---
 Visible-infrared person re-identification (VIReID) primarily deals with

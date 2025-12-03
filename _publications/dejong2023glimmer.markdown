@@ -8,7 +8,7 @@ year: 2023
 bibkey: dejong2023glimmer
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.10231'}]
-tags: ["Evaluation", "Memory Efficiency", "Re-Ranking"]
+tags: ["Evaluation", "Re-Ranking"]
 short_authors: Jong et al.
 ---
 Memory-augmentation is a powerful approach for efficiently incorporating

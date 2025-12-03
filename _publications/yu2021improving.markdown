@@ -8,7 +8,7 @@ year: 2021
 bibkey: yu2021improving
 citations: 50
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.13454'}]
-tags: ["CIKM", "Distance Metric Learning", "Text Retrieval"]
+tags: ["CIKM", "Datasets", "Distance Metric Learning"]
 short_authors: Hongchien Yu, Chenyan Xiong, Jamie Callan
 ---
 Dense retrieval systems conduct first-stage retrieval using embedded

@@ -8,7 +8,7 @@ year: 2022
 bibkey: mckeown2022hamming
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.08035'}]
-tags: ["Evaluation", "Hashing Methods"]
+tags: ["Evaluation", "Hashing Methods", "Tools & Libraries"]
 short_authors: Sean McKeown, William J Buchanan
 ---
 Content-based file matching has been widely deployed for decades, largely for

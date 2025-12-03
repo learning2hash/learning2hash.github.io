@@ -9,7 +9,7 @@ bibkey: chun2021probabilistic
 citations: 203
 additional_links: [{name: Code, url: 'https://github.com/naver-ai/pcme'}, {name: Paper,
     url: 'https://arxiv.org/abs/2101.05068'}]
-tags: ["CVPR", "Datasets", "Multimodal Retrieval"]
+tags: ["CVPR", "Datasets", "Evaluation", "Multimodal Retrieval"]
 short_authors: Chun et al.
 ---
 Cross-modal retrieval methods build a common representation space for samples

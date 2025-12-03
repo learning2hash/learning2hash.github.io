@@ -7,7 +7,7 @@ year: 2023
 bibkey: zhu2023central
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.13774'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Similarity Search"]
+tags: ["Evaluation", "Hashing Methods"]
 short_authors: Zhu et al.
 ---
 Hash representation learning of multi-view heterogeneous data is the key to

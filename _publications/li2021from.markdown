@@ -9,7 +9,7 @@ year: 2021
 bibkey: li2021from
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.12982'}]
-tags: ["Re-Ranking"]
+tags: ["Hybrid ANN Methods", "Neural Hashing", "Re-Ranking"]
 short_authors: Li et al.
 ---
 We introduce deep learning models to the two most important stages in product

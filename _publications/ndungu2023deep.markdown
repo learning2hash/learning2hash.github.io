@@ -9,7 +9,7 @@ year: 2023
 bibkey: ndungu2023deep
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.00932'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Ndung'U et al.
 ---
 The shear number of sources that will be detected by next-generation radio

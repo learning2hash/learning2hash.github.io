@@ -7,7 +7,7 @@ year: 2019
 bibkey: li2019practical
 citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.04206'}]
-tags: ["Efficiency", "Locality-Sensitive-Hashing", "Privacy & Security"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Privacy & Security", "Tools & Libraries"]
 short_authors: Qinbin Li, Zeyi Wen, Bingsheng He
 ---
 Gradient Boosting Decision Trees (GBDTs) have become very successful in

@@ -8,7 +8,7 @@ year: 2022
 bibkey: black2022simprov
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.14245'}]
-tags: ["Re-Ranking", "Robustness", "Scalability", "Tools & Libraries"]
+tags: ["Datasets", "Re-Ranking", "Robustness", "Scalability", "Tools & Libraries"]
 short_authors: Black et al.
 ---
 We present SImProv - a scalable image provenance framework to match a query

@@ -7,7 +7,7 @@ year: 2017
 bibkey: jiang2017asymmetric
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.08325'}]
-tags: ["Efficiency", "Hashing Methods", "Large Scale Search", "Neural Hashing", "Supervised"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Supervised"]
 short_authors: Qing-Yuan Jiang, Wu-Jun Li
 ---
 Hashing has been widely used for large-scale approximate nearest neighbor

@@ -7,7 +7,7 @@ year: 2021
 bibkey: ai2021a
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.09306'}]
-tags: ["Evaluation", "Text Retrieval"]
+tags: ["Evaluation", "Text Retrieval", "Tools & Libraries"]
 short_authors: Qingyao Ai, Brendan O Connor, W. Bruce Croft
 ---
 Traditional statistical retrieval models often treat each document as a

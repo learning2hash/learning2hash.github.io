@@ -7,7 +7,7 @@ year: 2025
 bibkey: ge2025graph
 citations: 67
 additional_links: [{name: Paper, url: 'http://kaiminghe.com/publications/eccv14gcc.pdf'}]
-tags: ["Graph Based ANN", "Hashing Methods", "Supervised"]
+tags: ["Compact Codes", "Datasets", "Graph Based ANN", "Hashing Methods", "Supervised"]
 short_authors: T. Ge, He, Sun
 ---
 Learning short binary codes is challenged by the inherent discrete

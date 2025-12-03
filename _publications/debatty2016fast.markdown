@@ -7,7 +7,7 @@ year: 2016
 bibkey: debatty2016fast
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.06819'}]
-tags: ["Evaluation", "Graph Based ANN", "Scalability", "Similarity Search"]
+tags: ["Evaluation"]
 short_authors: Thibault Debatty, Pietro Michiardi, Wim Mees
 ---
 In this paper we propose an online approximate k-nn graph building algorithm,

@@ -7,7 +7,7 @@ year: 2019
 bibkey: zhao2019low
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.07797'}]
-tags: ["Efficiency", "Hashing Methods", "ICRA"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "ICRA", "Vector Indexing"]
 short_authors: Yipu Zhao, Wenkai Ye, Patricio A. Vela
 ---
 A local map module is often implemented in modern VO/VSLAM systems to improve

@@ -8,7 +8,7 @@ year: 2023
 bibkey: zhang2023fast
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.05176'}]
-tags: ["Datasets", "Efficiency", "Scalability", "Similarity Search"]
+tags: ["Datasets"]
 short_authors: Zhang et al.
 ---
 The well-known Gumbel-Max Trick for sampling elements from a categorical

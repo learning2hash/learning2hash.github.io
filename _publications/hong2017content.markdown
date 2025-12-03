@@ -8,7 +8,7 @@ bibkey: hong2017content
 citations: 12
 additional_links: [{name: Code, url: 'https://github.com/csehong/VM-NET'}, {name: Paper,
     url: 'https://arxiv.org/abs/1704.06761'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Scalability"]
 short_authors: Sungeun Hong, Woobin Im, Hyun S. Yang
 ---
 Up to now, only limited research has been conducted on cross-modal retrieval

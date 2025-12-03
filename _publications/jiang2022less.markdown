@@ -7,7 +7,7 @@ year: 2022
 bibkey: jiang2022less
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.09410'}]
-tags: ["Few Shot & Zero Shot", "Neural Hashing"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Neural Hashing"]
 short_authors: Jiang et al.
 ---
 Deep neural networks (DNNs) are often used for text classification tasks as

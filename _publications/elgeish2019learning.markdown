@@ -7,7 +7,7 @@ year: 2019
 bibkey: elgeish2019learning
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.00493'}]
-tags: ["Distance Metric Learning", "Supervised"]
+tags: ["Distance Metric Learning", "Evaluation", "Neural Hashing", "Supervised"]
 short_authors: Mohamed El-Geish
 ---
 Most speech recognition tasks pertain to mapping words across two modalities:

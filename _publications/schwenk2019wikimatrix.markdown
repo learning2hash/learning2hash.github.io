@@ -9,7 +9,7 @@ bibkey: schwenk2019wikimatrix
 citations: 67
 additional_links: [{name: Code, url: 'https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix'},
   {name: Paper, url: 'https://arxiv.org/abs/1907.05791'}]
-tags: ["Datasets", "Tools & Libraries"]
+tags: ["Uncategorized"]
 short_authors: Schwenk et al.
 ---
 We present an approach based on multilingual sentence embeddings to

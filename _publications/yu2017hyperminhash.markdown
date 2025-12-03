@@ -7,7 +7,7 @@ year: 2017
 bibkey: yu2017hyperminhash
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.08436'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Memory Efficiency"]
+tags: ["Locality-Sensitive-Hashing"]
 short_authors: Yun William Yu, Griffin M. Weber
 ---
 In this extended abstract, we describe and analyze a lossy compression of

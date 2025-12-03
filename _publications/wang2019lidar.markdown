@@ -7,7 +7,7 @@ year: 2019
 bibkey: wang2019lidar
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.03825'}]
-tags: ["Evaluation", "Similarity Search"]
+tags: ["Evaluation"]
 short_authors: Wang et al.
 ---
 In this paper, a global descriptor for a LiDAR point cloud, called LiDAR

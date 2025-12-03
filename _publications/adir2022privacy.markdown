@@ -9,7 +9,7 @@ year: 2022
 bibkey: adir2022privacy
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.14284'}]
-tags: ["Datasets", "Locality-Sensitive-Hashing", "Privacy & Security"]
+tags: ["Datasets", "Locality-Sensitive-Hashing"]
 short_authors: Adir et al.
 ---
 The amount of data stored in data repositories increases every year. This

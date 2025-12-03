@@ -7,7 +7,7 @@ year: 2022
 bibkey: yorsh2022linear
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.04076'}]
-tags: ["Locality-Sensitive-Hashing"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Uladzislau Yorsh, Alexander Kovalenko
 ---
 In pursuit of faster computation, Efficient Transformers demonstrate an

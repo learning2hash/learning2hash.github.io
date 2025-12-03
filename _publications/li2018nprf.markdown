@@ -10,7 +10,7 @@ year: 2018
 bibkey: li2018nprf
 citations: 56
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.12936'}]
-tags: ["EMNLP", "Evaluation"]
+tags: ["EMNLP", "Evaluation", "Tools & Libraries"]
 short_authors: Li et al.
 ---
 Pseudo-relevance feedback (PRF) is commonly used to boost the performance of

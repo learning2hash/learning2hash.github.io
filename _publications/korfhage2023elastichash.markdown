@@ -7,7 +7,7 @@ year: 2023
 bibkey: korfhage2023elastichash
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.04710'}]
-tags: ["Evaluation", "Hashing Methods", "Neural Hashing", "Similarity Search", "Vector Indexing"]
+tags: ["Evaluation", "Hashing Methods", "Neural Hashing", "Scalability", "Similarity Search"]
 short_authors: "Nikolaus Korfhage, Markus M\xFChling, Bernd Freisleben"
 ---
 We present ElasticHash, a novel approach for high-quality, efficient, and

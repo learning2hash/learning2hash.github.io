@@ -7,7 +7,7 @@ year: 2025
 bibkey: norouzi2025hamming
 citations: 517
 additional_links: [{name: Paper, url: 'http://papers.nips.cc/paper/4808-hamming-distance-metric-learning.pdf'}]
-tags: ["Compact Codes", "Distance Metric Learning", "Similarity Search"]
+tags: ["Compact Codes", "Distance Metric Learning", "Evaluation", "Similarity Search", "Tools & Libraries"]
 short_authors: M. Norouzi, Fleet, Salakhutdinov
 ---
 Motivated by large-scale multimedia applications we propose to learn mappings

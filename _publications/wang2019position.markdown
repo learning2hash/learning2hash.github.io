@@ -8,7 +8,7 @@ year: 2019
 bibkey: wang2019position
 citations: 190
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.09748'}]
-tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["AAAI", "Datasets", "Evaluation", "IJCAI", "Scalability"]
 short_authors: Wang et al.
 ---
 Image-text matching tasks have recently attracted a lot of attention in the

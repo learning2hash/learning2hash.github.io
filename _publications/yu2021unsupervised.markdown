@@ -9,7 +9,7 @@ bibkey: yu2021unsupervised
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/uknownpioneer/GSMLP-SMLC.git'},
   {name: Paper, url: 'https://arxiv.org/abs/2106.08798'}]
-tags: ["Unsupervised"]
+tags: ["Datasets", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: Jongmin Yu, Hyeontaek Oh
 ---
 This paper addresses unsupervised person re-identification (Re-ID) using

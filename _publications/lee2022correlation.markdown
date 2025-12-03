@@ -8,7 +8,7 @@ bibkey: lee2022correlation
 citations: 72
 additional_links: [{name: Code, url: 'https://github.com/sungonce/CVNet'}, {name: Paper,
     url: 'https://arxiv.org/abs/2204.01458'}]
-tags: ["CVPR", "Evaluation", "Image Retrieval", "Re-Ranking"]
+tags: ["CVPR", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
 short_authors: Lee et al.
 ---
 Geometric verification is considered a de facto solution for the re-ranking

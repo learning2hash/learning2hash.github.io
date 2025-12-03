@@ -8,7 +8,7 @@ year: 2025
 bibkey: grainge2025tetra
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.02511'}]
-tags: ["Evaluation", "Memory Efficiency", "Quantization"]
+tags: ["Evaluation"]
 short_authors: Grainge et al.
 ---
 Visual Place Recognition (VPR) localizes a query image by matching it against

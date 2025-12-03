@@ -9,7 +9,7 @@ bibkey: desai2023hyperbolic
 citations: 2
 additional_links: [{name: Code, url: 'https://www.github.com/facebookresearch/meru'},
   {name: Paper, url: 'https://arxiv.org/abs/2304.09172'}]
-tags: ["Image Retrieval", "Multimodal Retrieval", "Scalability", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Scalability", "Text Retrieval"]
 short_authors: Desai et al.
 ---
 Visual and linguistic concepts naturally organize themselves in a hierarchy,

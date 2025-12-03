@@ -8,7 +8,7 @@ year: 2023
 bibkey: lin2023fine
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.17133'}]
-tags: ["Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Lin et al.
 ---
 Knowledge-based Visual Question Answering (KB-VQA) requires VQA systems to

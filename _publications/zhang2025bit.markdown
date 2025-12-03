@@ -8,7 +8,7 @@ year: 2025
 bibkey: zhang2025bit
 citations: 443
 additional_links: [{name: Paper, url: 'http://arxiv.org/pdf/1508.04535v2.pdf'}]
-tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Zhang et al.
 ---
 Extracting informative image features and learning

@@ -7,7 +7,7 @@ year: 2020
 bibkey: "sur\xEDs2020globetrotter"
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.04631'}]
-tags: ["Datasets", "Unsupervised"]
+tags: ["Datasets", "Supervised", "Unsupervised"]
 short_authors: "D\xEDdac Sur\xEDs, Dave Epstein, Carl Vondrick"
 ---
 Machine translation between many languages at once is highly challenging,

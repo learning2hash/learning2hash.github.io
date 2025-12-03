@@ -8,7 +8,7 @@ year: 2023
 bibkey: gao2023high
 citations: 42
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.09855'}]
-tags: ["Efficiency", "Similarity Search"]
+tags: ["Efficiency", "Evaluation"]
 short_authors: Jianyang Gao, Cheng Long
 ---
 Approximate K nearest neighbor (AKNN) search is a fundamental and challenging

@@ -9,7 +9,7 @@ year: 2018
 bibkey: shen2018nash
 citations: 60
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.05361'}]
-tags: ["Hashing Methods", "Neural Hashing", "Similarity Search", "Supervised", "Unsupervised"]
+tags: ["Datasets", "Hashing Methods", "Neural Hashing", "Similarity Search", "Supervised"]
 short_authors: Shen et al.
 ---
 Semantic hashing has become a powerful paradigm for fast similarity search in

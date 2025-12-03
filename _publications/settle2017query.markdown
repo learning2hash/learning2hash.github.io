@@ -7,7 +7,7 @@ year: 2017
 bibkey: settle2017query
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.03818'}]
-tags: ["Efficiency", "Interspeech", "Similarity Search"]
+tags: ["Efficiency", "Evaluation", "Interspeech"]
 short_authors: Settle et al.
 ---
 Query-by-example search often uses dynamic time warping (DTW) for comparing

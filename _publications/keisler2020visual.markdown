@@ -9,7 +9,7 @@ bibkey: keisler2020visual
 citations: 23
 additional_links: [{name: Other, url: 'https://search.descarteslabs.com'}, {name: Paper,
     url: 'https://arxiv.org/abs/2002.02624'}]
-tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Large Scale Search", "Similarity Search"]
+tags: ["Efficiency", "Image Retrieval"]
 short_authors: Keisler et al.
 ---
 We present a system for performing visual search over billions of aerial and

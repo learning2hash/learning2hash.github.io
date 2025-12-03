@@ -7,7 +7,7 @@ year: 2017
 bibkey: ji2017cross
 citations: 63
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.01784'}]
-tags: ["Efficiency", "Image Retrieval"]
+tags: ["Datasets", "Efficiency", "Image Retrieval"]
 short_authors: Ji et al.
 ---
 With the proliferation of e-commerce websites and the ubiquitousness of smart

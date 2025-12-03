@@ -7,7 +7,7 @@ year: 2022
 bibkey: jia2022fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.03112'}]
-tags: ["Efficiency", "Hashing Methods", "Scalability"]
+tags: ["Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Scalability"]
 short_authors: Jia et al.
 ---
 Hashing has been widely researched to solve the large-scale approximate

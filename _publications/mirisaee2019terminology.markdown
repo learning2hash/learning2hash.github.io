@@ -8,7 +8,7 @@ year: 2019
 bibkey: mirisaee2019terminology
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.01874'}]
-tags: ["Evaluation", "Graph Based ANN", "Similarity Search"]
+tags: ["Evaluation"]
 short_authors: Mirisaee et al.
 ---
 We propose in this paper a new, hybrid document embedding approach in order

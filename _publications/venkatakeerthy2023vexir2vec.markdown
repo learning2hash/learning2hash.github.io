@@ -8,7 +8,7 @@ year: 2023
 bibkey: venkatakeerthy2023vexir2vec
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.00507'}]
-tags: ["Datasets", "Evaluation", "Robustness", "Tools & Libraries", "Unsupervised"]
+tags: ["Datasets", "Robustness", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Venkatakeerthy et al.
 ---
 Binary similarity involves determining whether two binary programs exhibit

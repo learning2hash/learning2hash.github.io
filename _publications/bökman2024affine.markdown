@@ -7,7 +7,7 @@ year: 2024
 bibkey: "b\xF6kman2024affine"
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.14186'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: ["Evaluation", "Neural Hashing"]
 short_authors: "B\xF6kman et al."
 ---
 We propose a way to train deep learning based keypoint descriptors that makes

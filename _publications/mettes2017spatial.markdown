@@ -8,7 +8,7 @@ year: 2017
 bibkey: mettes2017spatial
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.09145'}]
-tags: ["Few Shot & Zero Shot", "ICCV"]
+tags: ["Datasets", "Few Shot & Zero Shot", "ICCV", "Supervised"]
 short_authors: Pascal Mettes, Cees G. M. Snoek
 ---
 We aim for zero-shot localization and classification of human actions in

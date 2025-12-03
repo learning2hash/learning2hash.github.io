@@ -8,7 +8,7 @@ year: 2023
 bibkey: zhong2023poisoning
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.19156'}]
-tags: ["EMNLP", "Evaluation", "Robustness", "Unsupervised"]
+tags: ["EMNLP", "Evaluation", "Robustness", "Supervised", "Unsupervised"]
 short_authors: Zhong et al.
 ---
 Dense retrievers have achieved state-of-the-art performance in various

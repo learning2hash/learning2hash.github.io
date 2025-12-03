@@ -9,7 +9,7 @@ bibkey: fervers2024statewide
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/fferflo/statewide-visual-geolocalization'},
   {name: Paper, url: 'https://arxiv.org/abs/2409.16763'}]
-tags: ["Evaluation", "Image Retrieval", "Scalability"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Fervers et al.
 ---
 This work presents a method that is able to predict the geolocation of a

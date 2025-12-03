@@ -7,7 +7,7 @@ year: 2024
 bibkey: xu2024ceia
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.06611'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Text Retrieval"]
 short_authors: Xu et al.
 ---
 We present CEIA, an effective framework for open-world event-based

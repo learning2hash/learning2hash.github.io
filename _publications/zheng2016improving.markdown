@@ -7,7 +7,7 @@ year: 2016
 bibkey: zheng2016improving
 citations: 584
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.04326'}]
-tags: ["CVPR", "Robustness"]
+tags: ["CVPR", "Datasets", "Evaluation", "Robustness", "Scalability"]
 short_authors: Zheng et al.
 ---
 In this paper we address the issue of output instability of deep neural

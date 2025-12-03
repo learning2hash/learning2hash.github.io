@@ -7,7 +7,7 @@ year: 2020
 bibkey: tseng2020retrievegan
 citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.08513'}]
-tags: ["Image Retrieval", "Unsupervised"]
+tags: ["Uncategorized"]
 short_authors: Tseng et al.
 ---
 Image generation from scene description is a cornerstone technique for the

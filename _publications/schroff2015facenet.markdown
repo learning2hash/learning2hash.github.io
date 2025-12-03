@@ -7,7 +7,7 @@ year: 2015
 bibkey: schroff2015facenet
 citations: 10445
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1503.03832'}]
-tags: ["CVPR", "Distance Metric Learning", "Efficiency"]
+tags: ["CVPR", "Datasets", "Distance Metric Learning", "Efficiency", "Evaluation"]
 short_authors: Florian Schroff, Dmitry Kalenichenko, James Philbin
 ---
 Despite significant recent advances in the field of face recognition,

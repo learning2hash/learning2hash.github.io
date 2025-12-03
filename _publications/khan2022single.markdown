@@ -8,7 +8,7 @@ year: 2022
 bibkey: khan2022single
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.14395'}]
-tags: ["Image Retrieval", "Multimodal Retrieval", "Self-Supervised"]
+tags: ["Distance Metric Learning", "Efficiency", "Self-Supervised", "Supervised", "Text Retrieval"]
 short_authors: Khan et al.
 ---
 Self-supervised vision-language pretraining from pure images and text with a

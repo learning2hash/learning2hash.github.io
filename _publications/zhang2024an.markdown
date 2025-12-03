@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhang2024an
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.00400'}]
-tags: ["CIKM", "Efficiency", "Hashing Methods", "Recommender Systems"]
+tags: ["CIKM", "Efficiency", "Evaluation", "Hashing Methods", "Recommender Systems"]
 short_authors: Zhang et al.
 ---
 In industrial recommendation systems on websites and apps, it is essential to

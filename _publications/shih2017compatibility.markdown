@@ -7,7 +7,7 @@ year: 2017
 bibkey: shih2017compatibility
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.01262'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems"]
+tags: ["Datasets", "Evaluation", "Recommender Systems", "Robustness"]
 short_authors: Shih et al.
 ---
 Compatibility between items, such as clothes and shoes, is a major factor

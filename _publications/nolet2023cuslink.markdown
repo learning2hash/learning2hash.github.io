@@ -9,7 +9,7 @@ bibkey: nolet2023cuslink
 citations: 4
 additional_links: [{name: Other, url: 'https://docs.rapids.ai/api/cuml/latest/api/%23agglomerative-clustering'},
   {name: Paper, url: 'https://arxiv.org/abs/2306.16354'}]
-tags: ["Scalability", "Tools & Libraries", "Unsupervised"]
+tags: ["Graph Based ANN", "Tools & Libraries"]
 short_authors: Nolet et al.
 ---
 In this paper, we propose cuSLINK, a novel and state-of-the-art reformulation

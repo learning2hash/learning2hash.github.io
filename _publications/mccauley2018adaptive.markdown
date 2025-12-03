@@ -8,7 +8,7 @@ year: 2018
 bibkey: mccauley2018adaptive
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.05615'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Similarity Search"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Samuel McCauley, Francesco Silvestri
 ---
 Similarity joins are a fundamental database operation. Given data sets S and

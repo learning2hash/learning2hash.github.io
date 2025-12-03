@@ -8,7 +8,7 @@ year: 2019
 bibkey: "aum\xFCller2019fair"
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.01859'}]
-tags: ["Locality-Sensitive-Hashing", "Recommender Systems", "Similarity Search"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: "Martin Aum\xFCller, Rasmus Pagh, Francesco Silvestri"
 ---
 Similarity search is a fundamental algorithmic primitive, widely used in many

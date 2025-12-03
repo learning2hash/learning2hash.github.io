@@ -10,7 +10,7 @@ bibkey: chen2021augnet
 citations: 7
 additional_links: [{name: Code, url: 'https://github.com/chenmingxiang110/AugNet'},
   {name: Paper, url: 'https://arxiv.org/abs/2106.06250'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Unsupervised"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Chen et al.
 ---
 Most of the achievements in artificial intelligence so far were accomplished

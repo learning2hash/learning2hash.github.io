@@ -7,7 +7,7 @@ year: 2017
 bibkey: jain2017subic
 citations: 62
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.02932'}]
-tags: ["Compact Codes", "ICCV", "Image Retrieval", "Quantization", "Supervised"]
+tags: ["Compact Codes", "Image Retrieval", "Quantization", "Supervised", "Unsupervised"]
 short_authors: Jain et al.
 ---
 For large-scale visual search, highly compressed yet meaningful

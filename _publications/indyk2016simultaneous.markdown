@@ -7,7 +7,7 @@ year: 2016
 bibkey: indyk2016simultaneous
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.02188'}]
-tags: ["Efficiency", "Graph Based ANN", "Similarity Search"]
+tags: ["Uncategorized"]
 short_authors: Indyk et al.
 ---
 Motivated by applications in computer vision and databases, we introduce and

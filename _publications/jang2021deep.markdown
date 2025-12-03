@@ -7,7 +7,7 @@ year: 2021
 bibkey: jang2021deep
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.08816'}]
-tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
 short_authors: Jang et al.
 ---
 In hash-based image retrieval systems, degraded or transformed inputs usually

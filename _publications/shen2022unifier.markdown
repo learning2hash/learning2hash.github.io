@@ -8,7 +8,7 @@ year: 2022
 bibkey: shen2022unifier
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.11194'}]
-tags: ["Evaluation", "Scalability", "Text Retrieval"]
+tags: ["Evaluation", "Scalability", "Tools & Libraries"]
 short_authors: Shen et al.
 ---
 Large-scale retrieval is to recall relevant documents from a huge collection

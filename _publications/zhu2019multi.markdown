@@ -7,7 +7,7 @@ year: 2019
 bibkey: zhu2019multi
 citations: 53
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.04964'}]
-tags: ["Multimodal Retrieval", "Recommender Systems", "Survey Paper"]
+tags: ["Hashing Methods", "Recommender Systems", "Survey Paper"]
 short_authors: Wenwu Zhu, Xin Wang, Hongzhi Li
 ---
 With the rapid development of Internet and multimedia services in the past

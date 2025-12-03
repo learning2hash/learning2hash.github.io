@@ -8,7 +8,7 @@ year: 2020
 bibkey: furon2020an
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.00990'}]
-tags: ["Datasets", "Privacy & Security", "Scalability", "Similarity Search"]
+tags: ["Datasets", "Scalability"]
 short_authors: Teddy Furon
 ---
 This paper investigates the vulnerability of the nearest neighbors search,

@@ -7,7 +7,7 @@ year: 2019
 bibkey: can2019deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.07585'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: "O\u011Ful Can, Yeti Ziya G\xFCrb\xFCz, A. Ayd\u0131n Alatan"
 ---
 During the training of networks for distance metric learning, minimizers of

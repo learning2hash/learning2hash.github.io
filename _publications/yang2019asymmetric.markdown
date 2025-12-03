@@ -7,7 +7,7 @@ year: 2019
 bibkey: yang2019asymmetric
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.12493'}]
-tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
+tags: ["Compact Codes", "Efficiency", "Hashing Methods", "Image Retrieval", "Quantization"]
 short_authors: Yang et al.
 ---
 Due to its fast retrieval and storage efficiency capabilities, hashing has

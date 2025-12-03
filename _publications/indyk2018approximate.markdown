@@ -7,7 +7,7 @@ year: 2018
 bibkey: indyk2018approximate
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.00112'}]
-tags: ["Distance Metric Learning", "Efficiency", "Memory Efficiency", "Scalability", "Similarity Search"]
+tags: ["Evaluation"]
 short_authors: Piotr Indyk, Tal Wagner
 ---
 We consider the \((1+\epsilon)\)-approximate nearest neighbor search problem:

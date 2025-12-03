@@ -7,7 +7,7 @@ year: 2019
 bibkey: li2019modeling
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.11959'}]
-tags: ["Similarity Search", "Supervised", "Unsupervised"]
+tags: ["Evaluation", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Wenye Li
 ---
 Inspired by the advances in biological science, the study of sparse binary

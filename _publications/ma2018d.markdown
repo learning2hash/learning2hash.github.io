@@ -8,7 +8,7 @@ year: 2018
 bibkey: ma2018d
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.06451'}]
-tags: ["Datasets", "Recommender Systems"]
+tags: ["Datasets", "Evaluation", "Neural Hashing", "Recommender Systems", "Tools & Libraries"]
 short_authors: Shuang Ma, Chang Wen Chen
 ---
 Exponential growth of social media consumption demands effective user

@@ -7,7 +7,7 @@ year: 2025
 bibkey: yuksel2025remining
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.14434'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Robustness"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Robustness"]
 short_authors: Goksenin Yuksel, David Rau, Jaap Kamps
 ---
 Dense retrievers have demonstrated significant potential for neural

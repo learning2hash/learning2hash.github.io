@@ -8,7 +8,7 @@ year: 2022
 bibkey: jafari2022experimental
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.09093'}]
-tags: ["Datasets", "Evaluation", "Locality-Sensitive-Hashing", "Tree Based ANN"]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Tree Based ANN", "Vector Indexing"]
 short_authors: Omid Jafari, Parth Nagarkar
 ---
 Finding similar data in high-dimensional spaces is one of the important tasks

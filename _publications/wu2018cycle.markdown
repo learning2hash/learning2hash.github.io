@@ -7,7 +7,7 @@ year: 2018
 bibkey: wu2018cycle
 citations: 206
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.11013'}]
-tags: ["Hashing Methods", "Multimodal Retrieval"]
+tags: ["Hashing Methods", "Multimodal Retrieval", "Robustness", "Scalability"]
 short_authors: Lin Wu, Yang Wang, Ling Shao
 ---
 In this paper, we propose a novel deep generative approach to cross-modal

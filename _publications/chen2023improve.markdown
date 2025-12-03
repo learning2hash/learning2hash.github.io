@@ -8,7 +8,7 @@ year: 2023
 bibkey: chen2023improve
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.00950'}]
-tags: ["Image Retrieval", "Self-Supervised", "Supervised"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Chen et al.
 ---
 Training visual embeddings with labeled data supervision has been the de

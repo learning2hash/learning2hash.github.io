@@ -7,7 +7,7 @@ year: 2023
 bibkey: ren2023lexicon
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.14979'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Scalability", "Self-Supervised", "Supervised"]
 short_authors: Ren et al.
 ---
 Recent multilingual pre-trained models have shown better performance in

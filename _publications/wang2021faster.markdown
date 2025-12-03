@@ -8,7 +8,7 @@ year: 2021
 bibkey: wang2021faster
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.08152'}]
-tags: ["Efficiency"]
+tags: ["Efficiency", "Evaluation"]
 short_authors: Wang et al.
 ---
 \(k\)NN based neural machine translation (\(k\)NN-MT) has achieved

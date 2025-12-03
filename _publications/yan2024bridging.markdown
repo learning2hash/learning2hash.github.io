@@ -9,7 +9,7 @@ bibkey: yan2024bridging
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/zyyan4/ml-clap'}, {name: Paper,
     url: 'https://arxiv.org/abs/2406.07012'}]
-tags: ["Datasets", "Interspeech", "Text Retrieval"]
+tags: ["Datasets", "Evaluation", "Interspeech", "Text Retrieval"]
 short_authors: Yan et al.
 ---
 Audio-text retrieval is a challenging task, requiring the search for an audio

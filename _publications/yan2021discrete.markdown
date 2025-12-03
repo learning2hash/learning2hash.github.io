@@ -8,7 +8,7 @@ year: 2021
 bibkey: yan2021discrete
 citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.10406'}]
-tags: ["CVPR", "Datasets", "Supervised"]
+tags: ["CVPR", "Datasets", "Evaluation", "Supervised"]
 short_authors: Shiyang Yan, Li Yu, Yuan Xie
 ---
 Image-text matching is an important multi-modal task with massive

@@ -8,7 +8,7 @@ year: 2023
 bibkey: liu2023transformer
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.17954'}]
-tags: ["AAAI", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["AAAI", "Image Retrieval"]
 short_authors: Liu et al.
 ---
 Over the past decade, significant advances have been made in the field of

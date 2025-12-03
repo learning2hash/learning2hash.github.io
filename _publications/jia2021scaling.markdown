@@ -9,7 +9,7 @@ year: 2021
 bibkey: jia2021scaling
 citations: 1191
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.05918'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "ICML", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Few Shot & Zero Shot", "Re-Ranking", "Text Retrieval"]
 short_authors: Jia et al.
 ---
 Pre-trained representations are becoming crucial for many NLP and perception

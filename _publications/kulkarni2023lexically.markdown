@@ -8,7 +8,7 @@ year: 2023
 bibkey: kulkarni2023lexically
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.16779'}]
-tags: ["Efficiency", "Graph Based ANN", "SIGIR"]
+tags: ["Efficiency", "Evaluation", "Graph Based ANN", "SIGIR"]
 short_authors: Kulkarni et al.
 ---
 Retrieval approaches that score documents based on learned dense vectors

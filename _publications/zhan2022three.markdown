@@ -7,7 +7,7 @@ year: 2022
 bibkey: zhan2022three
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.05666'}]
-tags: ["Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Zhan et al.
 ---
 The Zero-Shot Sketch-based Image Retrieval (ZS-SBIR) is a challenging task

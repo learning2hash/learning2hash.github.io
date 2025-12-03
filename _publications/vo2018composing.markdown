@@ -7,7 +7,7 @@ year: 2018
 bibkey: vo2018composing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.07119'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Vo et al.
 ---
 In this paper, we study the task of image retrieval, where the input query is

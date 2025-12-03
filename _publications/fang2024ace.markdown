@@ -10,7 +10,7 @@ year: 2024
 bibkey: fang2024ace
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.17507'}]
-tags: ["Evaluation", "Multimodal Retrieval", "Video Retrieval"]
+tags: ["Evaluation", "Multimodal Retrieval", "Scalability", "Text Retrieval", "Video Retrieval"]
 short_authors: Fang et al.
 ---
 Generative retrieval, which has demonstrated effectiveness in text-to-text

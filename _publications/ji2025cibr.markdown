@@ -8,7 +8,7 @@ year: 2025
 bibkey: ji2025cibr
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.24182'}]
-tags: ["Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Tools & Libraries"]
 short_authors: Ji et al.
 ---
 Contrastive Language-Image Pretraining (CLIP) has achieved remarkable success

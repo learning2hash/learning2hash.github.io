@@ -9,7 +9,7 @@ year: 2018
 bibkey: titus2018sig
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.09565'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Privacy & Security"]
+tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Titus et al.
 ---
 Genomic data are becoming increasingly valuable as we develop methods to

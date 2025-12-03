@@ -7,7 +7,7 @@ year: 2018
 bibkey: he2018triplet
 citations: 360
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.06189'}]
-tags: ["CVPR", "Distance Metric Learning"]
+tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Neural Hashing"]
 short_authors: He et al.
 ---
 Most existing 3D object recognition algorithms focus on leveraging the strong

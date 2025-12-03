@@ -7,7 +7,7 @@ year: 2020
 bibkey: castellano2020visual
 citations: 39
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.08476'}]
-tags: ["Datasets", "Evaluation", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Giovanna Castellano, Eufemia Lella, Gennaro Vessio
 ---
 Visual arts are of inestimable importance for the cultural, historic and

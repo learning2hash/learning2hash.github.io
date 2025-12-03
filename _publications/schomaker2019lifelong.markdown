@@ -8,7 +8,7 @@ year: 2019
 bibkey: schomaker2019lifelong
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.05156'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Survey Paper", "Text Retrieval"]
+tags: ["Evaluation", "Neural Hashing", "Scalability", "Survey Paper", "Text Retrieval"]
 short_authors: Lambert Schomaker
 ---
 This chapter provides an overview of the problems that need to be dealt with

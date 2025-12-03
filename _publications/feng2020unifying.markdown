@@ -8,7 +8,7 @@ year: 2020
 bibkey: feng2020unifying
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.03701'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Feng et al.
 ---
 Deep image embedding provides a way to measure the semantic similarity of two

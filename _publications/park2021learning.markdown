@@ -8,7 +8,7 @@ year: 2021
 bibkey: park2021learning
 citations: 241
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.07422'}]
-tags: ["ICCV", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Evaluation", "ICCV", "Tools & Libraries"]
 short_authors: Park et al.
 ---
 We address the problem of visible-infrared person re-identification

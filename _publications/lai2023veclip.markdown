@@ -9,7 +9,7 @@ bibkey: lai2023veclip
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/apple/ml-veclip'}, {name: Paper,
     url: 'https://arxiv.org/abs/2310.07699'}]
-tags: ["Datasets", "Efficiency", "Few Shot & Zero Shot", "Scalability"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
 short_authors: Lai et al.
 ---
 Large-scale web-crawled datasets are fundamental for the success of

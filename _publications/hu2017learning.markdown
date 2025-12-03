@@ -8,7 +8,7 @@ year: 2017
 bibkey: hu2017learning
 citations: 189
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.08720'}]
-tags: ["Hashing Methods", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Hu et al.
 ---
 Learning discrete representations of data is a central machine learning task

@@ -8,7 +8,7 @@ bibkey: liu2024clips
 citations: 0
 additional_links: [{name: Code, url: 'https://ucsc-vlaa.github.io/CLIPS/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2411.16828'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval"]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Liu et al.
 ---
 Previous works show that noisy, web-crawled image-text pairs may limit

@@ -8,7 +8,7 @@ bibkey: huang2024unsupervised
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/MiuLab/UMR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2403.03516'}]
-tags: ["Evaluation", "Tools & Libraries", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Huang et al.
 ---
 Dense retrieval methods have demonstrated promising performance in

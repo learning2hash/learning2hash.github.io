@@ -10,7 +10,7 @@ year: 2022
 bibkey: wan2022fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.14226'}]
-tags: ["Re-Ranking", "Scalability", "Text Retrieval"]
+tags: ["Hybrid ANN Methods", "NAACL", "Neural Hashing", "Re-Ranking", "Text Retrieval"]
 short_authors: Wan et al.
 ---
 Dialogue systems can benefit from being able to search through a corpus of

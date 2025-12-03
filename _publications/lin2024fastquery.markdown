@@ -7,7 +7,7 @@ year: 2024
 bibkey: lin2024fastquery
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.16241'}]
-tags: ["Privacy & Security", "Quantization", "Robustness"]
+tags: ["Quantization", "Robustness", "Tools & Libraries"]
 short_authors: Lin et al.
 ---
 With the fast evolution of large language models (LLMs), privacy concerns

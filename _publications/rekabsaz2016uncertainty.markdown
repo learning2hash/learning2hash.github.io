@@ -8,7 +8,7 @@ year: 2016
 bibkey: rekabsaz2016uncertainty
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.06086'}]
-tags: ["Evaluation", "Similarity Search"]
+tags: ["Evaluation"]
 short_authors: Navid Rekabsaz, Mihai Lupu, Allan Hanbury
 ---
 Word embedding, specially with its recent developments, promises a

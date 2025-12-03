@@ -8,7 +8,7 @@ year: 2022
 bibkey: conde2022clip
 citations: 88
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.14244'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised"]
+tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Marcos V. Conde, Kerem Turgutlu
 ---
 Existing computer vision research in artwork struggles with artwork's

@@ -10,7 +10,7 @@ bibkey: cai2021ask
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/CuthbertCai/Ask-Confirm'},
   {name: Paper, url: 'https://arxiv.org/abs/2103.01654'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Supervised"]
 short_authors: Cai et al.
 ---
 Text-based image retrieval has seen considerable progress in recent years.

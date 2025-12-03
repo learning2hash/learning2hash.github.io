@@ -7,7 +7,7 @@ year: 2021
 bibkey: engels2021practical
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.11565'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Joshua Engels, Benjamin Coleman, Anshumali Shrivastava
 ---
 We present a new algorithm for the approximate near neighbor problem that

@@ -8,7 +8,7 @@ year: 2024
 bibkey: wang2024neural
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.18064'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Locality-Sensitive-Hashing", "Neural Hashing"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Supervised"]
 short_authors: Wang et al.
 ---
 Locality-sensitive hashing (LSH) is a fundamental algorithmic technique

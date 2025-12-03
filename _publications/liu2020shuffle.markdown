@@ -7,7 +7,7 @@ year: 2020
 bibkey: liu2020shuffle
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.10239'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Unsupervised"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Fangrui Liu, Zheng Liu
 ---
 Unsupervised binary representation allows fast data retrieval without any

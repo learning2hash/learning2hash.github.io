@@ -10,7 +10,7 @@ year: 2021
 bibkey: abbad2021a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.14060'}]
-tags: ["Distance Metric Learning", "Evaluation", "Graph Based ANN"]
+tags: ["Evaluation", "Graph Based ANN"]
 short_authors: Abbad et al.
 ---
 In this paper, we leverage the properties of non-Euclidean Geometry to define

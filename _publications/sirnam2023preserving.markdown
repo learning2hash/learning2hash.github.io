@@ -9,7 +9,7 @@ bibkey: sirnam2023preserving
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/Swetha5/Multi_Sinkhorn_Knopp'},
   {name: Paper, url: 'https://arxiv.org/abs/2308.13077'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "ICCV", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Self-Supervised", "Supervised"]
 short_authors: Sirnam et al.
 ---
 Self-supervised learning on large-scale multi-modal datasets allows learning

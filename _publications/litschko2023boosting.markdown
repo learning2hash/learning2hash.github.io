@@ -8,7 +8,7 @@ year: 2023
 bibkey: litschko2023boosting
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.05295'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Re-Ranking"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Robert Litschko, Ekaterina Artemova, Barbara Plank
 ---
 Transferring information retrieval (IR) models from a high-resource language

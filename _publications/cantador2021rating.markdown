@@ -7,7 +7,7 @@ year: 2021
 bibkey: cantador2021rating
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.03385'}]
-tags: ["Evaluation", "Recommender Systems"]
+tags: ["Evaluation", "Recommender Systems", "Survey Paper"]
 short_authors: "Iv\xE1n Cantador, Andr\xE9s Carvallo, Fernando Diez"
 ---
 The success of neural network embeddings has entailed a renewed interest in

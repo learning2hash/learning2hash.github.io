@@ -7,7 +7,7 @@ year: 2025
 bibkey: joly2025random
 citations: 148
 additional_links: [{name: Paper, url: 'https://hal.inria.fr/hal-00642178/document'}]
-tags: ["CVPR", "Hashing Methods", "Memory Efficiency"]
+tags: ["CVPR", "Hashing Methods", "Locality-Sensitive-Hashing", "Memory Efficiency", "Vector Indexing"]
 short_authors: A. Joly, Buisson
 ---
 Following the success of hashing methods for multidimensional

@@ -7,7 +7,7 @@ year: 2017
 bibkey: nedelec2017specializing
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.07625'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems"]
+tags: ["Datasets", "Evaluation", "Neural Hashing", "Recommender Systems"]
 short_authors: Thomas Nedelec, Elena Smirnova, Flavian Vasile
 ---
 We propose a unified product embedded representation that is optimized for

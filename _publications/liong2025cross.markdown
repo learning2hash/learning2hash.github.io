@@ -7,7 +7,7 @@ year: 2025
 bibkey: liong2025cross
 citations: 101
 additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content_ICCV_2017/papers/Liong_Cross-Modal_Deep_Variational_ICCV_2017_paper.pdf'}]
-tags: ["Compact Codes", "Hashing Methods", "ICCV", "Multimodal Retrieval"]
+tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "ICCV"]
 short_authors: Liong et al.
 ---
 In this paper, we propose a cross-modal deep variational hashing (CMDVH) method for cross-modality multimedia retrieval. Unlike existing cross-modal hashing methods

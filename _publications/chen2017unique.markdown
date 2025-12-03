@@ -7,7 +7,7 @@ year: 2017
 bibkey: chen2017unique
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.02690'}]
-tags: ["Evaluation", "Locality-Sensitive-Hashing", "Scalability"]
+tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
 short_authors: Beidi Chen, Anshumali Shrivastava, Rebecca C. Steorts
 ---
 Entity resolution identifies and removes duplicate entities in large, noisy

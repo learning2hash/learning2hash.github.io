@@ -9,7 +9,7 @@ year: 2023
 bibkey: manohar2023parlayann
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.04359'}]
-tags: ["Graph Based ANN", "Large Scale Search", "Scalability", "Similarity Search", "Tools & Libraries"]
+tags: ["Datasets", "Graph Based ANN", "Large Scale Search", "Scalability", "Similarity Search"]
 short_authors: Manohar et al.
 ---
 Approximate nearest-neighbor search (ANNS) algorithms are a key part of the

@@ -8,7 +8,7 @@ year: 2020
 bibkey: tian2020hynet
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.10202'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Tian et al.
 ---
 Recent works show that local descriptor learning benefits from the use of L2

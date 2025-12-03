@@ -8,7 +8,7 @@ year: 2017
 bibkey: zhang2017hashgan
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.09347'}]
-tags: ["Evaluation", "Hashing Methods", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Zhang et al.
 ---
 As the rapid growth of multi-modal data, hashing methods for cross-modal

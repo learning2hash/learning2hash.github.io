@@ -7,7 +7,7 @@ year: 2021
 bibkey: hu2021subspace
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.00379'}]
-tags: ["Datasets", "Distance Metric Learning", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Ting-Yao Hu, Zhi-Qi Cheng, Alexander G. Hauptmann
 ---
 In this paper, we propose a subspace representation learning (SRL) framework

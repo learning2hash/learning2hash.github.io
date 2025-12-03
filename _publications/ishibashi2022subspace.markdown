@@ -7,7 +7,7 @@ year: 2022
 bibkey: ishibashi2022subspace
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.13034'}]
-tags: ["Evaluation", "Similarity Search"]
+tags: ["Evaluation"]
 short_authors: Ishibashi et al.
 ---
 In the field of natural language processing (NLP), continuous vector

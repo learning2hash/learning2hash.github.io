@@ -9,7 +9,7 @@ bibkey: xie2023unsupervised
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/Veronicium/AnchorDR'}, {
     name: Paper, url: 'https://arxiv.org/abs/2305.05834'}]
-tags: ["SIGIR", "Unsupervised"]
+tags: ["SIGIR", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Yiqing Xie, Xiao Liu, Chenyan Xiong
 ---
 In this work, we present an unsupervised retrieval method with contrastive

@@ -8,7 +8,7 @@ year: 2021
 bibkey: santhanam2021colbertv2
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.01488'}]
-tags: ["Efficiency", "Evaluation", "Memory Efficiency", "Similarity Search"]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: Santhanam et al.
 ---
 Neural information retrieval (IR) has greatly advanced search and other

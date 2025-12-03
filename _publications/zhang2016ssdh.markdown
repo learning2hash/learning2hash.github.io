@@ -7,7 +7,7 @@ year: 2016
 bibkey: zhang2016ssdh
 citations: 157
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.08477'}]
-tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Similarity Search"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Jian Zhang, Yuxin Peng
 ---
 Hashing methods have been widely used for efficient similarity retrieval on

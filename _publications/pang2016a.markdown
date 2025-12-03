@@ -7,7 +7,7 @@ year: 2016
 bibkey: pang2016a
 citations: 84
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.04648'}]
-tags: ["Evaluation", "Text Retrieval"]
+tags: ["Evaluation"]
 short_authors: Pang et al.
 ---
 Deep neural networks have been successfully applied to many text matching

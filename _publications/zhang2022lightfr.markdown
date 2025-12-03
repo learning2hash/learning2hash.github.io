@@ -8,7 +8,7 @@ year: 2022
 bibkey: zhang2022lightfr
 citations: 68
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.11743'}]
-tags: ["Efficiency", "Hashing Methods", "Recommender Systems", "Scalability", "Similarity Search"]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Recommender Systems", "Similarity Search"]
 short_authors: Zhang et al.
 ---
 Federated recommender system (FRS), which enables many local devices to train

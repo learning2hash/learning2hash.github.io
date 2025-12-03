@@ -7,7 +7,7 @@ year: 2019
 bibkey: germain2019sparse
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.03965'}]
-tags: ["Datasets", "Image Retrieval", "Robustness"]
+tags: ["Datasets"]
 short_authors: Hugo Germain, Guillaume Bourmaud, Vincent Lepetit
 ---
 We propose a novel approach to feature point matching, suitable for robust

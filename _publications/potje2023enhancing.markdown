@@ -10,7 +10,7 @@ bibkey: potje2023enhancing
 citations: 13
 additional_links: [{name: Code, url: 'https://verlab.dcc.ufmg.br/descriptors/dalf_cvpr23'},
   {name: Paper, url: 'https://arxiv.org/abs/2304.00583'}]
-tags: ["CVPR", "Evaluation", "Image Retrieval"]
+tags: ["CVPR", "Evaluation"]
 short_authors: Potje et al.
 ---
 Local feature extraction is a standard approach in computer vision for

@@ -8,7 +8,7 @@ year: 2019
 bibkey: parida2019coordinated
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.08732'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Scalability", "Supervised"]
 short_authors: Parida et al.
 ---
 We present an audio-visual multimodal approach for the task of zeroshot

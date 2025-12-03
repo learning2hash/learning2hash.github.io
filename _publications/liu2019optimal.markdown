@@ -8,7 +8,7 @@ bibkey: liu2019optimal
 citations: 38
 additional_links: [{name: Code, url: 'https://github.com/liuji93/GTH'}, {name: Paper,
     url: 'https://arxiv.org/abs/1903.00252'}]
-tags: ["Hashing Methods", "Image Retrieval", "Unsupervised"]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Ji Liu, Lei Zhang
 ---
 Recently, learning to hash has been widely studied for image retrieval thanks

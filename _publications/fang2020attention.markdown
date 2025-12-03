@@ -7,7 +7,7 @@ year: 2020
 bibkey: fang2020attention
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.03466'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Fang et al.
 ---
 Deep hashing methods have been proved to be effective for the large-scale

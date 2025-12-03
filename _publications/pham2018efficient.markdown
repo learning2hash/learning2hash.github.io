@@ -8,7 +8,7 @@ year: 2018
 bibkey: pham2018efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.01124'}]
-tags: ["Efficiency", "Evaluation", "Image Retrieval"]
+tags: ["Efficiency", "Evaluation", "Tools & Libraries"]
 short_authors: Minh-Tan Pham
 ---
 This paper presents an efficient method for texture retrieval using

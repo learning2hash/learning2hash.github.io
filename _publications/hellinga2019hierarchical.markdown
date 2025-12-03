@@ -8,7 +8,7 @@ year: 2019
 bibkey: hellinga2019hierarchical
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.09523'}]
-tags: ["Distance Metric Learning", "Recommender Systems"]
+tags: ["Datasets", "Distance Metric Learning", "Recommender Systems"]
 short_authors: Niels Hellinga, Vlado Menkovski
 ---
 Many tasks such as retrieval and recommendations can significantly benefit

@@ -9,7 +9,7 @@ year: 2019
 bibkey: "\xFAbeda2019pattern"
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.08580'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: ["Datasets"]
 short_authors: "\xDAbeda et al."
 ---
 Pattern spotting consists of searching in a collection of historical document

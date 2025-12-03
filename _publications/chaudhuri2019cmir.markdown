@@ -8,7 +8,7 @@ year: 2019
 bibkey: chaudhuri2019cmir
 citations: 63
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.04794'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Neural Hashing"]
 short_authors: Chaudhuri et al.
 ---
 We address the problem of cross-modal information retrieval in the domain of

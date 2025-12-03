@@ -7,7 +7,7 @@ year: 2016
 bibkey: liu2016dual
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.05529'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Tools & Libraries"]
 short_authors: Liu et al.
 ---
 Recent years have seen more and more demand for a unified framework to

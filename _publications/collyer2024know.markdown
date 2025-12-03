@@ -8,7 +8,7 @@ year: 2024
 bibkey: collyer2024know
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.02606'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Compact Codes", "Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Joshua Collyer, Tim Watson, Iain Phillips
 ---
 Binary code similarity detection is an important problem with applications in

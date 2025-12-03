@@ -8,7 +8,7 @@ year: 2020
 bibkey: ho2020learning
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.03123'}]
-tags: ["Distance Metric Learning", "Unsupervised"]
+tags: ["Datasets", "Distance Metric Learning"]
 short_authors: Ho et al.
 ---
 In this work, we evaluate two different image clustering objectives, k-means

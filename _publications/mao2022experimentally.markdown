@@ -8,7 +8,7 @@ year: 2022
 bibkey: mao2022experimentally
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.07429'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Locality-Sensitive-Hashing"]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Mao et al.
 ---
 Lifelong on-device learning is a key challenge for machine intelligence, and

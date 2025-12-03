@@ -9,7 +9,7 @@ bibkey: liu2023id
 citations: 1
 additional_links: [{name: Code, url: 'https://anonymous.4open.science/r/IDSF-code/'},
   {name: Paper, url: 'https://arxiv.org/abs/2311.05956'}]
-tags: ["Recommender Systems", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Recommender Systems", "Self-Supervised"]
 short_authors: Liu et al.
 ---
 Multimodal recommendation aims to model user and item representations

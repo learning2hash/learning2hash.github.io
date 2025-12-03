@@ -8,7 +8,7 @@ year: 2023
 bibkey: holden2023identifying
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.08416'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Vector Indexing"]
+tags: ["Hashing Methods"]
 short_authors: Gabriella Holden, Daniel Shiu, Lauren Strutt
 ---
 We introduce and analyse a family of hash and predicate functions that are

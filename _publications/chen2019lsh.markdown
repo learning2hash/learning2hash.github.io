@@ -8,7 +8,7 @@ year: 2019
 bibkey: chen2019lsh
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.14162'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Neural Hashing", "Scalability"]
 short_authors: Beidi Chen, Yingchen Xu, Anshumali Shrivastava
 ---
 Stochastic Gradient Descent or SGD is the most popular optimization algorithm

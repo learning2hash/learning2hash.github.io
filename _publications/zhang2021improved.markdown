@@ -8,7 +8,7 @@ year: 2021
 bibkey: zhang2021improved
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.09442'}]
-tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Supervised"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Supervised"]
 short_authors: Ming Zhang, Hong Yan
 ---
 Deep supervised hashing for image retrieval has attracted researchers'

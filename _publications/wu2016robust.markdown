@@ -8,7 +8,7 @@ year: 2016
 bibkey: wu2016robust
 citations: 49
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.05521'}]
-tags: ["Efficiency", "Hashing Methods", "Robustness", "Similarity Search"]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Robustness", "Similarity Search"]
 short_authors: Lin Wu, Yang Wang
 ---
 Learning hash functions/codes for similarity search over multi-view data is

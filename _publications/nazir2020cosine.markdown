@@ -7,7 +7,7 @@ year: 2020
 bibkey: nazir2020cosine
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.11129'}]
-tags: ["Evaluation", "Multimodal Retrieval", "Recommender Systems"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Recommender Systems"]
 short_authors: Nazir et al.
 ---
 Multimodal information originates from a variety of sources: audiovisual

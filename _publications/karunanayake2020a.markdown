@@ -9,7 +9,7 @@ year: 2020
 bibkey: karunanayake2020a
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.02231'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Privacy & Security"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Karunanayake et al.
 ---
 Counterfeit apps impersonate existing popular apps in attempts to misguide

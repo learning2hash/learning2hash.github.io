@@ -8,7 +8,7 @@ bibkey: wang2023masked
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/masked-spacetime-hashing/msth'},
   {name: Paper, url: 'https://arxiv.org/abs/2310.17527'}]
-tags: ["Efficiency", "Hashing Methods", "Memory Efficiency"]
+tags: ["Hashing Methods"]
 short_authors: Wang et al.
 ---
 In this paper, we propose the Masked Space-Time Hash encoding (MSTH), a novel

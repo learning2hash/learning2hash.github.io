@@ -7,7 +7,7 @@ year: 2022
 bibkey: "hofst\xE4tter2022establishing"
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.00365'}]
-tags: ["Re-Ranking"]
+tags: ["Hybrid ANN Methods", "Re-Ranking"]
 short_authors: "Hofst\xE4tter et al."
 ---
 We present strong Transformer-based re-ranking and dense retrieval baselines

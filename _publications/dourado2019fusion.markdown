@@ -7,7 +7,7 @@ year: 2019
 bibkey: dourado2019fusion
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.06011'}]
-tags: ["Efficiency", "Graph Based ANN", "Unsupervised"]
+tags: ["Datasets", "Efficiency", "Graph Based ANN", "Supervised", "Unsupervised"]
 short_authors: Icaro Cavalcante Dourado, Ricardo da Silva Torres
 ---
 The vast increase in amount and complexity of digital content led to a wide

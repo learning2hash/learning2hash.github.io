@@ -8,7 +8,7 @@ year: 2016
 bibkey: liu2016accurate
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.09645'}]
-tags: ["Quantization", "Similarity Search"]
+tags: ["Evaluation", "Quantization", "Scalability", "Similarity Search", "Tools & Libraries"]
 short_authors: Shicong Liu, Hongtao Lu
 ---
 Recent advance of large scale similarity search involves using deeply learned

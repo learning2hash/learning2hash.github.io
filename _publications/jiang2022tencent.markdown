@@ -9,7 +9,7 @@ year: 2022
 bibkey: jiang2022tencent
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.03382'}]
-tags: ["Multimodal Retrieval", "Self-Supervised", "Video Retrieval"]
+tags: ["Evaluation", "Self-Supervised", "Tools & Libraries", "Video Retrieval"]
 short_authors: Jiang et al.
 ---
 Text-Video Retrieval plays an important role in multi-modal understanding and

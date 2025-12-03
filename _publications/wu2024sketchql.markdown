@@ -8,7 +8,7 @@ year: 2024
 bibkey: wu2024sketchql
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.18334'}]
-tags: ["Few Shot & Zero Shot", "Similarity Search", "Video Retrieval"]
+tags: ["Few Shot & Zero Shot", "Similarity Search"]
 short_authors: Wu et al.
 ---
 In this paper, we will present SketchQL, a video database management system

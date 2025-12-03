@@ -9,7 +9,7 @@ year: 2022
 bibkey: jeong2022augmenting
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.07735'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Jeong et al.
 ---
 Dense retrieval models, which aim at retrieving the most relevant document

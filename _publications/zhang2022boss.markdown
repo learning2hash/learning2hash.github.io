@@ -9,7 +9,7 @@ year: 2022
 bibkey: zhang2022boss
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.04211'}]
-tags: ["Image Retrieval", "Multimodal Retrieval"]
+tags: ["Image Retrieval", "Tools & Libraries"]
 short_authors: Zhang et al.
 ---
 Content-Based Image Retrieval (CIR) aims to search for a target image by

@@ -7,7 +7,7 @@ year: 2021
 bibkey: lu2021learnable
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.07839'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Self-Supervised"]
+tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Self-Supervised"]
 short_authors: Yue Lu, Congqi Cao, Yanning Zhang
 ---
 Video anomaly detection (VAD) mainly refers to identifying anomalous events

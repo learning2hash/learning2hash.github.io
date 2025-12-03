@@ -9,7 +9,7 @@ year: 2024
 bibkey: raude2024a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.10266'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Raude et al.
 ---
 In this work, our goals are two fold: large-vocabulary continuous sign

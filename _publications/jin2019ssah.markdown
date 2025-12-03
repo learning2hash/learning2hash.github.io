@@ -9,7 +9,7 @@ year: 2019
 bibkey: jin2019ssah
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.08688'}]
-tags: ["Hashing Methods", "Image Retrieval", "Large Scale Search", "Neural Hashing", "Supervised"]
+tags: ["Datasets", "Hashing Methods", "Neural Hashing", "Supervised", "Tools & Libraries"]
 short_authors: Jin et al.
 ---
 Deep hashing methods have been proved to be effective and efficient for

@@ -7,7 +7,7 @@ year: 2019
 bibkey: wang2019cross
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.05134'}]
-tags: ["Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
+tags: ["Text Retrieval"]
 short_authors: Wang et al.
 ---
 Image-text retrieval of natural scenes has been a popular research topic.

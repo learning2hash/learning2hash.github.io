@@ -7,7 +7,7 @@ year: 2023
 bibkey: wei2023scene
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.04524'}]
-tags: ["Evaluation"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Wei et al.
 ---
 Employing a dictionary can efficiently rectify the deviation between the

@@ -8,7 +8,7 @@ year: 2015
 bibkey: gieseke2015bigger
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1512.02831'}]
-tags: ["Large Scale Search", "Scalability", "Tree Based ANN"]
+tags: ["Tools & Libraries", "Tree Based ANN"]
 short_authors: Gieseke et al.
 ---
 A buffer k-d tree is a k-d tree variant for massively-parallel nearest

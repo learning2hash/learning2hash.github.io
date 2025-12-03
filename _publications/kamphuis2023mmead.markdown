@@ -9,7 +9,7 @@ year: 2023
 bibkey: kamphuis2023mmead
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.07574'}]
-tags: ["Datasets", "Evaluation", "SIGIR", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "SIGIR"]
 short_authors: Kamphuis et al.
 ---
 MMEAD, or MS MARCO Entity Annotations and Disambiguations, is a resource for

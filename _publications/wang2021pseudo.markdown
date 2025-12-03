@@ -8,7 +8,7 @@ year: 2021
 bibkey: wang2021pseudo
 citations: 47
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.11251'}]
-tags: ["Re-Ranking", "SIGIR"]
+tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "SIGIR"]
 short_authors: Wang et al.
 ---
 Pseudo-relevance feedback mechanisms, from Rocchio to the relevance models,

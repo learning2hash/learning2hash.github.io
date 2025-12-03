@@ -7,7 +7,7 @@ year: 2016
 bibkey: pagh2016approximate
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.07303'}]
-tags: ["Efficiency", "Recommender Systems"]
+tags: ["Efficiency", "Locality-Sensitive-Hashing", "Recommender Systems"]
 short_authors: Pagh et al.
 ---
 Much recent work has been devoted to approximate nearest neighbor queries.

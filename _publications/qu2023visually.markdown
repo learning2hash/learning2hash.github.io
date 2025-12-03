@@ -8,7 +8,7 @@ bibkey: qu2023visually
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/tingyu215/VACNIC'}, {name: Paper,
     url: 'https://arxiv.org/abs/2308.08325'}]
-tags: ["Datasets", "Multimodal Retrieval"]
+tags: ["Datasets", "Tools & Libraries"]
 short_authors: Tingyu Qu, Tinne Tuytelaars, Marie-Francine Moens
 ---
 News Image Captioning aims to create captions from news articles and images,

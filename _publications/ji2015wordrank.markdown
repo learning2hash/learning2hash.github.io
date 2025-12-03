@@ -7,7 +7,7 @@ year: 2015
 bibkey: ji2015wordrank
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1506.02761'}]
-tags: ["Evaluation", "Robustness"]
+tags: ["Evaluation", "Robustness", "Tools & Libraries"]
 short_authors: Ji et al.
 ---
 Embedding words in a vector space has gained a lot of attention in recent

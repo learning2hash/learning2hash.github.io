@@ -8,7 +8,7 @@ bibkey: dubey2021vision
 citations: 60
 additional_links: [{name: Code, url: 'https://github.com/shivram1987/VisionTransformerHashing'},
   {name: Paper, url: 'https://arxiv.org/abs/2109.12564'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Supervised"]
 short_authors: Shiv Ram Dubey, Satish Kumar Singh, Wei-Ta Chu
 ---
 Deep learning has shown a tremendous growth in hashing techniques for image

@@ -7,7 +7,7 @@ year: 2022
 bibkey: yamada2022when
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.12043'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval"]
+tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Yamada et al.
 ---
 Large-scale vision-language models such as CLIP have shown impressive

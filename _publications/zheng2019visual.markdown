@@ -7,7 +7,7 @@ year: 2019
 bibkey: zheng2019visual
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.07381'}]
-tags: ["Distance Metric Learning", "Image Retrieval", "Similarity Search"]
+tags: ["Image Retrieval", "Tools & Libraries"]
 short_authors: Zheng et al.
 ---
 While there has been substantial progress in learning suitable distance

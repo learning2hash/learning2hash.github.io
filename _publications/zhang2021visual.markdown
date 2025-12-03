@@ -9,7 +9,7 @@ year: 2021
 bibkey: zhang2021visual
 citations: 87
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.04674'}]
-tags: ["Image Retrieval", "KDD", "Scalability"]
+tags: ["Evaluation", "Image Retrieval", "KDD", "Neural Hashing", "Scalability"]
 short_authors: Zhang et al.
 ---
 This paper introduces the large scale visual search algorithm and system

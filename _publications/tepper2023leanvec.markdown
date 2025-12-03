@@ -8,7 +8,7 @@ year: 2023
 bibkey: tepper2023leanvec
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.16335'}]
-tags: ["Multimodal Retrieval", "Quantization", "Similarity Search"]
+tags: ["Multimodal Retrieval", "Neural Hashing", "Quantization", "Similarity Search", "Tools & Libraries"]
 short_authors: Tepper et al.
 ---
 Modern deep learning models have the ability to generate high-dimensional

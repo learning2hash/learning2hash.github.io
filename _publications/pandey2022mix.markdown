@@ -7,7 +7,7 @@ year: 2022
 bibkey: pandey2022mix
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.02710'}]
-tags: ["EMNLP", "Evaluation", "Scalability"]
+tags: ["EMNLP", "Evaluation"]
 short_authors: Gaurav Pandey, Danish Contractor, Sachindra Joshi
 ---
 Embedding-based approaches for dialog response retrieval embed the

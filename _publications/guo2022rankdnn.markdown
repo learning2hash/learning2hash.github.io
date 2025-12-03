@@ -9,7 +9,7 @@ bibkey: guo2022rankdnn
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/guoqianyu-alberta/RankDNN'},
   {name: Paper, url: 'https://arxiv.org/abs/2211.15320'}]
-tags: ["Few Shot & Zero Shot", "Image Retrieval", "Re-Ranking"]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Re-Ranking"]
 short_authors: Guo et al.
 ---
 This paper introduces a new few-shot learning pipeline that casts relevance

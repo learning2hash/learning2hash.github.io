@@ -8,7 +8,7 @@ year: 2021
 bibkey: karppa2021deann
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.02736'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: "Matti Karppa, Martin Aum\xFCller, Rasmus Pagh"
 ---
 Kernel Density Estimation (KDE) is a nonparametric method for estimating the

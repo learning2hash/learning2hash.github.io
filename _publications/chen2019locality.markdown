@@ -8,7 +8,7 @@ year: 2019
 bibkey: chen2019locality
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.12414'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Tools & Libraries"]
 short_authors: Chen et al.
 ---
 Computing approximate nearest neighbors in high dimensional spaces is a

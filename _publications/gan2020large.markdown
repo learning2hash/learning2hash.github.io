@@ -7,7 +7,7 @@ year: 2020
 bibkey: gan2020large
 citations: 287
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.06195'}]
-tags: ["Robustness", "Scalability"]
+tags: ["Robustness", "Scalability", "Text Retrieval"]
 short_authors: Gan et al.
 ---
 We present VILLA, the first known effort on large-scale adversarial training

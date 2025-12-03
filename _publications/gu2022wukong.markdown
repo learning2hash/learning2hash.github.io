@@ -9,7 +9,7 @@ bibkey: gu2022wukong
 citations: 28
 additional_links: [{name: Code, url: 'https://wukong-dataset.github.io/wukong-dataset/'},
   {name: Paper, url: 'https://arxiv.org/abs/2202.06767'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Scalability"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Scalability", "Self-Supervised", "Text Retrieval"]
 short_authors: Gu et al.
 ---
 Vision-Language Pre-training (VLP) models have shown remarkable performance

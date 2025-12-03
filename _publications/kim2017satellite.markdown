@@ -7,7 +7,7 @@ year: 2017
 bibkey: kim2017satellite
 citations: 75
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.01133'}]
-tags: ["Evaluation", "ICRA"]
+tags: ["Datasets", "Evaluation", "ICRA", "Tools & Libraries"]
 short_authors: Dong-Ki Kim, Matthew R. Walter
 ---
 We propose a vision-based method that localizes a ground vehicle using

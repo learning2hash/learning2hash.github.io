@@ -8,7 +8,7 @@ year: 2024
 bibkey: mashnoor2024locality
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.08063'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Privacy & Security"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Mashnoor et al.
 ---
 The advent of the Internet of Things (IoT) has brought forth additional

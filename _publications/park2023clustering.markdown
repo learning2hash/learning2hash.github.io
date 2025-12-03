@@ -9,7 +9,7 @@ bibkey: park2023clustering
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/noparkee/Graph-Clustering-based-DG'},
   {name: Paper, url: 'https://arxiv.org/abs/2310.02692'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN"]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Scalability"]
 short_authors: Park et al.
 ---
 Learning domain-invariant visual representations is important to train a

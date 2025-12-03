@@ -7,7 +7,7 @@ year: 2017
 bibkey: kumar2017neural
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.00282'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Kumar et al.
 ---
 The problem of vehicle licence plate re-identification is generally

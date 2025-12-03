@@ -7,7 +7,7 @@ year: 2021
 bibkey: gadd2021contrastive
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.02744'}]
-tags: ["Unsupervised"]
+tags: ["Datasets", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Matthew Gadd, Daniele de Martini, Paul Newman
 ---
 We learn, in an unsupervised way, an embedding from sequences of radar images

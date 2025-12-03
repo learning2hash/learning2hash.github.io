@@ -7,7 +7,7 @@ year: 2024
 bibkey: yaras2024explaining
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.07909'}]
-tags: ["Few Shot & Zero Shot", "Multimodal Retrieval", "Self-Supervised"]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Self-Supervised", "Text Retrieval"]
 short_authors: Yaras et al.
 ---
 Multimodal learning has recently gained significant popularity, demonstrating

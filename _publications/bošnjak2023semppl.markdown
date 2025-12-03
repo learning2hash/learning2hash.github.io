@@ -10,7 +10,7 @@ bibkey: "bo\u0161njak2023semppl"
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/deepmind/semppl'}, {name: Paper,
     url: 'https://arxiv.org/abs/2301.05158'}]
-tags: ["Robustness", "Self-Supervised", "Unsupervised"]
+tags: ["Evaluation", "Robustness", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: "Bo\u0161njak et al."
 ---
 Learning from large amounts of unsupervised data and a small amount of

@@ -7,7 +7,7 @@ year: 2022
 bibkey: "thom\xE92022musical"
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.02112'}]
-tags: ["Audio Retrieval", "Self-Supervised", "Similarity Search"]
+tags: ["Audio Retrieval", "Self-Supervised", "Similarity Search", "Supervised", "Text Retrieval"]
 short_authors: "Carl Thom\xE9, Sebastian Piwell, Oscar Utterb\xE4ck"
 ---
 We have built a music similarity search engine that lets video producers

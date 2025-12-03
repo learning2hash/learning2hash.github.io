@@ -8,7 +8,7 @@ year: 2024
 bibkey: roald2024visual
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.14969'}]
-tags: ["Datasets", "Image Retrieval", "Tools & Libraries"]
+tags: ["Datasets", "Image Retrieval", "Neural Hashing", "Tools & Libraries"]
 short_authors: "Marie Roald, Magnus Breder Birkenes, Lars Gunnars\xF8nn Bag\xF8ien\
   \ Johnsen"
 ---

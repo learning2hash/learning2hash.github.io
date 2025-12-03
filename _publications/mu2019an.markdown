@@ -8,7 +8,7 @@ year: 2019
 bibkey: mu2019an
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.10095'}]
-tags: ["Evaluation", "Memory Efficiency", "Similarity Search", "Tools & Libraries"]
+tags: ["Evaluation", "Tools & Libraries"]
 short_authors: Cun Mu, Binwei Yang, Zheng Yan
 ---
 In this paper, we compare the performances of FAISS and FENSHSES on nearest

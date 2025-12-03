@@ -7,7 +7,7 @@ year: 2022
 bibkey: abolghasemi2022improving
 citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.00373'}]
-tags: ["Re-Ranking", "Text Retrieval"]
+tags: ["Evaluation", "Text Retrieval"]
 short_authors: Amin Abolghasemi, Suzan Verberne, Leif Azzopardi
 ---
 Query-by-document (QBD) retrieval is an Information Retrieval task in which a

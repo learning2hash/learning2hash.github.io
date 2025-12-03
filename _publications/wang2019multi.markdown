@@ -8,7 +8,7 @@ bibkey: wang2019multi
 citations: 774
 additional_links: [{name: Code, url: 'https://github.com/MalongTech/research-ms-loss'},
   {name: Paper, url: 'https://arxiv.org/abs/1904.06627'}]
-tags: ["CVPR", "Distance Metric Learning", "Image Retrieval"]
+tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Wang et al.
 ---
 A family of loss functions built on pair-based computation have been proposed

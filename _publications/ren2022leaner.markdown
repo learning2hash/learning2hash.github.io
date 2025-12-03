@@ -9,7 +9,7 @@ year: 2022
 bibkey: ren2022leaner
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.13913'}]
-tags: ["Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: ["Evaluation", "Image Retrieval", "NAACL", "Text Retrieval", "Tools & Libraries"]
 short_authors: Siyu Ren, Kenny Q. Zhu
 ---
 Current text-image approaches (e.g., CLIP) typically adopt dual-encoder

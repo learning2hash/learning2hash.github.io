@@ -9,7 +9,7 @@ bibkey: kim2025kgmel
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/juyeonnn/KGMEL'}, {name: Paper,
     url: 'https://arxiv.org/abs/2504.15135'}]
-tags: ["Re-Ranking", "SIGIR", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "SIGIR"]
 short_authors: Kim et al.
 ---
 Entity linking (EL) aligns textual mentions with their corresponding entities

@@ -7,7 +7,7 @@ year: 2018
 bibkey: gattupalli2018weakly
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.05804'}]
-tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Supervised"]
 short_authors: Vijetha Gattupalli, Yaoxin Zhuo, Baoxin Li
 ---
 Many approaches to semantic image hashing have been formulated as supervised

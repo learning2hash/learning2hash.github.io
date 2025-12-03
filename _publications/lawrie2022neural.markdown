@@ -7,7 +7,7 @@ year: 2022
 bibkey: lawrie2022neural
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.01335'}]
-tags: ["Evaluation", "Text Retrieval"]
+tags: ["Evaluation"]
 short_authors: Lawrie et al.
 ---
 Providing access to information across languages has been a goal of

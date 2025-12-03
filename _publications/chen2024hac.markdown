@@ -8,7 +8,7 @@ bibkey: chen2024hac
 citations: 34
 additional_links: [{name: Code, url: 'https://github.com/YihangChen-ee/HAC'}, {name: Paper,
     url: 'https://arxiv.org/abs/2403.14530'}]
-tags: ["Hashing Methods", "Quantization", "Tools & Libraries"]
+tags: ["Evaluation", "Hashing Methods", "Quantization", "Tools & Libraries"]
 short_authors: Chen et al.
 ---
 3D Gaussian Splatting (3DGS) has emerged as a promising framework for novel

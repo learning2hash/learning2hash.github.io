@@ -7,7 +7,7 @@ year: 2018
 bibkey: conneau2018senteval
 citations: 343
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.05449'}]
-tags: ["Evaluation"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Alexis Conneau, Douwe Kiela
 ---
 We introduce SentEval, a toolkit for evaluating the quality of universal

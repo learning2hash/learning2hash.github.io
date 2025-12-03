@@ -8,7 +8,7 @@ year: 2020
 bibkey: levi2020rethinking
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.05162'}]
-tags: ["Distance Metric Learning", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Levi et al.
 ---
 Metric learning seeks perceptual embeddings where visually similar instances

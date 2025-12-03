@@ -9,7 +9,7 @@ bibkey: shin2021rtic
 citations: 23
 additional_links: [{name: Code, url: 'https://github.com/nashory/rtic-gcn-pytorch'},
   {name: Paper, url: 'https://arxiv.org/abs/2104.03015'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Shin et al.
 ---
 In this paper, we study the compositional learning of images and texts for

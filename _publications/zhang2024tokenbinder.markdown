@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhang2024tokenbinder
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.19865'}]
-tags: ["Evaluation", "Robustness", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Robustness", "Tools & Libraries", "Video Retrieval"]
 short_authors: Zhang et al.
 ---
 Text-Video Retrieval (TVR) methods typically match query-candidate pairs by

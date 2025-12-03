@@ -8,7 +8,7 @@ year: 2024
 bibkey: yun2024neurohash
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.11025'}]
-tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Self-Supervised"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Self-Supervised"]
 short_authors: Yun et al.
 ---
 Customizable image retrieval from large datasets remains a critical

@@ -7,7 +7,7 @@ year: 2021
 bibkey: louis2021a
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.11792'}]
-tags: ["Datasets", "Supervised", "Text Retrieval"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Scalability", "Supervised"]
 short_authors: Antoine Louis, Gerasimos Spanakis
 ---
 Statutory article retrieval is the task of automatically retrieving law

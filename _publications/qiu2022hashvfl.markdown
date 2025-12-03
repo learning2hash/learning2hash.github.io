@@ -8,7 +8,7 @@ year: 2022
 bibkey: qiu2022hashvfl
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.00325'}]
-tags: ["Evaluation", "Hashing Methods", "Privacy & Security", "Robustness"]
+tags: ["Evaluation", "Hashing Methods", "Robustness", "Tools & Libraries"]
 short_authors: Qiu et al.
 ---
 Vertical Federated Learning (VFL) is a trending collaborative machine

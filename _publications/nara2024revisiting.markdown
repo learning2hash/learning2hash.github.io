@@ -8,7 +8,7 @@ year: 2024
 bibkey: nara2024revisiting
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.16398'}]
-tags: ["Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Nara et al.
 ---
 Many image retrieval studies use metric learning to train an image encoder.

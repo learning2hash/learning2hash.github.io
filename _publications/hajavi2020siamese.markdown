@@ -8,7 +8,7 @@ year: 2020
 bibkey: hajavi2020siamese
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.13480'}]
-tags: ["Evaluation", "ICASSP", "Similarity Search"]
+tags: ["Evaluation", "ICASSP"]
 short_authors: Amirhossein Hajavi, Ali Etemad
 ---
 We propose an end-to-end deep model for speaker verification in the wild. Our

@@ -8,7 +8,7 @@ year: 2024
 bibkey: galliamov2024refining
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.04126'}]
-tags: ["Evaluation", "Self-Supervised", "Text Retrieval"]
+tags: ["Datasets", "Evaluation", "Self-Supervised", "Text Retrieval", "Tools & Libraries"]
 short_authors: Karim Galliamov, Leila Khaertdinova, Karina Denisova
 ---
 The latest developments in Natural Language Processing (NLP) have

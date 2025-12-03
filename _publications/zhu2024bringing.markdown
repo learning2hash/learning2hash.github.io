@@ -9,7 +9,7 @@ year: 2024
 bibkey: zhu2024bringing
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.13364'}]
-tags: ["Distance Metric Learning", "Image Retrieval", "KDD", "Multimodal Retrieval"]
+tags: ["Distance Metric Learning", "Image Retrieval", "KDD"]
 short_authors: Zhu et al.
 ---
 Image to image matching has been well studied in the computer vision

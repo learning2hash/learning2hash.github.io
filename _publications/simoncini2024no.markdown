@@ -7,7 +7,7 @@ year: 2024
 bibkey: simoncini2024no
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.10964'}]
-tags: ["Evaluation", "Image Retrieval", "NEURIPS", "Self-Supervised", "Unsupervised"]
+tags: ["Datasets", "Image Retrieval", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Simoncini et al.
 ---
 This paper introduces FUNGI, Features from UNsupervised GradIents, a method

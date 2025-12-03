@@ -11,7 +11,7 @@ bibkey: daniluk2021synerise
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/Synerise/recsys-challenge-2021'},
   {name: Paper, url: 'https://arxiv.org/abs/2109.12985'}]
-tags: ["Evaluation", "Locality-Sensitive-Hashing", "Recommender Systems"]
+tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Daniluk et al.
 ---
 In this paper we present our 2nd place solution to ACM RecSys 2021 Challenge

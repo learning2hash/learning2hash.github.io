@@ -7,7 +7,7 @@ year: 2020
 bibkey: zhao2020dime
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.09641'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
 short_authors: Tony Zhao, Jaeyoung Choi, Gerald Friedland
 ---
 Cross-modal retrieval relies on accurate models to retrieve relevant results

@@ -7,7 +7,7 @@ year: 2020
 bibkey: park2020mhsan
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.03712'}]
-tags: ["Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Text Retrieval"]
 short_authors: Park et al.
 ---
 Visual-semantic embedding enables various tasks such as image-text retrieval,

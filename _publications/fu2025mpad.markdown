@@ -8,7 +8,7 @@ year: 2025
 bibkey: fu2025mpad
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.16335'}]
-tags: ["Similarity Search", "Unsupervised"]
+tags: ["Supervised", "Unsupervised"]
 short_authors: Jiuzhou Fu, Dongfang Zhao
 ---
 High-dimensional vector embeddings are widely used in retrieval systems, yet

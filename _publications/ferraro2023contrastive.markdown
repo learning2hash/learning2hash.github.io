@@ -7,7 +7,7 @@ year: 2023
 bibkey: ferraro2023contrastive
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.06556'}]
-tags: ["Multimodal Retrieval", "Recommender Systems", "Self-Supervised"]
+tags: ["Datasets", "Recommender Systems", "Self-Supervised"]
 short_authors: Ferraro et al.
 ---
 Music retrieval and recommendation applications often rely on content

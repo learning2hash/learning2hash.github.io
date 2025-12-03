@@ -9,7 +9,7 @@ year: 2018
 bibkey: patel2018texttopicnet
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.02110'}]
-tags: ["Image Retrieval", "Multimodal Retrieval", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Scalability", "Self-Supervised", "Supervised"]
 short_authors: Patel et al.
 ---
 The immense success of deep learning based methods in computer vision heavily

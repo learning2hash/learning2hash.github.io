@@ -8,7 +8,7 @@ year: 2025
 bibkey: xiong2025adaptive
 citations: 13
 additional_links: [{name: Paper, url: 'https://www.cse.buffalo.edu//~jcorso/pubs/cxiong_SDM2014_adahash.pdf'}]
-tags: ["Compact Codes", "Hashing Methods", "Quantization"]
+tags: ["Compact Codes", "Datasets", "Hashing Methods", "Quantization", "Scalability"]
 short_authors: Xiong et al.
 ---
 Large-scale data mining and retrieval applications have

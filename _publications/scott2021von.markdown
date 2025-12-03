@@ -8,7 +8,7 @@ year: 2021
 bibkey: scott2021von
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.15718'}]
-tags: ["ICCV", "Image Retrieval", "Supervised"]
+tags: ["Few Shot & Zero Shot", "ICCV", "Image Retrieval", "Supervised"]
 short_authors: Tyler R. Scott, Andrew C. Gallagher, Michael C. Mozer
 ---
 Recent work has argued that classification losses utilizing softmax

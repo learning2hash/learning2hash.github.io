@@ -8,7 +8,7 @@ year: 2023
 bibkey: gupta2023retrieving
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.09613'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
 short_authors: Vinayak Gupta, Srikanta Bedathur, Abir de
 ---
 Temporal sequences have become pervasive in various real-world applications.

@@ -8,7 +8,7 @@ year: 2024
 bibkey: sarkar2024dual
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.00272'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["CVPR", "Datasets", "Evaluation"]
 short_authors: Rohan Sarkar, Avinash Kak
 ---
 In the context of pose-invariant object recognition and retrieval, we

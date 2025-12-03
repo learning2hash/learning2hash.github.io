@@ -8,7 +8,7 @@ bibkey: ng2024concepthash
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/kamwoh/concepthash'}, {name: Paper,
     url: 'https://arxiv.org/abs/2406.08457'}]
-tags: ["Hashing Methods", "Image Retrieval"]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval"]
 short_authors: Ng et al.
 ---
 Existing fine-grained hashing methods typically lack code interpretability as

@@ -8,7 +8,7 @@ year: 2019
 bibkey: zhai2019learning
 citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.01707'}]
-tags: ["Distance Metric Learning", "Image Retrieval", "KDD", "Recommender Systems"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "KDD", "Recommender Systems"]
 short_authors: Zhai et al.
 ---
 At Pinterest, we utilize image embeddings throughout our search and

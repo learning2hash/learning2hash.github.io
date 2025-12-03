@@ -9,7 +9,7 @@ year: 2021
 bibkey: chen2021more
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.09597'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised"]
 short_authors: Chen et al.
 ---
 Cross-modal attention mechanisms have been widely applied to the image-text

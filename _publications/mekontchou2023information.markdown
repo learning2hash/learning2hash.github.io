@@ -8,7 +8,7 @@ year: 2023
 bibkey: mekontchou2023information
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.10150'}]
-tags: ["Evaluation", "Text Retrieval"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Mekontchou et al.
 ---
 In this paper, we propose an alternative to deep neural networks for semantic

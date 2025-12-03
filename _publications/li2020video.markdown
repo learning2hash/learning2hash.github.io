@@ -7,7 +7,7 @@ year: 2020
 bibkey: li2020video
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.13167'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Scalability"]
 short_authors: Li et al.
 ---
 Face recognition is widely used in the scene. However, different visual

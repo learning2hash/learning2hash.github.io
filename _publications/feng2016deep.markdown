@@ -7,7 +7,7 @@ year: 2016
 bibkey: feng2016deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.05381'}]
-tags: ["Distance Metric Learning", "Evaluation", "Hashing Methods", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Image Retrieval"]
 short_authors: Feng et al.
 ---
 In applications involving matching of image sets, the information from

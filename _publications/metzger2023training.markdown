@@ -7,7 +7,7 @@ year: 2023
 bibkey: metzger2023training
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.04711'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Calvin Metzger
 ---
 Contrastive Language-Image Pretraining (CLIP) models are able to capture the

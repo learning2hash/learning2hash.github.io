@@ -7,7 +7,7 @@ year: 2017
 bibkey: chen2017vertex
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.00227'}]
-tags: ["Efficiency", "Memory Efficiency", "Recommender Systems", "Scalability", "Similarity Search"]
+tags: ["Datasets", "Efficiency", "Memory Efficiency", "Scalability", "Similarity Search"]
 short_authors: Chen et al.
 ---
 In recent years, network embedding methods have garnered increasing attention

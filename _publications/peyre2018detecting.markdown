@@ -7,7 +7,7 @@ year: 2018
 bibkey: peyre2018detecting
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.05736'}]
-tags: ["Datasets", "Few Shot & Zero Shot"]
+tags: ["Datasets"]
 short_authors: Peyre et al.
 ---
 We seek to detect visual relations in images of the form of triplets t =

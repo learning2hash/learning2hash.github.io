@@ -8,7 +8,7 @@ year: 2019
 bibkey: wang2019camp
 citations: 339
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.05506'}]
-tags: ["ICCV", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["ICCV", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Wang et al.
 ---
 Text-image cross-modal retrieval is a challenging task in the field of

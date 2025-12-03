@@ -8,7 +8,7 @@ year: 2024
 bibkey: novikov2024tensor
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.04462'}]
-tags: ["Efficiency", "Evaluation", "Memory Efficiency", "Robustness", "Similarity Search"]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: Novikov et al.
 ---
 Nearest-neighbor search in large vector databases is crucial for various

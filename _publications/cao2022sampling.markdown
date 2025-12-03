@@ -9,7 +9,7 @@ year: 2022
 bibkey: cao2022sampling
 citations: 50
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.10249'}]
-tags: ["Efficiency", "Hashing Methods", "Recommender Systems"]
+tags: ["CIKM", "Efficiency", "Hashing Methods", "Recommender Systems"]
 short_authors: Cao et al.
 ---
 Rich user behavior data has been proven to be of great value for

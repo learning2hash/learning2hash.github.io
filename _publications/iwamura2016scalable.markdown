@@ -7,7 +7,7 @@ year: 2016
 bibkey: iwamura2016scalable
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.08810'}]
-tags: ["Large Scale Search", "Scalability", "Similarity Search"]
+tags: ["Scalability"]
 short_authors: Masakazu Iwamura, Masataka Konishi, Koichi Kise
 ---
 Finding the nearest subspace is a fundamental problem and influential to many

@@ -7,7 +7,7 @@ year: 2022
 bibkey: adiga2022attention
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.09068'}]
-tags: ["Evaluation", "Image Retrieval", "Recommender Systems", "Supervised"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Recommender Systems", "Supervised"]
 short_authors: Sukesh Adiga, Jose Dolz, Herve Lombaert
 ---
 Learning similarity is a key aspect in medical image analysis, particularly

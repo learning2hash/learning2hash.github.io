@@ -9,7 +9,7 @@ bibkey: pion2020benchmarking
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/naver/kapture-localization'},
   {name: Paper, url: 'https://arxiv.org/abs/2011.11946'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Robustness"]
 short_authors: Pion et al.
 ---
 Visual localization, i.e., camera pose estimation in a known scene, is a core

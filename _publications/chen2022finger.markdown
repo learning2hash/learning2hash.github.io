@@ -8,7 +8,7 @@ year: 2022
 bibkey: chen2022finger
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.11408'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN"]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Neural Hashing"]
 short_authors: Chen et al.
 ---
 Approximate K-Nearest Neighbor Search (AKNNS) has now become ubiquitous in

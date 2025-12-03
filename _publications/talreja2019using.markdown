@@ -8,7 +8,7 @@ year: 2019
 bibkey: talreja2019using
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.04139'}]
-tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Memory Efficiency", "Neural Hashing"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Talreja et al.
 ---
 With benefits of fast query speed and low storage cost, hashing-based image

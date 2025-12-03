@@ -7,7 +7,7 @@ year: 2025
 bibkey: jin2025deep
 citations: 69
 additional_links: [{name: Paper, url: 'https://arxiv.org/pdf/1807.01459.pdf'}]
-tags: ["Hashing Methods", "Image Retrieval", "Large Scale Search", "Neural Hashing", "Quantization"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing", "Quantization"]
 short_authors: Jin et al.
 ---
 In recent years, hashing methods have been proved to be

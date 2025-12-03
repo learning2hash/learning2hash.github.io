@@ -8,7 +8,7 @@ year: 2024
 bibkey: rahman2024efficient
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.01473'}]
-tags: ["Datasets", "Efficiency", "Image Retrieval", "Similarity Search"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Similarity Search"]
 short_authors: Rahman et al.
 ---
 That datasets that are used in todays research are especially vast in the

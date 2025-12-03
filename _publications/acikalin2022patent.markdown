@@ -7,7 +7,7 @@ year: 2022
 bibkey: acikalin2022patent
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.11497'}]
-tags: ["Efficiency", "Similarity Search", "Vector Indexing"]
+tags: ["Efficiency"]
 short_authors: Utku Umur Acikalin, Mucahid Kutlu
 ---
 In this paper, we propose a novel method for the prior-art search task. We

@@ -8,7 +8,7 @@ year: 2024
 bibkey: byun2024an
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.09188'}]
-tags: ["Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised", "Text Retrieval"]
+tags: ["Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised", "Supervised", "Text Retrieval"]
 short_authors: Byun et al.
 ---
 Composed Image Retrieval (CIR) aims to retrieve a target image based on a

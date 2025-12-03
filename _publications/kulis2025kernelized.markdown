@@ -7,7 +7,7 @@ year: 2025
 bibkey: kulis2025kernelized
 citations: 915
 additional_links: [{name: Paper, url: 'https://www.robots.ox.ac.uk/~vgg/rg/papers/klsh.pdf'}]
-tags: ["Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing", "Scalability", "Similarity Search"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: B. Kulis, Grauman
 ---
 Fast retrieval methods are critical for large-scale and

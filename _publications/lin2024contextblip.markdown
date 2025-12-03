@@ -9,7 +9,7 @@ year: 2024
 bibkey: lin2024contextblip
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.19226'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Lin et al.
 ---
 Image retrieval from contextual descriptions (IRCD) aims to identify an image

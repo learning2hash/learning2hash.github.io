@@ -8,7 +8,7 @@ year: 2019
 bibkey: tesan2019a
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.05770'}]
-tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Tools & Libraries"]
 short_authors: Tobia Tesan, Pasquale Coscia, Lamberto Ballan
 ---
 Images represent a commonly used form of visual communication among people.

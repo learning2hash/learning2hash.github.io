@@ -7,7 +7,7 @@ year: 2020
 bibkey: varamesh2020self
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.07258'}]
-tags: ["Image Retrieval", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Varamesh et al.
 ---
 We present a new framework for self-supervised representation learning by

@@ -7,7 +7,7 @@ year: 2019
 bibkey: jun2019combination
 citations: 43
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.10663'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Jun et al.
 ---
 Recent studies in image retrieval task have shown that ensembling different

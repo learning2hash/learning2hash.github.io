@@ -7,7 +7,7 @@ year: 2021
 bibkey: gao2021condenser
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.08253'}]
-tags: ["Text Retrieval"]
+tags: ["Evaluation", "Text Retrieval"]
 short_authors: Luyu Gao, Jamie Callan
 ---
 Pre-trained Transformer language models (LM) have become go-to text

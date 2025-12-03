@@ -7,7 +7,7 @@ year: 2018
 bibkey: yan2018norm
 citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.08782'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Yan et al.
 ---
 Neyshabur and Srebro proposed Simple-LSH, which is the state-of-the-art

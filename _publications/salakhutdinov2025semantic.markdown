@@ -7,7 +7,7 @@ year: 2025
 bibkey: salakhutdinov2025semantic
 citations: 1259
 additional_links: [{name: Paper, url: 'http://www.cs.utoronto.ca/~rsalakhu/papers/semantic_final.pdf'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Neural Hashing"]
 short_authors: R. Salakhutdinov, Hinton
 ---
 We show how to learn a deep graphical model of the word-count

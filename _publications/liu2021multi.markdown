@@ -9,7 +9,7 @@ year: 2021
 bibkey: liu2021multi
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.14596'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Text Retrieval"]
 short_authors: Tongtong Liu, Fangxiang Feng, Xiaojie Wang
 ---
 Multimodal pre-training models, such as LXMERT, have achieved excellent

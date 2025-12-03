@@ -9,7 +9,7 @@ bibkey: wang2022simlm
 citations: 6
 additional_links: [{name: Code, url: 'https://github.com/microsoft/unilm/tree/master/simlm'},
   {name: Paper, url: 'https://arxiv.org/abs/2207.02578'}]
-tags: ["Efficiency", "Memory Efficiency", "Self-Supervised"]
+tags: ["Datasets", "Efficiency", "Memory Efficiency", "Self-Supervised", "Supervised"]
 short_authors: Wang et al.
 ---
 In this paper, we propose SimLM (Similarity matching with Language Model

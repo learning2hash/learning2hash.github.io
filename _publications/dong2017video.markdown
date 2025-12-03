@@ -7,7 +7,7 @@ year: 2017
 bibkey: dong2017video
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.00133'}]
-tags: ["Distance Metric Learning", "Hashing Methods", "Video Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Hashing Methods", "Image Retrieval", "Video Retrieval"]
 short_authors: Yj Dong, Jg Li
 ---
 Recently, with the enormous growth of online videos, fast video retrieval

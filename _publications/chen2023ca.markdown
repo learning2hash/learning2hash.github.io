@@ -7,7 +7,7 @@ year: 2023
 bibkey: chen2023ca
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.10605'}]
-tags: ["Distance Metric Learning", "Re-Ranking"]
+tags: ["Distance Metric Learning", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Chen et al.
 ---
 Person re-identification (re-ID) is a challenging task that aims to learn

@@ -10,7 +10,7 @@ year: 2022
 bibkey: chen2022learning
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.02115'}]
-tags: ["KDD", "Memory Efficiency", "Quantization", "Recommender Systems"]
+tags: ["Evaluation", "KDD", "Memory Efficiency", "Quantization", "Recommender Systems"]
 short_authors: Chen et al.
 ---
 Learning vectorized embeddings is at the core of various recommender systems

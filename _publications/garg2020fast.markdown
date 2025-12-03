@@ -8,7 +8,7 @@ year: 2020
 bibkey: garg2020fast
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.08434'}]
-tags: ["Datasets", "Hashing Methods", "ICRA", "Quantization"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "ICRA", "Quantization"]
 short_authors: Sourav Garg, Michael Milford
 ---
 Visual place recognition algorithms trade off three key characteristics:

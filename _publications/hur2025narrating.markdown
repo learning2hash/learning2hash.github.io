@@ -9,7 +9,7 @@ year: 2025
 bibkey: hur2025narrating
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.05186'}]
-tags: ["CVPR", "Evaluation", "Multimodal Retrieval", "Video Retrieval"]
+tags: ["CVPR", "Datasets", "Evaluation", "Tools & Libraries", "Video Retrieval"]
 short_authors: Hur et al.
 ---
 In recent text-video retrieval, the use of additional captions from

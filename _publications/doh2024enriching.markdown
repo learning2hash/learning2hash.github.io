@@ -9,7 +9,7 @@ year: 2024
 bibkey: doh2024enriching
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.03264'}]
-tags: ["Audio Retrieval", "Datasets", "Evaluation", "ICASSP", "Similarity Search"]
+tags: ["Datasets", "Evaluation", "ICASSP"]
 short_authors: Doh et al.
 ---
 Text-to-Music Retrieval, finding music based on a given natural language

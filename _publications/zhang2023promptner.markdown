@@ -8,7 +8,7 @@ year: 2023
 bibkey: zhang2023promptner
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.12217'}]
-tags: ["Datasets", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Zhang et al.
 ---
 Few-shot Named Entity Recognition (NER) is a task aiming to identify named

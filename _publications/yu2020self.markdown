@@ -7,7 +7,7 @@ year: 2020
 bibkey: yu2020self
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.03820'}]
-tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Self-Supervised"]
+tags: ["Distance Metric Learning", "Efficiency", "Hashing Methods", "Self-Supervised", "Supervised"]
 short_authors: Yu et al.
 ---
 Due to its effectivity and efficiency, deep hashing approaches are widely

@@ -7,7 +7,7 @@ year: 2022
 bibkey: pascualgaspar2022fast
 citations: 42
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.12104'}]
-tags: ["Privacy & Security", "Quantization"]
+tags: ["Quantization"]
 short_authors: Juan-Manuel Pascual-Gaspar, Marcos Faundez-Zanuy, Carlos Vivaracho
 ---
 This paper proposes a multi-section vector quantization approach for on-line

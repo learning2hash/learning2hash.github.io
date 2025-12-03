@@ -7,7 +7,7 @@ year: 2019
 bibkey: mittal2019fifty
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.06148'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Scalability"]
 short_authors: Govind Mittal, Pawel Korus, Nasir Memon
 ---
 We present FiFTy, a modern file type identification tool for memory forensics

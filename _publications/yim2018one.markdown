@@ -7,7 +7,7 @@ year: 2018
 bibkey: yim2018one
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.10969'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Jonghwa Yim, Junghun James Kim, Daekyu Shin
 ---
 In the task of near similar image search, features from Deep Neural Network

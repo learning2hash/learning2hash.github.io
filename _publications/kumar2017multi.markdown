@@ -10,7 +10,7 @@ year: 2017
 bibkey: kumar2017multi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.06151'}]
-tags: ["Multimodal Retrieval", "Similarity Search"]
+tags: ["Tools & Libraries"]
 short_authors: Kumar et al.
 ---
 So far, fingerprinting studies have focused on identifying features from

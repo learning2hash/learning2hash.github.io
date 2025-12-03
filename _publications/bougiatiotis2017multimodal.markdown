@@ -7,7 +7,7 @@ year: 2017
 bibkey: bougiatiotis2017multimodal
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.04815'}]
-tags: ["Datasets", "Multimodal Retrieval", "Recommender Systems"]
+tags: ["Datasets", "Recommender Systems"]
 short_authors: Konstantinos Bougiatiotis, Theodore Giannakopoulos
 ---
 In this paper we examine the existence of correlation between movie

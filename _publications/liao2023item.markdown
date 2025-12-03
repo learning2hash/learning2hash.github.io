@@ -8,7 +8,7 @@ year: 2023
 bibkey: liao2023item
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.02084'}]
-tags: ["Multimodal Retrieval", "Unsupervised"]
+tags: ["Supervised", "Unsupervised"]
 short_authors: Liao et al.
 ---
 Product embedding serves as a cornerstone for a wide range of applications in

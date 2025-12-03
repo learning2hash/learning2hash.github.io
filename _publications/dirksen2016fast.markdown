@@ -7,7 +7,7 @@ year: 2016
 bibkey: dirksen2016fast
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.06498'}]
-tags: ["Compact Codes", "Distance Metric Learning", "Efficiency", "Hashing Methods"]
+tags: ["Hashing Methods"]
 short_authors: Sjoerd Dirksen, Alexander Stollenwerk
 ---
 We consider the problem of encoding a finite set of vectors into a small

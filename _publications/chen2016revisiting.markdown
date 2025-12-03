@@ -7,7 +7,7 @@ year: 2016
 bibkey: chen2016revisiting
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.01834'}]
-tags: ["Hashing Methods", "Image Retrieval", "Scalability"]
+tags: ["Datasets", "Hashing Methods", "Scalability"]
 short_authors: Beidi Chen, Anshumali Shrivastava
 ---
 WTA (Winner Take All) hashing has been successfully applied in many large

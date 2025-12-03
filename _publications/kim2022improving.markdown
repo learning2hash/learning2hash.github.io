@@ -7,7 +7,7 @@ year: 2022
 bibkey: kim2022improving
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.16761'}]
-tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Multimodal Retrieval"]
 short_authors: Dongwon Kim, Namyup Kim, Suha Kwak
 ---
 Cross-modal retrieval across image and text modalities is a challenging task

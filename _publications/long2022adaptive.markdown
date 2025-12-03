@@ -7,7 +7,7 @@ year: 2022
 bibkey: long2022adaptive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.12625'}]
-tags: ["Hashing Methods", "Multimodal Retrieval", "Quantization", "Supervised"]
+tags: ["Evaluation", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Supervised"]
 short_authors: Yitian Long
 ---
 With the rapid growth of multimodal media data on the Web in recent years,

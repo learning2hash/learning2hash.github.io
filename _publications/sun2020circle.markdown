@@ -8,7 +8,7 @@ year: 2020
 bibkey: sun2020circle
 citations: 878
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.10857'}]
-tags: ["CVPR", "Distance Metric Learning", "Image Retrieval"]
+tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Sun et al.
 ---
 This paper provides a pair similarity optimization viewpoint on deep feature

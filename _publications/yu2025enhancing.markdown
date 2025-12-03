@@ -9,7 +9,7 @@ bibkey: yu2025enhancing
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/smuelpeng/SGPS-NoiseFreeDML'},
   {name: Paper, url: 'https://arxiv.org/abs/2501.11063'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Robustness"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Robustness"]
 short_authors: Yu et al.
 ---
 The existence of noisy labels in real-world data negatively impacts the

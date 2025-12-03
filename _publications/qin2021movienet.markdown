@@ -8,7 +8,7 @@ bibkey: qin2021movienet
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/ZhengPeng7/GLCNet'}, {name: Paper,
     url: 'https://arxiv.org/abs/2112.02500'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Qin et al.
 ---
 Person search aims to jointly localize and identify a query person from

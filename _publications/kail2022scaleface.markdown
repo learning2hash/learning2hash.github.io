@@ -7,7 +7,7 @@ year: 2022
 bibkey: kail2022scaleface
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.01880'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Neural Hashing"]
 short_authors: Kail et al.
 ---
 The performance of modern deep learning-based systems dramatically depends on

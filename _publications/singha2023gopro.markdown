@@ -8,7 +8,7 @@ bibkey: singha2023gopro
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/mainaksingha01/GOPro'}, {
     name: Paper, url: 'https://arxiv.org/abs/2308.11605'}]
-tags: ["Self-Supervised", "Tools & Libraries"]
+tags: ["Distance Metric Learning", "Evaluation", "Scalability", "Self-Supervised", "Supervised"]
 short_authors: Mainak Singha, Ankit Jha, Biplab Banerjee
 ---
 Large-scale foundation models, such as CLIP, have demonstrated remarkable

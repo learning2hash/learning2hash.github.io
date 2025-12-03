@@ -7,7 +7,7 @@ year: 2020
 bibkey: paulius2020a
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.06695'}]
-tags: ["Distance Metric Learning", "RSS"]
+tags: ["Distance Metric Learning", "Neural Hashing", "RSS"]
 short_authors: David Paulius, Nicholas Eales, Yu Sun
 ---
 To represent motions from a mechanical point of view, this paper explores

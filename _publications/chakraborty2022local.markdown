@@ -8,7 +8,7 @@ year: 2022
 bibkey: chakraborty2022local
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.00509'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: ["Evaluation"]
 short_authors: Soumendu Chakraborty, Satish Kumar Singh, Pavan Chakraborty
 ---
 Local descriptors used in face recognition are robust in a sense that these

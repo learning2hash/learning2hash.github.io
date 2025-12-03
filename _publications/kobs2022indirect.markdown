@@ -7,7 +7,7 @@ year: 2022
 bibkey: kobs2022indirect
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.12760'}]
-tags: ["Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval", "Supervised"]
 short_authors: Konstantin Kobs, Michael Steininger, Andreas Hotho
 ---
 Common Deep Metric Learning (DML) datasets specify only one notion of

@@ -8,7 +8,7 @@ year: 2023
 bibkey: long2023multiway
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.01516'}]
-tags: ["Memory Efficiency", "Multimodal Retrieval", "Scalability"]
+tags: ["Scalability", "Text Retrieval", "Tools & Libraries"]
 short_authors: Long et al.
 ---
 As Multimodal Large Language Models (MLLMs) grow in size, adapting them to

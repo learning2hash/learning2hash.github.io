@@ -7,7 +7,7 @@ year: 2020
 bibkey: laskar2020data
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.05299'}]
-tags: ["Distance Metric Learning", "Image Retrieval", "Supervised"]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Zakaria Laskar, Juho Kannala
 ---
 Recent advances in deep learning has lead to rapid developments in the field

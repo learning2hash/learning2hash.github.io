@@ -7,7 +7,7 @@ year: 2017
 bibkey: wu2017sampling
 citations: 866
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.07567'}]
-tags: ["Distance Metric Learning", "ICCV", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Wu et al.
 ---
 Deep embeddings answer one simple question: How similar are two images?

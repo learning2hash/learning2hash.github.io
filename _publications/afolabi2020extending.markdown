@@ -8,7 +8,7 @@ year: 2020
 bibkey: afolabi2020extending
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.09048'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Similarity Search"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Oladapo Afolabi, Allen Y. Yang, S. Shankar Sastry
 ---
 Recent advances in computer graphics and computer vision have found

@@ -7,7 +7,7 @@ year: 2020
 bibkey: gourru2020document
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.05727'}]
-tags: ["Recommender Systems", "Similarity Search", "Unsupervised"]
+tags: ["Recommender Systems"]
 short_authors: Gourru et al.
 ---
 We present Regularized Linear Embedding (RLE), a novel method that projects a

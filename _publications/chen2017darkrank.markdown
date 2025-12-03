@@ -8,7 +8,7 @@ year: 2017
 bibkey: chen2017darkrank
 citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.01220'}]
-tags: ["Distance Metric Learning", "Efficiency", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Yuntao Chen, Naiyan Wang, Zhaoxiang Zhang
 ---
 We have witnessed rapid evolution of deep neural network architecture design

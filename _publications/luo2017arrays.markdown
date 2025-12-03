@@ -8,7 +8,7 @@ year: 2017
 bibkey: luo2017arrays
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.06664'}]
-tags: ["Locality-Sensitive-Hashing", "Scalability", "Unsupervised"]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Supervised", "Unsupervised"]
 short_authors: Chen Luo, Anshumali Shrivastava
 ---
 Anomaly detection is one of the frequent and important subroutines deployed

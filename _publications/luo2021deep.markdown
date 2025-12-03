@@ -8,7 +8,7 @@ year: 2021
 bibkey: luo2021deep
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.06125'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Unsupervised"]
+tags: ["Efficiency", "Hashing Methods", "Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Luo et al.
 ---
 Hashing has been widely used in approximate nearest neighbor search for its

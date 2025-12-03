@@ -7,7 +7,7 @@ year: 2019
 bibkey: yang2019jecl
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.01860'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Unsupervised"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Sean T. Yang, Kuan-Hao Huang, Bill Howe
 ---
 We propose JECL, a method for clustering image-caption pairs by training

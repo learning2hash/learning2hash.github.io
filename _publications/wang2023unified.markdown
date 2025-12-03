@@ -8,7 +8,7 @@ bibkey: wang2023unified
 citations: 38
 additional_links: [{name: Code, url: 'https://github.com/Ziyang412/UCoFiA'}, {name: Paper,
     url: 'https://arxiv.org/abs/2309.10091'}]
-tags: ["ICCV", "Text Retrieval", "Video Retrieval"]
+tags: ["Evaluation", "ICCV", "Text Retrieval", "Video Retrieval"]
 short_authors: Wang et al.
 ---
 The canonical approach to video-text retrieval leverages a coarse-grained or

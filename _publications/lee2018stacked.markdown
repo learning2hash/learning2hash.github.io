@@ -8,7 +8,7 @@ bibkey: lee2018stacked
 citations: 1258
 additional_links: [{name: Code, url: 'https://github.com/kuanghuei/SCAN'}, {name: Paper,
     url: 'https://arxiv.org/abs/1803.08024'}]
-tags: ["Datasets", "Image Retrieval", "Text Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Text Retrieval"]
 short_authors: Lee et al.
 ---
 In this paper, we study the problem of image-text matching. Inferring the

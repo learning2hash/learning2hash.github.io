@@ -7,7 +7,7 @@ year: 2022
 bibkey: hammad2022enhanced
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.10584'}]
-tags: ["Efficiency", "Text Retrieval", "Vector Indexing"]
+tags: ["Efficiency", "Text Retrieval"]
 short_authors: Mohammed Hammad
 ---
 Modern day applications, especially information retrieval webapps that

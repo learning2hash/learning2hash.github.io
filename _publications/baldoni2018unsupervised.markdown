@@ -9,7 +9,7 @@ year: 2018
 bibkey: baldoni2018unsupervised
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.09683'}]
-tags: ["Evaluation", "Unsupervised"]
+tags: ["Evaluation", "Supervised", "Unsupervised"]
 short_authors: Baldoni et al.
 ---
 In this paper we consider the binary similarity problem that consists in

@@ -7,7 +7,7 @@ year: 2019
 bibkey: sun2019geocapsnet
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.06281'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Sun et al.
 ---
 The task of cross-view image geo-localization aims to determine the

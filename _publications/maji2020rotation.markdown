@@ -7,7 +7,7 @@ year: 2020
 bibkey: maji2020rotation
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.13046'}]
-tags: ["Efficiency", "Image Retrieval"]
+tags: ["Datasets", "Efficiency", "Image Retrieval", "Neural Hashing"]
 short_authors: Subhadip Maji, Smarajit Bose
 ---
 Introduction of Convolutional Neural Networks has improved results on almost

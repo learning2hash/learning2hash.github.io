@@ -8,7 +8,7 @@ year: 2020
 bibkey: wrzalik2020cort
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.10252'}]
-tags: ["Efficiency", "Evaluation", "Similarity Search"]
+tags: ["Datasets", "Efficiency", "Evaluation", "NAACL", "Similarity Search"]
 short_authors: Marco Wrzalik, Dirk Krechel
 ---
 Many recent approaches towards neural information retrieval mitigate their

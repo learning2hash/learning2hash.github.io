@@ -9,7 +9,7 @@ year: 2016
 bibkey: beame2016massively
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.04999'}]
-tags: ["Similarity Search"]
+tags: ["Datasets", "Similarity Search"]
 short_authors: Paul Beame, Cyrus Rashtchian
 ---
 We study distributed protocols for finding all pairs of similar vectors in a

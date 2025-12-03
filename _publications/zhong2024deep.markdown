@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhong2024deep
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.20315'}]
-tags: ["Evaluation", "Robustness", "Supervised", "Unsupervised"]
+tags: ["Evaluation", "Robustness", "Supervised", "Survey Paper", "Unsupervised"]
 short_authors: Ming Zhong, Zhizhi Wu, Nanako Honda
 ---
 Dense retrievers have achieved state-of-the-art performance in various

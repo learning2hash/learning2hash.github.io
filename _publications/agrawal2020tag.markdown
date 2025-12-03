@@ -7,7 +7,7 @@ year: 2020
 bibkey: agrawal2020tag
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.06389'}]
-tags: ["Datasets", "Recommender Systems"]
+tags: ["Datasets", "Distance Metric Learning", "Recommender Systems"]
 short_authors: Suraj Agrawal, Dwaipayan Roy, Mandar Mitra
 ---
 Personalized Point of Interest recommendation is very helpful for satisfying

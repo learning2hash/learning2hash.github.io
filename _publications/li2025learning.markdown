@@ -7,7 +7,7 @@ year: 2025
 bibkey: li2025learning
 citations: 85
 additional_links: [{name: Paper, url: 'http://www.jmlr.org/proceedings/papers/v28/li13a.pdf'}]
-tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Scalability"]
+tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Tools & Libraries"]
 short_authors: Li et al.
 ---
 Fast nearest neighbor searching is becoming

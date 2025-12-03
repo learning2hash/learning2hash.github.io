@@ -7,7 +7,7 @@ year: 2021
 bibkey: nguyen2021oscar
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.03541'}]
-tags: ["Hashing Methods", "ICCV", "Image Retrieval", "Self-Supervised"]
+tags: ["Datasets", "Hashing Methods", "ICCV", "Image Retrieval", "Self-Supervised"]
 short_authors: Nguyen et al.
 ---
 Images tell powerful stories but cannot always be trusted. Matching images

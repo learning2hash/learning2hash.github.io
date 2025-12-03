@@ -8,7 +8,7 @@ bibkey: wu2022learning
 citations: 6
 additional_links: [{name: Code, url: 'https://github.com/overwindows/SemanticCodeSearch.git'},
   {name: Paper, url: 'https://arxiv.org/abs/2201.11313'}]
-tags: ["Evaluation", "Multimodal Retrieval"]
+tags: ["Evaluation"]
 short_authors: Chen Wu, Ming Yan
 ---
 Semantic code search is the task of retrieving relevant code snippet given a

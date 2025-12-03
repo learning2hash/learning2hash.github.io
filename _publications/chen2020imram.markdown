@@ -8,7 +8,7 @@ year: 2020
 bibkey: chen2020imram
 citations: 391
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.03772'}]
-tags: ["CVPR", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
+tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Text Retrieval"]
 short_authors: Chen et al.
 ---
 Enabling bi-directional retrieval of images and texts is important for

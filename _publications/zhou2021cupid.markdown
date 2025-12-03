@@ -8,7 +8,7 @@ year: 2021
 bibkey: zhou2021cupid
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.00285'}]
-tags: ["Evaluation", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Tools & Libraries", "Video Retrieval"]
 short_authors: Zhou et al.
 ---
 This work concerns video-language pre-training and representation learning.

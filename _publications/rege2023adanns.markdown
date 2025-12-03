@@ -9,7 +9,7 @@ bibkey: rege2023adanns
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/RAIVNLab/AdANNS'}, {name: Paper,
     url: 'https://arxiv.org/abs/2305.19435'}]
-tags: ["Large Scale Search", "Quantization", "Scalability", "Vector Indexing"]
+tags: ["Large Scale Search", "Quantization", "Scalability", "Tools & Libraries", "Vector Indexing"]
 short_authors: Rege et al.
 ---
 Web-scale search systems learn an encoder to embed a given query which is

@@ -7,7 +7,7 @@ year: 2023
 bibkey: wiatrak2023proxy
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.13318'}]
-tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Robustness"]
 short_authors: Wiatrak et al.
 ---
 A recent advancement in the domain of biomedical Entity Linking is the

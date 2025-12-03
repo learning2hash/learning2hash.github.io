@@ -7,7 +7,7 @@ year: 2018
 bibkey: zhang2018sch
 citations: 132
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02488'}]
-tags: ["Hashing Methods", "Multimodal Retrieval", "Supervised", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Jian Zhang, Yuxin Peng, Mingkuan Yuan
 ---
 Cross-modal hashing aims to map heterogeneous multimedia data into a common

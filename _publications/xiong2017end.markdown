@@ -8,7 +8,7 @@ year: 2017
 bibkey: xiong2017end
 citations: 559
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.06613'}]
-tags: ["Distance Metric Learning", "SIGIR"]
+tags: ["Distance Metric Learning", "SIGIR", "Tree Based ANN"]
 short_authors: Xiong et al.
 ---
 This paper proposes K-NRM, a kernel based neural model for document ranking.

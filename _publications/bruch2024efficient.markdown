@@ -8,7 +8,7 @@ year: 2024
 bibkey: bruch2024efficient
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.18812'}]
-tags: ["Efficiency", "SIGIR", "Text Retrieval"]
+tags: ["Efficiency", "Evaluation", "Graph Based ANN", "SIGIR", "Text Retrieval"]
 short_authors: Bruch et al.
 ---
 Learned sparse representations form an attractive class of contextual

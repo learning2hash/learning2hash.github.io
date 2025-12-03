@@ -7,7 +7,7 @@ year: 2017
 bibkey: ferdowsi2017a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.11510'}]
-tags: ["Hashing Methods", "Scalability", "Similarity Search"]
+tags: ["Evaluation", "Hashing Methods", "Scalability", "Similarity Search"]
 short_authors: Sohrab Ferdowsi, Slava Voloshynovskiy, Dimche Kostadinov
 ---
 We present the multi-layer extension of the Sparse Ternary Codes (STC) for

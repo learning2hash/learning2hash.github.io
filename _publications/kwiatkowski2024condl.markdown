@@ -7,7 +7,7 @@ year: 2024
 bibkey: kwiatkowski2024condl
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.02766'}]
-tags: ["Image Retrieval", "Robustness", "Self-Supervised"]
+tags: ["Neural Hashing", "Self-Supervised", "Tools & Libraries"]
 short_authors: Monika Kwiatkowski, Simon Matern, Olaf Hellwich
 ---
 In this work, we introduce a deep-learning framework designed for estimating

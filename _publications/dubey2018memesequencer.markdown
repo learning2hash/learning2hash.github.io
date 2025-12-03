@@ -7,7 +7,7 @@ year: 2018
 bibkey: dubey2018memesequencer
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.04936'}]
-tags: ["Image Retrieval", "Neural Hashing"]
+tags: ["Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Dubey et al.
 ---
 The analysis of the creation, mutation, and propagation of social media

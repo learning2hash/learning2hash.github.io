@@ -7,7 +7,7 @@ year: 2025
 bibkey: bogdanov2025adaptive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.09331'}]
-tags: ["Hashing Methods", "Robustness"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Robustness"]
 short_authors: Bogdanov et al.
 ---
 Johnson and Lindenstrauss (Contemporary Mathematics, 1984) showed that for \(n

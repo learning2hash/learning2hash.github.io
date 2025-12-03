@@ -7,7 +7,7 @@ year: 2023
 bibkey: cao2023efficient
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.07740'}]
-tags: ["Datasets", "Efficiency", "Image Retrieval", "Text Retrieval"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Text Retrieval", "Tools & Libraries"]
 short_authors: Cao et al.
 ---
 Under the flourishing development in performance, current image-text

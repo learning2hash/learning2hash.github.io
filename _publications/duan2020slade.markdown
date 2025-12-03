@@ -7,7 +7,7 @@ year: 2020
 bibkey: duan2020slade
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.10269'}]
-tags: ["Distance Metric Learning", "Self-Supervised"]
+tags: ["Distance Metric Learning", "Evaluation", "Self-Supervised", "Supervised", "Tools & Libraries"]
 short_authors: Duan et al.
 ---
 Most existing distance metric learning approaches use fully labeled data to

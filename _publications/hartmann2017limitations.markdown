@@ -7,7 +7,7 @@ year: 2017
 bibkey: hartmann2017limitations
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.05914'}]
-tags: ["Image Retrieval", "Scalability"]
+tags: ["Image Retrieval"]
 short_authors: Mareike Hartmann, Anders Soegaard
 ---
 Cross-lingual representation learning is an important step in making NLP

@@ -7,7 +7,7 @@ year: 2018
 bibkey: dorfer2018attention
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.05689'}]
-tags: ["Audio Retrieval", "Evaluation", "Multimodal Retrieval"]
+tags: ["Evaluation"]
 short_authors: "Matthias Dorfer, Jan Haji\u010D, Gerhard Widmer"
 ---
 Current models for audio--sheet music retrieval via multimodal embedding

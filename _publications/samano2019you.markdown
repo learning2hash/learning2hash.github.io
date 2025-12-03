@@ -7,7 +7,7 @@ year: 2019
 bibkey: samano2019you
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.08797'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: ["Evaluation"]
 short_authors: Noe Samano, Mengjie Zhou, Andrew Calway
 ---
 We present a novel approach to geolocalising panoramic images on a 2-D

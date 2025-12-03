@@ -8,7 +8,7 @@ year: 2023
 bibkey: wang2023learning
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.11009'}]
-tags: ["Efficiency", "Large Scale Search", "Scalability", "Similarity Search"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Large Scale Search", "Similarity Search"]
 short_authors: Wang et al.
 ---
 Retrieving relevant items that match users' queries from billion-scale corpus

@@ -8,7 +8,7 @@ year: 2022
 bibkey: shi2022everyone
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.06652'}]
-tags: ["Datasets", "Recommender Systems"]
+tags: ["Datasets", "Evaluation", "Recommender Systems"]
 short_authors: Shi et al.
 ---
 User embeddings (vectorized representations of a user) are essential in

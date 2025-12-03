@@ -8,7 +8,7 @@ year: 2020
 bibkey: charte2020an
 citations: 60
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.10516'}]
-tags: ["Datasets", "Evaluation", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing"]
 short_authors: Charte et al.
 ---
 In many machine learning tasks, learning a good representation of the data

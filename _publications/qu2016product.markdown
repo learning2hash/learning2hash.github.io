@@ -7,7 +7,7 @@ year: 2016
 bibkey: qu2016product
 citations: 627
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.00144'}]
-tags: ["Recommender Systems"]
+tags: ["Datasets", "Recommender Systems", "Scalability"]
 short_authors: Qu et al.
 ---
 Predicting user responses, such as clicks and conversions, is of great

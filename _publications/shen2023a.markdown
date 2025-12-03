@@ -8,7 +8,7 @@ year: 2023
 bibkey: shen2023a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.07824'}]
-tags: ["Unsupervised"]
+tags: ["Re-Ranking", "Supervised", "Unsupervised"]
 short_authors: Shen et al.
 ---
 Generating proper embedding of sentences through an unsupervised way is

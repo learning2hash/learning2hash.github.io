@@ -7,7 +7,7 @@ year: 2018
 bibkey: zhang2018improved
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.02987'}]
-tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Zhang et al.
 ---
 Hash coding has been widely used in the approximate nearest neighbor search

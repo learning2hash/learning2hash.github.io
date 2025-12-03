@@ -7,7 +7,7 @@ year: 2021
 bibkey: li2021unified
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.04607'}]
-tags: ["Distance Metric Learning", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Li et al.
 ---
 Visible-Infrared cross-modality person re-identification (VI-ReID), whose aim

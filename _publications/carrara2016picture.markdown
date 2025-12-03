@@ -9,7 +9,7 @@ year: 2016
 bibkey: carrara2016picture
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.07287'}]
-tags: ["Image Retrieval", "Similarity Search"]
+tags: ["Datasets", "Image Retrieval", "Similarity Search"]
 short_authors: Carrara et al.
 ---
 In this paper we tackle the problem of image search when the query is a short

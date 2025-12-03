@@ -7,7 +7,7 @@ year: 2024
 bibkey: ribadaspena2024improving
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.01963'}]
-tags: ["Scalability", "Text Retrieval"]
+tags: ["Evaluation", "Scalability", "Text Retrieval"]
 short_authors: "Francisco J. Ribadas-Pena, Shuyuan Cao, V\xEDctor M. Darriba Bilbao"
 ---
 In this paper, we introduce a multi-label lazy learning approach to deal with

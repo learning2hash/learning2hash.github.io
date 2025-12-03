@@ -7,7 +7,7 @@ year: 2021
 bibkey: sanabria2021talk
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.01894'}]
-tags: ["Audio Retrieval", "Datasets", "Image Retrieval", "Interspeech", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Interspeech"]
 short_authors: Ramon Sanabria, Austin Waters, Jason Baldridge
 ---
 Speech-based image retrieval has been studied as a proxy for joint

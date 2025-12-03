@@ -7,7 +7,7 @@ year: 2017
 bibkey: zhang2017effective
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.09304'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries", "Vector Indexing"]
 short_authors: Zhang et al.
 ---
 Multi-index fusion has demonstrated impressive performances in retrieval task

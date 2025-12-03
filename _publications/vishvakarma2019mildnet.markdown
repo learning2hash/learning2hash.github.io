@@ -7,7 +7,7 @@ year: 2019
 bibkey: vishvakarma2019mildnet
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.00905'}]
-tags: ["Datasets", "Image Retrieval", "Memory Efficiency"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Anirudha Vishvakarma
 ---
 Multi-scale deep CNN architecture [1, 2, 3] successfully captures both fine

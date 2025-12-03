@@ -7,7 +7,7 @@ year: 2022
 bibkey: malali2022learning
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.03838'}]
-tags: ["Distance Metric Learning", "Image Retrieval", "Multimodal Retrieval", "Quantization"]
+tags: ["Datasets", "Distance Metric Learning", "Neural Hashing", "Quantization", "Text Retrieval"]
 short_authors: Noam Malali, Yosi Keller
 ---
 We present a deep learning approach for learning the joint semantic

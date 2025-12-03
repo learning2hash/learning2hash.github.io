@@ -8,7 +8,7 @@ bibkey: an2024multi
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/deepglint/unicom'}, {name: Paper,
     url: 'https://arxiv.org/abs/2407.17331'}]
-tags: ["Few Shot & Zero Shot", "Scalability", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Scalability", "Text Retrieval"]
 short_authors: An et al.
 ---
 Contrastive Language Image Pre-training (CLIP) has recently demonstrated

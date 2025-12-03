@@ -8,7 +8,7 @@ year: 2024
 bibkey: wu2024self
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.15451'}]
-tags: ["ICASSP", "Image Retrieval"]
+tags: ["Efficiency", "ICASSP", "Image Retrieval"]
 short_authors: Wu et al.
 ---
 In the domain of language-based fashion image retrieval, pinpointing the

@@ -8,7 +8,7 @@ bibkey: zhang2023image
 citations: 7
 additional_links: [{name: Code, url: 'https://github.com/ZhangXu0963/VSL'}, {name: Paper,
     url: 'https://arxiv.org/abs/2304.10254'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Zhang et al.
 ---
 Image-text retrieval is one of the major tasks of cross-modal retrieval.

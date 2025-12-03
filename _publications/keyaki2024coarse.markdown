@@ -7,7 +7,7 @@ year: 2024
 bibkey: keyaki2024coarse
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.16915'}]
-tags: ["Evaluation", "Text Retrieval"]
+tags: ["Datasets", "Evaluation", "Text Retrieval"]
 short_authors: Atsushi Keyaki, Ribeka Keyaki
 ---
 Fine-tuning in information retrieval systems using pre-trained language

@@ -10,7 +10,7 @@ bibkey: wu2024training
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/whats2000/WeiMoCIR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2409.04918'}]
-tags: ["Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Supervised"]
 short_authors: Ren-di Wu, Yu-Yen Lin, Huei-Fang Yang
 ---
 Composed image retrieval (CIR), which formulates the query as a combination

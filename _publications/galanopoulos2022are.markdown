@@ -9,7 +9,7 @@ bibkey: galanopoulos2022are
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/bmezaris/TextToVideoRetrieval-TtimesV'},
   {name: Paper, url: 'https://arxiv.org/abs/2211.11351'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Scalability", "Video Retrieval"]
 short_authors: Damianos Galanopoulos, Vasileios Mezaris
 ---
 In this paper we tackle the cross-modal video retrieval problem and, more

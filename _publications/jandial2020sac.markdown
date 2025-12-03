@@ -8,7 +8,7 @@ year: 2020
 bibkey: jandial2020sac
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.01485'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Text Retrieval", "Tools & Libraries"]
 short_authors: Jandial et al.
 ---
 The ability to efficiently search for images is essential for improving the

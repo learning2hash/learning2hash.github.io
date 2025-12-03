@@ -9,7 +9,7 @@ bibkey: liu2022dimension
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/NEUIR/ConAE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2205.03284'}]
-tags: ["Compact Codes", "EMNLP", "Efficiency", "Evaluation", "Memory Efficiency"]
+tags: ["EMNLP", "Evaluation"]
 short_authors: Liu et al.
 ---
 Dense retrievers encode queries and documents and map them in an embedding

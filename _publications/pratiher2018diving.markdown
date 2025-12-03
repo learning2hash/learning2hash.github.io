@@ -8,7 +8,7 @@ year: 2018
 bibkey: pratiher2018diving
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.06876'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Tools & Libraries"]
 short_authors: Sawon Pratiher, Subhankar Chattoraj
 ---
 Histopathological images (HI) encrypt resolution dependent heterogeneous

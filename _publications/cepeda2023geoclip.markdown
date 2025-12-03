@@ -9,7 +9,7 @@ bibkey: cepeda2023geoclip
 citations: 19
 additional_links: [{name: Code, url: 'https://vicentevivan.github.io/GeoCLIP'}, {
     name: Paper, url: 'https://arxiv.org/abs/2309.16020'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Vicente Vivanco Cepeda, Gaurav Kumar Nayak, Mubarak Shah
 ---
 Worldwide Geo-localization aims to pinpoint the precise location of images

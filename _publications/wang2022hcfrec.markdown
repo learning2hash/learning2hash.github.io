@@ -9,7 +9,7 @@ year: 2022
 bibkey: wang2022hcfrec
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.12042'}]
-tags: ["Efficiency", "Hashing Methods", "Recommender Systems"]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "IJCAI", "Recommender Systems"]
 short_authors: Wang et al.
 ---
 The ever-increasing data scale of user-item interactions makes it challenging

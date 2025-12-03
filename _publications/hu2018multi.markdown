@@ -8,7 +8,7 @@ year: 2018
 bibkey: hu2018multi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.01119'}]
-tags: ["Distance Metric Learning", "Image Retrieval", "Supervised"]
+tags: ["Datasets"]
 short_authors: Ting-Yao Hu, Xiaojun Chang, Alexander G. Hauptmann
 ---
 Person re-identification aims to identify a specific person at distinct times

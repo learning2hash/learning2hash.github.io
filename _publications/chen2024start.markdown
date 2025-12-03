@@ -8,7 +8,7 @@ year: 2024
 bibkey: chen2024start
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.19415'}]
-tags: ["Multimodal Retrieval", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Chen et al.
 ---
 The burgeoning short video industry has accelerated the advancement of

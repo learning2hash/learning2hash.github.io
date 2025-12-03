@@ -7,7 +7,7 @@ year: 2023
 bibkey: dong2023adapt
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.05144'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Dong et al.
 ---
 Zero-shot sketch-based image retrieval (ZS-SBIR) is challenging due to the

@@ -10,7 +10,7 @@ year: 2018
 bibkey: dhamala2018multivariate
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.06106'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Unsupervised"]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Supervised", "Unsupervised"]
 short_authors: Dhamala et al.
 ---
 Timely prediction of clinically critical events in Intensive Care Unit (ICU)

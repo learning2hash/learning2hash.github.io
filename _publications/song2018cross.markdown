@@ -7,7 +7,7 @@ year: 2018
 bibkey: song2018cross
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.04318'}]
-tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Yale Song, Mohammad Soleymani
 ---
 Traditional cross-modal retrieval assumes explicit association of concepts

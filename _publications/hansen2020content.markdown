@@ -9,7 +9,7 @@ year: 2020
 bibkey: hansen2020content
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.00617'}]
-tags: ["Neural Hashing", "Recommender Systems", "SIGIR"]
+tags: ["Evaluation", "Hashing Methods", "Neural Hashing", "Recommender Systems", "SIGIR"]
 short_authors: Hansen et al.
 ---
 Content-aware recommendation approaches are essential for providing

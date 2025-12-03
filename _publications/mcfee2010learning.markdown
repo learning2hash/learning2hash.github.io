@@ -7,7 +7,7 @@ year: 2010
 bibkey: mcfee2010learning
 citations: 117
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1008.5163'}]
-tags: ["Graph Based ANN", "Multimodal Retrieval", "Recommender Systems"]
+tags: ["Evaluation", "Graph Based ANN", "Recommender Systems"]
 short_authors: Brian McFee, Gert Lanckriet
 ---
 In many applications involving multi-media data, the definition of similarity

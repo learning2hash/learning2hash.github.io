@@ -8,7 +8,7 @@ bibkey: bin2023unifying
 citations: 26
 additional_links: [{name: Code, url: 'https://github.com/LuminosityX/HAT'}, {name: Paper,
     url: 'https://arxiv.org/abs/2308.04343'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Bin et al.
 ---
 Most existing cross-modal retrieval methods employ two-stream encoders with

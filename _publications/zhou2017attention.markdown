@@ -8,7 +8,7 @@ year: 2017
 bibkey: zhou2017attention
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.08923'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["CVPR", "Datasets", "Evaluation", "Neural Hashing"]
 short_authors: Zhou et al.
 ---
 Following the recent progress in image classification and captioning using

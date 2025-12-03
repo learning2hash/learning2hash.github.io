@@ -8,7 +8,7 @@ year: 2021
 bibkey: uy2021joint
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.07889'}]
-tags: ["CVPR", "Image Retrieval", "Similarity Search"]
+tags: ["CVPR", "Tools & Libraries"]
 short_authors: Uy et al.
 ---
 We propose a novel technique for producing high-quality 3D models that match

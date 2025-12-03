@@ -10,7 +10,7 @@ year: 2019
 bibkey: huang2019multi
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.00058'}]
-tags: ["Datasets", "EMNLP", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "EMNLP", "Evaluation", "Image Retrieval"]
 short_authors: Po-Yao Huang, Xiaojun Chang, Alexander Hauptmann
 ---
 With the aim of promoting and understanding the multilingual version of image

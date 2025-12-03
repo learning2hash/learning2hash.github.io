@@ -7,7 +7,7 @@ year: 2018
 bibkey: penatesanchez20183d
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.01068'}]
-tags: ["Image Retrieval", "Similarity Search"]
+tags: ["Uncategorized"]
 short_authors: Adrian Penate-Sanchez, Lourdes Agapito
 ---
 We present 3D Pick & Mix, a new 3D shape retrieval system that provides users

@@ -7,7 +7,7 @@ year: 2019
 bibkey: liu2019deep
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.00153'}]
-tags: ["Compact Codes", "Image Retrieval", "Quantization", "Similarity Search"]
+tags: ["Compact Codes", "Datasets", "Image Retrieval", "Quantization", "Similarity Search"]
 short_authors: Liu et al.
 ---
 Deep hashing establishes efficient and effective image retrieval by

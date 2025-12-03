@@ -7,7 +7,7 @@ year: 2020
 bibkey: zhang2020tasks
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.01438'}]
-tags: ["Datasets", "Image Retrieval", "Robustness"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Robustness", "Tools & Libraries"]
 short_authors: Zhang et al.
 ---
 The traditional object retrieval task aims to learn a discriminative feature

@@ -7,7 +7,7 @@ year: 2019
 bibkey: chen2019learning
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.05860'}]
-tags: ["Distance Metric Learning", "Unsupervised"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: Chen et al.
 ---
 Most existing person re-identification (ReID) methods have good feature

@@ -8,7 +8,7 @@ year: 2022
 bibkey: bhunia2022adaptive
 citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.01723'}]
-tags: ["Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval", "Tools & Libraries"]
 short_authors: Bhunia et al.
 ---
 The recent focus on Fine-Grained Sketch-Based Image Retrieval (FG-SBIR) has

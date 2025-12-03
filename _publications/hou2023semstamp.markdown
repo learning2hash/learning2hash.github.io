@@ -8,7 +8,7 @@ year: 2023
 bibkey: hou2023semstamp
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.03991'}]
-tags: ["Locality-Sensitive-Hashing", "Robustness"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Robustness"]
 short_authors: Hou et al.
 ---
 Existing watermarking algorithms are vulnerable to paraphrase attacks because

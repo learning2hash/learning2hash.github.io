@@ -10,7 +10,7 @@ bibkey: zeng2024focus
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/Gyann-z/FDP'}, {name: Paper,
     url: 'https://arxiv.org/abs/2408.00441'}]
-tags: ["Efficiency", "Image Retrieval", "Text Retrieval"]
+tags: ["Evaluation", "Text Retrieval"]
 short_authors: Zeng et al.
 ---
 Scene text retrieval aims to find all images containing the query text from

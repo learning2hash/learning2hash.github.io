@@ -7,7 +7,7 @@ year: 2021
 bibkey: hong2021vlgrammar
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.12975'}]
-tags: ["ICCV", "Image Retrieval", "Self-Supervised", "Text Retrieval", "Unsupervised"]
+tags: ["ICCV", "Image Retrieval", "Supervised", "Text Retrieval", "Unsupervised"]
 short_authors: Hong et al.
 ---
 Cognitive grammar suggests that the acquisition of language grammar is

@@ -7,7 +7,7 @@ year: 2016
 bibkey: connor2016hilbert
 citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.08640'}]
-tags: ["Similarity Search"]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: Connor et al.
 ---
 Most research into similarity search in metric spaces relies upon the

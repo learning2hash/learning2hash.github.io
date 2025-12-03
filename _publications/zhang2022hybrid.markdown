@@ -8,7 +8,7 @@ bibkey: zhang2022hybrid
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/namespace-Pt/Adon/tree/HI2'},
   {name: Paper, url: 'https://arxiv.org/abs/2210.05521'}]
-tags: ["Efficiency", "Unsupervised", "Vector Indexing"]
+tags: ["Efficiency", "Evaluation", "Supervised", "Unsupervised", "Vector Indexing"]
 short_authors: Zhang et al.
 ---
 Inverted file structure is a common technique for accelerating dense

@@ -7,7 +7,7 @@ year: 2016
 bibkey: kong2016coarse2fine
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.00719'}]
-tags: ["Evaluation", "Image Retrieval", "Scalability"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Kong et al.
 ---
 This paper addresses the problem of large-scale image retrieval. We propose a

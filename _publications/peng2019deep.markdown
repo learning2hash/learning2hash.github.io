@@ -7,7 +7,7 @@ year: 2019
 bibkey: peng2019deep
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.11233'}]
-tags: ["Datasets", "Robustness", "Supervised"]
+tags: ["Datasets", "Evaluation", "Robustness", "Supervised"]
 short_authors: Peng et al.
 ---
 In this paper, we aim to improve the performance of semantic image

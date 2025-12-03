@@ -7,7 +7,7 @@ year: 2018
 bibkey: ji2018attribute
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.01943'}]
-tags: ["Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Ji et al.
 ---
 Zero-Shot Hashing aims at learning a hashing model that is trained only by

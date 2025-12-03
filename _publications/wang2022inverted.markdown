@@ -7,7 +7,7 @@ year: 2022
 bibkey: wang2022inverted
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.12623'}]
-tags: ["Evaluation", "Image Retrieval", "Quantization", "Scalability", "Supervised"]
+tags: ["Evaluation", "Image Retrieval", "Quantization", "Supervised", "Unsupervised"]
 short_authors: Ying Wang
 ---
 This paper addresses the construction of inverted index for large-scale image

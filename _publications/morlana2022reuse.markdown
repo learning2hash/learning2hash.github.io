@@ -8,7 +8,7 @@ bibkey: morlana2022reuse
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/jmorlana/DRAN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2204.06292'}]
-tags: ["Image Retrieval", "Re-Ranking", "Robustness"]
+tags: ["Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking", "Robustness"]
 short_authors: Javier Morlana, J. M. M. Montiel
 ---
 We propose a compact pipeline to unify all the steps of Visual Localization:

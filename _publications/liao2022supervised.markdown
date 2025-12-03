@@ -9,7 +9,7 @@ bibkey: liao2022supervised
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/Chris210634/metric-learning-using-contextual-similarity'},
   {name: Paper, url: 'https://arxiv.org/abs/2210.01908'}]
-tags: ["Distance Metric Learning", "Image Retrieval", "Supervised"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Christopher Liao, Theodoros Tsiligkaridis, Brian Kulis
 ---
 There is extensive interest in metric learning methods for image retrieval.

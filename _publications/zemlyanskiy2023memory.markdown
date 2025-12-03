@@ -8,7 +8,7 @@ year: 2023
 bibkey: zemlyanskiy2023memory
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.14903'}]
-tags: ["Memory Efficiency", "Quantization"]
+tags: ["Evaluation", "Quantization"]
 short_authors: Zemlyanskiy et al.
 ---
 Retrieval augmentation is a powerful but expensive method to make language

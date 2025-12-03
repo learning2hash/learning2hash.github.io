@@ -7,7 +7,7 @@ year: 2021
 bibkey: krishnan2021projective
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.02179'}]
-tags: ["Quantization"]
+tags: ["Quantization", "Tools & Libraries"]
 short_authors: Aditya Krishnan, Edo Liberty
 ---
 This paper suggests the use of projective clustering based product

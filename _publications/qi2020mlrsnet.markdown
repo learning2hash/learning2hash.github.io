@@ -10,7 +10,7 @@ bibkey: qi2020mlrsnet
 citations: 135
 additional_links: [{name: Code, url: 'https://github.com/cugbrs/MLRSNet.git'}, {name: Other,
     url: 'https://data.mendeley.com/datasets/7j9bv9vwsx/2'}, {name: Paper, url: 'https://arxiv.org/abs/2010.00243'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Qi et al.
 ---
 To better understand scene images in the field of remote sensing, multi-label

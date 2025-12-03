@@ -8,7 +8,7 @@ bibkey: wang2019matching
 citations: 145
 additional_links: [{name: Code, url: 'https://github.com/Wangt-CN/MTFN-RR-PyTorch-Code'},
   {name: Paper, url: 'https://arxiv.org/abs/1908.04011'}]
-tags: ["Hybrid ANN Methods", "Multimodal Retrieval", "Re-Ranking"]
+tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Tools & Libraries"]
 short_authors: Wang et al.
 ---
 A major challenge in matching images and text is that they have intrinsically

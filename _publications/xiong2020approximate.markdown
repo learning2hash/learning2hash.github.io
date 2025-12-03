@@ -8,7 +8,7 @@ year: 2020
 bibkey: xiong2020approximate
 citations: 229
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.00808'}]
-tags: ["Hybrid ANN Methods", "Self-Supervised", "Text Retrieval"]
+tags: ["Hybrid ANN Methods", "Re-Ranking", "Self-Supervised", "Text Retrieval", "Vector Indexing"]
 short_authors: Xiong et al.
 ---
 Conducting text retrieval in a dense learned representation space has many

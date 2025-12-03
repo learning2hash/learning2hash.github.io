@@ -7,7 +7,7 @@ year: 2021
 bibkey: formal2021match
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.05662'}]
-tags: ["Evaluation", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: "Thibault Formal, Benjamin Piwowarski, St\xE9phane Clinchant"
 ---
 Neural Information Retrieval models hold the promise to replace lexical

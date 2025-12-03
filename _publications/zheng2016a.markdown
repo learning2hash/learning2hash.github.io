@@ -7,7 +7,7 @@ year: 2016
 bibkey: zheng2016a
 citations: 500
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.05666'}]
-tags: ["Distance Metric Learning", "Image Retrieval", "Supervised"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Zhedong Zheng, Liang Zheng, Yi Yang
 ---
 We revisit two popular convolutional neural networks (CNN) in person

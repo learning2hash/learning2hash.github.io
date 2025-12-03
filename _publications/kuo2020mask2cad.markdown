@@ -7,7 +7,7 @@ year: 2020
 bibkey: kuo2020mask2cad
 citations: 57
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.13034'}]
-tags: ["Datasets"]
+tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Kuo et al.
 ---
 Object recognition has seen significant progress in the image domain, with

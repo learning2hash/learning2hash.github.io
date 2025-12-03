@@ -8,7 +8,7 @@ year: 2016
 bibkey: liu2016three
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.07599'}]
-tags: ["Datasets", "Image Retrieval", "Re-Ranking"]
+tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
 short_authors: Liu et al.
 ---
 Single feature is inefficient to describe content of an image, which is a

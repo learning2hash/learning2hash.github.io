@@ -8,7 +8,7 @@ year: 2021
 bibkey: chaudhuri2021crossatnet
 citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.09918'}]
-tags: ["Distance Metric Learning", "Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Chaudhuri et al.
 ---
 We propose a novel framework for cross-modal zero-shot learning (ZSL) in the

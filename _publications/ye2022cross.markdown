@@ -9,7 +9,7 @@ bibkey: ye2022cross
 citations: 65
 additional_links: [{name: Code, url: 'https://github.com/ReneeYe/ConST'}, {name: Paper,
     url: 'https://arxiv.org/abs/2205.02444'}]
-tags: ["Evaluation", "Self-Supervised"]
+tags: ["Evaluation", "NAACL", "Self-Supervised", "Text Retrieval"]
 short_authors: Rong Ye, Mingxuan Wang, Lei Li
 ---
 How can we learn unified representations for spoken utterances and their

@@ -8,7 +8,7 @@ year: 2023
 bibkey: weck2023wikimute
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.09207'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Neural Hashing"]
 short_authors: Weck et al.
 ---
 Multi-modal deep learning techniques for matching free-form text with music

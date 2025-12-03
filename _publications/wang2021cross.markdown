@@ -8,7 +8,7 @@ year: 2021
 bibkey: wang2021cross
 citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.15154'}]
-tags: ["Efficiency", "Recommender Systems", "SIGIR"]
+tags: ["Efficiency", "Evaluation", "Recommender Systems", "SIGIR", "Scalability"]
 short_authors: Jinpeng Wang, Jieming Zhu, Xiuqiang He
 ---
 The two-tower architecture has been widely applied for learning item and user

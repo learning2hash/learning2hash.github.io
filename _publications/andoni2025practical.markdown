@@ -7,7 +7,7 @@ year: 2025
 bibkey: andoni2025practical
 citations: 212
 additional_links: [{name: Paper, url: 'https://papers.nips.cc/paper/5893-practical-and-optimal-lsh-for-angular-distance.pdf'}]
-tags: ["Evaluation", "Locality-Sensitive-Hashing"]
+tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: A. Andoni, Indyk, Laarhoven
 ---
 We show the existence of a Locality-Sensitive Hashing (LSH) family for the angular

@@ -8,7 +8,7 @@ bibkey: song2017binary
 citations: 84
 additional_links: [{name: Code, url: 'https://github.com/htconquer/BGAN'}, {name: Paper,
     url: 'https://arxiv.org/abs/1708.04150'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Unsupervised"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Jingkuan Song
 ---
 The most striking successes in image retrieval using deep hashing have mostly

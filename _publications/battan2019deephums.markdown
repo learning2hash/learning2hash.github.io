@@ -7,7 +7,7 @@ year: 2019
 bibkey: battan2019deephums
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.05750'}]
-tags: ["Datasets", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Scalability", "Self-Supervised", "Supervised"]
 short_authors: Neeraj Battan, Abbhinav Venkat, Avinash Sharma
 ---
 3D Human Motion Indexing and Retrieval is an interesting problem due to the

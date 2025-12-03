@@ -8,7 +8,7 @@ year: 2017
 bibkey: chaidaroon2017variational
 citations: 68
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.03436'}]
-tags: ["Hashing Methods", "Neural Hashing", "Similarity Search", "Supervised", "Unsupervised"]
+tags: ["Compact Codes", "Hashing Methods", "Neural Hashing", "Similarity Search", "Supervised"]
 short_authors: Suthee Chaidaroon, Yi Fang
 ---
 As the amount of textual data has been rapidly increasing over the past

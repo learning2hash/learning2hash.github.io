@@ -8,7 +8,7 @@ year: 2019
 bibkey: dzwinel20192
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.01108'}]
-tags: ["Datasets", "Efficiency", "Robustness"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Robustness"]
 short_authors: Witold Dzwinel, Rafal Wcislo, Stan Matwin
 ---
 In the advent of big data era, interactive visualization of large data sets

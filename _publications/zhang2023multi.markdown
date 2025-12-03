@@ -8,7 +8,7 @@ bibkey: zhang2023multi
 citations: 13
 additional_links: [{name: Code, url: 'https://github.com/gengyuanmax/MeVTR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2308.11551'}]
-tags: ["ICCV", "Multimodal Retrieval", "Text Retrieval", "Video Retrieval"]
+tags: ["Evaluation", "ICCV", "Text Retrieval", "Tools & Libraries"]
 short_authors: Zhang et al.
 ---
 Video-Text Retrieval (VTR) is a crucial multi-modal task in an era of massive

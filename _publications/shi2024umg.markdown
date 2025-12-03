@@ -9,7 +9,7 @@ bibkey: shi2024umg
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/lygsbw/UMG-CLIP'}, {name: Paper,
     url: 'https://arxiv.org/abs/2401.06397'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Shi et al.
 ---
 Vision-language foundation models, represented by Contrastive Language-Image

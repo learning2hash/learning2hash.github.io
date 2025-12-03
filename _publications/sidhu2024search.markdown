@@ -9,7 +9,7 @@ year: 2024
 bibkey: sidhu2024search
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.18733'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Sidhu et al.
 ---
 In this paper, we introduce SearchDet, a training-free long-tail object

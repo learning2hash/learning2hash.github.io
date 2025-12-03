@@ -7,7 +7,7 @@ year: 2025
 bibkey: shrivastava2025densifying
 citations: 90
 additional_links: [{name: Paper, url: 'http://jmlr.org/proceedings/papers/v32/shrivastava14.pdf'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: A. Shrivastava, Li
 ---
 The query complexity of locality sensitive hashing

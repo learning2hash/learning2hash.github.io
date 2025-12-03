@@ -9,7 +9,7 @@ year: 2020
 bibkey: kim2020boosted
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.06239'}]
-tags: ["Compact Codes", "Hashing Methods", "ICASSP", "Locality-Sensitive-Hashing", "Neural Hashing"]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Neural Hashing"]
 short_authors: Sunwoo Kim, Haici Yang, Minje Kim
 ---
 Speech enhancement tasks have seen significant improvements with the advance

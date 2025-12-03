@@ -9,7 +9,7 @@ year: 2021
 bibkey: razeghi2021privacy
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.04274'}]
-tags: ["ICASSP", "Privacy & Security", "Similarity Search"]
+tags: ["ICASSP", "Scalability", "Tools & Libraries"]
 short_authors: Razeghi et al.
 ---
 In this paper, we propose a framework for privacy-preserving approximate near

@@ -7,7 +7,7 @@ year: 2023
 bibkey: rabbani2023large
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.02563'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems", "Scalability"]
+tags: ["Distance Metric Learning", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems"]
 short_authors: Tahseen Rabbani, Marco Bornstein, Furong Huang
 ---
 Locality-sensitive hashing (LSH) based frameworks have been used efficiently

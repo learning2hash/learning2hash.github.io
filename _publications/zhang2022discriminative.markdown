@@ -7,7 +7,7 @@ year: 2022
 bibkey: zhang2022discriminative
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.11843'}]
-tags: ["Multimodal Retrieval", "Supervised"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Supervised"]
 short_authors: Zhang et al.
 ---
 Nowadays the measure between heterogeneous data is still an open problem for

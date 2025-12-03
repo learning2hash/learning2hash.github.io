@@ -8,7 +8,7 @@ year: 2021
 bibkey: hoang2021multi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.06489'}]
-tags: ["Hashing Methods", "Multimodal Retrieval", "Unsupervised"]
+tags: ["Evaluation", "Hashing Methods", "Multimodal Retrieval", "Supervised", "Unsupervised"]
 short_authors: Hoang et al.
 ---
 In this paper, we adopt the maximizing mutual information (MI) approach to

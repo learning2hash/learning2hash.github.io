@@ -7,7 +7,7 @@ year: 2019
 bibkey: kordopatiszilos2019visil
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.07410'}]
-tags: ["Distance Metric Learning", "ICCV", "Video Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "ICCV", "Video Retrieval"]
 short_authors: Kordopatis-Zilos et al.
 ---
 In this paper we introduce ViSiL, a Video Similarity Learning architecture

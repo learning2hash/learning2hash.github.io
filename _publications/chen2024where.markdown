@@ -7,7 +7,7 @@ year: 2024
 bibkey: chen2024where
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.14565'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Chen et al.
 ---
 Natural language interfaces to embodied AI are becoming more ubiquitous in

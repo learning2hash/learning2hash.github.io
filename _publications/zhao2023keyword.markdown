@@ -10,7 +10,7 @@ year: 2023
 bibkey: zhao2023keyword
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.04072'}]
-tags: ["Image Retrieval", "SIGIR", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Re-Ranking", "SIGIR"]
 short_authors: Zhao et al.
 ---
 In addition to relevance, diversity is an important yet less studied

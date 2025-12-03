@@ -8,7 +8,7 @@ year: 2019
 bibkey: zhang2019evaluating
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.08184'}]
-tags: ["Evaluation", "Similarity Search"]
+tags: ["Evaluation"]
 short_authors: Jingyuan Zhang, Timothy Baldwin
 ---
 Recent work has demonstrated that vector offsets obtained by subtracting

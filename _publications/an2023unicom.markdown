@@ -9,7 +9,7 @@ bibkey: an2023unicom
 citations: 17
 additional_links: [{name: Code, url: 'https://github.com/deepglint/unicom'}, {name: Paper,
     url: 'https://arxiv.org/abs/2304.05884'}]
-tags: ["Evaluation", "Image Retrieval", "Scalability", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: An et al.
 ---
 Modern image retrieval methods typically rely on fine-tuning pre-trained

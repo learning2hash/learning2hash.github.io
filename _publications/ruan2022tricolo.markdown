@@ -7,7 +7,7 @@ year: 2022
 bibkey: ruan2022tricolo
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.07366'}]
-tags: ["Multimodal Retrieval", "Self-Supervised", "Text Retrieval"]
+tags: ["Distance Metric Learning", "Evaluation", "Self-Supervised", "Text Retrieval"]
 short_authors: Ruan et al.
 ---
 Text-to-shape retrieval is an increasingly relevant problem with the growth

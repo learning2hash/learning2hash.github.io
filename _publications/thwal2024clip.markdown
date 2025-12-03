@@ -9,7 +9,7 @@ year: 2024
 bibkey: thwal2024clip
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.03871'}]
-tags: ["Few Shot & Zero Shot", "Multimodal Retrieval", "Self-Supervised"]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Thwal et al.
 ---
 Beyond the success of Contrastive Language-Image Pre-training (CLIP), recent

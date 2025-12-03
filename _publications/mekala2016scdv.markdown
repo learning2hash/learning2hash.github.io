@@ -8,7 +8,7 @@ year: 2016
 bibkey: mekala2016scdv
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.06778'}]
-tags: ["Evaluation", "Scalability", "Unsupervised"]
+tags: ["Evaluation"]
 short_authors: Mekala et al.
 ---
 We present a feature vector formation technique for documents - Sparse

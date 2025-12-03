@@ -8,7 +8,7 @@ year: 2024
 bibkey: douze2024the
 citations: 43
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.08281'}]
-tags: ["Similarity Search", "Tools & Libraries"]
+tags: ["Evaluation", "Similarity Search", "Tools & Libraries"]
 short_authors: Douze et al.
 ---
 Vector databases typically manage large collections of embedding vectors.

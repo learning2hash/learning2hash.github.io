@@ -9,7 +9,7 @@ year: 2022
 bibkey: wu2022hqann
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.07940'}]
-tags: ["Efficiency", "Graph Based ANN", "Hybrid ANN Methods", "Similarity Search"]
+tags: ["Datasets", "Efficiency", "Graph Based ANN", "Hybrid ANN Methods", "Similarity Search"]
 short_authors: Wu et al.
 ---
 The in-memory approximate nearest neighbor search (ANNS) algorithms have

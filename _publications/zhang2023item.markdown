@@ -7,7 +7,7 @@ year: 2023
 bibkey: zhang2023item
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.14395'}]
-tags: ["Datasets", "Recommender Systems", "Robustness"]
+tags: ["Datasets", "Evaluation", "Recommender Systems", "Robustness", "Scalability"]
 short_authors: Zhang et al.
 ---
 The gap between the randomly initialized item ID embedding and the

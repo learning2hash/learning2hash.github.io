@@ -8,7 +8,7 @@ year: 2024
 bibkey: yang2024weighted
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.05977'}]
-tags: ["Re-Ranking", "SIGIR", "Self-Supervised"]
+tags: ["Datasets", "Hybrid ANN Methods", "Re-Ranking", "SIGIR", "Self-Supervised"]
 short_authors: Yang et al.
 ---
 Transformer-based retrieval and reranking models for text document search are

@@ -7,7 +7,7 @@ year: 2017
 bibkey: dutkiewicz2017novel
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.08439'}]
-tags: ["Evaluation", "Re-Ranking"]
+tags: ["Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: "Jakub Dutkiewicz, Czes\u0142aw J\u0119drzejek"
 ---
 Distributional semantics models derive word space from linguistic items in

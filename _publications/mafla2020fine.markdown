@@ -8,7 +8,7 @@ year: 2020
 bibkey: mafla2020fine
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.04732'}]
-tags: ["Image Retrieval", "Multimodal Retrieval"]
+tags: ["Image Retrieval"]
 short_authors: Mafla et al.
 ---
 Text contained in an image carries high-level semantics that can be exploited

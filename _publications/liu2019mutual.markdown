@@ -7,7 +7,7 @@ year: 2019
 bibkey: liu2019mutual
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.00744'}]
-tags: ["Hashing Methods", "Supervised"]
+tags: ["Evaluation", "Hashing Methods", "Supervised"]
 short_authors: Xingbo Liu, Xiushan Nie, Yilong Yin
 ---
 Label information is widely used in hashing methods because of its

@@ -8,7 +8,7 @@ year: 2023
 bibkey: ribeiro2023sketch
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.16769'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Leo Sampaio Ferraz Ribeiro, Moacir Antonelli Ponti
 ---
 Sketch-an-Anchor is a novel method to train state-of-the-art Zero-shot

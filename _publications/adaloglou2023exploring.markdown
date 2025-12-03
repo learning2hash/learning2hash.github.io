@@ -8,7 +8,7 @@ bibkey: adaloglou2023exploring
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/HHU-MMBS/TEMI-official-BMVC2023'},
   {name: Paper, url: 'https://arxiv.org/abs/2303.17896'}]
-tags: ["Self-Supervised", "Unsupervised"]
+tags: ["Self-Supervised", "Supervised"]
 short_authors: Adaloglou et al.
 ---
 We present a general methodology that learns to classify images without

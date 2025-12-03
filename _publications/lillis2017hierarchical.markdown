@@ -7,7 +7,7 @@ year: 2017
 bibkey: lillis2017hierarchical
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.04544'}]
-tags: ["Evaluation", "Hashing Methods", "Privacy & Security", "Scalability", "Similarity Search"]
+tags: ["Evaluation", "Hashing Methods"]
 short_authors: David Lillis, Frank Breitinger, Mark Scanlon
 ---
 Bytewise approximate matching algorithms have in recent years shown

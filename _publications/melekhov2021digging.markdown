@@ -7,7 +7,7 @@ year: 2021
 bibkey: melekhov2021digging
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.04773'}]
-tags: ["Image Retrieval", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Melekhov et al.
 ---
 Fully-supervised CNN-based approaches for learning local image descriptors

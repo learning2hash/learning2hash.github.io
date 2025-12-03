@@ -7,7 +7,7 @@ year: 2024
 bibkey: chou2024embedding
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.13079'}]
-tags: ["Distance Metric Learning", "Evaluation", "Multimodal Retrieval"]
+tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Jason Chuan-Chih Chou, Nahid Alam
 ---
 Since the publication of CLIP, the approach of using InfoNCE loss for

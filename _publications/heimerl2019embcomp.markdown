@@ -7,7 +7,7 @@ year: 2019
 bibkey: heimerl2019embcomp
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.01542'}]
-tags: ["Evaluation", "Similarity Search", "Survey Paper", "Tools & Libraries"]
+tags: ["Evaluation", "Survey Paper"]
 short_authors: Heimerl et al.
 ---
 This paper introduces embComp, a novel approach for comparing two embeddings

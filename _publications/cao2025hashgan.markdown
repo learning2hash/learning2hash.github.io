@@ -7,7 +7,7 @@ year: 2025
 bibkey: cao2025hashgan
 citations: 118
 additional_links: [{name: Paper, url: 'http://ise.thss.tsinghua.edu.cn/~mlong/doc/hashgan-cvpr18.pdf'}]
-tags: ["CVPR", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: ["CVPR", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Cao et al.
 ---
 Deep learning to hash improves image retrieval performance by end-to-end representation learning and hash coding from training data with pairwise similarity information.

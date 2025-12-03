@@ -8,7 +8,7 @@ year: 2022
 bibkey: bernabeu2022multi
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.05419'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Similarity Search"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Similarity Search", "Survey Paper"]
 short_authors: Marisa Bernabeu, Antonio Javier Gallego, Antonio Pertusa
 ---
 Classifying logo images is a challenging task as they contain elements such

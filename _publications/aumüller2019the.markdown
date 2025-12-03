@@ -8,7 +8,7 @@ year: 2019
 bibkey: "aum\xFCller2019the"
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.07387'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Survey Paper"]
 short_authors: "Martin Aum\xFCller, Matteo Ceccarello"
 ---
 This paper reconsiders common benchmarking approaches to nearest neighbor

@@ -7,7 +7,7 @@ year: 2021
 bibkey: won2021emotion
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.13468'}]
-tags: ["Distance Metric Learning", "Multimodal Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Multimodal Retrieval"]
 short_authors: Won et al.
 ---
 Content creators often use music to enhance their stories, as it can be a

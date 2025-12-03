@@ -9,7 +9,7 @@ year: 2022
 bibkey: ji2022seeing
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.13437'}]
-tags: ["Multimodal Retrieval"]
+tags: ["Evaluation", "Text Retrieval"]
 short_authors: Ji et al.
 ---
 Cross-modal alignment is essential for vision-language pre-training (VLP)

@@ -7,7 +7,7 @@ year: 2017
 bibkey: cakir2017mihash
 citations: 99
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.08919'}]
-tags: ["Hashing Methods", "ICCV", "Image Retrieval"]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing"]
 short_authors: Cakir et al.
 ---
 Learning-based hashing methods are widely used for nearest neighbor

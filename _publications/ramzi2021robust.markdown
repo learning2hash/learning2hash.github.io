@@ -9,7 +9,7 @@ year: 2021
 bibkey: ramzi2021robust
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.01445'}]
-tags: ["Evaluation", "Image Retrieval", "NEURIPS"]
+tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
 short_authors: Ramzi et al.
 ---
 In image retrieval, standard evaluation metrics rely on score ranking, e.g.

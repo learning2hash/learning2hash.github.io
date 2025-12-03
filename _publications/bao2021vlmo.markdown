@@ -8,7 +8,7 @@ year: 2021
 bibkey: bao2021vlmo
 citations: 288
 additional_links: [{name: Code, url: 'https://aka.ms/vlmo'}, {name: Paper, url: 'https://arxiv.org/abs/2111.02358'}]
-tags: ["Image Retrieval", "Multimodal Retrieval", "Scalability"]
+tags: ["Scalability", "Text Retrieval"]
 short_authors: Bao et al.
 ---
 We present a unified Vision-Language pretrained Model (VLMo) that jointly

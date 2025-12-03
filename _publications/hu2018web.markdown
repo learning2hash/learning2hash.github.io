@@ -9,7 +9,7 @@ year: 2018
 bibkey: hu2018web
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.04914'}]
-tags: ["Image Retrieval", "KDD", "Large Scale Search", "Scalability"]
+tags: ["Image Retrieval", "KDD", "Large Scale Search", "Neural Hashing", "Scalability"]
 short_authors: Hu et al.
 ---
 In this paper, we introduce a web-scale general visual search system deployed

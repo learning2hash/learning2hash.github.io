@@ -7,7 +7,7 @@ year: 2023
 bibkey: zhou2023image
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.05993'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Zhou et al.
 ---
 We study the image-based geolocalization problem, aiming to localize

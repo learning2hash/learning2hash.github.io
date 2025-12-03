@@ -8,7 +8,7 @@ year: 2024
 bibkey: islam2024spatially
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.06593'}]
-tags: ["Datasets", "Distance Metric Learning", "Similarity Search"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Similarity Search"]
 short_authors: Islam et al.
 ---
 Spatial optimization is often overlooked in many computer vision tasks.

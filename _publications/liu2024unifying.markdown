@@ -8,7 +8,7 @@ year: 2024
 bibkey: liu2024unifying
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.16769'}]
-tags: ["Efficiency", "Multimodal Retrieval", "Text Retrieval", "Video Retrieval"]
+tags: ["Efficiency", "Evaluation", "Text Retrieval", "Tools & Libraries"]
 short_authors: Liu et al.
 ---
 In video-text retrieval, most existing methods adopt the dual-encoder

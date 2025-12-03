@@ -8,7 +8,7 @@ year: 2022
 bibkey: miranda2022multi
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.09255'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Memory Efficiency", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Memory Efficiency"]
 short_authors: Miranda et al.
 ---
 The distributed representation of symbols is one of the key technologies in

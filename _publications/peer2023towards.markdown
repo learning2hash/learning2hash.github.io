@@ -7,7 +7,7 @@ year: 2023
 bibkey: peer2023towards
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.05358'}]
-tags: ["Datasets", "Graph Based ANN", "Re-Ranking", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Supervised", "Unsupervised"]
 short_authors: Marco Peer, Florian Kleber, Robert Sablatnig
 ---
 This paper presents an unsupervised approach for writer retrieval based on

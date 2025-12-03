@@ -8,7 +8,7 @@ year: 2020
 bibkey: treder2020deriving
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.09384'}]
-tags: ["Image Retrieval", "Neural Hashing", "Self-Supervised", "Similarity Search", "Unsupervised"]
+tags: ["Uncategorized"]
 short_authors: Matthias S. Treder, Juan Mayor-Torres, Christoph Teufel
 ---
 Embeddings are an important tool for the representation of word meaning.

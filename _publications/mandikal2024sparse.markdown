@@ -7,7 +7,7 @@ year: 2024
 bibkey: mandikal2024sparse
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.04055'}]
-tags: ["Evaluation", "Hybrid ANN Methods", "Text Retrieval"]
+tags: ["Evaluation", "Neural Hashing", "Text Retrieval"]
 short_authors: Priyanka Mandikal, Raymond Mooney
 ---
 Traditional information retrieval is based on sparse bag-of-words vector

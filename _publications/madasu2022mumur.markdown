@@ -8,7 +8,7 @@ year: 2022
 bibkey: madasu2022mumur
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.11553'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability", "Video Retrieval"]
 short_authors: Madasu et al.
 ---
 Multi-modal retrieval has seen tremendous progress with the development of

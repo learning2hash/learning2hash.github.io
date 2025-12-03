@@ -7,7 +7,7 @@ year: 2018
 bibkey: ahsan2018approximating
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.00158'}]
-tags: ["Large Scale Search", "Neural Hashing", "Similarity Search"]
+tags: ["Uncategorized"]
 short_authors: Hiba Ahsan, Rahul Agrawal
 ---
 Sponsored Search is a major source of revenue for web search engines. Since

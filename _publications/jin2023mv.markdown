@@ -8,7 +8,7 @@ year: 2023
 bibkey: jin2023mv
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.07868'}]
-tags: ["Memory Efficiency", "Multimodal Retrieval", "Video Retrieval"]
+tags: ["Evaluation", "Memory Efficiency", "Text Retrieval"]
 short_authors: Jin et al.
 ---
 State-of-the-art video-text retrieval (VTR) methods typically involve fully

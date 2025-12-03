@@ -8,7 +8,7 @@ year: 2023
 bibkey: ali2023evaluating
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.11867'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Re-Ranking"]
 short_authors: Ali et al.
 ---
 We propose a novel taxonomy for bias evaluation of discriminative foundation

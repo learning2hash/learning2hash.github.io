@@ -8,7 +8,7 @@ bibkey: ng2020solar
 citations: 12
 additional_links: [{name: Code, url: 'http://github.com/tonyngjichun/SOLAR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2001.08972'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Neural Hashing"]
 short_authors: Ng et al.
 ---
 Recent works in deep-learning have shown that second-order information is

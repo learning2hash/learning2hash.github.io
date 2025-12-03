@@ -7,7 +7,7 @@ year: 2021
 bibkey: mishra2021scalable
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.09493'}]
-tags: ["Distance Metric Learning", "Self-Supervised", "Unsupervised"]
+tags: ["Datasets", "Distance Metric Learning", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Ravi Shankar Mishra, Kartik Mehta, Nikhil Rasiwasia
 ---
 In this paper, we present SANTA, a scalable framework to automatically

@@ -8,7 +8,7 @@ bibkey: han2022fashionvil
 citations: 37
 additional_links: [{name: Code, url: 'https://github.com/BrandonHanx/mmf'}, {name: Paper,
     url: 'https://arxiv.org/abs/2207.08150'}]
-tags: ["Image Retrieval", "Self-Supervised"]
+tags: ["Image Retrieval", "Scalability", "Self-Supervised", "Tools & Libraries"]
 short_authors: Han et al.
 ---
 Large-scale Vision-and-Language (V+L) pre-training for representation

@@ -7,7 +7,7 @@ year: 2020
 bibkey: zhang2020self
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.03044'}]
-tags: ["Self-Supervised", "Supervised"]
+tags: ["Datasets", "Self-Supervised", "Supervised", "Tools & Libraries"]
 short_authors: Xiao Zhang, Michael Maire
 ---
 We create a framework for bootstrapping visual representation learning from a

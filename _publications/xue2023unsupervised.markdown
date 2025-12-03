@@ -8,7 +8,7 @@ year: 2023
 bibkey: xue2023unsupervised
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.09034'}]
-tags: ["Image Retrieval", "Self-Supervised", "Unsupervised"]
+tags: ["Image Retrieval", "Self-Supervised", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Fanglei Xue, Yifan Sun, Yi Yang
 ---
 This paper investigates unsupervised representation learning for facial

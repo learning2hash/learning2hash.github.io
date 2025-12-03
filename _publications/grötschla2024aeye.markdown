@@ -7,7 +7,7 @@ year: 2024
 bibkey: "gr\xF6tschla2024aeye"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.04072'}]
-tags: ["Datasets", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation"]
 short_authors: "Gr\xF6tschla et al."
 ---
 Image datasets serve as the foundation for machine learning models in

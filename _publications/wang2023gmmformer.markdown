@@ -9,7 +9,7 @@ bibkey: wang2023gmmformer
 citations: 7
 additional_links: [{name: Code, url: 'https://github.com/huangmozhi9527/GMMFormer'},
   {name: Paper, url: 'https://arxiv.org/abs/2310.05195'}]
-tags: ["AAAI", "Efficiency", "Video Retrieval"]
+tags: ["AAAI", "Datasets", "Efficiency", "Scalability", "Video Retrieval"]
 short_authors: Wang et al.
 ---
 Given a text query, partially relevant video retrieval (PRVR) seeks to find

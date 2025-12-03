@@ -8,7 +8,7 @@ year: 2023
 bibkey: carvalho2023self
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.12134'}]
-tags: ["Evaluation", "Multimodal Retrieval", "Self-Supervised"]
+tags: ["Evaluation", "Self-Supervised", "Supervised"]
 short_authors: "Luis Carvalho, Tobias Wash\xFCttl, Gerhard Widmer"
 ---
 Linking sheet music images to audio recordings remains a key problem for the

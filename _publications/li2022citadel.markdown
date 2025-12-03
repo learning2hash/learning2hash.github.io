@@ -10,7 +10,7 @@ bibkey: li2022citadel
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/facebookresearch/dpr-scale'},
   {name: Paper, url: 'https://arxiv.org/abs/2211.10411'}]
-tags: ["Efficiency", "Evaluation", "Large Scale Search", "Similarity Search"]
+tags: ["Evaluation"]
 short_authors: Li et al.
 ---
 Multi-vector retrieval methods combine the merits of sparse (e.g. BM25) and

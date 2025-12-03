@@ -8,7 +8,7 @@ year: 2016
 bibkey: bansal2016extraction
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.02687'}]
-tags: ["Efficiency", "Graph Based ANN", "Image Retrieval", "Similarity Search"]
+tags: ["Graph Based ANN"]
 short_authors: Anukriti Bansal, Sumantra Dutta Roy, Gaurav Harit
 ---
 Layouts and sub-layouts constitute an important clue while searching a

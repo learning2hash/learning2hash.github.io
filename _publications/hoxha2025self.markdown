@@ -8,7 +8,7 @@ bibkey: hoxha2025self
 citations: 0
 additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/cross-modal-text-tsir'},
   {name: Paper, url: 'https://arxiv.org/abs/2501.19043'}]
-tags: ["Efficiency", "Image Retrieval", "Multimodal Retrieval", "Self-Supervised"]
+tags: ["Efficiency", "Evaluation", "Self-Supervised", "Supervised"]
 short_authors: "Genc Hoxha, Oliv\xE9r Angyal, Beg\xFCm Demir"
 ---
 The development of image time series retrieval (ITSR) methods is a growing

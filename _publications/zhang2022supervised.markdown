@@ -7,7 +7,7 @@ year: 2022
 bibkey: zhang2022supervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.14523'}]
-tags: ["Hashing Methods", "Neural Hashing", "Quantization", "Similarity Search", "Supervised"]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Neural Hashing", "Supervised"]
 short_authors: Zhang et al.
 ---
 Case-based Reasoning (CBR) on high-dimensional and heterogeneous data is a

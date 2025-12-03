@@ -8,7 +8,7 @@ year: 2021
 bibkey: arora2021low
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.08737'}]
-tags: ["Datasets", "EMNLP", "Evaluation", "Unsupervised"]
+tags: ["Datasets", "EMNLP", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: "Akhil Arora, Alberto Garc\xEDa-Dur\xE1n, Robert West"
 ---
 Entity linking is an important problem with many applications. Most previous

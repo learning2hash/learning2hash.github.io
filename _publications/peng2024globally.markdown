@@ -9,7 +9,7 @@ bibkey: peng2024globally
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/PWenJay/GCA-HNG'}, {name: Paper,
     url: 'https://arxiv.org/abs/2411.13145'}]
-tags: ["Distance Metric Learning", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Peng et al.
 ---
 Hard negative generation aims to generate informative negative samples that

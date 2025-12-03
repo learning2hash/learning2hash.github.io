@@ -7,7 +7,7 @@ year: 2016
 bibkey: zhu2016deep
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.07715'}]
-tags: ["Datasets", "Efficiency", "Video Retrieval"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Scalability", "Tools & Libraries"]
 short_authors: Zhu et al.
 ---
 Deep convolutional neutral networks have achieved great success on image

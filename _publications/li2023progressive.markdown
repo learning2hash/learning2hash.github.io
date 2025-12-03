@@ -8,7 +8,7 @@ year: 2023
 bibkey: li2023progressive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.11994'}]
-tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability", "Text Retrieval"]
 short_authors: Li et al.
 ---
 Text-Pedestrian Image Retrieval aims to use the text describing pedestrian

@@ -8,7 +8,7 @@ year: 2018
 bibkey: sablayrolles2018spreading
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.03198'}]
-tags: ["Distance Metric Learning", "Quantization", "Similarity Search"]
+tags: ["Distance Metric Learning", "Evaluation", "Quantization", "Similarity Search"]
 short_authors: Sablayrolles et al.
 ---
 Discretizing multi-dimensional data distributions is a fundamental step of

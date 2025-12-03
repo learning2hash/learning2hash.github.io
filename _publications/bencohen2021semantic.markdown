@@ -7,7 +7,7 @@ year: 2021
 bibkey: bencohen2021semantic
 citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.05926'}]
-tags: ["Few Shot & Zero Shot", "ICCV", "Image Retrieval"]
+tags: ["Datasets", "Few Shot & Zero Shot", "ICCV", "Image Retrieval"]
 short_authors: Ben-Cohen et al.
 ---
 Training a neural network model for recognizing multiple labels associated

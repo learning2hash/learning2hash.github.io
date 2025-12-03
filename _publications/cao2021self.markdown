@@ -8,7 +8,7 @@ year: 2021
 bibkey: cao2021self
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.12493'}]
-tags: ["Self-Supervised", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised", "Video Retrieval"]
 short_authors: Cao et al.
 ---
 This paper introduces a novel self-supervised method that leverages

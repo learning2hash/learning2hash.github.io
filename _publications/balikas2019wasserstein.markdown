@@ -7,7 +7,7 @@ year: 2019
 bibkey: balikas2019wasserstein
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.11005'}]
-tags: ["Evaluation", "Text Retrieval"]
+tags: ["Evaluation", "Text Retrieval", "Tools & Libraries"]
 short_authors: Georgios Balikas, Ioannis Partalas
 ---
 Word embeddings are high dimensional vector representations of words that

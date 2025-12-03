@@ -9,7 +9,7 @@ bibkey: "\xF1anculef2020self"
 citations: 5
 additional_links: [{name: Code, url: 'https://github.com/amacaluso/SSB-VAE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2007.08799'}]
-tags: ["Hashing Methods", "Neural Hashing", "Self-Supervised", "Similarity Search", "Supervised"]
+tags: ["Hashing Methods", "Self-Supervised", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: "\xD1anculef et al."
 ---
 Semantic hashing is an emerging technique for large-scale similarity search

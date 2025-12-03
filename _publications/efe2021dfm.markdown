@@ -8,7 +8,7 @@ year: 2021
 bibkey: efe2021dfm
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.07791'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval", "Similarity Search"]
+tags: ["CVPR", "Datasets", "Evaluation"]
 short_authors: Ufuk Efe, Kutalmis Gokalp Ince, A. Aydin Alatan
 ---
 A novel image matching method is proposed that utilizes learned features

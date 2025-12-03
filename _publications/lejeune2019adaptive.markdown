@@ -7,7 +7,7 @@ year: 2019
 bibkey: lejeune2019adaptive
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.09465'}]
-tags: ["Efficiency", "Scalability", "Similarity Search", "Tree Based ANN"]
+tags: ["Efficiency"]
 short_authors: Daniel Lejeune, Richard G. Baraniuk, Reinhard Heckel
 ---
 Algorithms often carry out equally many computations for "easy" and "hard"

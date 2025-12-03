@@ -7,7 +7,7 @@ year: 2020
 bibkey: witherspoon2020seec
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.13298'}]
-tags: ["Datasets", "Unsupervised"]
+tags: ["Datasets", "Supervised", "Unsupervised"]
 short_authors: Witherspoon et al.
 ---
 Semantic vector embedding techniques have proven useful in learning semantic

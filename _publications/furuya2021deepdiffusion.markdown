@@ -9,7 +9,7 @@ bibkey: furuya2021deepdiffusion
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/takahikof/DeepDiffusion'},
   {name: Paper, url: 'https://arxiv.org/abs/2112.07082'}]
-tags: ["Distance Metric Learning", "Evaluation", "Unsupervised"]
+tags: ["Distance Metric Learning", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: Takahiko Furuya, Ryutarou Ohbuchi
 ---
 Unsupervised learning of feature representations is a challenging yet

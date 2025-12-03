@@ -8,7 +8,7 @@ year: 2016
 bibkey: "mor\xE8re2016group"
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1601.02093'}]
-tags: ["Evaluation", "Image Retrieval", "Quantization", "Robustness"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Quantization", "Robustness"]
 short_authors: "Mor\xE8re et al."
 ---
 Most image instance retrieval pipelines are based on comparison of vectors

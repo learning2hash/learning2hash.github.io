@@ -8,7 +8,7 @@ year: 2024
 bibkey: li2024mixed
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.20305'}]
-tags: ["Memory Efficiency", "Quantization", "Recommender Systems"]
+tags: ["Datasets", "Evaluation", "Memory Efficiency", "Quantization", "Recommender Systems"]
 short_authors: Li et al.
 ---
 Embedding techniques have become essential components of large databases in

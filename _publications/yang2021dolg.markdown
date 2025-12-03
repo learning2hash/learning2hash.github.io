@@ -9,7 +9,7 @@ year: 2021
 bibkey: yang2021dolg
 citations: 125
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.02927'}]
-tags: ["ICCV", "Image Retrieval", "Similarity Search"]
+tags: ["Datasets", "Evaluation", "ICCV", "Image Retrieval", "Similarity Search"]
 short_authors: Yang et al.
 ---
 Image Retrieval is a fundamental task of obtaining images similar to the

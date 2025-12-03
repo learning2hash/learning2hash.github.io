@@ -7,7 +7,7 @@ year: 2016
 bibkey: do2016embedding
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.06914'}]
-tags: ["Evaluation", "Image Retrieval", "Large Scale Search", "Scalability"]
+tags: ["Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Thanh-Toan Do, Ngai-Man Cheung
 ---
 The objective of this paper is to design an embedding method that maps local

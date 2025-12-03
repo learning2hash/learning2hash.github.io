@@ -9,7 +9,7 @@ year: 2021
 bibkey: kordopatiszilos2021leveraging
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.07645'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Kordopatis-Zilos et al.
 ---
 In this paper, we address the problem of global-scale image geolocation,

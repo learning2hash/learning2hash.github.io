@@ -8,7 +8,7 @@ year: 2024
 bibkey: lahajal2024enhancing
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.13613'}]
-tags: ["Few Shot & Zero Shot", "Image Retrieval", "Survey Paper"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Scalability"]
 short_authors: Naresh Kumar Lahajal, Harini S
 ---
 Photo search, the task of retrieving images based on textual queries, has

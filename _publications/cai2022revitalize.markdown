@@ -10,7 +10,7 @@ bibkey: cai2022revitalize
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/showlab/DemoVLP'}, {name: Paper,
     url: 'https://arxiv.org/abs/2203.07720'}]
-tags: ["Datasets", "Efficiency"]
+tags: ["Datasets", "Efficiency", "Evaluation"]
 short_authors: Cai et al.
 ---
 Recent dominant methods for video-language pre-training (VLP) learn

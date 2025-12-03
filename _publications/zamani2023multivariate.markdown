@@ -8,7 +8,7 @@ year: 2023
 bibkey: zamani2023multivariate
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.14522'}]
-tags: ["Datasets", "Efficiency", "SIGIR"]
+tags: ["Datasets", "Efficiency", "SIGIR", "Tools & Libraries"]
 short_authors: Hamed Zamani, Michael Bendersky
 ---
 Dense retrieval models use bi-encoder network architectures for learning

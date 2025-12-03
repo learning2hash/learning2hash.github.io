@@ -7,7 +7,7 @@ year: 2017
 bibkey: ji2017semantic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.07692'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Ji et al.
 ---
 A typical pipeline for Zero-Shot Learning (ZSL) is to integrate the visual

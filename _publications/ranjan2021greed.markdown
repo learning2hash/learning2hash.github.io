@@ -8,7 +8,7 @@ year: 2021
 bibkey: ranjan2021greed
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.13143'}]
-tags: ["Distance Metric Learning", "Efficiency", "Graph Based ANN"]
+tags: ["Datasets", "Tools & Libraries"]
 short_authors: Ranjan et al.
 ---
 Among various distance functions for graphs, graph and subgraph edit

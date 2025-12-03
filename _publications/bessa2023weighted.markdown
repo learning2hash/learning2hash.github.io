@@ -9,7 +9,7 @@ year: 2023
 bibkey: bessa2023weighted
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.05811'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Bessa et al.
 ---
 We present a new approach for computing compact sketches that can be used to

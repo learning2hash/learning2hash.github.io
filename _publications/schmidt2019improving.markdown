@@ -7,7 +7,7 @@ year: 2019
 bibkey: schmidt2019improving
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.09875'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: ["Distance Metric Learning", "Evaluation", "Survey Paper"]
 short_authors: Craig W. Schmidt
 ---
 We examine a number of methods to compute a dense vector embedding for a

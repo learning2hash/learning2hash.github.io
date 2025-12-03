@@ -8,7 +8,7 @@ year: 2017
 bibkey: manek2017pruning
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.05455'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
 short_authors: Manek et al.
 ---
 In this work, we focus on the problem of image instance retrieval with deep

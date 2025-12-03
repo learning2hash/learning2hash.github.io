@@ -7,7 +7,7 @@ year: 2024
 bibkey: bhatnagar2024piecewise
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.14977'}]
-tags: ["Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval", "Unsupervised"]
+tags: ["Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Shubhang Bhatnagar, Narendra Ahuja
 ---
 Unsupervised deep metric learning (UDML) focuses on learning a semantic

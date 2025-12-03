@@ -8,7 +8,7 @@ year: 2021
 bibkey: qiu2021unsupervised
 citations: 66
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.06138'}]
-tags: ["AAAI", "Hashing Methods", "IJCAI", "Self-Supervised", "Unsupervised"]
+tags: ["Datasets", "Hashing Methods", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Qiu et al.
 ---
 Many unsupervised hashing methods are implicitly established on the idea of

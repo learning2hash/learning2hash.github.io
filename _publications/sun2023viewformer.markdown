@@ -7,7 +7,7 @@ year: 2023
 bibkey: sun2023viewformer
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.00161'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Sun et al.
 ---
 This paper presents ViewFormer, a simple yet effective model for multi-view

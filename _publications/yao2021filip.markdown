@@ -8,7 +8,7 @@ year: 2021
 bibkey: yao2021filip
 citations: 205
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.07783'}]
-tags: ["Datasets", "Efficiency", "Few Shot & Zero Shot", "Unsupervised"]
+tags: ["Efficiency", "Few Shot & Zero Shot", "Supervised", "Text Retrieval", "Unsupervised"]
 short_authors: Yao et al.
 ---
 Unsupervised large-scale vision-language pre-training has shown promising

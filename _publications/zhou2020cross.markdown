@@ -7,7 +7,7 @@ year: 2020
 bibkey: zhou2020cross
 citations: 116
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.16673'}]
-tags: ["Graph Based ANN", "Supervised"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Zhou et al.
 ---
 Non-local self-similarity in natural images has been well studied as an

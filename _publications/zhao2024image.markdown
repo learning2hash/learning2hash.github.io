@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhao2024image
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.07548'}]
-tags: ["CVPR", "Evaluation", "Quantization"]
+tags: ["Evaluation", "Quantization"]
 short_authors: "Yue Zhao, Yuanjun Xiong, Philipp Kr\xE4henb\xFChl"
 ---
 We propose a new transformer-based image and video tokenizer with Binary

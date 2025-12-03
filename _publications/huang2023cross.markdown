@@ -8,7 +8,7 @@ year: 2023
 bibkey: huang2023cross
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.13400'}]
-tags: ["Re-Ranking", "Text Retrieval", "Unsupervised"]
+tags: ["Uncategorized"]
 short_authors: Zhiqi Huang, Puxuan Yu, James Allan
 ---
 In this paper, we introduce the approach behind our submission for the MIRACL

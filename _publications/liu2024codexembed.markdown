@@ -9,7 +9,7 @@ year: 2024
 bibkey: liu2024codexembed
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.12644'}]
-tags: ["Scalability", "Text Retrieval", "Tools & Libraries"]
+tags: ["Evaluation", "Scalability", "Text Retrieval", "Tools & Libraries"]
 short_authors: Liu et al.
 ---
 Despite the success of text retrieval in many NLP tasks, code retrieval

@@ -9,7 +9,7 @@ bibkey: xiao2025mieb
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/embeddings-benchmark/mteb'},
   {name: Paper, url: 'https://arxiv.org/abs/2504.10471'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Xiao et al.
 ---
 Image representations are often evaluated through disjointed, task-specific

@@ -8,7 +8,7 @@ year: 2020
 bibkey: sun2020multi
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.00267'}]
-tags: ["Recommender Systems", "Tools & Libraries"]
+tags: ["Evaluation", "Neural Hashing", "Recommender Systems", "Tools & Libraries"]
 short_authors: Sun et al.
 ---
 Personalized recommendation is ubiquitous, playing an important role in many

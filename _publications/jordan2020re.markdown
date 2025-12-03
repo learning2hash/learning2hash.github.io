@@ -8,7 +8,7 @@ year: 2020
 bibkey: jordan2020re
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.07101'}]
-tags: ["Datasets", "Re-Ranking"]
+tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Neural Hashing", "Re-Ranking"]
 short_authors: Jordan et al.
 ---
 Automatic writer identification is a common problem in document analysis.

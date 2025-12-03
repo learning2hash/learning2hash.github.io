@@ -8,7 +8,7 @@ year: 2021
 bibkey: ding2021dynamic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.12315'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Hashing Methods"]
 short_authors: Ding et al.
 ---
 Spatial-temporal local binary pattern (STLBP) has been widely used in dynamic

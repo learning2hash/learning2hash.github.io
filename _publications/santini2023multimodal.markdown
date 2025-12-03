@@ -8,7 +8,7 @@ year: 2023
 bibkey: santini2023multimodal
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.16529'}]
-tags: ["Image Retrieval", "Large Scale Search", "Multimodal Retrieval"]
+tags: ["Uncategorized"]
 short_authors: Santini et al.
 ---
 Terminology sources, such as controlled vocabularies, thesauri and

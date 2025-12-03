@@ -7,7 +7,7 @@ year: 2021
 bibkey: schall2021gpr1200
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.13122'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Schall et al.
 ---
 Even though it has extensively been shown that retrieval specific training of

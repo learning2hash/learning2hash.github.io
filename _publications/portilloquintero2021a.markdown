@@ -8,7 +8,7 @@ year: 2021
 bibkey: portilloquintero2021a
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.12443'}]
-tags: ["Evaluation", "Video Retrieval"]
+tags: ["Evaluation", "Tools & Libraries", "Video Retrieval"]
 short_authors: "Jes\xFAs Andr\xE9s Portillo-Quintero, Jos\xE9 Carlos Ortiz-Bayliss,\
   \ Hugo Terashima-Mar\xEDn"
 ---

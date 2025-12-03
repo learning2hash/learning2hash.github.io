@@ -8,7 +8,7 @@ year: 2017
 bibkey: nguyen2017automatic
 citations: 59
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.02602'}]
-tags: ["Datasets", "Efficiency"]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Neural Hashing"]
 short_authors: Nguyen et al.
 ---
 The extensive use of social media platforms, especially during disasters,

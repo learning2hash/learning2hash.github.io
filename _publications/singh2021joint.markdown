@@ -8,7 +8,7 @@ year: 2021
 bibkey: singh2021joint
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.10262'}]
-tags: ["Datasets", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Singh et al.
 ---
 Deep learning has shown a great improvement in the performance of visual

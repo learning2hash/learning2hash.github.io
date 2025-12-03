@@ -7,7 +7,7 @@ year: 2018
 bibkey: zhai2018classification
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.12649'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
+tags: ["Compact Codes", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Andrew Zhai, Hao-Yu Wu
 ---
 Deep metric learning aims to learn a function mapping image pixels to

@@ -7,7 +7,7 @@ year: 2018
 bibkey: phillips2018simple
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.11284'}]
-tags: ["Distance Metric Learning", "Evaluation", "Similarity Search"]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: Jeff M. Phillips, Pingfan Tang
 ---
 We develop a new class of distances for objects including lines, hyperplanes,

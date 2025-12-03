@@ -7,7 +7,7 @@ year: 2022
 bibkey: chen2022deep
 citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.04949'}]
-tags: ["Datasets", "Supervised"]
+tags: ["Datasets", "Evaluation", "Supervised"]
 short_authors: Chen et al.
 ---
 Multi-view clustering has attracted much attention thanks to the capacity of

@@ -7,7 +7,7 @@ year: 2022
 bibkey: qin2022adaptive
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.11408'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
+tags: ["Hashing Methods"]
 short_authors: Qin et al.
 ---
 In this paper, we propose Adam-Hash: an adaptive and dynamic multi-resolution

@@ -10,7 +10,7 @@ bibkey: pan2023boundary
 citations: 7
 additional_links: [{name: Code, url: 'https://github.com/Ashespt/AdvBCT'}, {name: Paper,
     url: 'https://arxiv.org/abs/2305.02610'}]
-tags: ["CVPR", "Evaluation", "Image Retrieval", "Robustness"]
+tags: ["CVPR", "Evaluation", "Image Retrieval", "Robustness", "Scalability"]
 short_authors: Pan et al.
 ---
 Image retrieval plays an important role in the Internet world. Usually, the

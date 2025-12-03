@@ -8,7 +8,7 @@ year: 2017
 bibkey: chandrasekhar2017compression
 citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.04923'}]
-tags: ["Image Retrieval", "Quantization"]
+tags: ["Evaluation", "Quantization"]
 short_authors: Chandrasekhar et al.
 ---
 Image instance retrieval is the problem of retrieving images from a database

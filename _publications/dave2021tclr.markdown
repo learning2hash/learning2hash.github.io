@@ -7,7 +7,7 @@ year: 2021
 bibkey: dave2021tclr
 citations: 139
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.07974'}]
-tags: ["Evaluation", "Self-Supervised", "Video Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Self-Supervised", "Supervised", "Video Retrieval"]
 short_authors: Dave et al.
 ---
 Contrastive learning has nearly closed the gap between supervised and

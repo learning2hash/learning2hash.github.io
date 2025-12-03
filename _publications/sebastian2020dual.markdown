@@ -8,7 +8,7 @@ year: 2020
 bibkey: sebastian2020dual
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.08665'}]
-tags: ["CVPR", "Image Retrieval", "Re-Ranking"]
+tags: ["Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking", "Survey Paper"]
 short_authors: Sebastian et al.
 ---
 Vehicle re-identification plays a crucial role in the management of

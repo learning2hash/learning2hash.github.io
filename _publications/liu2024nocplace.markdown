@@ -9,7 +9,7 @@ year: 2024
 bibkey: liu2024nocplace
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.17159'}]
-tags: ["Datasets", "Image Retrieval", "Robustness"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Scalability"]
 short_authors: Liu et al.
 ---
 Visual Place Recognition (VPR) is crucial in computer vision, aiming to

@@ -7,7 +7,7 @@ year: 2017
 bibkey: do2017simultaneous
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.00860'}]
-tags: ["CVPR", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability"]
+tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval"]
 short_authors: Do et al.
 ---
 In most state-of-the-art hashing-based visual search systems, local image

@@ -7,7 +7,7 @@ year: 2024
 bibkey: qu2024tokenrec
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.10450'}]
-tags: ["Evaluation", "Quantization", "Recommender Systems", "Scalability"]
+tags: ["Evaluation", "Recommender Systems", "Scalability", "Similarity Search", "Tools & Libraries"]
 short_authors: Qu et al.
 ---
 There is a growing interest in utilizing large-scale language models (LLMs)

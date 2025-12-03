@@ -8,7 +8,7 @@ year: 2017
 bibkey: ferdowsi2017sparse
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.07675'}]
-tags: ["Compact Codes", "Similarity Search"]
+tags: ["Compact Codes", "Scalability", "Similarity Search"]
 short_authors: Ferdowsi et al.
 ---
 This paper addresses the problem of Approximate Nearest Neighbor (ANN) search

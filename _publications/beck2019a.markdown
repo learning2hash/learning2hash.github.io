@@ -9,7 +9,7 @@ year: 2019
 bibkey: beck2019a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.03833'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Unsupervised"]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Supervised", "Unsupervised"]
 short_authors: Beck et al.
 ---
 In this paper we target the class of modal clustering methods where clusters

@@ -8,7 +8,7 @@ year: 2024
 bibkey: zhou2024cross
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.13705'}]
-tags: ["Efficiency", "Image Retrieval", "Interspeech", "Multimodal Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Image Retrieval", "Interspeech"]
 short_authors: Zhou et al.
 ---
 The success of speech-image retrieval relies on establishing an effective

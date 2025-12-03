@@ -7,7 +7,7 @@ year: 2016
 bibkey: dorfer2016towards
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.05070'}]
-tags: ["Audio Retrieval", "Multimodal Retrieval"]
+tags: ["Uncategorized"]
 short_authors: Matthias Dorfer, Andreas Arzt, Gerhard Widmer
 ---
 This paper demonstrates the feasibility of learning to retrieve short

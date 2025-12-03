@@ -7,7 +7,7 @@ year: 2023
 bibkey: qin2023online
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.01030'}]
-tags: ["Distance Metric Learning", "Efficiency"]
+tags: ["Uncategorized"]
 short_authors: Lianke Qin, Aravind Reddy, Zhao Song
 ---
 Mahalanobis metrics are widely used in machine learning in conjunction with

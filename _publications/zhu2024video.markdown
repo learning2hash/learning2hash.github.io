@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhu2024video
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.02335'}]
-tags: ["Datasets", "Evaluation", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Scalability", "Text Retrieval", "Video Retrieval"]
 short_authors: Zhu et al.
 ---
 Though pre-training vision-language models have demonstrated significant

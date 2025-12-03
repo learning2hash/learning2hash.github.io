@@ -9,7 +9,7 @@ bibkey: vouitsis2023data
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/layer6ai-labs/fusemix'},
   {name: Paper, url: 'https://arxiv.org/abs/2312.10144'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval", "Scalability"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Vouitsis et al.
 ---
 The goal of multimodal alignment is to learn a single latent space that is

@@ -7,7 +7,7 @@ year: 2020
 bibkey: li2020hamming
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.10874'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Li et al.
 ---
 Recently, inspired by Transformer, self-attention-based scene text

@@ -7,7 +7,7 @@ year: 2016
 bibkey: liu2016ordinal
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.06362'}]
-tags: ["Evaluation", "Graph Based ANN", "Hashing Methods", "Image Retrieval", "Scalability"]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Hashing Methods", "Image Retrieval"]
 short_authors: Liu et al.
 ---
 Recent years have witnessed extensive attention in binary code learning,

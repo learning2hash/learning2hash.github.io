@@ -9,7 +9,7 @@ year: 2024
 bibkey: koukounas2024jina
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.20204'}]
-tags: ["Efficiency", "Multimodal Retrieval", "Text Retrieval"]
+tags: ["Efficiency", "Evaluation", "Text Retrieval"]
 short_authors: Koukounas et al.
 ---
 Contrastive Language-Image Pretraining (CLIP) is widely used to train models

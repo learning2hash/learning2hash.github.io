@@ -9,7 +9,7 @@ bibkey: halbe2024grounding
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/shaunak27/grain-clip'}, {
     name: Paper, url: 'https://arxiv.org/abs/2412.04429'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Scalability"]
 short_authors: Halbe et al.
 ---
 Vision-language models (VLMs) like CLIP have been cherished for their ability

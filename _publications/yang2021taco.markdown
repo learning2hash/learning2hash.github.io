@@ -7,7 +7,7 @@ year: 2021
 bibkey: yang2021taco
 citations: 102
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.09980'}]
-tags: ["Evaluation", "ICCV", "Self-Supervised", "Video Retrieval"]
+tags: ["Distance Metric Learning", "Evaluation", "ICCV", "Self-Supervised", "Video Retrieval"]
 short_authors: Jianwei Yang, Yonatan Bisk, Jianfeng Gao
 ---
 Contrastive learning has been widely used to train transformer-based

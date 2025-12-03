@@ -10,7 +10,7 @@ bibkey: qi2021gren
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/qibaolian/GREN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2107.06442'}]
-tags: ["Datasets", "Graph Based ANN", "Supervised"]
+tags: ["Datasets", "Supervised"]
 short_authors: Qi et al.
 ---
 Locating diseases in chest X-ray images with few careful annotations saves

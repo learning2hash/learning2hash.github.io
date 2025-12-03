@@ -7,7 +7,7 @@ year: 2017
 bibkey: jun2017scalable
 citations: 41
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.00136'}]
-tags: ["Hashing Methods", "Memory Efficiency", "Scalability"]
+tags: ["Hashing Methods"]
 short_authors: Jun et al.
 ---
 Generalized Linear Bandits (GLBs), a natural extension of the stochastic

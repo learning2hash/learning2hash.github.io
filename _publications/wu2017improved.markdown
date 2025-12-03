@@ -7,7 +7,7 @@ year: 2017
 bibkey: wu2017improved
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.01172'}]
-tags: ["Hashing Methods", "Similarity Search"]
+tags: ["Hashing Methods"]
 short_authors: Wu et al.
 ---
 Min-Hash is a popular technique for efficiently estimating the Jaccard

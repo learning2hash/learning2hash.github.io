@@ -10,7 +10,7 @@ year: 2021
 bibkey: fitzgerald2021moleman
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.07352'}]
-tags: ["Evaluation", "Large Scale Search", "Similarity Search", "Supervised"]
+tags: ["Evaluation"]
 short_authors: Fitzgerald et al.
 ---
 We present an instance-based nearest neighbor approach to entity linking. In

@@ -9,7 +9,7 @@ bibkey: meng2021fast
 citations: 14
 additional_links: [{name: Code, url: 'https://github.com/ShannonAI/fast-knn-nmt'},
   {name: Paper, url: 'https://arxiv.org/abs/2105.14528'}]
-tags: ["Efficiency"]
+tags: ["Efficiency", "Evaluation"]
 short_authors: Meng et al.
 ---
 Though nearest neighbor Machine Translation (\(k\)NN-MT)

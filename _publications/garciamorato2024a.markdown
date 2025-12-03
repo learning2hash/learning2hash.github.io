@@ -9,7 +9,7 @@ year: 2024
 bibkey: garciamorato2024a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.13795'}]
-tags: ["Datasets", "Similarity Search"]
+tags: ["Datasets", "Evaluation", "Similarity Search"]
 short_authors: Garcia-Morato et al.
 ---
 Recent studies have explored alternative distance measures for similarity

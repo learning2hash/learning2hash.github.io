@@ -8,7 +8,7 @@ year: 2023
 bibkey: liang2023bridging
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.08316'}]
-tags: ["Distance Metric Learning", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Liang et al.
 ---
 Visible-Infrared person Re-IDentification (VI-ReID) is a challenging

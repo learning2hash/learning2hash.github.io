@@ -8,7 +8,7 @@ bibkey: falcon2022a
 citations: 23
 additional_links: [{name: Code, url: 'https://github.com/aranciokov/FSMMDA_VideoRetrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2208.02080'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Scalability", "Video Retrieval"]
 short_authors: Alex Falcon, Giuseppe Serra, Oswald Lanz
 ---
 Every hour, huge amounts of visual contents are posted on social media and

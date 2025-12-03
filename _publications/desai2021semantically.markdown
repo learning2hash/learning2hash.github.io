@@ -8,7 +8,7 @@ year: 2021
 bibkey: desai2021semantically
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.06124'}]
-tags: ["Locality-Sensitive-Hashing", "Memory Efficiency", "Recommender Systems"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Memory Efficiency"]
 short_authors: Desai et al.
 ---
 Deep learning-based models are utilized to achieve state-of-the-art

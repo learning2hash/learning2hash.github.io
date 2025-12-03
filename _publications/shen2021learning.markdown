@@ -8,7 +8,7 @@ bibkey: shen2021learning
 citations: 3
 additional_links: [{name: Code, url: 'http://imagine.enpc.fr/~shenx/SegSwap/'}, {
     name: Paper, url: 'https://arxiv.org/abs/2110.15904'}]
-tags: ["Datasets", "Evaluation", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: Shen et al.
 ---
 The goal of this work is to efficiently identify visually similar patterns in

@@ -7,7 +7,7 @@ year: 2017
 bibkey: zhu2017part
 citations: 79
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.02145'}]
-tags: ["Distance Metric Learning", "Efficiency", "Hashing Methods", "Neural Hashing", "Scalability"]
+tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Hashing Methods", "Neural Hashing"]
 short_authors: Zhu et al.
 ---
 Large-scale is a trend in person re-identification (re-id). It is important

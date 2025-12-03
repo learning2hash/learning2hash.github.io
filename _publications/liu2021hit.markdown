@@ -7,7 +7,7 @@ year: 2021
 bibkey: liu2021hit
 citations: 121
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.15049'}]
-tags: ["ICCV", "Multimodal Retrieval", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "ICCV", "Scalability", "Text Retrieval"]
 short_authors: Liu et al.
 ---
 Video-Text Retrieval has been a hot research topic with the growth of

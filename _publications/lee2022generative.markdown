@@ -8,7 +8,7 @@ year: 2022
 bibkey: lee2022generative
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.13596'}]
-tags: ["Datasets", "EMNLP", "Text Retrieval"]
+tags: ["Datasets", "EMNLP", "Evaluation", "Text Retrieval"]
 short_authors: Lee et al.
 ---
 A common practice for text retrieval is to use an encoder to map the

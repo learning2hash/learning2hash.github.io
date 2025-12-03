@@ -8,7 +8,7 @@ year: 2017
 bibkey: shenoy2017deduplication
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.05617'}]
-tags: ["Datasets", "Locality-Sensitive-Hashing", "Scalability"]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Shenoy et al.
 ---
 Duplication, whether exact or partial, is a common issue in many datasets. In

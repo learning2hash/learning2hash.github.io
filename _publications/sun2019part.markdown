@@ -7,7 +7,7 @@ year: 2019
 bibkey: sun2019part
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.04144'}]
-tags: ["Distance Metric Learning", "Image Retrieval", "Similarity Search"]
+tags: ["Datasets", "Distance Metric Learning", "Neural Hashing"]
 short_authors: Ya Sun, Minxian Li, Jianfeng Lu
 ---
 Due to the enormous requirement in public security and intelligent

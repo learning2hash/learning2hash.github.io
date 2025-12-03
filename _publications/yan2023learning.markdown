@@ -8,7 +8,7 @@ year: 2023
 bibkey: yan2023learning
 citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.11210'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval", "Supervised"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Supervised"]
 short_authors: Yan et al.
 ---
 Text-to-image person re-identification (TIReID) retrieves pedestrian images

@@ -8,7 +8,7 @@ year: 2021
 bibkey: wei2021pp
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.00775'}]
-tags: ["Distance Metric Learning", "Quantization"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Neural Hashing", "Quantization"]
 short_authors: Wei et al.
 ---
 In recent years, image recognition applications have developed rapidly. A

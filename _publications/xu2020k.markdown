@@ -7,7 +7,7 @@ year: 2020
 bibkey: xu2020k
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.13310'}]
-tags: ["Self-Supervised", "Unsupervised"]
+tags: ["Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Haohang Xu, Hongkai Xiong, Guo-Jun Qi
 ---
 In this paper, we propose the \(K\)-Shot Contrastive Learning (KSCL) of visual

@@ -8,7 +8,7 @@ year: 2021
 bibkey: wang2021fully
 citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.04607'}]
-tags: ["CIKM", "Recommender Systems"]
+tags: ["CIKM", "Datasets", "Evaluation", "Recommender Systems"]
 short_authors: Wang et al.
 ---
 Recently, Graph Convolution Network (GCN) based methods have achieved

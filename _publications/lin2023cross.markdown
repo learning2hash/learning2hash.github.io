@@ -7,7 +7,7 @@ year: 2023
 bibkey: lin2023cross
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.01745'}]
-tags: ["Image Retrieval", "Multimodal Retrieval"]
+tags: ["Uncategorized"]
 short_authors: Lin et al.
 ---
 Text-to-image person re-identification (ReID) aims to retrieve images of a

@@ -9,7 +9,7 @@ bibkey: zhan2024sfm
 citations: 0
 additional_links: [{name: Code, url: 'http://yifeiyu225.github.io/on-the-flySfMv2.github.io/'},
   {name: Paper, url: 'https://arxiv.org/abs/2407.03939'}]
-tags: ["Efficiency", "Graph Based ANN"]
+tags: ["Efficiency", "Evaluation", "Graph Based ANN"]
 short_authors: Zhan et al.
 ---
 In the last twenty years, Structure from Motion (SfM) has been a constant

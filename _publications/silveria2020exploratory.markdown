@@ -7,7 +7,7 @@ year: 2020
 bibkey: silveria2020exploratory
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.11198'}]
-tags: ["Large Scale Search", "Similarity Search", "Text Retrieval", "Unsupervised"]
+tags: ["Uncategorized"]
 short_authors: Austin Silveria
 ---
 Exploratory search aims to guide users through a corpus rather than

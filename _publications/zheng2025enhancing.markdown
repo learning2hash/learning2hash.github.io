@@ -10,7 +10,7 @@ year: 2025
 bibkey: zheng2025enhancing
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.02137'}]
-tags: ["Hashing Methods", "Recommender Systems"]
+tags: ["Evaluation", "Hashing Methods", "Recommender Systems"]
 short_authors: Zheng et al.
 ---
 The exponential growth of online content has posed significant challenges to

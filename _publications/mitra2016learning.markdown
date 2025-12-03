@@ -8,7 +8,7 @@ year: 2016
 bibkey: mitra2016learning
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.08136'}]
-tags: ["Neural Hashing", "Re-Ranking", "Similarity Search", "Text Retrieval"]
+tags: ["Uncategorized"]
 short_authors: Bhaskar Mitra, Fernando Diaz, Nick Craswell
 ---
 Models such as latent semantic analysis and those based on neural embeddings

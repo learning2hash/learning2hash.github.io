@@ -8,7 +8,7 @@ year: 2021
 bibkey: yuan2021multimodal
 citations: 151
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.12836'}]
-tags: ["CVPR", "Distance Metric Learning", "Multimodal Retrieval"]
+tags: ["CVPR", "Datasets", "Distance Metric Learning", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Yuan et al.
 ---
 We develop an approach to learning visual representations that embraces

@@ -7,7 +7,7 @@ year: 2017
 bibkey: li2017deep
 citations: 163
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.10999'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised", "Video Retrieval"]
 short_authors: Li et al.
 ---
 With the rapid growth of image and video data on the web, hashing has been

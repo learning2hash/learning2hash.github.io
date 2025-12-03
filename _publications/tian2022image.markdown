@@ -7,7 +7,7 @@ year: 2022
 bibkey: tian2022image
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.03809'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Yuxin Tian, Shawn Newsam, Kofi Boakye
 ---
 Effective image retrieval with text feedback stands to impact a range of

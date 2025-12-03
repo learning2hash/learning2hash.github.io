@@ -7,7 +7,7 @@ year: 2025
 bibkey: wang2025semi
 citations: 626
 additional_links: [{name: Paper, url: 'http://www.sanjivk.com/SSH_CVPR10.pdf'}]
-tags: ["Hashing Methods", "Image Retrieval", "Scalability", "Supervised", "Unsupervised"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: J. Wang, Kumar, Chang
 ---
 Large scale image search has recently attracted considerable

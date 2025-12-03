@@ -8,7 +8,7 @@ year: 2017
 bibkey: yang2017unsupervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.03507'}]
-tags: ["Recommender Systems", "Robustness", "Unsupervised"]
+tags: ["Recommender Systems", "Robustness", "Supervised", "Unsupervised"]
 short_authors: Jing Yang, Carsten Eickhoff
 ---
 Many social network applications depend on robust representations of

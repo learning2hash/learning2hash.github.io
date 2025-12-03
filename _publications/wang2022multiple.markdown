@@ -7,7 +7,7 @@ year: 2022
 bibkey: wang2022multiple
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.08381'}]
-tags: ["Image Retrieval"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Wang et al.
 ---
 Aerial-view geo-localization tends to determine an unknown position through

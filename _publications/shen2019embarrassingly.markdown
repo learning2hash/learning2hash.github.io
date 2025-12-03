@@ -7,7 +7,7 @@ year: 2019
 bibkey: shen2019embarrassingly
 citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.09573'}]
-tags: ["Compact Codes", "Hashing Methods", "ICCV"]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "ICCV", "Scalability"]
 short_authors: Shen et al.
 ---
 Recent binary representation learning models usually require sophisticated

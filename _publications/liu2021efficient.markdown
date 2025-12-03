@@ -7,7 +7,7 @@ year: 2021
 bibkey: liu2021efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.11426'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Quantization"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Quantization"]
 short_authors: Zichang Liu, Benjamin Coleman, Anshumali Shrivastava
 ---
 Large machine learning models achieve unprecedented performance on various

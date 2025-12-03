@@ -7,7 +7,7 @@ year: 2023
 bibkey: nguyen2023generative
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.11397'}]
-tags: ["Datasets", "SIGIR", "Scalability", "Similarity Search"]
+tags: ["Datasets", "SIGIR"]
 short_authors: Thong Nguyen, Andrew Yates
 ---
 Generative retrieval is a promising new neural retrieval paradigm that aims

@@ -8,7 +8,7 @@ year: 2020
 bibkey: ma2020fine
 citations: 53
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.02814'}]
-tags: ["AAAI", "Re-Ranking"]
+tags: ["AAAI", "Datasets", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Ma et al.
 ---
 This paper strives to learn fine-grained fashion similarity. In this

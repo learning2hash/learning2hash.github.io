@@ -7,7 +7,7 @@ year: 2019
 bibkey: roth2019mic
 citations: 85
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.11574'}]
-tags: ["Distance Metric Learning", "ICCV", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Evaluation", "ICCV", "Image Retrieval"]
 short_authors: "Karsten Roth, Biagio Brattoli, Bj\xF6rn Ommer"
 ---
 Metric learning seeks to embed images of objects suchthat class-defined

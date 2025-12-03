@@ -8,7 +8,7 @@ year: 2023
 bibkey: liu2023learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.16761'}]
-tags: ["Quantization", "Recommender Systems"]
+tags: ["Quantization", "Recommender Systems", "Tools & Libraries"]
 short_authors: Liu et al.
 ---
 Category information plays a crucial role in enhancing the quality and

@@ -8,7 +8,7 @@ year: 2017
 bibkey: zhu2017discrete
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.04047'}]
-tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Robustness"]
+tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods"]
 short_authors: Zhu et al.
 ---
 Mobile landmark search (MLS) recently receives increasing attention for its

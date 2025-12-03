@@ -7,7 +7,7 @@ year: 2022
 bibkey: gong2022vit2hash
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.05541'}]
-tags: ["Hashing Methods", "Image Retrieval", "Quantization", "Unsupervised"]
+tags: ["Datasets", "Hashing Methods", "Quantization", "Supervised", "Unsupervised"]
 short_authors: Gong et al.
 ---
 Unsupervised image hashing, which maps images into binary codes without

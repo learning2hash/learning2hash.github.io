@@ -9,7 +9,7 @@ year: 2017
 bibkey: kiela2017learning
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.06320'}]
-tags: ["Image Retrieval", "Supervised"]
+tags: ["Evaluation", "Image Retrieval", "NAACL", "Supervised"]
 short_authors: Kiela et al.
 ---
 We introduce a variety of models, trained on a supervised image captioning

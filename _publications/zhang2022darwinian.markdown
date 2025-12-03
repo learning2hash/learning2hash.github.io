@@ -8,7 +8,7 @@ year: 2022
 bibkey: zhang2022darwinian
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.06954'}]
-tags: ["Image Retrieval", "Scalability"]
+tags: ["Evaluation", "Scalability"]
 short_authors: Zhang et al.
 ---
 The traditional model upgrading paradigm for retrieval requires recomputing

@@ -10,7 +10,7 @@ bibkey: le2023waver
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/Fsoft-AIC/WAVER'}, {name: Paper,
     url: 'https://arxiv.org/abs/2312.09507'}]
-tags: ["ICASSP", "Multimodal Retrieval", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "ICASSP", "Tools & Libraries", "Video Retrieval"]
 short_authors: Le et al.
 ---
 Text-video retrieval, a prominent sub-field within the domain of multimodal

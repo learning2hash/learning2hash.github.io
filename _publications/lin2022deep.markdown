@@ -8,7 +8,7 @@ year: 2022
 bibkey: lin2022deep
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.09420'}]
-tags: ["AAAI", "Hashing Methods", "Image Retrieval", "Unsupervised"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Lin et al.
 ---
 Deep unsupervised hashing has been appreciated in the regime of image

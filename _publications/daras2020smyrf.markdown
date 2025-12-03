@@ -7,7 +7,7 @@ year: 2020
 bibkey: daras2020smyrf
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.05315'}]
-tags: ["Efficiency", "Locality-Sensitive-Hashing", "Memory Efficiency"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Daras et al.
 ---
 We propose a novel type of balanced clustering algorithm to approximate

@@ -7,7 +7,7 @@ year: 2025
 bibkey: choi2025goal
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.17782'}]
-tags: ["CVPR", "Image Retrieval", "Text Retrieval"]
+tags: ["CVPR", "Evaluation", "Text Retrieval"]
 short_authors: Hyungyu Choi, Young Kyun Jang, Chanho Eom
 ---
 Vision-language models like CLIP have shown impressive capabilities in

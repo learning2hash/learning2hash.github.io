@@ -8,7 +8,7 @@ year: 2024
 bibkey: abootorabi2024clasp
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.13071'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Self-Supervised", "Text Retrieval"]
+tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised", "Text Retrieval"]
 short_authors: Mohammad Mahdi Abootorabi, Ehsaneddin Asgari
 ---
 This study introduces CLASP (Contrastive Language-Speech Pretraining), a

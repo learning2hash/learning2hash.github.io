@@ -7,7 +7,7 @@ year: 2021
 bibkey: ha2021google
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.04619'}]
-tags: ["Image Retrieval", "Similarity Search"]
+tags: ["Re-Ranking"]
 short_authors: Qishen Ha, Bo Liu, Hongwei Zhang
 ---
 We present our solutions to the Google Landmark Challenges 2021, for both the

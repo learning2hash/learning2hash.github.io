@@ -8,7 +8,7 @@ year: 2019
 bibkey: kang2019candidate
 citations: 56
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.05475'}]
-tags: ["Efficiency", "Hashing Methods", "Re-Ranking", "Recommender Systems", "Scalability"]
+tags: ["Compact Codes", "Datasets", "Efficiency", "Re-Ranking", "Recommender Systems"]
 short_authors: Wang-Cheng Kang, Julian McAuley
 ---
 Generating the Top-N recommendations from a large corpus is computationally

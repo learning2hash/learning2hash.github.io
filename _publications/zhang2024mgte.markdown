@@ -10,7 +10,7 @@ year: 2024
 bibkey: zhang2024mgte
 citations: 43
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.19669'}]
-tags: ["EMNLP", "Efficiency", "Re-Ranking", "Self-Supervised", "Text Retrieval"]
+tags: ["Efficiency", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Text Retrieval"]
 short_authors: Zhang et al.
 ---
 We present systematic efforts in building long-context multilingual text

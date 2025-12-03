@@ -7,7 +7,7 @@ year: 2017
 bibkey: cao2017hashnet
 citations: 692
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.00758'}]
-tags: ["Efficiency", "Hashing Methods", "ICCV", "Neural Hashing"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "ICCV", "Neural Hashing"]
 short_authors: Cao et al.
 ---
 Learning to hash has been widely applied to approximate nearest neighbor

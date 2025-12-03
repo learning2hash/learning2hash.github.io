@@ -7,7 +7,7 @@ year: 2019
 bibkey: zhang2019collaborative
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.00623'}]
-tags: ["Image Retrieval", "Multimodal Retrieval", "Quantization", "Similarity Search", "Text Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Hashing Methods", "Quantization", "Similarity Search"]
 short_authors: Ting Zhang, Jingdong Wang
 ---
 Cross-modal similarity search is a problem about designing a search system

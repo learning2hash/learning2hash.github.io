@@ -7,7 +7,7 @@ year: 2016
 bibkey: eghbali2016fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.00574'}]
-tags: ["Hashing Methods", "Similarity Search", "Vector Indexing"]
+tags: ["Compact Codes", "Datasets", "Distance Metric Learning", "Hashing Methods", "Similarity Search"]
 short_authors: Sepehr Eghbali, Ladan Tahvildari
 ---
 Given a large dataset of binary codes and a binary query point, we address

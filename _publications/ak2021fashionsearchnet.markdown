@@ -8,7 +8,7 @@ year: 2021
 bibkey: ak2021fashionsearchnet
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.14145'}]
-tags: ["Distance Metric Learning", "Image Retrieval", "Supervised"]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Supervised"]
 short_authors: Ak et al.
 ---
 The focus of this paper is on the problem of image retrieval with attribute

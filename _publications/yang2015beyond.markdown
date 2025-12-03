@@ -8,7 +8,7 @@ year: 2015
 bibkey: yang2015beyond
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1512.06785'}]
-tags: ["Distance Metric Learning", "Image Retrieval", "Recommender Systems"]
+tags: ["Distance Metric Learning"]
 short_authors: Longqi Yang, Cheng-Kang Hsieh, Deborah Estrin
 ---
 User preference profiling is an important task in modern online social

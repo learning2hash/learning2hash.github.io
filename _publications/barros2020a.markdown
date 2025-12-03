@@ -8,7 +8,7 @@ year: 2020
 bibkey: barros2020a
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.08325'}]
-tags: ["Datasets", "Distance Metric Learning", "Supervised"]
+tags: ["Datasets", "Distance Metric Learning", "Neural Hashing", "Supervised"]
 short_authors: Barros et al.
 ---
 We propose a novel deep metric learning method. Differently from many works

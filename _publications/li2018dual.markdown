@@ -7,7 +7,7 @@ year: 2018
 bibkey: li2018dual
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.08360'}]
-tags: ["Hashing Methods", "Neural Hashing", "Supervised"]
+tags: ["Datasets", "Hashing Methods", "Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Li et al.
 ---
 Due to the impressive learning power, deep learning has achieved a remarkable

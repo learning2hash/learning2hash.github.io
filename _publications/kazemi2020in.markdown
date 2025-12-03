@@ -10,7 +10,7 @@ year: 2020
 bibkey: kazemi2020in
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.07095'}]
-tags: ["Evaluation", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Kazemi et al.
 ---
 Nearest neighbor (NN) search is an essential operation in many applications,

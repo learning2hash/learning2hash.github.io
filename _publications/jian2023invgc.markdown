@@ -8,7 +8,7 @@ bibkey: jian2023invgc
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/yimuwangcs/Better_Cross_Modal_Retrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2310.13276'}]
-tags: ["EMNLP", "Efficiency", "Multimodal Retrieval"]
+tags: ["Datasets", "EMNLP", "Efficiency", "Evaluation", "Multimodal Retrieval"]
 short_authors: Xiangru Jian, Yimu Wang
 ---
 Over recent decades, significant advancements in cross-modal retrieval are

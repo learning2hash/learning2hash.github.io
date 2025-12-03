@@ -8,7 +8,7 @@ year: 2021
 bibkey: torres2021compact
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.10278'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Pablo Torres, Jose M. Saavedra
 ---
 Sketch-based image retrieval (SBIR) has undergone an increasing interest in

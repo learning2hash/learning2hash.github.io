@@ -10,7 +10,7 @@ bibkey: tahmasebzadeh2021geowine
 citations: 8
 additional_links: [{name: Other, url: 'http://cleopatra.ijs.si/geowine/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2104.14994'}]
-tags: ["Multimodal Retrieval", "SIGIR"]
+tags: ["Datasets", "Multimodal Retrieval", "SIGIR"]
 short_authors: Tahmasebzadeh et al.
 ---
 In the context of social media, geolocation inference on news or events has

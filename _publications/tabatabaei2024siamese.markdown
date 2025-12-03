@@ -8,7 +8,7 @@ year: 2024
 bibkey: tabatabaei2024siamese
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.08272'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Neural Hashing"]
 short_authors: Tabatabaei et al.
 ---
 Computer Aid Diagnosis (CAD) has developed digital pathology with Deep

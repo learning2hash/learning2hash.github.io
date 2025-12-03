@@ -8,7 +8,7 @@ year: 2024
 bibkey: sammani2024interpreting
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.13016'}]
-tags: ["Few Shot & Zero Shot"]
+tags: ["Datasets", "Few Shot & Zero Shot"]
 short_authors: Fawaz Sammani, Nikos Deligiannis
 ---
 Contrastive Language-Image Pretraining (CLIP) performs zero-shot image

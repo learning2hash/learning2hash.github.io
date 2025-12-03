@@ -8,7 +8,7 @@ year: 2020
 bibkey: gomez2020retrieval
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.04991'}]
-tags: ["Image Retrieval", "Unsupervised"]
+tags: ["Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Gomez et al.
 ---
 Image to image translation aims to learn a mapping that transforms an image

@@ -8,7 +8,7 @@ bibkey: florek2024efficient
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/morrisfl/UniFEx'}, {name: Paper,
     url: 'https://arxiv.org/abs/2409.13513'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Florek et al.
 ---
 Current image retrieval systems often face domain specificity and

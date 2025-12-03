@@ -7,7 +7,7 @@ year: 2017
 bibkey: ahle2017optimal
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.02054'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Thomas Dybdahl Ahle
 ---
 We show that approximate similarity (near neighbour) search can be solved in

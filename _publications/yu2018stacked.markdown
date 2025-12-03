@@ -7,7 +7,7 @@ year: 2018
 bibkey: yu2018stacked
 citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.08113'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Yu et al.
 ---
 Zero-Shot Learning (ZSL) is achieved via aligning the semantic relationships

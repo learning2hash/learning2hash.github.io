@@ -9,7 +9,7 @@ bibkey: bai2023sentence
 citations: 5
 additional_links: [{name: Code, url: 'https://github.com/chunmeifeng/SPRC'}, {name: Paper,
     url: 'https://arxiv.org/abs/2310.05473'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Bai et al.
 ---
 Composed image retrieval (CIR) is the task of retrieving specific images by

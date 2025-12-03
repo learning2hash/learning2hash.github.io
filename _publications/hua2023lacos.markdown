@@ -7,7 +7,7 @@ year: 2023
 bibkey: hua2023lacos
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.06404'}]
-tags: ["Few Shot & Zero Shot", "Memory Efficiency", "Quantization", "Self-Supervised", "Similarity Search"]
+tags: ["Uncategorized"]
 short_authors: Wen-Yu Hua, Brian Williams, Davood Shamsi
 ---
 Text embeddings are useful features for several NLP applications, such as

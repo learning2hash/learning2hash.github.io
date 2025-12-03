@@ -9,7 +9,7 @@ year: 2021
 bibkey: lin2021pyserini
 citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.10073'}]
-tags: ["Evaluation", "Tools & Libraries"]
+tags: ["Evaluation", "Survey Paper"]
 short_authors: Lin et al.
 ---
 Pyserini is an easy-to-use Python toolkit that supports replicable IR

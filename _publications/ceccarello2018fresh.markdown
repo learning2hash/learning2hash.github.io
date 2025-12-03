@@ -7,7 +7,7 @@ year: 2018
 bibkey: ceccarello2018fresh
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.02350'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Matteo Ceccarello, Anne Driemel, Francesco Silvestri
 ---
 This paper studies the \(r\)-range search problem for curves under the

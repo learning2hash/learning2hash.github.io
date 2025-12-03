@@ -8,7 +8,7 @@ year: 2021
 bibkey: tonellotto2021query
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.10341'}]
-tags: ["Efficiency"]
+tags: ["CIKM", "Efficiency"]
 short_authors: Nicola Tonellotto, Craig MacDonald
 ---
 Recent advances in dense retrieval techniques have offered the promise of

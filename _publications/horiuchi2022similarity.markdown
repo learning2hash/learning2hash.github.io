@@ -7,7 +7,7 @@ year: 2022
 bibkey: horiuchi2022similarity
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.12786'}]
-tags: ["Efficiency", "Similarity Search", "Tools & Libraries"]
+tags: ["Efficiency", "Graph Based ANN", "Similarity Search", "Tools & Libraries"]
 short_authors: Horiuchi et al.
 ---
 Computational notebook software such as Jupyter Notebook is popular for data

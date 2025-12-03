@@ -9,7 +9,7 @@ bibkey: gorti2022x
 citations: 170
 additional_links: [{name: Code, url: 'https://layer6ai-labs.github.io/xpool/'}, {
     name: Paper, url: 'https://arxiv.org/abs/2203.15086'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Multimodal Retrieval", "Video Retrieval"]
+tags: ["CVPR", "Datasets", "Evaluation", "Video Retrieval"]
 short_authors: Gorti et al.
 ---
 In text-video retrieval, the objective is to learn a cross-modal similarity

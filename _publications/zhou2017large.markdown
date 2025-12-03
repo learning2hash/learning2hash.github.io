@@ -7,7 +7,7 @@ year: 2017
 bibkey: zhou2017large
 citations: 74
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.05512'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Neural Hashing"]
 short_authors: Zhou et al.
 ---
 Person re-identification (Re-ID) aims at matching images of the same person

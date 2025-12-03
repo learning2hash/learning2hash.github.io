@@ -9,7 +9,7 @@ year: 2017
 bibkey: icarte2017how
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.08844'}]
-tags: ["Evaluation", "IJCAI", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "IJCAI", "Image Retrieval", "Neural Hashing"]
 short_authors: Icarte et al.
 ---
 The knowledge representation community has built general-purpose ontologies

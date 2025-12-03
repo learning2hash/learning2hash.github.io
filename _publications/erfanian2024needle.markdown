@@ -8,7 +8,7 @@ year: 2024
 bibkey: erfanian2024needle
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.00639'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Mahdi Erfanian, Mohsen Dehghankar, Abolfazl Asudeh
 ---
 Multi-modal datasets, like those involving images, often miss the detailed descriptions that properly capture the rich information encoded in each item. This makes answering complex natural language queries a major challenge in this domain. In particular, unlike the traditional nearest neighbor search, where the tuples and the query are represented as points in a single metric space, these settings involve queries and tuples embedded in fundamentally different spaces, making the traditional query answering methods inapplicable. Existing literature addresses this challenge for image datasets through vector representations jointly trained on natural language and images. This technique, however, underperforms for complex queries due to various reasons.

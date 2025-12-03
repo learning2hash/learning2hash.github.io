@@ -7,7 +7,7 @@ year: 2022
 bibkey: paul2022test
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.09198'}]
-tags: ["Image Retrieval", "Self-Supervised"]
+tags: ["Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Paul et al.
 ---
 Image retrieval under generalized test scenarios has gained significant

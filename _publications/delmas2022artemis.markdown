@@ -8,7 +8,7 @@ year: 2022
 bibkey: delmas2022artemis
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.08101'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Delmas et al.
 ---
 An intuitive way to search for images is to use queries composed of an

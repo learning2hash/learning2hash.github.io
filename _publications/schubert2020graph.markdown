@@ -8,7 +8,7 @@ year: 2020
 bibkey: schubert2020graph
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.14766'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Image Retrieval", "Tools & Libraries"]
 short_authors: Stefan Schubert, Peer Neubert, Peter Protzel
 ---
 Visual place recognition is an important subproblem of mobile robot

@@ -8,7 +8,7 @@ year: 2022
 bibkey: lou2022audio
 citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.13645'}]
-tags: ["Audio Retrieval", "Datasets", "Evaluation", "ICASSP"]
+tags: ["Datasets", "Evaluation", "ICASSP", "Text Retrieval"]
 short_authors: Lou et al.
 ---
 Audio-text retrieval based on natural language descriptions is a challenging

@@ -7,7 +7,7 @@ year: 2022
 bibkey: zhu2022cross
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.03891'}]
-tags: ["Multimodal Retrieval", "Unsupervised"]
+tags: ["Datasets", "Multimodal Retrieval", "Scalability", "Supervised", "Unsupervised"]
 short_authors: Zhu et al.
 ---
 Cross-modal recipe retrieval has attracted research attention in recent

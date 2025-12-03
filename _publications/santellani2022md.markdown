@@ -8,7 +8,7 @@ year: 2022
 bibkey: santellani2022md
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.05350'}]
-tags: ["Unsupervised"]
+tags: ["Supervised", "Unsupervised"]
 short_authors: Santellani et al.
 ---
 Establishing a sparse set of keypoint correspon dences between images is a

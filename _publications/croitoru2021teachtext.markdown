@@ -9,7 +9,7 @@ bibkey: croitoru2021teachtext
 citations: 117
 additional_links: [{name: Code, url: 'https://www.robots.ox.ac.uk/~vgg/research/teachtext/'},
   {name: Paper, url: 'https://arxiv.org/abs/2104.08271'}]
-tags: ["ICCV", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "ICCV", "Scalability", "Video Retrieval"]
 short_authors: Croitoru et al.
 ---
 In recent years, considerable progress on the task of text-video retrieval

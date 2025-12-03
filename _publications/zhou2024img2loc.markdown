@@ -10,7 +10,7 @@ year: 2024
 bibkey: zhou2024img2loc
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.19584'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "SIGIR"]
+tags: ["Datasets", "Evaluation", "SIGIR"]
 short_authors: Zhou et al.
 ---
 Geolocating precise locations from images presents a challenging problem in

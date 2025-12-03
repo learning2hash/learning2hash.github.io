@@ -8,7 +8,7 @@ year: 2017
 bibkey: "cis\u0142ak2017lightweight"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08475'}]
-tags: ["Efficiency", "Hashing Methods", "Similarity Search"]
+tags: ["Efficiency"]
 short_authors: "Aleksander Cis\u0142ak, Szymon Grabowski"
 ---
 We aim to speed up approximate keyword matching by storing a lightweight,

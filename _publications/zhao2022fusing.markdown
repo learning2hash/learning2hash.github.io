@@ -9,7 +9,7 @@ bibkey: zhao2022fusing
 citations: 0
 additional_links: [{name: Code, url: 'https://sailor-z.github.io/projects/Unseen_Object_Pose.html'},
   {name: Paper, url: 'https://arxiv.org/abs/2203.08472'}]
-tags: ["Datasets", "Efficiency", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Datasets", "Efficiency", "Neural Hashing"]
 short_authors: Chen Zhao, Yinlin Hu, Mathieu Salzmann
 ---
 In this paper, we tackle the task of estimating the 3D orientation of

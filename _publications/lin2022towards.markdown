@@ -9,7 +9,7 @@ year: 2022
 bibkey: lin2022towards
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.02082'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Video Retrieval"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Lin et al.
 ---
 Multi-channel video-language retrieval require models to understand

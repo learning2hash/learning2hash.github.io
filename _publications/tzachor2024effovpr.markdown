@@ -8,7 +8,7 @@ year: 2024
 bibkey: tzachor2024effovpr
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.18065'}]
-tags: ["Few Shot & Zero Shot", "Re-Ranking", "Robustness"]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Re-Ranking", "Robustness", "Supervised"]
 short_authors: Tzachor et al.
 ---
 The task of Visual Place Recognition (VPR) is to predict the location of a

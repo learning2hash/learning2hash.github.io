@@ -8,7 +8,7 @@ year: 2021
 bibkey: vasudeva2021loop
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.09335'}]
-tags: ["Distance Metric Learning", "ICCV", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "ICCV", "Image Retrieval"]
 short_authors: Vasudeva et al.
 ---
 Deep metric learning has been effectively used to learn distance metrics for

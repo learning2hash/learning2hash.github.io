@@ -8,7 +8,7 @@ year: 2018
 bibkey: ding2018mean
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.09763'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval"]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Scalability"]
 short_authors: Pak Lun Kevin Ding, Yikang Li, Baoxin Li
 ---
 The research on hashing techniques for visual data is gaining increased

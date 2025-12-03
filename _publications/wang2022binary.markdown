@@ -8,7 +8,7 @@ year: 2022
 bibkey: wang2022binary
 citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.14883'}]
-tags: ["Efficiency", "Hashing Methods", "Similarity Search", "Unsupervised"]
+tags: ["Efficiency", "Hashing Methods", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Wang et al.
 ---
 Unsupervised hashing has attracted much attention for binary representation

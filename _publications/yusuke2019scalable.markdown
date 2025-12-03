@@ -7,7 +7,7 @@ year: 2019
 bibkey: yusuke2019scalable
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.03552'}]
-tags: ["Efficiency", "Image Retrieval", "Scalability", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Yusuke et al.
 ---
 We present a novel scalable framework for image change detection (ICD) from

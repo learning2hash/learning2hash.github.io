@@ -9,7 +9,7 @@ year: 2023
 bibkey: bakkali2023globaldoc
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.05756'}]
-tags: ["Few Shot & Zero Shot", "Image Retrieval", "Robustness", "Self-Supervised"]
+tags: ["Evaluation", "Image Retrieval", "Robustness", "Self-Supervised", "Supervised"]
 short_authors: Bakkali et al.
 ---
 Visual document understanding (VDU) has rapidly advanced with the development

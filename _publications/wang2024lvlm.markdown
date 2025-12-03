@@ -7,7 +7,7 @@ year: 2024
 bibkey: wang2024lvlm
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.06730'}]
-tags: ["Image Retrieval", "Multimodal Retrieval", "Robustness"]
+tags: ["Robustness"]
 short_authors: Wang et al.
 ---
 Visual place recognition (VPR) remains challenging due to significant

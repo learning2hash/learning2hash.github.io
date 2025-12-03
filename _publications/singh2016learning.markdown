@@ -8,7 +8,7 @@ year: 2016
 bibkey: singh2016learning
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.04061'}]
-tags: ["Evaluation", "Hashing Methods", "Recommender Systems", "Video Retrieval"]
+tags: ["Evaluation", "Hashing Methods", "Recommender Systems"]
 short_authors: Singh et al.
 ---
 User-given tags or labels are valuable resources for semantic understanding

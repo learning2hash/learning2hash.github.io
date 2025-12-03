@@ -7,7 +7,7 @@ year: 2023
 bibkey: lu2023attributes
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.06067'}]
-tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Image Retrieval"]
+tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval"]
 short_authors: Lu et al.
 ---
 In recent years, hashing methods have been popular in the large-scale media

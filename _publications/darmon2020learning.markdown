@@ -7,7 +7,7 @@ year: 2020
 bibkey: darmon2020learning
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.10959'}]
-tags: ["Datasets", "Evaluation", "Robustness", "Supervised"]
+tags: ["Datasets", "Evaluation"]
 short_authors: "Fran\xE7ois Darmon, Mathieu Aubry, Pascal Monasse"
 ---
 We tackle the problem of finding accurate and robust keypoint correspondences

@@ -8,7 +8,7 @@ year: 2019
 bibkey: verma2019generative
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.08542'}]
-tags: ["CVPR", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Verma et al.
 ---
 We present a probabilistic model for Sketch-Based Image Retrieval (SBIR)

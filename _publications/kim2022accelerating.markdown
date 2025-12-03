@@ -8,7 +8,7 @@ year: 2022
 bibkey: kim2022accelerating
 citations: 28
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.05241'}]
-tags: ["Evaluation", "Graph Based ANN", "Scalability"]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Scalability"]
 short_authors: Kim et al.
 ---
 K-nearest neighbor search is one of the fundamental tasks in various

@@ -7,7 +7,7 @@ year: 2021
 bibkey: ray2021sublinear
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.09631'}]
-tags: ["Efficiency", "Scalability", "Similarity Search", "Unsupervised"]
+tags: ["Uncategorized"]
 short_authors: Ray et al.
 ---
 We study algorithms for approximating pairwise similarity matrices that arise

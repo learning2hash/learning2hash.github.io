@@ -7,7 +7,7 @@ year: 2017
 bibkey: shrivastava2017optimal
 citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.04664'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods"]
 short_authors: Anshumali Shrivastava
 ---
 Minwise hashing is a fundamental and one of the most successful hashing

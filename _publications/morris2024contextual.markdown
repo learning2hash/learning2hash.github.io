@@ -7,7 +7,7 @@ year: 2024
 bibkey: morris2024contextual
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.02525'}]
-tags: ["Evaluation", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Self-Supervised"]
 short_authors: John X. Morris, Alexander M. Rush
 ---
 Dense document embeddings are central to neural retrieval. The dominant

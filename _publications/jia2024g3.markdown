@@ -9,7 +9,7 @@ year: 2024
 bibkey: jia2024g3
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.14702'}]
-tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Jia et al.
 ---
 Worldwide geolocalization aims to locate the precise location at the

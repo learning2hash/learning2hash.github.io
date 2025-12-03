@@ -7,7 +7,7 @@ year: 2022
 bibkey: wei2022hyperbolic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.08904'}]
-tags: ["Hashing Methods", "Unsupervised"]
+tags: ["Datasets", "Hashing Methods", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Wei et al.
 ---
 Hierarchical semantic structures, naturally existing in real-world datasets,

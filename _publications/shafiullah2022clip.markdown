@@ -9,7 +9,7 @@ bibkey: shafiullah2022clip
 citations: 11
 additional_links: [{name: Code, url: 'https://mahis.life/clip-fields'}, {name: Paper,
     url: 'https://arxiv.org/abs/2210.05663'}]
-tags: ["Few Shot & Zero Shot", "Self-Supervised"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Supervised"]
 short_authors: Shafiullah et al.
 ---
 We propose CLIP-Fields, an implicit scene model that can be used for a

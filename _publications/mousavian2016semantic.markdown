@@ -7,7 +7,7 @@ year: 2016
 bibkey: mousavian2016semantic
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.00278'}]
-tags: ["Datasets", "Robustness"]
+tags: ["Datasets", "Evaluation", "Robustness"]
 short_authors: Arsalan Mousavian, Jana Kosecka
 ---
 The problem visual place recognition is commonly used strategy for

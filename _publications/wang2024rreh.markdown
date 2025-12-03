@@ -8,7 +8,7 @@ year: 2024
 bibkey: wang2024rreh
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.17777'}]
-tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Scalability", "Unsupervised"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Wang et al.
 ---
 Known for efficient computation and easy storage, hashing has been

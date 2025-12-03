@@ -7,7 +7,7 @@ year: 2023
 bibkey: yeh2023flap
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.01615'}]
-tags: ["Audio Retrieval", "Efficiency", "Self-Supervised"]
+tags: ["Efficiency", "Evaluation", "Self-Supervised", "Supervised", "Text Retrieval"]
 short_authors: Yeh et al.
 ---
 We propose Fast Language-Audio Pre-training (FLAP), a self-supervised

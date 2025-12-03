@@ -9,7 +9,7 @@ year: 2023
 bibkey: wang2023query
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.11550'}]
-tags: ["Efficiency", "Evaluation", "Unsupervised"]
+tags: ["Efficiency", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: Yuxuan Wang, Hong Lyu
 ---
 The information retrieval community has made significant progress in

@@ -7,7 +7,7 @@ year: 2019
 bibkey: dong2019learning
 citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.08544'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Quantization", "Supervised"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Quantization", "Supervised", "Tree Based ANN"]
 short_authors: Dong et al.
 ---
 Space partitions of \(\mathbb\{R\}^d\) underlie a vast and important class of

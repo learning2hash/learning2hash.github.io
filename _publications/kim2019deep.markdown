@@ -7,7 +7,7 @@ year: 2019
 bibkey: kim2019deep
 citations: 90
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.09626'}]
-tags: ["CVPR", "Distance Metric Learning", "Image Retrieval"]
+tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Kim et al.
 ---
 Metric Learning for visual similarity has mostly adopted binary supervision

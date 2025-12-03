@@ -8,7 +8,7 @@ bibkey: chen2021ice
 citations: 244
 additional_links: [{name: Code, url: 'https://github.com/chenhao2345/ICE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2103.16364'}]
-tags: ["ICCV", "Self-Supervised", "Unsupervised"]
+tags: ["Datasets", "Distance Metric Learning", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Hao Chen, Benoit Lagadec, Francois Bremond
 ---
 Unsupervised person re-identification (ReID) aims at learning discriminative

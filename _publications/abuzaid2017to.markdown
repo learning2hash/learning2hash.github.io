@@ -7,7 +7,7 @@ year: 2017
 bibkey: abuzaid2017to
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.01449'}]
-tags: ["Efficiency", "Recommender Systems", "Similarity Search"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Recommender Systems", "Similarity Search"]
 short_authors: Abuzaid et al.
 ---
 Exact Maximum Inner Product Search (MIPS) is an important task that is widely

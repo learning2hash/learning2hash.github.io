@@ -7,7 +7,7 @@ year: 2016
 bibkey: sankaranarayanan2016triplet
 citations: 44
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.03418'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Re-Ranking"]
 short_authors: Swami Sankaranarayanan, Azadeh Alavi, Rama Chellappa
 ---
 In this work, we present an unconstrained face verification algorithm and

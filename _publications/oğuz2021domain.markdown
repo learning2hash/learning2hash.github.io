@@ -9,7 +9,7 @@ year: 2021
 bibkey: "o\u011Fuz2021domain"
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.13602'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Supervised"]
 short_authors: "O\u011Fuz et al."
 ---
 Pre-training on larger datasets with ever increasing model size is now a

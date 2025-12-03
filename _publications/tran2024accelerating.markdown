@@ -8,7 +8,7 @@ year: 2024
 bibkey: tran2024accelerating
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.16148'}]
-tags: ["Efficiency", "Memory Efficiency", "NEURIPS"]
+tags: ["Evaluation", "NEURIPS", "Text Retrieval"]
 short_authors: Tran et al.
 ---
 Increasing the throughput of the Transformer architecture, a foundational

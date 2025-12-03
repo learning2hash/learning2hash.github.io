@@ -8,7 +8,7 @@ year: 2021
 bibkey: song2021all
 citations: 62
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.08000'}]
-tags: ["Image Retrieval", "Scalability"]
+tags: ["Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Chull Hwan Song, Hye Joo Han, Yannis Avrithis
 ---
 We address representation learning for large-scale instance-level image

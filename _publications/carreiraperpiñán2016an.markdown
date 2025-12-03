@@ -7,7 +7,7 @@ year: 2016
 bibkey: "carreiraperpi\xF1\xE1n2016an"
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.01557'}]
-tags: ["Hashing Methods", "Image Retrieval", "Supervised"]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Image Retrieval", "Supervised"]
 short_authors: "Miguel \xC1. Carreira-Perpi\xF1\xE1n, Ramin Raziperchikolaei"
 ---
 Binary hashing is a well-known approach for fast approximate nearest-neighbor

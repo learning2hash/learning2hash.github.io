@@ -9,7 +9,7 @@ year: 2019
 bibkey: shi2019compositional
 citations: 82
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.02107'}]
-tags: ["Hashing Methods", "KDD", "Memory Efficiency", "Recommender Systems"]
+tags: ["Evaluation", "Hashing Methods", "KDD", "Neural Hashing", "Recommender Systems"]
 short_authors: Shi et al.
 ---
 Modern deep learning-based recommendation systems exploit hundreds to

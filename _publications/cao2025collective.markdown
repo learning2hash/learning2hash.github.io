@@ -7,7 +7,7 @@ year: 2025
 bibkey: cao2025collective
 citations: 100
 additional_links: [{name: Paper, url: 'http://yue-cao.me/doc/collective-deep-quantization-aaai17.pdf'}]
-tags: ["AAAI", "Multimodal Retrieval", "Quantization", "Similarity Search"]
+tags: ["AAAI", "Evaluation", "Multimodal Retrieval", "Quantization", "Similarity Search"]
 short_authors: Cao et al.
 ---
 Cross-modal similarity retrieval is a problem about designing a retrieval system that supports querying across

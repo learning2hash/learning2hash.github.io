@@ -7,7 +7,7 @@ year: 2013
 bibkey: elmehdwi2013secure
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1307.4824'}]
-tags: ["Efficiency", "Privacy & Security"]
+tags: ["Efficiency"]
 short_authors: Yousef Elmehdwi, Bharath K. Samanthula, Wei Jiang
 ---
 For the past decade, query processing on relational data has been studied

@@ -7,7 +7,7 @@ year: 2024
 bibkey: desai2024identity
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.14901'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Desai et al.
 ---
 Gene sequence search is a fundamental operation in computational genomics.

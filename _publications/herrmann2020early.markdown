@@ -7,7 +7,7 @@ year: 2020
 bibkey: herrmann2020early
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.05371'}]
-tags: ["Efficiency", "Scalability", "Similarity Search"]
+tags: ["Similarity Search"]
 short_authors: Matthieu Herrmann, Geoffrey I. Webb
 ---
 The Dynamic Time Warping ("DTW") distance is widely used in time series

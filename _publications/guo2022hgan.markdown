@@ -8,7 +8,7 @@ year: 2022
 bibkey: guo2022hgan
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.08281'}]
-tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Text Retrieval"]
 short_authors: Guo et al.
 ---
 Image-text retrieval (ITR) is a challenging task in the field of multimodal

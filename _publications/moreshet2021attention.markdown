@@ -7,7 +7,7 @@ year: 2021
 bibkey: moreshet2021attention
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.11247'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Evaluation"]
 short_authors: Aviad Moreshet, Yosi Keller
 ---
 We propose an attention-based approach for multimodal image patch matching

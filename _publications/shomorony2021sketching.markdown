@@ -7,7 +7,7 @@ year: 2021
 bibkey: shomorony2021sketching
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.04202'}]
-tags: ["Hashing Methods"]
+tags: ["Hashing Methods", "Tools & Libraries"]
 short_authors: Ilan Shomorony, Govinda M. Kamath
 ---
 Pairwise alignment of DNA sequencing data is a ubiquitous task in

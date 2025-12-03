@@ -7,7 +7,7 @@ year: 2019
 bibkey: engilberge2019sodeep
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.04272'}]
-tags: ["CVPR", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
+tags: ["CVPR", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
 short_authors: Engilberge et al.
 ---
 Several tasks in machine learning are evaluated using non-differentiable

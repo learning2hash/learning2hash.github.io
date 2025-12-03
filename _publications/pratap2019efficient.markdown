@@ -7,7 +7,7 @@ year: 2019
 bibkey: pratap2019efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.04658'}]
-tags: ["Datasets", "Efficiency", "Similarity Search"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Similarity Search"]
 short_authors: Rameshwar Pratap, Debajyoti Bera, Karthik Revanuru
 ---
 Recent advancement of the WWW, IOT, social network, e-commerce, etc. have

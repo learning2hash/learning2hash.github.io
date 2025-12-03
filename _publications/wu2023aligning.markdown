@@ -8,7 +8,7 @@ bibkey: wu2023aligning
 citations: 89
 additional_links: [{name: Code, url: 'https://github.com/wusize/ovdet'}, {name: Paper,
     url: 'https://arxiv.org/abs/2302.13996'}]
-tags: ["CVPR", "Datasets", "Scalability"]
+tags: ["CVPR", "Datasets", "Evaluation", "Scalability"]
 short_authors: Wu et al.
 ---
 Pre-trained vision-language models (VLMs) learn to align vision and language

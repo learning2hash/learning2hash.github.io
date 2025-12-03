@@ -7,7 +7,7 @@ year: 2019
 bibkey: xuan2019improved
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.04370'}]
-tags: ["Distance Metric Learning", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Hong Xuan, Abby Stylianou, Robert Pless
 ---
 Deep metric learning seeks to define an embedding where semantically similar

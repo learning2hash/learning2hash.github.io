@@ -8,7 +8,7 @@ year: 2021
 bibkey: liu2021ternary
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.09173'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: ["Datasets", "Evaluation", "Hashing Methods"]
 short_authors: Liu et al.
 ---
 This paper proposes a novel ternary hash encoding for learning to hash

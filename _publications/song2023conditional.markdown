@@ -9,7 +9,7 @@ year: 2023
 bibkey: song2023conditional
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.13254'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Song et al.
 ---
 Many studies in vision tasks have aimed to create effective embedding spaces

@@ -8,7 +8,7 @@ year: 2019
 bibkey: lei2019semi
 citations: 57
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.04470'}]
-tags: ["Distance Metric Learning", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Lei et al.
 ---
 Sketch-based image retrieval (SBIR) is a challenging task due to the large

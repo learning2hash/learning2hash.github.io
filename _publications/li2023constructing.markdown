@@ -9,7 +9,7 @@ year: 2023
 bibkey: li2023constructing
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.11943'}]
-tags: ["Efficiency", "SIGIR", "Tree Based ANN"]
+tags: ["Efficiency", "Evaluation", "SIGIR", "Self-Supervised", "Tree Based ANN"]
 short_authors: Li et al.
 ---
 Recent studies have shown that Dense Retrieval (DR) techniques can

@@ -7,7 +7,7 @@ year: 2025
 bibkey: wang2025deep
 citations: 9
 additional_links: [{name: Paper, url: 'https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640511.pdf'}]
-tags: ["Hashing Methods", "Neural Hashing", "Supervised"]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Neural Hashing", "Supervised"]
 short_authors: Wang et al.
 ---
 In this paper, we propose a Deep Hashing method with Active Pairwise Supervision(DH-APS). Conventional methods with passive

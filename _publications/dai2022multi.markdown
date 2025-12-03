@@ -8,7 +8,7 @@ year: 2022
 bibkey: dai2022multi
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.05007'}]
-tags: ["Datasets", "Efficiency", "Image Retrieval"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Dai et al.
 ---
 Fine-grained sketch-based image retrieval (FG-SBIR) addresses the problem of

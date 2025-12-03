@@ -7,7 +7,7 @@ year: 2022
 bibkey: lee2022set2box
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.03282'}]
-tags: ["Hashing Methods", "Quantization", "Recommender Systems"]
+tags: ["Compact Codes", "Datasets", "Hashing Methods", "Quantization", "Recommender Systems"]
 short_authors: Geon Lee, Chanyoung Park, Kijung Shin
 ---
 Sets have been used for modeling various types of objects (e.g., a document

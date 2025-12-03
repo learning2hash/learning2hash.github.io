@@ -7,7 +7,7 @@ year: 2017
 bibkey: svenstrup2017hash
 citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.03933'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Memory Efficiency", "Neural Hashing"]
+tags: ["Evaluation", "Hashing Methods"]
 short_authors: Dan Svenstrup, Jonas Meinertz Hansen, Ole Winther
 ---
 We present hash embeddings, an efficient method for representing words in a

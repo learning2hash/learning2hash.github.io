@@ -7,7 +7,7 @@ year: 2019
 bibkey: gajic2019bag
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.02391'}]
-tags: ["Hashing Methods", "Scalability", "Similarity Search"]
+tags: ["Datasets", "Hashing Methods"]
 short_authors: Gajic et al.
 ---
 Training a Siamese architecture for re-identification with a large number of

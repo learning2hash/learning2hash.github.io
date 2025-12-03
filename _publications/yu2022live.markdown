@@ -8,7 +8,7 @@ year: 2022
 bibkey: yu2022live
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.04301'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Large Scale Search", "Video Retrieval"]
+tags: ["Datasets", "Evaluation", "Large Scale Search", "Scalability", "Video Retrieval"]
 short_authors: Yu et al.
 ---
 Searching through large volumes of medical data to retrieve relevant

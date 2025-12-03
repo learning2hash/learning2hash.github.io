@@ -7,7 +7,7 @@ year: 2020
 bibkey: guo2020deep
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.13582'}]
-tags: ["Hashing Methods", "Supervised"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Guo et al.
 ---
 Node classification in structural networks has been proven to be useful in

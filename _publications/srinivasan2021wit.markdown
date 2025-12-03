@@ -10,7 +10,7 @@ bibkey: srinivasan2021wit
 citations: 24
 additional_links: [{name: Code, url: 'https://github.com/google-research-datasets/wit'},
   {name: Paper, url: 'https://arxiv.org/abs/2103.01913'}]
-tags: ["Datasets", "Multimodal Retrieval", "SIGIR"]
+tags: ["Datasets", "Evaluation", "SIGIR", "Text Retrieval"]
 short_authors: Srinivasan et al.
 ---
 The milestone improvements brought about by deep representation learning and

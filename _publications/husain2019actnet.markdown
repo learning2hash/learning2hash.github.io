@@ -8,7 +8,7 @@ year: 2019
 bibkey: husain2019actnet
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.05794'}]
-tags: ["Distance Metric Learning", "Image Retrieval", "Scalability"]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Scalability"]
 short_authors: Syed Sameed Husain, Eng-Jon Ong, Miroslaw Bober
 ---
 We propose a novel CNN architecture called ACTNET for robust instance image

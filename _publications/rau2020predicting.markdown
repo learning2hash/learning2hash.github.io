@@ -8,7 +8,7 @@ year: 2020
 bibkey: rau2020predicting
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.05785'}]
-tags: ["Distance Metric Learning", "Efficiency", "Image Retrieval", "Similarity Search"]
+tags: ["Uncategorized"]
 short_authors: Rau et al.
 ---
 To what extent are two images picturing the same 3D surfaces? Even when this

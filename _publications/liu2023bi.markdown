@@ -8,7 +8,7 @@ bibkey: liu2023bi
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/Cuberick-Orion/Bi-Blip4CIR'},
   {name: Paper, url: 'https://arxiv.org/abs/2303.16604'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Liu et al.
 ---
 Composed image retrieval searches for a target image based on a multi-modal

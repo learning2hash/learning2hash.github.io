@@ -8,7 +8,7 @@ year: 2023
 bibkey: wang2023connecting
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.14381'}]
-tags: ["Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Wang et al.
 ---
 Multi-modal Contrastive Representation learning aims to encode different

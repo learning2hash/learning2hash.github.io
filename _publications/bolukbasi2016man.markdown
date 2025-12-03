@@ -7,7 +7,7 @@ year: 2016
 bibkey: bolukbasi2016man
 citations: 1357
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.06520'}]
-tags: ["Evaluation"]
+tags: ["Evaluation", "Tools & Libraries"]
 short_authors: Bolukbasi et al.
 ---
 The blind application of machine learning runs the risk of amplifying biases

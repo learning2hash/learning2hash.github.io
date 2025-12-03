@@ -9,7 +9,7 @@ year: 2022
 bibkey: gui2022cross
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.07420'}]
-tags: ["Datasets", "Privacy & Security"]
+tags: ["Compact Codes", "Datasets"]
 short_authors: Gui et al.
 ---
 Binary-source code matching plays an important role in many security and

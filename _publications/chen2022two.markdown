@@ -7,7 +7,7 @@ year: 2022
 bibkey: chen2022two
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.05349'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Chen et al.
 ---
 Reasoning-based approaches have demonstrated their powerful ability for the

@@ -9,7 +9,7 @@ year: 2021
 bibkey: kobayashi2021decomposing
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.12328'}]
-tags: ["Hashing Methods", "Image Retrieval", "Quantization", "Similarity Search"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Quantization", "Similarity Search"]
 short_authors: Kobayashi et al.
 ---
 In medical imaging, the characteristics purely derived from a disease should

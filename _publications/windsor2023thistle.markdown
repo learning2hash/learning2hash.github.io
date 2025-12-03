@@ -7,7 +7,7 @@ year: 2023
 bibkey: windsor2023thistle
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.16780'}]
-tags: ["Datasets", "Large Scale Search", "Similarity Search", "Tools & Libraries", "Vector Indexing"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Brad Windsor, Kevin Choi
 ---
 We present Thistle, a fully functional vector database. Thistle is an entry

@@ -7,7 +7,7 @@ year: 2024
 bibkey: hou2024event
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.13566'}]
-tags: ["Efficiency", "Video Retrieval"]
+tags: ["Efficiency", "Evaluation", "Self-Supervised", "Video Retrieval"]
 short_authors: Hou et al.
 ---
 Video Corpus Moment Retrieval (VCMR) is a practical video retrieval task

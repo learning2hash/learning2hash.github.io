@@ -7,7 +7,7 @@ year: 2016
 bibkey: christiani2016set
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.07710'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: ["Distance Metric Learning", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Tobias Christiani, Rasmus Pagh
 ---
 We consider the problem of approximate set similarity search under

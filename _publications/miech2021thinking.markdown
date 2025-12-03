@@ -7,7 +7,7 @@ year: 2021
 bibkey: miech2021thinking
 citations: 96
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.16553'}]
-tags: ["Datasets", "Efficiency", "Image Retrieval", "Re-Ranking", "Video Retrieval"]
+tags: ["CVPR", "Datasets", "Re-Ranking", "Scalability", "Similarity Search"]
 short_authors: Miech et al.
 ---
 Our objective is language-based search of large-scale image and video

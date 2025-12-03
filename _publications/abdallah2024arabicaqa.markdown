@@ -10,7 +10,7 @@ bibkey: abdallah2024arabicaqa
 citations: 13
 additional_links: [{name: Code, url: 'https://github.com/DataScienceUIBK/ArabicaQA'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.17848'}]
-tags: ["Datasets", "SIGIR", "Text Retrieval"]
+tags: ["Datasets", "Evaluation", "SIGIR", "Scalability", "Text Retrieval"]
 short_authors: Abdallah et al.
 ---
 In this paper, we address the significant gap in Arabic natural language

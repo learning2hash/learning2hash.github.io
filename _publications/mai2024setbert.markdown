@@ -9,7 +9,7 @@ year: 2024
 bibkey: mai2024setbert
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.17282'}]
-tags: ["Distance Metric Learning", "Evaluation", "Text Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Text Retrieval"]
 short_authors: Quan Mai, Susan Gauch, Douglas Adams
 ---
 We introduce SetBERT, a fine-tuned BERT-based model designed to enhance query

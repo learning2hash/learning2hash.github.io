@@ -8,7 +8,7 @@ year: 2025
 bibkey: asokan2025finelip
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.01916'}]
-tags: ["CVPR", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval"]
+tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval"]
 short_authors: Mothilal Asokan, Kebin Wu, Fatima Albreiki
 ---
 As a pioneering vision-language model, CLIP (Contrastive Language-Image

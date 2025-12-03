@@ -7,7 +7,7 @@ year: 2016
 bibkey: do2016binary
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.05396'}]
-tags: ["Hashing Methods", "Supervised", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Do et al.
 ---
 This paper proposes two approaches for inferencing binary codes in two-step

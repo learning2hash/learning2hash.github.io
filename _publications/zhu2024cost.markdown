@@ -8,7 +8,7 @@ year: 2024
 bibkey: zhu2024cost
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.14774'}]
-tags: ["Quantization", "Recommender Systems"]
+tags: ["Datasets", "Evaluation", "Quantization", "Recommender Systems"]
 short_authors: Zhu et al.
 ---
 Embedding-based retrieval serves as a dominant approach to candidate item

@@ -7,7 +7,7 @@ year: 2021
 bibkey: zhong2021neighborhood
 citations: 108
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.10731'}]
-tags: ["CVPR", "Distance Metric Learning", "Self-Supervised", "Unsupervised"]
+tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
 short_authors: Zhong et al.
 ---
 In this paper, we address Novel Class Discovery (NCD), the task of unveiling

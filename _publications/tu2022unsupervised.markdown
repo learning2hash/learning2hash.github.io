@@ -8,7 +8,7 @@ year: 2022
 bibkey: tu2022unsupervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.11475'}]
-tags: ["Hashing Methods", "Image Retrieval", "Unsupervised"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Tu et al.
 ---
 Recently, to improve the unsupervised image retrieval performance, plenty of

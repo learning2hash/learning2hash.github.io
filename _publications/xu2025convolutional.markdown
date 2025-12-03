@@ -7,7 +7,7 @@ year: 2025
 bibkey: xu2025convolutional
 citations: 32
 additional_links: [{name: Paper, url: 'http://ijcai.org/papers15/Papers/IJCAI15-197.pdf'}]
-tags: ["Compact Codes", "Hashing Methods", "Similarity Search", "Tools & Libraries"]
+tags: ["Compact Codes", "Datasets", "Hashing Methods", "Similarity Search", "Tools & Libraries"]
 short_authors: Xu et al.
 ---
 Hashing, as a popular approximate nearest neighbor

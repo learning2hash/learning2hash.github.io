@@ -9,7 +9,7 @@ bibkey: huang2022vop
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/bighuang624/VoP'}, {name: Paper,
     url: 'https://arxiv.org/abs/2211.12764'}]
-tags: ["Efficiency", "Multimodal Retrieval", "Video Retrieval"]
+tags: ["Evaluation", "Multimodal Retrieval", "Tools & Libraries", "Video Retrieval"]
 short_authors: Huang et al.
 ---
 Many recent studies leverage the pre-trained CLIP for text-video cross-modal

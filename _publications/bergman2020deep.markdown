@@ -7,7 +7,7 @@ year: 2020
 bibkey: bergman2020deep
 citations: 108
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.10445'}]
-tags: ["Robustness", "Self-Supervised"]
+tags: ["Robustness", "Self-Supervised", "Supervised"]
 short_authors: Liron Bergman, Niv Cohen, Yedid Hoshen
 ---
 Nearest neighbors is a successful and long-standing technique for anomaly

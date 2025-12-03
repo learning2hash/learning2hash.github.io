@@ -8,7 +8,7 @@ year: 2024
 bibkey: ouali2024vladva
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.04378'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Evaluation", "Text Retrieval", "Tools & Libraries"]
 short_authors: Ouali et al.
 ---
 Contrastively-trained Vision-Language Models (VLMs) like CLIP have become the de facto approach for discriminative vision-language representation learning. However, these models have limited language understanding, often exhibiting a "bag of words" behavior. At the same time, Large Vision-Language Models (LVLMs), which combine vision encoders with LLMs, have been shown to be capable of detailed vision-language reasoning, yet their autoregressive nature renders them less suitable for discriminative tasks.

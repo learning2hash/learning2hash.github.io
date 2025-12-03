@@ -8,7 +8,7 @@ year: 2019
 bibkey: poerner2019sentence
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.03700'}]
-tags: ["Datasets", "Evaluation", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: "Nina Poerner, Ulli Waltinger, Hinrich Sch\xFCtze"
 ---
 We address the task of unsupervised Semantic Textual Similarity (STS) by

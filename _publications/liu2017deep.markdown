@@ -7,7 +7,7 @@ year: 2017
 bibkey: liu2017deep
 citations: 271
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.05605'}]
-tags: ["CVPR", "Hashing Methods", "Image Retrieval", "Scalability"]
+tags: ["CVPR", "Datasets", "Hashing Methods", "Image Retrieval", "Memory Efficiency"]
 short_authors: Liu et al.
 ---
 Free-hand sketch-based image retrieval (SBIR) is a specific cross-view

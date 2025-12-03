@@ -7,7 +7,7 @@ year: 2017
 bibkey: lindgren2017leveraging
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.02690'}]
-tags: ["Efficiency", "Image Retrieval", "Locality-Sensitive-Hashing"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing"]
 short_authors: Erik M. Lindgren, Shanshan Wu, Alexandros G. Dimakis
 ---
 The facility location problem is widely used for summarizing large datasets

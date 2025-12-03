@@ -11,7 +11,7 @@ bibkey: bhattacharyya2022visual
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/AutoVision-cloud/SSL-ViT-lowlabel-highdata'},
   {name: Paper, url: 'https://arxiv.org/abs/2201.08951'}]
-tags: ["Few Shot & Zero Shot", "ICASSP", "Image Retrieval", "Self-Supervised"]
+tags: ["Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Bhattacharyya et al.
 ---
 Self-supervision has shown outstanding results for natural language

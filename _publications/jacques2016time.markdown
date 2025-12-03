@@ -8,7 +8,7 @@ year: 2016
 bibkey: jacques2016time
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.00816'}]
-tags: ["Quantization"]
+tags: ["Evaluation", "Quantization"]
 short_authors: Laurent Jacques, Valerio Cambareri
 ---
 Recently, many works have focused on the characterization of non-linear

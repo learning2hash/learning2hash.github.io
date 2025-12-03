@@ -9,7 +9,7 @@ year: 2022
 bibkey: lagani2022deep
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.08935'}]
-tags: ["Datasets", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: ["Datasets", "Efficiency", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Lagani et al.
 ---
 Features extracted from Deep Neural Networks (DNNs) have proven to be very

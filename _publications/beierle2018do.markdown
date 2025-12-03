@@ -10,7 +10,7 @@ year: 2018
 bibkey: beierle2018do
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.07651'}]
-tags: ["Hashing Methods", "Privacy & Security", "Similarity Search"]
+tags: ["Evaluation", "Hashing Methods"]
 short_authors: Felix Beierle
 ---
 While existing social networking services tend to connect people who know

@@ -9,7 +9,7 @@ year: 2019
 bibkey: yabe2019city2city
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.12143'}]
-tags: ["Datasets", "Unsupervised"]
+tags: ["Datasets", "Supervised", "Unsupervised"]
 short_authors: Yabe et al.
 ---
 Large mobility datasets collected from various sources have allowed us to

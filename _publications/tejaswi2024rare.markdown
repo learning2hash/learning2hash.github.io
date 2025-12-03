@@ -7,7 +7,7 @@ year: 2024
 bibkey: tejaswi2024rare
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.20088'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Similarity Search"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Tejaswi et al.
 ---
 We investigate whether in-context examples, widely used in decoder-only

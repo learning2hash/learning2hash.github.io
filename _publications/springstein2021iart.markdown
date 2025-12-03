@@ -9,7 +9,7 @@ year: 2021
 bibkey: springstein2021iart
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.01542'}]
-tags: ["Image Retrieval", "Multimodal Retrieval"]
+tags: ["Image Retrieval", "Neural Hashing"]
 short_authors: Springstein et al.
 ---
 In this paper, we introduce iART: an open Web platform for art-historical

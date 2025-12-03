@@ -8,7 +8,7 @@ year: 2021
 bibkey: jeong2021unsupervised
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.00666'}]
-tags: ["Evaluation", "Text Retrieval", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Jeong et al.
 ---
 One of the challenges in information retrieval (IR) is the vocabulary

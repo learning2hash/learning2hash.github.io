@@ -8,7 +8,7 @@ year: 2018
 bibkey: zamorski2018adversarial
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.07605'}]
-tags: ["Compact Codes", "Evaluation", "Robustness", "Unsupervised"]
+tags: ["Evaluation", "Robustness"]
 short_authors: Zamorski et al.
 ---
 Deep generative architectures provide a way to model not only images but also

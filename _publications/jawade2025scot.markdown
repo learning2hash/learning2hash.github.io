@@ -9,7 +9,7 @@ year: 2025
 bibkey: jawade2025scot
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.08347'}]
-tags: ["Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval", "Self-Supervised"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Jawade et al.
 ---
 Compositional image retrieval (CIR) is a multimodal learning task where a

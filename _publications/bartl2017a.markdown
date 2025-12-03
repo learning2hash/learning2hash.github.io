@@ -8,7 +8,7 @@ year: 2017
 bibkey: bartl2017a
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.05780'}]
-tags: ["Datasets", "Evaluation", "ICML", "Locality-Sensitive-Hashing"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "ICML", "Locality-Sensitive-Hashing"]
 short_authors: Alexander Bartl, Gerasimos Spanakis
 ---
 Finding semantically rich and computer-understandable representations for

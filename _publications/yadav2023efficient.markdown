@@ -7,7 +7,7 @@ year: 2023
 bibkey: yadav2023efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.02996'}]
-tags: ["EMNLP", "Efficiency", "Re-Ranking"]
+tags: ["Datasets", "EMNLP", "Efficiency", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Yadav et al.
 ---
 Cross-encoder models, which jointly encode and score a query-item pair, are

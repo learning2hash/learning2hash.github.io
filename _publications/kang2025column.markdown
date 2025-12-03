@@ -7,7 +7,7 @@ year: 2025
 bibkey: kang2025column
 citations: 310
 additional_links: [{name: Paper, url: 'http://cs.nju.edu.cn/lwj/paper/AAAI16_COSDISH.pdf'}]
-tags: ["AAAI", "Hashing Methods", "Image Retrieval", "Supervised"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Wang-Cheng Kang, Li, Zhou
 ---
 By leveraging semantic (label) information, supervised hashing has demonstrated better accuracy than unsupervised hashing in many real applications. Because the hashing-code learning problem is essentially a discrete optimization problem which is hard to solve, most existing supervised hashing methods try to solve a relaxed continuous optimization problem by dropping the discrete constraints.

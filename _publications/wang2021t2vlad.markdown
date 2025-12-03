@@ -7,7 +7,7 @@ year: 2021
 bibkey: wang2021t2vlad
 citations: 164
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.10054'}]
-tags: ["CVPR", "Evaluation", "Multimodal Retrieval", "Video Retrieval"]
+tags: ["CVPR", "Evaluation", "Video Retrieval"]
 short_authors: Xiaohan Wang, Linchao Zhu, Yi Yang
 ---
 Text-video retrieval is a challenging task that aims to search relevant video

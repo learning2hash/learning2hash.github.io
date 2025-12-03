@@ -9,7 +9,7 @@ year: 2022
 bibkey: yu2022commercemm
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.07247'}]
-tags: ["Efficiency", "Multimodal Retrieval", "Scalability"]
+tags: ["Efficiency", "Evaluation", "Scalability", "Text Retrieval"]
 short_authors: Yu et al.
 ---
 We introduce CommerceMM - a multimodal model capable of providing a diverse

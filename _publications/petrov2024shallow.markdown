@@ -7,7 +7,7 @@ year: 2024
 bibkey: petrov2024shallow
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.20222'}]
-tags: ["Efficiency", "Text Retrieval"]
+tags: ["Efficiency", "Neural Hashing", "Recommender Systems", "Text Retrieval"]
 short_authors: Aleksandr V. Petrov, Sean MacAvaney, Craig MacDonald
 ---
 Transformer-based Cross-Encoders achieve state-of-the-art effectiveness in

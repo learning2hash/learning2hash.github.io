@@ -8,7 +8,7 @@ year: 2017
 bibkey: hsiao2017learning
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.03376'}]
-tags: ["ICCV", "Unsupervised"]
+tags: ["ICCV", "Supervised", "Unsupervised"]
 short_authors: Wei-Lin Hsiao, Kristen Grauman
 ---
 What defines a visual style? Fashion styles emerge organically from how

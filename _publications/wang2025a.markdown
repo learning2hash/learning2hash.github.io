@@ -9,7 +9,7 @@ bibkey: wang2025a
 citations: 958
 additional_links: [{name: Code, url: 'https://github.com/USTC-StarTeam/MEC'}, {name: Paper,
     url: 'https://arxiv.org/abs/2502.15355'}]
-tags: ["Hashing Methods", "Quantization", "Similarity Search", "Survey Paper"]
+tags: ["Datasets", "Evaluation", "Memory Efficiency", "Neural Hashing", "Recommender Systems"]
 short_authors: Wang et al.
 ---
 Accurate click-through rate (CTR) prediction is vital for online advertising

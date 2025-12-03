@@ -7,7 +7,7 @@ year: 2022
 bibkey: gupta2022zero
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.10185'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Tools & Libraries"]
 short_authors: Sumrit Gupta, Ushasi Chaudhuri, Biplab Banerjee
 ---
 The performance of a zero-shot sketch-based image retrieval (ZS-SBIR) task is

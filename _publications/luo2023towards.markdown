@@ -8,7 +8,7 @@ year: 2023
 bibkey: luo2023towards
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.00040'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Multimodal Retrieval", "Video Retrieval"]
+tags: ["CVPR", "Datasets", "Evaluation", "Scalability"]
 short_authors: Luo et al.
 ---
 The correlation between the vision and text is essential for video moment

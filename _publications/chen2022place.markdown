@@ -9,7 +9,7 @@ bibkey: chen2022place
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/rover-xingyu/PROCA'}, {name: Paper,
     url: 'https://arxiv.org/abs/2211.11439'}]
-tags: ["Image Retrieval", "Unsupervised"]
+tags: ["Supervised", "Unsupervised"]
 short_authors: Yue Chen, Xingyu Chen, Yicen Li
 ---
 Place recognition is a critical and challenging task for mobile robots,

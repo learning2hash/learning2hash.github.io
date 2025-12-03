@@ -7,7 +7,7 @@ year: 2022
 bibkey: fernandez2022active
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.10620'}]
-tags: ["Quantization", "Robustness", "Scalability", "Similarity Search"]
+tags: ["Hashing Methods", "Quantization", "Robustness", "Scalability", "Similarity Search"]
 short_authors: Fernandez et al.
 ---
 Image copy detection and retrieval from large databases leverage two

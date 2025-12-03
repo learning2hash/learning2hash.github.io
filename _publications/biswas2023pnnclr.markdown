@@ -8,7 +8,7 @@ year: 2023
 bibkey: biswas2023pnnclr
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.06983'}]
-tags: ["Distance Metric Learning", "Self-Supervised", "Unsupervised"]
+tags: ["Distance Metric Learning", "Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Momojit Biswas, Himanshu Buckchash, Dilip K. Prasad
 ---
 Nearest neighbor (NN) sampling provides more semantic variations than

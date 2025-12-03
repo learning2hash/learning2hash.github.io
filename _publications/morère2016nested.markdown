@@ -8,7 +8,7 @@ year: 2016
 bibkey: "mor\xE8re2016nested"
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.04595'}]
-tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Hashing Methods"]
 short_authors: "Mor\xE8re et al."
 ---
 The goal of this work is the computation of very compact binary hashes for

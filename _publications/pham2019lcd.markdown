@@ -9,7 +9,7 @@ bibkey: pham2019lcd
 citations: 3
 additional_links: [{name: Code, url: 'https://hkust-vgd.github.io/lcd'}, {name: Paper,
     url: 'https://arxiv.org/abs/1911.09326'}]
-tags: ["AAAI", "Datasets", "Robustness"]
+tags: ["AAAI", "Datasets", "Evaluation", "Robustness"]
 short_authors: Pham et al.
 ---
 In this work, we present a novel method to learn a local cross-domain

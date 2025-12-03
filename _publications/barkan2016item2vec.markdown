@@ -8,7 +8,7 @@ year: 2016
 bibkey: barkan2016item2vec
 citations: 73
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.04259'}]
-tags: ["Recommender Systems"]
+tags: ["Recommender Systems", "Tools & Libraries"]
 short_authors: Oren Barkan, Noam Koenigstein
 ---
 Many Collaborative Filtering (CF) algorithms are item-based in the sense that

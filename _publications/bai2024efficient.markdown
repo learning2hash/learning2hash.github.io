@@ -8,7 +8,7 @@ year: 2024
 bibkey: bai2024efficient
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.01543'}]
-tags: ["CVPR", "Efficiency"]
+tags: ["CVPR", "Efficiency", "Evaluation"]
 short_authors: Bai et al.
 ---
 3D head avatars built with neural implicit volumetric representations have

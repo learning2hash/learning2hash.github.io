@@ -7,7 +7,7 @@ year: 2024
 bibkey: wan2024a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.15632'}]
-tags: ["Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Jiahe Wan
 ---
 Compositional understanding allows visual language models to interpret

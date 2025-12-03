@@ -7,7 +7,7 @@ year: 2020
 bibkey: feng2020adversarial
 citations: 43
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.11374'}]
-tags: ["AAAI", "Efficiency", "Image Retrieval", "Quantization", "Robustness"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Quantization"]
 short_authors: Feng et al.
 ---
 Deep product quantization network (DPQN) has recently received much attention

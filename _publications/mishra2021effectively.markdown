@@ -9,7 +9,7 @@ bibkey: mishra2021effectively
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/samarth4149/PAN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2105.01695'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "ICCV", "Image Retrieval", "Similarity Search"]
+tags: ["Datasets", "Evaluation", "ICCV"]
 short_authors: Mishra et al.
 ---
 Measuring similarity between two images often requires performing complex

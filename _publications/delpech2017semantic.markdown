@@ -8,7 +8,7 @@ year: 2017
 bibkey: delpech2017semantic
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.10307'}]
-tags: ["Evaluation", "Similarity Search", "Tools & Libraries"]
+tags: ["Survey Paper"]
 short_authors: "Jean-Fran\xE7ois Delpech"
 ---
 The review and analysis of large collections of documents and the periodic

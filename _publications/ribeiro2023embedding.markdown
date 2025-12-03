@@ -8,7 +8,7 @@ year: 2023
 bibkey: ribeiro2023embedding
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.00352'}]
-tags: ["Evaluation", "Image Retrieval", "Privacy & Security", "Robustness"]
+tags: ["Evaluation"]
 short_authors: Ribeiro et al.
 ---
 In forensic facial comparison, questioned-source images are usually captured

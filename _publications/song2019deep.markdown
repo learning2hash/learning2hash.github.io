@@ -9,7 +9,7 @@ bibkey: song2019deep
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/cfm-uestc/DRQ'}, {name: Paper,
     url: 'https://arxiv.org/abs/1906.06699'}]
-tags: ["Compact Codes", "Image Retrieval", "Quantization", "Similarity Search"]
+tags: ["Compact Codes", "Datasets", "IJCAI", "Image Retrieval", "Quantization"]
 short_authors: Song et al.
 ---
 Quantization has been an effective technology in ANN (approximate nearest

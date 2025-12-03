@@ -7,7 +7,7 @@ year: 2021
 bibkey: gao2021towards
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.01495'}]
-tags: ["Distance Metric Learning", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Gao et al.
 ---
 Good quality similarity metrics can significantly facilitate the performance

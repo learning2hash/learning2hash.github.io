@@ -9,7 +9,7 @@ bibkey: ni2021large
 citations: 5
 additional_links: [{name: Code, url: 'https://tfhub.dev/google/collections/gtr/1'},
   {name: Paper, url: 'https://arxiv.org/abs/2112.07899'}]
-tags: ["Datasets", "Evaluation", "Large Scale Search", "Scalability", "Supervised"]
+tags: ["Datasets", "Evaluation", "Supervised"]
 short_authors: Ni et al.
 ---
 It has been shown that dual encoders trained on one domain often fail to

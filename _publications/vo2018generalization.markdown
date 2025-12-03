@@ -8,7 +8,7 @@ year: 2018
 bibkey: vo2018generalization
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.03310'}]
-tags: ["Distance Metric Learning", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Nam Vo, James Hays
 ---
 This work studies deep metric learning under small to medium scale data as we

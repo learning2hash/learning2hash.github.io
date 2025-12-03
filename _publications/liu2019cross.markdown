@@ -8,7 +8,7 @@ year: 2019
 bibkey: liu2019cross
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.07388'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Hashing Methods"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods", "Memory Efficiency"]
 short_authors: Liu et al.
 ---
 Hashing has been widely studied for big data retrieval due to its low storage

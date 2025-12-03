@@ -7,7 +7,7 @@ year: 2021
 bibkey: "kosti\u01072021multi"
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.04049'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Graph Based ANN"]
 short_authors: "Bogdan Kosti\u0107, Julian Risch, Timo M\xF6ller"
 ---
 Open-domain extractive question answering works well on textual data by first

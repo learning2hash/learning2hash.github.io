@@ -7,7 +7,7 @@ year: 2017
 bibkey: cai2017a
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.06016'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Deng Cai, Xiuye Gu, Chaoqi Wang
 ---
 There is a growing trend in studying deep hashing methods for content-based

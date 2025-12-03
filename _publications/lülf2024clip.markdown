@@ -8,7 +8,7 @@ year: 2024
 bibkey: "l\xFClf2024clip"
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.13322'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Text Retrieval", "Tools & Libraries", "Vector Indexing"]
 short_authors: "L\xFClf et al."
 ---
 The advent of text-image models, most notably CLIP, has significantly

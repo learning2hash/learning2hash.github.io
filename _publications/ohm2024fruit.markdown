@@ -8,7 +8,7 @@ year: 2024
 bibkey: ohm2024fruit
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.01278'}]
-tags: ["Datasets", "Similarity Search"]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Ohm et al.
 ---
 The notion of visual similarity is essential for computer vision, and in

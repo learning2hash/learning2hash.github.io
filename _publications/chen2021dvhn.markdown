@@ -8,7 +8,7 @@ year: 2021
 bibkey: chen2021dvhn
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.04937'}]
-tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Memory Efficiency", "Neural Hashing"]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Memory Efficiency", "Neural Hashing"]
 short_authors: Chen et al.
 ---
 In this paper, we make the very first attempt to investigate the integration

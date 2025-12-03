@@ -7,7 +7,7 @@ year: 2024
 bibkey: aladago2024semantic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.01408'}]
-tags: ["Few Shot & Zero Shot", "Multimodal Retrieval", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Maxwell Aladago, Lorenzo Torresani, Soroush Vosoughi
 ---
 In the field of vision-language contrastive learning, models such as CLIP

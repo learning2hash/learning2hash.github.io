@@ -8,7 +8,7 @@ year: 2024
 bibkey: zheng2024benchmarking
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.02651'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Robustness"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Robustness"]
 short_authors: Zheng et al.
 ---
 Accurate image classification and retrieval are of importance for clinical

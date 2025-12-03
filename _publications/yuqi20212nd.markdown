@@ -9,7 +9,7 @@ bibkey: yuqi20212nd
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/WesleyZhang1991/Google_Landmark_Retrieval_2021_2nd_Place_Solution'},
   {name: Paper, url: 'https://arxiv.org/abs/2110.04294'}]
-tags: ["Image Retrieval", "Re-Ranking"]
+tags: ["Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Yuqi et al.
 ---
 This paper presents the 2nd place solution to the Google Landmark Retrieval

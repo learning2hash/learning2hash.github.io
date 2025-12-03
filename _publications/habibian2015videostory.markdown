@@ -7,7 +7,7 @@ year: 2015
 bibkey: habibian2015videostory
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1511.02492'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Multimodal Retrieval", "Video Retrieval"]
+tags: ["Datasets"]
 short_authors: Amirhossein Habibian, Thomas Mensink, Cees G. M. Snoek
 ---
 This paper aims for event recognition when video examples are scarce or even

@@ -9,7 +9,7 @@ year: 2016
 bibkey: karamanolakis2016audio
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.08391'}]
-tags: ["Audio Retrieval", "Multimodal Retrieval", "Similarity Search"]
+tags: ["Uncategorized"]
 short_authors: Karamanolakis et al.
 ---
 The recent development of Audio-based Distributional Semantic Models (ADSMs)

@@ -8,7 +8,7 @@ year: 2023
 bibkey: madasu2023is
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.05016'}]
-tags: ["CVPR", "Evaluation", "Image Retrieval", "Unsupervised", "Video Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Supervised", "Unsupervised", "Video Retrieval"]
 short_authors: Avinash Madasu, Vasudev Lal
 ---
 Vision (image and video) - Language (VL) pre-training is the recent popular

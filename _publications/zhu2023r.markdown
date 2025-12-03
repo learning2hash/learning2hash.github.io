@@ -9,7 +9,7 @@ bibkey: zhu2023r
 citations: 77
 additional_links: [{name: Code, url: 'https://github.com/Jeff-Zilence/R2Former'},
   {name: Paper, url: 'https://arxiv.org/abs/2304.03410'}]
-tags: ["CVPR", "Efficiency", "Image Retrieval", "Re-Ranking", "Scalability"]
+tags: ["CVPR", "Datasets", "Hybrid ANN Methods", "Re-Ranking", "Tools & Libraries"]
 short_authors: Zhu et al.
 ---
 Visual Place Recognition (VPR) estimates the location of query images by

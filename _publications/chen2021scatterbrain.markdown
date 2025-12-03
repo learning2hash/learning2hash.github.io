@@ -7,7 +7,7 @@ year: 2021
 bibkey: chen2021scatterbrain
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.15343'}]
-tags: ["Efficiency", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Chen et al.
 ---
 Recent advances in efficient Transformers have exploited either the sparsity

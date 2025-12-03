@@ -9,7 +9,7 @@ year: 2016
 bibkey: zhou2016a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.08390'}]
-tags: ["Efficiency", "Locality-Sensitive-Hashing", "Similarity Search", "Tools & Libraries"]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Zhou et al.
 ---
 We propose a novel generic inverted index framework on the GPU (called

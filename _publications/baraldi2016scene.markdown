@@ -8,7 +8,7 @@ year: 2016
 bibkey: baraldi2016scene
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.02546'}]
-tags: ["Multimodal Retrieval", "Video Retrieval"]
+tags: ["Multimodal Retrieval", "Neural Hashing"]
 short_authors: Lorenzo Baraldi, Costantino Grana, Rita Cucchiara
 ---
 This paper presents a novel retrieval pipeline for video collections, which

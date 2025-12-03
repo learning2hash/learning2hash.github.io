@@ -9,7 +9,7 @@ bibkey: wang2022cross
 citations: 22
 additional_links: [{name: Code, url: 'https://github.com/HuiGuanLab/nrccr'}, {name: Paper,
     url: 'https://arxiv.org/abs/2208.12526'}]
-tags: ["Evaluation", "Multimodal Retrieval", "Robustness", "Unsupervised"]
+tags: ["Datasets", "Multimodal Retrieval", "Robustness", "Supervised", "Unsupervised"]
 short_authors: Wang et al.
 ---
 Despite the recent developments in the field of cross-modal retrieval, there

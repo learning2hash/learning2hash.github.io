@@ -7,7 +7,7 @@ year: 2017
 bibkey: cao2017transfer
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.04616'}]
-tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Cao et al.
 ---
 Hashing is widely applied to large-scale image retrieval due to the storage

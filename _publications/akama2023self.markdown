@@ -9,7 +9,7 @@ year: 2023
 bibkey: akama2023self
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.07449'}]
-tags: ["Distance Metric Learning", "Scalability", "Self-Supervised"]
+tags: ["Distance Metric Learning", "Evaluation", "Scalability", "Self-Supervised", "Supervised"]
 short_authors: Akama et al.
 ---
 In the realm of music information retrieval, similarity-based retrieval and

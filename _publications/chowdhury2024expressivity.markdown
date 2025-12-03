@@ -8,7 +8,7 @@ year: 2024
 bibkey: chowdhury2024expressivity
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.14826'}]
-tags: ["Multimodal Retrieval", "Recommender Systems"]
+tags: ["Datasets", "Evaluation", "Recommender Systems"]
 short_authors: Shreyan Chowdhury, Gerhard Widmer
 ---
 This paper explores a specific sub-task of cross-modal music retrieval. We

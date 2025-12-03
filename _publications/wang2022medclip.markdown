@@ -9,7 +9,7 @@ bibkey: wang2022medclip
 citations: 402
 additional_links: [{name: Code, url: 'https://github.com/RyanWangZf/MedCLIP'}, {name: Paper,
     url: 'https://arxiv.org/abs/2210.10163'}]
-tags: ["EMNLP", "Few Shot & Zero Shot", "Multimodal Retrieval", "Self-Supervised"]
+tags: ["Datasets", "EMNLP", "Few Shot & Zero Shot", "Supervised", "Text Retrieval"]
 short_authors: Wang et al.
 ---
 Existing vision-text contrastive learning like CLIP aims to match the paired

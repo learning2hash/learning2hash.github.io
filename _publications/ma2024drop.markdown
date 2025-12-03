@@ -9,7 +9,7 @@ year: 2024
 bibkey: ma2024drop
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.11248'}]
-tags: ["SIGIR", "Unsupervised"]
+tags: ["Evaluation", "SIGIR", "Scalability", "Supervised", "Unsupervised"]
 short_authors: Ma et al.
 ---
 Masked auto-encoder pre-training has emerged as a prevalent technique for

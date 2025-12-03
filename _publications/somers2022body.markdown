@@ -9,7 +9,7 @@ bibkey: somers2022body
 citations: 13
 additional_links: [{name: Code, url: 'https://github.com/VlSomers/bpbreid'}, {name: Paper,
     url: 'https://arxiv.org/abs/2211.03679'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Vladimir Somers, Christophe de Vleeschouwer, Alexandre Alahi
 ---
 Occluded person re-identification (ReID) is a person retrieval task which

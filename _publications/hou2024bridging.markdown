@@ -8,7 +8,7 @@ bibkey: hou2024bridging
 citations: 23
 additional_links: [{name: Code, url: 'https://github.com/hyp1231/AmazonReviews2023'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.03952'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems"]
+tags: ["Datasets", "Evaluation", "Recommender Systems", "Survey Paper"]
 short_authors: Hou et al.
 ---
 This paper introduces BLaIR, a series of pretrained sentence embedding models

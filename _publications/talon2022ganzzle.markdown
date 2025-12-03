@@ -8,7 +8,7 @@ year: 2022
 bibkey: talon2022ganzzle
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.05634'}]
-tags: ["Datasets", "Scalability"]
+tags: ["Datasets", "Neural Hashing", "Robustness", "Scalability"]
 short_authors: Davide Talon, Alessio del Bue, Stuart James
 ---
 Puzzle solving is a combinatorial challenge due to the difficulty of matching

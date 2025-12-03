@@ -8,7 +8,7 @@ year: 2024
 bibkey: silva2024multilingual
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.23370'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Multimodal Retrieval", "Self-Supervised"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Self-Supervised", "Supervised", "Text Retrieval"]
 short_authors: Silva et al.
 ---
 Methods based on Contrastive Language-Image Pre-training (CLIP) are nowadays

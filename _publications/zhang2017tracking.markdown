@@ -8,7 +8,7 @@ year: 2017
 bibkey: zhang2017tracking
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.02139'}]
-tags: ["Distance Metric Learning", "Evaluation", "Unsupervised"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: Zhang et al.
 ---
 Multi-face tracking in unconstrained videos is a challenging problem as faces

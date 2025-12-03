@@ -8,7 +8,7 @@ year: 2023
 bibkey: "b\xF6kman2023leveraging"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.01092'}]
-tags: ["Evaluation", "IJCAI", "Image Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Neural Hashing"]
 short_authors: "Georg B\xF6kman, Johan Edstedt"
 ---
 We present the top ranked solution for the AISG-SLA Visual Localisation

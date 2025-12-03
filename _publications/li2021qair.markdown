@@ -8,7 +8,7 @@ year: 2021
 bibkey: li2021qair
 citations: 43
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.02927'}]
-tags: ["CVPR", "Evaluation", "Image Retrieval", "Robustness"]
+tags: ["CVPR", "Efficiency", "Evaluation", "Image Retrieval", "Robustness"]
 short_authors: Li et al.
 ---
 We study the query-based attack against image retrieval to evaluate its

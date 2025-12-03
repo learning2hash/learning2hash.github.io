@@ -7,7 +7,7 @@ year: 2017
 bibkey: zhong2017re
 citations: 1451
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.08398'}]
-tags: ["CVPR", "Re-Ranking", "Unsupervised"]
+tags: ["CVPR", "Datasets", "Re-Ranking", "Supervised", "Unsupervised"]
 short_authors: Zhong et al.
 ---
 When considering person re-identification (re-ID) as a retrieval process,

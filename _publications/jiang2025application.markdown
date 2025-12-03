@@ -8,7 +8,7 @@ year: 2025
 bibkey: jiang2025application
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.16237'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
 short_authors: Cheng Jiang, Sitian Qian
 ---
 Modern high-energy physics (HEP) experiments are increasingly challenged by

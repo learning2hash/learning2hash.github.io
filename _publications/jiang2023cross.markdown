@@ -8,7 +8,7 @@ year: 2023
 bibkey: jiang2023cross
 citations: 204
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.12501'}]
-tags: ["CVPR", "Multimodal Retrieval"]
+tags: ["CVPR", "Datasets", "Tools & Libraries"]
 short_authors: Ding Jiang, Mang Ye
 ---
 Text-to-image person retrieval aims to identify the target person based on a

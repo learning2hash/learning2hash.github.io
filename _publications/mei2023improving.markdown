@@ -7,7 +7,7 @@ year: 2023
 bibkey: mei2023improving
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.08110'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Self-Supervised"]
 short_authors: Mei et al.
 ---
 Hateful memes have emerged as a significant concern on the Internet.

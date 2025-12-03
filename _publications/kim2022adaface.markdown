@@ -8,7 +8,7 @@ bibkey: kim2022adaface
 citations: 433
 additional_links: [{name: Code, url: 'https://github.com/mk-minchul/AdaFace'}, {name: Paper,
     url: 'https://arxiv.org/abs/2204.00964'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation"]
+tags: ["CVPR", "Datasets", "Evaluation"]
 short_authors: Minchul Kim, Anil K. Jain, Xiaoming Liu
 ---
 Recognition in low quality face datasets is challenging because facial

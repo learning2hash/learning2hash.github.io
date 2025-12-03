@@ -8,7 +8,7 @@ year: 2024
 bibkey: zhao2024luojiahog
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.10887'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Text Retrieval"]
 short_authors: Zhao et al.
 ---
 Image-text retrieval (ITR) plays a significant role in making informed

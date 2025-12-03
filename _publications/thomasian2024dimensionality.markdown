@@ -8,7 +8,7 @@ year: 2024
 bibkey: thomasian2024dimensionality
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.02858'}]
-tags: ["Scalability", "Similarity Search"]
+tags: ["Scalability", "Similarity Search", "Survey Paper"]
 short_authors: Alexander Thomasian
 ---
 One of the goals of NASA funded project at IBM T. J. Watson Research Center

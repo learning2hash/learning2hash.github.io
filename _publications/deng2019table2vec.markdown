@@ -8,7 +8,7 @@ year: 2019
 bibkey: deng2019table2vec
 citations: 60
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.00041'}]
-tags: ["Evaluation", "SIGIR", "Similarity Search"]
+tags: ["Evaluation", "SIGIR"]
 short_authors: Li Deng, Shuo Zhang, Krisztian Balog
 ---
 Tables contain valuable knowledge in a structured form. We employ neural

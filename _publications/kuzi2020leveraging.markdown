@@ -8,7 +8,7 @@ year: 2020
 bibkey: kuzi2020leveraging
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.01195'}]
-tags: ["Hybrid ANN Methods", "Re-Ranking", "Text Retrieval"]
+tags: ["Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Text Retrieval"]
 short_authors: Kuzi et al.
 ---
 Search engines often follow a two-phase paradigm where in the first stage

@@ -9,7 +9,7 @@ bibkey: miyaguchi2024tile
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/dsgt-kaggle-clef/geolifeclef-2024'},
   {name: Paper, url: 'https://arxiv.org/abs/2407.06326'}]
-tags: ["Locality-Sensitive-Hashing", "Self-Supervised"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Self-Supervised", "Supervised"]
 short_authors: Anthony Miyaguchi, Patcharapong Aphiwetsa, Mark McDuffie
 ---
 We explore methods to solve the multi-label classification task posed by the

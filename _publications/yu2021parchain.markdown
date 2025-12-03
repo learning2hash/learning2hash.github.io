@@ -8,7 +8,7 @@ year: 2021
 bibkey: yu2021parchain
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.04727'}]
-tags: ["Efficiency", "Memory Efficiency", "Scalability"]
+tags: ["Efficiency", "Tools & Libraries"]
 short_authors: Yu et al.
 ---
 This paper studies the hierarchical clustering problem, where the goal is to

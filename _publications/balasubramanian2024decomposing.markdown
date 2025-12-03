@@ -9,7 +9,7 @@ bibkey: balasubramanian2024decomposing
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/SriramB-98/vit-decompose'},
   {name: Paper, url: 'https://arxiv.org/abs/2406.01583'}]
-tags: ["Image Retrieval", "Tools & Libraries"]
+tags: ["Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Sriram Balasubramanian, Samyadeep Basu, Soheil Feizi
 ---
 Recent work has explored how individual components of the CLIP-ViT model

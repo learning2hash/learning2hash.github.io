@@ -10,7 +10,7 @@ bibkey: barbarani2023are
 citations: 17
 additional_links: [{name: Code, url: 'https://github.com/gbarbarani/re-ranking-for-VPR'},
   {name: Paper, url: 'https://arxiv.org/abs/2304.05887'}]
-tags: ["CVPR", "Datasets", "Re-Ranking"]
+tags: ["CVPR", "Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Barbarani et al.
 ---
 Visual Place Recognition is a task that aims to predict the coordinates of an

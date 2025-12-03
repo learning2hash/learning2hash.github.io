@@ -8,7 +8,7 @@ year: 2017
 bibkey: venkatesan2017scaling
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.00334'}]
-tags: ["Large Scale Search", "Scalability", "Similarity Search"]
+tags: ["AAAI", "Datasets", "IJCAI", "Scalability", "Supervised"]
 short_authors: Venkatesan et al.
 ---
 Active Search has become an increasingly useful tool in information retrieval

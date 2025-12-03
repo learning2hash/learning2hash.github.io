@@ -8,7 +8,7 @@ year: 2024
 bibkey: kim2024fine
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.15120'}]
-tags: ["Image Retrieval", "Multimodal Retrieval"]
+tags: ["Image Retrieval", "Large Scale Search", "Multimodal Retrieval", "Scalability"]
 short_authors: Kim et al.
 ---
 Contrastive language-image pre-training (CLIP) models have demonstrated

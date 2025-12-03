@@ -9,7 +9,7 @@ year: 2019
 bibkey: kim2019learning
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.01942'}]
-tags: ["Evaluation", "Similarity Search", "Unsupervised"]
+tags: ["Evaluation"]
 short_authors: Kim et al.
 ---
 We propose a novel model architecture and training algorithm to learn

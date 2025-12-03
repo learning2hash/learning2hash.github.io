@@ -7,7 +7,7 @@ year: 2021
 bibkey: wang2021chinese
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.08787'}]
-tags: ["Datasets", "Evaluation", "Similarity Search"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Zhen Wang, Xiangxie Zhang, Yicong Tan
 ---
 Measuring sentence similarity is a key research area nowadays as it allows

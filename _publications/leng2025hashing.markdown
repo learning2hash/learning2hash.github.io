@@ -7,7 +7,7 @@ year: 2025
 bibkey: leng2025hashing
 citations: 30
 additional_links: [{name: Paper, url: 'http://jmlr.org/proceedings/papers/v37/leng15.pdf'}]
-tags: ["Datasets", "Hashing Methods", "Scalability"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Scalability"]
 short_authors: Leng et al.
 ---
 Recently, hashing based approximate nearest

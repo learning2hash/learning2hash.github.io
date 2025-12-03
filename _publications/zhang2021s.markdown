@@ -7,7 +7,7 @@ year: 2021
 bibkey: zhang2021s
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.11750'}]
-tags: ["Datasets", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Self-Supervised"]
 short_authors: Junlei Zhang, Zhenzhong Lan
 ---
 Contrastive learning has been studied for improving the performance of

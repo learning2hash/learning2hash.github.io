@@ -7,7 +7,7 @@ year: 2022
 bibkey: wang2022learning
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.00911'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Wenguan Wang, James Liang, Dongfang Liu
 ---
 Prevalent state-of-the-art instance segmentation methods fall into a

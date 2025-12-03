@@ -8,7 +8,7 @@ year: 2025
 bibkey: carlson2025dynamic
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.17045'}]
-tags: ["Efficiency", "Large Scale Search", "SIGIR", "Text Retrieval"]
+tags: ["SIGIR", "Text Retrieval"]
 short_authors: Carlson et al.
 ---
 This paper proposes superblock pruning (SP) during top-k online document

@@ -8,7 +8,7 @@ year: 2022
 bibkey: pansare2022learning
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.10135'}]
-tags: ["Hashing Methods", "Recommender Systems"]
+tags: ["Datasets", "Hashing Methods", "Neural Hashing", "Recommender Systems"]
 short_authors: Pansare et al.
 ---
 In deep learning, embeddings are widely used to represent categorical

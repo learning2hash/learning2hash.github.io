@@ -7,7 +7,7 @@ year: 2016
 bibkey: balntas2016pn
 citations: 155
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1601.05030'}]
-tags: ["Distance Metric Learning", "Efficiency", "Image Retrieval", "Memory Efficiency"]
+tags: ["Evaluation", "Memory Efficiency"]
 short_authors: Balntas et al.
 ---
 In this paper we propose a new approach for learning local descriptors for

@@ -10,7 +10,7 @@ bibkey: rashiti2024retro
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/IBM/Retrieval-Enhanced-Transformer-Little'},
   {name: Paper, url: 'https://arxiv.org/abs/2410.00004'}]
-tags: ["Evaluation", "Memory Efficiency", "Similarity Search"]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: Rashiti et al.
 ---
 The retrieval augmented generation (RAG) system such as Retro has been shown

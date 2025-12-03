@@ -8,7 +8,7 @@ bibkey: wang2023introspective
 citations: 18
 additional_links: [{name: Code, url: 'https://github.com/wzzheng/IDML'}, {name: Paper,
     url: 'https://arxiv.org/abs/2309.09982'}]
-tags: ["Distance Metric Learning", "Image Retrieval", "Robustness"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Wang et al.
 ---
 This paper proposes an introspective deep metric learning (IDML) framework

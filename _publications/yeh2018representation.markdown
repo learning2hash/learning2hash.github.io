@@ -8,7 +8,7 @@ year: 2018
 bibkey: yeh2018representation
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.01557'}]
-tags: ["Similarity Search", "Tools & Libraries", "Unsupervised"]
+tags: ["Evaluation", "Similarity Search", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Yeh et al.
 ---
 Since its introduction, unsupervised representation learning has attracted a

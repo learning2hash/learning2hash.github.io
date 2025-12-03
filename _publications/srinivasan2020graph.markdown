@@ -7,7 +7,7 @@ year: 2020
 bibkey: srinivasan2020graph
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.02426'}]
-tags: ["Graph Based ANN", "Video Retrieval"]
+tags: ["Datasets", "Graph Based ANN", "Scalability", "Video Retrieval"]
 short_authors: Srinivasan et al.
 ---
 Large scale video retrieval is a field of study with a lot of ongoing

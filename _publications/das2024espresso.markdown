@@ -7,7 +7,7 @@ year: 2024
 bibkey: das2024espresso
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.19227'}]
-tags: ["Robustness"]
+tags: ["Datasets", "Robustness"]
 short_authors: Das et al.
 ---
 Diffusion based text-to-image models are trained on large datasets scraped

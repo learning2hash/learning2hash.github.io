@@ -7,7 +7,7 @@ year: 2017
 bibkey: jhuo2017set
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.00888'}]
-tags: ["Hashing Methods", "Image Retrieval", "Scalability", "Similarity Search"]
+tags: ["Datasets", "Hashing Methods", "Scalability", "Tools & Libraries"]
 short_authors: I-Hong Jhuo, Jun Wang
 ---
 Visual data, such as an image or a sequence of video frames, is often

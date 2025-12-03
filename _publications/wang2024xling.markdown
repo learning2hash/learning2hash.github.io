@@ -8,7 +8,7 @@ year: 2024
 bibkey: wang2024xling
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.13397'}]
-tags: ["Distance Metric Learning", "Efficiency", "Similarity Search", "Tools & Libraries"]
+tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Neural Hashing", "Tools & Libraries"]
 short_authors: Yifan Wang, Vyom Pathak, Daisy Zhe Wang
 ---
 Similarity join finds all pairs of close points within a given distance

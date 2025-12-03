@@ -7,7 +7,7 @@ year: 2016
 bibkey: tabei2016scalable
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.10045'}]
-tags: ["Large Scale Search", "Scalability", "Similarity Search", "Vector Indexing"]
+tags: ["Similarity Search"]
 short_authors: Yasuo Tabei, Simon J. Puglisi
 ---
 Similarity search over chemical compound databases is a fundamental task in

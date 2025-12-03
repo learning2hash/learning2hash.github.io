@@ -8,7 +8,7 @@ year: 2019
 bibkey: passalis2019deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.05135'}]
-tags: ["Hashing Methods", "Image Retrieval", "Supervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Scalability", "Supervised"]
 short_authors: Nikolaos Passalis, Anastasios Tefas
 ---
 Several deep supervised hashing techniques have been proposed to allow for

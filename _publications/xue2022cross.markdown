@@ -7,7 +7,7 @@ year: 2022
 bibkey: xue2022cross
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.07572'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Xue et al.
 ---
 Deep hashing has been widely applied to large-scale image retrieval tasks

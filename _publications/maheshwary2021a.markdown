@@ -8,7 +8,7 @@ year: 2021
 bibkey: maheshwary2021a
 citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.04775'}]
-tags: ["EMNLP", "Evaluation", "Locality-Sensitive-Hashing", "Robustness"]
+tags: ["Datasets", "EMNLP", "Hashing Methods", "Locality-Sensitive-Hashing", "Robustness"]
 short_authors: Rishabh Maheshwary, Saket Maheshwary, Vikram Pudi
 ---
 Existing black box search methods have achieved high success rate in

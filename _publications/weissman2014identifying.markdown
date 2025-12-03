@@ -7,7 +7,7 @@ year: 2014
 bibkey: weissman2014identifying
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1406.1143'}]
-tags: ["Locality-Sensitive-Hashing", "Similarity Search"]
+tags: ["Locality-Sensitive-Hashing"]
 short_authors: Weissman et al.
 ---
 Our study identifies sentences in Wikipedia articles that are either

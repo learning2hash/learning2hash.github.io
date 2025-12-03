@@ -7,7 +7,7 @@ year: 2020
 bibkey: ryali2020bio
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.04907'}]
-tags: ["Hashing Methods", "ICML", "Locality-Sensitive-Hashing", "Similarity Search", "Unsupervised"]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Ryali et al.
 ---
 The fruit fly Drosophila's olfactory circuit has inspired a new locality

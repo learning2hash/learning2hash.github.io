@@ -9,7 +9,7 @@ bibkey: wu2024lotlip
 citations: 0
 additional_links: [{name: Other, url: 'https://wuw2019.github.io/lot-lip'}, {name: Paper,
     url: 'https://arxiv.org/abs/2410.05249'}]
-tags: ["Datasets", "Efficiency", "Image Retrieval", "NEURIPS"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "NEURIPS"]
 short_authors: Wu et al.
 ---
 Understanding long text is of great demands in practice but beyond the reach

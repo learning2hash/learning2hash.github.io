@@ -10,7 +10,7 @@ bibkey: sun2021lightningdot
 citations: 79
 additional_links: [{name: Code, url: 'https://github.com/intersun/LightningDOT'},
   {name: Paper, url: 'https://arxiv.org/abs/2103.08784'}]
-tags: ["Efficiency", "Image Retrieval", "Multimodal Retrieval", "Re-Ranking"]
+tags: ["Efficiency", "Evaluation", "NAACL", "Re-Ranking", "Text Retrieval"]
 short_authors: Sun et al.
 ---
 Multimodal pre-training has propelled great advancement in

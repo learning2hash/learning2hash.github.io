@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhou2024semi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.01924'}]
-tags: ["Efficiency", "Evaluation"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Tools & Libraries"]
 short_authors: Zhou et al.
 ---
 Information retrieval has transitioned from standalone systems into essential

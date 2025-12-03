@@ -8,7 +8,7 @@ year: 2023
 bibkey: matsuzaki2023single
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.03641'}]
-tags: ["Graph Based ANN"]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Scalability", "Tools & Libraries"]
 short_authors: Matsuzaki et al.
 ---
 This paper describes a method of global localization based on graph-theoretic

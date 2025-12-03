@@ -9,7 +9,7 @@ year: 2024
 bibkey: caspari2024beyond
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.08275'}]
-tags: ["Datasets", "Evaluation", "Similarity Search"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Caspari et al.
 ---
 The choice of embedding model is a crucial step in the design of Retrieval

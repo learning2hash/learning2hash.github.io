@@ -7,7 +7,7 @@ year: 2019
 bibkey: yu2019unsupervised
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.00726'}]
-tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Unsupervised"]
+tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Supervised", "Unsupervised"]
 short_authors: Jun Yu, Xiao-Jun Wu
 ---
 With the advantage of low storage cost and high efficiency, hashing learning

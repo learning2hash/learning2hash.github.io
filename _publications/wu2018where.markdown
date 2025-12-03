@@ -8,7 +8,7 @@ year: 2018
 bibkey: wu2018where
 citations: 245
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.01911'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Privacy & Security", "Video Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Wu et al.
 ---
 Video-based person re-identification (re-id) is a central application in

@@ -7,7 +7,7 @@ year: 2018
 bibkey: yu2018category
 citations: 110
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.02997'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Neural Hashing"]
 short_authors: Yu et al.
 ---
 In this work, travel destination and business location are taken as venues.

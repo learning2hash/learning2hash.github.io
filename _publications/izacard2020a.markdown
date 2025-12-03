@@ -8,7 +8,7 @@ year: 2020
 bibkey: izacard2020a
 citations: 29
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.15156'}]
-tags: ["Memory Efficiency", "Quantization"]
+tags: ["Evaluation", "Memory Efficiency", "Quantization"]
 short_authors: Izacard et al.
 ---
 Recently, retrieval systems based on dense representations have led to

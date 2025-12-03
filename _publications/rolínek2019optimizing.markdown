@@ -9,7 +9,7 @@ bibkey: "rol\xEDnek2019optimizing"
 citations: 11
 additional_links: [{name: Code, url: 'https://github.com/martius-lab/blackbox-backprop'},
   {name: Paper, url: 'https://arxiv.org/abs/1912.03500'}]
-tags: ["CVPR", "Evaluation", "Image Retrieval"]
+tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval"]
 short_authors: "Rol\xEDnek et al."
 ---
 Rank-based metrics are some of the most widely used criteria for performance

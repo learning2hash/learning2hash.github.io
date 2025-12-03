@@ -7,7 +7,7 @@ year: 2019
 bibkey: boytsov2019accurate
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.03534'}]
-tags: ["Efficiency", "Graph Based ANN"]
+tags: ["Efficiency", "Evaluation", "Graph Based ANN"]
 short_authors: Leonid Boytsov, Eric Nyberg
 ---
 We demonstrate that a graph-based search algorithm-relying on the

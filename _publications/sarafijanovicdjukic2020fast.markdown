@@ -7,7 +7,7 @@ year: 2020
 bibkey: sarafijanovicdjukic2020fast
 citations: 28
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.08731'}]
-tags: ["Datasets", "Quantization"]
+tags: ["Datasets", "Evaluation", "Quantization"]
 short_authors: Natasa Sarafijanovic-Djukic, Jesse Davis
 ---
 The goal of anomaly detection is to identify examples that deviate from

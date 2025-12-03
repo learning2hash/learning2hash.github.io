@@ -8,7 +8,7 @@ year: 2022
 bibkey: lei2022loopitr
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.05465'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Text Retrieval"]
 short_authors: Lei et al.
 ---
 Dual encoders and cross encoders have been widely used for image-text

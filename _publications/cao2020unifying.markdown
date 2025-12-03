@@ -8,7 +8,7 @@ bibkey: cao2020unifying
 citations: 318
 additional_links: [{name: Code, url: 'https://github.com/tensorflow/models/tree/master/research/delf'},
   {name: Paper, url: 'https://arxiv.org/abs/2001.05027'}]
-tags: ["Datasets", "Efficiency", "Image Retrieval"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Bingyi Cao, Andre Araujo, Jack Sim
 ---
 Image retrieval is the problem of searching an image database for items that

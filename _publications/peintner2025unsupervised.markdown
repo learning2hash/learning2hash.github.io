@@ -8,7 +8,7 @@ year: 2025
 bibkey: peintner2025unsupervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.13763'}]
-tags: ["Recommender Systems", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Recommender Systems", "Supervised", "Unsupervised"]
 short_authors: Peintner et al.
 ---
 In session-based recommender systems, predictions are based on the user's

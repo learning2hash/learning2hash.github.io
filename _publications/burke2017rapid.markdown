@@ -7,7 +7,7 @@ year: 2017
 bibkey: burke2017rapid
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.05850'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Neural Hashing"]
 short_authors: Burke et al.
 ---
 A great deal of work aims to discover large general purpose models of image

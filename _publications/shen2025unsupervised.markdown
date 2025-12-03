@@ -7,7 +7,7 @@ year: 2025
 bibkey: shen2025unsupervised
 citations: 395
 additional_links: [{name: Paper, url: 'http://cfm.uestc.edu.cn/~fshen/SADH.pdf'}]
-tags: ["Compact Codes", "Hashing Methods", "Neural Hashing", "Unsupervised"]
+tags: ["Compact Codes", "Hashing Methods", "Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Shen et al.
 ---
 Recent vision and learning studies show that learning compact hash codes can facilitate massive data processing

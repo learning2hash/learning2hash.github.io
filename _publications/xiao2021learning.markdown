@@ -8,7 +8,7 @@ year: 2021
 bibkey: xiao2021learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.10967'}]
-tags: ["Datasets", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised"]
 short_authors: Xiao et al.
 ---
 Dense correspondence across semantically related images has been extensively

@@ -7,7 +7,7 @@ year: 2020
 bibkey: liu2020climbing
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.01230'}]
-tags: ["Efficiency", "Scalability"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Scalability"]
 short_authors: Liu et al.
 ---
 Efficient inference for wide output layers (WOLs) is an essential yet

@@ -7,7 +7,7 @@ year: 2016
 bibkey: tran2016learning
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.01359'}]
-tags: ["Image Retrieval", "Multimodal Retrieval"]
+tags: ["Image Retrieval"]
 short_authors: Truyen Tran, Dinh Phung, Svetha Venkatesh
 ---
 We introduce a deep multitask architecture to integrate multityped

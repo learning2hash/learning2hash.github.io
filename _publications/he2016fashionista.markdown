@@ -8,7 +8,7 @@ year: 2016
 bibkey: he2016fashionista
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.00071'}]
-tags: ["Image Retrieval", "Recommender Systems"]
+tags: ["Recommender Systems"]
 short_authors: Ruining He, Chunbin Lin, Julian McAuley
 ---
 To build a fashion recommendation system, we need to help users retrieve

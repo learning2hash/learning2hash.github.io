@@ -9,7 +9,7 @@ year: 2022
 bibkey: wang2022caibc
 citations: 97
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.05773'}]
-tags: ["Datasets", "Evaluation", "Supervised"]
+tags: ["Datasets", "Evaluation", "Scalability", "Supervised"]
 short_authors: Wang et al.
 ---
 Given a natural language description, text-based person retrieval aims to

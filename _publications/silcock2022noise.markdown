@@ -7,7 +7,7 @@ year: 2022
 bibkey: silcock2022noise
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.04261'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Robustness", "Scalability"]
+tags: ["Datasets", "Evaluation", "Hashing Methods"]
 short_authors: Silcock et al.
 ---
 Identifying near duplicates within large, noisy text corpora has a myriad of

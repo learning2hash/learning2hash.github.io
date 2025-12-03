@@ -9,7 +9,7 @@ bibkey: wu2024graphhash
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/snap-research/GraphHash'},
   {name: Paper, url: 'https://arxiv.org/abs/2412.17245'}]
-tags: ["Efficiency", "Graph Based ANN", "Hashing Methods", "Recommender Systems"]
+tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Hashing Methods", "Recommender Systems"]
 short_authors: Wu et al.
 ---
 Deep recommender systems rely heavily on large embedding tables to handle

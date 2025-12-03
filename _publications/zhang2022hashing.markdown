@@ -7,7 +7,7 @@ year: 2022
 bibkey: zhang2022hashing
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.02334'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Unsupervised"]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Shichao Zhang, Jiaye Li
 ---
 Existing unsupervised hash learning is a kind of attribute-centered

@@ -8,7 +8,7 @@ year: 2019
 bibkey: jia2019efficient
 citations: 147
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.08619'}]
-tags: ["Efficiency", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Jia et al.
 ---
 Given a data set \(\mathcal\{D\}\) containing millions of data points and a data

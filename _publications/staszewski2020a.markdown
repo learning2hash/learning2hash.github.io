@@ -8,7 +8,7 @@ year: 2020
 bibkey: staszewski2020a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.06624'}]
-tags: ["Image Retrieval"]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Staszewski et al.
 ---
 In this paper, we consider the problem of descriptors construction for the

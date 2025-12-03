@@ -8,7 +8,7 @@ year: 2016
 bibkey: salvador2016faster
 citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.08893'}]
-tags: ["CVPR", "Evaluation", "Image Retrieval", "Re-Ranking"]
+tags: ["CVPR", "Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Salvador et al.
 ---
 Image representations derived from pre-trained Convolutional Neural Networks

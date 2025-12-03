@@ -7,7 +7,7 @@ year: 2019
 bibkey: chen2019collaborative
 citations: 96
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.06188'}]
-tags: ["Evaluation", "Recommender Systems", "Scalability"]
+tags: ["Datasets", "Evaluation", "Recommender Systems", "Scalability", "Tools & Libraries"]
 short_authors: Chen et al.
 ---
 We present collaborative similarity embedding (CSE), a unified framework that

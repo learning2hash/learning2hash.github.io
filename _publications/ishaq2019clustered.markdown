@@ -8,7 +8,7 @@ year: 2019
 bibkey: ishaq2019clustered
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.08551'}]
-tags: ["Efficiency", "Large Scale Search", "Locality-Sensitive-Hashing", "Similarity Search", "Tools & Libraries"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Survey Paper"]
 short_authors: Najib Ishaq, George Student, Noah M. Daniels
 ---
 Both astronomy and biology are experiencing explosive growth of data,

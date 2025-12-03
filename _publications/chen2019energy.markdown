@@ -8,7 +8,7 @@ year: 2019
 bibkey: chen2019energy
 citations: 29
 additional_links: [{name: Code, url: 'http://www.bhchen.cn/\'}, {name: Paper, url: 'https://arxiv.org/abs/1901.07169'}]
-tags: ["AAAI", "Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval", "Robustness"]
+tags: ["AAAI", "Datasets", "Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Binghui Chen, Weihong Deng
 ---
 Deep metric learning has been widely applied in many computer vision tasks,

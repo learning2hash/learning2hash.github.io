@@ -10,7 +10,7 @@ bibkey: kordopatiszilos2023self
 citations: 16
 additional_links: [{name: Code, url: 'https://github.com/gkordo/s2vs'}, {name: Paper,
     url: 'https://arxiv.org/abs/2304.03378'}]
-tags: ["CVPR", "Self-Supervised", "Video Retrieval"]
+tags: ["CVPR", "Evaluation", "Self-Supervised", "Supervised"]
 short_authors: Kordopatis-Zilos et al.
 ---
 We introduce S\(^2\)VS, a video similarity learning approach with

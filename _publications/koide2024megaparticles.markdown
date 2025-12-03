@@ -8,7 +8,7 @@ year: 2024
 bibkey: koide2024megaparticles
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.16370'}]
-tags: ["Efficiency", "ICRA", "Locality-Sensitive-Hashing", "Robustness"]
+tags: ["Evaluation", "Hashing Methods", "ICRA", "Locality-Sensitive-Hashing", "Robustness"]
 short_authors: Koide et al.
 ---
 This paper presents a 6-DoF range-based Monte Carlo localization method with

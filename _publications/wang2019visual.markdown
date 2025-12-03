@@ -8,7 +8,7 @@ year: 2019
 bibkey: wang2019visual
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.00330'}]
-tags: ["Evaluation", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Wang et al.
 ---
 Zero-shot learning, which aims to recognize new categories that are not

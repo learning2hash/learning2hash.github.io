@@ -8,7 +8,7 @@ year: 2024
 bibkey: chen2024exploring
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.05752'}]
-tags: ["Datasets", "Multimodal Retrieval", "Similarity Search"]
+tags: ["Datasets"]
 short_authors: Chen et al.
 ---
 Dense high dimensional vectors are becoming increasingly vital in fields such

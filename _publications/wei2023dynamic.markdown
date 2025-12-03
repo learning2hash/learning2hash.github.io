@@ -7,7 +7,7 @@ year: 2023
 bibkey: wei2023dynamic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.08154'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval", "Re-Ranking"]
+tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Tools & Libraries"]
 short_authors: Wei et al.
 ---
 The core of cross-modal matching is to accurately measure the similarity

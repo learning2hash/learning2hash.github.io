@@ -7,7 +7,7 @@ year: 2020
 bibkey: yang2020adaptive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.02603'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Wanxiang Yang, Yan Yan, Si Chen
 ---
 Person re-identification (ReID) under occlusions is a challenging problem in

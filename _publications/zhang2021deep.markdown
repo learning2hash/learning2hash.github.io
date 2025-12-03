@@ -8,7 +8,7 @@ bibkey: zhang2021deep
 citations: 94
 additional_links: [{name: Code, url: 'https://github.com/zhguoqing'}, {name: Paper,
     url: 'https://arxiv.org/abs/2105.11722'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Zhang et al.
 ---
 Person re-identification (re-ID) tackles the problem of matching person

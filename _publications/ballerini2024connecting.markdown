@@ -9,7 +9,7 @@ year: 2024
 bibkey: ballerini2024connecting
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.07993'}]
-tags: ["CVPR", "Few Shot & Zero Shot", "Multimodal Retrieval"]
+tags: ["CVPR", "Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Ballerini et al.
 ---
 Neural Radiance Fields (NeRFs) have emerged as a standard framework for

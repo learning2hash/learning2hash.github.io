@@ -10,7 +10,7 @@ bibkey: patel2024tripletclip
 citations: 0
 additional_links: [{name: Code, url: 'https://tripletclip.github.io'}, {name: Paper,
     url: 'https://arxiv.org/abs/2411.02545'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Patel et al.
 ---
 Contrastive Language-Image Pretraining (CLIP) models maximize the mutual

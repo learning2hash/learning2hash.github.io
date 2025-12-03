@@ -9,7 +9,7 @@ year: 2021
 bibkey: parravicini2021scaling
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.04808'}]
-tags: ["Efficiency", "Similarity Search"]
+tags: ["Efficiency", "Evaluation", "Similarity Search"]
 short_authors: Parravicini et al.
 ---
 Top-K SpMV is a key component of similarity-search on sparse embeddings. This

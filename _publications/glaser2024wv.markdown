@@ -9,7 +9,7 @@ year: 2024
 bibkey: glaser2024wv
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.18765'}]
-tags: ["Image Retrieval", "Self-Supervised", "Unsupervised"]
+tags: ["Image Retrieval", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Glaser et al.
 ---
 The European Space Agency's Copernicus Sentinel-1 (S-1) mission is a

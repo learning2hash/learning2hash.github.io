@@ -9,7 +9,7 @@ year: 2024
 bibkey: xie2024flex
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.17454'}]
-tags: ["Few Shot & Zero Shot", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval"]
 short_authors: Xie et al.
 ---
 Given a query from one modality, few-shot cross-modal retrieval (CMR)

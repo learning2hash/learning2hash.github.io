@@ -8,7 +8,7 @@ year: 2018
 bibkey: wang2018omnidirectional
 citations: 70
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.04228'}]
-tags: ["Distance Metric Learning", "ICRA", "Image Retrieval"]
+tags: ["Datasets", "ICRA", "Scalability"]
 short_authors: Wang et al.
 ---
 \( \)Visual place recognition is challenging, especially when only a few place

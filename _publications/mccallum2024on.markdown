@@ -10,7 +10,7 @@ year: 2024
 bibkey: mccallum2024on
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.08889'}]
-tags: ["ICASSP", "Recommender Systems", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "ICASSP", "Recommender Systems", "Self-Supervised"]
 short_authors: McCallum et al.
 ---
 Audio embeddings are crucial tools in understanding large catalogs of music.

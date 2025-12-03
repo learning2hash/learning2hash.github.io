@@ -8,7 +8,7 @@ year: 2017
 bibkey: matsui2017pqtable
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.06556'}]
-tags: ["Hashing Methods", "Large Scale Search", "Memory Efficiency", "Quantization", "Vector Indexing"]
+tags: ["Evaluation", "Memory Efficiency", "Quantization"]
 short_authors: Yusuke Matsui, Toshihiko Yamasaki, Kiyoharu Aizawa
 ---
 In this paper, we propose a product quantization table (PQTable); a fast

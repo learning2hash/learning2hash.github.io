@@ -7,7 +7,7 @@ year: 2019
 bibkey: mahajan2019joint
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.06635'}]
-tags: ["ICCV", "Multimodal Retrieval", "Supervised"]
+tags: ["Datasets", "ICCV", "Multimodal Retrieval", "Supervised"]
 short_authors: Mahajan et al.
 ---
 One of the key challenges in learning joint embeddings of multiple

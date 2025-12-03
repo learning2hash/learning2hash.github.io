@@ -7,7 +7,7 @@ year: 2023
 bibkey: wang2023scene
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.11090'}]
-tags: ["Graph Based ANN", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Graph Based ANN", "Text Retrieval"]
 short_authors: Guoliang Wang, Yanlei Shang, Yong Chen
 ---
 A critical challenge to image-text retrieval is how to learn accurate

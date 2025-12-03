@@ -8,7 +8,7 @@ year: 2020
 bibkey: khurshid2020cross
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.00725'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Khurshid et al.
 ---
 Cross-modal retrieval aims to measure the content similarity between

@@ -7,7 +7,7 @@ year: 2023
 bibkey: xu2023deep
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.13357'}]
-tags: ["Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Scalability"]
+tags: ["Datasets", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Xu et al.
 ---
 Hashing methods have made significant progress in cross-modal retrieval tasks

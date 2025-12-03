@@ -7,7 +7,7 @@ year: 2018
 bibkey: medina2018where
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.09068'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing"]
 short_authors: Salvador Medina, Zhuyun Dai, Yingkai Gao
 ---
 In this work we propose a method that geolocates videos within a delimited

@@ -8,7 +8,7 @@ year: 2019
 bibkey: mu2019fast
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.08498'}]
-tags: ["Compact Codes", "Efficiency", "Similarity Search", "Text Retrieval"]
+tags: ["Compact Codes", "Text Retrieval"]
 short_authors: Mu et al.
 ---
 A growing interest has been witnessed recently from both academia and

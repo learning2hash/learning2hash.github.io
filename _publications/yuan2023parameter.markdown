@@ -7,7 +7,7 @@ year: 2023
 bibkey: yuan2023parameter
 citations: 60
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.12509'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Text Retrieval", "Tools & Libraries"]
 short_authors: Yuan Yuan, Yang Zhan, Zhitong Xiong
 ---
 Vision-and-language pre-training (VLP) models have experienced a surge in

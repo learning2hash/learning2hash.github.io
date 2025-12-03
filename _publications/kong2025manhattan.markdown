@@ -8,7 +8,7 @@ year: 2025
 bibkey: kong2025manhattan
 citations: 104
 additional_links: [{name: Paper, url: 'https://cs.nju.edu.cn/lwj/paper/SIGIR12_MH.pdf'}]
-tags: ["Hashing Methods", "Image Retrieval", "SIGIR", "Scalability"]
+tags: ["Hashing Methods", "Image Retrieval", "Memory Efficiency", "SIGIR", "Scalability"]
 short_authors: W. Kong, Li, Guo
 ---
 Hashing is used to learn binary-code representation for data with

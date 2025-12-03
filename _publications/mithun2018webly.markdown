@@ -8,7 +8,7 @@ year: 2018
 bibkey: mithun2018webly
 citations: 78
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.07793'}]
-tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval", "Supervised"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Supervised", "Text Retrieval"]
 short_authors: Mithun et al.
 ---
 Cross-modal retrieval between visual data and natural language description

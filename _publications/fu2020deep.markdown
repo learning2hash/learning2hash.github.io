@@ -7,7 +7,7 @@ year: 2020
 bibkey: fu2020deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.08012'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Large Scale Search", "Neural Hashing"]
+tags: ["Compact Codes", "Datasets", "Hashing Methods", "Large Scale Search", "Neural Hashing"]
 short_authors: Fu et al.
 ---
 Combinatorial optimization (CO) has been a hot research topic because of its

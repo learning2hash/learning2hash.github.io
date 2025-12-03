@@ -8,7 +8,7 @@ year: 2023
 bibkey: shah2023group
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.02573'}]
-tags: ["Distance Metric Learning", "Efficiency", "Large Scale Search", "Scalability", "Similarity Search"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Scalability", "Tools & Libraries"]
 short_authors: Harsh Shah, Kashish Mittal, Ajit Rajwade
 ---
 This work presents an adaptive group testing framework for the range-based

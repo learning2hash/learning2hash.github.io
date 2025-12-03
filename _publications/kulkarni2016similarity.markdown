@@ -7,7 +7,7 @@ year: 2016
 bibkey: kulkarni2016similarity
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.06057'}]
-tags: ["Compact Codes", "Distance Metric Learning", "Efficiency", "Similarity Search"]
+tags: ["Datasets", "Distance Metric Learning"]
 short_authors: Raghav Kulkarni, Rameshwar Pratap
 ---
 The rise of internet has resulted in an explosion of data consisting of

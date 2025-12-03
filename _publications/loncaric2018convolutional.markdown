@@ -7,7 +7,7 @@ year: 2018
 bibkey: loncaric2018convolutional
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.03101'}]
-tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Similarity Search"]
+tags: ["Hashing Methods"]
 short_authors: Martin Loncaric, Bowei Liu, Ryan Weber
 ---
 We present a powerful new loss function and training scheme for learning

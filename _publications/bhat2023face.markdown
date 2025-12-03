@@ -7,7 +7,7 @@ year: 2023
 bibkey: bhat2023face
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.07315'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Robustness"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Robustness"]
 short_authors: Aaditya Bhat, Shrey Jain
 ---
 CLIP (Contrastive Language-Image Pre-training) models developed by OpenAI

@@ -10,7 +10,7 @@ bibkey: cadar2024leveraging
 citations: 1
 additional_links: [{name: Code, url: 'https://www.verlab.dcc.ufmg.br/descriptors/reasoning_accv24'},
   {name: Paper, url: 'https://arxiv.org/abs/2410.09533'}]
-tags: ["Image Retrieval", "Similarity Search"]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: Cadar et al.
 ---
 Visual correspondence is a crucial step in key computer vision tasks,

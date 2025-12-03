@@ -9,7 +9,7 @@ year: 2023
 bibkey: li2023slim
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.06587'}]
-tags: ["Datasets", "SIGIR", "Text Retrieval", "Tools & Libraries", "Vector Indexing"]
+tags: ["Datasets", "SIGIR"]
 short_authors: Li et al.
 ---
 This paper introduces Sparsified Late Interaction for Multi-vector (SLIM)

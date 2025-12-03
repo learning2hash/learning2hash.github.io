@@ -7,7 +7,7 @@ year: 2025
 bibkey: zhu2025deep
 citations: 652
 additional_links: [{name: Paper, url: 'http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-hashing-network-aaai16.pdf'}]
-tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Similarity Search", "Supervised"]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Similarity Search", "Supervised"]
 short_authors: Zhu et al.
 ---
 Due to the storage and retrieval efficiency, hashing has been widely deployed to approximate nearest neighbor search for large-scale multimedia retrieval. Supervised hashing, which improves the quality of hash coding by exploiting the semantic similarity on data pairs, has received increasing attention recently. For most existing supervised hashing methods for image retrieval, an image is first represented as a vector of hand-crafted or machine-learned features, followed by another separate quantization step that generates binary codes.

@@ -8,7 +8,7 @@ year: 2025
 bibkey: xu2025robust
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.04151'}]
-tags: ["Robustness", "Self-Supervised", "Unsupervised"]
+tags: ["Datasets", "Hashing Methods", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Xu et al.
 ---
 Recently, multi-view learning (MVL) has garnered significant attention due to

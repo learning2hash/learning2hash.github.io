@@ -8,7 +8,7 @@ year: 2020
 bibkey: hu2020efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.11907'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Huan Hu, Jianzhong Li
 ---
 Nearest neighbor search is fundamental to a wide range of applications. Since

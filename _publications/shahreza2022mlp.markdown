@@ -8,7 +8,7 @@ year: 2022
 bibkey: shahreza2022mlp
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.11054'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Privacy & Security"]
+tags: ["Datasets", "Evaluation", "Hashing Methods"]
 short_authors: "Hatef Otroshi Shahreza, Vedrana Krivoku\u0107a Hahn, S\xE9bastien\
   \ Marcel"
 ---

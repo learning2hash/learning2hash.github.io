@@ -7,7 +7,7 @@ year: 2019
 bibkey: mandal2019label
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.11139'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Supervised"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Supervised", "Unsupervised"]
 short_authors: Devraj Mandal, Pramod Rao, Soma Biswas
 ---
 Cross-modal data matching refers to retrieval of data from one modality, when

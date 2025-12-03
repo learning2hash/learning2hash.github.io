@@ -8,7 +8,7 @@ bibkey: ma2016gpu
 citations: 2
 additional_links: [{name: Code, url: 'https://bitbucket.org/mawenjing/gpu-fv'}, {
     name: Paper, url: 'https://arxiv.org/abs/1604.03498'}]
-tags: ["Efficiency", "Video Retrieval"]
+tags: ["Efficiency", "Evaluation"]
 short_authors: Ma et al.
 ---
 Fisher vector has been widely used in many multimedia retrieval and visual

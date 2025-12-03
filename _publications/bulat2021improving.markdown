@@ -9,7 +9,7 @@ year: 2021
 bibkey: bulat2021improving
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.04442'}]
-tags: ["ICASSP", "Unsupervised"]
+tags: ["Datasets", "Distance Metric Learning", "ICASSP", "Supervised", "Unsupervised"]
 short_authors: "Adrian Bulat, Enrique S\xE1nchez-Lozano, Georgios Tzimiropoulos"
 ---
 An important component of unsupervised learning by instance-based

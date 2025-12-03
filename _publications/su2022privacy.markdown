@@ -9,7 +9,7 @@ year: 2022
 bibkey: su2022privacy
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.13919'}]
-tags: ["Image Retrieval", "Privacy & Security"]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Su et al.
 ---
 The task of privacy-preserving model upgrades in image retrieval desires to

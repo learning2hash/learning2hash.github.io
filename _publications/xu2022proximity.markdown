@@ -7,7 +7,7 @@ year: 2022
 bibkey: xu2022proximity
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.10839'}]
-tags: ["Graph Based ANN", "Recommender Systems", "Similarity Search"]
+tags: ["Graph Based ANN", "Quantization", "Recommender Systems", "Similarity Search", "Tree Based ANN"]
 short_authors: Xu et al.
 ---
 Approximate Nearest Neighbor (ANN) search is a fundamental technique for

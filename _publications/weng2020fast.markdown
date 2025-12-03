@@ -7,7 +7,7 @@ year: 2020
 bibkey: weng2020fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.08591'}]
-tags: ["Compact Codes", "Efficiency", "Hashing Methods", "Similarity Search"]
+tags: ["Compact Codes", "Tools & Libraries"]
 short_authors: Zhenyu Weng, Yuesheng Zhu, Ruixin Liu
 ---
 Weighted Hamming distance, as a similarity measure between binary codes and

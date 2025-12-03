@@ -8,7 +8,7 @@ year: 2022
 bibkey: dias2022pattern
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.02397'}]
-tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Memory Efficiency", "Neural Hashing"]
 short_authors: Dias et al.
 ---
 This paper presents a deep learning approach for image retrieval and pattern

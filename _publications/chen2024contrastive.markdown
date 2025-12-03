@@ -8,7 +8,7 @@ year: 2024
 bibkey: chen2024contrastive
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.02746'}]
-tags: ["Multimodal Retrieval", "Scalability", "Self-Supervised"]
+tags: ["Distance Metric Learning", "Scalability", "Tools & Libraries"]
 short_authors: Chen et al.
 ---
 Contrastive Language-Image Pre-training (CLIP) has been a celebrated method

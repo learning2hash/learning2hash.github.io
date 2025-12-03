@@ -9,7 +9,7 @@ bibkey: kordopatiszilos2021dns
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/mever-team/distill-and-select'},
   {name: Paper, url: 'https://arxiv.org/abs/2106.13266'}]
-tags: ["Datasets", "Efficiency", "Video Retrieval"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Video Retrieval"]
 short_authors: Kordopatis-Zilos et al.
 ---
 In this paper, we address the problem of high performance and computationally

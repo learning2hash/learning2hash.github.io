@@ -9,7 +9,7 @@ year: 2019
 bibkey: taheri2019similarity
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.05759'}]
-tags: ["Datasets", "Evaluation", "Privacy & Security", "Similarity Search"]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Taheri et al.
 ---
 In this paper, we develop four malware detection methods using Hamming

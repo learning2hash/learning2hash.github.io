@@ -7,7 +7,7 @@ year: 2020
 bibkey: boytsov2020flexible
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.14848'}]
-tags: ["Hybrid ANN Methods", "Tools & Libraries"]
+tags: ["Hybrid ANN Methods", "Re-Ranking", "Tools & Libraries", "Tree Based ANN"]
 short_authors: Leonid Boytsov, Eric Nyberg
 ---
 Our objective is to introduce to the NLP community an existing k-NN search

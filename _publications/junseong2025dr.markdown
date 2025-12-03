@@ -10,7 +10,7 @@ bibkey: junseong2025dr
 citations: 0
 additional_links: [{name: Other, url: 'https://drsplat.github.io/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2502.16652'}]
-tags: ["Quantization", "Scalability"]
+tags: ["Evaluation", "Quantization", "Scalability"]
 short_authors: Jun-Seong et al.
 ---
 We introduce Dr. Splat, a novel approach for open-vocabulary 3D scene

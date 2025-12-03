@@ -8,7 +8,7 @@ year: 2024
 bibkey: balloli2024are
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.08908'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: ["Evaluation", "Image Retrieval", "Neural Hashing"]
 short_authors: Vaibhav Balloli, Sara Beery, Elizabeth Bondi-Kelly
 ---
 Image retrieval plays a pivotal role in applications from wildlife

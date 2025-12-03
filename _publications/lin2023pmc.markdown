@@ -8,7 +8,7 @@ year: 2023
 bibkey: lin2023pmc
 citations: 110
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.07240'}]
-tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Scalability", "Text Retrieval"]
 short_authors: Lin et al.
 ---
 Foundation models trained on large-scale dataset gain a recent surge in CV

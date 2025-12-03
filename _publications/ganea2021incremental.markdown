@@ -7,7 +7,7 @@ year: 2021
 bibkey: ganea2021incremental
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.05312'}]
-tags: ["CVPR", "Few Shot & Zero Shot", "Memory Efficiency"]
+tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Dan Andrei Ganea, Bas Boom, Ronald Poppe
 ---
 Few-shot instance segmentation methods are promising when labeled training

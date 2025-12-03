@@ -7,7 +7,7 @@ year: 2019
 bibkey: "aum\xFCller2019puffinn"
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.12211'}]
-tags: ["Efficiency", "Locality-Sensitive-Hashing", "Memory Efficiency", "Similarity Search"]
+tags: ["Locality-Sensitive-Hashing"]
 short_authors: "Aum\xFCller et al."
 ---
 We present PUFFINN, a parameterless LSH-based index for solving the

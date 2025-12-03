@@ -7,7 +7,7 @@ year: 2020
 bibkey: ozsoy2020utilizing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.12982'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems"]
+tags: ["Datasets", "Evaluation", "Neural Hashing", "Recommender Systems"]
 short_authors: Makbule Gulcin Ozsoy
 ---
 Venue recommendation systems model the past interactions (i.e., check-ins) of

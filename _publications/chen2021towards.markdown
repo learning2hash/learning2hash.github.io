@@ -9,7 +9,7 @@ year: 2021
 bibkey: chen2021towards
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.01944'}]
-tags: ["Quantization", "Recommender Systems"]
+tags: ["Evaluation", "Quantization", "Recommender Systems"]
 short_authors: Chen et al.
 ---
 Due to the promising advantages in space compression and inference

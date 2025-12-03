@@ -8,7 +8,7 @@ year: 2020
 bibkey: patrick2020support
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.02824'}]
-tags: ["Self-Supervised", "Video Retrieval"]
+tags: ["Datasets", "Self-Supervised", "Video Retrieval"]
 short_authors: Patrick et al.
 ---
 The dominant paradigm for learning video-text representations -- noise

@@ -8,7 +8,7 @@ year: 2019
 bibkey: alfasly2019variational
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.02343'}]
-tags: ["Datasets", "Image Retrieval", "Neural Hashing"]
+tags: ["Datasets", "Neural Hashing", "Tools & Libraries"]
 short_authors: Alfasly et al.
 ---
 Vehicle Re-identification is attracting more and more attention in recent

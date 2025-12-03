@@ -8,7 +8,7 @@ year: 2023
 bibkey: gabriel2023weakly
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.04678'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Supervised"]
 short_authors: Gabriel et al.
 ---
 With the surge in available data from various modalities, there is a growing

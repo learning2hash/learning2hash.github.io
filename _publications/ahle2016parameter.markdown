@@ -8,7 +8,7 @@ year: 2016
 bibkey: ahle2016parameter
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.02673'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
 short_authors: "Thomas D. Ahle, Martin Aum\xFCller, Rasmus Pagh"
 ---
 We present a data structure for *spherical range reporting* on a point set

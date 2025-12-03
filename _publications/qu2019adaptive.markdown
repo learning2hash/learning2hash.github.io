@@ -8,7 +8,7 @@ bibkey: qu2019adaptive
 citations: 47
 additional_links: [{name: Code, url: 'https://github.com/zqu1992/ALQ'}, {name: Paper,
     url: 'https://arxiv.org/abs/1912.08883'}]
-tags: ["CVPR", "Quantization"]
+tags: ["CVPR", "Datasets", "Evaluation", "Quantization"]
 short_authors: Qu et al.
 ---
 We investigate the compression of deep neural networks by quantizing their

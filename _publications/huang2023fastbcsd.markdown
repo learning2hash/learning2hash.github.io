@@ -7,7 +7,7 @@ year: 2023
 bibkey: huang2023fastbcsd
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.14168'}]
-tags: ["Datasets", "Efficiency", "Similarity Search"]
+tags: ["Compact Codes", "Datasets", "Neural Hashing"]
 short_authors: Huang et al.
 ---
 Binary code similarity detection (BCSD) has various applications, including

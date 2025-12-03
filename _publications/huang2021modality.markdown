@@ -8,7 +8,7 @@ bibkey: huang2021modality
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/huangzongheng/MATHM'}, {
     name: Paper, url: 'https://arxiv.org/abs/2112.07966'}]
-tags: ["Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Huang et al.
 ---
 This paper tackles the Zero-Shot Sketch-Based Image Retrieval (ZS-SBIR)

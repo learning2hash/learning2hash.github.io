@@ -7,7 +7,7 @@ year: 2024
 bibkey: yu2024ranking
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.06760'}]
-tags: ["Image Retrieval", "Multimodal Retrieval", "Re-Ranking"]
+tags: ["Uncategorized"]
 short_authors: Yu et al.
 ---
 Recent advances in vision-language models (VLMs) have made significant

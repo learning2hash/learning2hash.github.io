@@ -9,7 +9,7 @@ bibkey: xu2017unsupervised
 citations: 26
 additional_links: [{name: Code, url: 'https://github.com/XJhaoren/PWA'}, {name: Paper,
     url: 'https://arxiv.org/abs/1705.01247'}]
-tags: ["Image Retrieval", "Unsupervised"]
+tags: ["Datasets", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Xu et al.
 ---
 In this paper, we propose a simple but effective semantic part-based

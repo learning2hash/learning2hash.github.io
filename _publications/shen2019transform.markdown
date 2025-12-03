@@ -9,7 +9,7 @@ bibkey: shen2019transform
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/jasonustc/caffe-multigpu/tree/TICNN'},
   {name: Paper, url: 'https://arxiv.org/abs/1912.01447'}]
-tags: ["Image Retrieval", "Robustness"]
+tags: ["Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Shen et al.
 ---
 Convolutional neural networks (CNNs) have achieved state-of-the-art results

@@ -8,7 +8,7 @@ year: 2021
 bibkey: zhang2021ndpnet
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.06988'}]
-tags: ["Distance Metric Learning", "Few Shot & Zero Shot"]
+tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Zhang et al.
 ---
 Metric-based few-shot fine-grained image classification (FSFGIC) aims to

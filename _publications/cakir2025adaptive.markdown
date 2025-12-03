@@ -7,7 +7,7 @@ year: 2025
 bibkey: cakir2025adaptive
 citations: 88
 additional_links: [{name: Paper, url: 'https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Cakir_Adaptive_Hashing_for_ICCV_2015_paper.pdf'}]
-tags: ["Hashing Methods", "ICCV", "Image Retrieval", "Similarity Search"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Similarity Search"]
 short_authors: F. Cakir, Sclaroff
 ---
 With the staggering growth in image and video datasets,

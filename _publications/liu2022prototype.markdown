@@ -7,7 +7,7 @@ year: 2022
 bibkey: liu2022prototype
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.15678'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Privacy & Security"]
+tags: ["Datasets", "Evaluation", "Hashing Methods"]
 short_authors: Liu et al.
 ---
 Recently, deep cross-modal hashing has gained increasing attention. However,

@@ -7,7 +7,7 @@ year: 2023
 bibkey: nikhal2023hashreid
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.11900'}]
-tags: ["Compact Codes", "Datasets", "Efficiency", "Hashing Methods"]
+tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods"]
 short_authors: Nikhal et al.
 ---
 Biometric applications, such as person re-identification (ReID), are often

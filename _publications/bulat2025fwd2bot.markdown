@@ -7,7 +7,7 @@ year: 2025
 bibkey: bulat2025fwd2bot
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.21757'}]
-tags: ["Compact Codes", "Image Retrieval"]
+tags: ["Compact Codes", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Adrian Bulat, Yassine Ouali, Georgios Tzimiropoulos
 ---
 In this work, we aim to compress the vision tokens of a Large Vision Language

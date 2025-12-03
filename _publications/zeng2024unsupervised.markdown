@@ -9,7 +9,7 @@ year: 2024
 bibkey: zeng2024unsupervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.16497'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Text Retrieval", "Unsupervised"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Supervised", "Text Retrieval", "Unsupervised"]
 short_authors: Zeng et al.
 ---
 Dense retrieval systems are commonly used for information retrieval (IR).

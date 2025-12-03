@@ -9,7 +9,7 @@ bibkey: li2024matching
 citations: 14
 additional_links: [{name: Other, url: 'https://matchinganything.github.io/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2406.04221'}]
-tags: ["CVPR", "Evaluation", "Few Shot & Zero Shot"]
+tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Li et al.
 ---
 The robust association of the same objects across video frames in complex

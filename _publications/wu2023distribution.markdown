@@ -7,7 +7,7 @@ year: 2023
 bibkey: wu2023distribution
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.06685'}]
-tags: ["Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Wu et al.
 ---
 Zero-Shot Sketch-Based Image Retrieval (ZS-SBIR) is a challenging cross-modal

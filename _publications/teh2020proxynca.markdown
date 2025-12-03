@@ -7,7 +7,7 @@ year: 2020
 bibkey: teh2020proxynca
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.01113'}]
-tags: ["Datasets", "Distance Metric Learning", "Few Shot & Zero Shot"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Eu Wern Teh, Terrance Devries, Graham W. Taylor
 ---
 We consider the problem of distance metric learning (DML), where the task is

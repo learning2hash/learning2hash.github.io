@@ -7,7 +7,7 @@ year: 2023
 bibkey: long2023mnn
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.00562'}]
-tags: ["Efficiency", "Self-Supervised"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Self-Supervised", "Supervised"]
 short_authors: Xianzhong Long, Chen Peng, Yun Li
 ---
 In contrastive self-supervised learning, positive samples are typically drawn

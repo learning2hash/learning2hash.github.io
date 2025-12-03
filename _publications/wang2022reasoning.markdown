@@ -8,7 +8,7 @@ bibkey: wang2022reasoning
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/zjunlp/KNN-KG'}, {name: Paper,
     url: 'https://arxiv.org/abs/2201.05575'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Memory Efficiency"]
+tags: ["Evaluation"]
 short_authors: Wang et al.
 ---
 Previous knowledge graph embedding approaches usually map entities to

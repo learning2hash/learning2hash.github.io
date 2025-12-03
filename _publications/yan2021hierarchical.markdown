@@ -9,7 +9,7 @@ bibkey: yan2021hierarchical
 citations: 38
 additional_links: [{name: Code, url: 'https://github.com/YanLiqi/HAF'}, {name: Paper,
     url: 'https://arxiv.org/abs/2102.09186'}]
-tags: ["ICASSP", "Image Retrieval", "Self-Supervised"]
+tags: ["Evaluation", "ICASSP", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Yan et al.
 ---
 Geo-localization is a critical task in computer vision. In this work, we cast

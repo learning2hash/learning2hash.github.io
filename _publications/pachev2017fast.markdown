@@ -7,7 +7,7 @@ year: 2017
 bibkey: pachev2017fast
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.09693'}]
-tags: ["Graph Based ANN", "Scalability"]
+tags: ["Distance Metric Learning"]
 short_authors: Benjamin Pachev, Benjamin Webb
 ---
 Many link prediction algorithms require the computation of a similarity

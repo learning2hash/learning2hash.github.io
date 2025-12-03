@@ -7,7 +7,7 @@ year: 2016
 bibkey: roy2016using
 citations: 86
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.07608'}]
-tags: ["Evaluation", "Tools & Libraries", "Unsupervised"]
+tags: ["Evaluation", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Roy et al.
 ---
 In this paper a framework for Automatic Query Expansion (AQE) is proposed

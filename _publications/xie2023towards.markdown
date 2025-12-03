@@ -8,7 +8,7 @@ year: 2023
 bibkey: xie2023towards
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.07084'}]
-tags: ["Efficiency", "Memory Efficiency", "Scalability", "Tools & Libraries"]
+tags: ["Efficiency", "Evaluation", "Memory Efficiency", "Scalability", "Tools & Libraries"]
 short_authors: Xie et al.
 ---
 We propose LIGHTNE 2.0, a cost-effective, scalable, automated, and

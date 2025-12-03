@@ -7,7 +7,7 @@ year: 2020
 bibkey: tepper2020procrustean
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.04847'}]
-tags: ["Efficiency", "Hashing Methods", "Similarity Search"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Similarity Search"]
 short_authors: Mariano Tepper, Dipanjan Sengupta, Ted Willke
 ---
 Hashing is one of the most popular methods for similarity search because of

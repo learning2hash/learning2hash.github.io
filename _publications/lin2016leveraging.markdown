@@ -7,7 +7,7 @@ year: 2016
 bibkey: lin2016leveraging
 citations: 82
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.01379'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Xiao Lin, Devi Parikh
 ---
 Visual Question Answering (VQA) is the task of taking as input an image and a

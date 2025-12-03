@@ -7,7 +7,7 @@ year: 2023
 bibkey: xiang2023a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.04182'}]
-tags: ["Distance Metric Learning", "Recommender Systems"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Recommender Systems", "Tools & Libraries"]
 short_authors: Xiang et al.
 ---
 The investigation of the similarity between artists and music is crucial in

@@ -7,7 +7,7 @@ year: 2025
 bibkey: li2025feature
 citations: 117
 additional_links: [{name: Paper, url: 'http://cs.nju.edu.cn/lwj/paper/IJCAI16_DPSH.pdf'}]
-tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Wu-Jun Li, Kang
 ---
 Recent years have witnessed wide application of

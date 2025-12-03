@@ -9,7 +9,7 @@ year: 2021
 bibkey: zhao2021large
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.04656'}]
-tags: ["Efficiency", "Graph Based ANN", "Image Retrieval", "Large Scale Search", "Scalability"]
+tags: ["Compact Codes", "Efficiency", "Graph Based ANN", "Image Retrieval", "Large Scale Search"]
 short_authors: Zhao et al.
 ---
 Graph-based approximate nearest neighbor search has attracted more and more

@@ -9,7 +9,7 @@ bibkey: chen2023pretrain
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/Chen-Junyang-cn/PLI'}, {
     name: Paper, url: 'https://arxiv.org/abs/2311.07622'}]
-tags: ["Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised"]
 short_authors: Junyang Chen, Hanjiang Lai
 ---
 Zero-shot composed image retrieval (ZS-CIR), which takes a textual

@@ -8,7 +8,7 @@ year: 2025
 bibkey: zhang2025supervised
 citations: 290
 additional_links: [{name: Paper, url: 'https://cs.nju.edu.cn/lwj/paper/SIGIR14_LFH.pdf'}]
-tags: ["Hashing Methods", "SIGIR", "Supervised"]
+tags: ["Datasets", "Hashing Methods", "SIGIR", "Supervised", "Unsupervised"]
 short_authors: Zhang et al.
 ---
 Due to its low storage cost and fast query speed, hashing

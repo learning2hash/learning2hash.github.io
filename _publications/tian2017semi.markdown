@@ -7,7 +7,7 @@ year: 2017
 bibkey: tian2017semi
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.03404'}]
-tags: ["Evaluation", "Hashing Methods", "Multimodal Retrieval", "Supervised"]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Tian et al.
 ---
 Retrieving nearest neighbors across correlated data in multiple modalities,

@@ -7,7 +7,7 @@ year: 2019
 bibkey: wu2019saec
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.00103'}]
-tags: ["Memory Efficiency", "Recommender Systems"]
+tags: ["Datasets", "Evaluation", "Memory Efficiency", "Recommender Systems"]
 short_authors: Wu et al.
 ---
 Production recommendation systems rely on embedding methods to represent

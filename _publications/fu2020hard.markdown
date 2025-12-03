@@ -10,7 +10,7 @@ bibkey: fu2020hard
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/3D-FRONT-FUTURE/IBSR-texture'},
   {name: Paper, url: 'https://arxiv.org/abs/2010.12238'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: ["Distance Metric Learning", "Evaluation", "Scalability", "Tools & Libraries"]
 short_authors: Fu et al.
 ---
 Image-based 3D shape retrieval (IBSR) aims to find the corresponding 3D shape

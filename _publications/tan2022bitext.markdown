@@ -7,7 +7,7 @@ year: 2022
 bibkey: tan2022bitext
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.11194'}]
-tags: ["Few Shot & Zero Shot", "Self-Supervised"]
+tags: ["Self-Supervised"]
 short_authors: Weiting Tan, Philipp Koehn
 ---
 Mining high-quality bitexts for low-resource languages is challenging. This

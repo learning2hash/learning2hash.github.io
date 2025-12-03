@@ -9,7 +9,7 @@ bibkey: fu2019high
 citations: 43
 additional_links: [{name: Code, url: 'https://github.com/ZJULearning/SSG'}, {name: Paper,
     url: 'https://arxiv.org/abs/1907.06146'}]
-tags: ["Efficiency", "Graph Based ANN", "Similarity Search"]
+tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Scalability", "Similarity Search"]
 short_authors: Cong Fu, Changxu Wang, Deng Cai
 ---
 Approximate Nearest Neighbor Search (ANNS) in high dimensional space is

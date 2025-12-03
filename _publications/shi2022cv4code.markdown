@@ -7,7 +7,7 @@ year: 2022
 bibkey: shi2022cv4code
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.08585'}]
-tags: ["Compact Codes", "Evaluation", "Image Retrieval", "Similarity Search"]
+tags: ["Evaluation"]
 short_authors: Shi et al.
 ---
 We present CV4Code, a compact and effective computer vision method for

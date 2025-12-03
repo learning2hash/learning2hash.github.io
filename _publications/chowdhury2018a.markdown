@@ -8,7 +8,7 @@ year: 2018
 bibkey: chowdhury2018a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.08057'}]
-tags: ["Evaluation", "Re-Ranking", "Unsupervised"]
+tags: ["Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Supervised", "Unsupervised"]
 short_authors: Chowdhury et al.
 ---
 State of the art approaches for (embedding based) unsupervised semantic

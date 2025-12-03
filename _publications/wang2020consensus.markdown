@@ -8,7 +8,7 @@ bibkey: wang2020consensus
 citations: 162
 additional_links: [{name: Code, url: 'https://github.com/BruceW91/CVSE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2007.08883'}]
-tags: ["Image Retrieval", "Multimodal Retrieval"]
+tags: ["Datasets", "Evaluation", "Text Retrieval"]
 short_authors: Wang et al.
 ---
 Image-text matching plays a central role in bridging vision and language.

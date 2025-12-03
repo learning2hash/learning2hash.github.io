@@ -7,7 +7,7 @@ year: 2019
 bibkey: wang2019ranked
 citations: 239
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.03238'}]
-tags: ["CVPR", "Distance Metric Learning", "Few Shot & Zero Shot"]
+tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Wang et al.
 ---
 The objective of deep metric learning (DML) is to learn embeddings that can

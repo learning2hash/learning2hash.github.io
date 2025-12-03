@@ -7,7 +7,7 @@ year: 2016
 bibkey: wang2016deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.03900'}]
-tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Xiaofang Wang, Yi Shi, Kris M. Kitani
 ---
 Hashing is one of the most popular and powerful approximate nearest neighbor

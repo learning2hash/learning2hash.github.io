@@ -9,7 +9,7 @@ year: 2024
 bibkey: teng2024mvbind
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.09286'}]
-tags: ["Datasets", "Multimodal Retrieval", "Recommender Systems", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Teng et al.
 ---
 Recent years have witnessed the rapid development of short videos, which

@@ -7,7 +7,7 @@ year: 2023
 bibkey: chen2023enhanced
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.07646'}]
-tags: ["CVPR", "Self-Supervised", "Video Retrieval"]
+tags: ["CVPR", "Datasets", "Evaluation", "Self-Supervised", "Video Retrieval"]
 short_authors: Chen et al.
 ---
 This paper explores the tasks of leveraging auxiliary modalities which are

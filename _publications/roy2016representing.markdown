@@ -8,7 +8,7 @@ year: 2016
 bibkey: roy2016representing
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.07869'}]
-tags: ["Distance Metric Learning", "Evaluation", "Text Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Roy et al.
 ---
 A major difficulty in applying word vector embeddings in IR is in devising an

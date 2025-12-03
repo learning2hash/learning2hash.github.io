@@ -9,7 +9,7 @@ year: 2024
 bibkey: zhang2024demo
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.11496'}]
-tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Self-Supervised", "Unsupervised"]
+tags: ["Datasets", "Hashing Methods", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Zhang et al.
 ---
 Image-text matching has been a long-standing problem, which seeks to connect

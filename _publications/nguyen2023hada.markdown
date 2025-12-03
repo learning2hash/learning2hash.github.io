@@ -8,7 +8,7 @@ bibkey: nguyen2023hada
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/m2man/HADA'}, {name: Paper,
     url: 'https://arxiv.org/abs/2301.04742'}]
-tags: ["Evaluation", "Graph Based ANN", "Image Retrieval", "Text Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Graph Based ANN", "Text Retrieval"]
 short_authors: Manh-Duy Nguyen, Binh T. Nguyen, Cathal Gurrin
 ---
 Many models have been proposed for vision and language tasks, especially the

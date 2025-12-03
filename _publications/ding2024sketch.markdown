@@ -7,7 +7,7 @@ year: 2024
 bibkey: ding2024sketch
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.15575'}]
-tags: ["Graph Based ANN", "Locality-Sensitive-Hashing", "Scalability"]
+tags: ["Evaluation", "Graph Based ANN", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
 short_authors: Ding et al.
 ---
 Graph Neural Networks (GNNs) are widely applied to graph learning problems

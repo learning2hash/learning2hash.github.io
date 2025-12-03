@@ -9,7 +9,7 @@ bibkey: zhang2024magiclens
 citations: 1
 additional_links: [{name: Code, url: 'https://open-vision-language.github.io/MagicLens/'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.19651'}]
-tags: ["Efficiency", "Image Retrieval", "Self-Supervised"]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Zhang et al.
 ---
 Image retrieval, i.e., finding desired images given a reference image,

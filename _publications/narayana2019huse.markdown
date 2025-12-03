@@ -8,7 +8,7 @@ year: 2019
 bibkey: narayana2019huse
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.05978'}]
-tags: ["Distance Metric Learning", "Evaluation", "Multimodal Retrieval"]
+tags: ["Evaluation"]
 short_authors: Narayana et al.
 ---
 There is a recent surge of interest in cross-modal representation learning

@@ -7,7 +7,7 @@ year: 2016
 bibkey: "d\xEDaz2016cluster"
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.01689'}]
-tags: ["Evaluation", "Scalability"]
+tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: "Ra\xFAl D\xEDaz, Charless C. Fowlkes"
 ---
 Feature point matching for camera localization suffers from scalability

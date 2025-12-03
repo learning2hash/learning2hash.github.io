@@ -7,7 +7,7 @@ year: 2020
 bibkey: chung2020rotation
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.09202'}]
-tags: ["Distance Metric Learning", "Image Retrieval", "Robustness"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Robustness"]
 short_authors: Hyunseung Chung, Woo-Jeoung Nam, Seong-Whan Lee
 ---
 Remote sensing image retrieval (RSIR) is the process of ranking database

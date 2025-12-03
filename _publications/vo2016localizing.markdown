@@ -7,7 +7,7 @@ year: 2016
 bibkey: vo2016localizing
 citations: 271
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.00161'}]
-tags: ["Datasets", "Efficiency", "Image Retrieval"]
+tags: ["Datasets", "Efficiency", "Scalability"]
 short_authors: Nam Vo, James Hays
 ---
 In this paper we aim to determine the location and orientation of a

@@ -7,7 +7,7 @@ year: 2017
 bibkey: tsai2017learning
 citations: 154
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.05908'}]
-tags: ["Few Shot & Zero Shot", "ICCV", "Unsupervised"]
+tags: ["Datasets", "Few Shot & Zero Shot", "ICCV", "Supervised", "Unsupervised"]
 short_authors: Yao-Hung Hubert Tsai, Liang-Kang Huang, Ruslan Salakhutdinov
 ---
 Many of the existing methods for learning joint embedding of images and text

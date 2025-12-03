@@ -8,7 +8,7 @@ bibkey: chakraborty2017an
 citations: 0
 additional_links: [{name: Code, url: 'http://www.isical.ac.in/~bioinfo_miu/conLSH/conLSH.html'},
   {name: Paper, url: 'https://arxiv.org/abs/1705.03933'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Video Retrieval"]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Video Retrieval"]
 short_authors: Angana Chakraborty, Sanghamitra Bandyopadhyay
 ---
 Locality Sensitive Hashing (LSH) based algorithms have already shown their

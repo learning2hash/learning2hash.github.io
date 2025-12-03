@@ -9,7 +9,7 @@ year: 2022
 bibkey: althammer2022parm
 citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.01614'}]
-tags: ["Few Shot & Zero Shot", "Large Scale Search", "Text Retrieval"]
+tags: ["Text Retrieval"]
 short_authors: Althammer et al.
 ---
 Dense passage retrieval (DPR) models show great effectiveness gains in first

@@ -8,7 +8,7 @@ year: 2025
 bibkey: spaldingjamieson2025scalable
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.06163'}]
-tags: ["Large Scale Search", "Scalability", "Similarity Search", "Unsupervised"]
+tags: ["Datasets"]
 short_authors: Jack Spalding-Jamieson, Eliot Wong Robson, da Wei Zheng
 ---
 For very large values of \(k\), we consider methods for fast \(k\)-means

@@ -9,7 +9,7 @@ bibkey: wang2024cebin
 citations: 14
 additional_links: [{name: Code, url: 'https://github.com/Hustcw/CEBin'}, {name: Paper,
     url: 'https://arxiv.org/abs/2402.18818'}]
-tags: ["Efficiency", "Evaluation", "Scalability", "Tools & Libraries"]
+tags: ["Compact Codes", "Datasets", "Efficiency", "Evaluation", "Scalability"]
 short_authors: Wang et al.
 ---
 Binary code similarity detection (BCSD) is a fundamental technique for

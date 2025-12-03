@@ -7,7 +7,7 @@ year: 2016
 bibkey: vasile2016meta
 citations: 118
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.07326'}]
-tags: ["Datasets", "Recommender Systems"]
+tags: ["Datasets", "Evaluation", "Recommender Systems"]
 short_authors: Flavian Vasile, Elena Smirnova, Alexis Conneau
 ---
 We propose Meta-Prod2vec, a novel method to compute item similarities for

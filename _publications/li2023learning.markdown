@@ -7,7 +7,7 @@ year: 2023
 bibkey: li2023learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.13459'}]
-tags: ["Distance Metric Learning", "Supervised"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: Zhiyuan Li, Anca Ralescu
 ---
 Recently, deep metric learning techniques received attention, as the learned

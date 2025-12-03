@@ -7,7 +7,7 @@ year: 2023
 bibkey: shen2023maru
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.02083'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
+tags: ["Evaluation"]
 short_authors: Conghao Tom Shen, Violet Yao, Yixin Liu
 ---
 Manga, a widely celebrated Japanese comic art form, is renowned for its

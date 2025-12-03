@@ -11,7 +11,7 @@ bibkey: xie2022ccmb
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/yuxie11/R2D2'}, {name: Paper,
     url: 'https://arxiv.org/abs/2205.03860'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Re-Ranking", "Scalability"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Re-Ranking", "Scalability", "Text Retrieval"]
 short_authors: Xie et al.
 ---
 Vision-language pre-training (VLP) on large-scale datasets has shown premier

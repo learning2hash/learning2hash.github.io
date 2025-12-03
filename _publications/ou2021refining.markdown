@@ -7,7 +7,7 @@ year: 2021
 bibkey: ou2021refining
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.02867'}]
-tags: ["EMNLP", "Evaluation", "Hashing Methods", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Ou et al.
 ---
 Existing unsupervised document hashing methods are mostly established on

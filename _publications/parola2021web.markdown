@@ -7,7 +7,7 @@ year: 2021
 bibkey: parola2021web
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.13301'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Marco Parola, Alice Nannini, Stefano Poleggi
 ---
 To implement a good Content Based Image Retrieval (CBIR) system, it is

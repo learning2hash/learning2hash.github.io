@@ -8,7 +8,7 @@ year: 2019
 bibkey: elezi2019the
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.00385'}]
-tags: ["Distance Metric Learning", "Image Retrieval"]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Elezi et al.
 ---
 Deep metric learning has yielded impressive results in tasks such as
