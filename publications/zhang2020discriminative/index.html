@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <!-- _includes/head.html -->
+<head>
+  <!-- begin code v 7.0 -->
+  <span id="wts2185304"></span>
+  <script>
+  var wts7 = {};
+  wts7.invisible='';
+  wts7.page_name='';
+  wts7.group_name='';
+  wts7.conversion_number='';
+  wts7.user_id='';
+  var wts=document.createElement('script');wts.async=true;
+  wts.src='https://app.ardalio.com/wts7.js';document.head.appendChild(wts);
+  wts.onload = function(){ wtsl7(2185304,4); };
+  </script><noscript><img src="https://app.ardalio.com/7/4/2185304.png"></noscript>
+  <!-- end code v 7.0 -->
+
+ <!-- MathJax -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        // Only process elements with this class:
+        processHtmlClass: 'mathjax-content',
+        // And explicitly skip anything marked as no-mathjax
+        ignoreHtmlClass: 'no-mathjax'
+      }
+    };
+  </script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ✅ Manual SEO keywords (specific to Learning to Hash) -->
+  <meta name="keywords" content="learning to hash, machine learning, hashing, approximate nearest neighbour search, ANN, LSH, locality sensitive hashing, vector quantization, deep hashing, binary embeddings, information retrieval, similarity search">
+
+  <!-- ✅ Jekyll SEO plugin (title, description, canonical, OG/Twitter, JSON-LD) -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Discriminative Nearest Neighbor Few-shot Intent Detection By Transferring Natural Language Inference | Awesome Learning to Hash</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Discriminative Nearest Neighbor Few-shot Intent Detection By Transferring Natural Language Inference" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Intent detection is one of the core components of goal-oriented dialog systems, and detecting out-of-scope (OOS) intents is also a practically important skill. Few-shot learning is attracting much attention to mitigate data scarcity, but OOS detection becomes even more challenging. In this paper, we present a simple yet effective approach, discriminative nearest neighbor classification with deep self-attention. Unlike softmax classifiers, we leverage BERT-style pairwise encoding to train a binary classifier that estimates the best matched training example for a user input. We propose to boost the discriminative ability by transferring a natural language inference (NLI) model. Our extensive experiments on a large-scale multi-domain intent detection task show that our method achieves more stable and accurate in-domain and OOS detection accuracy than RoBERTa-based classifiers and embedding-based nearest neighbor approaches. More notably, the NLI transfer enables our 10-shot model to perform competitively with 50-shot or even full-shot classifiers, while we can keep the inference time constant by leveraging a faster embedding retrieval model." />
+<meta property="og:description" content="Intent detection is one of the core components of goal-oriented dialog systems, and detecting out-of-scope (OOS) intents is also a practically important skill. Few-shot learning is attracting much attention to mitigate data scarcity, but OOS detection becomes even more challenging. In this paper, we present a simple yet effective approach, discriminative nearest neighbor classification with deep self-attention. Unlike softmax classifiers, we leverage BERT-style pairwise encoding to train a binary classifier that estimates the best matched training example for a user input. We propose to boost the discriminative ability by transferring a natural language inference (NLI) model. Our extensive experiments on a large-scale multi-domain intent detection task show that our method achieves more stable and accurate in-domain and OOS detection accuracy than RoBERTa-based classifiers and embedding-based nearest neighbor approaches. More notably, the NLI transfer enables our 10-shot model to perform competitively with 50-shot or even full-shot classifiers, while we can keep the inference time constant by leveraging a faster embedding retrieval model." />
+<link rel="canonical" href="https://learning2hash.github.io/publications/zhang2020discriminative/" />
+<meta property="og:url" content="https://learning2hash.github.io/publications/zhang2020discriminative/" />
+<meta property="og:site_name" content="Awesome Learning to Hash" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-12-03T05:39:43-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Discriminative Nearest Neighbor Few-shot Intent Detection By Transferring Natural Language Inference" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-12-03T05:39:43-06:00","datePublished":"2025-12-03T05:39:43-06:00","description":"Intent detection is one of the core components of goal-oriented dialog systems, and detecting out-of-scope (OOS) intents is also a practically important skill. Few-shot learning is attracting much attention to mitigate data scarcity, but OOS detection becomes even more challenging. In this paper, we present a simple yet effective approach, discriminative nearest neighbor classification with deep self-attention. Unlike softmax classifiers, we leverage BERT-style pairwise encoding to train a binary classifier that estimates the best matched training example for a user input. We propose to boost the discriminative ability by transferring a natural language inference (NLI) model. Our extensive experiments on a large-scale multi-domain intent detection task show that our method achieves more stable and accurate in-domain and OOS detection accuracy than RoBERTa-based classifiers and embedding-based nearest neighbor approaches. More notably, the NLI transfer enables our 10-shot model to perform competitively with 50-shot or even full-shot classifiers, while we can keep the inference time constant by leveraging a faster embedding retrieval model.","headline":"Discriminative Nearest Neighbor Few-shot Intent Detection By Transferring Natural Language Inference","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2020discriminative/"},"url":"https://learning2hash.github.io/publications/zhang2020discriminative/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="search" href="/public/opensearchdescription.xml" type="application/opensearchdescription+xml" title="learning2hash" />
+
+  <!-- ✅ Single, modern jQuery + DataTables -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" defer></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" defer></script>
+
+  <!-- Optional sanity log -->
+  <script defer>
+    window.addEventListener('DOMContentLoaded', () => {
+      console.log('jQuery:', jQuery?.fn?.jquery);
+      console.log('DataTables loaded:', !!jQuery?.fn?.dataTable);
+    });
+  </script>
+</head>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <body class="theme-base-0c layout-reverse">
+
+    <!-- Ribbon -->
+<a href='/contributing.html' class='ribbon'>Add your paper to Learning2Hash</a>
+
+<!-- Sidebar -->
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">Awesome Learning to Hash</a>
+      </h1>
+      <p class="lead">A Webpage dedicated to the latest research on Hash Function Learning. Maintained by <a href="https://www.buymeacoffee.com/sjmoran">Sean Moran</a>.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div class="sidebar-item">
+        <p style="font-size: 12px">
+          Search related work
+          <input type="text" id="searchTarget" size="16" />
+          <button type="button" onClick="search();">Go</button>
+        </p>
+      </div>
+
+      <!-- NOTE: use quoted comparisons for page.url -->
+      <a class="sidebar-nav-item"
+         href="/papers.html">All Papers</a>
+      <a class="sidebar-nav-item"
+         href="/tags.html">Papers by Tag</a>
+      <a class="sidebar-nav-item"
+         href="/tsne-viz.html">2D Map of Papers</a>
+      <a class="sidebar-nav-item"
+         href="/topic-viz.html">Topic Explorer</a>
+      <a class="sidebar-nav-item"
+         href="/opensource.html">Tools Explorer</a>
+      <a class="sidebar-nav-item"
+         href="/author-viz.html">Author Explorer</a>
+      <a class="sidebar-nav-item"
+         href="/tutorial.html">Tutorial</a>
+      <a class="sidebar-nav-item"
+         href="/resources.html">Resources, Courses &amp; Events</a>
+      <a class="sidebar-nav-item"
+         href="/contributing.html">Contributing</a>
+    </nav>
+
+    <!-- ===== Stay Updated (minimal block) ===== -->
+    <hr style="border:none; border-top:1px solid #d8dee9; margin:0.75rem 0;" />
+    <div class="sidebar-item" aria-label="Stay updated">
+      <h3 style="margin:0 0 0.25rem 0; font-size:1rem;">Stay Updated</h3>
+      <ul style="list-style:none; padding-left:0; margin:0;">
+        <li style="margin:0.35rem 0;">
+          <a class="sidebar-nav-item" href="/feed/publications.xml"
+             rel="alternate" type="application/rss+xml">📰 RSS Feed</a>
+        </li>
+      </ul>
+    </div>
+    <!-- ===== End Stay Updated ===== -->
+
+    <div class="sidebar-item">
+      <p style="font-size: 12px">
+        Contact <a href="https://sjmoran.github.io">Sean Moran</a> about this survey or website.
+        <span style="font-size: 9px">
+          Made with <a href="https://jekyllrb.com">Jekyll</a> and
+          <a href="https://github.com/poole/hyde">Hyde</a>.
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<style>
+/* === Scrollable Right Sidebar (wider, matches Awesome LLM Papers) === */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 1.5rem 1.25rem;
+  box-sizing: border-box;
+  background-color: #7da2b3;
+  scrollbar-gutter: stable;
+
+  /* wider: 260–420px instead of 240–340px */
+  width: clamp(260px, 30vw, 420px);
+  max-width: clamp(260px, 30vw, 420px);
+}
+
+/* Allow normal flow inside sticky container */
+.sidebar .container.sidebar-sticky {
+  position: relative;
+  max-height: none;
+  overflow: visible;
+}
+
+/* Optional: prettier scrollbar */
+.sidebar::-webkit-scrollbar { width: 8px; }
+.sidebar::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.25); border-radius: 4px; }
+.sidebar::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.4); }
+
+/* Match content offset */
+.main, .content {
+  margin-right: clamp(260px, 30vw, 420px);
+}
+
+/* Mobile view: sidebar collapses */
+@media (max-width: 880px) {
+  .sidebar {
+    position: static;
+    height: auto;
+    width: auto;
+    max-width: none;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  }
+  .main, .content {
+    margin-right: 0 !important;
+  }
+}
+</style>
+
+<script defer>
+document.addEventListener('DOMContentLoaded', function () {
+  // ---- Search ----
+  function doSearch() {
+    const el = document.getElementById('searchTarget');
+    if (!el) return;
+    const q = el.value.trim();
+    try { if (typeof ga === 'function') ga('send', 'event', 'search', 'search', q); } catch(e) {}
+    window.location = "/papers.html#" + encodeURIComponent(q);
+  }
+
+  if (window.jQuery) {
+    $('#searchTarget').on('keydown', function (e) {
+      if (e.key === 'Enter') doSearch();
+    });
+    document.querySelector('.sidebar-item button')?.addEventListener('click', doSearch);
+  } else {
+    const input = document.getElementById('searchTarget');
+    const btn = document.querySelector('.sidebar-item button');
+    if (input) {
+      input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') doSearch();
+      });
+    }
+    if (btn) btn.addEventListener('click', doSearch);
+  }
+
+  window.search = doSearch;
+
+  // ---- Match content margin to actual sidebar width ----
+  const sb = document.querySelector('.sidebar');
+  const mains = document.querySelectorAll('.main, .content');
+  function syncSidebarWidth() {
+    if (!sb) return;
+    const w = sb.offsetWidth + 'px';
+    mains.forEach(m => m && (m.style.marginRight = w));
+  }
+  syncSidebarWidth();
+  window.addEventListener('resize', syncSidebarWidth);
+});
+</script>
+
+
+    <div class="content container mathjax-content">
+      <div class="page">
+  <h1 class="page-title">Discriminative Nearest Neighbor Few-shot Intent Detection By Transferring Natural Language Inference</h1>
+
+  <h5>
+    
+    
+    <a href="https://scholar.google.com/scholar?q=Jian-Guo%20Zhang,%20Kazuma%20Hashimoto,%20Wenhao%20Liu,%20Chien-Sheng%20Wu,%20Yao%20Wan,%20Philip%20S.%20Yu,%20Richard%20Socher,%20Caiming%20Xiong" 
+       target="_blank" rel="noopener noreferrer">
+      Jian-Guo Zhang, Kazuma Hashimoto, Wenhao Liu, Chien-Sheng Wu, Yao Wan, Philip S. Yu, Richard Socher, Caiming Xiong
+    </a>
+    
+    
+    . Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+     2020
+    
+      – <span>65 citations</span>
+    
+  </h5>
+
+  <!-- Inline Share Buttons -->
+  <div class="share-buttons">
+    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
+      <img src="/public/media/x.svg" alt="X (Twitter) icon">
+    </button>
+    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+      <img src="/public/media/linkedin.svg" alt="LinkedIn icon">
+    </button>
+    <button id="share-copy" class="icon-btn copy-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+      </svg>
+      <span class="copy-label">Copy</span>
+    </button>
+  </div>
+
+  <p>
+    
+      [<a href="https://arxiv.org/abs/2010.13009" target="_blank" rel="noopener noreferrer">Paper</a>]
+    
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Discriminative%20Nearest%20Neighbor%20Few-shot%20Intent%20Detection%20By%20Transferring%20Natural%20Language%20Inference" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Discriminative%20Nearest%20Neighbor%20Few-shot%20Intent%20Detection%20By%20Transferring%20Natural%20Language%20Inference" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
+    <br/>
+    
+      <tag><a href="/tags.html#EMNLP">EMNLP</a></tag>
+    
+      <tag><a href="/tags.html#Few%20Shot%20&%20Zero%20Shot">Few Shot & Zero Shot</a></tag>
+    
+      <tag><a href="/tags.html#Scalability">Scalability</a></tag>
+    
+  </p>
+
+  <p><p>Intent detection is one of the core components of goal-oriented dialog
+systems, and detecting out-of-scope (OOS) intents is also a practically
+important skill. Few-shot learning is attracting much attention to mitigate
+data scarcity, but OOS detection becomes even more challenging. In this paper,
+we present a simple yet effective approach, discriminative nearest neighbor
+classification with deep self-attention. Unlike softmax classifiers, we
+leverage BERT-style pairwise encoding to train a binary classifier that
+estimates the best matched training example for a user input. We propose to
+boost the discriminative ability by transferring a natural language inference
+(NLI) model. Our extensive experiments on a large-scale multi-domain intent
+detection task show that our method achieves more stable and accurate in-domain
+and OOS detection accuracy than RoBERTa-based classifiers and embedding-based
+nearest neighbor approaches. More notably, the NLI transfer enables our 10-shot
+model to perform competitively with 50-shot or even full-shot classifiers,
+while we can keep the inference time constant by leveraging a faster embedding
+retrieval model.</p>
+</p>
+
+  <h6>Similar Work</h6>
+  <ul id="relwork"></ul>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const relwork = document.getElementById('relwork');
+      if (relwork) {
+        const metaPath = "/publications-metadata/zhang2020discriminative.json";
+        fetch(metaPath, { credentials: 'same-origin' })
+          .then(res => {
+            if (!res.ok) throw new Error(res.status + " " + res.statusText);
+            return res.json();
+          })
+          .then(data => {
+            if (!Array.isArray(data)) return;
+            relwork.innerHTML = data
+              .map(d => `<li><a href="/publications/${d[0]}">${d[1]}</a></li>`)
+              .join('');
+          })
+          .catch(err => console.warn("Failed to load similar work JSON:", err));
+      }
+
+      const meta = {
+        title: "Discriminative Nearest Neighbor Few-shot Intent Detection By Transferring Natural Language Inference",
+        conference: "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+        year: 2020,
+        tags: ["EMNLP","Few Shot & Zero Shot","Scalability"]
+      };
+
+      const pageUrl = encodeURIComponent(window.location.href);
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      const twitterBtn  = document.getElementById('share-twitter');
+      const linkedinBtn = document.getElementById('share-linkedin');
+      const copyBtn     = document.getElementById('share-copy');
+
+      if (twitterBtn) {
+        twitterBtn.addEventListener('click', () => {
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
+            '_blank', 'noopener,noreferrer'
+          );
+        });
+      }
+
+      if (linkedinBtn) {
+        linkedinBtn.addEventListener('click', () => {
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
+        });
+      }
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText(window.location.href).then(() => {
+            copyBtn.classList.add('copied');
+            setTimeout(() => copyBtn.classList.remove('copied'), 900);
+          });
+        });
+      }
+    });
+  </script>
+
+  <style>
+    .share-buttons {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin: 0.4em 0 1em 0;
+      opacity: 0.9;
+      flex-wrap: wrap;
+    }
+
+    .icon-btn {
+      appearance: none;
+      background: #f8f8f8;
+      border: none;
+      border-radius: 8px;
+      width: 38px;
+      height: 38px;
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
+      cursor: pointer;
+      transition: background 0.15s ease, transform 0.15s ease;
+      position: relative;
+    }
+
+    .icon-btn img,
+    .icon-btn svg {
+      display: block;
+      margin-top: 4px; /* fine-tune visual center */
+      width: 18px;
+      height: 18px;
+      opacity: 0.8;
+      object-fit: contain;
+      object-position: center;
+    }
+
+    /* Copy button label */
+    .copy-btn {
+      width: auto;
+      padding: 0 12px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .copy-btn .copy-label {
+      font-size: 0.85em;
+      font-weight: 500;
+      color: #333;
+      user-select: none;
+      margin-top: 2px;
+    }
+
+    .icon-btn:hover {
+      background: #e9e9e9;
+      transform: translateY(-1px);
+    }
+
+    .icon-btn:hover img,
+    .icon-btn:hover svg {
+      opacity: 1;
+    }
+
+    .icon-btn.copied {
+      background: #d9f7e6;
+    }
+  </style>
+</div>
+
+    </div>
+
+  </body>
+</html>
