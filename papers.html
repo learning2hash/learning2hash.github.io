@@ -50,6 +50,9 @@ description: A list of research papers for Learning to Hash.
 <div id="cardsGrid" class="cards" style="display:none;" aria-live="polite"></div>
 <p id="emptyState" class="empty" style="display:none;">No papers match your search.</p>
 
+<!-- Sentinel for progressive loading -->
+<div id="loadMoreTrigger" style="height: 1px;"></div>
+
 <!-- Hidden Data Table -->
 <table id="papers-table" class="display stripe hover" style="width:100%; display:none;">
   <thead>
@@ -317,32 +320,48 @@ description: A list of research papers for Learning to Hash.
   const gridEl    = document.getElementById('cardsGrid');
   const emptyEl   = document.getElementById('emptyState');
   const sortEl    = document.getElementById('sortSelect');
+  const loadMoreTrigger = document.getElementById('loadMoreTrigger');
 
   let datatable;
+  const PAGE_CHUNK = 80;      // how many cards to render at a time
+  let visibleLimit = PAGE_CHUNK;
+  let loadMoreObserver = null;
 
   function updateVisibleCount(){
     if (!datatable || !countEl) return;
-    countEl.textContent = datatable.rows({ filter:'applied' }).count() + ' papers';
+    const total = datatable.rows({ filter:'applied' }).count();
+    const shown = Math.min(visibleLimit, total);
+    countEl.textContent = `Showing ${shown} of ${total} papers`;
   }
 
   function renderCards(){
     if (!datatable) return;
+
     const rows = datatable.rows({ filter:'applied' }).data().toArray();
+    const total = rows.length;
+
     gridEl.innerHTML = '';
 
     if (!rows.length){
       gridEl.style.display='none';
       emptyEl.style.display='';
+      if (loadMoreTrigger) loadMoreTrigger.style.display = 'none';
       updateVisibleCount();
       return;
     }
+
     emptyEl.style.display='none';
     gridEl.style.display='grid';
+
+    // Ensure visibleLimit never exceeds available rows
+    visibleLimit = Math.min(visibleLimit, total);
 
     const now = Math.floor(Date.now()/1000);
     const seven = 7*24*3600;
 
-    rows.forEach(r => {
+    const slice = rows.slice(0, visibleLimit);
+
+    slice.forEach(r => {
       const titleHTML   = r[0];
       const shortAuth   = r[1] || '';
       const year        = +r[2] || '';
@@ -379,6 +398,11 @@ description: A list of research papers for Learning to Hash.
 
       gridEl.appendChild(card);
     });
+
+    // Show/hide the sentinel depending on whether there's more to load
+    if (loadMoreTrigger){
+      loadMoreTrigger.style.display = (visibleLimit < total) ? 'block' : 'none';
+    }
 
     updateVisibleCount();
   }
@@ -475,7 +499,9 @@ description: A list of research papers for Learning to Hash.
         responsive: { details: false },
         autoWidth: false,
         paging: false,
-        searching: true,
+        searching: true,   // keep filtering enabled
+        info: false,       // hide "Showing 1–10 of N"
+        dom: 't',          // only table body; removes built-in search bar / controls
 
         // Base sort; will be overridden by our custom sort logic in initComplete
         order: [[2,'desc'], [3,'desc']],
@@ -498,6 +524,22 @@ description: A list of research papers for Learning to Hash.
 
           datatable.on('draw', renderCards);
 
+          // Infinite-scroll style loading
+          if ('IntersectionObserver' in window && loadMoreTrigger){
+            loadMoreObserver = new IntersectionObserver((entries) => {
+              entries.forEach(entry => {
+                if (!entry.isIntersecting) return;
+                const total = datatable.rows({ filter:'applied' }).count();
+                if (visibleLimit < total) {
+                  visibleLimit += PAGE_CHUNK;
+                  renderCards();
+                }
+              });
+            }, { rootMargin: '200px 0px' });
+
+            loadMoreObserver.observe(loadMoreTrigger);
+          }
+
           const debounce = (fn, ms=120) => {
             let t;
             return (...a) => {
@@ -507,6 +549,7 @@ description: A list of research papers for Learning to Hash.
           };
           const apply = debounce(() => {
             const q = inputEl ? (inputEl.value || '') : '';
+            visibleLimit = PAGE_CHUNK;  // reset visible cards when query changes
             datatable.search(q).draw(false);
             setHash(q);
           }, 120);
@@ -516,6 +559,7 @@ description: A list of research papers for Learning to Hash.
 
           resetEl.addEventListener('click', () => {
             inputEl.value = '';
+            visibleLimit = PAGE_CHUNK;
             datatable.search('').draw(false);
             setHash('');
             inputEl.focus();
@@ -524,6 +568,7 @@ description: A list of research papers for Learning to Hash.
           window.addEventListener('hashchange', () => {
             const q = readHashQuery();
             inputEl.value = q;
+            visibleLimit = PAGE_CHUNK;
             datatable.search(q).draw(false);
           });
 
@@ -533,6 +578,7 @@ description: A list of research papers for Learning to Hash.
               inputEl.focus();
             } else if (e.key === 'Escape') {
               inputEl.value='';
+              visibleLimit = PAGE_CHUNK;
               datatable.search('').draw();
               setHash('');
             }
@@ -542,7 +588,7 @@ description: A list of research papers for Learning to Hash.
             const applySort = (mode) => {
               switch (mode) {
                 case 'year_desc':
-                  // Year ↓ (newest first) – publication year
+                  // Year ↓ (newest first)
                   datatable.order([[2, 'desc'], [3, 'desc']]).draw(false);
                   break;
                 case 'year_asc':
@@ -565,11 +611,13 @@ description: A list of research papers for Learning to Hash.
               }
             };
 
-            // Start with "Newest & NEW first" as the default sort
             sortEl.value = 'default';
             applySort('default');
 
-            sortEl.addEventListener('change', () => applySort(sortEl.value));
+            sortEl.addEventListener('change', () => {
+              visibleLimit = PAGE_CHUNK;
+              applySort(sortEl.value);
+            });
           }
 
           setTimeout(() => datatable.columns.adjust().draw(false), 60);
