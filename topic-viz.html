@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <!-- _includes/head.html -->
+<head>
+  <!-- begin code v 7.0 -->
+  <span id="wts2185304"></span>
+  <script>
+  var wts7 = {};
+  wts7.invisible='';
+  wts7.page_name='';
+  wts7.group_name='';
+  wts7.conversion_number='';
+  wts7.user_id='';
+  var wts=document.createElement('script');wts.async=true;
+  wts.src='https://app.ardalio.com/wts7.js';document.head.appendChild(wts);
+  wts.onload = function(){ wtsl7(2185304,4); };
+  </script><noscript><img src="https://app.ardalio.com/7/4/2185304.png"></noscript>
+  <!-- end code v 7.0 -->
+
+ <!-- MathJax -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        // Only process elements with this class:
+        processHtmlClass: 'mathjax-content',
+        // And explicitly skip anything marked as no-mathjax
+        ignoreHtmlClass: 'no-mathjax'
+      }
+    };
+  </script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ✅ Manual SEO keywords (specific to Learning to Hash) -->
+  <meta name="keywords" content="learning to hash, machine learning, hashing, approximate nearest neighbour search, ANN, LSH, locality sensitive hashing, vector quantization, deep hashing, binary embeddings, information retrieval, similarity search">
+
+  <!-- ✅ Jekyll SEO plugin (title, description, canonical, OG/Twitter, JSON-LD) -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Explore Learning to Hash Papers by Topic | Awesome Learning to Hash</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Explore Learning to Hash Papers by Topic" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Interactive topic model explorer — adjust topic weights to see the most relevant papers" />
+<meta property="og:description" content="Interactive topic model explorer — adjust topic weights to see the most relevant papers" />
+<link rel="canonical" href="https://learning2hash.github.io/topic-viz.html" />
+<meta property="og:url" content="https://learning2hash.github.io/topic-viz.html" />
+<meta property="og:site_name" content="Awesome Learning to Hash" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Explore Learning to Hash Papers by Topic" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Interactive topic model explorer — adjust topic weights to see the most relevant papers","headline":"Explore Learning to Hash Papers by Topic","url":"https://learning2hash.github.io/topic-viz.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="search" href="/public/opensearchdescription.xml" type="application/opensearchdescription+xml" title="learning2hash" />
+
+  <!-- ✅ Single, modern jQuery + DataTables -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" defer></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" defer></script>
+
+  <!-- Optional sanity log -->
+  <script defer>
+    window.addEventListener('DOMContentLoaded', () => {
+      console.log('jQuery:', jQuery?.fn?.jquery);
+      console.log('DataTables loaded:', !!jQuery?.fn?.dataTable);
+    });
+  </script>
+</head>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <body class="theme-base-0c layout-reverse">
+
+    <!-- Ribbon -->
+<a href='/contributing.html' class='ribbon'>Add your paper to Learning2Hash</a>
+
+<!-- Sidebar -->
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">Awesome Learning to Hash</a>
+      </h1>
+      <p class="lead">A Webpage dedicated to the latest research on Hash Function Learning. Maintained by <a href="https://www.buymeacoffee.com/sjmoran">Sean Moran</a>.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div class="sidebar-item">
+        <p style="font-size: 12px">
+          Search related work
+          <input type="text" id="searchTarget" size="16" />
+          <button type="button" onClick="search();">Go</button>
+        </p>
+      </div>
+
+      <!-- NOTE: use quoted comparisons for page.url -->
+      <a class="sidebar-nav-item"
+         href="/papers.html">All Papers</a>
+      <a class="sidebar-nav-item"
+         href="/tags.html">Papers by Tag</a>
+      <a class="sidebar-nav-item"
+         href="/tsne-viz.html">2D Map of Papers</a>
+      <a class="sidebar-nav-item active"
+         href="/topic-viz.html">Topic Explorer</a>
+      <a class="sidebar-nav-item"
+         href="/opensource.html">Tools Explorer</a>
+      <a class="sidebar-nav-item"
+         href="/author-viz.html">Author Explorer</a>
+      <a class="sidebar-nav-item"
+         href="/tutorial.html">Tutorial</a>
+      <a class="sidebar-nav-item"
+         href="/resources.html">Resources, Courses &amp; Events</a>
+      <a class="sidebar-nav-item"
+         href="/contributing.html">Contributing</a>
+    </nav>
+
+    <!-- ===== Stay Updated (minimal block) ===== -->
+    <hr style="border:none; border-top:1px solid #d8dee9; margin:0.75rem 0;" />
+    <div class="sidebar-item" aria-label="Stay updated">
+      <h3 style="margin:0 0 0.25rem 0; font-size:1rem;">Stay Updated</h3>
+      <ul style="list-style:none; padding-left:0; margin:0;">
+        <li style="margin:0.35rem 0;">
+          <a class="sidebar-nav-item" href="/feed/publications.xml"
+             rel="alternate" type="application/rss+xml">📰 RSS Feed</a>
+        </li>
+      </ul>
+    </div>
+    <!-- ===== End Stay Updated ===== -->
+
+    <div class="sidebar-item">
+      <p style="font-size: 12px">
+        Contact <a href="https://sjmoran.github.io">Sean Moran</a> about this survey or website.
+        <span style="font-size: 9px">
+          Made with <a href="https://jekyllrb.com">Jekyll</a> and
+          <a href="https://github.com/poole/hyde">Hyde</a>.
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<style>
+/* === Scrollable Right Sidebar (wider, matches Awesome LLM Papers) === */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 1.5rem 1.25rem;
+  box-sizing: border-box;
+  background-color: #7da2b3;
+  scrollbar-gutter: stable;
+
+  /* wider: 260–420px instead of 240–340px */
+  width: clamp(260px, 30vw, 420px);
+  max-width: clamp(260px, 30vw, 420px);
+}
+
+/* Allow normal flow inside sticky container */
+.sidebar .container.sidebar-sticky {
+  position: relative;
+  max-height: none;
+  overflow: visible;
+}
+
+/* Optional: prettier scrollbar */
+.sidebar::-webkit-scrollbar { width: 8px; }
+.sidebar::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.25); border-radius: 4px; }
+.sidebar::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.4); }
+
+/* Match content offset */
+.main, .content {
+  margin-right: clamp(260px, 30vw, 420px);
+}
+
+/* Mobile view: sidebar collapses */
+@media (max-width: 880px) {
+  .sidebar {
+    position: static;
+    height: auto;
+    width: auto;
+    max-width: none;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  }
+  .main, .content {
+    margin-right: 0 !important;
+  }
+}
+</style>
+
+<script defer>
+document.addEventListener('DOMContentLoaded', function () {
+  // ---- Search ----
+  function doSearch() {
+    const el = document.getElementById('searchTarget');
+    if (!el) return;
+    const q = el.value.trim();
+    try { if (typeof ga === 'function') ga('send', 'event', 'search', 'search', q); } catch(e) {}
+    window.location = "/papers.html#" + encodeURIComponent(q);
+  }
+
+  if (window.jQuery) {
+    $('#searchTarget').on('keydown', function (e) {
+      if (e.key === 'Enter') doSearch();
+    });
+    document.querySelector('.sidebar-item button')?.addEventListener('click', doSearch);
+  } else {
+    const input = document.getElementById('searchTarget');
+    const btn = document.querySelector('.sidebar-item button');
+    if (input) {
+      input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') doSearch();
+      });
+    }
+    if (btn) btn.addEventListener('click', doSearch);
+  }
+
+  window.search = doSearch;
+
+  // ---- Match content margin to actual sidebar width ----
+  const sb = document.querySelector('.sidebar');
+  const mains = document.querySelectorAll('.main, .content');
+  function syncSidebarWidth() {
+    if (!sb) return;
+    const w = sb.offsetWidth + 'px';
+    mains.forEach(m => m && (m.style.marginRight = w));
+  }
+  syncSidebarWidth();
+  window.addEventListener('resize', syncSidebarWidth);
+});
+</script>
+
+
+    <div class="content container mathjax-content">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<h2 style="font-size: 1.8em; margin-bottom: 10px;">🧭 Topic Explorer</h2>
+<p style="font-size: 1.05em;">
+  Explore key <strong>themes</strong> across Learning to Hash research. 
+  This page uses <strong>topic modelling</strong> to group papers by their 
+  dominant concepts. Adjust the sliders to change topic importance and 
+  watch the top matching papers update instantly.
+</p>
+
+<!-- ===== Full-bleed-to-right wrapper (now just a centered container) ===== -->
+<div class="full-bleed-right">
+  <!-- ===== Compact, content-safe containers ===== -->
+  <div class="content-wrap">
+    <!-- Topic Filters (expanded by default) -->
+    <details id="topicPanel" class="topic-panel" open>
+      <summary>
+        <span class="summary-left">
+          <svg class="summary-caret" width="14" height="14" viewBox="0 0 20 20" aria-hidden="true">
+            <path d="M7 5l6 5-6 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          <span><strong>Topic weights</strong></span>
+          <button
+            type="button"
+            class="info"
+            aria-label="Tip: Increase a slider to upweight that topic; Reset all returns sliders to zero."
+            data-tooltip="Increase a slider to upweight that topic. ‘Reset all’ returns every slider to zero. Top results update live."
+          >ⓘ</button>
+        </span>
+
+        <span class="summary-meta">
+          <span id="activeSummary" class="small" aria-live="polite">No active weights</span>
+
+          <button id="resetAll" type="button" class="reset-inline" aria-label="Reset all topic sliders">Reset all</button>
+
+          <!-- Inline results control (moved here, to the right of Reset all) -->
+          <span class="result-inline">
+            <label for="resultCount" class="small inline"><strong>Show top</strong></label>
+            <select id="resultCount" aria-label="Select number of results to display">
+              <option value="20" selected>20</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+              <option value="200">200</option>
+              <option value="all">All</option>
+            </select>
+            <span id="resultMeta" class="small" aria-live="polite"></span>
+          </span>
+
+          <span id="expandHint" class="summary-hint" aria-hidden="true">Click to collapse</span>
+        </span>
+      </summary>
+
+      <!-- Topic controls -->
+      <div id="topicslider" class="topic-grid" aria-live="polite"></div>
+    </details>
+  </div>
+
+  <div class="content-wrap">
+    <ul id="toppapers" class="pub-list">
+      <li class="always-nowrap hint">Please move the sliders to look at the papers.</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+  :root{
+    --page-gutter: clamp(12px, 2vw, 24px);
+  }
+
+  /* Centered, mobile-safe container (no sidebar subtraction) */
+  .full-bleed-right {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--page-gutter);
+    padding-right: var(--page-gutter);
+  }
+
+  .content-wrap { width: 100%; max-width: 100%; overflow: visible; }
+
+  /* ========= Compact Panel ========= */
+  .topic-panel {
+    border: 1px solid #ececf2; border-radius: .6rem; background: #fff;
+    margin: .35rem 0 .6rem; width: 100%;
+  }
+  .topic-panel > summary {
+    list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between;
+    gap: .5rem; padding: .45rem .6rem; font-weight: 600; user-select: none; flex-wrap: wrap;
+  }
+  .topic-panel > summary:hover { background: #fafbff; }
+  .topic-panel > summary:focus-visible { outline: none; box-shadow: inset 0 0 0 2px rgba(26,115,232,.22); border-radius: .55rem; }
+  .topic-panel[open] > summary { border-bottom: 1px solid #f0f0f0; }
+
+  .summary-left { display:flex; align-items:center; gap:.45rem; flex-wrap:wrap; }
+  .summary-caret { transition: transform .18s ease; transform-origin: 50% 50%; }
+  .topic-panel[open] .summary-caret { transform: rotate(90deg); }
+
+  .summary-meta { display:flex; align-items:center; gap:.5rem; flex-wrap:wrap; }
+  .summary-hint { color:#6b7280; font-size:.8rem; opacity:.9; }
+  .small { color:#6b7280; font-size:.85rem; }
+
+  /* Inline results control styling */
+  .result-inline { display:flex; align-items:center; gap:.4rem; flex-wrap:wrap; }
+  .result-inline .inline { margin-right:.25rem; }
+  #resultCount {
+    padding:.2rem .35rem; font-size:.85rem; border:1px solid #d9dbe3; border-radius:.35rem; background:#fff;
+  }
+
+  @keyframes nudge { 0%,100%{transform:translateX(0)} 30%{transform:translateX(2px)} 60%{transform:translateX(-2px)} }
+  .topic-panel.nudge .summary-caret { animation: nudge 700ms ease-in-out 2; }
+
+  .reset-inline {
+    padding: .25rem .5rem; border:1px solid #d9dbe3; border-radius:.4rem; background:#f8f9fb;
+    font-size:.8rem; line-height:1; cursor:pointer;
+  }
+  .reset-inline:hover { background:#eef2f7; }
+
+  /* ========= Slider grid: 3 per row ========= */
+  .topic-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: .55rem .65rem;
+    padding: .55rem .6rem .6rem;
+    width: 100%;
+  }
+  @media (max-width: 1100px) {
+    .topic-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 640px) {
+    .topic-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ========= Topic row ========= */
+  .topic-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "label label"
+      "slider val";
+    align-items: center;
+    gap: .35rem .5rem;
+    background: #fff; border-radius: .6rem; border: 1px solid #ececf2; padding: .6rem .6rem; width: 100%;
+    overflow: hidden;
+  }
+
+  .topic-row .tag-chip {
+    grid-area: label;
+    display:inline-block;
+    box-sizing:border-box;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap:anywhere;
+    word-break: break-word;
+    hyphens:auto;
+    text-decoration:none;
+    border-radius:.45rem;
+    padding:.15rem .4rem;
+    background:#f6f7f9;
+    border:1px solid #e6e8ec;
+    font-size: clamp(.65rem, .85vw, .85rem);
+    line-height: 1.15;
+    color: inherit;
+    margin: 0;
+    width: 100%;
+  }
+  .topic-row .tag-chip .line { display:inline; }
+  .topic-row .tag-chip .sep { opacity:.6; padding:0 .25ch; }
+
+  .slider-wrap{
+    grid-area: slider;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .topic-row .val {
+    grid-area: val;
+    min-width: 2ch; text-align: right; font-variant-numeric: tabular-nums;
+    font-size: .8rem; opacity: .85; padding-left: .1rem;
+    justify-self: end;
+  }
+
+  /* ===== Compact slider ===== */
+  .topic-row input[type="range"] {
+    width: 100%;
+    min-width: 0;
+    display: inline-block;
+    -webkit-appearance: none; appearance: none;
+    height: 6px; border-radius: 999px; background: linear-gradient(90deg, #ddd, #eee);
+    margin: 0; padding: 0; vertical-align: middle; touch-action: none;
+  }
+  .topic-row input[type="range"]:focus { outline: none; }
+  .topic-row input[type="range"]:focus-visible { box-shadow: 0 0 0 2px #1a73e84d; }
+
+  .topic-row input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; appearance: none; width: 14px; height: 14px; border-radius: 50%;
+    background: #1a73e8; border: 2px solid #fff; box-shadow: 0 0 0 1px #1a73e880; cursor: grab; margin-top: -4px;
+  }
+  .topic-row input[type="range"]::-moz-range-thumb {
+    width: 14px; height: 14px; border-radius: 50%; background:#1a73e8; border: 2px solid #fff; box-shadow: 0 0 0 1px #1a73e880; cursor: grab;
+  }
+  .topic-row input[type="range"]::-moz-range-track { height: 6px; border-radius: 999px; background: #e9eaee; }
+
+  /* ========= Publications list (fluid grid) ========= */
+  .pub-list {
+    margin: 0; padding-left: 0;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: .45rem .6rem; width: 100%;
+    align-items: start;
+  }
+  @media (min-width: 1400px) {
+    .pub-list { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
+  }
+  .pub-list li {
+    list-style: none;
+    margin: 0;
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+  .pub-list li.always-nowrap { white-space: nowrap; }
+  .pub-list li.hint { color: #6b7280; opacity: .95; }
+  .pub-list a { font-weight: 600; overflow-wrap:anywhere; word-break:break-word; }
+
+  /* Info icon + tooltip */
+  .info {
+    display:inline-flex; align-items:center; justify-content:center; width:18px; height:18px; line-height:18px; border-radius:50%;
+    border:1px solid #999; background:#f8f8f8; font-size:.72rem; font-weight:700; cursor:pointer; padding:0; position:relative;
+  }
+  .info:focus { outline: none; box-shadow: 0 0 0 2px rgba(26,115,232,.25); }
+  .info[data-tooltip]::after {
+    content: attr(data-tooltip); position:absolute; left: 50%; transform: translateX(-50%); bottom: calc(100% + 8px);
+    white-space: normal; max-width: 80vw; background:#222; color:#fff; padding:.35rem .5rem; border-radius:4px; font-size:.75rem;
+    opacity:0; visibility:hidden; transition:opacity .15s ease; z-index:20;
+  }
+  .info[data-tooltip]::before {
+    content:''; position:absolute; left:50%; transform:translateX(-50%); bottom: calc(100% + 3px); border:6px solid transparent; border-top-color:#222;
+    opacity:0; visibility:hidden; transition:opacity .15s ease; z-index:20;
+  }
+  .info:hover::after, .info:hover::before,
+  .info:focus::after, .info:focus::before,
+  .info[data-show]::after, .info[data-show]::before { opacity:1; visibility:visible; }
+</style>
+
+<!-- Self-hosted vendor assets -->
+<script src="/assets/vendor/jquery-3.6.0.min.js" defer></script>
+
+<!-- Inline script is now a module (defers) and waits for DOMContentLoaded -->
+<script type="module">
+  // Info tooltip toggle (click or focus)
+  document.addEventListener('click', function(e){
+    const isInfo = e.target.closest('.info[data-tooltip]');
+    document.querySelectorAll('.info[data-show]').forEach(el => { if (el !== isInfo) el.removeAttribute('data-show'); });
+    if (isInfo) { e.preventDefault(); isInfo.toggleAttribute('data-show'); }
+  }, { passive: false });
+
+  let all_papers = null;
+  let num_topics = -1;
+
+  // NEW: result count state (20/50/100/200/'all')
+  let RESULTS_N = '20';
+
+  function getUrlParam(name) {
+    const params = new URLSearchParams(window.location.search);
+    return params.get(name);
+  }
+
+  function isValidResultN(v){
+    return v === 'all' || ['20','50','100','200'].includes(v);
+  }
+
+  function escapeAttr(s){
+    return String(s).replace(/"/g, '&quot;');
+  }
+
+  function makeTopicRow(words, idx) {
+    const id = 'topicSlider' + idx;
+    const label = words.join(', ');
+    const inline = words.map((w,i) =>
+      `<span class="line">${w}</span>${i < words.length-1 ? '<span class="sep">·</span>' : ''}`
+    ).join(' ');
+    return `
+      <div class="topic-row" data-idx="${idx}" data-text="${escapeAttr(label.toLowerCase())}">
+        <span class="tag-chip" title="${escapeAttr(label)}">${inline}</span>
+        <div class="slider-wrap">
+          <input type="range" min="0" max="10" value="0" id="${id}" aria-label="Weight for topic ${idx+1}: ${escapeAttr(label)}">
+        </div>
+        <span class="val" id="${id}Val">0</span>
+      </div>
+    `;
+  }
+
+  function hasActiveWeights() {
+    for (let i = 0; i < num_topics; i++) {
+      const w = Number(document.getElementById('topicSlider' + i).value) || 0;
+      if (w > 0) return true;
+    }
+    return false;
+  }
+
+  function scorePaper(paper_id) {
+    let score = 0;
+    const topic_dist = all_papers[paper_id].topic_distr;
+    for (let i = 0; i < num_topics; i++) {
+      const w = Number(document.getElementById('topicSlider' + i).value) || 0;
+      score += w * (topic_dist[i] || 0);
+    }
+    return score;
+  }
+
+  function updateActiveSummary() {
+    const parts = [];
+    for (let i = 0; i < num_topics; i++) {
+      const w = Number(document.getElementById('topicSlider' + i).value) || 0;
+      if (w > 0) parts.push(`#${i+1}:${w}`);
+    }
+    document.getElementById('activeSummary').textContent =
+      parts.length ? `Active weights: ${parts.join('  ')}` : 'No active weights';
+  }
+
+  function renderPapers() {
+    const $list = $("#toppapers").empty();
+
+    if (!hasActiveWeights()) {
+      $list.append('<li class="always-nowrap hint">Please move the sliders to look at the papers.</li>');
+      updateActiveSummary();
+      const meta = document.getElementById('resultMeta');
+      if (meta) meta.textContent = '';
+      return;
+    }
+
+    const EPS = 1e-9;
+    const paper_idxs = [];
+
+    for (let i = 0; i < all_papers.length; i++) {
+      const s = scorePaper(i);
+      if (s > EPS) paper_idxs.push([i, s]);
+    }
+
+    if (paper_idxs.length === 0) {
+      $list.append('<li class="always-nowrap hint">No matches for the current topic weights. Try increasing one or two sliders.</li>');
+      updateActiveSummary();
+      const meta = document.getElementById('resultMeta');
+      if (meta) meta.textContent = '';
+      return;
+    }
+
+    paper_idxs.sort((a, b) => b[1] - a[1]);
+
+    const total = paper_idxs.length;
+    const limit = (RESULTS_N === 'all') ? total : Math.min(Number(RESULTS_N), total);
+
+    for (let i = 0; i < limit; i++) {
+      const data = all_papers[paper_idxs[i][0]];
+      $("#toppapers").append(`<li><a href="/publications/${data.key}">${data.title}</a>. ${data.year || ''}</li>`);
+    }
+
+    const meta = document.getElementById('resultMeta');
+    if (meta) meta.textContent = `${limit} of ${total} papers shown`;
+    updateActiveSummary();
+  }
+
+  function resetAll() {
+    for (let i = 0; i < num_topics; i++) {
+      const el = document.getElementById('topicSlider' + i);
+      el.value = 0;
+      document.getElementById('topicSlider' + i + 'Val').textContent = '0';
+    }
+    renderPapers();
+  }
+
+  // Wait until DOM is ready (ensures all deferred scripts, including jQuery, have run)
+  window.addEventListener('DOMContentLoaded', function () {
+    const nParam = getUrlParam('n');
+    const rcEl = document.getElementById('resultCount');
+    if (nParam && isValidResultN(nParam)) {
+      rcEl.value = nParam;
+      RESULTS_N = nParam;
+    } else {
+      RESULTS_N = rcEl.value;
+    }
+
+    rcEl.addEventListener('change', () => {
+      RESULTS_N = rcEl.value;
+      renderPapers();
+    });
+
+    // Load topics.json (respect baseurl)
+    $.getJSON('/topics.json', function(data) {
+      // paper_data may be an object keyed by id; normalize to array if needed
+      all_papers = Array.isArray(data.paper_data) ? data.paper_data : Object.values(data.paper_data || {});
+      num_topics = data.topics.length;
+
+      let html = '';
+      for (let i = 0; i < num_topics; i++) html += makeTopicRow(data.topics[i], i);
+      $("#topicslider").html(html);
+
+      for (let i = 0; i < num_topics; i++) {
+        const id = 'topicSlider' + i;
+        $("#" + id).on("input change", function() {
+          document.getElementById(id + 'Val').textContent = String(this.value);
+          renderPapers();
+        });
+      }
+
+      document.getElementById('resetAll').addEventListener('click', resetAll);
+
+      renderPapers();
+
+      const panel = document.getElementById('topicPanel');
+      panel.open = true;
+      panel.classList.add('nudge');
+      setTimeout(() => panel.classList.remove('nudge'), 1600);
+
+      const hint = document.getElementById('expandHint');
+      function syncHint() { hint.textContent = panel.open ? 'Click to collapse' : 'Click to expand'; }
+      syncHint();
+      panel.addEventListener('toggle', syncHint);
+    });
+  });
+
+  // Keyboard: Cmd/Ctrl + R to reset sliders (prevent page refresh)
+  document.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'r') {
+      e.preventDefault();
+      resetAll();
+    }
+  });
+</script>
+
+    </div>
+
+  </body>
+</html>

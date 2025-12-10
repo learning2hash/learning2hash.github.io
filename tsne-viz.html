@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <!-- _includes/head.html -->
+<head>
+  <!-- begin code v 7.0 -->
+  <span id="wts2185304"></span>
+  <script>
+  var wts7 = {};
+  wts7.invisible='';
+  wts7.page_name='';
+  wts7.group_name='';
+  wts7.conversion_number='';
+  wts7.user_id='';
+  var wts=document.createElement('script');wts.async=true;
+  wts.src='https://app.ardalio.com/wts7.js';document.head.appendChild(wts);
+  wts.onload = function(){ wtsl7(2185304,4); };
+  </script><noscript><img src="https://app.ardalio.com/7/4/2185304.png"></noscript>
+  <!-- end code v 7.0 -->
+
+ <!-- MathJax -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        // Only process elements with this class:
+        processHtmlClass: 'mathjax-content',
+        // And explicitly skip anything marked as no-mathjax
+        ignoreHtmlClass: 'no-mathjax'
+      }
+    };
+  </script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ✅ Manual SEO keywords (specific to Learning to Hash) -->
+  <meta name="keywords" content="learning to hash, machine learning, hashing, approximate nearest neighbour search, ANN, LSH, locality sensitive hashing, vector quantization, deep hashing, binary embeddings, information retrieval, similarity search">
+
+  <!-- ✅ Jekyll SEO plugin (title, description, canonical, OG/Twitter, JSON-LD) -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Visualization of Publications on Large Language Models | Awesome Learning to Hash</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Visualization of Publications on Large Language Models" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An interactive t-SNE map of LLM papers with global search, a cluster legend, and optional node sizing by citations." />
+<meta property="og:description" content="An interactive t-SNE map of LLM papers with global search, a cluster legend, and optional node sizing by citations." />
+<link rel="canonical" href="https://learning2hash.github.io/tsne-viz.html" />
+<meta property="og:url" content="https://learning2hash.github.io/tsne-viz.html" />
+<meta property="og:site_name" content="Awesome Learning to Hash" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Visualization of Publications on Large Language Models" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"An interactive t-SNE map of LLM papers with global search, a cluster legend, and optional node sizing by citations.","headline":"Visualization of Publications on Large Language Models","url":"https://learning2hash.github.io/tsne-viz.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="search" href="/public/opensearchdescription.xml" type="application/opensearchdescription+xml" title="learning2hash" />
+
+  <!-- ✅ Single, modern jQuery + DataTables -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" defer></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" defer></script>
+
+  <!-- Optional sanity log -->
+  <script defer>
+    window.addEventListener('DOMContentLoaded', () => {
+      console.log('jQuery:', jQuery?.fn?.jquery);
+      console.log('DataTables loaded:', !!jQuery?.fn?.dataTable);
+    });
+  </script>
+</head>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <body class="theme-base-0c layout-reverse">
+
+    <!-- Ribbon -->
+<a href='/contributing.html' class='ribbon'>Add your paper to Learning2Hash</a>
+
+<!-- Sidebar -->
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">Awesome Learning to Hash</a>
+      </h1>
+      <p class="lead">A Webpage dedicated to the latest research on Hash Function Learning. Maintained by <a href="https://www.buymeacoffee.com/sjmoran">Sean Moran</a>.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div class="sidebar-item">
+        <p style="font-size: 12px">
+          Search related work
+          <input type="text" id="searchTarget" size="16" />
+          <button type="button" onClick="search();">Go</button>
+        </p>
+      </div>
+
+      <!-- NOTE: use quoted comparisons for page.url -->
+      <a class="sidebar-nav-item"
+         href="/papers.html">All Papers</a>
+      <a class="sidebar-nav-item"
+         href="/tags.html">Papers by Tag</a>
+      <a class="sidebar-nav-item active"
+         href="/tsne-viz.html">2D Map of Papers</a>
+      <a class="sidebar-nav-item"
+         href="/topic-viz.html">Topic Explorer</a>
+      <a class="sidebar-nav-item"
+         href="/opensource.html">Tools Explorer</a>
+      <a class="sidebar-nav-item"
+         href="/author-viz.html">Author Explorer</a>
+      <a class="sidebar-nav-item"
+         href="/tutorial.html">Tutorial</a>
+      <a class="sidebar-nav-item"
+         href="/resources.html">Resources, Courses &amp; Events</a>
+      <a class="sidebar-nav-item"
+         href="/contributing.html">Contributing</a>
+    </nav>
+
+    <!-- ===== Stay Updated (minimal block) ===== -->
+    <hr style="border:none; border-top:1px solid #d8dee9; margin:0.75rem 0;" />
+    <div class="sidebar-item" aria-label="Stay updated">
+      <h3 style="margin:0 0 0.25rem 0; font-size:1rem;">Stay Updated</h3>
+      <ul style="list-style:none; padding-left:0; margin:0;">
+        <li style="margin:0.35rem 0;">
+          <a class="sidebar-nav-item" href="/feed/publications.xml"
+             rel="alternate" type="application/rss+xml">📰 RSS Feed</a>
+        </li>
+      </ul>
+    </div>
+    <!-- ===== End Stay Updated ===== -->
+
+    <div class="sidebar-item">
+      <p style="font-size: 12px">
+        Contact <a href="https://sjmoran.github.io">Sean Moran</a> about this survey or website.
+        <span style="font-size: 9px">
+          Made with <a href="https://jekyllrb.com">Jekyll</a> and
+          <a href="https://github.com/poole/hyde">Hyde</a>.
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<style>
+/* === Scrollable Right Sidebar (wider, matches Awesome LLM Papers) === */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 1.5rem 1.25rem;
+  box-sizing: border-box;
+  background-color: #7da2b3;
+  scrollbar-gutter: stable;
+
+  /* wider: 260–420px instead of 240–340px */
+  width: clamp(260px, 30vw, 420px);
+  max-width: clamp(260px, 30vw, 420px);
+}
+
+/* Allow normal flow inside sticky container */
+.sidebar .container.sidebar-sticky {
+  position: relative;
+  max-height: none;
+  overflow: visible;
+}
+
+/* Optional: prettier scrollbar */
+.sidebar::-webkit-scrollbar { width: 8px; }
+.sidebar::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.25); border-radius: 4px; }
+.sidebar::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.4); }
+
+/* Match content offset */
+.main, .content {
+  margin-right: clamp(260px, 30vw, 420px);
+}
+
+/* Mobile view: sidebar collapses */
+@media (max-width: 880px) {
+  .sidebar {
+    position: static;
+    height: auto;
+    width: auto;
+    max-width: none;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  }
+  .main, .content {
+    margin-right: 0 !important;
+  }
+}
+</style>
+
+<script defer>
+document.addEventListener('DOMContentLoaded', function () {
+  // ---- Search ----
+  function doSearch() {
+    const el = document.getElementById('searchTarget');
+    if (!el) return;
+    const q = el.value.trim();
+    try { if (typeof ga === 'function') ga('send', 'event', 'search', 'search', q); } catch(e) {}
+    window.location = "/papers.html#" + encodeURIComponent(q);
+  }
+
+  if (window.jQuery) {
+    $('#searchTarget').on('keydown', function (e) {
+      if (e.key === 'Enter') doSearch();
+    });
+    document.querySelector('.sidebar-item button')?.addEventListener('click', doSearch);
+  } else {
+    const input = document.getElementById('searchTarget');
+    const btn = document.querySelector('.sidebar-item button');
+    if (input) {
+      input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') doSearch();
+      });
+    }
+    if (btn) btn.addEventListener('click', doSearch);
+  }
+
+  window.search = doSearch;
+
+  // ---- Match content margin to actual sidebar width ----
+  const sb = document.querySelector('.sidebar');
+  const mains = document.querySelectorAll('.main, .content');
+  function syncSidebarWidth() {
+    if (!sb) return;
+    const w = sb.offsetWidth + 'px';
+    mains.forEach(m => m && (m.style.marginRight = w));
+  }
+  syncSidebarWidth();
+  window.addEventListener('resize', syncSidebarWidth);
+});
+</script>
+
+
+    <div class="content container mathjax-content">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style>
+/* ====== Simple, safe container (no sidebar subtraction) ====== */
+:root{
+  --page-gutter: clamp(12px, 2vw, 24px);
+
+  /* match publications page look & feel */
+  --bg:#ffffff;
+  --card:#fff;
+  --muted:#6b7280;
+  --line:#e5e7eb;
+  --shadow:0 1px 2px rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.04);
+  --brand:#1a73e8;
+}
+
+/* Centered wrapper with comfy gutters */
+.full-bleed-right{
+  box-sizing:border-box;
+  width:100%;
+  max-width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:var(--page-gutter);
+  padding-right:var(--page-gutter);
+}
+
+/* Children can be full width inside this container */
+.full-bleed-right > * { max-width: 100% !important; }
+
+/* ===== Slim, sticky toolbars (same style language) ===== */
+.toolbar{
+  position:sticky; top:0; z-index:20;
+  background: linear-gradient(#fff, rgba(255,255,255,.92));
+  backdrop-filter: blur(4px);
+  border:1px solid var(--line);
+  border-radius:12px; padding:10px 12px; margin:8px 0 12px;
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  box-shadow: var(--shadow);
+}
+
+.search{ display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+.search label{ font-weight:700; font-size:.85rem; }
+.search input[type="search"], .search input[type="text"]{
+  width:clamp(220px, 32vw, 560px);
+  padding:.45rem .6rem;
+  border:1px solid #cbd5e1; border-radius:8px;
+  font-size:.95rem; background-color:#f8fafc;
+}
+.search input:focus{
+  outline:none; border-color:var(--brand);
+  box-shadow:0 0 0 2px rgba(26,115,232,.18);
+}
+.search button{
+  padding:.45rem .6rem; font-size:.85rem; border:1px solid #cbd5e1;
+  border-radius:8px; background:#f8fafc; cursor:pointer;
+}
+.search button:hover{ background:#eef2f7; }
+.small{ color:var(--muted); font-size:.9em; }
+
+/* Map container */
+#paperviz {
+  width:100%;
+  position:relative;
+  min-height: 50vh;
+  background:#fff;
+  border:1px solid #eee; border-radius:8px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.035);
+  overflow: hidden;
+}
+
+/* Floating map UI (inside the map) */
+#paperviz .map-ui{
+  position:absolute;
+  right:10px; top:12px;
+  display:flex; flex-direction:column; gap:12px; z-index: 5;
+}
+.fab{
+  width:36px; height:36px;
+  border-radius:10px; border:1px solid #d1d5db; background:#ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,.08);
+  font:600 18px/36px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  text-align:center; cursor:pointer;
+  transition: transform .08s ease, background-color .15s ease, box-shadow .15s ease;
+}
+.fab:hover{ background:#f5f7fb; transform: translateY(-1px); box-shadow: 0 4px 10px rgba(0,0,0,.10); }
+.fab:active{ transform: translateY(0); }
+
+/* Gesture hint (auto-fades) */
+#paperviz .gesture-hint{
+  position:absolute; right:56px; top:16px;
+  background: rgba(34,34,34,.85); color:#fff;
+  padding:6px 10px; border-radius:8px; font-size:.78rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,.15);
+  opacity:0; pointer-events:none; transition: opacity .25s ease; z-index:5;
+}
+#paperviz .gesture-hint.show{ opacity:1; }
+
+/* ---------- Sleeker cluster / year legend ---------- */
+#cluster-legend-wrapper{
+  margin-top:16px; padding:12px;
+  border:1px solid #eee; border-radius:12px; background:#fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.03);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+#cluster-legend { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:10px; }
+.legend-item {
+  display:flex; align-items:center; gap:10px; padding:10px 12px;
+  border:1px solid #e6e6e6; border-radius:999px; background:#fafafa; cursor:pointer;
+  transition: transform .12s ease, background-color .2s, border-color .2s, box-shadow .2s, opacity .2s;
+  user-select:none;
+}
+.legend-item:hover { background:#f5f7fb; transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.legend-item[aria-pressed="true"]{ background:#f0f6ff; border-color:#b8d3ff; box-shadow: 0 0 0 3px rgba(26,115,232,.12) inset; }
+.legend-dot{ width:14px; height:14px; border-radius:50%; box-shadow: 0 0 0 2px #fff inset, 0 0 0 1px rgba(0,0,0,.06); flex:0 0 14px; }
+.legend-text{ display:flex; flex-direction:column; gap:4px; min-width:0; }
+.legend-row{ display:flex; align-items:center; gap:8px; min-width:0; }
+.legend-title{ font-weight:650; font-size:.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.legend-count{ font-size:.75rem; padding:2px 8px; border-radius:999px; background:#fff; border:1px solid #e1e1e1; color:#555; }
+.legend-tags{ display:flex; flex-wrap:wrap; gap:6px; max-width:100%; }
+.legend-tag{ font-size:.75rem; line-height:1; padding:4px 8px; border-radius:999px; background:#fff; border:1px solid #eee; color:#444; white-space:nowrap; max-width:160px; overflow:hidden; text-overflow:ellipsis; }
+.legend-item:focus-visible{ outline:none; box-shadow: 0 0 0 3px rgba(26,115,232,.25); }
+
+/* Tooltip */
+.tooltip { pointer-events:none; }
+
+/* Year slider tweaks */
+.range-wrap{ display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+input[type="range"]{ accent-color:#1a73e8; }
+
+/* Narrow screens */
+@media (max-width: 680px){
+  #paperviz { min-height: 360px; }
+  .toolbar{ border-radius:10px; }
+}
+</style>
+
+<h2 style="font-size: 1.8em; margin-bottom: 10px;">🗺️ 2D Map of Papers</h2>
+<p style="font-size: 1.05em;">
+  Each dot represents a <strong>paper</strong> in this collection, positioned using 
+  <strong>t-SNE</strong> based on its content similarity. Use the search bar to 
+  filter by <strong>title</strong>, <strong>authors</strong>, 
+  <strong>abstract</strong>, or <strong>tags</strong> to explore related works 
+  interactively.
+</p>
+
+<div class="full-bleed-right">
+  <!-- Search toolbar -->
+  <div class="toolbar" role="search" id="searchToolbar">
+    <div class="search">
+      <label for="filtermap"><strong>Search</strong></label>
+      <input type="search" inputmode="search" spellcheck="false" id="filtermap"
+             placeholder="🔍 Search papers…" aria-label="Search papers" />
+      <button id="clearSearch" type="button" aria-label="Clear search">Clear</button>
+      <span id="matchCount" class="small" aria-live="polite"></span>
+    </div>
+  </div>
+
+  <!-- View toolbar (size by citations + colour by year) -->
+  <div class="toolbar" style="margin-top:-.4rem;" id="viewToolbar">
+    <div class="search">
+      <label for="sizeByCitations"><strong>View</strong></label>
+      <div>
+        <input type="checkbox" id="sizeByCitations" /> <span class="small">Citations</span>
+      </div>
+      <div>
+        <input type="checkbox" id="colorByYear" /> <span class="small">Colour by year</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Year toolbar (dual range) -->
+  <div class="toolbar" id="yearControls" style="margin-top:-.6rem; display:none;">
+    <div class="search">
+      <label for="yearMin"><strong>Year</strong></label>
+      <div class="range-wrap">
+        <input type="range" id="yearMin" min="2000" max="2025" step="1" value="2000" aria-label="Minimum year">
+        <input type="range" id="yearMax" min="2000" max="2025" step="1" value="2025" aria-label="Maximum year">
+        <div class="small">
+          <span id="yearMinVal">2000</span>–<span id="yearMaxVal">2025</span>
+        </div>
+        <button id="clearYear" type="button" aria-label="Reset year filter">All years</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Map -->
+  <div id="paperviz">
+    <div id="loadingViz" style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
+      Loading visualization...
+    </div>
+
+    <!-- Floating map UI -->
+    <div class="map-ui" aria-label="Map controls">
+      <button class="fab" id="zoom_in"  aria-label="Zoom in"  title="Zoom in (+)">+</button>
+      <button class="fab" id="zoom_out" aria-label="Zoom out" title="Zoom out (−)">−</button>
+      <button class="fab" id="reset_view" aria-label="Reset view" title="Reset view (R)">⌂</button>
+    </div>
+
+    <!-- One-time gesture hint -->
+    <div class="gesture-hint" id="gestureHint">
+      Drag to pan · Scroll/Pinch to zoom
+    </div>
+  </div>
+
+  <!-- Legend UNDER the map (cluster OR year depending on mode) -->
+  <section id="cluster-legend-wrapper" aria-label="Cluster Legend">
+    <h3 style="margin: 0 0 8px;">🧭 Cluster Legend</h3>
+    <button id="resetClusters" style="margin-bottom:10px;">Show All Clusters</button>
+    <div id="cluster-legend"></div>
+  </section>
+</div>
+
+<p>
+  Please consider <a href="/contributing.html">contributing</a> by updating the information of existing papers or adding new work.
+</p>
+
+<script src="https://d3js.org/d3.v6.js"></script>
+
+<script>
+/* ----------------- Tap-to-toggle for tooltip (mobile) ----------------- */
+document.addEventListener('click', function(e){
+  const isInfo = e.target.closest('.info[data-tooltip]');
+  document.querySelectorAll('.info[data-show]').forEach(el => { if (el !== isInfo) el.removeAttribute('data-show'); });
+  if (isInfo) { e.preventDefault(); isInfo.toggleAttribute('data-show'); }
+}, { passive: false });
+
+/* ----------------- State ----------------- */
+var allData = [];
+var filteredData = [];
+var selectedCluster = null;          // cluster id or null
+var updateVisualization = () => {};
+var currentTransform = d3.zoomIdentity;
+
+/* Year slider state */
+var yearMinBound = null;
+var yearMaxBound = null;
+var selectedYearMin = null;
+var selectedYearMax = null;
+
+/* ----------------- Search helper ----------------- */
+var isMatch = function(d, searchTerm) {
+  return searchTerm.length >= 3 && d._searchText.includes(searchTerm);
+};
+
+/* ----------------- Layout / D3 base ----------------- */
+var margin = {top: 10, right: 24, bottom: 30, left: 40};
+var width = 320 - margin.left - margin.right;   // initial; ResizeObserver fixes immediately
+var height = 260 - margin.top - margin.bottom;
+
+var svg = d3.select("#paperviz")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var zoomLayer = svg.append("g");
+var color = d3.scaleOrdinal(d3.schemeCategory10);
+/* New: colour scale for year */
+var colorYear = d3.scaleSequential(d3.interpolateTurbo);
+
+/* Keep domains generous; TSNE coordinates should fit here */
+var x = d3.scaleLinear().domain([-25, 25]).range([0, width]);
+var y = d3.scaleLinear().domain([-25, 25]).range([height, 0]);
+
+var zoom = d3.zoom()
+  .scaleExtent([0.4, 20]) // allow a wider zoom-out range
+  .on("zoom", function(event) {
+    currentTransform = event.transform;
+    zoomLayer.attr("transform", event.transform);
+  });
+
+d3.select("#paperviz svg").call(zoom);
+
+/* Tooltip */
+var tooltip = d3.select("#paperviz")
+  .append("div")
+  .style("opacity", 0)
+  .attr("class", "tooltip")
+  .style("background-color", "rgb(81, 81, 81)")
+  .style("max-width", "min(90vw, 42ch)")
+  .style("color", "white")
+  .style("border-width", "0px")
+  .style("border-radius", "10px")
+  .style("padding", "10px")
+  .style("position", "absolute");
+
+var mouseover = function() { tooltip.style("opacity", 1); };
+var mousemove = function(event, d) {
+  const tags = (d.tags || []).slice(0, 6).map(t => `<tag>${t}</tag>`).join(" ");
+  tooltip.html(`
+    <div style="font-weight:600; margin-bottom:4px;">${d.title}</div>
+    <div style="font-size:12px; opacity:.9;">
+      ${d.conference || "—"} • ${d.year || "n/a"} • Citations: ${d.citations || 0}
+    </div>
+    <div style="margin-top:6px; font-size:12px;">${tags}</div>
+  `);
+
+  const container = document.getElementById("paperviz");
+  const cr = container.getBoundingClientRect();
+  const ttNode = tooltip.node();
+  const ttWidth = ttNode.offsetWidth;
+  const ttHeight = ttNode.offsetHeight;
+
+  const mx = event.clientX - cr.left;
+  const my = event.clientY - cr.top;
+
+  const offsetY = 12;
+  let left = mx - ttWidth / 2;
+  let top  = my  - ttHeight - offsetY;
+
+  const pad = 8;
+  left = Math.max(pad, Math.min(left, cr.width  - ttWidth  - pad));
+  top  = Math.max(pad, Math.min(top,  cr.height - ttHeight - pad));
+
+  tooltip.style("left", left + "px").style("top", top + "px");
+};
+var mouseleave = function() { tooltip.style("opacity", 0); };
+var click_link = function(event, d) { window.location.href = "/publications/" + d.key + "/"; };
+
+/* ----------------- URL State helpers ----------------- */
+function getState() {
+  return {
+    q: d3.select("#filtermap").property("value"),
+    cluster: selectedCluster,
+    y0: selectedYearMin,
+    y1: selectedYearMax
+  };
+}
+function setStateFromURL() {
+  const p = new URLSearchParams(location.search);
+  if (p.get("q")) d3.select("#filtermap").property("value", p.get("q"));
+  const c = p.get("cluster");
+  if (c !== null && c !== undefined) selectedCluster = c;
+
+  const y0 = parseInt(p.get("y0"));
+  const y1 = parseInt(p.get("y1"));
+  if (!isNaN(y0)) selectedYearMin = y0;
+  if (!isNaN(y1)) selectedYearMax = y1;
+}
+function pushState() {
+  const s = getState();
+  const p = new URLSearchParams();
+  if (s.q) p.set("q", s.q);
+  if (s.cluster !== null && s.cluster !== undefined && s.cluster !== "null") p.set("cluster", s.cluster);
+  if (s.y0 !== null && s.y0 !== undefined) p.set("y0", s.y0);
+  if (s.y1 !== null && s.y1 !== undefined) p.set("y1", s.y1);
+  const u = `${location.pathname}?${p.toString()}`;
+  history.replaceState(null, "", u);
+}
+
+/* ----------------- Initial zoom / reset ----------------- */
+function applyInitialZoom() {
+  const t = d3.zoomIdentity
+    .translate(width / 2, height / 2)
+    .scale(0.45)
+    .translate(-width / 2, -height / 2);
+  d3.select("#paperviz svg").call(zoom.transform, t);
+  currentTransform = t;
+}
+
+/* ----------------- ResizeObserver for responsiveness ----------------- */
+function resize() {
+  const parent = document.getElementById("paperviz");
+  const w = Math.max(280, parent.clientWidth) - margin.left - margin.right;
+  const h = Math.max(260, Math.round(w * 0.66));
+  width = w; height = h;
+
+  d3.select("#paperviz svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom);
+
+  x.range([0, width]);
+  y.range([height, 0]);
+
+  updateVisualization();
+}
+const ro = new ResizeObserver(resize);
+ro.observe(document.getElementById("paperviz"));
+resize();
+
+/* ----------------- Data load & visualization ----------------- */
+Promise.all([
+  d3.json('./tsne_clustered.json'),
+  d3.json('cluster_summary.json')
+]).then(function(results) {
+  const data = results[0];
+  const summary = results[1];
+
+  allData = data;
+  allData.forEach(function(d) {
+    d.year = parseInt(d.year);
+    d.citations = +d.citations || 0;
+
+    const authors = Array.isArray(d.authors) ? d.authors.join(" ") : (d.authors || "");
+    d._searchText = [
+      d.title || "",
+      d.abstract || "",
+      (d.tags || []).join(" "),
+      authors,
+      d.conference || "",
+      d.key || "",
+      d.year || ""
+    ].join(" ").toLowerCase();
+  });
+
+  // Determine year bounds from data
+  const years = allData.map(d => d.year).filter(y => !isNaN(y));
+  yearMinBound = d3.min(years);
+  yearMaxBound = d3.max(years);
+
+  // Initialise colour-by-year scale
+  if (yearMinBound != null && yearMaxBound != null) {
+    colorYear.domain([yearMinBound, yearMaxBound]);
+  }
+
+  // Apply URL state first (may override default selection)
+  setStateFromURL();
+
+  // Default selection to full range if not set by URL
+  if (selectedYearMin === null) selectedYearMin = yearMinBound;
+  if (selectedYearMax === null) selectedYearMax = yearMaxBound;
+
+  // Init year controls and show them
+  const yearControls = document.getElementById("yearControls");
+  const yearMinInput = document.getElementById("yearMin");
+  const yearMaxInput = document.getElementById("yearMax");
+  const yearMinVal = document.getElementById("yearMinVal");
+  const yearMaxVal = document.getElementById("yearMaxVal");
+  const clearYearBtn = document.getElementById("clearYear");
+
+  yearMinInput.min = yearMinBound;
+  yearMinInput.max = yearMaxBound;
+  yearMaxInput.min = yearMinBound;
+  yearMaxInput.max = yearMaxBound;
+
+  yearMinInput.value = selectedYearMin;
+  yearMaxInput.value = selectedYearMax;
+  yearMinVal.textContent = selectedYearMin;
+  yearMaxVal.textContent = selectedYearMax;
+
+  yearControls.style.display = "flex";
+
+  function clampYearInputs(){
+    let v0 = parseInt(yearMinInput.value);
+    let v1 = parseInt(yearMaxInput.value);
+    if (v0 > v1) { // keep thumbs ordered
+      const tmp = v0; v0 = v1; v1 = tmp;
+      yearMinInput.value = v0;
+      yearMaxInput.value = v1;
+    }
+    selectedYearMin = v0;
+    selectedYearMax = v1;
+    yearMinVal.textContent = v0;
+    yearMaxVal.textContent = v0 === v1 ? v1 : v1;
+  }
+
+  let yearDebounce;
+  yearMinInput.addEventListener("input", function(){
+    clampYearInputs();
+    clearTimeout(yearDebounce);
+    yearDebounce = setTimeout(updateVisualization, 80);
+  });
+  yearMaxInput.addEventListener("input", function(){
+    clampYearInputs();
+    clearTimeout(yearDebounce);
+    yearDebounce = setTimeout(updateVisualization, 80);
+  });
+  clearYearBtn.addEventListener("click", function(){
+    selectedYearMin = yearMinBound;
+    selectedYearMax = yearMaxBound;
+    yearMinInput.value = selectedYearMin;
+    yearMaxInput.value = selectedYearMax;
+    yearMinVal.textContent = selectedYearMin;
+    yearMaxVal.textContent = selectedYearMax;
+    updateVisualization();
+  });
+
+  /* ---------- Legend: cluster vs year modes ---------- */
+  const legendContainer = d3.select("#cluster-legend");
+  const legendTitleEl = document.querySelector("#cluster-legend-wrapper h3");
+  const resetClustersBtnEl = document.getElementById("resetClusters");
+
+  const countsByCluster = d3.rollup(allData, v => v.length, d => String(d.cluster));
+
+  function renderClusterLegend(summaryObj){
+    legendTitleEl.textContent = "🧭 Cluster Legend";
+    resetClustersBtnEl.style.display = "inline-block";
+    resetClustersBtnEl.disabled = false;
+    legendContainer.selectAll("*").remove();
+
+    Object.entries(summaryObj).forEach(([cluster, tags]) => {
+      const count = countsByCluster.get(String(cluster)) || 0;
+      const colorHex = color(cluster);
+
+      // Button-like chip
+      const item = legendContainer.append("button")
+        .attr("type", "button")
+        .attr("class", "legend-item")
+        .attr("data-cluster", cluster)
+        .attr("aria-pressed", String(String(selectedCluster) === String(cluster)))
+        .attr("title", `Toggle Cluster ${Number(cluster)+1}`)
+        .on("click", function() {
+          selectedCluster = (String(selectedCluster) === String(cluster)) ? null : cluster;
+          renderClusterLegend(summaryObj);     // refresh pressed states
+          updateVisualization();
+        });
+
+      // Color dot
+      item.append("span")
+        .attr("class", "legend-dot")
+        .style("background", colorHex);
+
+      // Text block
+      const text = item.append("span").attr("class", "legend-text");
+
+      const topRow = text.append("span").attr("class", "legend-row");
+      topRow.append("span")
+        .attr("class", "legend-title")
+        .text(`Cluster ${Number(cluster)+1}`);
+      topRow.append("span")
+        .attr("class", "legend-count")
+        .text(`${count} papers`);
+
+      const tagRow = text.append("span").attr("class", "legend-tags");
+      (tags || []).slice(0, 5).forEach(t => {
+        tagRow.append("span").attr("class", "legend-tag").text(t.tag);
+      });
+    });
+  }
+
+  // Build coarse year bins for the year legend
+  function buildYearBins(){
+    const bins = [];
+    if (yearMinBound == null || yearMaxBound == null) return bins;
+    const span = yearMaxBound - yearMinBound + 1;
+    const desiredBins = 5;
+    const binSize = Math.max(1, Math.floor(span / desiredBins));
+
+    let start = yearMinBound;
+    while (start <= yearMaxBound){
+      const end = Math.min(yearMaxBound, start + binSize - 1);
+      const mid = (start + end) / 2;
+      const count = allData.filter(d => !isNaN(d.year) && d.year >= start && d.year <= end).length;
+      bins.push({ start, end, mid, count });
+      start = end + 1;
+    }
+    return bins;
+  }
+
+  function renderYearLegend(){
+    legendTitleEl.textContent = "📅 Year Legend";
+    resetClustersBtnEl.style.display = "inline-block";
+    resetClustersBtnEl.disabled = true; // no clusters in this mode
+    legendContainer.selectAll("*").remove();
+
+    const bins = buildYearBins();
+    bins.forEach(bin => {
+      // Fade bins completely outside the selected [min,max] range
+      const isOutside =
+        (selectedYearMin != null && bin.end < selectedYearMin) ||
+        (selectedYearMax != null && bin.start > selectedYearMax);
+
+      const isActive =
+        !isOutside &&
+        selectedYearMin != null &&
+        selectedYearMax != null &&
+        selectedYearMin === bin.start &&
+        selectedYearMax === bin.end;
+
+      const item = legendContainer.append("button")
+        .attr("type", "button")
+        .attr("class", "legend-item")
+        .attr("aria-pressed", isActive ? "true" : "false")
+        .attr("title", isOutside ? "Outside selected year range" : "Click to filter to this year range")
+        .style("opacity", isOutside ? 0.35 : 1)
+        .on("click", function(){
+          // When a bin is clicked, lock filters to that time period
+          selectedYearMin = bin.start;
+          selectedYearMax = bin.end;
+
+          yearMinInput.value = selectedYearMin;
+          yearMaxInput.value = selectedYearMax;
+          yearMinVal.textContent = selectedYearMin;
+          yearMaxVal.textContent = selectedYearMax;
+
+          updateVisualization(); // will re-render legend & circles with new range
+        });
+
+      item.append("span")
+        .attr("class", "legend-dot")
+        .style("background", colorYear(bin.mid));
+
+      const text = item.append("span").attr("class", "legend-text");
+      const row = text.append("span").attr("class", "legend-row");
+      const label = (bin.start === bin.end) ? `${bin.start}` : `${bin.start}–${bin.end}`;
+      row.append("span")
+        .attr("class", "legend-title")
+        .text(label);
+
+      row.append("span")
+        .attr("class", "legend-count")
+        .text(`${bin.count} papers`);
+    });
+  }
+
+  function renderLegendMode(useYearLegend){
+    if (useYearLegend) {
+      renderYearLegend();
+    } else {
+      renderClusterLegend(summary);
+    }
+  }
+
+  // initial legend render (cluster or year, depending on checkbox)
+  renderLegendMode(d3.select("#colorByYear").property("checked"));
+
+  d3.select("#resetClusters").on("click", function() {
+    if (d3.select("#colorByYear").property("checked")) {
+      // In year mode, resetClusters doesn't apply; guard just in case
+      return;
+    }
+    selectedCluster = null;
+    renderClusterLegend(summary);
+    updateVisualization();
+  });
+
+  // Update function (with year filtering + colour-by-year)
+  updateVisualization = function() {
+    var searchTerm = (d3.select("#filtermap").property("value") || "").toLowerCase();
+    var byCites = d3.select("#sizeByCitations").property("checked");
+    var byYearColour = d3.select("#colorByYear").property("checked");
+
+    // Switch legend mode based on colour setting
+    renderLegendMode(byYearColour);
+
+    filteredData = allData.filter(d => {
+      const textMatch = !searchTerm || isMatch(d, searchTerm);
+      const clusterMatch = (selectedCluster === null) || (String(d.cluster) === String(selectedCluster));
+      const hasYear = !isNaN(d.year);
+      const yearMatch = hasYear ? (d.year >= selectedYearMin && d.year <= selectedYearMax) : true; // include if no year
+      return textMatch && clusterMatch && yearMatch;
+    });
+
+    var circles = zoomLayer.selectAll("circle").data(filteredData, d => d.key);
+    circles.exit().remove();
+
+    function computeRadius(d){
+      if (!byCites) return 8;
+      const r = Math.sqrt(d.citations || 0) + 3;
+      return Math.min(r, 30);
+    }
+
+    function computeFill(d){
+      const st = searchTerm;
+      const highlight = isMatch(d, st);
+      if (highlight) return "#aa0000";
+      if (byYearColour && !isNaN(d.year)) return colorYear(d.year);
+      return color(d.cluster);
+    }
+
+    circles
+      .on("mouseover", mouseover)
+      .on("mousemove", mousemove)
+      .on("mouseleave", mouseleave)
+      .on("click", click_link)
+      .transition().duration(300)
+      .attr("cx", d => x(d.tsne_embedding[0]))
+      .attr("cy", d => y(d.tsne_embedding[1]))
+      .attr("r", computeRadius)
+      .style("fill", computeFill)
+      .style("opacity", 0.85)
+      .style("stroke", "white");
+
+    circles.enter()
+      .append("circle")
+      .attr("cx", d => x(d.tsne_embedding[0]))
+      .attr("cy", d => y(d.tsne_embedding[1]))
+      .attr("r", computeRadius)
+      .style("fill", computeFill)
+      .style("opacity", 0.85)
+      .style("stroke", "white")
+      .on("mouseover", mouseover)
+      .on("mousemove", mousemove)
+      .on("mouseleave", mouseleave)
+      .on("click", click_link);
+
+    d3.select("#matchCount").text("Matching papers: " + filteredData.length);
+    pushState();
+
+    const loader = document.getElementById("loadingViz");
+    if (loader) loader.style.display = "none";
+  };
+
+  // Initial zoom and first render
+  applyInitialZoom();
+  updateVisualization();
+
+  // UI bindings
+  let debounceTimer;
+  d3.select("#filtermap").on("keyup", function() {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(updateVisualization, 200);
+  });
+
+  // Zoom controls (pan via drag; wheel/pinch to zoom)
+  d3.select("#zoom_in").on("click", () =>
+    d3.select("#paperviz svg").transition().call(zoom.scaleBy, 1.2)
+  );
+  d3.select("#zoom_out").on("click", () =>
+    d3.select("#paperviz svg").transition().call(zoom.scaleBy, 0.8)
+  );
+  d3.select("#reset_view").on("click", () => {
+    applyInitialZoom();
+    const hint = document.getElementById("gestureHint");
+    if (hint){ hint.classList.add("show"); setTimeout(()=>hint.classList.remove("show"), 1500); }
+  });
+
+  d3.select("#sizeByCitations").on("change", updateVisualization);
+  d3.select("#colorByYear").on("change", updateVisualization);
+
+  // One-time gesture hint on first load
+  (function gestureHintOnce(){
+    const hint = document.getElementById("gestureHint");
+    if (!hint) return;
+    if (localStorage.getItem("paperviz-hinted")) return;
+    hint.classList.add("show");
+    setTimeout(() => hint.classList.remove("show"), 2200);
+    localStorage.setItem("paperviz-hinted", "1");
+  })();
+
+}).catch(function(err) {
+  const loader = document.getElementById("loadingViz");
+  if (loader) loader.textContent = "Failed to load data.";
+  console.error("Data load error:", err);
+});
+
+/* Clear search */
+d3.select("#clearSearch").on("click", function() {
+  d3.select("#filtermap").property("value", "");
+  updateVisualization();
+});
+
+/* Keyboard shortcuts */
+document.addEventListener("keydown", (e) => {
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+    e.preventDefault();
+    document.getElementById("filtermap").focus();
+  } else if (e.key === "Escape") {
+    d3.select("#filtermap").property("value", "");
+    updateVisualization();
+  } else if (e.key.toLowerCase() === "r") {
+    const resetBtn = document.getElementById("reset_view");
+    if (resetBtn) resetBtn.click();
+  }
+});
+</script>
+
+    </div>
+
+  </body>
+</html>

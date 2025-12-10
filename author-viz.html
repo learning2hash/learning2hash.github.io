@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <!-- _includes/head.html -->
+<head>
+  <!-- begin code v 7.0 -->
+  <span id="wts2185304"></span>
+  <script>
+  var wts7 = {};
+  wts7.invisible='';
+  wts7.page_name='';
+  wts7.group_name='';
+  wts7.conversion_number='';
+  wts7.user_id='';
+  var wts=document.createElement('script');wts.async=true;
+  wts.src='https://app.ardalio.com/wts7.js';document.head.appendChild(wts);
+  wts.onload = function(){ wtsl7(2185304,4); };
+  </script><noscript><img src="https://app.ardalio.com/7/4/2185304.png"></noscript>
+  <!-- end code v 7.0 -->
+
+ <!-- MathJax -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        // Only process elements with this class:
+        processHtmlClass: 'mathjax-content',
+        // And explicitly skip anything marked as no-mathjax
+        ignoreHtmlClass: 'no-mathjax'
+      }
+    };
+  </script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ✅ Manual SEO keywords (specific to Learning to Hash) -->
+  <meta name="keywords" content="learning to hash, machine learning, hashing, approximate nearest neighbour search, ANN, LSH, locality sensitive hashing, vector quantization, deep hashing, binary embeddings, information retrieval, similarity search">
+
+  <!-- ✅ Jekyll SEO plugin (title, description, canonical, OG/Twitter, JSON-LD) -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Explore Learning to Hash papers by Author | Awesome Learning to Hash</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Explore Learning to Hash papers by Author" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Explore prolific authors and their contributions across Learning to Hash research" />
+<meta property="og:description" content="Explore prolific authors and their contributions across Learning to Hash research" />
+<link rel="canonical" href="https://learning2hash.github.io/author-viz.html" />
+<meta property="og:url" content="https://learning2hash.github.io/author-viz.html" />
+<meta property="og:site_name" content="Awesome Learning to Hash" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Explore Learning to Hash papers by Author" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Explore prolific authors and their contributions across Learning to Hash research","headline":"Explore Learning to Hash papers by Author","url":"https://learning2hash.github.io/author-viz.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="search" href="/public/opensearchdescription.xml" type="application/opensearchdescription+xml" title="learning2hash" />
+
+  <!-- ✅ Single, modern jQuery + DataTables -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" defer></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" defer></script>
+
+  <!-- Optional sanity log -->
+  <script defer>
+    window.addEventListener('DOMContentLoaded', () => {
+      console.log('jQuery:', jQuery?.fn?.jquery);
+      console.log('DataTables loaded:', !!jQuery?.fn?.dataTable);
+    });
+  </script>
+</head>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <body class="theme-base-0c layout-reverse">
+
+    <!-- Ribbon -->
+<a href='/contributing.html' class='ribbon'>Add your paper to Learning2Hash</a>
+
+<!-- Sidebar -->
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">Awesome Learning to Hash</a>
+      </h1>
+      <p class="lead">A Webpage dedicated to the latest research on Hash Function Learning. Maintained by <a href="https://www.buymeacoffee.com/sjmoran">Sean Moran</a>.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div class="sidebar-item">
+        <p style="font-size: 12px">
+          Search related work
+          <input type="text" id="searchTarget" size="16" />
+          <button type="button" onClick="search();">Go</button>
+        </p>
+      </div>
+
+      <!-- NOTE: use quoted comparisons for page.url -->
+      <a class="sidebar-nav-item"
+         href="/papers.html">All Papers</a>
+      <a class="sidebar-nav-item"
+         href="/tags.html">Papers by Tag</a>
+      <a class="sidebar-nav-item"
+         href="/tsne-viz.html">2D Map of Papers</a>
+      <a class="sidebar-nav-item"
+         href="/topic-viz.html">Topic Explorer</a>
+      <a class="sidebar-nav-item"
+         href="/opensource.html">Tools Explorer</a>
+      <a class="sidebar-nav-item active"
+         href="/author-viz.html">Author Explorer</a>
+      <a class="sidebar-nav-item"
+         href="/tutorial.html">Tutorial</a>
+      <a class="sidebar-nav-item"
+         href="/resources.html">Resources, Courses &amp; Events</a>
+      <a class="sidebar-nav-item"
+         href="/contributing.html">Contributing</a>
+    </nav>
+
+    <!-- ===== Stay Updated (minimal block) ===== -->
+    <hr style="border:none; border-top:1px solid #d8dee9; margin:0.75rem 0;" />
+    <div class="sidebar-item" aria-label="Stay updated">
+      <h3 style="margin:0 0 0.25rem 0; font-size:1rem;">Stay Updated</h3>
+      <ul style="list-style:none; padding-left:0; margin:0;">
+        <li style="margin:0.35rem 0;">
+          <a class="sidebar-nav-item" href="/feed/publications.xml"
+             rel="alternate" type="application/rss+xml">📰 RSS Feed</a>
+        </li>
+      </ul>
+    </div>
+    <!-- ===== End Stay Updated ===== -->
+
+    <div class="sidebar-item">
+      <p style="font-size: 12px">
+        Contact <a href="https://sjmoran.github.io">Sean Moran</a> about this survey or website.
+        <span style="font-size: 9px">
+          Made with <a href="https://jekyllrb.com">Jekyll</a> and
+          <a href="https://github.com/poole/hyde">Hyde</a>.
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<style>
+/* === Scrollable Right Sidebar (wider, matches Awesome LLM Papers) === */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 1.5rem 1.25rem;
+  box-sizing: border-box;
+  background-color: #7da2b3;
+  scrollbar-gutter: stable;
+
+  /* wider: 260–420px instead of 240–340px */
+  width: clamp(260px, 30vw, 420px);
+  max-width: clamp(260px, 30vw, 420px);
+}
+
+/* Allow normal flow inside sticky container */
+.sidebar .container.sidebar-sticky {
+  position: relative;
+  max-height: none;
+  overflow: visible;
+}
+
+/* Optional: prettier scrollbar */
+.sidebar::-webkit-scrollbar { width: 8px; }
+.sidebar::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.25); border-radius: 4px; }
+.sidebar::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.4); }
+
+/* Match content offset */
+.main, .content {
+  margin-right: clamp(260px, 30vw, 420px);
+}
+
+/* Mobile view: sidebar collapses */
+@media (max-width: 880px) {
+  .sidebar {
+    position: static;
+    height: auto;
+    width: auto;
+    max-width: none;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  }
+  .main, .content {
+    margin-right: 0 !important;
+  }
+}
+</style>
+
+<script defer>
+document.addEventListener('DOMContentLoaded', function () {
+  // ---- Search ----
+  function doSearch() {
+    const el = document.getElementById('searchTarget');
+    if (!el) return;
+    const q = el.value.trim();
+    try { if (typeof ga === 'function') ga('send', 'event', 'search', 'search', q); } catch(e) {}
+    window.location = "/papers.html#" + encodeURIComponent(q);
+  }
+
+  if (window.jQuery) {
+    $('#searchTarget').on('keydown', function (e) {
+      if (e.key === 'Enter') doSearch();
+    });
+    document.querySelector('.sidebar-item button')?.addEventListener('click', doSearch);
+  } else {
+    const input = document.getElementById('searchTarget');
+    const btn = document.querySelector('.sidebar-item button');
+    if (input) {
+      input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') doSearch();
+      });
+    }
+    if (btn) btn.addEventListener('click', doSearch);
+  }
+
+  window.search = doSearch;
+
+  // ---- Match content margin to actual sidebar width ----
+  const sb = document.querySelector('.sidebar');
+  const mains = document.querySelectorAll('.main, .content');
+  function syncSidebarWidth() {
+    if (!sb) return;
+    const w = sb.offsetWidth + 'px';
+    mains.forEach(m => m && (m.style.marginRight = w));
+  }
+  syncSidebarWidth();
+  window.addEventListener('resize', syncSidebarWidth);
+});
+</script>
+
+
+    <div class="content container mathjax-content">
+      <h2 style="font-size: 1.8em; margin-bottom: 10px;">👩‍💻 Author Explorer</h2>
+<p style="font-size: 1.05em;">
+  Discover the most active <strong>researchers</strong> in Learning to Hash. 
+  Sort by <strong>paper count</strong>, <strong>citations</strong>, or 
+  <strong>timeline sparkline</strong> (color-coded by community), and click 
+  <strong>"View"</strong> to explore each author’s co-author network graph.
+</p>
+<p style="font-size: 0.95em;">
+  🔍 Authors are color-coded by
+  <strong>community</strong>—clusters of frequent collaborators detected via graph algorithms. A red border marks high
+  <span
+    title="Betweenness centrality measures how often an author lies on the shortest paths between others. High values suggest strategic or well-connected positions.">betweenness</span>,
+  indicating strong connectivity.
+</p>
+<p style="font-size: 0.95em;">
+  ℹ️ Hover over author names or nodes to view detailed stats, including paper count, total citations, unique co-authors,
+  <span class="hover-explainer" title="Number of direct co-author connections.">degree</span>,
+  <span class="hover-explainer"
+    title="How close the author is, on average, to all other authors in the network. A higher score means shorter paths to others and quicker access to information.">closeness</span>,
+  <span class="hover-explainer" title="How interconnected the author's collaborators are.">clustering</span>,
+  <span class="hover-explainer"
+    title="Measures how often an author appears on the shortest path between other pairs of authors. High betweenness suggests the author plays a key bridging role, connecting otherwise distant parts of the network.">betweenness</span>,
+  and active years.
+</p>
+
+<!-- Styled Search Bar (same look & feel as Tags page) -->
+<div class="controls" id="authorControls" style="display:none;">
+  <div class="search">
+    <label for="authorSearch"><strong>Search</strong></label>
+    <input id="authorSearch" type="text" placeholder="🔍 Search authors, stats, tags…" />
+    <button id="resetAuthorSearch" type="button">Clear</button>
+    <span id="authorVisibleCount" class="small"></span>
+  </div>
+</div>
+
+<!-- Loading Indicator -->
+<div id="loading" role="status" aria-live="polite">
+  <p>Loading Author Network ...</p>
+</div>
+
+<table id="author-table" class="display stripe hover" style="width:100%; display:none;">
+  <thead>
+    <tr>
+      <th data-priority="1">👤 Author</th>
+      <th data-priority="3" title="Click to view sample papers">📄 Papers 🔍</th>
+      <th data-priority="4">📊 Citations</th>
+      <th data-priority="7" title="👥 Unique co-authors this author has worked with">👥 Co-authors</th>
+      <th data-priority="8" title="🧩 Number of direct connections (degree)">🧩 Degree</th>
+      <th data-priority="9" title="🔁 Closeness centrality (inverse average shortest path)">🔁 Closeness</th>
+      <th data-priority="10" title="🔄 Clustering coefficient (triangle density)">🔄 Clustering</th>
+      <th data-priority="11" title="🔀 Betweenness centrality (bridge importance)">🔀 Betweenness</th>
+      <th data-priority="12" title="⏳ Years active since first recorded paper">⏳ Age</th>
+      <th data-priority="5">📈 Paper Count Timeline</th>
+      <th data-priority="6">🏷️ Tags</th>
+      <th data-priority="2">🔗 Network</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<!-- Modals -->
+<div id="network-modal" role="dialog" aria-modal="true"
+  style="display:none; position:fixed; inset:0; margin:auto; width:90%; height:90%; background:rgba(255,255,255,0.97); border:1px solid #ccc; z-index:10000; box-shadow:0 4px 20px rgba(0,0,0,0.2); border-radius:10px;">
+  <button id="modal-close" aria-label="Close graph modal"
+    style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
+  <svg id="network-svg" width="100%" height="100%"></svg>
+</div>
+
+<div id="papers-modal" role="dialog" aria-modal="true"
+  style="display:none; position:fixed; inset:0; margin:auto; width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
+  <button id="papers-close" aria-label="Close papers list"
+    style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
+  <h3 id="papers-title">Sample Papers by Author</h3>
+  <ul id="papers-list" style="font-size:0.95em;"></ul>
+</div>
+
+<!-- Self-hosted CSS (DataTables core + Buttons + Responsive) -->
+<link rel="stylesheet" href="/assets/vendor/datatables-1.13.6.min.css">
+<link rel="stylesheet" href="/assets/vendor/dataTables.buttons-2.4.1.min.css">
+<link rel="stylesheet" href="/assets/vendor/dataTables.responsive-2.5.0.min.css">
+
+<style>
+  /* === Search bar style (copied from Tags page) === */
+  .controls { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:.6rem; margin:.6rem 0 .9rem; }
+  .search { display:flex; align-items:flex-start; gap:.6rem; flex-wrap:wrap; }
+  .search label { font-weight:700; font-size:.85rem; }
+  .search input {
+    width: clamp(140px, 24vw, 520px);
+    padding: .25rem .4rem;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: .85rem;
+    background-color: #f8f9fa;
+  }
+  .search input:focus { outline:none; border-color:#0c5fce; box-shadow:0 0 0 2px rgba(26,115,232,.25); }
+  .search button { padding: .25rem .5rem; font-size: .85rem; border: 1px solid #aaa; border-radius: 4px; background: #f8f9fa; cursor: pointer; }
+  .search button:hover { background:#e2e2e2; }
+  .small { color:#6b7280; font-size:.9em; }
+
+  /* Hide DataTables' default search bar since we're using our own */
+  .dataTables_filter{ display:none !important; }
+
+  /* Let Responsive decide when to hide columns (no inner scroll frame) */
+  #author-table { width: 100% !important; max-width: 100%; table-layout: auto; }
+  .dataTables_wrapper { width: 100%; max-width: 100%; overflow-x: hidden; }
+
+  #author-table thead th { white-space: nowrap; }
+  #author-table tbody td { word-break: break-word; }
+  .sparkline { display:inline-block; min-width: 80px; vertical-align: middle; }
+  #author-table td:nth-child(10), #author-table td:nth-child(11) { white-space: normal; }
+
+  @media screen and (max-width: 768px) {
+    #author-table { font-size: 0.9em; }
+    #author-table th, #author-table td { padding: 8px 4px; }
+  }
+
+  .tooltip-wrapper { position: relative; display: inline-block; }
+  .hover-explainer { text-decoration: dotted underline; cursor: help; color: #0056b3; font-weight: 500; }
+  .tooltip-content {
+    visibility: hidden; background-color: #f9f9f9; color: #000; text-align: left; border-radius: 6px; padding: 10px;
+    border: 1px solid #ccc; position: absolute; z-index: 100; width: max-content; max-width: 280px; top: 120%; left: 0;
+    box-shadow:0 0 10px rgba(0,0,0,.1); font-size:.85em; white-space: pre-line;
+  }
+  .tooltip-wrapper:hover .tooltip-content { visibility: visible; }
+
+  #author-table tbody td:nth-child(2) { cursor: pointer; color: #0074D9; text-decoration: underline; }
+
+  #network-modal, #papers-modal { transition: opacity .3s ease; }
+  #network-modal { overflow: auto; }
+
+  #loading {
+    position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    font-size: 1.05em; text-align: center; z-index: 10; background: white;
+    padding: .8em 1.2em; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.08);
+  }
+
+  .highlight { background-color:#fffbcc !important; transition: background-color .5s ease; }
+
+  /* column-based responsive control arrow */
+  table.dataTable tbody td.dtr-control { cursor: pointer; }
+  table.dataTable tbody td.dtr-control:before { top: 50%; transform: translateY(-50%); }
+</style>
+
+<!-- Self-hosted JS (order matters: jQuery → DataTables core → Buttons/Responsive → D3) -->
+<script src="/assets/vendor/jquery-3.6.0.min.js"></script>
+<script src="/assets/vendor/datatables-1.13.6.min.js" defer></script>
+<script src="/assets/vendor/dataTables.buttons-2.4.1.min.js" defer></script>
+<script src="/assets/vendor/buttons.colVis-2.4.1.min.js" defer></script>
+<script src="/assets/vendor/dataTables.responsive-2.5.0.min.js" defer></script>
+<!-- NOTE: Removed jQuery Sparkline include -->
+<script src="/assets/vendor/d3.v7.min.js" defer></script>
+
+<!-- Main Script -->
+<script defer>
+  let authorData;
+  let authorTable;
+
+  fetch('author_stats.json')
+    .then(res => {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
+    .then(data => {
+      authorData = data;
+      $('#loading').hide();
+      $('#author-table').show();
+      $('#authorControls').show();
+      initAuthorTable(data);
+      initAuthorSearchBar();
+    })
+    .catch(err => {
+      console.error('Error loading author stats', err);
+      $('#loading').hide();
+      $('#author-table').after('<div style="color:red; margin-top:10px;">Error loading author data.</div>');
+    });
+
+  function toTitleCase(name) {
+    return name.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  }
+
+  function initAuthorSearchBar(){
+    const input = document.getElementById('authorSearch');
+    const reset = document.getElementById('resetAuthorSearch');
+    const count = document.getElementById('authorVisibleCount');
+
+    const updateCount = () => count.textContent = authorTable ? authorTable.rows({ filter: 'applied' }).count() + ' rows' : '';
+    const doSearch = () => { if (!authorTable) return; authorTable.search((input.value||'').trim()).draw(); updateCount(); };
+
+    input.addEventListener('input', doSearch);
+    reset.addEventListener('click', () => { input.value=''; doSearch(); input.focus(); });
+    document.addEventListener('keydown', (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); input.focus(); }
+      else if (e.key === 'Escape') { input.value=''; doSearch(); }
+    });
+
+    setTimeout(updateCount, 0);
+  }
+
+  function initAuthorTable(data) {
+    const authors = Object.keys(data).filter(name => name.trim().split(/\s+/).length > 1);
+    const communities = [...new Set(authors.map(a => data[a].community))];
+    const pastelColors = ['#A1C9F4','#FFB482','#8DE5A1','#FF9F9A','#D0BBFF','#DEBB9B','#FAB0E4','#CFCFCF','#B9F2F0','#FFFEA3'];
+    const color = d3.scaleOrdinal(pastelColors).domain(communities);
+    const betwVals = authors.map(a => data[a].betweenness);
+    const threshold = d3.quantile(betwVals.slice().sort(d3.ascending), 0.8);
+
+    const rows = authors.map(author => {
+      const info = data[author];
+      const years = (info.sparkline_years || []).map(y => y.toString());
+      const values = info.sparkline_values || [];
+      const spark = values.join(',');
+      const border = (info.betweenness || 0) > threshold ? ' border:2px solid red;' : '';
+      const googleQuery = encodeURIComponent(`${author} AI`);
+      const displayName = toTitleCase(author);
+
+      const nameCell = `
+        <span class="tooltip-wrapper">
+          <a href="https://www.google.com/search?q=${googleQuery}" target="_blank" rel="noopener"
+             class="author-name" data-author="${author}"
+             style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px; text-decoration:none; color:black; display:inline-block;${border}">
+            ${displayName}
+          </a>
+          <span class="tooltip-content">
+            ${author}<br>
+            📄 Papers: ${info.paper_count ?? '—'}<br>
+            📊 Citations: ${info.total_citations ?? '—'}<br>
+            👥 Co-authors: ${info.coauthor_count ?? '—'}<br>
+            🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}<br>
+            🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}<br>
+            🔀 Betweenness: ${info.betweenness?.toFixed(4) ?? '—'}<br>
+            🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}<br>
+            ⏳ Active Years: ${info.age ?? '—'}
+          </span>
+        </span>`;
+
+      const tagsHtml = (info.tags || []).map(tag => {
+        const frag = encodeURIComponent(tag);
+        return `<a href="https://awesome-llm-papers.github.io/tags.html#${frag}" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;">
+                  <span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span>
+                </a>`;
+      }).join(' ');
+
+      const sparkCell = `<span class="sparkline" data-years="${years.join(',')}" data-values="${spark}"></span>`;
+
+      return [
+        nameCell,
+        info.paper_count,
+        info.total_citations,
+        info.coauthor_count ?? '—',
+        info.degree?.toFixed(2) ?? '—',
+        info.closeness?.toFixed(3) ?? '—',
+        info.clustering?.toFixed(2) ?? '—',
+        info.betweenness?.toFixed(4) ?? '—',
+        info.age ?? '—',
+        sparkCell,
+        tagsHtml,
+        `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
+      ];
+    });
+
+    authorTable = $('#author-table').DataTable({
+      data: rows,
+      dom: 'Bfrtip',
+      buttons: [{ extend: 'colvis', text: 'Columns' }],
+      responsive: {
+        breakpoints: [
+          { name: 'xl', width: Infinity },
+          { name: 'lg', width: 1200 },
+          { name: 'md', width: 992 },
+          { name: 'sm', width: 768 },
+          { name: 'xs', width: 576 }
+        ],
+        details: {
+          type: 'column',
+          target: 'td.dtr-control',
+          display: $.fn.dataTable.Responsive.display.childRow,
+          renderer: $.fn.dataTable.Responsive.renderer.tableAll()
+        }
+      },
+      order: [[1, 'desc']],
+      pageLength: 100,
+      lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
+      scrollX: false,
+      autoWidth: false,
+      columnDefs: [
+        { targets: [9, 10, 11], orderable: false },
+        { className: 'dtr-control', orderable: false, targets: 0 },
+
+        { responsivePriority: 1, targets: 0 },
+        { responsivePriority: 2, targets: 11 },
+        { responsivePriority: 3, targets: 1 },
+        { responsivePriority: 4, targets: 2 },
+        { responsivePriority: 5, targets: 9 },
+        { responsivePriority: 6, targets: 10 },
+        { responsivePriority: 7, targets: 3 },
+        { responsivePriority: 8, targets: 4 },
+        { responsivePriority: 9, targets: 5 },
+        { responsivePriority:10, targets: 6 },
+        { responsivePriority:11, targets: 7 },
+        { responsivePriority:12, targets: 8 }
+      ]
+    });
+
+    /* ---------- Sparkline helpers (pure D3 inline SVG) ---------- */
+    function initSparkline($el) {
+      const valuesAttr = $el.attr('data-values') || '';
+      const values = valuesAttr.split(',').filter(Boolean).map(Number);
+      const years = ($el.attr('data-years') || '').split(',');
+
+      if (!values.length) { $el.empty(); return; }
+
+      const barW = 7;      // bar width
+      const barGap = 2;    // gap between bars
+      const height = 30;   // fixed height
+      const width = Math.max(values.length * (barW + barGap) - barGap, 80);
+
+      $el.empty();
+      const svg = d3.select($el[0]).append('svg')
+        .attr('width', width)
+        .attr('height', height);
+
+      const maxV = d3.max(values) || 1;
+      const y = d3.scaleLinear().domain([0, maxV]).range([height - 1, 1]);
+
+      svg.selectAll('rect')
+        .data(values)
+        .enter()
+        .append('rect')
+        .attr('x', (_, i) => i * (barW + barGap))
+        .attr('y', d => y(d))
+        .attr('width', barW)
+        .attr('height', d => Math.max(1, height - y(d)))
+        .append('title')
+        .text((d, i) => `${d} papers in ${years[i] || 'Unknown'}`);
+    }
+
+    function drawSparks(scope) {
+      (scope ? $(scope) : $(document)).find('.sparkline').each(function () {
+        initSparkline($(this));
+      });
+    }
+
+    drawSparks(document);
+    authorTable.on('draw responsive-resize', () => drawSparks(document));
+    $(window).on('resize', () => drawSparks(document));
+
+    authorTable.on('responsive-display', (e, dt, row, show) => {
+      if (show) {
+        const $child = $(row.node()).next('tr.child');
+        setTimeout(() => drawSparks($child), 0);
+      }
+    });
+
+    /* ---------- Row interactions ---------- */
+    $('#author-table').on('click', 'button.net-btn', function () {
+      showNetwork($(this).data('author'));
+    });
+
+    $('#author-table').on('click', 'tbody td:nth-child(2)', function () {
+      const rowIdx = authorTable.row(this).index();
+      const author = authorTable.cell(rowIdx, 0).nodes().to$().find('.author-name').data('author');
+      const info = data[author];
+      $('#papers-title').text(`📄 Sample Papers by ${toTitleCase(author)}`);
+      $('#papers-list').html((info.papers || []).map(p => `
+        <li><a href="https://awesome-llm-papers.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})</li>`).join(''));
+      $('#papers-modal').show();
+    });
+
+    // Tooltip titles for column visibility menu
+    $(document).on('click', '.buttons-columnVisibility', function () {
+      setTimeout(() => {
+        $('.dt-button-collection .buttons-columnVisibility').each(function () {
+          const label = $(this).text().trim();
+          const tips = {
+            "👤 Author":"Author's full name","📄 Papers":"Number of papers authored","📊 Citations":"Total number of citations",
+            "👥 Co-authors":"Unique collaborators","🧩 Degree":"Direct co-author connections","🔁 Closeness":"Proximity to others",
+            "🔄 Clustering":"Triangle density","🔀 Betweenness":"Bridge importance","⏳ Age":"Years active since first paper",
+            "📈 Paper Count Timeline":"Publication trend","🏷️ Tags":"Research areas","🔗 Network":"Visualize co-author network"
+          };
+          const tip = tips[label]; if (tip) $(this).attr('title', tip);
+        });
+      }, 50);
+    });
+  }
+
+  /* ===== Network code ===== */
+  function getSubgraph(author, radius = 2, maxNodes = 150) {
+    const visited = new Set();
+    const queue = [{ id: author, depth: 0 }];
+    const nodes = [];
+    const links = [];
+    const nodeIndex = new Map();
+
+    while (queue.length > 0 && nodes.length < maxNodes) {
+      const { id, depth } = queue.shift();
+      if (!authorData[id] || visited.has(id)) continue;
+      visited.add(id);
+
+      const node = { id, depth };
+      nodes.push(node);
+      nodeIndex.set(id, node);
+
+      if (depth < radius && Array.isArray(authorData[id].coauthors)) {
+        for (const co of authorData[id].coauthors) {
+          if (!authorData[co]) continue;
+          if (!links.some(l => (l.source === id && l.target === co) || (l.source === co && l.target === id))) {
+            links.push({ source: id, target: co });
+          }
+          if (!visited.has(co) && !queue.some(q => q.id === co)) {
+            queue.push({ id: co, depth: depth + 1 });
+          }
+        }
+      }
+    }
+    const tooLarge = queue.length > 0 || nodes.length >= maxNodes;
+    return { nodes, links, tooLarge };
+  }
+
+  function showNetwork(author) {
+    $('#network-modal').fadeIn(200);
+    $('#network-svg').data('current-author', author);
+    const svg = d3.select('#network-svg');
+    svg.selectAll('*').remove();
+
+    const zoomGroup = svg.append('g').attr('class', 'zoom-layer');
+    const zoom = d3.zoom().scaleExtent([0.5, 2]).on('zoom', e => zoomGroup.attr('transform', e.transform));
+    svg.call(zoom);
+
+    const { nodes, links, tooLarge } = getSubgraph(author, 1);
+    const { width: w, height: h } = svg.node().getBoundingClientRect();
+
+    const sim = d3.forceSimulation(nodes)
+      .force('link', d3.forceLink(links).id(d => d.id).distance(280))
+      .force('charge', d3.forceManyBody().strength(-400))
+      .force('collision', d3.forceCollide().radius(d => 18).strength(1))
+      .force('center', d3.forceCenter(w / 2, h / 2));
+
+    zoomGroup.append('g').selectAll('line').data(links).enter().append('line')
+      .attr('stroke', '#aaa').attr('stroke-width', 1);
+
+    const circle = zoomGroup.append('g').selectAll('circle').data(nodes).enter().append('circle')
+      .attr('r', d => 4 + Math.sqrt(authorData[d.id]?.degree || 1))
+      .attr('fill', d => d3.schemePastel1[authorData[d.id]?.community % 10])
+      .attr('stroke', d => d.id === author ? 'red' : '#333')
+      .attr('stroke-width', d => 2 - 0.5 * d.depth)
+      .style('cursor', 'pointer')
+      .on('click', (e, d) => {
+        e.stopPropagation();
+        e.preventDefault();
+        showNetwork(d.id);
+        if (e.shiftKey) {
+          const name = d.id.trim();
+          authorTable.search(name).draw();
+          $('#network-modal').fadeOut(200);
+        }
+      });
+
+    circle.append('title').text(d => {
+      const info = authorData[d.id] || {};
+      return `${d.id}
+📄 Papers: ${info.paper_count ?? '—'}
+📊 Citations: ${info.total_citations ?? '—'}
+🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}
+🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}
+🔀 Betweenness: ${info.betweenness?.toFixed(4) ?? '—'}
+🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}
+🌈 Community: ${info.community ?? '—'}
+⏳ Active Years: ${info.age ?? '—'}`;
+    });
+
+    const text = zoomGroup.append('g').selectAll('text').data(nodes).enter().append('text')
+      .text(d => d.id).attr('font-size', '10px').attr('dx', 8).attr('dy', 4);
+
+    sim.on('tick', () => {
+      svg.selectAll('line')
+        .attr('x1', d => d.source?.x || 0).attr('y1', d => d.source?.y || 0)
+        .attr('x2', d => d.target?.x || 0).attr('y2', d => d.target?.y || 0);
+      svg.selectAll('circle').attr('cx', d => d.x || 0).attr('cy', d => d.y || 0);
+      text.attr('x', d => (d.x || 0) + 6).attr('y', d => d.y || 0);
+    });
+
+    if (tooLarge) {
+      svg.append('text').attr('x', 10).attr('y', 20).attr('fill', 'red')
+        .attr('font-size', '14px').text('⚠️ Truncated: Too many nodes to display fully.');
+    }
+
+    const legendData = [
+      `🖱️ Click: Expand author's network`,
+      `⇧+🖱️ Shift+Click: Jump to author in table`,
+      `👆 Hover: View stats`,
+      `🌈 Color: Community`,
+      `🔴 Red border: Current author`,
+      `📏 Size: Co-authors`
+    ];
+    const temp = svg.append('text').attr('font-size', '12px').style('visibility', 'hidden');
+    let maxW = 0; legendData.forEach(line => { temp.text(line); maxW = Math.max(maxW, temp.node().getComputedTextLength()); });
+    temp.remove();
+
+    const legendX = 20, legendY = h - (legendData.length * 30 + 40), legendW = maxW + 20;
+    const g = zoomGroup.append('g').attr('transform', `translate(${legendX},${legendY})`);
+    g.append('rect').attr('x',0).attr('y',-20).attr('width',legendW).attr('height',legendData.length*30)
+      .attr('fill','#f9f9f9').attr('stroke','#ccc').attr('rx',8).attr('ry',8);
+    const t = g.append('text').attr('x',10).attr('y',0).attr('font-size','12px').attr('fill','#333');
+    t.selectAll('tspan').data(legendData).enter().append('tspan')
+      .attr('x',10).attr('dy',(d,i)=>i===0?'0em':'1.8em').text(d=>d);
+
+    setTimeout(() => {
+      const sel = nodes.find(n => n.id === author);
+      if (sel) {
+        const { width, height } = svg.node().getBoundingClientRect();
+        svg.transition().duration(500).call(
+          d3.zoom().transform,
+          d3.zoomIdentity.translate(width/2, height/2).scale(1).translate(-sel.x, -sel.y)
+        );
+      }
+    }, 500);
+  }
+
+  // Modal close handlers (ESC & buttons)
+  function hideModals() {
+    $('#network-modal').fadeOut(200);
+    $('#papers-modal').hide();
+  }
+  document.getElementById('modal-close').addEventListener('click', hideModals);
+  document.getElementById('papers-close').addEventListener('click', hideModals);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hideModals(); });
+  // Click outside to close
+  ['network-modal','papers-modal'].forEach(id => {
+    document.getElementById(id).addEventListener('click', (e) => {
+      if (e.target.id === id) hideModals();
+    });
+  });
+</script>
+
+    </div>
+
+  </body>
+</html>
