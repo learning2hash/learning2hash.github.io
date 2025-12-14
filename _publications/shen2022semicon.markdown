@@ -7,7 +7,7 @@ year: 2022
 bibkey: shen2022semicon
 citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.13833'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability"]
+tags: [Evaluation, Image Retrieval, Datasets, Scalability, Hashing Methods]
 short_authors: Shen et al.
 ---
 In this paper, we propose Suppression-Enhancing Mask based attention and

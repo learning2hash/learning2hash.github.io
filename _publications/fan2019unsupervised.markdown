@@ -7,7 +7,7 @@ year: 2019
 bibkey: fan2019unsupervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.02707'}]
-tags: ["Supervised", "Unsupervised"]
+tags: [Supervised, Unsupervised]
 short_authors: Yifeng Fan, Tingran Gao, Zhizhen Zhao
 ---
 We introduce a novel co-learning paradigm for manifolds naturally equipped

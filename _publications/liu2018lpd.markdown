@@ -9,7 +9,7 @@ year: 2018
 bibkey: liu2018lpd
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.07050'}]
-tags: ["Evaluation", "Graph Based ANN", "Robustness", "Scalability"]
+tags: [Scalability, Evaluation, Graph-based ANN, Robustness]
 short_authors: Liu et al.
 ---
 Point cloud based place recognition is still an open issue due to the

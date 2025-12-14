@@ -8,7 +8,7 @@ year: 2012
 bibkey: wang2012on
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1211.5084'}]
-tags: ["Efficiency"]
+tags: [Efficiency]
 short_authors: Haitao Wang, Wuzhou Zhang
 ---
 In this paper, we study top-\(k\) aggregate (or group) nearest neighbor queries

@@ -7,7 +7,7 @@ year: 2016
 bibkey: grzegorczyk2016binary
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.01116'}]
-tags: ["Compact Codes", "Evaluation"]
+tags: [Compact Codes, Evaluation]
 short_authors: Karol Grzegorczyk, Marcin Kurdziel
 ---
 Recently Le & Mikolov described two log-linear models, called Paragraph

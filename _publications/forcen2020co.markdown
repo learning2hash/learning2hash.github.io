@@ -7,7 +7,7 @@ year: 2020
 bibkey: forcen2020co
 citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.13827'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Forcen et al.
 ---
 Image search can be tackled using deep features from pre-trained

@@ -8,7 +8,7 @@ year: 2021
 bibkey: wei2021fine
 citations: 300
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.06119'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Survey Paper"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Survey Paper, Datasets]
 short_authors: Wei et al.
 ---
 Fine-grained image analysis (FGIA) is a longstanding and fundamental problem

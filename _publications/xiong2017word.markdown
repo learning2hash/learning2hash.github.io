@@ -8,7 +8,7 @@ year: 2017
 bibkey: xiong2017word
 citations: 111
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.06636'}]
-tags: ["Evaluation", "SIGIR", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, SIGIR]
 short_authors: Chenyan Xiong, Jamie Callan, Tie-Yan Liu
 ---
 This paper presents a word-entity duet framework for utilizing knowledge

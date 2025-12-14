@@ -7,7 +7,7 @@ year: 2020
 bibkey: fehervari2020adaptive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.14693'}]
-tags: ["Datasets", "Distance Metric Learning"]
+tags: [Distance Metric Learning, Datasets]
 short_authors: Istvan Fehervari, Ives MacEdo
 ---
 Recent works have shown that deep metric learning algorithms can benefit from

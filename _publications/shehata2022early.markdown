@@ -8,7 +8,7 @@ year: 2022
 bibkey: shehata2022early
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.04887'}]
-tags: ["CIKM", "Datasets", "Efficiency", "Evaluation", "Few Shot & Zero Shot"]
+tags: [Few-shot & Zero-shot, CIKM, Efficiency, Datasets, Evaluation]
 short_authors: Dahlia Shehata, Negar Arabzadeh, Charles L. A. Clarke
 ---
 Despite the advantages of their low-resource settings, traditional sparse

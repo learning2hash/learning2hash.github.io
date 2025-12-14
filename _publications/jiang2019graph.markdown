@@ -7,7 +7,8 @@ year: 2019
 bibkey: jiang2019graph
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.05159'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Graph Based ANN", "Hashing Methods"]
+tags: [Compact Codes, Evaluation, Graph-based ANN, Datasets, Scalability, Hashing
+    Methods]
 short_authors: Jiang et al.
 ---
 Hashing techniques, also known as binary code learning, have recently gained

@@ -7,7 +7,7 @@ year: 2022
 bibkey: gao2022precise
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.10496'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Unsupervised, Few-shot & Zero-shot]
 short_authors: Gao et al.
 ---
 While dense retrieval has been shown effective and efficient across tasks and

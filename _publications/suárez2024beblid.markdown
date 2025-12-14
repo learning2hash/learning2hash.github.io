@@ -7,7 +7,7 @@ year: 2024
 bibkey: "su\xE1rez2024beblid"
 citations: 101
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.04482'}]
-tags: ["Efficiency", "Evaluation"]
+tags: [Evaluation, Efficiency]
 short_authors: "Su\xE1rez et al."
 ---
 Efficient matching of local image features is a fundamental task in many

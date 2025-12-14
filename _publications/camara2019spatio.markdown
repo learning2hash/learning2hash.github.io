@@ -7,7 +7,7 @@ year: 2019
 bibkey: camara2019spatio
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.07671'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: "Luis G. Camara, Libor P\u0159eu\u010Dil"
 ---
 We present a Visual Place Recognition system that follows the two-stage

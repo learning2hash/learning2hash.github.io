@@ -7,7 +7,7 @@ year: 2020
 bibkey: tseng2020parallel
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.11188'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation, Efficiency]
 short_authors: Tom Tseng, Laxman Dhulipala, Julian Shun
 ---
 SCAN (Structural Clustering Algorithm for Networks) is a well-studied, widely

@@ -8,7 +8,7 @@ year: 2023
 bibkey: hendriksen2023scene
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.05174'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
+tags: [Evaluation, Datasets, Multimodal Retrieval]
 short_authors: Hendriksen et al.
 ---
 Most approaches to cross-modal retrieval (CMR) focus either on object-centric

@@ -9,7 +9,7 @@ year: 2019
 bibkey: zhang2019autoblock
 citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.03417'}]
-tags: ["Datasets", "Scalability", "Tools & Libraries"]
+tags: [Scalability, Tools & Libraries, Datasets]
 short_authors: Zhang et al.
 ---
 Entity matching seeks to identify data records over one or multiple data

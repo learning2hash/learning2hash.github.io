@@ -8,7 +8,7 @@ year: 2025
 bibkey: liu2025any
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.11431'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Scalability"]
+tags: [Scalability, Evaluation, Datasets, Efficiency]
 short_authors: Liu et al.
 ---
 With the popularity of multimodal techniques, it receives growing interests

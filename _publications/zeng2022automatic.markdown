@@ -7,7 +7,7 @@ year: 2022
 bibkey: zeng2022automatic
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.00391'}]
-tags: ["Graph Based ANN", "Self-Supervised"]
+tags: [Self-Supervised, Graph-based ANN]
 short_authors: Sihang Zeng, Zheng Yuan, Sheng Yu
 ---
 Term clustering is important in biomedical knowledge graph construction.

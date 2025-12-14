@@ -7,7 +7,8 @@ year: 2019
 bibkey: zhang2019semantic
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.11259'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Similarity Search"]
+tags: [Compact Codes, Evaluation, Image Retrieval, Neural Hashing, Similarity Search,
+  Datasets, Scalability, Hashing Methods]
 short_authors: Zhang et al.
 ---
 Deep hashing models have been proposed as an efficient method for large-scale

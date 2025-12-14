@@ -10,7 +10,8 @@ bibkey: yoon2024listt5
 citations: 5
 additional_links: [{name: Code, url: 'https://github.com/soyoung97/ListT5'}, {name: Paper,
     url: 'https://arxiv.org/abs/2402.15838'}]
-tags: ["Efficiency", "Evaluation", "Few Shot & Zero Shot", "Hybrid ANN Methods", "Re-Ranking"]
+tags: [Evaluation, Re-ranking, Few-shot & Zero-shot, Efficiency, Tools & Libraries,
+  Hybrid ANN Methods, ACL]
 short_authors: Yoon et al.
 ---
 We propose ListT5, a novel reranking approach based on Fusion-in-Decoder

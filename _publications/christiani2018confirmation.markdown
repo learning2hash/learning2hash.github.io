@@ -7,7 +7,7 @@ year: 2018
 bibkey: christiani2018confirmation
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.02603'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Tools & Libraries, Efficiency]
 short_authors: Tobias Christiani, Rasmus Pagh, Mikkel Thorup
 ---
 Locality-sensitive hashing (LSH), introduced by Indyk and Motwani in STOC

@@ -9,7 +9,7 @@ bibkey: gu2022tevis
 citations: 1
 additional_links: [{name: Code, url: 'https://ruc-aimind.github.io/projects/TeViS/'},
   {name: Paper, url: 'https://arxiv.org/abs/2301.00135'}]
-tags: ["Datasets", "Evaluation", "Quantization"]
+tags: [Evaluation, Datasets, Quantization]
 short_authors: Gu et al.
 ---
 A video storyboard is a roadmap for video creation which consists of

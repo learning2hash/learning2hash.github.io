@@ -9,7 +9,7 @@ bibkey: wu2024visual
 citations: 1
 additional_links: [{name: Code, url: 'https://visual-haystacks.github.io'}, {name: Paper,
     url: 'https://arxiv.org/abs/2407.13766'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Datasets, Image Retrieval]
 short_authors: Wu et al.
 ---
 Large Multimodal Models (LMMs) have made significant strides in visual

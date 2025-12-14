@@ -7,7 +7,8 @@ year: 2025
 bibkey: petrovic2025streaming
 citations: 585
 additional_links: [{name: Paper, url: 'http://homepages.inf.ed.ac.uk/miles/papers/naacl10a.pdf'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Large Scale Search", "Locality-Sensitive-Hashing"]
+tags: [Evaluation, Efficiency, Scalability, Large-Scale Search, Hashing Methods, Locality
+    Sensitive Hashing]
 short_authors: S. Petrovic, Osborne, Lavrenko
 ---
 With the recent rise in popularity and size of

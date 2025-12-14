@@ -7,7 +7,7 @@ year: 2022
 bibkey: lupart2022ms
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.02870'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
+tags: [Evaluation, Few-shot & Zero-shot, Datasets]
 short_authors: "Simon Lupart, Thibault Formal, St\xE9phane Clinchant"
 ---
 Pre-trained Language Models have recently emerged in Information Retrieval as

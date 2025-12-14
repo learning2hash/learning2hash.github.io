@@ -7,7 +7,7 @@ year: 2020
 bibkey: liu2020reinforcing
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.11511'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability"]
+tags: [Evaluation, Image Retrieval, Efficiency, Scalability, Hashing Methods]
 short_authors: Liu et al.
 ---
 Due to the compelling efficiency in retrieval and storage,

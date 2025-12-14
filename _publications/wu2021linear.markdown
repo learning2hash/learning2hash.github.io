@@ -8,7 +8,8 @@ year: 2021
 bibkey: wu2021linear
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.14068'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Quantization"]
+tags: [Evaluation, Efficiency, Datasets, Quantization, Hashing Methods, Locality Sensitive
+    Hashing, Recommender Systems]
 short_authors: Wu et al.
 ---
 Self-attention has become increasingly popular in a variety of sequence

@@ -7,7 +7,7 @@ year: 2019
 bibkey: engelsma2019fingerprints
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.01099'}]
-tags: ["Scalability"]
+tags: [Scalability]
 short_authors: Joshua J. Engelsma, Kai Cao, Anil K. Jain
 ---
 We learn a discriminative fixed length feature representation of fingerprints

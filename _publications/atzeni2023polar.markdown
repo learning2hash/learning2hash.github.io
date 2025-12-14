@@ -10,7 +10,7 @@ year: 2023
 bibkey: atzeni2023polar
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.12027'}]
-tags: ["EMNLP", "Evaluation", "Scalability"]
+tags: [EMNLP, Evaluation, Scalability]
 short_authors: Atzeni et al.
 ---
 Entity linking methods based on dense retrieval are an efficient and widely

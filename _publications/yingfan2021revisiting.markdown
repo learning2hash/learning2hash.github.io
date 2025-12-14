@@ -8,7 +8,7 @@ year: 2021
 bibkey: yingfan2021revisiting
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.02234'}]
-tags: ["Evaluation", "Graph Based ANN", "Similarity Search", "Tools & Libraries"]
+tags: [Evaluation, Graph-based ANN, Tools & Libraries, Similarity Search]
 short_authors: Liu Yingfan, Cheng Hong, Cui Jiangtao
 ---
 The \(k\)-nearest neighbor graph (KNNG) on high-dimensional data is a data

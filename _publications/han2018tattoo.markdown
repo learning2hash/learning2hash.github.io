@@ -7,7 +7,7 @@ year: 2018
 bibkey: han2018tattoo
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.00218'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Han et al.
 ---
 The explosive growth of digital images in video surveillance and social media

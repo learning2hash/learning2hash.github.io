@@ -8,7 +8,7 @@ year: 2018
 bibkey: hsu2018unsupervised
 citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.08615'}]
-tags: ["Datasets", "Supervised", "Text Retrieval", "Unsupervised"]
+tags: [Text Retrieval, Supervised, Unsupervised, Datasets]
 short_authors: Hsu et al.
 ---
 Joint embeddings between medical imaging modalities and associated radiology

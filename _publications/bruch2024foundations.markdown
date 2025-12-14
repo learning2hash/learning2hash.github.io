@@ -7,7 +7,7 @@ year: 2024
 bibkey: bruch2024foundations
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.09350'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: Sebastian Bruch
 ---
 Vectors are universal mathematical objects that can represent text, images,

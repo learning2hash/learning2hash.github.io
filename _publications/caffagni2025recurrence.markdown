@@ -9,7 +9,7 @@ bibkey: caffagni2025recurrence
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/aimagelab/ReT'}, {name: Paper,
     url: 'https://arxiv.org/abs/2503.01980'}]
-tags: ["CVPR", "Evaluation", "Multimodal Retrieval", "Scalability", "Text Retrieval"]
+tags: [Evaluation, Multimodal Retrieval, Scalability, CVPR, Text Retrieval]
 short_authors: Caffagni et al.
 ---
 Cross-modal retrieval is gaining increasing efficacy and interest from the

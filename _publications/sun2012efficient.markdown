@@ -8,7 +8,7 @@ year: 2012
 bibkey: sun2012efficient
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1208.0432'}]
-tags: ["Efficiency", "Evaluation", "Scalability"]
+tags: [Scalability, Evaluation, Efficiency]
 short_authors: Ju Sun, Yuqian Zhang, John Wright
 ---
 Motivated by vision tasks such as robust face and object recognition, we

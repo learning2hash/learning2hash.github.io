@@ -8,7 +8,7 @@ year: 2022
 bibkey: nishimaki2022loc
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.00506'}]
-tags: ["Image Retrieval"]
+tags: [Image Retrieval]
 short_authors: Nishimaki et al.
 ---
 Content-based image retrieval (CBIR) systems are an emerging technology that

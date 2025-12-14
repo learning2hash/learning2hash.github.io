@@ -10,7 +10,7 @@ year: 2024
 bibkey: mohr2024multi
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.17016'}]
-tags: ["Evaluation", "Self-Supervised", "Text Retrieval"]
+tags: [Text Retrieval, Self-Supervised, Evaluation]
 short_authors: Mohr et al.
 ---
 We introduce a novel suite of state-of-the-art bilingual text embedding

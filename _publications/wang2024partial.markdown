@@ -8,7 +8,7 @@ bibkey: wang2024partial
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/lanfeng4659/PSTR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2411.10261'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets, Efficiency]
 short_authors: Wang et al.
 ---
 The task of partial scene text retrieval involves localizing and searching

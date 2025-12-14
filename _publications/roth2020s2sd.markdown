@@ -8,7 +8,7 @@ bibkey: roth2020s2sd
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/MLforHealth/S2SD'}, {name: Paper,
     url: 'https://arxiv.org/abs/2009.08348'}]
-tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
+tags: [Evaluation, Distance Metric Learning, Few-shot & Zero-shot]
 short_authors: Roth et al.
 ---
 Deep Metric Learning (DML) provides a crucial tool for visual similarity and

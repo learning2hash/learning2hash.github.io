@@ -7,7 +7,8 @@ year: 2020
 bibkey: yan2020deep
 citations: 457
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.00169'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
+tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Neural Hashing, Datasets,
+  Scalability, Hashing Methods]
 short_authors: Yan et al.
 ---
 Hashing is an efficient method for nearest neighbor search in large-scale

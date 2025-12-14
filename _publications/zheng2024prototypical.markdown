@@ -8,7 +8,7 @@ bibkey: zheng2024prototypical
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/HaiyangZheng/PHE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2410.19213'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Tools & Libraries"]
+tags: [Hashing Methods, Evaluation, Tools & Libraries, Datasets]
 short_authors: Zheng et al.
 ---
 In this paper, we study a practical yet challenging task, On-the-fly Category

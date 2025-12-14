@@ -8,7 +8,8 @@ year: 2019
 bibkey: thakur2019conv
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.02498'}]
-tags: ["Audio Retrieval", "Compact Codes", "Hashing Methods", "ICASSP", "Supervised"]
+tags: [Compact Codes, ICASSP, Evaluation, Supervised, Distance Metric Learning, Tools
+    & Libraries, Hashing Methods, Audio Retrieval]
 short_authors: Thakur et al.
 ---
 In this work, we propose a supervised, convex representation based audio

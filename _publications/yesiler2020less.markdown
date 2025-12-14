@@ -8,7 +8,7 @@ year: 2020
 bibkey: yesiler2020less
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.03284'}]
-tags: ["Scalability"]
+tags: [Scalability]
 short_authors: "Furkan Yesiler, Joan Serr\xE0, Emilia G\xF3mez"
 ---
 Version identification systems aim to detect different renditions of the same

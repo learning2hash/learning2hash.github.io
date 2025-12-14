@@ -9,7 +9,7 @@ bibkey: ermolov2022hyperbolic
 citations: 82
 additional_links: [{name: Code, url: 'https://github.com/htdt/hyp_metric'}, {name: Paper,
     url: 'https://arxiv.org/abs/2203.10833'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation"]
+tags: [Evaluation, Distance Metric Learning, CVPR, Datasets]
 short_authors: Ermolov et al.
 ---
 Metric learning aims to learn a highly discriminative model encouraging the

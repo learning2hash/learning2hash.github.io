@@ -9,7 +9,8 @@ year: 2022
 bibkey: yang2022attentive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.08653'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "ICCV", "Tools & Libraries"]
+tags: [Evaluation, ICCV, Few-shot & Zero-shot, Self-Supervised, Datasets, Tools &
+    Libraries]
 short_authors: Yang et al.
 ---
 Image token removal is an efficient augmentation strategy for reducing the

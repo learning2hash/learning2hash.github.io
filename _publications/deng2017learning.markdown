@@ -7,7 +7,7 @@ year: 2017
 bibkey: deng2017learning
 citations: 40
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.10211'}]
-tags: ["Datasets", "Image Retrieval", "Scalability"]
+tags: [Scalability, Image Retrieval, Datasets]
 short_authors: Deng et al.
 ---
 Fabric image retrieval is beneficial to many applications including clothing

@@ -9,7 +9,8 @@ bibkey: zheng2024dreamlip
 citations: 11
 additional_links: [{name: Other, url: 'https://zyf0619sjtu.github.io/dream-lip'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.17007'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised", "Text Retrieval"]
+tags: [Evaluation, Supervised, Self-Supervised, Datasets, Tools & Libraries, Text
+    Retrieval]
 short_authors: Zheng et al.
 ---
 Language-image pre-training largely relies on how precisely and thoroughly a

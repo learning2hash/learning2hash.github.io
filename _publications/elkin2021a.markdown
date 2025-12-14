@@ -8,7 +8,7 @@ year: 2021
 bibkey: elkin2021a
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.15478'}]
-tags: ["Tree Based ANN"]
+tags: [Tree-based ANN]
 short_authors: Yury Elkin, Vitaliy Kurlin
 ---
 Given a reference set \(R\) of \(n\) points and a query set \(Q\) of \(m\) points in

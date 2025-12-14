@@ -8,7 +8,7 @@ year: 2020
 bibkey: zhao2020autoemb
 citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.11252'}]
-tags: ["Datasets", "Evaluation", "Neural Hashing", "Recommender Systems", "Tools & Libraries"]
+tags: [Evaluation, Neural Hashing, Datasets, Tools & Libraries, Recommender Systems]
 short_authors: Zhao et al.
 ---
 Deep learning based recommender systems (DLRSs) often have embedding layers,

@@ -8,7 +8,7 @@ year: 2021
 bibkey: ranjan2021greed
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.13143'}]
-tags: ["Datasets", "Tools & Libraries"]
+tags: [Tools & Libraries, Datasets]
 short_authors: Ranjan et al.
 ---
 Among various distance functions for graphs, graph and subgraph edit

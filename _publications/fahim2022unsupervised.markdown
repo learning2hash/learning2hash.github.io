@@ -7,7 +7,7 @@ year: 2022
 bibkey: fahim2022unsupervised
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.08091'}]
-tags: ["Datasets", "Evaluation", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: [Evaluation, Supervised, Datasets, Tools & Libraries, Unsupervised]
 short_authors: Abrar Fahim, Mohammed Eunus Ali, Muhammad Aamir Cheema
 ---
 Approximate Nearest Neighbor Search (ANNS) in high dimensional spaces is

@@ -8,7 +8,7 @@ bibkey: lu2021slosh
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/mint-vu/SLOSH\'}, {name: Paper,
     url: 'https://arxiv.org/abs/2112.05872'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Datasets]
 short_authors: Lu et al.
 ---
 Learning from set-structured data is an essential problem with many

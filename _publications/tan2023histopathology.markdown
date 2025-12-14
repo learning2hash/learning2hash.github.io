@@ -7,7 +7,7 @@ year: 2023
 bibkey: tan2023histopathology
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.14459'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Robustness", "Self-Supervised"]
+tags: [Evaluation, Distance Metric Learning, Self-Supervised, Datasets, Robustness]
 short_authors: Jing Wei Tan, Won-Ki Jeong
 ---
 Contrastive learning has gained popularity due to its robustness with good

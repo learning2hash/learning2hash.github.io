@@ -7,7 +7,8 @@ year: 2020
 bibkey: brown2020smooth
 citations: 127
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.12163'}]
-tags: ["Datasets", "Distance Metric Learning", "Graph Based ANN", "Image Retrieval", "Scalability"]
+tags: [Evaluation, Image Retrieval, Distance Metric Learning, Graph-based ANN, Datasets,
+  Scalability]
 short_authors: Brown et al.
 ---
 Optimising a ranking-based metric, such as Average Precision (AP), is

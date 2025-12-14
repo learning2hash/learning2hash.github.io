@@ -8,7 +8,7 @@ year: 2023
 bibkey: theisen2023c
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.03921'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: William Theisen, Walter Scheirer
 ---
 The interplay between the image and comment on a social media post is one of

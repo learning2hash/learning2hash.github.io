@@ -9,7 +9,7 @@ bibkey: li2022learning
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/jordane95/dual-cross-encoder'},
   {name: Paper, url: 'https://arxiv.org/abs/2208.04232'}]
-tags: ["Efficiency", "Evaluation"]
+tags: [Evaluation, Efficiency]
 short_authors: Li et al.
 ---
 In this paper, we propose a new dense retrieval model which learns diverse

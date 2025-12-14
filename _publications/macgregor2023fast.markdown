@@ -7,7 +7,7 @@ year: 2023
 bibkey: macgregor2023fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.13870'}]
-tags: ["Datasets", "Tools & Libraries"]
+tags: [Tools & Libraries, Datasets]
 short_authors: Peter MacGregor, He Sun
 ---
 Constructing a similarity graph from a set \(X\) of data points in

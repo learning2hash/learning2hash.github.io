@@ -8,7 +8,8 @@ year: 2025
 bibkey: zhang2025composite
 citations: 222
 additional_links: [{name: Paper, url: 'https://www.cs.purdue.edu/homes/lsi/SIGIR_2011B.pdf'}]
-tags: ["Compact Codes", "Datasets", "Hashing Methods", "Neural Hashing", "Similarity Search"]
+tags: [Compact Codes, Evaluation, Neural Hashing, Similarity Search, Datasets, Hashing
+    Methods, SIGIR]
 short_authors: D. Zhang, Wang, Si
 ---
 Similarity search applications with a large amount of text

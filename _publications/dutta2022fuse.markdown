@@ -7,7 +7,7 @@ year: 2022
 bibkey: dutta2022fuse
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.09698'}]
-tags: ["Datasets", "Image Retrieval", "Self-Supervised", "Tools & Libraries"]
+tags: [Self-Supervised, Tools & Libraries, Datasets, Image Retrieval]
 short_authors: Ujjal Kr Dutta
 ---
 While deep Embedding Learning approaches have witnessed widespread success in

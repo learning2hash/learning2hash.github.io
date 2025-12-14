@@ -7,7 +7,8 @@ year: 2019
 bibkey: li2019coupled
 citations: 116
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.02149'}]
-tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Efficiency, Datasets, Memory Efficiency, Multimodal
+    Retrieval, Scalability, Robustness, Unsupervised, Hashing Methods, AAAI]
 short_authors: Li et al.
 ---
 In recent years, hashing has attracted more and more attention owing to its

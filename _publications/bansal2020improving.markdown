@@ -7,7 +7,7 @@ year: 2020
 bibkey: bansal2020improving
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.14411'}]
-tags: ["Distance Metric Learning"]
+tags: [Distance Metric Learning]
 short_authors: Siddhant Bansal, Praveen Krishnan, C. V. Jawahar
 ---
 We propose a novel scheme for improving the word recognition accuracy using

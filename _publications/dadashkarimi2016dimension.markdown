@@ -9,7 +9,7 @@ year: 2016
 bibkey: dadashkarimi2016dimension
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.07844'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Dadashkarimi et al.
 ---
 Using top-ranked documents in response to a query has been shown to be an

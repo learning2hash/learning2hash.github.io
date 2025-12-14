@@ -8,7 +8,7 @@ year: 2019
 bibkey: yang2019learning
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.04268'}]
-tags: ["Datasets"]
+tags: [Datasets]
 short_authors: Yang et al.
 ---
 In this paper, we propose to learn shared semantic space with correlation

@@ -8,7 +8,7 @@ bibkey: kishore2023incdsi
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/varshakishore/IncDSI'}, {
     name: Paper, url: 'https://arxiv.org/abs/2307.10323'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets, Efficiency]
 short_authors: Kishore et al.
 ---
 Differentiable Search Index is a recently proposed paradigm for document

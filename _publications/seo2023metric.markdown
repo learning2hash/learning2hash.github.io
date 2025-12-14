@@ -7,7 +7,7 @@ year: 2023
 bibkey: seo2023metric
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.03767'}]
-tags: ["Evaluation", "Image Retrieval", "Scalability", "Self-Supervised", "Tools & Libraries"]
+tags: [Evaluation, Image Retrieval, Self-Supervised, Scalability, Tools & Libraries]
 short_authors: Seo et al.
 ---
 Backfilling is the process of re-extracting all gallery embeddings from

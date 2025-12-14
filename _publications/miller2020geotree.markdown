@@ -8,7 +8,7 @@ year: 2020
 bibkey: miller2020geotree
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.02167'}]
-tags: ["Datasets", "Efficiency", "Evaluation"]
+tags: [Evaluation, Datasets, Efficiency]
 short_authors: Robert Miller, Phil Maguire
 ---
 A common problem appearing across the field of data science is \(k\)-NN

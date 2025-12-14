@@ -9,7 +9,7 @@ year: 2023
 bibkey: lee2023region
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.05598'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Self-Supervised"]
+tags: [Evaluation, Image Retrieval, Datasets, Self-Supervised]
 short_authors: Lee et al.
 ---
 We introduce a novel Region-based contrastive pretraining for Medical Image

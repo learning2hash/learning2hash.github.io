@@ -8,7 +8,8 @@ bibkey: zhang2023retsim
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/google/unisim'}, {name: Paper,
     url: 'https://arxiv.org/abs/2311.17264'}]
-tags: ["Datasets", "Evaluation", "Neural Hashing", "Robustness", "Text Retrieval"]
+tags: [Evaluation, Neural Hashing, Datasets, Robustness, Text Retrieval, Locality
+    Sensitive Hashing]
 short_authors: Zhang et al.
 ---
 This paper introduces RETSim (Resilient and Efficient Text Similarity), a

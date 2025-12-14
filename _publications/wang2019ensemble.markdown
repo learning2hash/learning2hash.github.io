@@ -7,7 +7,7 @@ year: 2019
 bibkey: wang2019ensemble
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.05798'}]
-tags: ["Evaluation", "Neural Hashing"]
+tags: [Evaluation, Neural Hashing]
 short_authors: Jiabao Wang, Yang Li, Zhuang Miao
 ---
 In person re-identification (re-ID), the key task is feature representation,

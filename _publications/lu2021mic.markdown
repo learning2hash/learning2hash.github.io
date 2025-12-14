@@ -8,7 +8,7 @@ year: 2021
 bibkey: lu2021mic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.11570'}]
-tags: ["Evaluation", "Recommender Systems", "Scalability"]
+tags: [Scalability, Evaluation, Recommender Systems]
 short_authors: Lu et al.
 ---
 Semantically connecting users and items is a fundamental problem for the

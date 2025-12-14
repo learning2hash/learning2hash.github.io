@@ -7,7 +7,7 @@ year: 2023
 bibkey: "h\xF6nig2023bi"
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.15595'}]
-tags: ["ICCV", "Image Retrieval", "Scalability"]
+tags: [Scalability, ICCV, Image Retrieval]
 short_authors: "Robert H\xF6nig, Jan Ackermann, Mingyuan Chi"
 ---
 Modern neural encoders offer unprecedented text-image retrieval (TIR)

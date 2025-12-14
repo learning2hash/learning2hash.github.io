@@ -8,7 +8,7 @@ bibkey: lei2022revealing
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/jayleicn/singularity'}, {
     name: Paper, url: 'https://arxiv.org/abs/2206.03428'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Scalability, Datasets]
 short_authors: Jie Lei, Tamara L. Berg, Mohit Bansal
 ---
 Training an effective video-and-language model intuitively requires multiple

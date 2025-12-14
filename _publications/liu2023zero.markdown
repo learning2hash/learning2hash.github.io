@@ -8,7 +8,8 @@ bibkey: liu2023zero
 citations: 1
 additional_links: [{name: Code, url: 'https://code-kunkun.github.io/ZS-CIR/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2306.07272'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Text Retrieval"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Datasets, Scalability, Text
+    Retrieval]
 short_authors: Liu et al.
 ---
 In this paper, we consider the problem of composed image retrieval (CIR), it

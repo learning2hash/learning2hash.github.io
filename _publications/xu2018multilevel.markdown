@@ -7,7 +7,7 @@ year: 2018
 bibkey: xu2018multilevel
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.05113'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: [Distance Metric Learning, Evaluation]
 short_authors: Xu et al.
 ---
 We address the problem of text-based activity retrieval in video. Given a

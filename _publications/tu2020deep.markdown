@@ -7,7 +7,7 @@ year: 2020
 bibkey: tu2020deep
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.03451'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Memory Efficiency", "Supervised"]
+tags: [Evaluation, Supervised, Efficiency, Datasets, Memory Efficiency, Hashing Methods]
 short_authors: Tu et al.
 ---
 Due to their high retrieval efficiency and low storage cost for cross-modal

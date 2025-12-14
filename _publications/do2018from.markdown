@@ -9,7 +9,8 @@ year: 2018
 bibkey: do2018from
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02899'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Image Retrieval, Efficiency, Scalability, Tools & Libraries, Hashing
+    Methods]
 short_authors: Do et al.
 ---
 In the large-scale image retrieval task, the two most important requirements

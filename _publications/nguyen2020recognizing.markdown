@@ -8,7 +8,7 @@ year: 2020
 bibkey: nguyen2020recognizing
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.11811'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: Tuan-Duy H. Nguyen, Huu-Nghia H. Nguyen, Hieu Dao
 ---
 Kinship verification and kinship retrieval are emerging tasks in computer

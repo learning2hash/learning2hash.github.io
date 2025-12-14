@@ -8,7 +8,8 @@ year: 2023
 bibkey: zerveas2023enhancing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.15720'}]
-tags: ["Datasets", "Distance Metric Learning", "Hybrid ANN Methods", "Re-Ranking", "Text Retrieval"]
+tags: [Re-ranking, Distance Metric Learning, Self-Supervised, Datasets, Scalability,
+  Text Retrieval, Hybrid ANN Methods]
 short_authors: George Zerveas, Navid Rekabsaz, Carsten Eickhoff
 ---
 Sparse annotation poses persistent challenges to training dense retrieval

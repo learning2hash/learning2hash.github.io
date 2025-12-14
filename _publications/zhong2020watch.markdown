@@ -8,7 +8,7 @@ bibkey: zhong2020watch
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/zyj-13/WAL'}, {name: Paper,
     url: 'https://arxiv.org/abs/2011.09634'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised", "Tools & Libraries"]
+tags: [Evaluation, Supervised, Self-Supervised, Datasets, Robustness, Tools & Libraries]
 short_authors: Zhong et al.
 ---
 In this paper, we teach machines to understand visuals and natural language

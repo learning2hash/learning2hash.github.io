@@ -8,7 +8,8 @@ year: 2025
 bibkey: cao2025correlation
 citations: 101
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.06697'}]
-tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Supervised"]
+tags: [Compact Codes, Evaluation, Supervised, Efficiency, Quantization, Multimodal
+    Retrieval, Scalability, Hashing Methods]
 short_authors: Cao et al.
 ---
 Hashing is widely applied to approximate nearest neighbor search for large-scale multimodal retrieval with storage and computation efficiency. Cross-modal hashing improves the quality of hash coding by exploiting semantic correlations across different modalities. Existing cross-modal hashing methods first transform data into low-dimensional feature vectors, and then generate binary codes by another separate quantization step. However, suboptimal hash codes may be generated since the quantization error is not explicitly minimized and the feature representation is not jointly optimized with the binary codes.

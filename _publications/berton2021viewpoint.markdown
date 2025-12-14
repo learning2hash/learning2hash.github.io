@@ -8,7 +8,7 @@ bibkey: berton2021viewpoint
 citations: 31
 additional_links: [{name: Code, url: 'https://github.com/gmberton/geo_warp'}, {name: Paper,
     url: 'https://arxiv.org/abs/2109.09827'}]
-tags: ["Evaluation", "ICCV", "Re-Ranking", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, ICCV, Re-ranking, Self-Supervised, Hybrid ANN Methods]
 short_authors: Berton et al.
 ---
 In this paper we propose a novel method for image matching based on dense

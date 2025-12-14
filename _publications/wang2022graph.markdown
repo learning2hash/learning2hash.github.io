@@ -7,7 +7,7 @@ year: 2022
 bibkey: wang2022graph
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.00824'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Scalability"]
+tags: [Evaluation, Efficiency, Graph-based ANN, Datasets, Scalability]
 short_authors: Hui Wang, Yong Wang, Wan-Lei Zhao
 ---
 Nearest neighbor search plays a fundamental role in many disciplines such as

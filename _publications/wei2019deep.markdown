@@ -7,7 +7,7 @@ year: 2019
 bibkey: wei2019deep
 citations: 76
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.03069'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Survey Paper"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Survey Paper, Datasets]
 short_authors: Xiu-Shen Wei, Jianxin Wu, Quan Cui
 ---
 Computer vision (CV) is the process of using machines to understand and

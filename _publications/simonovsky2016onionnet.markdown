@@ -7,7 +7,7 @@ year: 2016
 bibkey: simonovsky2016onionnet
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.02728'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval]
 short_authors: Martin Simonovsky, Nikos Komodakis
 ---
 The focus of our work is speeding up evaluation of deep neural networks in

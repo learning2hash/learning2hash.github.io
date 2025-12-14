@@ -9,7 +9,7 @@ year: 2020
 bibkey: liu2020densernet
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.02366'}]
-tags: ["Evaluation", "Image Retrieval", "Scalability", "Supervised"]
+tags: [Scalability, Evaluation, Supervised, Image Retrieval]
 short_authors: Liu et al.
 ---
 In this work, we introduce a Denser Feature Network (DenserNet) for visual

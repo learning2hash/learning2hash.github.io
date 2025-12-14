@@ -7,7 +7,7 @@ year: 2021
 bibkey: zhou2021moving
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.01447'}]
-tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Scalability"]
+tags: [Evaluation, Re-ranking, Datasets, Scalability, Hybrid ANN Methods]
 short_authors: Yunhao Zhou, Yi Wang, Lap-Pui Chau
 ---
 Re-ranking utilizes contextual information to optimize the initial ranking

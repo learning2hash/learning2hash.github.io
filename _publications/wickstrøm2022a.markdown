@@ -9,7 +9,8 @@ year: 2022
 bibkey: "wickstr\xF8m2022a"
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.04812'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Neural Hashing, Self-Supervised, Datasets,
+  Tools & Libraries]
 short_authors: "Wickstr\xF8m et al."
 ---
 Deep learning-based approaches for content-based image retrieval (CBIR) of CT

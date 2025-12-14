@@ -7,7 +7,7 @@ year: 2020
 bibkey: khudabukhsh2020discovering
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.13347'}]
-tags: ["Supervised", "Unsupervised"]
+tags: [Supervised, Unsupervised]
 short_authors: Ashiqur R. Khudabukhsh, Shriphani Palakodety, Tom M. Mitchell
 ---
 Bilingual lexicons and phrase tables are critical resources for modern

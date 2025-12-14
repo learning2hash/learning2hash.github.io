@@ -8,7 +8,7 @@ year: 2016
 bibkey: lin2016cross
 citations: 154
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.04039'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: [Distance Metric Learning, Evaluation]
 short_authors: Lin et al.
 ---
 Cross-domain visual data matching is one of the fundamental problems in many

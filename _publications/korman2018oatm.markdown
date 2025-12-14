@@ -7,7 +7,7 @@ year: 2018
 bibkey: korman2018oatm
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.02638'}]
-tags: ["CVPR", "Evaluation", "Hashing Methods", "Robustness"]
+tags: [Hashing Methods, Evaluation, CVPR, Robustness]
 short_authors: Simon Korman, Mark Milam, Stefano Soatto
 ---
 We present a novel approach to template matching that is efficient, can

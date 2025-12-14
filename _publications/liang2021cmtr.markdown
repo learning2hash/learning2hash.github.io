@@ -7,7 +7,7 @@ year: 2021
 bibkey: liang2021cmtr
 citations: 78
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.08994'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Liang et al.
 ---
 Visible-infrared cross-modality person re-identification is a challenging

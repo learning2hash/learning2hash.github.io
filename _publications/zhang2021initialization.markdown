@@ -8,7 +8,7 @@ year: 2021
 bibkey: zhang2021initialization
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.04993'}]
-tags: ["Recommender Systems"]
+tags: [Recommender Systems]
 short_authors: Zhang et al.
 ---
 Proper initialization is crucial to the optimization and the generalization

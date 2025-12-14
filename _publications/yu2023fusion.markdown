@@ -8,7 +8,7 @@ bibkey: yu2023fusion
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/OpenMatch/FiT5'}, {name: Paper,
     url: 'https://arxiv.org/abs/2305.14685'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Yu et al.
 ---
 Common document ranking pipelines in search systems are cascade systems that

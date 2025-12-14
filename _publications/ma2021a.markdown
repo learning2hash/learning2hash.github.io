@@ -7,7 +7,7 @@ year: 2021
 bibkey: ma2021a
 citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.05740'}]
-tags: ["Text Retrieval", "Tools & Libraries"]
+tags: [Text Retrieval, Tools & Libraries]
 short_authors: Ma et al.
 ---
 Text retrieval using learned dense representations has recently emerged as a

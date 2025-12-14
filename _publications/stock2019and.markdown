@@ -8,7 +8,7 @@ year: 2019
 bibkey: stock2019and
 citations: 68
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.05686'}]
-tags: ["Memory Efficiency", "Quantization"]
+tags: [Quantization, Memory Efficiency]
 short_authors: Stock et al.
 ---
 In this paper, we address the problem of reducing the memory footprint of

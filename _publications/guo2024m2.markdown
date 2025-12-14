@@ -9,7 +9,8 @@ year: 2024
 bibkey: guo2024m2
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.15896'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval"]
+tags: [Evaluation, Few-shot & Zero-shot, Distance Metric Learning, Datasets, Multimodal
+    Retrieval, Scalability]
 short_authors: Guo et al.
 ---
 Vision-language foundation models like CLIP have revolutionized the field of

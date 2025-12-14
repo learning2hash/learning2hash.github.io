@@ -8,7 +8,7 @@ year: 2023
 bibkey: tian2023teachclip
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.01217'}]
-tags: ["Datasets", "Scalability", "Video Retrieval"]
+tags: [Video Retrieval, Scalability, Datasets]
 short_authors: Tian et al.
 ---
 For text-to-video retrieval (T2VR), which aims to retrieve unlabeled videos

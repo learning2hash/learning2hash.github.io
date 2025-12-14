@@ -8,7 +8,7 @@ year: 2017
 bibkey: vangysel2017structural
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.07930'}]
-tags: ["SIGIR", "Supervised", "Unsupervised"]
+tags: [Supervised, Unsupervised, SIGIR]
 short_authors: Christophe van Gysel, Maarten de Rijke, Evangelos Kanoulas
 ---
 Entity retrieval is the task of finding entities such as people or products

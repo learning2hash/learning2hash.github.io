@@ -9,7 +9,7 @@ year: 2020
 bibkey: wang2020cross
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.03955'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Scalability"]
+tags: [Scalability, Evaluation, Datasets, Multimodal Retrieval]
 short_authors: Wang et al.
 ---
 Food retrieval is an important task to perform analysis of food-related

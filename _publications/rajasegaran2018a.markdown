@@ -7,7 +7,7 @@ year: 2018
 bibkey: rajasegaran2018a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.09882'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Jathushan Rajasegaran, Suranga Seneviratne, Guillaume Jourjon
 ---
 Counterfeit apps impersonate existing popular apps in attempts to misguide

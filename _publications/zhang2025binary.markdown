@@ -7,7 +7,8 @@ year: 2025
 bibkey: zhang2025binary
 citations: 99
 additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content_cvpr_2013/papers/Zhang_Binary_Code_Ranking_2013_CVPR_paper.pdf'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Re-Ranking", "Similarity Search"]
+tags: [Compact Codes, Evaluation, Re-ranking, Efficiency, Similarity Search, Scalability,
+  CVPR, Hashing Methods, Hybrid ANN Methods]
 short_authors: Zhang et al.
 ---
 Binary hashing has been widely used for efficient similarity search due to its query and storage efficiency. In most

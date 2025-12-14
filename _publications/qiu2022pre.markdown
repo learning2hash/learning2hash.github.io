@@ -10,7 +10,7 @@ year: 2022
 bibkey: qiu2022pre
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.06150'}]
-tags: ["CIKM", "Datasets"]
+tags: [Datasets, CIKM]
 short_authors: Qiu et al.
 ---
 BERT-style models pre-trained on the general corpus (e.g., Wikipedia) and

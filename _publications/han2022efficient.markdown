@@ -7,7 +7,7 @@ year: 2022
 bibkey: han2022efficient
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.08452'}]
-tags: ["Efficiency", "Evaluation", "Scalability", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Scalability, Efficiency]
 short_authors: Han et al.
 ---
 Cross-modal video retrieval aims to retrieve the semantically relevant videos

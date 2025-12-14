@@ -8,7 +8,8 @@ year: 2019
 bibkey: tu2019deep
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.12490'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Memory Efficiency", "Tools & Libraries"]
+tags: [Evaluation, Efficiency, Datasets, Memory Efficiency, Tools & Libraries, Hashing
+    Methods]
 short_authors: Tu et al.
 ---
 Due to their high retrieval efficiency and low storage cost, cross-modal

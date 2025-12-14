@@ -9,7 +9,7 @@ year: 2019
 bibkey: wiggers2019deep
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.09404'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing"]
+tags: [Evaluation, Image Retrieval, Datasets, Neural Hashing]
 short_authors: Wiggers et al.
 ---
 This paper describes two approaches for content-based image retrieval and

@@ -7,7 +7,7 @@ year: 2025
 bibkey: tomoshige2025icbir
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.01642'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Robustness"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Datasets, Robustness]
 short_authors: Tomoshige et al.
 ---
 Current methods for searching brain MR images rely on text-based approaches,

@@ -7,7 +7,7 @@ year: 2018
 bibkey: andrecut2018high
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.09914'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: M. Andrecut
 ---
 In this paper we explore the "vector semantics" problem from the perspective

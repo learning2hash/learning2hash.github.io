@@ -8,7 +8,7 @@ year: 2023
 bibkey: alshammari2023the
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.13160'}]
-tags: ["Datasets", "Locality-Sensitive-Hashing", "Quantization", "Scalability"]
+tags: [Scalability, Locality Sensitive Hashing, Datasets, Quantization]
 short_authors: Alshammari et al.
 ---
 Partitioning trees are efficient data structures for \(k\)-nearest neighbor

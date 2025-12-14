@@ -7,7 +7,7 @@ year: 2024
 bibkey: seemakhupt2024edgerag
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.21023'}]
-tags: ["Datasets", "Vector Indexing"]
+tags: [Vector Indexing, Datasets]
 short_authors: Korakit Seemakhupt, Sihang Liu, Samira Khan
 ---
 Deploying Retrieval Augmented Generation (RAG) on resource-constrained edge

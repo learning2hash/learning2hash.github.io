@@ -8,7 +8,7 @@ year: 2022
 bibkey: lin2022text
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.13307'}]
-tags: ["Datasets", "Multimodal Retrieval", "NEURIPS", "Text Retrieval", "Video Retrieval"]
+tags: [Text Retrieval, Datasets, Video Retrieval, Multimodal Retrieval, NeurIPS]
 short_authors: Lin et al.
 ---
 Cross-modal retrieval between videos and texts has gained increasing research

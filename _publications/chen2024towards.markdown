@@ -7,7 +7,8 @@ year: 2024
 bibkey: chen2024towards
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.09239'}]
-tags: ["Efficiency", "Hashing Methods", "Recommender Systems", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, Re-ranking, Efficiency, Self-Supervised, Hashing Methods,
+  Recommender Systems]
 short_authors: Chen et al.
 ---
 Searching on bipartite graphs serves as a fundamental task for various

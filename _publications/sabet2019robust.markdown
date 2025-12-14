@@ -7,7 +7,7 @@ year: 2019
 bibkey: sabet2019robust
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.12481'}]
-tags: ["Evaluation", "Few Shot & Zero Shot"]
+tags: [Evaluation, Few-shot & Zero-shot]
 short_authors: Sabet et al.
 ---
 Recent advances in cross-lingual word embeddings have primarily relied on

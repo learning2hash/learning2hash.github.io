@@ -8,7 +8,7 @@ year: 2017
 bibkey: chung2017learning
 citations: 61
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08490'}]
-tags: ["Datasets", "Image Retrieval", "Scalability", "Supervised"]
+tags: [Scalability, Supervised, Image Retrieval, Datasets]
 short_authors: Yu-An Chung, Wei-Hung Weng
 ---
 Deep neural networks have been investigated in learning latent

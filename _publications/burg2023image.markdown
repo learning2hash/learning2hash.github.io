@@ -8,7 +8,7 @@ year: 2023
 bibkey: burg2023image
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.10253'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Burg et al.
 ---
 Many approaches have been proposed to use diffusion models to augment

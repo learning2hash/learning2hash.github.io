@@ -8,7 +8,7 @@ year: 2022
 bibkey: khorasgani2022slic
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.12534'}]
-tags: ["CVPR", "Evaluation", "Self-Supervised", "Supervised", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Supervised, Self-Supervised, CVPR]
 short_authors: Salar Hosseini Khorasgani, Yuxuan Chen, Florian Shkurti
 ---
 Self-supervised methods have significantly closed the gap with end-to-end

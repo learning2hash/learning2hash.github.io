@@ -9,7 +9,7 @@ bibkey: liu2023text
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/Delong-liu-bupt/SEN'}, {
     name: Paper, url: 'https://arxiv.org/abs/2307.09059'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Distance Metric Learning, Tools & Libraries, Datasets]
 short_authors: Liu et al.
 ---
 The goal of Text-to-Image Person Retrieval (TIPR) is to retrieve specific

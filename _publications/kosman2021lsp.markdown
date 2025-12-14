@@ -8,7 +8,8 @@ year: 2021
 bibkey: kosman2021lsp
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.05694'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Evaluation, Graph-based ANN, Datasets, Hashing Methods, Locality Sensitive
+    Hashing]
 short_authors: Eitan Kosman, Joel Oren, Dotan di Castro
 ---
 Graph Neural Networks (GNNs) have emerged as highly successful tools for

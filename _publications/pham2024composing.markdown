@@ -7,7 +7,7 @@ year: 2024
 bibkey: pham2024composing
 citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.11820'}]
-tags: ["CVPR", "Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, CVPR]
 short_authors: Pham et al.
 ---
 We study the visual semantic embedding problem for image-text matching. Most

@@ -8,7 +8,7 @@ year: 2017
 bibkey: "andr\xE92017accelerated"
 citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.07355'}]
-tags: ["Compact Codes", "Efficiency", "Evaluation", "Multimodal Retrieval", "Quantization"]
+tags: [Efficiency, Compact Codes, Evaluation, Multimodal Retrieval, Quantization]
 short_authors: "Fabien Andr\xE9, Anne-Marie Kermarrec, Nicolas Le Scouarnec"
 ---
 Efficient Nearest Neighbor (NN) search in high-dimensional spaces is a

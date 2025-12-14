@@ -7,7 +7,7 @@ year: 2016
 bibkey: napoletano2016visual
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.00970'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Paolo Napoletano
 ---
 In this paper we present an extensive evaluation of visual descriptors for

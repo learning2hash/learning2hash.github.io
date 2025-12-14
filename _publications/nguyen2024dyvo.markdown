@@ -9,7 +9,7 @@ year: 2024
 bibkey: nguyen2024dyvo
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.07722'}]
-tags: ["Datasets", "EMNLP"]
+tags: [EMNLP, Datasets]
 short_authors: Nguyen et al.
 ---
 Learned Sparse Retrieval (LSR) models use vocabularies from pre-trained

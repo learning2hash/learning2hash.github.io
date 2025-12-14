@@ -8,7 +8,7 @@ bibkey: wang2020faster
 citations: 58
 additional_links: [{name: Code, url: 'https://github.com/wangguanan/light-reid'},
   {name: Paper, url: 'https://arxiv.org/abs/2008.06826'}]
-tags: ["Compact Codes", "Datasets", "Hashing Methods", "Tools & Libraries"]
+tags: [Hashing Methods, Tools & Libraries, Datasets, Compact Codes]
 short_authors: Wang et al.
 ---
 Fast person re-identification (ReID) aims to search person images quickly and

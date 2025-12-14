@@ -8,7 +8,8 @@ bibkey: son2025fed
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/mcrl/FED\'}, {name: Paper,
     url: 'https://arxiv.org/abs/2501.01046'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Tools & Libraries"]
+tags: [Evaluation, Efficiency, Datasets, Scalability, Tools & Libraries, Hashing Methods,
+  Locality Sensitive Hashing]
 short_authors: Youngjun Son, Chaewon Kim, Jaejin Lee
 ---
 Dataset deduplication plays a crucial role in enhancing data quality,

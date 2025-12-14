@@ -7,7 +7,7 @@ year: 2022
 bibkey: nepovinnykh2022norppa
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.02498'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Nepovinnykh et al.
 ---
 We propose a method for Saimaa ringed seal (Pusa hispida saimensis)

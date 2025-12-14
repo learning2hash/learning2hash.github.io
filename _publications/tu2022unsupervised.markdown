@@ -8,7 +8,8 @@ year: 2022
 bibkey: tu2022unsupervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.11475'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Distance Metric Learning, Datasets,
+  Unsupervised, Hashing Methods]
 short_authors: Tu et al.
 ---
 Recently, to improve the unsupervised image retrieval performance, plenty of

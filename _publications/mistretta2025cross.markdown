@@ -10,7 +10,8 @@ bibkey: mistretta2025cross
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/miccunifi/Cross-the-Gap'},
   {name: Paper, url: 'https://arxiv.org/abs/2502.04263'}]
-tags: ["Datasets", "Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval", "Text Retrieval"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Distance Metric Learning,
+  Datasets, Text Retrieval]
 short_authors: Mistretta et al.
 ---
 Pre-trained multi-modal Vision-Language Models like CLIP are widely used

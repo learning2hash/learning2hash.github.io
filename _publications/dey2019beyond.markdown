@@ -7,7 +7,7 @@ year: 2019
 bibkey: dey2019beyond
 citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.10622'}]
-tags: ["Tools & Libraries"]
+tags: [Tools & Libraries]
 short_authors: Dey et al.
 ---
 Images with visual and scene text content are ubiquitous in everyday life.

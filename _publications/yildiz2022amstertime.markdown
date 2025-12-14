@@ -8,7 +8,7 @@ year: 2022
 bibkey: yildiz2022amstertime
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.16291'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, Distance Metric Learning, Self-Supervised, Datasets]
 short_authors: Yildiz et al.
 ---
 We introduce AmsterTime: a challenging dataset to benchmark visual place

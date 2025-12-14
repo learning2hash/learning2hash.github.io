@@ -8,7 +8,7 @@ bibkey: liu2023improving
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/AkonLau/LTC\'}, {name: Paper,
     url: 'https://arxiv.org/abs/2305.18680'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: [Distance Metric Learning, Evaluation]
 short_authors: Liu et al.
 ---
 Deep representation learning is a subfield of machine learning that focuses

@@ -8,7 +8,7 @@ year: 2021
 bibkey: huang2021whiteningbert
 citations: 70
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.01767'}]
-tags: ["Datasets", "EMNLP", "Evaluation", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Datasets, Unsupervised, EMNLP, ACL]
 short_authors: Huang et al.
 ---
 Producing the embedding of a sentence in an unsupervised way is valuable to

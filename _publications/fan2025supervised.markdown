@@ -7,7 +7,7 @@ year: 2025
 bibkey: fan2025supervised
 citations: 15
 additional_links: [{name: Paper, url: 'http://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Fan_Supervised_Binary_Hash_2013_ICCV_paper.pdf'}]
-tags: ["Evaluation", "Hashing Methods", "ICCV", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, ICCV, Unsupervised, Tools & Libraries, Hashing Methods]
 short_authors: Lixin Fan
 ---
 This paper proposes to learn binary hash codes within

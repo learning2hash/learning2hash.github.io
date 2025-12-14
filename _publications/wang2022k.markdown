@@ -9,7 +9,7 @@ bibkey: wang2022k
 citations: 11
 additional_links: [{name: Code, url: 'https://github.com/ShannonAI/KNN-NER'}, {name: Paper,
     url: 'https://arxiv.org/abs/2203.17103'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Few-shot & Zero-shot, Datasets]
 short_authors: Wang et al.
 ---
 Inspired by recent advances in retrieval augmented methods in

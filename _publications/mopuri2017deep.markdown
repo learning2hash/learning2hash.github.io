@@ -7,7 +7,7 @@ year: 2017
 bibkey: mopuri2017deep
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.09142'}]
-tags: ["Datasets", "Evaluation", "Neural Hashing"]
+tags: [Evaluation, Datasets, Neural Hashing]
 short_authors: Konda Reddy Mopuri, Vishal B. Athreya, R. Venkatesh Babu
 ---
 Deep learning exploits large volumes of labeled data to learn powerful

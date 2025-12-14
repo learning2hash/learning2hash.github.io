@@ -10,7 +10,7 @@ bibkey: xu2021videoclip
 citations: 341
 additional_links: [{name: Code, url: 'https://github.com/pytorch/fairseq/tree/main/examples/MMPT'},
   {name: Paper, url: 'https://arxiv.org/abs/2109.14084'}]
-tags: ["EMNLP", "Evaluation", "Few Shot & Zero Shot", "Supervised", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Supervised, Few-shot & Zero-shot, EMNLP]
 short_authors: Xu et al.
 ---
 We present VideoCLIP, a contrastive approach to pre-train a unified model for

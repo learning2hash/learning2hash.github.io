@@ -9,7 +9,7 @@ year: 2024
 bibkey: gomez2024transforming
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.01616'}]
-tags: ["Evaluation"]
+tags: [SLT, Evaluation]
 short_authors: Gomez et al.
 ---
 Large language models (LLMs) are trained on text-only data that go far beyond

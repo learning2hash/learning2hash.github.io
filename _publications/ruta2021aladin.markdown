@@ -8,7 +8,7 @@ year: 2021
 bibkey: ruta2021aladin
 citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.09776'}]
-tags: ["Datasets", "ICCV", "Image Retrieval", "Scalability", "Supervised"]
+tags: [ICCV, Supervised, Image Retrieval, Datasets, Scalability]
 short_authors: Ruta et al.
 ---
 We present ALADIN (All Layer AdaIN); a novel architecture for searching

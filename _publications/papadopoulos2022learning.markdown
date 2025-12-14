@@ -8,7 +8,7 @@ year: 2022
 bibkey: papadopoulos2022learning
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.16071'}]
-tags: ["CVPR", "Multimodal Retrieval"]
+tags: [CVPR, Multimodal Retrieval]
 short_authors: Papadopoulos et al.
 ---
 In this paper, we are interested in modeling a how-to instructional

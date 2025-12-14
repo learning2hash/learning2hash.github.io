@@ -7,7 +7,8 @@ year: 2020
 bibkey: cui2020exchnet
 citations: 42
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.01369'}]
-tags: ["Compact Codes", "Datasets", "Efficiency", "Hashing Methods", "Image Retrieval"]
+tags: [Compact Codes, Image Retrieval, Efficiency, Datasets, Memory Efficiency, Scalability,
+  Hashing Methods]
 short_authors: Cui et al.
 ---
 Retrieving content relevant images from a large-scale fine-grained dataset

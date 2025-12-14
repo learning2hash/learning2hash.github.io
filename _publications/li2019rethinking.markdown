@@ -8,7 +8,7 @@ year: 2019
 bibkey: li2019rethinking
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.00546'}]
-tags: ["AAAI", "Datasets", "IJCAI", "Scalability"]
+tags: [Datasets, AAAI, IJCAI, Scalability]
 short_authors: Zhaoqun Li, Cheng Xu, Biao Leng
 ---
 Learning discriminative shape representations is a crucial issue for

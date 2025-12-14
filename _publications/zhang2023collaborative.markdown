@@ -8,7 +8,7 @@ year: 2023
 bibkey: zhang2023collaborative
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.02092'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Zhang et al.
 ---
 Composed image retrieval extends content-based image retrieval systems by

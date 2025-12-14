@@ -7,7 +7,7 @@ year: 2020
 bibkey: "b\xF6hm2020massively"
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.03479'}]
-tags: ["Evaluation", "Graph Based ANN", "Hashing Methods"]
+tags: [Hashing Methods, Evaluation, Graph-based ANN]
 short_authors: "Christian B\xF6hm, Claudia Plant"
 ---
 To fully exploit the performance potential of modern multi-core processors,

@@ -7,7 +7,8 @@ year: 2016
 bibkey: liu2016supervised
 citations: 72
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.05572'}]
-tags: ["Hashing Methods", "Image Retrieval", "Quantization", "Supervised", "Unsupervised"]
+tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Quantization, Unsupervised,
+  Hashing Methods]
 short_authors: Liu et al.
 ---
 Matrix factorization has been recently utilized for the task of multi-modal

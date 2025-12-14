@@ -8,7 +8,7 @@ year: 2024
 bibkey: wang2024videoclip
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.00741'}]
-tags: ["Datasets", "EMNLP", "Evaluation", "Scalability", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Datasets, Scalability, EMNLP]
 short_authors: Wang et al.
 ---
 Contrastive Language-Image Pre-training (CLIP) has been widely studied and

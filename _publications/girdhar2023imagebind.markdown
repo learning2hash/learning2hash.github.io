@@ -8,7 +8,7 @@ year: 2023
 bibkey: girdhar2023imagebind
 citations: 552
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.05665'}]
-tags: ["CVPR", "Few Shot & Zero Shot", "Multimodal Retrieval", "Scalability", "Supervised"]
+tags: [Supervised, Few-shot & Zero-shot, Multimodal Retrieval, Scalability, CVPR]
 short_authors: Girdhar et al.
 ---
 We present ImageBind, an approach to learn a joint embedding across six

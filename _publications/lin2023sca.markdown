@@ -8,7 +8,7 @@ year: 2023
 bibkey: lin2023sca
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.10601'}]
-tags: ["Datasets", "Evaluation", "Scalability"]
+tags: [Scalability, Evaluation, Datasets]
 short_authors: Lin et al.
 ---
 To address 3D object retrieval, substantial efforts have been made to

@@ -8,7 +8,7 @@ year: 2024
 bibkey: cho2024m3docrag
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.04952'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Datasets]
 short_authors: Cho et al.
 ---
 Document visual question answering (DocVQA) pipelines that answer questions

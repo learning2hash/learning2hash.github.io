@@ -9,7 +9,7 @@ year: 2021
 bibkey: galatolo2021generating
 citations: 41
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.01645'}]
-tags: ["Few Shot & Zero Shot", "Tools & Libraries"]
+tags: [Tools & Libraries, Few-shot & Zero-shot]
 short_authors: Federico A. Galatolo, Mario G. C. A. Cimino, Gigliola Vaglini
 ---
 In this research work we present CLIP-GLaSS, a novel zero-shot framework to

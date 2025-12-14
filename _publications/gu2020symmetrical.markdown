@@ -7,7 +7,7 @@ year: 2020
 bibkey: gu2020symmetrical
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.11658'}]
-tags: ["AAAI", "Distance Metric Learning", "Image Retrieval", "Robustness"]
+tags: [AAAI, Distance Metric Learning, Image Retrieval, Robustness]
 short_authors: Geonmo Gu, Byungsoo Ko
 ---
 Deep metric learning aims to learn embeddings that contain semantic

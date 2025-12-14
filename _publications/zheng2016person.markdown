@@ -8,7 +8,7 @@ year: 2016
 bibkey: zheng2016person
 citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.02531'}]
-tags: ["Datasets", "Evaluation", "Scalability"]
+tags: [Scalability, Evaluation, Datasets]
 short_authors: Zheng et al.
 ---
 We present a novel large-scale dataset and comprehensive baselines for

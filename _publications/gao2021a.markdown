@@ -7,7 +7,7 @@ year: 2021
 bibkey: gao2021a
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.05597'}]
-tags: ["Hashing Methods", "Tools & Libraries"]
+tags: [Hashing Methods, Tools & Libraries]
 short_authors: Lei Gao, Ling Guan
 ---
 Due to the rapid advancements of sensory and computing technology,

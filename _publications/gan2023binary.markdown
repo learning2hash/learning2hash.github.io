@@ -9,7 +9,7 @@ year: 2023
 bibkey: gan2023binary
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.08714'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "KDD", "Scalability"]
+tags: [Evaluation, Efficiency, Scalability, Hashing Methods, KDD]
 short_authors: Gan et al.
 ---
 Large-scale embedding-based retrieval (EBR) is the cornerstone of

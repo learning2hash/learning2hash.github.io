@@ -8,7 +8,8 @@ year: 2020
 bibkey: hu2020creating
 citations: 127
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.00280'}]
-tags: ["CVPR", "Datasets", "Hashing Methods", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Datasets, CVPR, Unsupervised, Tools & Libraries, Hashing
+    Methods]
 short_authors: Hu et al.
 ---
 In recent years, cross-modal hashing (CMH) has attracted increasing

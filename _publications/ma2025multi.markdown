@@ -7,7 +7,8 @@ year: 2025
 bibkey: ma2025multi
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.07718'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets, Multimodal Retrieval, Tools & Libraries,
+  Text Retrieval]
 short_authors: Ma et al.
 ---
 Fine-grained text-to-image retrieval aims to retrieve a fine-grained target

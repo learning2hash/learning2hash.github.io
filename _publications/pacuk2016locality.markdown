@@ -7,7 +7,7 @@ year: 2016
 bibkey: pacuk2016locality
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.09317'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Efficiency]
 short_authors: Pacuk et al.
 ---
 In this paper, we show a construction of locality-sensitive hash functions

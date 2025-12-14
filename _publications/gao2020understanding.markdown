@@ -8,7 +8,7 @@ year: 2020
 bibkey: gao2020understanding
 citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.11088'}]
-tags: ["Efficiency", "Evaluation", "SIGIR"]
+tags: [Evaluation, SIGIR, Efficiency]
 short_authors: Luyu Gao, Zhuyun Dai, Jamie Callan
 ---
 Deep language models such as BERT pre-trained on large corpus have given a

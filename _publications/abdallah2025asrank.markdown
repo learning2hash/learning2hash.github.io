@@ -7,7 +7,8 @@ year: 2025
 bibkey: abdallah2025asrank
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.15245'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "NAACL", "Re-Ranking", "Text Retrieval"]
+tags: [NAACL, Evaluation, Re-ranking, Few-shot & Zero-shot, Datasets, Text Retrieval,
+  Hybrid ANN Methods, ACL]
 short_authors: Abdallah et al.
 ---
 Retrieval-Augmented Generation (RAG) models have drawn considerable attention

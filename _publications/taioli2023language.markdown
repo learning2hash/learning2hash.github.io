@@ -10,7 +10,7 @@ bibkey: taioli2023language
 citations: 5
 additional_links: [{name: Code, url: 'https://intelligolabs.github.io/Le-RNR-Map/'},
   {name: Paper, url: 'https://arxiv.org/abs/2308.08854'}]
-tags: ["Evaluation", "ICCV"]
+tags: [Evaluation, ICCV]
 short_authors: Taioli et al.
 ---
 We present Le-RNR-Map, a Language-enhanced Renderable Neural Radiance map for

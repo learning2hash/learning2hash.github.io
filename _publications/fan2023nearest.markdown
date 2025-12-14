@@ -7,7 +7,7 @@ year: 2023
 bibkey: fan2023nearest
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.07317'}]
-tags: ["Evaluation", "Self-Supervised", "Supervised"]
+tags: [Self-Supervised, Supervised, Evaluation]
 short_authors: Fan et al.
 ---
 Contrastive learning has recently narrowed the gap between self-supervised

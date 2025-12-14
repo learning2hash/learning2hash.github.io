@@ -7,7 +7,7 @@ year: 2019
 bibkey: jenicek2019no
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.08999'}]
-tags: ["Datasets", "Evaluation", "ICCV", "Image Retrieval"]
+tags: [Evaluation, ICCV, Image Retrieval, Datasets]
 short_authors: "Tomas Jenicek, Ond\u0159ej Chum"
 ---
 Image retrieval under varying illumination conditions, such as day and night

@@ -9,7 +9,7 @@ bibkey: asgarov2024lowclip
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/aliasgerovs/azclip'}, {name: Paper,
     url: 'https://arxiv.org/abs/2408.13909'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: [Evaluation, Image Retrieval, Efficiency, Datasets, Multimodal Retrieval]
 short_authors: Ali Asgarov, Samir Rustamov
 ---
 This research explores the development of multimodal vision-language models

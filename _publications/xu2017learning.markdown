@@ -7,7 +7,7 @@ year: 2017
 bibkey: xu2017learning
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.02386'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Tools & Libraries"]
+tags: [Scalability, Evaluation, Tools & Libraries, Datasets]
 short_authors: Qiantong Xu, Ke Yan, Yonghong Tian
 ---
 The growing explosion in the use of surveillance cameras in public security

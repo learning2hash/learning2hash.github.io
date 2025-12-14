@@ -8,7 +8,8 @@ year: 2025
 bibkey: chen2025long
 citations: 13
 additional_links: [{name: Paper, url: 'https://zhouchenlin.github.io/Publications/2021-SIGIR-Hashing.pdf'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "SIGIR"]
+tags: [Compact Codes, Evaluation, Image Retrieval, Neural Hashing, Datasets, Scalability,
+  Hashing Methods, SIGIR]
 short_authors: Chen et al.
 ---
 Hashing, which represents data items as compact binary codes, has

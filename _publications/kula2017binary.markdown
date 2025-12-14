@@ -7,7 +7,7 @@ year: 2017
 bibkey: kula2017binary
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.07479'}]
-tags: ["Hashing Methods", "Recommender Systems", "Scalability"]
+tags: [Hashing Methods, Recommender Systems, Scalability]
 short_authors: MacIej Kula
 ---
 Large-scale recommender systems often face severe latency and storage

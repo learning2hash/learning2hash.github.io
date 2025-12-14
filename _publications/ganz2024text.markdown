@@ -7,7 +7,7 @@ year: 2024
 bibkey: ganz2024text
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.17046'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Robustness", "Tools & Libraries"]
+tags: [Evaluation, Distance Metric Learning, Datasets, Robustness, Tools & Libraries]
 short_authors: Roy Ganz, Michael Elad
 ---
 Joint Energy Models (JEMs), while drawing significant research attention,

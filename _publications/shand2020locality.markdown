@@ -7,7 +7,7 @@ year: 2020
 bibkey: shand2020locality
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.03909'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Similarity Search]
 short_authors: Will Shand, Stephen Becker
 ---
 We discuss the problem of performing similarity search over function spaces.

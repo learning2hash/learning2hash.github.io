@@ -8,7 +8,7 @@ year: 2020
 bibkey: doshi2020lanns
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.09426'}]
-tags: ["Datasets", "Graph Based ANN", "Large Scale Search", "Scalability", "Tools & Libraries"]
+tags: [Graph-based ANN, Datasets, Scalability, Tools & Libraries, Large-Scale Search]
 short_authors: Doshi et al.
 ---
 Nearest neighbor search (NNS) has a wide range of applications in information

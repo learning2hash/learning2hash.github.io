@@ -7,7 +7,7 @@ year: 2019
 bibkey: baron2019k
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.07645'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Jacob D. Baron, R. W. R. Darling
 ---
 Suppose \(V\) is an \(n\)-element set where for each \(x \in V\), the elements of

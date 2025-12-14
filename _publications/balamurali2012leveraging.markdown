@@ -8,7 +8,7 @@ year: 2012
 bibkey: balamurali2012leveraging
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1209.2341'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: [Distance Metric Learning, Evaluation]
 short_authors: Balamurali et al.
 ---
 In this paper, we introduce a new WordNet based similarity metric, SenSim,

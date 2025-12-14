@@ -9,7 +9,7 @@ year: 2021
 bibkey: maheshwari2021generating
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.10477'}]
-tags: ["CIKM", "Datasets", "Evaluation", "Image Retrieval", "Robustness"]
+tags: [Image Retrieval, CIKM, Self-Supervised, Datasets, Evaluation, Robustness]
 short_authors: Maheshwari et al.
 ---
 We consider the cross-modal task of producing color representations for text

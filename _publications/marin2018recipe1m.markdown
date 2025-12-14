@@ -9,7 +9,7 @@ year: 2018
 bibkey: marin2018recipe1m
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.06553'}]
-tags: ["Datasets", "Evaluation", "Scalability"]
+tags: [Scalability, Evaluation, Datasets]
 short_authors: Marin et al.
 ---
 In this paper, we introduce Recipe1M+, a new large-scale, structured corpus

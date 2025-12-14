@@ -9,7 +9,7 @@ year: 2020
 bibkey: "\u010Davojsk\xE12020estimating"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.11499'}]
-tags: ["Distance Metric Learning", "Neural Hashing"]
+tags: [Distance Metric Learning, Neural Hashing]
 short_authors: "\u010Cavojsk\xE1 et al."
 ---
 In this paper, we present a deep-learning based method for estimating the 3D

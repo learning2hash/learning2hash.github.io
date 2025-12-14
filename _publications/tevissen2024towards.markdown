@@ -7,7 +7,7 @@ year: 2024
 bibkey: tevissen2024towards
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.14938'}]
-tags: ["Tools & Libraries"]
+tags: [Tools & Libraries]
 short_authors: "Yannis Tevissen, Khalil Guetari, Fr\xE9d\xE9ric Petitpont"
 ---
 Video content creators need efficient tools to repurpose content, a task that

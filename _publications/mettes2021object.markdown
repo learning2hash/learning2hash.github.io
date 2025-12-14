@@ -7,7 +7,7 @@ year: 2021
 bibkey: mettes2021object
 citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.04715'}]
-tags: ["Datasets", "Evaluation", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Datasets]
 short_authors: Pascal Mettes, William Thong, Cees G. M. Snoek
 ---
 This work strives for the classification and localization of human actions in

@@ -7,7 +7,8 @@ year: 2017
 bibkey: li2017fast
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.00440'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: [Evaluation, Similarity Search, Efficiency, Hashing Methods, Locality Sensitive
+    Hashing]
 short_authors: Ke Li, Jitendra Malik
 ---
 Most exact methods for k-nearest neighbour search suffer from the curse of

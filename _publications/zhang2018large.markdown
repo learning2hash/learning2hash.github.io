@@ -8,7 +8,7 @@ year: 2018
 bibkey: zhang2018large
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.10660'}]
-tags: ["Datasets", "Evaluation", "Scalability"]
+tags: [Scalability, Evaluation, Datasets]
 short_authors: Zhang et al.
 ---
 Large scale visual understanding is challenging, as it requires a model to

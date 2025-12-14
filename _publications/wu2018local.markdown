@@ -7,7 +7,7 @@ year: 2018
 bibkey: wu2018local
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.07471'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Datasets]
 short_authors: Xian Wu, Moses Charikar, Vishnu Natchu
 ---
 An important question that arises in the study of high dimensional vector

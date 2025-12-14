@@ -7,7 +7,7 @@ year: 2017
 bibkey: dong2017predicting
 citations: 186
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.01362'}]
-tags: ["Datasets"]
+tags: [Datasets]
 short_authors: Jianfeng Dong, Xirong Li, Cees G. M. Snoek
 ---
 This paper strives to find amidst a set of sentences the one best describing

@@ -8,7 +8,7 @@ year: 2023
 bibkey: wen2023pairwise
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.09449'}]
-tags: ["Evaluation", "ICCV", "Image Retrieval", "Scalability"]
+tags: [Scalability, Evaluation, ICCV, Image Retrieval]
 short_authors: Wen et al.
 ---
 In this paper, we focus on a general yet important learning problem, pairwise

@@ -8,7 +8,7 @@ year: 2019
 bibkey: khrulkov2019hyperbolic
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.02239'}]
-tags: ["CVPR", "Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: [Distance Metric Learning, CVPR, Image Retrieval, Few-shot & Zero-shot]
 short_authors: Khrulkov et al.
 ---
 Computer vision tasks such as image classification, image retrieval and

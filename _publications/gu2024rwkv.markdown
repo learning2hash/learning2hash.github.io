@@ -10,7 +10,8 @@ bibkey: gu2024rwkv
 citations: 8
 additional_links: [{name: Code, url: 'https://github.com/deepglint/RWKV-CLIP'}, {
     name: Paper, url: 'https://arxiv.org/abs/2406.06973'}]
-tags: ["Datasets", "EMNLP", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
+tags: [Evaluation, Few-shot & Zero-shot, Datasets, Scalability, Tools & Libraries,
+  Text Retrieval, EMNLP]
 short_authors: Gu et al.
 ---
 Contrastive Language-Image Pre-training (CLIP) has significantly improved

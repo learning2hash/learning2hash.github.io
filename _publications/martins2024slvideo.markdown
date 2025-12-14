@@ -9,7 +9,7 @@ bibkey: martins2024slvideo
 citations: 0
 additional_links: [{name: Other, url: 'https://novasearch.github.io/SLVideo/'}, {
     name: Paper, url: 'https://arxiv.org/abs/2407.15668'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Tools & Libraries"]
+tags: [Tools & Libraries, Few-shot & Zero-shot, Datasets]
 short_authors: Martins et al.
 ---
 SLVideo is a video moment retrieval system for Sign Language videos that

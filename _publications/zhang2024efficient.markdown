@@ -9,7 +9,7 @@ year: 2024
 bibkey: zhang2024efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.20381'}]
-tags: ["Efficiency", "Graph Based ANN", "Scalability"]
+tags: [Scalability, Graph-based ANN, Efficiency]
 short_authors: Zhang et al.
 ---
 ANNS for embedded vector representations of texts is commonly used in

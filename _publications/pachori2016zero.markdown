@@ -7,7 +7,8 @@ year: 2016
 bibkey: pachori2016zero
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.02651'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Hashing Methods", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Few-shot & Zero-shot, Tools & Libraries, Unsupervised,
+  Hashing Methods]
 short_authors: Shubham Pachori, Shanmuganathan Raman
 ---
 This paper provides a framework to hash images containing instances of

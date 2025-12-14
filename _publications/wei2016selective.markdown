@@ -7,7 +7,7 @@ year: 2016
 bibkey: wei2016selective
 citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.04994'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Datasets, Unsupervised]
 short_authors: Wei et al.
 ---
 Deep convolutional neural network models pre-trained for the ImageNet

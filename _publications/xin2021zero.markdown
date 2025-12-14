@@ -8,7 +8,7 @@ year: 2021
 bibkey: xin2021zero
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.07581'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Robustness", "Text Retrieval"]
+tags: [Evaluation, Few-shot & Zero-shot, Datasets, Robustness, Text Retrieval]
 short_authors: Xin et al.
 ---
 Dense retrieval (DR) methods conduct text retrieval by first encoding texts

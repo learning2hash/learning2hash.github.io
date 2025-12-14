@@ -9,7 +9,8 @@ bibkey: zhuang2023towards
 citations: 15
 additional_links: [{name: Code, url: 'https://github.com/Zjamie813/SelfAlign'}, {
     name: Paper, url: 'https://arxiv.org/abs/2308.14009'}]
-tags: ["Datasets", "Efficiency", "Self-Supervised", "Supervised", "Text Retrieval"]
+tags: [Supervised, Similarity Search, Efficiency, Self-Supervised, Datasets, Tools
+    & Libraries, Text Retrieval]
 short_authors: Zhuang et al.
 ---
 Image-text retrieval requires the system to bridge the heterogenous gap

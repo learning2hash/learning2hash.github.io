@@ -10,7 +10,7 @@ bibkey: humenberger2022investigating
 citations: 28
 additional_links: [{name: Code, url: 'https://github.com/naver/kapture-localization'},
   {name: Paper, url: 'https://arxiv.org/abs/2205.15761'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Humenberger et al.
 ---
 Visual localization, i.e., camera pose estimation in a known scene, is a core

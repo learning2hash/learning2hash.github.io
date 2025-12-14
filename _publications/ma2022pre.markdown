@@ -9,7 +9,7 @@ year: 2022
 bibkey: ma2022pre
 citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.10641'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "SIGIR", "Self-Supervised"]
+tags: [Evaluation, Distance Metric Learning, Self-Supervised, Datasets, SIGIR]
 short_authors: Ma et al.
 ---
 Dense retrieval has shown promising results in many information retrieval

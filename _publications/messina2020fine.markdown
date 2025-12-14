@@ -10,7 +10,8 @@ bibkey: messina2020fine
 citations: 118
 additional_links: [{name: Code, url: 'https://github.com/mesnico/TERAN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2008.05231'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Neural Hashing"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Datasets, Multimodal Retrieval,
+  Scalability]
 short_authors: Messina et al.
 ---
 Despite the evolution of deep-learning-based visual-textual processing

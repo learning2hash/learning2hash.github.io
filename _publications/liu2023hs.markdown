@@ -7,7 +7,8 @@ year: 2023
 bibkey: liu2023hs
 citations: 45
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.05430'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Recommender Systems"]
+tags: [Evaluation, Efficiency, Datasets, Scalability, Tools & Libraries, Hashing Methods,
+  Recommender Systems]
 short_authors: Liu et al.
 ---
 An efficient solution to the large-scale recommender system is to represent

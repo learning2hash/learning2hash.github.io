@@ -7,7 +7,7 @@ year: 2018
 bibkey: seymour2018semantically
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.03402'}]
-tags: ["Datasets", "Tools & Libraries"]
+tags: [Tools & Libraries, Datasets]
 short_authors: Seymour et al.
 ---
 We present an approach that combines appearance and semantic information for

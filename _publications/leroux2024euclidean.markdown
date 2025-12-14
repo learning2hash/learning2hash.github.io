@@ -7,7 +7,7 @@ year: 2024
 bibkey: leroux2024euclidean
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.01327'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: [Distance Metric Learning, Evaluation]
 short_authors: Brett Leroux, Luis Rademacher
 ---
 Motivated by the problem of compressing point sets into as few bits as

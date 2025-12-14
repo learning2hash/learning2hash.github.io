@@ -7,7 +7,7 @@ year: 2021
 bibkey: wang2021mathematical
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.08344'}]
-tags: ["Vector Indexing"]
+tags: [Vector Indexing]
 short_authors: Li Wang, Lilon Wangner
 ---
 As data volumes continue to grow, searches in data are becoming increasingly

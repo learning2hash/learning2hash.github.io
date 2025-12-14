@@ -7,7 +7,7 @@ year: 2022
 bibkey: wang2022survey
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.00230'}]
-tags: ["Survey Paper"]
+tags: [Survey Paper]
 short_authors: Weida Wang
 ---
 Shannon separation theorem lays the foundation for traditional image

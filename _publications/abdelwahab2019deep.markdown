@@ -7,7 +7,7 @@ year: 2019
 bibkey: abdelwahab2019deep
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.01933'}]
-tags: ["Distance Metric Learning"]
+tags: [Distance Metric Learning]
 short_authors: Ahmed Abdelwahab, Niels Landwehr
 ---
 Deep metric learning employs deep neural networks to embed instances into a

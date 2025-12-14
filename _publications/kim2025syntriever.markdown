@@ -8,7 +8,7 @@ bibkey: kim2025syntriever
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/kmswin1/Syntriever\'}, {
     name: Paper, url: 'https://arxiv.org/abs/2502.03824'}]
-tags: ["Datasets", "Evaluation", "NAACL", "Tools & Libraries"]
+tags: [Evaluation, NAACL, Datasets, Tools & Libraries, ACL]
 short_authors: Minsang Kim, Seungjun Baek
 ---
 LLMs have boosted progress in many AI applications. Recently, there were

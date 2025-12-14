@@ -10,7 +10,7 @@ bibkey: krishna2023imaginator
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/varunakk/IMAGINATOR'}, {
     name: Paper, url: 'https://arxiv.org/abs/2305.10438'}]
-tags: ["Image Retrieval"]
+tags: [Image Retrieval]
 short_authors: Krishna et al.
 ---
 Word embeddings, i.e., semantically meaningful vector representation of

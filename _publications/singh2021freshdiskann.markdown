@@ -9,7 +9,8 @@ year: 2021
 bibkey: singh2021freshdiskann
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.09613'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Similarity Search", "Vector Indexing"]
+tags: [Evaluation, Similarity Search, Efficiency, Vector Indexing, Graph-based ANN,
+  Datasets]
 short_authors: Singh et al.
 ---
 Approximate nearest neighbor search (ANNS) is a fundamental building block in

@@ -7,7 +7,7 @@ year: 2015
 bibkey: yi2015binary
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1502.05746'}]
-tags: ["Hashing Methods"]
+tags: [Hashing Methods]
 short_authors: Xinyang Yi, Constantine Caramanis, Eric Price
 ---
 Binary embedding is a nonlinear dimension reduction methodology where high

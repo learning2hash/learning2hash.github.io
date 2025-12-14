@@ -8,7 +8,7 @@ year: 2021
 bibkey: zhang2021online
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.05207'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Tools & Libraries, Evaluation]
 short_authors: Zhang et al.
 ---
 We present a comparison of several online machine learning techniques for

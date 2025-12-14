@@ -7,7 +7,7 @@ year: 2023
 bibkey: stap2023multilingual
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.14644'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: David Stap, Christof Monz
 ---
 k-nearest-neighbor machine translation has demonstrated remarkable

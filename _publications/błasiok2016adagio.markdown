@@ -7,7 +7,7 @@ year: 2016
 bibkey: "b\u0142asiok2016adagio"
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.05388'}]
-tags: ["Datasets", "Efficiency", "Scalability"]
+tags: [Scalability, Datasets, Efficiency]
 short_authors: "Jaros\u0142aw B\u0142asiok, Charalampos E. Tsourakakis"
 ---
 Many important applications, including signal reconstruction, parameter

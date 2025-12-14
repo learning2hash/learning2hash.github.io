@@ -7,7 +7,7 @@ year: 2020
 bibkey: wu2020conditional
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.02037'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Self-Supervised, Datasets, Unsupervised]
 short_authors: Wu et al.
 ---
 Recent methods for learning unsupervised visual representations, dubbed

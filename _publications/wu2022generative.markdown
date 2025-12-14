@@ -8,7 +8,7 @@ year: 2022
 bibkey: wu2022generative
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.09358'}]
-tags: ["Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Self-Supervised, Supervised, Unsupervised, Evaluation]
 short_authors: Bohong Wu, Hai Zhao
 ---
 Though offering amazing contextualized token-level representations, current

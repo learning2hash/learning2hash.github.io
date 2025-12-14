@@ -7,7 +7,8 @@ year: 2019
 bibkey: eghbali2019deep
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.02865'}]
-tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Quantization", "Supervised"]
+tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Quantization, Scalability,
+  CVPR, Hashing Methods]
 short_authors: Sepehr Eghbali, Ladan Tahvildari
 ---
 Hashing methods, which encode high-dimensional images with compact discrete

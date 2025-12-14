@@ -7,7 +7,7 @@ year: 2018
 bibkey: mu2018towards
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.08896'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval]
 short_authors: Mu et al.
 ---
 In this paper, we describe our end-to-end content-based image retrieval

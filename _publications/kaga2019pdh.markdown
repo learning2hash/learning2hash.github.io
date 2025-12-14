@@ -7,7 +7,7 @@ year: 2019
 bibkey: kaga2019pdh
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.08501'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: [Hashing Methods, Evaluation, Image Retrieval, Neural Hashing]
 short_authors: Kaga et al.
 ---
 With the growth of image on the web, research on hashing which enables

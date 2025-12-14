@@ -10,7 +10,8 @@ citations: 1
 additional_links: [{name: Code, url: 'https://github.com/OML-Team/open-metric-learning/tree/main/pipelines/postprocessing/and'},
   {name: Code, url: 'https://dapladoc-oml-postprocessing-demo-srcappmain-pfh2g0.streamlit.app/'},
   {name: Paper, url: 'https://arxiv.org/abs/2304.13393'}]
-tags: ["CIKM", "Datasets", "Distance Metric Learning", "Image Retrieval", "Re-Ranking"]
+tags: [Image Retrieval, Re-ranking, Distance Metric Learning, Datasets, CIKM, Hybrid
+    ANN Methods]
 short_authors: Aleksei Shabanov, Aleksei Tarasov, Sergey Nikolenko
 ---
 Current metric learning approaches for image retrieval are usually based on

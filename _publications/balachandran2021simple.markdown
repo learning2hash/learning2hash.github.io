@@ -7,7 +7,7 @@ year: 2021
 bibkey: balachandran2021simple
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.08710'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN"]
+tags: [Datasets, Graph-based ANN, Evaluation, Efficiency]
 short_authors: Balachandran et al.
 ---
 Dense retrieval has been shown to be effective for retrieving relevant

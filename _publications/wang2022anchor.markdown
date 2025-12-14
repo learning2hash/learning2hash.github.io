@@ -7,7 +7,8 @@ year: 2022
 bibkey: wang2022anchor
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.04327'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Similarity Search"]
+tags: [Compact Codes, Evaluation, Similarity Search, Datasets, Tools & Libraries,
+  Hashing Methods]
 short_authors: Wang et al.
 ---
 Cross-modal hashing still has some challenges needed to address: (1) most

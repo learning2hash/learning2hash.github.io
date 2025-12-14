@@ -8,7 +8,8 @@ year: 2020
 bibkey: zheng2020generative
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.08858'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Memory Efficiency", "Neural Hashing"]
+tags: [Evaluation, Neural Hashing, Efficiency, Memory Efficiency, Scalability, Hashing
+    Methods, ACL]
 short_authors: Zheng et al.
 ---
 Generative semantic hashing is a promising technique for large-scale

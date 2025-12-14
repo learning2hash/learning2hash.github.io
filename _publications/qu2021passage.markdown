@@ -8,7 +8,7 @@ year: 2021
 bibkey: qu2021passage
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.03938'}]
-tags: ["Evaluation", "SIGIR"]
+tags: [Evaluation, SIGIR]
 short_authors: Qu et al.
 ---
 In this work, we address multi-modal information needs that contain text

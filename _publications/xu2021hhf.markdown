@@ -9,7 +9,8 @@ bibkey: xu2021hhf
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/JerryXu0129/HHF'}, {name: Paper,
     url: 'https://arxiv.org/abs/2112.02225'}]
-tags: ["Distance Metric Learning", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Distance Metric Learning, Quantization,
+  Scalability, Hashing Methods]
 short_authors: Xu et al.
 ---
 Deep hashing has shown promising performance in large-scale image retrieval.

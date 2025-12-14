@@ -8,7 +8,7 @@ year: 2020
 bibkey: ni2020layered
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.06842'}]
-tags: ["Evaluation", "Graph Based ANN", "Recommender Systems", "Tools & Libraries"]
+tags: [Evaluation, Graph-based ANN, Tools & Libraries, Recommender Systems]
 short_authors: Chien-Chun Ni, Kin Sum Liu, Nicolas Torzec
 ---
 In this paper, we describe an embedding-based entity recommendation framework

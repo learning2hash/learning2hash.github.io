@@ -7,7 +7,7 @@ year: 2016
 bibkey: cheng2016adaptive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.08808'}]
-tags: ["Evaluation", "Hashing Methods", "Quantization"]
+tags: [Hashing Methods, Evaluation, Quantization]
 short_authors: Miao Cheng, Ah Chung Tsoi
 ---
 Data quantization learns encoding results of data with certain requirements,

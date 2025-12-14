@@ -7,7 +7,8 @@ year: 2022
 bibkey: han2022large
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.00955'}]
-tags: ["Datasets", "Image Retrieval", "Re-Ranking", "Scalability", "Supervised"]
+tags: [Supervised, Image Retrieval, Re-ranking, Datasets, Scalability, Hybrid ANN
+    Methods]
 short_authors: Han et al.
 ---
 Large-scale weakly supervised product retrieval is a practically useful yet

@@ -8,7 +8,8 @@ year: 2018
 bibkey: pang2018deep
 citations: 42
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.08587'}]
-tags: ["Evaluation", "Image Retrieval", "Re-Ranking", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Re-ranking, Efficiency, Unsupervised,
+  Hybrid ANN Methods]
 short_authors: Pang et al.
 ---
 Image retrieval based on deep convolutional features has demonstrated

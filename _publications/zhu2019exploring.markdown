@@ -8,7 +8,8 @@ year: 2019
 bibkey: zhu2019exploring
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.11207'}]
-tags: ["Efficiency", "Hashing Methods", "Scalability", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Efficiency, Datasets, Scalability,
+  Unsupervised, Tools & Libraries, Hashing Methods]
 short_authors: Zhu et al.
 ---
 Unsupervised hashing can desirably support scalable content-based image

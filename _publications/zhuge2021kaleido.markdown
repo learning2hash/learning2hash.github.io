@@ -8,7 +8,8 @@ year: 2021
 bibkey: zhuge2021kaleido
 citations: 105
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.16110'}]
-tags: ["Efficiency", "Image Retrieval", "Self-Supervised", "Supervised", "Text Retrieval"]
+tags: [Supervised, Image Retrieval, Efficiency, Self-Supervised, CVPR, Tools & Libraries,
+  Text Retrieval]
 short_authors: Zhuge et al.
 ---
 We present a new vision-language (VL) pre-training model dubbed Kaleido-BERT,

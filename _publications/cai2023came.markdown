@@ -8,7 +8,7 @@ year: 2023
 bibkey: cai2023came
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.02834'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Cai et al.
 ---
 The first-stage retrieval aims to retrieve a subset of candidate documents

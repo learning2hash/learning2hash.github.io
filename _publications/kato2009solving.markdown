@@ -7,7 +7,7 @@ year: 2009
 bibkey: kato2009solving
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/0906.0231'}]
-tags: ["Recommender Systems"]
+tags: [Recommender Systems]
 short_authors: Kimikazu Kato, Tikara Hosino
 ---
 The recommendation system is a software system to predict customers' unknown

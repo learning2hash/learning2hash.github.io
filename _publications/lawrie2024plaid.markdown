@@ -8,7 +8,7 @@ year: 2024
 bibkey: lawrie2024plaid
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.00975'}]
-tags: ["Evaluation", "SIGIR", "Scalability"]
+tags: [Scalability, Evaluation, SIGIR]
 short_authors: Lawrie et al.
 ---
 PLAID, an efficient implementation of the ColBERT late interaction bi-encoder

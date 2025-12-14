@@ -7,7 +7,7 @@ year: 2021
 bibkey: zheng2021deep
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.10026'}]
-tags: ["Datasets", "Distance Metric Learning", "ICCV", "Tools & Libraries"]
+tags: [Distance Metric Learning, ICCV, Tools & Libraries, Datasets]
 short_authors: Zheng et al.
 ---
 This paper presents a deep relational metric learning (DRML) framework for

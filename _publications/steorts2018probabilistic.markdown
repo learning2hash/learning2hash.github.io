@@ -7,7 +7,7 @@ year: 2018
 bibkey: steorts2018probabilistic
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.05497'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Survey Paper"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Survey Paper]
 short_authors: Rebecca C. Steorts, Anshumali Shrivastava
 ---
 Entity resolution seeks to merge databases as to remove duplicate entries

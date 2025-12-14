@@ -8,7 +8,7 @@ bibkey: jiang2024scene
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/whbdmu/SEAS'}, {name: Paper,
     url: 'https://arxiv.org/abs/2405.02834'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Jiang et al.
 ---
 Person search aims to localize specific a target person from a gallery set of

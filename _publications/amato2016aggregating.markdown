@@ -7,7 +7,7 @@ year: 2016
 bibkey: amato2016aggregating
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.00813'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval]
 short_authors: Giuseppe Amato, Fabrizio Falchi, Lucia Vadicamo
 ---
 Content-Based Image Retrieval based on local features is computationally

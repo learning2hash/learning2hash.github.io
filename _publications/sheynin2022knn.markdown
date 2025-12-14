@@ -8,7 +8,7 @@ year: 2022
 bibkey: sheynin2022knn
 citations: 46
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.02849'}]
-tags: ["Datasets", "Robustness", "Scalability"]
+tags: [Scalability, Datasets, Robustness]
 short_authors: Sheynin et al.
 ---
 Recent text-to-image models have achieved impressive results. However, since

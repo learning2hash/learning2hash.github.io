@@ -8,7 +8,7 @@ year: 2022
 bibkey: zhong2022evaluating
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.11163'}]
-tags: ["Datasets", "EMNLP", "Efficiency", "Evaluation"]
+tags: [Evaluation, Efficiency, Datasets, EMNLP, ACL]
 short_authors: Zhong et al.
 ---
 With the recent success of dense retrieval methods based on bi-encoders,

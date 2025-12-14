@@ -7,7 +7,8 @@ year: 2018
 bibkey: cao2018deep
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.01238'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
+tags: [Image Retrieval, Neural Hashing, Datasets, Quantization, Tools & Libraries,
+  Hashing Methods]
 short_authors: Cao et al.
 ---
 Deep hashing enables image retrieval by end-to-end learning of deep

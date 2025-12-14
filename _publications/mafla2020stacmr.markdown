@@ -9,7 +9,7 @@ bibkey: mafla2020stacmr
 citations: 2
 additional_links: [{name: Code, url: 'http://europe.naverlabs.com/stacmr'}, {name: Paper,
     url: 'https://arxiv.org/abs/2012.04329'}]
-tags: ["Datasets", "Multimodal Retrieval"]
+tags: [Datasets, Multimodal Retrieval]
 short_authors: Mafla et al.
 ---
 Recent models for cross-modal retrieval have benefited from an increasingly

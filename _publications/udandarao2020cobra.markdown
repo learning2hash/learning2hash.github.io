@@ -8,7 +8,7 @@ year: 2020
 bibkey: udandarao2020cobra
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.03687'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Datasets, Multimodal Retrieval]
 short_authors: Udandarao et al.
 ---
 There are a wide range of applications that involve multi-modal data, such as

@@ -9,7 +9,7 @@ year: 2024
 bibkey: gebre2024pfeed
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.16073'}]
-tags: ["Efficiency", "Recommender Systems"]
+tags: [Recommender Systems, Efficiency]
 short_authors: Gebre et al.
 ---
 In personalized recommender systems, embeddings are often used to encode

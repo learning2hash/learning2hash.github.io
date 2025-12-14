@@ -7,7 +7,8 @@ year: 2023
 bibkey: yu2023contextually
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.07806'}]
-tags: ["Hybrid ANN Methods", "Image Retrieval", "Re-Ranking", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Re-ranking, Self-Supervised, Tools
+    & Libraries, Hybrid ANN Methods]
 short_authors: Chunlin Yu, Ye Shi, Jingya Wang
 ---
 Previous endeavors in self-supervised learning have enlightened the research

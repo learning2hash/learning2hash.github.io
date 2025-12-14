@@ -7,7 +7,7 @@ year: 2019
 bibkey: francislandau2019exact
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.02478'}]
-tags: ["Datasets", "Distance Metric Learning"]
+tags: [Distance Metric Learning, Datasets]
 short_authors: Matthew Francis-Landau, Benjamin van Durme
 ---
 Prior methods for retrieval of nearest neighbors in high dimensions are fast

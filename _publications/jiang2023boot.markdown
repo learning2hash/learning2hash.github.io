@@ -8,7 +8,8 @@ bibkey: jiang2023boot
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/Fantabulous-J/BootSwitch.\'},
   {name: Paper, url: 'https://arxiv.org/abs/2311.15564'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Re-Ranking", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Re-ranking, Few-shot & Zero-shot, Datasets, Unsupervised,
+  EMNLP, ACL]
 short_authors: Jiang et al.
 ---
 Neural 'dense' retrieval models are state of the art for many datasets,

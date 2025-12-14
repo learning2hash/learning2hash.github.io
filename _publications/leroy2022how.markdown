@@ -8,7 +8,7 @@ year: 2022
 bibkey: leroy2022how
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.08217'}]
-tags: ["Datasets", "Evaluation", "Similarity Search", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Similarity Search, Datasets, Unsupervised]
 short_authors: Quentin Leroy, Olivier Buisson, Alexis Joly
 ---
 Supervised representation learning with deep networks tends to overfit the

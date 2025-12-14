@@ -9,7 +9,7 @@ year: 2023
 bibkey: qiao2023representation
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.11293'}]
-tags: ["Efficiency", "SIGIR", "Text Retrieval"]
+tags: [Text Retrieval, SIGIR, Efficiency]
 short_authors: Qiao et al.
 ---
 Learned sparse document representations using a transformer-based neural

@@ -9,7 +9,7 @@ year: 2024
 bibkey: uesaka2024weighted
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.19228'}]
-tags: ["Distance Metric Learning", "Evaluation", "Self-Supervised"]
+tags: [Distance Metric Learning, Evaluation, Self-Supervised]
 short_authors: Uesaka et al.
 ---
 In typical multimodal contrastive learning, such as CLIP, encoders produce

@@ -7,7 +7,7 @@ year: 2022
 bibkey: guo2022deepssn
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.04755'}]
-tags: ["Distance Metric Learning", "Evaluation", "Neural Hashing"]
+tags: [Distance Metric Learning, Evaluation, Neural Hashing]
 short_authors: Guo et al.
 ---
 Spatial-query-by-sketch is an intuitive tool to explore human spatial

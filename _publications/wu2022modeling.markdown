@@ -9,7 +9,7 @@ bibkey: wu2022modeling
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/wutaiqiang/GER-WSDM2023'},
   {name: Paper, url: 'https://arxiv.org/abs/2211.10991'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Few-shot & Zero-shot]
 short_authors: Wu et al.
 ---
 Zero-shot entity retrieval, aiming to link mentions to candidate entities

@@ -8,7 +8,7 @@ year: 2023
 bibkey: wang2023sample
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.13181'}]
-tags: ["Multimodal Retrieval", "Self-Supervised", "Supervised"]
+tags: [Self-Supervised, Supervised, Multimodal Retrieval]
 short_authors: Wang et al.
 ---
 Self-supervised representation learning on image-text data facilitates

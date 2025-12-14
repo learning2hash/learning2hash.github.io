@@ -8,7 +8,7 @@ year: 2019
 bibkey: tran2019improving
 citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.10912'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Recommender Systems", "SIGIR"]
+tags: [Image Retrieval, Distance Metric Learning, Datasets, Recommender Systems, SIGIR]
 short_authors: Tran et al.
 ---
 Distance metric learning based on triplet loss has been applied with success

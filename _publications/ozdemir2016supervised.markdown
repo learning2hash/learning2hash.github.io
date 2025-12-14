@@ -7,7 +7,8 @@ year: 2016
 bibkey: ozdemir2016supervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.07342'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: [Compact Codes, Supervised, Image Retrieval, Datasets, Scalability, Unsupervised,
+  Tools & Libraries, Hashing Methods]
 short_authors: Bahadir Ozdemir, Mahyar Najibi, Larry S. Davis
 ---
 We propose an incremental strategy for learning hash functions with kernels

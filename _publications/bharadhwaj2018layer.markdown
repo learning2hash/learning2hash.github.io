@@ -9,7 +9,7 @@ year: 2018
 bibkey: bharadhwaj2018layer
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.06160'}]
-tags: ["Datasets", "Neural Hashing", "Recommender Systems", "SIGIR"]
+tags: [Neural Hashing, Recommender Systems, SIGIR, Datasets]
 short_authors: Homanga Bharadhwaj
 ---
 In this paper, we tackle the problem of explanations in a deep-learning based

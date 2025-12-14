@@ -8,7 +8,7 @@ bibkey: izquierdo2023optimal
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/serizba/salad'}, {name: Paper,
     url: 'https://arxiv.org/abs/2311.15937'}]
-tags: ["Datasets", "Hybrid ANN Methods", "Re-Ranking"]
+tags: [Re-ranking, Hybrid ANN Methods, Datasets]
 short_authors: Sergio Izquierdo, Javier Civera
 ---
 The task of Visual Place Recognition (VPR) aims to match a query image

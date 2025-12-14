@@ -7,7 +7,7 @@ year: 2018
 bibkey: muhammad2018learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.04804'}]
-tags: ["CVPR", "Image Retrieval"]
+tags: [CVPR, Image Retrieval]
 short_authors: Muhammad et al.
 ---
 Human free-hand sketches have been studied in various contexts including

@@ -7,7 +7,7 @@ year: 2020
 bibkey: jing2020cross
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.03561'}]
-tags: ["Datasets", "Multimodal Retrieval", "Tools & Libraries"]
+tags: [Tools & Libraries, Datasets, Multimodal Retrieval]
 short_authors: Jing et al.
 ---
 Cross-modal retrieval aims to learn discriminative and modal-invariant

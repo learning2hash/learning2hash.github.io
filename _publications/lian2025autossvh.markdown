@@ -10,7 +10,8 @@ bibkey: lian2025autossvh
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/EliSpectre/CVPR25-AutoSSVH'},
   {name: Paper, url: 'https://arxiv.org/abs/2504.03587'}]
-tags: ["Efficiency", "Hashing Methods", "Self-Supervised", "Supervised", "Tools & Libraries"]
+tags: [Supervised, Efficiency, Self-Supervised, Robustness, Tools & Libraries, Hashing
+    Methods]
 short_authors: Lian et al.
 ---
 Self-Supervised Video Hashing (SSVH) compresses videos into hash codes for

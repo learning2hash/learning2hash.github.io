@@ -7,7 +7,8 @@ year: 2018
 bibkey: wu2018a
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.04633'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Quantization", "Scalability", "Survey Paper"]
+tags: [Survey Paper, Quantization, Scalability, Hashing Methods, Locality Sensitive
+    Hashing]
 short_authors: Wu et al.
 ---
 Data similarity (or distance) computation is a fundamental research topic

@@ -7,7 +7,7 @@ year: 2016
 bibkey: zhang2016query
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.02541'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
+tags: [Image Retrieval, Neural Hashing, Datasets, Scalability, Hashing Methods]
 short_authors: Jian Zhang, Yuxin Peng
 ---
 Hashing methods have attracted much attention for large scale image

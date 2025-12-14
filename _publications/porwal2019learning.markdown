@@ -7,7 +7,7 @@ year: 2019
 bibkey: porwal2019learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.12856'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Utkarsh Porwal
 ---
 Computing similarity between a query and a document is fundamental in any

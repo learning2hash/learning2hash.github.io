@@ -7,7 +7,7 @@ year: 2024
 bibkey: han2024hashing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.19790'}]
-tags: ["Hashing Methods", "Neural Hashing", "Scalability", "Self-Supervised"]
+tags: [Hashing Methods, Self-Supervised, Scalability, Neural Hashing]
 short_authors: Jin Han, Yun Hong, Wu-Jun Li
 ---
 Virtual screening (VS) is a critical step in computer-aided drug discovery,

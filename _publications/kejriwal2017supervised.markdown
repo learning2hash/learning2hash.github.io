@@ -7,7 +7,7 @@ year: 2017
 bibkey: kejriwal2017supervised
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.07805'}]
-tags: ["Efficiency", "Memory Efficiency", "Recommender Systems", "Supervised", "Unsupervised"]
+tags: [Supervised, Efficiency, Memory Efficiency, Unsupervised, Recommender Systems]
 short_authors: Mayank Kejriwal, Pedro Szekely
 ---
 We propose a supervised algorithm for generating type embeddings in the same

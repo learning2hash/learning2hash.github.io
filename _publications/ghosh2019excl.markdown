@@ -7,7 +7,7 @@ year: 2019
 bibkey: ghosh2019excl
 citations: 78
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.02755'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Ghosh et al.
 ---
 The task of retrieving clips within videos based on a given natural language

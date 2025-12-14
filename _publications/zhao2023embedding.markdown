@@ -8,7 +8,8 @@ year: 2023
 bibkey: zhao2023embedding
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.18608'}]
-tags: ["Graph Based ANN", "Recommender Systems", "Self-Supervised", "Supervised", "Survey Paper"]
+tags: [Evaluation, Supervised, Survey Paper, Self-Supervised, Graph-based ANN, Quantization,
+  Scalability, Recommender Systems]
 short_authors: Zhao et al.
 ---
 Recommender systems have become an essential component of many online

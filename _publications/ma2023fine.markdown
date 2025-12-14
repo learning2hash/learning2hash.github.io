@@ -7,7 +7,7 @@ year: 2023
 bibkey: ma2023fine
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.08319'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Re-Ranking", "Text Retrieval"]
+tags: [Evaluation, Re-ranking, Few-shot & Zero-shot, Datasets, Text Retrieval]
 short_authors: Ma et al.
 ---
 The effectiveness of multi-stage text retrieval has been solidly demonstrated

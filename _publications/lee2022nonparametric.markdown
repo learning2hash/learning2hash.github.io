@@ -8,7 +8,7 @@ year: 2022
 bibkey: lee2022nonparametric
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.02068'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Few-shot & Zero-shot, Datasets]
 short_authors: Lee et al.
 ---
 The generative retrieval model depends solely on the information encoded in

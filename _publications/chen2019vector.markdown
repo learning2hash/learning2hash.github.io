@@ -9,7 +9,8 @@ bibkey: chen2019vector
 citations: 10
 additional_links: [{name: Code, url: 'https://github.com/zjuchenwei/vector-line-quantization'},
   {name: Paper, url: 'https://arxiv.org/abs/1901.00275'}]
-tags: ["Evaluation", "Large Scale Search", "Quantization", "Similarity Search", "Vector Indexing"]
+tags: [Evaluation, Similarity Search, Efficiency, Vector Indexing, Datasets, Quantization,
+  Scalability, Tools & Libraries, Large-Scale Search]
 short_authors: Chen et al.
 ---
 Billion-scale high-dimensional approximate nearest neighbour (ANN) search has

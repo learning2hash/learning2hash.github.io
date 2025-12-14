@@ -7,7 +7,7 @@ year: 2023
 bibkey: feng2023logonet
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.02214'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Binbin Feng, Jun Li, Jianhua Xu
 ---
 Sketch-based image retrieval, which aims to use sketches as queries to

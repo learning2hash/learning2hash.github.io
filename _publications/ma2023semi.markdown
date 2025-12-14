@@ -8,7 +8,7 @@ year: 2023
 bibkey: ma2023semi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.01063'}]
-tags: ["Datasets", "Evaluation", "Neural Hashing", "Supervised", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Supervised, Neural Hashing, Datasets]
 short_authors: Yintai Ma, Diego Klabjan
 ---
 This paper presents a novel semi-supervised deep learning algorithm for

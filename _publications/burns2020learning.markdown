@@ -7,7 +7,7 @@ year: 2020
 bibkey: burns2020learning
 citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.04312'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Burns et al.
 ---
 Current multilingual vision-language models either require a large number of

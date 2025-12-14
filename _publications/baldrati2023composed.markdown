@@ -9,7 +9,7 @@ bibkey: baldrati2023composed
 citations: 27
 additional_links: [{name: Code, url: 'https://github.com/ABaldrati/CLIP4Cir'}, {name: Paper,
     url: 'https://arxiv.org/abs/2308.11485'}]
-tags: ["Datasets", "Image Retrieval", "Scalability", "Self-Supervised"]
+tags: [Scalability, Self-Supervised, Image Retrieval, Datasets]
 short_authors: Baldrati et al.
 ---
 Given a query composed of a reference image and a relative caption, the

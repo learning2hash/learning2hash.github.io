@@ -7,7 +7,7 @@ year: 2020
 bibkey: tolias2020learning
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.13172'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Scalability"]
+tags: [Scalability, Distance Metric Learning, Image Retrieval, Evaluation]
 short_authors: "Giorgos Tolias, Tomas Jenicek, Ond\u0159ej Chum"
 ---
 We propose an efficient method to learn deep local descriptors for

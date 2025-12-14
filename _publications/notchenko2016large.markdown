@@ -7,7 +7,7 @@ year: 2016
 bibkey: notchenko2016large
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.09159'}]
-tags: ["Evaluation", "Scalability"]
+tags: [Scalability, Evaluation]
 short_authors: Alexandr Notchenko, Ermek Kapushev, Evgeny Burnaev
 ---
 In this paper we present results of performance evaluation of S3DCNN - a

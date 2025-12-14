@@ -8,7 +8,7 @@ bibkey: zhang2022attributable
 citations: 13
 additional_links: [{name: Code, url: 'https://github.com/zbr17/AVSL'}, {name: Paper,
     url: 'https://arxiv.org/abs/2203.14932'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Tools & Libraries"]
+tags: [Distance Metric Learning, CVPR, Tools & Libraries, Datasets]
 short_authors: Zhang et al.
 ---
 This paper proposes an attributable visual similarity learning (AVSL)

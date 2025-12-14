@@ -7,7 +7,7 @@ year: 2020
 bibkey: pietrantoni2020learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.10274'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Maxime Pietrantoni, Boris Chidlovskii, Tomi Silander
 ---
 Autonomous navigation consists in an agent being able to navigate without

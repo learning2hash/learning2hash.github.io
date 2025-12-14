@@ -9,7 +9,7 @@ bibkey: liu2025up
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/Liu-Yating/UP-Person'}, {
     name: Paper, url: 'https://arxiv.org/abs/2504.10084'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Liu et al.
 ---
 Text-based Person Retrieval (TPR) as a multi-modal task, which aims to

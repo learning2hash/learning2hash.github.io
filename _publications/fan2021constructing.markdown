@@ -9,7 +9,7 @@ year: 2021
 bibkey: fan2021constructing
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.05523'}]
-tags: ["Text Retrieval"]
+tags: [Text Retrieval]
 short_authors: Fan et al.
 ---
 Existing research for image text retrieval mainly relies on sentence-level

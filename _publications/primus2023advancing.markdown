@@ -8,7 +8,7 @@ year: 2023
 bibkey: primus2023advancing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.04258'}]
-tags: ["Audio Retrieval", "Evaluation"]
+tags: [Evaluation, Audio Retrieval]
 short_authors: Paul Primus, Khaled Koutini, Gerhard Widmer
 ---
 This work presents a text-to-audio-retrieval system based on pre-trained text

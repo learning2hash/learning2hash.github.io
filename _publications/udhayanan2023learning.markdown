@@ -8,7 +8,7 @@ year: 2023
 bibkey: udhayanan2023learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.16649'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Prateksha Udhayanan, Srikrishna Karanam, Balaji Vasan Srinivasan
 ---
 We consider the problem of composed image retrieval that takes an input query

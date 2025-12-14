@@ -7,7 +7,7 @@ year: 2023
 bibkey: guo2023elip
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.16738'}]
-tags: ["Evaluation", "Multimodal Retrieval"]
+tags: [Evaluation, Multimodal Retrieval]
 short_authors: Guo et al.
 ---
 Learning a versatile language-image model is computationally prohibitive

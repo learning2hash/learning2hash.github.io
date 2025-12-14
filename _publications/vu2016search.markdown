@@ -7,7 +7,7 @@ year: 2016
 bibkey: vu2016search
 citations: 47
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.03597'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Vu et al.
 ---
 Recent research has shown that the performance of search personalization

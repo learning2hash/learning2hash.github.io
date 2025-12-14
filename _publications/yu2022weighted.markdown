@@ -7,7 +7,7 @@ year: 2022
 bibkey: yu2022weighted
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.14099'}]
-tags: ["Datasets", "Hashing Methods", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Self-Supervised, Datasets, Unsupervised, Hashing Methods]
 short_authors: Yu et al.
 ---
 The development of unsupervised hashing is advanced by the recent popular

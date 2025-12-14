@@ -7,7 +7,7 @@ year: 2019
 bibkey: lin2019graph
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.02077'}]
-tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Scalability"]
+tags: [Scalability, Evaluation, Graph-based ANN, Efficiency]
 short_authors: Peng-Cheng Lin, Wan-Lei Zhao
 ---
 Recently, graph based nearest neighbor search gets more and more popular on

@@ -7,7 +7,7 @@ year: 2024
 bibkey: fahim2024it
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.18570'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
+tags: [Evaluation, Distance Metric Learning, Few-shot & Zero-shot, Datasets]
 short_authors: Abrar Fahim, Alex Murphy, Alona Fyshe
 ---
 Multi-modal contrastive models such as CLIP achieve state-of-the-art

@@ -9,7 +9,7 @@ year: 2024
 bibkey: ma2024beat
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.05620'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets]
 short_authors: Ma et al.
 ---
 Text-based person retrieval (TPR) is a challenging task that involves

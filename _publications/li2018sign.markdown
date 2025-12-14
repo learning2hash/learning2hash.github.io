@@ -7,7 +7,8 @@ year: 2018
 bibkey: li2018sign
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.00533'}]
-tags: ["Datasets", "Distance Metric Learning", "Locality-Sensitive-Hashing", "Recommender Systems"]
+tags: [Locality Sensitive Hashing, Distance Metric Learning, Recommender Systems,
+  Datasets]
 short_authors: Ping Li
 ---
 The method of 1-bit ("sign-sign") random projections has been a popular tool

@@ -9,7 +9,7 @@ bibkey: yu2020retrieval
 citations: 13
 additional_links: [{name: Code, url: 'https://github.com/gniknoil/FG2020-kinship'},
   {name: Paper, url: 'https://arxiv.org/abs/2006.00174'}]
-tags: ["Datasets", "Distance Metric Learning"]
+tags: [Distance Metric Learning, Datasets]
 short_authors: Yu et al.
 ---
 Retrieval of family members in the wild aims at finding family members of the

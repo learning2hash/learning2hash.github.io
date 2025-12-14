@@ -7,7 +7,7 @@ year: 2020
 bibkey: charikar2020kernel
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.06997'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods"]
+tags: [Hashing Methods, Datasets, Efficiency]
 short_authors: Charikar et al.
 ---
 In this paper we revisit the kernel density estimation problem: given a

@@ -7,7 +7,8 @@ year: 2025
 bibkey: li2025lightweight
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.19751'}]
-tags: ["AAAI", "Datasets", "Efficiency", "Hashing Methods", "Multimodal Retrieval"]
+tags: [Compact Codes, Evaluation, Efficiency, Datasets, Multimodal Retrieval, Tools
+    & Libraries, Hashing Methods, AAAI]
 short_authors: Li et al.
 ---
 Deep online cross-modal hashing has gained much attention from researchers

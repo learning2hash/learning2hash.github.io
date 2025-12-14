@@ -8,7 +8,7 @@ year: 2024
 bibkey: stone2024learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.15396'}]
-tags: ["Evaluation", "Image Retrieval", "Self-Supervised"]
+tags: [Self-Supervised, Image Retrieval, Evaluation]
 short_authors: Stone et al.
 ---
 Visual imagery does not consist of solitary objects, but instead reflects the

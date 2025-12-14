@@ -7,7 +7,8 @@ year: 2021
 bibkey: zhang2021orthonormal
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.00327'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Quantization", "Scalability"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Datasets, Quantization, Scalability,
+  Tools & Libraries, Hashing Methods]
 short_authors: Ming Zhang, Xuefei Zhe, Hong Yan
 ---
 Existing deep quantization methods provided an efficient solution for

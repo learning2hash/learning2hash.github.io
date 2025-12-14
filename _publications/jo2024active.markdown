@@ -8,7 +8,7 @@ year: 2024
 bibkey: jo2024active
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.16301'}]
-tags: ["Datasets", "Text Retrieval"]
+tags: [Text Retrieval, Datasets]
 short_authors: Jo et al.
 ---
 Securing a sufficient amount of paired data is important to train an

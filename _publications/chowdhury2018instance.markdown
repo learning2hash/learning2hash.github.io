@@ -8,7 +8,8 @@ year: 2018
 bibkey: chowdhury2018instance
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.05934'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Supervised"]
+tags: [Evaluation, Supervised, Datasets, Unsupervised, Hashing Methods, Locality Sensitive
+    Hashing]
 short_authors: Somnath Basu Roy Chowdhury, K M Annervaz, Ambedkar Dukkipati
 ---
 Supervised learning models are typically trained on a single dataset and the

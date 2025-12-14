@@ -8,7 +8,7 @@ year: 2024
 bibkey: koley2024text
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.07214'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Datasets, CVPR]
 short_authors: Koley et al.
 ---
 This paper, for the first time, explores text-to-image diffusion models for

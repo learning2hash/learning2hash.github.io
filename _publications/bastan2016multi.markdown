@@ -7,7 +7,7 @@ year: 2016
 bibkey: bastan2016multi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.03462'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Muhammet Bastan, Ozgur Yilmaz
 ---
 Multi-view product image queries can improve retrieval performance over

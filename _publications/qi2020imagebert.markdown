@@ -8,7 +8,7 @@ year: 2020
 bibkey: qi2020imagebert
 citations: 154
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.07966'}]
-tags: ["Datasets", "Image Retrieval", "Scalability", "Supervised", "Text Retrieval"]
+tags: [Supervised, Image Retrieval, Datasets, Scalability, Text Retrieval]
 short_authors: Qi et al.
 ---
 In this paper, we introduce a new vision-language pre-trained model --

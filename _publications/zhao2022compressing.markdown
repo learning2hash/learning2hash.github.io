@@ -8,7 +8,7 @@ year: 2022
 bibkey: zhao2022compressing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.07687'}]
-tags: ["Evaluation", "Memory Efficiency"]
+tags: [Evaluation, Memory Efficiency, ACL]
 short_authors: Zhao et al.
 ---
 How to learn highly compact yet effective sentence representation?

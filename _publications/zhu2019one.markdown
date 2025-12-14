@@ -8,7 +8,7 @@ year: 2019
 bibkey: zhu2019one
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.06656'}]
-tags: ["AAAI", "Datasets", "Evaluation", "IJCAI"]
+tags: [Datasets, AAAI, Evaluation, IJCAI]
 short_authors: Zhu et al.
 ---
 In this paper, we tackle one-shot texture retrieval: given an example of a

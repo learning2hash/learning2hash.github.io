@@ -8,7 +8,7 @@ year: 2023
 bibkey: qu2023learnable
 citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.12570'}]
-tags: ["Datasets", "Evaluation", "Re-Ranking", "SIGIR", "Text Retrieval"]
+tags: [Evaluation, Re-ranking, Datasets, Text Retrieval, SIGIR, Hybrid ANN Methods]
 short_authors: Qu et al.
 ---
 Image-text retrieval aims to bridge the modality gap and retrieve cross-modal

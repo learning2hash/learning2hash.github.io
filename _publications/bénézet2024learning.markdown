@@ -8,7 +8,7 @@ bibkey: "b\xE9n\xE9zet2024learning"
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/zcheng-a/LCD_kNN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2406.09375'}]
-tags: ["Efficiency", "Evaluation"]
+tags: [Evaluation, Efficiency]
 short_authors: "Cyril B\xE9n\xE9zet, Ziteng Cheng, Sebastian Jaimungal"
 ---
 We investigate sample-based learning of conditional distributions on

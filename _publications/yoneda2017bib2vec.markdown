@@ -8,7 +8,7 @@ year: 2017
 bibkey: yoneda2017bib2vec
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.05122'}]
-tags: ["Evaluation"]
+tags: [Evaluation, ACL, EACL]
 short_authors: Yoneda et al.
 ---
 We propose a novel embedding model that represents relationships among

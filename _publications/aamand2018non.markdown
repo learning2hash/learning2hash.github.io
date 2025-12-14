@@ -7,7 +7,7 @@ year: 2018
 bibkey: aamand2018non
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.13187'}]
-tags: ["Hashing Methods"]
+tags: [Hashing Methods]
 short_authors: Anders Aamand, Mikkel Thorup
 ---
 We consider the hashing of a set \(X\subseteq U\) with \(|X|=m\) using a simple

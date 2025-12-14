@@ -7,7 +7,7 @@ year: 2022
 bibkey: duarte2022sign
 citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.02495'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Tools & Libraries", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Datasets, Scalability, CVPR, Tools & Libraries]
 short_authors: Duarte et al.
 ---
 Systems that can efficiently search collections of sign language videos have

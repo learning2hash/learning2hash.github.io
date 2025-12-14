@@ -7,7 +7,8 @@ year: 2017
 bibkey: pachori2017hashing
 citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.01933'}]
-tags: ["Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Quantization", "Supervised"]
+tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Few-shot & Zero-shot,
+  Datasets, Quantization, Unsupervised, Tools & Libraries, Hashing Methods]
 short_authors: Shubham Pachori, Ameya Deshpande, Shanmuganathan Raman
 ---
 Techniques to learn hash codes which can store and retrieve large dimensional

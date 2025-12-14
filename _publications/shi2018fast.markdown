@@ -7,7 +7,7 @@ year: 2018
 bibkey: shi2018fast
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.00588'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
+tags: [Evaluation, Efficiency, Scalability, Hashing Methods, Locality Sensitive Hashing]
 short_authors: Xing Shi, Shizhen Xu, Kevin Knight
 ---
 We present a GPU-based Locality Sensitive Hashing (LSH) algorithm to speed up

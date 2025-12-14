@@ -7,7 +7,8 @@ year: 2019
 bibkey: morozov2019unsupervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.03883'}]
-tags: ["Image Retrieval", "Quantization", "Similarity Search", "Supervised", "Unsupervised"]
+tags: [Supervised, ICCV, Image Retrieval, Similarity Search, Neural Hashing, Datasets,
+  Quantization, Scalability, Unsupervised]
 short_authors: Stanislav Morozov, Artem Babenko
 ---
 We tackle the problem of unsupervised visual descriptors compression, which

@@ -8,7 +8,7 @@ year: 2018
 bibkey: lu2018instance
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.11375'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Distance Metric Learning, Image Retrieval, Datasets]
 short_authors: Lu et al.
 ---
 Sketch has been employed as an effective communicative tool to express the

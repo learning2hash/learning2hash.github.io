@@ -7,7 +7,7 @@ year: 2019
 bibkey: weng2019online
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.12125'}]
-tags: ["Compact Codes", "Efficiency", "Hashing Methods", "Image Retrieval", "Tools & Libraries"]
+tags: [Compact Codes, Image Retrieval, Efficiency, Tools & Libraries, Hashing Methods]
 short_authors: Zhenyu Weng, Yuesheng Zhu
 ---
 Online hashing methods are efficient in learning the hash functions from the

@@ -9,7 +9,7 @@ bibkey: singha2024elevating
 citations: 2
 additional_links: [{name: Code, url: 'https://mainaksingha01.github.io/SpLIP/'}, {
     name: Paper, url: 'https://arxiv.org/abs/2407.04207'}]
-tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: [Evaluation, Distance Metric Learning, Image Retrieval, Few-shot & Zero-shot]
 short_authors: Singha et al.
 ---
 We address the challenges inherent in sketch-based image retrieval (SBIR)

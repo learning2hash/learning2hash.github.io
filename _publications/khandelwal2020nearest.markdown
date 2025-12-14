@@ -7,7 +7,7 @@ year: 2020
 bibkey: khandelwal2020nearest
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.00710'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Similarity Search"]
+tags: [Evaluation, Few-shot & Zero-shot, Similarity Search]
 short_authors: Khandelwal et al.
 ---
 We introduce \(k\)-nearest-neighbor machine translation (\(k\)NN-MT), which

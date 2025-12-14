@@ -9,7 +9,8 @@ bibkey: gao2019beyond
 citations: 28
 additional_links: [{name: Code, url: 'https://github.com/cfm-uestc/DPQ'}, {name: Paper,
     url: 'https://arxiv.org/abs/1906.06698'}]
-tags: ["Datasets", "Evaluation", "IJCAI", "Image Retrieval", "Quantization"]
+tags: [Image Retrieval, Tools & Libraries, AAAI, Scalability, IJCAI, Datasets, Evaluation,
+  Quantization]
 short_authors: Gao et al.
 ---
 Product Quantization (PQ) has long been a mainstream for generating an

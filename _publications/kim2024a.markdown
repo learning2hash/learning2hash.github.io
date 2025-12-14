@@ -7,7 +7,7 @@ year: 2024
 bibkey: kim2024a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.02342'}]
-tags: ["Evaluation", "Recommender Systems"]
+tags: [Evaluation, Recommender Systems]
 short_authors: Haven Kim, Taketo Akama
 ---
 In musical compositions that include vocals, lyrics significantly contribute

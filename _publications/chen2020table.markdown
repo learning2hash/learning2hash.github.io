@@ -8,7 +8,7 @@ year: 2020
 bibkey: chen2020table
 citations: 44
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.09207'}]
-tags: ["Datasets", "Evaluation", "SIGIR", "Scalability"]
+tags: [Scalability, Evaluation, SIGIR, Datasets]
 short_authors: Chen et al.
 ---
 Pretrained contextualized language models such as BERT have achieved

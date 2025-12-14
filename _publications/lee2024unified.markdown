@@ -7,7 +7,7 @@ year: 2024
 bibkey: lee2024unified
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.02729'}]
-tags: ["Hybrid ANN Methods", "Re-Ranking"]
+tags: [Re-ranking, Hybrid ANN Methods]
 short_authors: Lee et al.
 ---
 Information Retrieval (IR) methods aim to identify documents relevant to a

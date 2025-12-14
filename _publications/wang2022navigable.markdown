@@ -10,7 +10,8 @@ bibkey: wang2022navigable
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/AshenOn3/NHQ'}, {name: Paper,
     url: 'https://arxiv.org/abs/2203.13601'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Similarity Search"]
+tags: [Evaluation, Similarity Search, Efficiency, Graph-based ANN, Datasets, Tools
+    & Libraries]
 short_authors: Wang et al.
 ---
 As research interest surges, vector similarity search is applied in multiple

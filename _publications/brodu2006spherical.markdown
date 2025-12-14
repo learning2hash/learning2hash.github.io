@@ -7,7 +7,7 @@ year: 2006
 bibkey: brodu2006spherical
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/cs/0608108'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: Nicolas Brodu
 ---
 This is an algorithm for finding neighbors when the objects can freely move

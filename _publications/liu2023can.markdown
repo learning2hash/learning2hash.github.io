@@ -7,7 +7,8 @@ year: 2023
 bibkey: liu2023can
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.09806'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Memory Efficiency"]
+tags: [Evaluation, Datasets, Memory Efficiency, Hashing Methods, Locality Sensitive
+    Hashing]
 short_authors: Liu et al.
 ---
 With the rapid development of GPU (Graphics Processing Unit) technologies and

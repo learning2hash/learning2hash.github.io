@@ -7,7 +7,7 @@ year: 2018
 bibkey: kong2018cross
 citations: 49
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.02367'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval]
 short_authors: Kong et al.
 ---
 We investigate the problem of automatically determining what type of shoe

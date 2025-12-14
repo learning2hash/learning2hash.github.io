@@ -7,7 +7,8 @@ year: 2019
 bibkey: liu2019query
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.08623'}]
-tags: ["Hashing Methods", "Image Retrieval", "Quantization", "Re-Ranking", "Scalability"]
+tags: [Evaluation, Image Retrieval, Re-ranking, Quantization, Scalability, Hashing
+    Methods]
 short_authors: Liu et al.
 ---
 Hash based nearest neighbor search has become attractive in many

@@ -7,7 +7,7 @@ year: 2018
 bibkey: xu2018error
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.01942'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Datasets, Hashing Methods]
 short_authors: Xiang Xu, Xiaofang Wang, Kris M. Kitani
 ---
 We propose to use the concept of the Hamming bound to derive the optimal

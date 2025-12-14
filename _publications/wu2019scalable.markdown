@@ -8,7 +8,7 @@ bibkey: wu2019scalable
 citations: 20
 additional_links: [{name: Code, url: 'https://github.com/facebookresearch/BLINK'},
   {name: Paper, url: 'https://arxiv.org/abs/1911.03814'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Similarity Search"]
+tags: [Evaluation, Few-shot & Zero-shot, Similarity Search]
 short_authors: Wu et al.
 ---
 This paper introduces a conceptually simple, scalable, and highly effective

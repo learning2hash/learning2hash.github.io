@@ -7,7 +7,7 @@ year: 2018
 bibkey: iscen2018local
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.09848'}]
-tags: ["Image Retrieval", "Scalability", "Tools & Libraries"]
+tags: [Scalability, Image Retrieval, Tools & Libraries]
 short_authors: Ahmet Iscen, Ondrej Chum
 ---
 This work addresses approximate nearest neighbor search applied in the domain

@@ -8,7 +8,7 @@ year: 2019
 bibkey: ginart2019mixed
 citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.11810'}]
-tags: ["Datasets", "Evaluation", "Memory Efficiency", "Recommender Systems", "Scalability"]
+tags: [Evaluation, Datasets, Memory Efficiency, Scalability, Recommender Systems]
 short_authors: Ginart et al.
 ---
 Embedding representations power machine intelligence in many applications,

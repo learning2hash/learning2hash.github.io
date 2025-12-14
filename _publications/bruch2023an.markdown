@@ -8,7 +8,7 @@ year: 2023
 bibkey: bruch2023an
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.10622'}]
-tags: ["Datasets", "Evaluation", "Memory Efficiency"]
+tags: [Evaluation, Datasets, Memory Efficiency]
 short_authors: Bruch et al.
 ---
 Maximum Inner Product Search or top-k retrieval on sparse vectors is

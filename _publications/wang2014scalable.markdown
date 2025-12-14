@@ -8,7 +8,7 @@ year: 2014
 bibkey: wang2014scalable
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1404.6272'}]
-tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "Scalability"]
+tags: [Scalability, Distance Metric Learning, Evaluation, Efficiency]
 short_authors: Wang et al.
 ---
 Classifying large-scale image data into object categories is an important

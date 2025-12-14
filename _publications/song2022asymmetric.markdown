@@ -9,7 +9,8 @@ bibkey: song2022asymmetric
 citations: 51
 additional_links: [{name: Code, url: 'https://github.com/weiweisong415/Demo'}, {name: Paper,
     url: 'https://arxiv.org/abs/2201.05772'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
+tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Neural Hashing, Efficiency,
+  Datasets, Scalability, Hashing Methods]
 short_authors: Song et al.
 ---
 Remote sensing image retrieval (RSIR), aiming at searching for a set of

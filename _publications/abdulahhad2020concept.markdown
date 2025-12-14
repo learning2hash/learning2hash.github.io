@@ -7,7 +7,7 @@ year: 2020
 bibkey: abdulahhad2020concept
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.01071'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: Karam Abdulahhad
 ---
 Concepts are used to solve the term-mismatch problem. However, we need an

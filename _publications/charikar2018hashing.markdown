@@ -7,7 +7,7 @@ year: 2018
 bibkey: charikar2018hashing
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.10530'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing]
 short_authors: Moses Charikar, Paris Siminelakis
 ---
 Given a set of points \(P\subset \mathbb\{R\}^\{d\}\) and a kernel \(k\), the Kernel

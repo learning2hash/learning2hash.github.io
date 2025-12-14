@@ -8,7 +8,7 @@ year: 2016
 bibkey: uchida2016adaptive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.06266'}]
-tags: ["Image Retrieval", "Tools & Libraries", "Tree Based ANN"]
+tags: [Tree-based ANN, Image Retrieval, Tools & Libraries]
 short_authors: Yusuke Uchida, Shigeyuki Sakazawa, Shin'Ichi Satoh
 ---
 In this paper, we propose a stand-alone mobile visual search system based on

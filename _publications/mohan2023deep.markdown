@@ -7,7 +7,7 @@ year: 2023
 bibkey: mohan2023deep
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.10046'}]
-tags: ["Distance Metric Learning", "Neural Hashing", "Supervised", "Survey Paper"]
+tags: [Distance Metric Learning, Supervised, Neural Hashing, Survey Paper]
 short_authors: Mohan et al.
 ---
 Objective functions that optimize deep neural networks play a vital role in

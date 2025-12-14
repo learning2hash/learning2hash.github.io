@@ -8,7 +8,7 @@ bibkey: bogolin2021cross
 citations: 4
 additional_links: [{name: Code, url: 'https://vladbogo.github.io/QB-Norm/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2112.12777'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Scalability", "Tools & Libraries"]
+tags: [Evaluation, Datasets, Multimodal Retrieval, Scalability, Tools & Libraries]
 short_authors: Bogolin et al.
 ---
 Profiting from large-scale training datasets, advances in neural architecture

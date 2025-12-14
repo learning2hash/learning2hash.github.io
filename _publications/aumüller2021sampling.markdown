@@ -8,7 +8,8 @@ year: 2021
 bibkey: "aum\xFCller2021sampling"
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.10905'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: [Evaluation, Similarity Search, Efficiency, Datasets, Hashing Methods, Locality
+    Sensitive Hashing]
 short_authors: "Aum\xFCller et al."
 ---
 Similarity search is a fundamental algorithmic primitive, widely used in many

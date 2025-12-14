@@ -9,7 +9,7 @@ year: 2020
 bibkey: gao2020fashionbert
 citations: 114
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.09801'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Multimodal Retrieval", "SIGIR"]
+tags: [Evaluation, Efficiency, Datasets, Multimodal Retrieval, SIGIR]
 short_authors: Gao et al.
 ---
 In this paper, we address the text and image matching in cross-modal

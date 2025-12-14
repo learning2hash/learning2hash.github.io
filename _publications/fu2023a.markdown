@@ -9,7 +9,7 @@ year: 2023
 bibkey: fu2023a
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.06881'}]
-tags: ["Datasets"]
+tags: [Datasets]
 short_authors: Fu et al.
 ---
 Place recognition is a challenging but crucial task in robotics. Current

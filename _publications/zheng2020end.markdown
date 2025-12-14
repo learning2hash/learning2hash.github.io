@@ -9,7 +9,8 @@ bibkey: zheng2020end
 citations: 13
 additional_links: [{name: Code, url: 'https://github.com/gaopengcuhk/SMCA-DETR/'},
   {name: Paper, url: 'https://arxiv.org/abs/2011.09315'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation, Transformer-based
+    ANN]
 short_authors: Zheng et al.
 ---
 End-to-end Object Detection with Transformer (DETR)proposes to perform object

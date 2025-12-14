@@ -7,7 +7,7 @@ year: 2022
 bibkey: jang2022unifying
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.11153'}]
-tags: ["AAAI", "Evaluation", "Few Shot & Zero Shot", "Self-Supervised", "Tools & Libraries"]
+tags: [Evaluation, Few-shot & Zero-shot, Self-Supervised, Tools & Libraries, AAAI]
 short_authors: Jang et al.
 ---
 Contrastive learning is a form of distance learning that aims to learn

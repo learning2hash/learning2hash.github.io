@@ -8,7 +8,7 @@ year: 2022
 bibkey: bhunia2022sketching
 citations: 50
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.14817'}]
-tags: ["CVPR", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, CVPR, Image Retrieval]
 short_authors: Bhunia et al.
 ---
 Sketching enables many exciting applications, notably, image retrieval. The

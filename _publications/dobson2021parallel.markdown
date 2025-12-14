@@ -7,7 +7,7 @@ year: 2021
 bibkey: dobson2021parallel
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.04182'}]
-tags: ["Efficiency", "Evaluation", "Tree Based ANN"]
+tags: [Tree-based ANN, Evaluation, Efficiency]
 short_authors: Magdalen Dobson, Guy Blelloch
 ---
 We present a set of parallel algorithms for computing exact k-nearest

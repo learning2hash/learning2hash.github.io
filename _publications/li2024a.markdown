@@ -8,7 +8,7 @@ bibkey: li2024a
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/fuxianghuang1/Multimodal-Composite-Editing-and-Retrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2409.05405'}]
-tags: ["Evaluation", "Survey Paper", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Survey Paper]
 short_authors: Suyan Li, Fuxiang Huang, Lei Zhang
 ---
 In the real world, where information is abundant and diverse across different

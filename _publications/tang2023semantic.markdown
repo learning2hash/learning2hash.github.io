@@ -9,7 +9,7 @@ year: 2023
 bibkey: tang2023semantic
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.15115'}]
-tags: ["Evaluation", "KDD", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, KDD]
 short_authors: Tang et al.
 ---
 Recently, a new paradigm called Differentiable Search Index (DSI) has been

@@ -11,7 +11,7 @@ bibkey: messina2022aladin
 citations: 28
 additional_links: [{name: Code, url: 'https://github.com/mesnico/ALADIN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2207.14757'}]
-tags: ["Efficiency", "Multimodal Retrieval", "Scalability", "Similarity Search"]
+tags: [Scalability, Similarity Search, Efficiency, Multimodal Retrieval]
 short_authors: Messina et al.
 ---
 Image-text matching is gaining a leading role among tasks involving the joint

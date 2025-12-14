@@ -9,7 +9,7 @@ year: 2024
 bibkey: scotti2024mindeye2
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.11207'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval]
 short_authors: Scotti et al.
 ---
 Reconstructions of visual perception from brain activity have improved

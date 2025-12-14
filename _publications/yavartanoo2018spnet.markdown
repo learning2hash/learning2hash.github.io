@@ -7,7 +7,7 @@ year: 2018
 bibkey: yavartanoo2018spnet
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.01571'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Mohsen Yavartanoo, Eu Young Kim, Kyoung Mu Lee
 ---
 We propose an efficient Stereographic Projection Neural Network (SPNet) for

@@ -8,7 +8,7 @@ year: 2023
 bibkey: zhang2023tvpr
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.07184'}]
-tags: ["Datasets", "Evaluation", "Scalability"]
+tags: [Scalability, Evaluation, Datasets]
 short_authors: Zhang et al.
 ---
 Most existing methods for text-based person retrieval focus on text-to-image

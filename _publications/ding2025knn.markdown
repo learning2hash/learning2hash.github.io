@@ -7,7 +7,7 @@ year: 2025
 bibkey: ding2025knn
 citations: 14
 additional_links: [{name: Paper, url: 'http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Ding_kNN_Hashing_With_ICCV_2015_paper.pdf'}]
-tags: ["Evaluation", "Hashing Methods", "ICCV", "Memory Efficiency", "Supervised"]
+tags: [Evaluation, Supervised, ICCV, Memory Efficiency, Hashing Methods]
 short_authors: Ding et al.
 ---
 Hashing is very effective for many tasks in reducing the

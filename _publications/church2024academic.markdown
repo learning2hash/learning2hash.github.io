@@ -8,7 +8,7 @@ year: 2024
 bibkey: church2024academic
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.05836'}]
-tags: ["Graph Based ANN", "Recommender Systems"]
+tags: [Graph-based ANN, Recommender Systems]
 short_authors: Church et al.
 ---
 We argue that Content-based filtering (CBF) and Graph-based methods (GB)

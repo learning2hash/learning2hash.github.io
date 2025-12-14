@@ -7,7 +7,8 @@ year: 2025
 bibkey: liu2025collaborative
 citations: 132
 additional_links: [{name: Paper, url: 'http://www.nlsde.buaa.edu.cn/~xlliu/cvpr2014.pdf'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Similarity Search"]
+tags: [Compact Codes, Evaluation, Image Retrieval, Similarity Search, Datasets, CVPR,
+  Hashing Methods, Recommender Systems]
 short_authors: Liu et al.
 ---
 Hashing technique has become a promising approach for

@@ -7,7 +7,7 @@ year: 2020
 bibkey: cleveland2020content
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.04938'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: Cleveland et al.
 ---
 We explore the feasibility of using triplet neural networks to embed songs

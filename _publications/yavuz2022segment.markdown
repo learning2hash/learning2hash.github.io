@@ -7,7 +7,7 @@ year: 2022
 bibkey: yavuz2022segment
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.02482'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
+tags: [Scalability, Evaluation, Image Retrieval, Datasets]
 short_authors: Feyza Yavuz, Sinan Kalkan
 ---
 Logo retrieval is a challenging problem since the definition of similarity is

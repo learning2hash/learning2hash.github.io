@@ -8,7 +8,7 @@ year: 2025
 bibkey: hsieh2025focallens
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.08368'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Image Retrieval, Few-shot & Zero-shot]
 short_authors: Hsieh et al.
 ---
 Visual understanding is inherently contextual -- what we focus on in an image

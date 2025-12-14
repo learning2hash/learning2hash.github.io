@@ -9,7 +9,8 @@ bibkey: severo2025lossless
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/facebookresearch/vector_db_id_compression'},
   {name: Paper, url: 'https://arxiv.org/abs/2501.10479'}]
-tags: ["Datasets", "Graph Based ANN", "Large Scale Search", "Quantization", "Vector Indexing"]
+tags: [Vector Indexing, Graph-based ANN, Datasets, Quantization, Memory Efficiency,
+  Scalability, Large-Scale Search]
 short_authors: Severo et al.
 ---
 Approximate nearest neighbor search for vectors relies on indexes that are

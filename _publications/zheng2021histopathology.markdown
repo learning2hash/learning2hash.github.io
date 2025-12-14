@@ -9,7 +9,8 @@ year: 2021
 bibkey: zheng2021histopathology
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.07878'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability", "Similarity Search"]
+tags: [Evaluation, Image Retrieval, Similarity Search, Datasets, Scalability, Tools
+    & Libraries]
 short_authors: Zheng et al.
 ---
 Content-based histopathological image retrieval (CBHIR) has become popular in

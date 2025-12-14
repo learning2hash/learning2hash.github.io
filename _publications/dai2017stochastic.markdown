@@ -7,7 +7,7 @@ year: 2017
 bibkey: dai2017stochastic
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.02815'}]
-tags: ["Datasets", "Hashing Methods", "Scalability"]
+tags: [Hashing Methods, Scalability, Datasets]
 short_authors: Dai et al.
 ---
 Learning-based binary hashing has become a powerful paradigm for fast search

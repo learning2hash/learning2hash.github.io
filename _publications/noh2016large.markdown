@@ -8,7 +8,7 @@ bibkey: noh2016large
 citations: 50
 additional_links: [{name: Code, url: 'https://github.com/tensorflow/models/tree/master/research/delf'},
   {name: Paper, url: 'https://arxiv.org/abs/1612.06321'}]
-tags: ["Datasets", "Image Retrieval", "Scalability", "Tools & Libraries"]
+tags: [Scalability, Tools & Libraries, Datasets, Image Retrieval]
 short_authors: Noh et al.
 ---
 We propose an attentive local feature descriptor suitable for large-scale

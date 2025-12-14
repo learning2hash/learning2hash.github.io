@@ -7,7 +7,8 @@ year: 2018
 bibkey: lu2018fmhash
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.03574'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing", "Tree Based ANN"]
+tags: [Compact Codes, Tree-based ANN, Evaluation, Neural Hashing, Datasets, Tools
+    & Libraries, Hashing Methods]
 short_authors: Duo Lu, Dijiang Huang, Anshul Rai
 ---
 Many mobile systems and wearable devices, such as Virtual Reality (VR) or

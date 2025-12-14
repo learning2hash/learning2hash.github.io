@@ -8,7 +8,7 @@ year: 2025
 bibkey: talon2025seeing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2505.03242'}]
-tags: ["CVPR", "Datasets", "Image Retrieval", "Multimodal Retrieval", "Scalability"]
+tags: [Image Retrieval, Datasets, Multimodal Retrieval, Scalability, CVPR]
 short_authors: Talon et al.
 ---
 Natural language goes beyond dryly describing visual content. It contains

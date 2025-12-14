@@ -8,7 +8,7 @@ year: 2022
 bibkey: liu2022descriptor
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.11795'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Distance Metric Learning, Tools & Libraries, Datasets]
 short_authors: Yuzhen Liu, Qiulei Dong
 ---
 Learning a fast and discriminative patch descriptor is a challenging topic in

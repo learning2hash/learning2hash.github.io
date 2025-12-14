@@ -7,7 +7,7 @@ year: 2013
 bibkey: lang2013efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1304.4371'}]
-tags: ["Datasets", "Efficiency", "Graph Based ANN", "Recommender Systems", "Scalability"]
+tags: [Efficiency, Graph-based ANN, Datasets, Scalability, Recommender Systems]
 short_authors: Joel Lang, James Henderson
 ---
 Previous work has shown the effectiveness of random walk hitting times as a

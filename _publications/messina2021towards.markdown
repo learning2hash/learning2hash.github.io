@@ -9,7 +9,7 @@ year: 2021
 bibkey: messina2021towards
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.00358'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Neural Hashing"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Datasets, Multimodal Retrieval]
 short_authors: Messina et al.
 ---
 Cross-modal retrieval is an important functionality in modern search engines,

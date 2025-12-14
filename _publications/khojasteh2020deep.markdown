@@ -7,7 +7,7 @@ year: 2020
 bibkey: khojasteh2020deep
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.10016'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets, Multimodal Retrieval]
 short_authors: Khojasteh et al.
 ---
 This paper considers the task of matching images and sentences by learning a

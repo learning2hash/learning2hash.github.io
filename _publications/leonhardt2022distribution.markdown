@@ -7,7 +7,7 @@ year: 2022
 bibkey: leonhardt2022distribution
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.04942'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: [Distance Metric Learning, Evaluation]
 short_authors: Jurek Leonhardt, Marcel Jahnke, Avishek Anand
 ---
 Dual-encoder-based neural retrieval models achieve appreciable performance

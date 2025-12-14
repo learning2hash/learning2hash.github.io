@@ -7,7 +7,7 @@ year: 2020
 bibkey: zhang2020understanding
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.07620'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Re-Ranking"]
+tags: [Evaluation, Image Retrieval, Re-ranking, Efficiency, Datasets, Hybrid ANN Methods]
 short_authors: Zhang et al.
 ---
 The re-ranking approach leverages high-confidence retrieved samples to refine

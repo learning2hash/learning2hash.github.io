@@ -8,7 +8,7 @@ year: 2025
 bibkey: tobari2025domain
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.01326'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Robustness", "Scalability"]
+tags: [Evaluation, Image Retrieval, Datasets, Robustness, Scalability]
 short_authors: Tobari et al.
 ---
 When conducting large-scale studies that collect brain MR images from

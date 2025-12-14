@@ -7,7 +7,7 @@ year: 2018
 bibkey: "g\xF3mez2018single"
 citations: 53
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.09044'}]
-tags: ["Image Retrieval", "Text Retrieval"]
+tags: [Text Retrieval, Image Retrieval]
 short_authors: "G\xF3mez et al."
 ---
 Textual information found in scene images provides high level semantic

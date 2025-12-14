@@ -7,7 +7,7 @@ year: 2020
 bibkey: chen2020fine
 citations: 306
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.00392'}]
-tags: ["CVPR", "Datasets", "Multimodal Retrieval", "Text Retrieval"]
+tags: [Text Retrieval, CVPR, Datasets, Multimodal Retrieval]
 short_authors: Chen et al.
 ---
 Cross-modal retrieval between videos and texts has attracted growing

@@ -7,7 +7,7 @@ year: 2020
 bibkey: kuwa2020embedding
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.16313'}]
-tags: ["Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, COLING]
 short_authors: Toshitaka Kuwa, Shigehiko Schamoni, Stefan Riezler
 ---
 Neural approaches to learning term embeddings have led to improved

@@ -8,7 +8,7 @@ year: 2023
 bibkey: dadas2023opi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.07127'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: "S\u0142awomir Dadas"
 ---
 The goal of visual word sense disambiguation is to find the image that best

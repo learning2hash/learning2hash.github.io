@@ -9,7 +9,7 @@ bibkey: miranda2024bivlc
 citations: 0
 additional_links: [{name: Code, url: 'https://imirandam.github.io/BiVLC_project_page'},
   {name: Paper, url: 'https://arxiv.org/abs/2406.09952'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets, Multimodal Retrieval, Text Retrieval]
 short_authors: Miranda et al.
 ---
 Existing Vision-Language Compositionality (VLC) benchmarks like SugarCrepe

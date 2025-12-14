@@ -7,7 +7,7 @@ year: 2023
 bibkey: ling2023vector
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.06788'}]
-tags: ["Quantization"]
+tags: [Quantization]
 short_authors: Chih Wei Ling, Cheuk Ting Li
 ---
 For uniform scalar quantization, the error distribution is approximately a

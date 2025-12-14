@@ -8,7 +8,7 @@ bibkey: gupta2022medical
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/deepaknlp/DLS'}, {name: Paper,
     url: 'https://arxiv.org/abs/2210.02401'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Gupta et al.
 ---
 Nearest neighbor search (NNS) aims to locate the points in high-dimensional

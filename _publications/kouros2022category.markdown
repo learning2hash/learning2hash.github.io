@@ -10,7 +10,8 @@ bibkey: kouros2022category
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/gkouros/contrastive-pose-retrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2208.06195'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Robustness"]
+tags: [Evaluation, Image Retrieval, Efficiency, Distance Metric Learning, Datasets,
+  Robustness]
 short_authors: Kouros et al.
 ---
 Pose estimation is usually tackled as either a bin classification or a

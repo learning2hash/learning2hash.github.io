@@ -7,7 +7,8 @@ year: 2021
 bibkey: ko2021low
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.08919'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Quantization", "Recommender Systems"]
+tags: [Evaluation, Efficiency, Distance Metric Learning, Datasets, Quantization, Tools
+    & Libraries, Recommender Systems]
 short_authors: Ko et al.
 ---
 Fast k-Nearest Neighbor search over real-valued vector spaces (KNN) is an

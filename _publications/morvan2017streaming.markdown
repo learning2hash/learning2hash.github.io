@@ -7,7 +7,7 @@ year: 2017
 bibkey: morvan2017streaming
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.07661'}]
-tags: ["Compact Codes", "Datasets", "Similarity Search"]
+tags: [Compact Codes, Datasets, Similarity Search]
 short_authors: Morvan et al.
 ---
 In this paper, we address the problem of learning compact

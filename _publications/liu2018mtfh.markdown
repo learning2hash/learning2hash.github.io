@@ -8,7 +8,8 @@ year: 2018
 bibkey: liu2018mtfh
 citations: 191
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.01963'}]
-tags: ["Datasets", "Hashing Methods", "Memory Efficiency", "Multimodal Retrieval", "Scalability"]
+tags: [Evaluation, Datasets, Memory Efficiency, Multimodal Retrieval, Scalability,
+  Tools & Libraries, Hashing Methods]
 short_authors: Liu et al.
 ---
 Hashing has recently sparked a great revolution in cross-modal retrieval

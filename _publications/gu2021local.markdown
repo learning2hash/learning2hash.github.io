@@ -8,7 +8,8 @@ year: 2021
 bibkey: gu2021local
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.01206'}]
-tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Recommender Systems"]
+tags: [Evaluation, Re-ranking, Datasets, Scalability, Recommender Systems, Hybrid
+    ANN Methods]
 short_authors: Nianlong Gu, Yingqiang Gao, Richard H. R. Hahnloser
 ---
 The goal of local citation recommendation is to recommend a missing reference

@@ -7,7 +7,8 @@ year: 2019
 bibkey: yang2019feature
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.02325'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: [Image Retrieval, Neural Hashing, Hashing Methods, Scalability, Datasets, Evaluation,
+  Multimodal Retrieval]
 short_authors: Yang et al.
 ---
 In recent years, deep-networks-based hashing has become a leading approach

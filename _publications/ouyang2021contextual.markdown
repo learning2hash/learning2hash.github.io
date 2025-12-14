@@ -7,7 +7,7 @@ year: 2021
 bibkey: ouyang2021contextual
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.13430'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Re-Ranking", "Robustness"]
+tags: [Evaluation, Image Retrieval, Re-ranking, Datasets, Robustness, Hybrid ANN Methods]
 short_authors: Ouyang et al.
 ---
 In content-based image retrieval, the first-round retrieval result by simple

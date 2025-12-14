@@ -7,7 +7,7 @@ year: 2020
 bibkey: nascimento2020finding
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.07743'}]
-tags: ["Datasets", "Evaluation", "Quantization"]
+tags: [Evaluation, Datasets, Quantization]
 short_authors: Marcelo Gennari Do Nascimento, Theo W. Costain, Victor Adrian Prisacariu
 ---
 We propose a novel method for neural network quantization that casts the

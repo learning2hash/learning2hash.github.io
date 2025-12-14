@@ -9,7 +9,7 @@ year: 2020
 bibkey: zhao2020emotion
 citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.05103'}]
-tags: ["Datasets", "Distance Metric Learning", "Scalability"]
+tags: [Scalability, Distance Metric Learning, Datasets]
 short_authors: Zhao et al.
 ---
 Both images and music can convey rich semantics and are widely used to induce

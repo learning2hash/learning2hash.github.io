@@ -7,7 +7,7 @@ year: 2023
 bibkey: abbas2023semdedup
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.09540'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Large Scale Search", "Scalability"]
+tags: [Evaluation, Efficiency, Datasets, Scalability, Large-Scale Search]
 short_authors: Abbas et al.
 ---
 Progress in machine learning has been driven in large part by massive

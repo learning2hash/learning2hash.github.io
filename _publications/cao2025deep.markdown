@@ -8,7 +8,8 @@ year: 2025
 bibkey: cao2025deep
 citations: 265
 additional_links: [{name: Paper, url: 'http://www.kdd.org/kdd2016/papers/files/rpp0086-caoA.pdf'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing"]
+tags: [Compact Codes, Neural Hashing, Efficiency, Similarity Search, Datasets, Multimodal
+    Retrieval, Scalability, Hashing Methods, KDD]
 short_authors: Cao et al.
 ---
 Due to the storage and retrieval efficiency, hashing has been

@@ -8,7 +8,7 @@ year: 2024
 bibkey: li2024procqa
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.16702'}]
-tags: ["Datasets", "Evaluation", "Scalability"]
+tags: [Scalability, Evaluation, Datasets]
 short_authors: Li et al.
 ---
 Retrieval-based code question answering seeks to match user queries in

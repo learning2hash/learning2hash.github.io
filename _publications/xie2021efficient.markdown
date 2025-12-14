@@ -7,7 +7,7 @@ year: 2021
 bibkey: xie2021efficient
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.00705'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Tools & Libraries"]
+tags: [Distance Metric Learning, Tools & Libraries, Datasets, Efficiency]
 short_authors: Xie et al.
 ---
 This paper introduces a two-phase deep feature calibration framework for

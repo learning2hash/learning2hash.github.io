@@ -8,7 +8,8 @@ year: 2016
 bibkey: pham2016scalability
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.02620'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Similarity Search"]
+tags: [Evaluation, Similarity Search, Scalability, Hashing Methods, Locality Sensitive
+    Hashing, CIKM]
 short_authors: Ninh Pham, Rasmus Pagh
 ---
 Locality-sensitive hashing (LSH) has emerged as the dominant algorithmic

@@ -9,7 +9,7 @@ bibkey: dou2022coarse
 citations: 67
 additional_links: [{name: Code, url: 'https://github.com/microsoft/FIBER'}, {name: Paper,
     url: 'https://arxiv.org/abs/2206.07643'}]
-tags: ["Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation]
 short_authors: Dou et al.
 ---
 Vision-language (VL) pre-training has recently received considerable

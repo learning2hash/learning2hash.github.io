@@ -7,7 +7,7 @@ year: 2016
 bibkey: chamberlain2016real
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1601.03958'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
+tags: [Evaluation, Efficiency, Scalability, Hashing Methods, Locality Sensitive Hashing]
 short_authors: Chamberlain et al.
 ---
 For a broad range of research, governmental and commercial applications it is

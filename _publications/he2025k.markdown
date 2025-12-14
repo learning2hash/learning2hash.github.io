@@ -7,7 +7,7 @@ year: 2025
 bibkey: he2025k
 citations: 33
 additional_links: [{name: Paper, url: 'http://openaccess.thecvf.com/content_CVPR_2019/papers/He_K-Nearest_Neighbors_Hashing_CVPR_2019_paper.pdf'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Similarity Search"]
+tags: [Compact Codes, Evaluation, Similarity Search, Datasets, CVPR, Hashing Methods]
 short_authors: Xiangyu He, Wang, Cheng
 ---
 Hashing based approximate nearest neighbor search embeds high dimensional data to compact binary codes, which

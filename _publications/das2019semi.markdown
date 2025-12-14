@@ -8,7 +8,7 @@ year: 2019
 bibkey: das2019semi
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.02950'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Tools & Libraries"]
+tags: [Evaluation, Supervised, Image Retrieval, Datasets, Tools & Libraries]
 short_authors: Das et al.
 ---
 We introduce a novel deep neural network architecture that links visual

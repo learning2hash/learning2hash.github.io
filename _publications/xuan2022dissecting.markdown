@@ -7,7 +7,7 @@ year: 2022
 bibkey: xuan2022dissecting
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.11307'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
+tags: [Distance Metric Learning, Image Retrieval, Datasets]
 short_authors: Hong Xuan, Robert Pless
 ---
 Pair-wise loss is an approach to metric learning that learns a semantic

@@ -7,7 +7,7 @@ year: 2025
 bibkey: hashemian2025almost
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.07995'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing]
 short_authors: Sajjad Hashemian
 ---
 In this paper, we propose a method for density-based clustering in

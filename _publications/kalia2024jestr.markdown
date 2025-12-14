@@ -8,7 +8,7 @@ year: 2024
 bibkey: kalia2024jestr
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.14464'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: [Evaluation, Distance Metric Learning, Datasets]
 short_authors: Apurva Kalia, Dilip Krishnan, Soha Hassoun
 ---
 Motivation: A major challenge in metabolomics is annotation: assigning

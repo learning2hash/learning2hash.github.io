@@ -7,7 +7,7 @@ year: 2016
 bibkey: wang2016image
 citations: 262
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.00790'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Wang et al.
 ---
 This work presents an end-to-end trainable deep bidirectional LSTM

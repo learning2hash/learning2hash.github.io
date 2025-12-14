@@ -7,7 +7,7 @@ year: 2016
 bibkey: kim2016visual
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.07859'}]
-tags: ["Datasets", "Image Retrieval", "Scalability"]
+tags: [Scalability, Image Retrieval, Datasets]
 short_authors: Kim et al.
 ---
 We build a large-scale visual search system which finds similar product

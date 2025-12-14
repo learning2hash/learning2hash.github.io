@@ -7,7 +7,8 @@ year: 2019
 bibkey: lassance2019improved
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.02961'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Image Retrieval", "Scalability"]
+tags: [Evaluation, Image Retrieval, Graph-based ANN, Datasets, Scalability, Tools
+    & Libraries]
 short_authors: Lassance et al.
 ---
 Vision based localization is the problem of inferring the pose of the camera

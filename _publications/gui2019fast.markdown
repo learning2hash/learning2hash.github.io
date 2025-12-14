@@ -7,7 +7,7 @@ year: 2019
 bibkey: gui2019fast
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.03556'}]
-tags: ["Hashing Methods", "Supervised"]
+tags: [Hashing Methods, Supervised]
 short_authors: Gui et al.
 ---
 Learning-based hashing algorithms are ``hot topics" because they can greatly

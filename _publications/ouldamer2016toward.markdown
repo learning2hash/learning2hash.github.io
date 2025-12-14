@@ -7,7 +7,7 @@ year: 2016
 bibkey: ouldamer2016toward
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.06991'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: Nawal Ould-Amer, Philippe Mulhem, Mathias Gery
 ---
 This paper presents preliminary works on using Word Embedding (word2vec) for

@@ -7,7 +7,8 @@ year: 2019
 bibkey: wang2019supervised
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.00617'}]
-tags: ["Datasets", "Quantization", "Similarity Search", "Supervised", "Unsupervised"]
+tags: [Supervised, Similarity Search, Datasets, Quantization, Unsupervised, Hashing
+    Methods]
 short_authors: Wang et al.
 ---
 In this paper, we address the problem of searching for semantically similar

@@ -8,7 +8,7 @@ year: 2019
 bibkey: ilharco2019large
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.08782'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Scalability"]
+tags: [Scalability, Distance Metric Learning, Evaluation, Datasets]
 short_authors: Gabriel Ilharco, Yuan Zhang, Jason Baldridge
 ---
 Systems that can associate images with their spoken audio captions are an

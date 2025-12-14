@@ -8,7 +8,7 @@ year: 2023
 bibkey: chokshi2023sigscatnet
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.05579'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Neural Hashing", "Tools & Libraries"]
+tags: [Evaluation, Neural Hashing, Efficiency, Datasets, Tools & Libraries]
 short_authors: Chokshi et al.
 ---
 The surge in counterfeit signatures has inflicted widespread inconveniences

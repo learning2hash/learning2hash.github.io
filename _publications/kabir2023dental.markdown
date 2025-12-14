@@ -8,7 +8,7 @@ year: 2023
 bibkey: kabir2023dental
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.15651'}]
-tags: ["Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Image Retrieval, Tools & Libraries]
 short_authors: Kabir et al.
 ---
 Learning about diagnostic features and related clinical information from

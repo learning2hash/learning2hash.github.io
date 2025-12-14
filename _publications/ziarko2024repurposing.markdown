@@ -9,7 +9,7 @@ year: 2024
 bibkey: ziarko2024repurposing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.04165'}]
-tags: ["NEURIPS", "Text Retrieval"]
+tags: [Text Retrieval, NeurIPS]
 short_authors: Ziarko et al.
 ---
 Text embeddings are essential for many tasks, such as document retrieval,

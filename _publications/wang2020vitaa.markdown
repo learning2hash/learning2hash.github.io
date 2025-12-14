@@ -7,7 +7,7 @@ year: 2020
 bibkey: wang2020vitaa
 citations: 184
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.07327'}]
-tags: ["Evaluation", "Scalability", "Self-Supervised", "Tools & Libraries"]
+tags: [Scalability, Self-Supervised, Tools & Libraries, Evaluation]
 short_authors: Wang et al.
 ---
 Person search by natural language aims at retrieving a specific person in a

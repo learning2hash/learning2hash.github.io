@@ -8,7 +8,7 @@ year: 2019
 bibkey: mulhem2019quels
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.07317'}]
-tags: ["Tools & Libraries"]
+tags: [Tools & Libraries]
 short_authors: Mulhem et al.
 ---
 We describe here an experimental framework and the results obtained on

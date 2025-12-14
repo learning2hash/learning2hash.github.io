@@ -7,7 +7,7 @@ year: 2017
 bibkey: balntas2017hpatches
 citations: 72
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.05939'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Neural Hashing"]
+tags: [Evaluation, CVPR, Datasets, Neural Hashing]
 short_authors: Balntas et al.
 ---
 In this paper, we propose a novel benchmark for evaluating local image

@@ -8,7 +8,7 @@ year: 2018
 bibkey: oh2018modeling
 citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.00319'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: [Evaluation, Distance Metric Learning, Datasets]
 short_authors: Oh et al.
 ---
 Instance embeddings are an efficient and versatile image representation that

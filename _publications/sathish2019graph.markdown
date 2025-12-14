@@ -7,7 +7,7 @@ year: 2019
 bibkey: sathish2019graph
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.09454'}]
-tags: ["Evaluation", "Graph Based ANN", "Neural Hashing", "Recommender Systems"]
+tags: [Evaluation, Graph-based ANN, Recommender Systems, Neural Hashing]
 short_authors: Sathish et al.
 ---
 Item recommendation tasks are a widely studied topic. Recent developments in

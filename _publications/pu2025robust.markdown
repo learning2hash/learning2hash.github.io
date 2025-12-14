@@ -8,7 +8,8 @@ year: 2025
 bibkey: pu2025robust
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.01699'}]
-tags: ["AAAI", "Efficiency", "Hashing Methods", "Multimodal Retrieval", "Robustness"]
+tags: [Efficiency, Memory Efficiency, Robustness, Scalability, Multimodal Retrieval,
+  Hashing Methods, AAAI]
 short_authors: Pu et al.
 ---
 Cross-modal hashing (CMH) has appeared as a popular technique for cross-modal

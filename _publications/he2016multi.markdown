@@ -7,7 +7,7 @@ year: 2016
 bibkey: he2016multi
 citations: 33
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.04496'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: [Distance Metric Learning, Evaluation]
 short_authors: Wanjia He, Weiran Wang, Karen Livescu
 ---
 Recent work has begun exploring neural acoustic word

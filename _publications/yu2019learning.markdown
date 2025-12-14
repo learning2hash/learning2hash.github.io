@@ -9,7 +9,8 @@ bibkey: yu2019learning
 citations: 126
 additional_links: [{name: Code, url: 'https://github.com/yulu0724/EmbeddingDistillation'},
   {name: Paper, url: 'https://arxiv.org/abs/1904.03624'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Image Retrieval", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Distance Metric Learning, Datasets,
+  CVPR]
 short_authors: Yu et al.
 ---
 Metric learning networks are used to compute image embeddings, which are

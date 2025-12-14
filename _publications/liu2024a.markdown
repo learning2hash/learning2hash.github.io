@@ -7,7 +7,7 @@ year: 2024
 bibkey: liu2024a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.12048'}]
-tags: ["Evaluation", "Few Shot & Zero Shot"]
+tags: [Evaluation, Few-shot & Zero-shot]
 short_authors: Chenxi Liu, Towaki Takikawa, Alec Jacobson
 ---
 Recent advances in diffusion models and parameter-efficient fine-tuning

@@ -9,7 +9,8 @@ year: 2022
 bibkey: park2022normalized
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.11790'}]
-tags: ["Datasets", "EMNLP", "Evaluation", "Multimodal Retrieval", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Self-Supervised, Datasets, Multimodal Retrieval,
+  EMNLP]
 short_authors: Park et al.
 ---
 Cross-modal contrastive learning has led the recent advances in multimodal

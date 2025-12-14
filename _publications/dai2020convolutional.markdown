@@ -8,7 +8,8 @@ year: 2020
 bibkey: dai2020convolutional
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.11692'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "SIGIR", "Similarity Search"]
+tags: [Similarity Search, Neural Hashing, Efficiency, Distance Metric Learning, Datasets,
+  SIGIR]
 short_authors: Dai et al.
 ---
 Edit-distance-based string similarity search has many applications such as

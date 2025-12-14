@@ -8,7 +8,7 @@ year: 2021
 bibkey: fuentes2021sketch
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.11130'}]
-tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Similarity Search"]
+tags: [Evaluation, Image Retrieval, Similarity Search, Distance Metric Learning, CVPR]
 short_authors: Anibal Fuentes, Jose M. Saavedra
 ---
 Architectures based on siamese networks with triplet loss have shown

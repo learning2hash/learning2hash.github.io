@@ -8,7 +8,7 @@ year: 2024
 bibkey: lu2024brewclip
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.10383'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Datasets, Image Retrieval]
 short_authors: Zhenyu Lu, Lakshay Sethi
 ---
 Previous methods for audio-image matching generally fall into one of two

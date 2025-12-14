@@ -7,7 +7,7 @@ year: 2018
 bibkey: nickel2018learning
 citations: 61
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.03417'}]
-tags: ["Datasets", "Scalability"]
+tags: [Scalability, Datasets]
 short_authors: Maximilian Nickel, Douwe Kiela
 ---
 We are concerned with the discovery of hierarchical relationships from

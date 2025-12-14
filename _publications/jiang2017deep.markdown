@@ -7,7 +7,8 @@ year: 2017
 bibkey: jiang2017deep
 citations: 100
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.09905'}]
-tags: ["Hashing Methods", "Large Scale Search", "Neural Hashing", "Supervised", "Unsupervised"]
+tags: [Supervised, Image Retrieval, Neural Hashing, Datasets, Memory Efficiency, Scalability,
+  Unsupervised, Large-Scale Search, Tools & Libraries, Hashing Methods]
 short_authors: Qing-Yuan Jiang, Xue Cui, Wu-Jun Li
 ---
 Hashing has been widely used for large-scale search due to its low storage

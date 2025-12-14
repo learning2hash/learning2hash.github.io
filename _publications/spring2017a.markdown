@@ -8,7 +8,7 @@ year: 2017
 bibkey: spring2017a
 citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.05160'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Scalability]
 short_authors: Ryan Spring, Anshumali Shrivastava
 ---
 Log-linear models are arguably the most successful class of graphical models

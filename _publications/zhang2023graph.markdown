@@ -7,7 +7,8 @@ year: 2023
 bibkey: zhang2023graph
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.08792'}]
-tags: ["Datasets", "Distance Metric Learning", "Graph Based ANN", "Image Retrieval", "Re-Ranking"]
+tags: [Evaluation, Image Retrieval, Re-ranking, Distance Metric Learning, Graph-based
+    ANN, Datasets, Scalability, Hybrid ANN Methods]
 short_authors: Zhang et al.
 ---
 Visual retrieval tasks such as image retrieval and person re-identification

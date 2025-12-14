@@ -7,7 +7,8 @@ year: 2019
 bibkey: wray2019fine
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.03477'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "ICCV", "Multimodal Retrieval", "Video Retrieval"]
+tags: [Video Retrieval, ICCV, Few-shot & Zero-shot, Datasets, Multimodal Retrieval,
+  Scalability]
 short_authors: Wray et al.
 ---
 We address the problem of cross-modal fine-grained action retrieval between

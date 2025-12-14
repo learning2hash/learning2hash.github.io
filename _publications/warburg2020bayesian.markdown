@@ -7,7 +7,7 @@ year: 2020
 bibkey: warburg2020bayesian
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.12663'}]
-tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "ICCV", "Image Retrieval"]
+tags: [Evaluation, ICCV, Image Retrieval, Efficiency, Distance Metric Learning]
 short_authors: Warburg et al.
 ---
 Uncertainty quantification in image retrieval is crucial for downstream

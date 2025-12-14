@@ -9,7 +9,7 @@ bibkey: lin2024irsc
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/Jasaxion/IRSC_Benchmark'},
   {name: Paper, url: 'https://arxiv.org/abs/2409.15763'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
+tags: [Evaluation, Few-shot & Zero-shot, Datasets]
 short_authors: Lin et al.
 ---
 In Retrieval-Augmented Generation (RAG) tasks using Large Language Models

@@ -7,7 +7,7 @@ year: 2018
 bibkey: xu2018adversarial
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.07619'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Robustness", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Datasets, Robustness]
 short_authors: Xu et al.
 ---
 In recent year, the compact representations based on activations of

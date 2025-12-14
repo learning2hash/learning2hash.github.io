@@ -8,7 +8,7 @@ year: 2016
 bibkey: jain2016approximate
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.03308'}]
-tags: ["Evaluation", "Memory Efficiency", "Quantization"]
+tags: [Evaluation, Quantization, Memory Efficiency]
 short_authors: Jain et al.
 ---
 This paper tackles the task of storing a large collection of vectors, such as

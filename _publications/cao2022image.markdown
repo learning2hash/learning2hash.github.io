@@ -8,7 +8,7 @@ year: 2022
 bibkey: cao2022image
 citations: 74
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.14713'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Survey Paper", "Text Retrieval"]
+tags: [AAAI, Text Retrieval, Efficiency, Datasets, Survey Paper, Evaluation, IJCAI]
 short_authors: Cao et al.
 ---
 In the past few years, cross-modal image-text retrieval (ITR) has experienced

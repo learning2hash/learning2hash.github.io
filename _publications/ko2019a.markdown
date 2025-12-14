@@ -8,7 +8,8 @@ year: 2019
 bibkey: ko2019a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.11854'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Re-Ranking"]
+tags: [Evaluation, Image Retrieval, Re-ranking, Neural Hashing, Distance Metric Learning,
+  Datasets, Scalability]
 short_authors: Ko et al.
 ---
 Many studies have been performed on metric learning, which has become a key

@@ -8,7 +8,8 @@ year: 2020
 bibkey: halcrow2020grale
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.12002'}]
-tags: ["Datasets", "Hashing Methods", "KDD", "Locality-Sensitive-Hashing", "Supervised"]
+tags: [Evaluation, Supervised, Datasets, Hashing Methods, Locality Sensitive Hashing,
+  KDD]
 short_authors: Halcrow et al.
 ---
 How can we find the right graph for semi-supervised learning? In real world

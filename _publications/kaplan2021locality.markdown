@@ -7,7 +7,7 @@ year: 2021
 bibkey: kaplan2021locality
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.04339'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing]
 short_authors: Haim Kaplan, Jay Tenenbaum
 ---
 Locality Sensitive Hashing (LSH) is an effective method of indexing a set of

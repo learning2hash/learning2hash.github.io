@@ -7,7 +7,8 @@ year: 2020
 bibkey: zhan2020weakly
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.07436'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: [Supervised, Image Retrieval, Datasets, Memory Efficiency, Unsupervised, Hashing
+    Methods]
 short_authors: Zhan et al.
 ---
 With the rapid development of social websites, recent years have witnessed an

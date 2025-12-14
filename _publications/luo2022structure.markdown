@@ -8,7 +8,7 @@ bibkey: luo2022structure
 citations: 9
 additional_links: [{name: Code, url: 'https://github.com/Rowl1ng/Structure-Aware-VR-Sketch-Shape-Retrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2209.09043'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: [Evaluation, Distance Metric Learning, Datasets]
 short_authors: Luo et al.
 ---
 We study the practical task of fine-grained 3D-VR-sketch-based 3D shape

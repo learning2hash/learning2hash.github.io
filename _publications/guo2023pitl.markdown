@@ -10,7 +10,7 @@ year: 2023
 bibkey: guo2023pitl
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.07341'}]
-tags: ["Datasets", "Multimodal Retrieval", "SIGIR", "Supervised"]
+tags: [Supervised, Datasets, SIGIR, Multimodal Retrieval]
 short_authors: Guo et al.
 ---
 Vision-language (VL) Pre-training (VLP) has shown to well generalize VL

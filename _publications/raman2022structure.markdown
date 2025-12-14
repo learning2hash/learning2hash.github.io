@@ -8,7 +8,7 @@ year: 2022
 bibkey: raman2022structure
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.03720'}]
-tags: ["Datasets", "Distance Metric Learning", "SIGIR", "Text Retrieval"]
+tags: [Text Retrieval, Distance Metric Learning, SIGIR, Datasets]
 short_authors: Natraj Raman, Sameena Shah, Manuela Veloso
 ---
 Retrieving relevant documents from a corpus is typically based on the

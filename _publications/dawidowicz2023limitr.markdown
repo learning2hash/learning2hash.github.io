@@ -7,7 +7,7 @@ year: 2023
 bibkey: dawidowicz2023limitr
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.11755'}]
-tags: ["ICCV", "Image Retrieval"]
+tags: [ICCV, Image Retrieval]
 short_authors: Gefen Dawidowicz, Elad Hirsch, Ayellet Tal
 ---
 Medical imaging analysis plays a critical role in the diagnosis and treatment

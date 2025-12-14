@@ -7,7 +7,8 @@ year: 2017
 bibkey: huang2017unsupervised
 citations: 58
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.08798'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: [Supervised, Image Retrieval, Datasets, Quantization, Scalability, Unsupervised,
+  Hashing Methods]
 short_authors: Huang et al.
 ---
 Hashing has played a pivotal role in large-scale image retrieval. With the

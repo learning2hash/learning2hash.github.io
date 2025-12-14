@@ -8,7 +8,8 @@ year: 2020
 bibkey: luo2020cimon
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.07804'}]
-tags: ["Efficiency", "Hashing Methods", "Robustness", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Efficiency, Datasets, Robustness, Unsupervised, Hashing
+    Methods]
 short_authors: Luo et al.
 ---
 Recently, hashing is widely used in approximate nearest neighbor search for

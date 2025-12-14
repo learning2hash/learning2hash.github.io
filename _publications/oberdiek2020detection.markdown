@@ -8,7 +8,7 @@ year: 2020
 bibkey: oberdiek2020detection
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.06831'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval", "Neural Hashing"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Datasets, CVPR]
 short_authors: Philipp Oberdiek, Matthias Rottmann, Gernot A. Fink
 ---
 When deploying deep learning technology in self-driving cars, deep neural

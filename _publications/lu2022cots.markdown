@@ -8,7 +8,8 @@ year: 2022
 bibkey: lu2022cots
 citations: 61
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.07441'}]
-tags: ["Datasets", "Efficiency", "Multimodal Retrieval", "Text Retrieval", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Efficiency, Self-Supervised, Datasets, Multimodal
+    Retrieval, Scalability, CVPR, Text Retrieval]
 short_authors: Lu et al.
 ---
 Large-scale single-stream pre-training has shown dramatic performance in

@@ -10,7 +10,7 @@ bibkey: iturrabocaz2025rivertext
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/dccuchile/rivertext'}, {
     name: Paper, url: 'https://arxiv.org/abs/2506.23192'}]
-tags: ["Evaluation", "SIGIR", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, SIGIR]
 short_authors: Gabriel Iturra-Bocaz, Felipe Bravo-Marquez
 ---
 Word embeddings have become essential components in various information retrieval and natural language processing tasks, such as ranking, document classification, and question answering. However, despite their widespread use, traditional word embedding models present a limitation in their static nature, which hampers their ability to adapt to the constantly evolving language patterns that emerge in sources such as social media and the web (e.g., new hashtags or brand names). To overcome this problem, incremental word embedding algorithms are introduced, capable of dynamically updating word representations in response to new language patterns and processing continuous data streams.

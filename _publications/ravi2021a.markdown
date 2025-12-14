@@ -8,7 +8,7 @@ year: 2021
 bibkey: ravi2021a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.08665'}]
-tags: ["Efficiency", "Evaluation", "Neural Hashing", "Tools & Libraries"]
+tags: [Evaluation, Neural Hashing, Tools & Libraries, Efficiency]
 short_authors: Ambareesh Ravi, Amith Nandakumar
 ---
 We propose a novel, efficient, modular and scalable framework for content

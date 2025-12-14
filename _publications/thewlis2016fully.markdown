@@ -7,7 +7,7 @@ year: 2016
 bibkey: thewlis2016fully
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.03532'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Thewlis et al.
 ---
 Deep Matching (DM) is a popular high-quality method for quasi-dense image

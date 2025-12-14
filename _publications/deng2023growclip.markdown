@@ -9,7 +9,7 @@ year: 2023
 bibkey: deng2023growclip
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.11331'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "ICCV", "Image Retrieval"]
+tags: [Evaluation, ICCV, Image Retrieval, Few-shot & Zero-shot, Datasets, Scalability]
 short_authors: Deng et al.
 ---
 Cross-modal pre-training has shown impressive performance on a wide range of

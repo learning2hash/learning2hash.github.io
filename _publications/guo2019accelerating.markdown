@@ -8,7 +8,7 @@ year: 2019
 bibkey: guo2019accelerating
 citations: 111
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.10396'}]
-tags: ["Evaluation", "Quantization", "Scalability"]
+tags: [Scalability, Evaluation, Quantization]
 short_authors: Guo et al.
 ---
 Quantization based techniques are the current state-of-the-art for scaling

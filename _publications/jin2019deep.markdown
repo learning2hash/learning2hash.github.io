@@ -8,7 +8,8 @@ year: 2019
 bibkey: jin2019deep
 citations: 109
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.02662'}]
-tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Text Retrieval"]
+tags: [Neural Hashing, Efficiency, Multimodal Retrieval, Scalability, Tools & Libraries,
+  Hashing Methods, Text Retrieval]
 short_authors: Lu Jin, Zechao Li, Jinhui Tang
 ---
 Hashing has been widely applied to multimodal retrieval on large-scale

@@ -7,7 +7,7 @@ year: 2024
 bibkey: cui2024mvam
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.17237'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Cui et al.
 ---
 Existing two-stream models, such as CLIP, encode images and text through

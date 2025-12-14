@@ -9,7 +9,7 @@ year: 2023
 bibkey: doostmohammadi2023surface
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.16243'}]
-tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
+tags: [Evaluation, Re-ranking, Datasets, Hybrid ANN Methods, ACL]
 short_authors: Doostmohammadi et al.
 ---
 Augmenting language models with a retrieval mechanism has been shown to

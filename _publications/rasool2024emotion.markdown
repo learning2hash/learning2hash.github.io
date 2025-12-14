@@ -9,7 +9,7 @@ year: 2024
 bibkey: rasool2024emotion
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.01306'}]
-tags: ["AAAI", "Similarity Search", "Tools & Libraries"]
+tags: [AAAI, Tools & Libraries, Similarity Search]
 short_authors: Rasool et al.
 ---
 Empathetic and coherent responses are critical in auto-mated

@@ -8,7 +8,7 @@ year: 2024
 bibkey: patel2024acorn
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.04871'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN"]
+tags: [Evaluation, Graph-based ANN, Datasets]
 short_authors: Patel et al.
 ---
 Applications increasingly leverage mixed-modality data, and must jointly

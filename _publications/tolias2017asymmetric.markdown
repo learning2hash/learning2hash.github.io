@@ -7,7 +7,7 @@ year: 2017
 bibkey: tolias2017asymmetric
 citations: 39
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.03946'}]
-tags: ["CVPR", "Efficiency", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, CVPR, Image Retrieval, Efficiency]
 short_authors: "Giorgos Tolias, Ond\u0159ej Chum"
 ---
 We propose a novel concept of asymmetric feature maps (AFM), which allows to

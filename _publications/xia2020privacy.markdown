@@ -7,7 +7,7 @@ year: 2020
 bibkey: xia2020privacy
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.06893'}]
-tags: ["Efficiency", "Image Retrieval"]
+tags: [Image Retrieval, Efficiency]
 short_authors: Xia et al.
 ---
 The rapid growth of digital images motivates individuals and organizations to

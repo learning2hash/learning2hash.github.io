@@ -7,7 +7,8 @@ year: 2022
 bibkey: yang2022fedhap
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.05525'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Memory Efficiency", "Neural Hashing"]
+tags: [Evaluation, Neural Hashing, Efficiency, Datasets, Memory Efficiency, Scalability,
+  Tools & Libraries, Hashing Methods]
 short_authors: Yang et al.
 ---
 Deep hashing has been widely applied in large-scale data retrieval due to its

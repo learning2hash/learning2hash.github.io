@@ -8,7 +8,7 @@ year: 2025
 bibkey: jain2025hashing
 citations: 42
 additional_links: [{name: Paper, url: 'https://papers.nips.cc/paper/4088-hashing-hyperplane-queries-to-near-points-with-applications-to-large-scale-active-learning.pdf'}]
-tags: ["Hashing Methods", "Scalability"]
+tags: [Hashing Methods, Scalability]
 short_authors: P. Jain, Vijayanarasimhan, Grauman
 ---
 We consider the problem of retrieving the database points nearest to a given hyperplane query without exhaustively scanning the 

@@ -7,7 +7,7 @@ year: 2019
 bibkey: mane2019complementary
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.09928'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Recommender Systems, Datasets]
 short_authors: Mansi Ranjit Mane, Stephen Guo, Kannan Achan
 ---
 We propose a novel learning framework to answer questions such as "if a user

@@ -7,7 +7,7 @@ year: 2019
 bibkey: he2019view
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.01958'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "ICCV", "Tools & Libraries"]
+tags: [Evaluation, ICCV, Efficiency, Datasets, Tools & Libraries]
 short_authors: He et al.
 ---
 How to aggregate multi-view representations of a 3D object into an

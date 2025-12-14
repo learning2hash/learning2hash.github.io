@@ -8,7 +8,7 @@ year: 2022
 bibkey: huang2022mulan
 citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.12415'}]
-tags: ["Few Shot & Zero Shot", "Multimodal Retrieval"]
+tags: [Few-shot & Zero-shot, Multimodal Retrieval]
 short_authors: Huang et al.
 ---
 Music tagging and content-based retrieval systems have traditionally been

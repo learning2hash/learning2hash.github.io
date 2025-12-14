@@ -7,7 +7,7 @@ year: 2024
 bibkey: kubota2024impression
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.16350'}]
-tags: ["Multimodal Retrieval", "Robustness"]
+tags: [Robustness, Multimodal Retrieval]
 short_authors: Yugo Kubota, Daichi Haraguchi, Seiichi Uchida
 ---
 Fonts convey different impressions to readers. These impressions often come

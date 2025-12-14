@@ -9,7 +9,7 @@ year: 2025
 bibkey: scheerer2025warp
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.17788'}]
-tags: ["Efficiency", "SIGIR"]
+tags: [SIGIR, Efficiency]
 short_authors: Scheerer et al.
 ---
 Multi-vector retrieval methods such as ColBERT and its recent variant, the

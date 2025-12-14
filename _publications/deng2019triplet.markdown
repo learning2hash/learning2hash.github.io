@@ -7,7 +7,8 @@ year: 2019
 bibkey: deng2019triplet
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.02449'}]
-tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Similarity Search"]
+tags: [Evaluation, Efficiency, Neural Hashing, Similarity Search, Datasets, Multimodal
+    Retrieval, Hashing Methods]
 short_authors: Deng et al.
 ---
 Given the benefits of its low storage requirements and high retrieval

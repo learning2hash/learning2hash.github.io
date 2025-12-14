@@ -8,7 +8,7 @@ year: 2020
 bibkey: weir2020cod3s
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.02882'}]
-tags: ["EMNLP", "Evaluation", "Locality-Sensitive-Hashing"]
+tags: [EMNLP, Locality Sensitive Hashing, Evaluation]
 short_authors: "Nathaniel Weir, Jo\xE3o Sedoc, Benjamin van Durme"
 ---
 We present COD3S, a novel method for generating semantically diverse

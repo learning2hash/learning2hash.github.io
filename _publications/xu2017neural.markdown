@@ -9,7 +9,7 @@ year: 2017
 bibkey: xu2017neural
 citations: 467
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.06525'}]
-tags: ["Compact Codes", "Evaluation", "Neural Hashing"]
+tags: [Compact Codes, Evaluation, Neural Hashing]
 short_authors: Xu et al.
 ---
 The problem of cross-platform binary code similarity detection aims at

@@ -7,7 +7,8 @@ year: 2021
 bibkey: schiavo2021sketches
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.01147'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: [Evaluation, Image Retrieval, Similarity Search, Datasets, Hashing Methods,
+  Locality Sensitive Hashing]
 short_authors: Schiavo et al.
 ---
 The adoption of an appropriate approximate similarity search method is an

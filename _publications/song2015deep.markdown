@@ -7,7 +7,7 @@ year: 2015
 bibkey: song2015deep
 citations: 144
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1511.06452'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning"]
+tags: [Distance Metric Learning, CVPR, Datasets]
 short_authors: Song et al.
 ---
 Learning the distance metric between pairs of examples is of great importance

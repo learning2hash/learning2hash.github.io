@@ -9,7 +9,8 @@ bibkey: shrivastava2021clip
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/4m4n5/CLIP-Lite'}, {name: Paper,
     url: 'https://arxiv.org/abs/2112.07133'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Self-Supervised", "Supervised", "Text Retrieval"]
+tags: [Evaluation, Supervised, Few-shot & Zero-shot, Self-Supervised, Datasets, Text
+    Retrieval]
 short_authors: Shrivastava et al.
 ---
 We propose CLIP-Lite, an information efficient method for visual

@@ -7,7 +7,7 @@ year: 2019
 bibkey: mitra2019multiview
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.05293'}]
-tags: ["Datasets", "Evaluation", "Supervised", "Tools & Libraries"]
+tags: [Evaluation, Supervised, Tools & Libraries, Datasets]
 short_authors: Mitra et al.
 ---
 The best performing methods for 3D human pose estimation from monocular

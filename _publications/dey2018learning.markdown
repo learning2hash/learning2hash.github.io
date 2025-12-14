@@ -9,7 +9,7 @@ year: 2018
 bibkey: dey2018learning
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.10819'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: [Image Retrieval, Datasets]
 short_authors: Dey et al.
 ---
 In this work we introduce a cross modal image retrieval system that allows

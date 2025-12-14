@@ -7,7 +7,7 @@ year: 2019
 bibkey: mithun2019weakly
 citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.03282'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Supervised", "Tools & Libraries"]
+tags: [Evaluation, Supervised, Datasets, CVPR, Tools & Libraries]
 short_authors: Niluthpol Chowdhury Mithun, Sujoy Paul, Amit K. Roy-Chowdhury
 ---
 There have been a few recent methods proposed in text to video moment

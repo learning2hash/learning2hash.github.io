@@ -8,7 +8,7 @@ year: 2024
 bibkey: cao2024rap
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.19465'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Datasets, Scalability, ACL]
 short_authors: Cao et al.
 ---
 Text-Video Retrieval (TVR) aims to align relevant video content with natural

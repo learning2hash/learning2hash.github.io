@@ -8,7 +8,7 @@ bibkey: liao2021graph
 citations: 9
 additional_links: [{name: Code, url: 'https://github.com/ShengcaiLiao/QAConv'}, {
     name: Paper, url: 'https://arxiv.org/abs/2104.01546'}]
-tags: ["Distance Metric Learning", "Efficiency", "Graph Based ANN", "Scalability"]
+tags: [Scalability, Distance Metric Learning, Graph-based ANN, Efficiency]
 short_authors: Shengcai Liao, Ling Shao
 ---
 Recent studies show that, both explicit deep feature matching as well as

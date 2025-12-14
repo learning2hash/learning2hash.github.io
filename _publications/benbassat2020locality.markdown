@@ -8,7 +8,7 @@ year: 2020
 bibkey: benbassat2020locality
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.01128'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing]
 short_authors: Ilan Ben-Bassat, Erez Rokah
 ---
 Web application security has become a major concern in recent years, as more

@@ -8,7 +8,7 @@ bibkey: jiang2022comclip
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/eric-ai-lab/ComCLIP'}, {
     name: Paper, url: 'https://arxiv.org/abs/2211.13854'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Few-shot & Zero-shot, Datasets]
 short_authors: Jiang et al.
 ---
 Contrastive Language-Image Pretraining (CLIP) has demonstrated great

@@ -7,7 +7,7 @@ year: 2021
 bibkey: chen2021efficient
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.09127'}]
-tags: ["Efficiency", "Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Efficiency]
 short_authors: Lingjiao Chen, Matei Zaharia, James Zou
 ---
 Multi-label classification tasks such as OCR and multi-object recognition are

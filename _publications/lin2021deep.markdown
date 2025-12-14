@@ -8,7 +8,8 @@ year: 2021
 bibkey: lin2021deep
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.07094'}]
-tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised", "Unsupervised"]
+tags: [Image Retrieval, Neural Hashing, Hashing Methods, CIKM, Efficiency, Supervised,
+  Datasets, Unsupervised, Evaluation]
 short_authors: Lin et al.
 ---
 Hashing technology has been widely used in image retrieval due to its

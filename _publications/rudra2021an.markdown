@@ -8,7 +8,7 @@ year: 2021
 bibkey: rudra2021an
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.16669'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets, Efficiency]
 short_authors: Koustav Rudra, Zeon Trevor Fernando, Avishek Anand
 ---
 Pre-trained contextual language models such as BERT, GPT, and XLnet work

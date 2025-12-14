@@ -7,7 +7,7 @@ year: 2017
 bibkey: svenstrup2017hash
 citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.03933'}]
-tags: ["Evaluation", "Hashing Methods"]
+tags: [Hashing Methods, Evaluation]
 short_authors: Dan Svenstrup, Jonas Meinertz Hansen, Ole Winther
 ---
 We present hash embeddings, an efficient method for representing words in a

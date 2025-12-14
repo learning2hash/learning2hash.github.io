@@ -8,7 +8,8 @@ year: 2024
 bibkey: dubey2024transformer
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.15362'}]
-tags: ["Image Retrieval", "Quantization", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Self-Supervised, Datasets, Quantization,
+  Unsupervised, Hashing Methods]
 short_authors: Dubey et al.
 ---
 Unsupervised image retrieval aims to learn the important visual

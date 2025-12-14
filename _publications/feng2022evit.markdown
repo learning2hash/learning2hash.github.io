@@ -10,7 +10,8 @@ bibkey: feng2022evit
 citations: 26
 additional_links: [{name: Code, url: 'https://github.com/onlinehuazai/EViT'}, {name: Paper,
     url: 'https://arxiv.org/abs/2208.14657'}]
-tags: ["Image Retrieval", "Privacy & Security", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Privacy & Security, Evaluation, Supervised, Image Retrieval, Efficiency, Self-Supervised,
+  Unsupervised]
 short_authors: Feng et al.
 ---
 Image retrieval systems help users to browse and search among extensive

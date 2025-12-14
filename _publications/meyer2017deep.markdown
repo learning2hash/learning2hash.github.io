@@ -8,7 +8,7 @@ year: 2017
 bibkey: meyer2017deep
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.09780'}]
-tags: ["Datasets", "Distance Metric Learning", "Similarity Search"]
+tags: [Distance Metric Learning, Datasets, Similarity Search]
 short_authors: Benjamin J. Meyer, Ben Harwood, Tom Drummond
 ---
 We present a Gaussian kernel loss function and training algorithm for

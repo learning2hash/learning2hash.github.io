@@ -8,7 +8,7 @@ year: 2023
 bibkey: chatzigeorgakidis2023accelerating
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.09864'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hybrid ANN Methods", "Vector Indexing"]
+tags: [Evaluation, Efficiency, Vector Indexing, Datasets, Hybrid ANN Methods]
 short_authors: Chatzigeorgakidis et al.
 ---
 Efficiently computing spatio-textual queries has become increasingly

@@ -8,7 +8,7 @@ year: 2023
 bibkey: chen2023bipartite
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.00241'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Recommender Systems"]
+tags: [Evaluation, Efficiency, Datasets, Hashing Methods, Recommender Systems]
 short_authors: Chen et al.
 ---
 Searching on bipartite graphs is basal and versatile to many real-world Web

@@ -9,7 +9,7 @@ bibkey: saberi2024drew
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/mehrdadsaberi/DREW'}, {name: Paper,
     url: 'https://arxiv.org/abs/2406.02836'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Similarity Search"]
+tags: [Evaluation, Similarity Search, Datasets, Efficiency]
 short_authors: Saberi et al.
 ---
 Identifying the origin of data is crucial for data provenance, with

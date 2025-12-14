@@ -9,7 +9,7 @@ year: 2020
 bibkey: bui2020self
 citations: 89
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.02731'}]
-tags: ["SIGIR", "Self-Supervised", "Supervised", "Tools & Libraries"]
+tags: [Self-Supervised, Supervised, Tools & Libraries, SIGIR]
 short_authors: Nghi D. Q. Bui, Yijun Yu, Lingxiao Jiang
 ---
 We propose Corder, a self-supervised contrastive learning framework for

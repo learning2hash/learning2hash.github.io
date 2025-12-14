@@ -7,7 +7,7 @@ year: 2019
 bibkey: hamann2019hamming
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.05541'}]
-tags: ["Evaluation", "Hashing Methods"]
+tags: [Hashing Methods, Evaluation]
 short_authors: Felix Hamann, Nadja Kurz, Adrian Ulges
 ---
 In retrieval applications, binary hashes are known to offer significant

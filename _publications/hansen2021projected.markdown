@@ -8,7 +8,7 @@ year: 2021
 bibkey: hansen2021projected
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.14455'}]
-tags: ["Hashing Methods", "Recommender Systems"]
+tags: [Hashing Methods, Recommender Systems]
 short_authors: Hansen et al.
 ---
 When reasoning about tasks that involve large amounts of data, a common

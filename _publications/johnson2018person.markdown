@@ -8,7 +8,7 @@ year: 2018
 bibkey: johnson2018person
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.10630'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Scalability"]
+tags: [Scalability, Distance Metric Learning, Evaluation, Datasets]
 short_authors: Johnson et al.
 ---
 Person re-identification (re-ID) aims to accurately re- trieve a person from

@@ -7,7 +7,7 @@ year: 2024
 bibkey: salvatori2024associative
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.10814'}]
-tags: ["Datasets", "Distance Metric Learning"]
+tags: [Distance Metric Learning, Datasets]
 short_authors: Salvatori et al.
 ---
 An autoassociative memory model is a function that, given a set of data

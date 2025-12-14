@@ -7,7 +7,7 @@ year: 2021
 bibkey: li2021multi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.02741'}]
-tags: ["Datasets", "Evaluation", "Supervised"]
+tags: [Evaluation, Supervised, Datasets]
 short_authors: Li et al.
 ---
 Video moment retrieval aims to search the moment most relevant to a given

@@ -9,7 +9,8 @@ year: 2023
 bibkey: zhang2023cafe
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.03256'}]
-tags: ["Datasets", "Efficiency", "Memory Efficiency", "Recommender Systems", "Scalability"]
+tags: [Neural Hashing, Efficiency, Datasets, Memory Efficiency, Scalability, Tools
+    & Libraries, Recommender Systems]
 short_authors: Zhang et al.
 ---
 Recently, the growing memory demands of embedding tables in Deep Learning

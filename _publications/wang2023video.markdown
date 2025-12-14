@@ -8,7 +8,7 @@ bibkey: wang2023video
 citations: 6
 additional_links: [{name: Code, url: 'https://github.com/yimuwangcs/Better_Cross_Modal_Retrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2302.09473'}]
-tags: ["EMNLP", "Evaluation", "Supervised", "Text Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Supervised, Tools & Libraries, Text Retrieval, EMNLP, ACL]
 short_authors: Yimu Wang, Peng Shi
 ---
 While recent progress in video-text retrieval has been advanced by the

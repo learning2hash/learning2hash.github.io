@@ -8,7 +8,7 @@ year: 2024
 bibkey: jouanneau2024skill
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.12097'}]
-tags: ["Distance Metric Learning"]
+tags: [Distance Metric Learning]
 short_authors: Warren Jouanneau, Marc Palyart, Emma Jouffroy
 ---
 Finding the perfect match between a job proposal and a set of freelancers is

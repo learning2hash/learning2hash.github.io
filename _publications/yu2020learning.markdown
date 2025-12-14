@@ -8,7 +8,7 @@ year: 2020
 bibkey: yu2020learning
 citations: 58
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.08558'}]
-tags: ["Datasets", "Self-Supervised", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: [Supervised, Self-Supervised, Datasets, Tools & Libraries, Unsupervised]
 short_authors: Yu et al.
 ---
 To learn intrinsic low-dimensional structures from high-dimensional data that

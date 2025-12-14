@@ -7,7 +7,7 @@ year: 2024
 bibkey: lerner2024cross
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.05736'}]
-tags: ["Datasets", "Multimodal Retrieval"]
+tags: [Datasets, Multimodal Retrieval]
 short_authors: Paul Lerner, Olivier Ferret, Camille Guinaudeau
 ---
 Knowledge-based Visual Question Answering about Named Entities is a

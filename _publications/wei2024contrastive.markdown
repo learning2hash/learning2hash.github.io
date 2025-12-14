@@ -8,7 +8,7 @@ year: 2024
 bibkey: wei2024contrastive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.05711'}]
-tags: ["Datasets", "Hashing Methods", "Multimodal Retrieval", "Self-Supervised", "Supervised"]
+tags: [Supervised, Self-Supervised, Datasets, Multimodal Retrieval, Hashing Methods]
 short_authors: Wei et al.
 ---
 Implementing cross-modal hashing between 2D images and 3D point-cloud data is

@@ -8,7 +8,7 @@ year: 2024
 bibkey: mccauley2024improved
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.02468'}]
-tags: ["Distance Metric Learning", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Distance Metric Learning, Efficiency]
 short_authors: Samuel McCauley
 ---
 Approximate nearest neighbor search (ANN) data structures have widespread

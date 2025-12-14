@@ -7,7 +7,7 @@ year: 2018
 bibkey: kim2018attention
 citations: 232
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.00382'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: [Distance Metric Learning, Image Retrieval, Evaluation]
 short_authors: Kim et al.
 ---
 Deep metric learning aims to learn an embedding function, modeled as deep

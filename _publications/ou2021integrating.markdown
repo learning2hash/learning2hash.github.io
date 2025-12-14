@@ -9,7 +9,8 @@ year: 2021
 bibkey: ou2021integrating
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.13066'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Memory Efficiency", "Text Retrieval"]
+tags: [Hashing Methods, Scalability, Memory Efficiency, Text Retrieval, ACL, Efficiency,
+  Datasets, Evaluation]
 short_authors: Ou et al.
 ---
 With the need of fast retrieval speed and small memory footprint, document

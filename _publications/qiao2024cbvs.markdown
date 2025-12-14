@@ -10,7 +10,7 @@ bibkey: qiao2024cbvs
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/QQBrowserVideoSearch/CBVS-UniCLIP'},
   {name: Paper, url: 'https://arxiv.org/abs/2401.10475'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Image Retrieval, Datasets, Scalability]
 short_authors: Qiao et al.
 ---
 Vision-Language Models pre-trained on large-scale image-text datasets have

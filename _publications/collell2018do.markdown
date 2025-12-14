@@ -8,7 +8,7 @@ year: 2018
 bibkey: collell2018do
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.07616'}]
-tags: ["Evaluation"]
+tags: [Evaluation, ACL]
 short_authors: Guillem Collell, Marie-Francine Moens
 ---
 Feed-forward networks are widely used in cross-modal applications to bridge

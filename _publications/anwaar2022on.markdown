@@ -8,7 +8,8 @@ year: 2022
 bibkey: anwaar2022on
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.11848'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Distance Metric Learning,
+  Datasets]
 short_authors: Muhammad Umer Anwaar, Zhihui Pan, Martin Kleinsteuber
 ---
 Humans are able to identify and categorize novel compositions of known

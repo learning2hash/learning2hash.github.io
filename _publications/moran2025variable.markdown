@@ -7,7 +7,7 @@ year: 2025
 bibkey: moran2025variable
 citations: 21
 additional_links: [{name: Paper, url: 'http://homepages.inf.ed.ac.uk/miles/papers/acl13.pdf'}]
-tags: ["Datasets", "Locality-Sensitive-Hashing", "Quantization"]
+tags: [Locality Sensitive Hashing, Datasets, Quantization]
 short_authors: S. Moran, Lavrenko, Osborne
 ---
 We introduce a scheme for optimally allocating

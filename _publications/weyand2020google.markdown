@@ -9,7 +9,7 @@ bibkey: weyand2020google
 citations: 263
 additional_links: [{name: Code, url: 'https://github.com/cvdfoundation/google-landmark'},
   {name: Paper, url: 'https://arxiv.org/abs/2004.01804'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval", "Scalability"]
+tags: [Evaluation, Image Retrieval, Datasets, Scalability, CVPR]
 short_authors: Weyand et al.
 ---
 While image retrieval and instance recognition techniques are progressing

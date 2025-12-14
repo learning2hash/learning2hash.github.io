@@ -7,7 +7,7 @@ year: 2017
 bibkey: oramas2017a
 citations: 72
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.09739'}]
-tags: ["Neural Hashing", "Recommender Systems"]
+tags: [Neural Hashing, Recommender Systems]
 short_authors: Oramas et al.
 ---
 An increasing amount of digital music is being published daily. Music

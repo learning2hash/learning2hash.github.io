@@ -7,7 +7,7 @@ year: 2019
 bibkey: liu2019weakly
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.12203'}]
-tags: ["Datasets", "Hashing Methods", "Memory Efficiency", "Scalability"]
+tags: [Hashing Methods, Scalability, Memory Efficiency, Datasets]
 short_authors: Liu et al.
 ---
 Hashing has been widely adopted for large-scale data retrieval in many

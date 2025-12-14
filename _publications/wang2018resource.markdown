@@ -9,7 +9,7 @@ bibkey: wang2018resource
 citations: 277
 additional_links: [{name: Code, url: 'https://github.com/mileyan/DARENet'}, {name: Paper,
     url: 'https://arxiv.org/abs/1805.08805'}]
-tags: ["CVPR", "Datasets", "Evaluation"]
+tags: [Evaluation, CVPR, Datasets]
 short_authors: Wang et al.
 ---
 Not all people are equally easy to identify: color statistics might be enough

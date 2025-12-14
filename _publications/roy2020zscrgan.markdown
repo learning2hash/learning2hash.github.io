@@ -9,7 +9,8 @@ year: 2020
 bibkey: roy2020zscrgan
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.12212'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Supervised"]
+tags: [Image Retrieval, Few-shot & Zero-shot, Tools & Libraries, Hashing Methods,
+  CIKM, Supervised, Datasets, Evaluation]
 short_authors: Roy et al.
 ---
 Most existing algorithms for cross-modal Information Retrieval are based on a

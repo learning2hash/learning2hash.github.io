@@ -7,7 +7,7 @@ year: 2017
 bibkey: jiang2017discrete
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.08322'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Similarity Search"]
+tags: [Hashing Methods, Similarity Search, Datasets, Efficiency]
 short_authors: Qing-Yuan Jiang, Wu-Jun Li
 ---
 Due to its storage and retrieval efficiency, cross-modal hashing~(CMH) has

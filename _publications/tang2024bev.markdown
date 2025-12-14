@@ -9,7 +9,7 @@ year: 2024
 bibkey: tang2024bev
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.01065'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Text Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Image Retrieval, Datasets, Tools & Libraries, Text Retrieval]
 short_authors: Tang et al.
 ---
 The rapid development of the autonomous driving industry has led to a

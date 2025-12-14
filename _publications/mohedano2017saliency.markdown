@@ -8,7 +8,7 @@ bibkey: mohedano2017saliency
 citations: 2
 additional_links: [{name: Code, url: 'https://imatge-upc.github.io/salbow/'}, {name: Paper,
     url: 'https://arxiv.org/abs/1711.10795'}]
-tags: ["Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries]
 short_authors: Mohedano et al.
 ---
 This work explores attention models to weight the contribution of local

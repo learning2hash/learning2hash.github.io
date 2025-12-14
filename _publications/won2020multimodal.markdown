@@ -7,7 +7,7 @@ year: 2020
 bibkey: won2020multimodal
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.16030'}]
-tags: ["Datasets", "Distance Metric Learning", "Multimodal Retrieval", "Scalability"]
+tags: [Scalability, Distance Metric Learning, Datasets, Multimodal Retrieval]
 short_authors: Won et al.
 ---
 Tag-based music retrieval is crucial to browse large-scale music libraries

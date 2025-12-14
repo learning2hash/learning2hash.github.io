@@ -8,7 +8,7 @@ bibkey: lionis2025on
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/lionisakis/Reproducibilitiy-lsr-long'},
   {name: Paper, url: 'https://arxiv.org/abs/2503.23824'}]
-tags: ["Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation]
 short_authors: Emmanouil Georgios Lionis, Jia-Huei Ju
 ---
 Document retrieval is one of the most challenging tasks in Information

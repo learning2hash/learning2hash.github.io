@@ -8,7 +8,8 @@ year: 2019
 bibkey: he2019one
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.00612'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Image Retrieval, Datasets, Robustness, Tools & Libraries, Hashing
+    Methods]
 short_authors: He et al.
 ---
 With the recent explosive increase of digital data, image recognition and

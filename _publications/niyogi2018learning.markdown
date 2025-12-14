@@ -8,7 +8,7 @@ year: 2018
 bibkey: niyogi2018learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.04475'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Mitodru Niyogi, Kripabandhu Ghosh, Arnab Bhattacharya
 ---
 Cross-lingual information retrieval is a challenging task in the absence of

@@ -8,7 +8,8 @@ year: 2019
 bibkey: lin2019towards
 citations: 59
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.10185'}]
-tags: ["AAAI", "Compact Codes", "Datasets", "Hashing Methods", "Supervised"]
+tags: [Compact Codes, Evaluation, Supervised, Datasets, Scalability, Tools & Libraries,
+  Hashing Methods, AAAI]
 short_authors: Lin et al.
 ---
 When facing large-scale image datasets, online hashing serves as a promising

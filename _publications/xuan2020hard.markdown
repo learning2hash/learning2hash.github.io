@@ -7,7 +7,7 @@ year: 2020
 bibkey: xuan2020hard
 citations: 84
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.12749'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
+tags: [Distance Metric Learning, Image Retrieval, Datasets]
 short_authors: Xuan et al.
 ---
 Triplet loss is an extremely common approach to distance metric learning.

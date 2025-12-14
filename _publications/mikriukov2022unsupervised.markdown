@@ -9,7 +9,8 @@ bibkey: mikriukov2022unsupervised
 citations: 63
 additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/duch'}, {name: Paper,
     url: 'https://arxiv.org/abs/2204.08707'}]
-tags: ["Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Supervised", "Unsupervised"]
+tags: [ICASSP, Supervised, Image Retrieval, Similarity Search, Robustness, Multimodal
+    Retrieval, Scalability, Unsupervised, Hashing Methods]
 short_authors: "Georgii Mikriukov, Mahdyar Ravanbakhsh, Beg\xFCm Demir"
 ---
 The development of cross-modal retrieval systems that can search and retrieve

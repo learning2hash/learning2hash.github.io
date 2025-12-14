@@ -7,7 +7,7 @@ year: 2019
 bibkey: khoram2019interleaved
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.08756'}]
-tags: ["Datasets", "Evaluation", "Quantization", "Similarity Search"]
+tags: [Evaluation, Quantization, Datasets, Similarity Search]
 short_authors: Soroosh Khoram, Stephen J Wright, Jing Li
 ---
 Similarity search retrieves the nearest neighbors of a query vector from a

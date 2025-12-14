@@ -7,7 +7,7 @@ year: 2018
 bibkey: zheng2018query
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.02681'}]
-tags: ["Image Retrieval", "Robustness"]
+tags: [Image Retrieval, Robustness]
 short_authors: Zheng et al.
 ---
 Most existing works of adversarial samples focus on attacking image

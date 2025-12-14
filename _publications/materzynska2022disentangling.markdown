@@ -7,7 +7,7 @@ year: 2022
 bibkey: materzynska2022disentangling
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.07835'}]
-tags: ["CVPR", "Evaluation"]
+tags: [Evaluation, CVPR]
 short_authors: Joanna Materzynska, Antonio Torralba, David Bau
 ---
 The CLIP network measures the similarity between natural text and images; in

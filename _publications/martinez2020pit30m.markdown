@@ -10,7 +10,7 @@ bibkey: martinez2020pit30m
 citations: 1
 additional_links: [{name: Other, url: 'https://pit30m.github.io/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2012.12437'}]
-tags: ["Datasets", "Evaluation", "IROS"]
+tags: [Evaluation, Datasets, IROS]
 short_authors: Martinez et al.
 ---
 We are interested in understanding whether retrieval-based localization

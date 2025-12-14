@@ -8,7 +8,8 @@ year: 2022
 bibkey: zhao2022progressive
 citations: 29
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.11212'}]
-tags: ["Datasets", "Image Retrieval", "Self-Supervised", "Supervised", "Text Retrieval"]
+tags: [Evaluation, Supervised, Image Retrieval, Self-Supervised, Datasets, Text Retrieval,
+  SIGIR]
 short_authors: Yida Zhao, Yuqing Song, Qin Jin
 ---
 Image retrieval with hybrid-modality queries, also known as composing text

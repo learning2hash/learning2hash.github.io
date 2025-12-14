@@ -8,7 +8,8 @@ year: 2022
 bibkey: gwilliam2022beyond
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.08347'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Self-Supervised, Datasets, CVPR, Unsupervised, Tools
+    & Libraries]
 short_authors: Matthew Gwilliam, Abhinav Shrivastava
 ---
 By leveraging contrastive learning, clustering, and other pretext tasks,

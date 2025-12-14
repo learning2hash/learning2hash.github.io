@@ -8,7 +8,7 @@ year: 2021
 bibkey: alikhani2021cross
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.11047'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Image Retrieval, Multimodal Retrieval]
 short_authors: Alikhani et al.
 ---
 Common image-text joint understanding techniques presume that images and the

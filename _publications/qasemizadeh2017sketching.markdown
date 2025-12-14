@@ -7,7 +7,7 @@ year: 2017
 bibkey: qasemizadeh2017sketching
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.04253'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing]
 short_authors: Behrang Qasemizadeh, Laura Kallmeyer
 ---
 We propose a new fast word embedding technique using hash functions. The

@@ -7,7 +7,7 @@ year: 2025
 bibkey: lu2025dogr
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.07219'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Self-Supervised", "Tools & Libraries"]
+tags: [Evaluation, Self-Supervised, Datasets, Tools & Libraries, AAAI]
 short_authors: Lu et al.
 ---
 Generative retrieval constitutes an innovative approach in information

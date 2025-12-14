@@ -8,7 +8,7 @@ bibkey: wu2023forb
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/pxiangwu/FORB/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2309.16249'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Wu et al.
 ---
 Image retrieval is a fundamental task in computer vision. Despite recent

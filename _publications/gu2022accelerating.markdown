@@ -9,7 +9,7 @@ year: 2022
 bibkey: gu2022accelerating
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.15287'}]
-tags: ["Efficiency", "Hashing Methods", "Neural Hashing"]
+tags: [Hashing Methods, Neural Hashing, Efficiency, ACL]
 short_authors: Gu et al.
 ---
 Code search is to search reusable code snippets from source code corpus based

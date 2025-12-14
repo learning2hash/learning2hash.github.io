@@ -7,7 +7,7 @@ year: 2021
 bibkey: duan2021bridging
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.13757'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Supervised", "Survey Paper"]
+tags: [Supervised, Image Retrieval, Survey Paper, Distance Metric Learning, Datasets]
 short_authors: Jiali Duan, C. -C. Jay Kuo
 ---
 The fact that there exists a gap between low-level features and semantic

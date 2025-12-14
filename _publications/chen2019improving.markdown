@@ -8,7 +8,7 @@ year: 2019
 bibkey: chen2019improving
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.06475'}]
-tags: ["Efficiency", "Evaluation", "Supervised"]
+tags: [Evaluation, Supervised, Efficiency]
 short_authors: Chen et al.
 ---
 Recently, distant supervision has gained great success on Fine-grained Entity

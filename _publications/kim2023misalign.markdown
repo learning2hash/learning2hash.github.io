@@ -8,7 +8,7 @@ year: 2023
 bibkey: kim2023misalign
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.12661'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "ICCV"]
+tags: [Distance Metric Learning, ICCV, Datasets, Efficiency]
 short_authors: Kim et al.
 ---
 Contrastive Language-Image Pretraining has emerged as a prominent approach

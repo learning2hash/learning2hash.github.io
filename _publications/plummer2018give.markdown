@@ -7,7 +7,7 @@ year: 2018
 bibkey: plummer2018give
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.08714'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: [Image Retrieval, Datasets]
 short_authors: Plummer et al.
 ---
 In this paper, we introduce an attribute-based interactive image search which

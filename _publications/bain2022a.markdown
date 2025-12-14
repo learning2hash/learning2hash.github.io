@@ -7,7 +7,7 @@ year: 2022
 bibkey: bain2022a
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.08508'}]
-tags: ["Evaluation", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation]
 short_authors: Bain et al.
 ---
 Our goal in this paper is the adaptation of image-text models for long video

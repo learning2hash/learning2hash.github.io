@@ -7,7 +7,7 @@ year: 2017
 bibkey: qian2017differential
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.06383'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Neural Hashing", "Scalability"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Distance Metric Learning, Scalability]
 short_authors: Y Qian, E Vazquez, B Sengupta
 ---
 Comparing images to recommend items from an image-inventory is a subject of

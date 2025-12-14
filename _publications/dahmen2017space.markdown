@@ -8,7 +8,7 @@ year: 2017
 bibkey: dahmen2017space
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.06326'}]
-tags: ["Datasets", "Efficiency", "Vector Indexing"]
+tags: [Vector Indexing, Datasets, Efficiency]
 short_authors: Dahmen et al.
 ---
 Exemplar-based inpainting is the process of reconstructing missing parts of

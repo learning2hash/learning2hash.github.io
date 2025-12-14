@@ -8,7 +8,7 @@ year: 2017
 bibkey: cheng2017deep
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.07791'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: [Evaluation, Distance Metric Learning, Datasets]
 short_authors: Cheng et al.
 ---
 Learning the distance metric between pairs of examples is of great importance

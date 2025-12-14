@@ -8,7 +8,8 @@ year: 2017
 bibkey: argerich2017generic
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.04684'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Evaluation, Distance Metric Learning, Datasets, Hashing Methods, Locality Sensitive
+    Hashing]
 short_authors: Luis Argerich, Natalia Golmar
 ---
 In this paper we propose the creation of generic LSH families for the angular

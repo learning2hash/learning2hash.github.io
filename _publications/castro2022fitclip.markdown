@@ -9,7 +9,7 @@ bibkey: castro2022fitclip
 citations: 7
 additional_links: [{name: Code, url: 'https://github.com/bryant1410/fitclip'}, {name: Paper,
     url: 'https://arxiv.org/abs/2203.13371'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Scalability", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Scalability, Few-shot & Zero-shot]
 short_authors: Santiago Castro, Fabian Caba Heilbron
 ---
 Large-scale pretrained image-text models have shown incredible zero-shot

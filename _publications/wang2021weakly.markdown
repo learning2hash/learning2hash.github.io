@@ -10,7 +10,7 @@ bibkey: wang2021weakly
 citations: 34
 additional_links: [{name: Code, url: 'https://github.com/hustvl/BoxCaseg'}, {name: Paper,
     url: 'https://arxiv.org/abs/2104.01526'}]
-tags: ["CVPR", "Datasets", "Supervised"]
+tags: [Supervised, CVPR, Datasets]
 short_authors: Wang et al.
 ---
 Humans have a strong class-agnostic object segmentation ability and can

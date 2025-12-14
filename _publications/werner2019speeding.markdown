@@ -8,7 +8,7 @@ year: 2019
 bibkey: werner2019speeding
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.00509'}]
-tags: ["Datasets"]
+tags: [Datasets]
 short_authors: Matheus Werner, Eduardo Laber
 ---
 The Word Mover's Distance (WMD) proposed by Kusner et al. is a distance

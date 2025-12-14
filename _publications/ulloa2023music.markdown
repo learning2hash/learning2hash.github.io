@@ -7,7 +7,7 @@ year: 2023
 bibkey: ulloa2023music
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.17655'}]
-tags: ["Recommender Systems", "Tools & Libraries"]
+tags: [Tools & Libraries, Recommender Systems]
 short_authors: "Diego Salda\xF1a Ulloa"
 ---
 This work combined different audio features to obtain a more robust

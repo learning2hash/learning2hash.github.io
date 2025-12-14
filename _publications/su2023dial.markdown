@@ -7,7 +7,7 @@ year: 2023
 bibkey: su2023dial
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.04357'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Su et al.
 ---
 Dialogue response selection aims to select an appropriate response from

@@ -7,7 +7,7 @@ year: 2021
 bibkey: pham2021chef
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.02547'}]
-tags: ["AAAI", "Multimodal Retrieval", "Tools & Libraries"]
+tags: [Tools & Libraries, AAAI, Multimodal Retrieval]
 short_authors: Pham et al.
 ---
 Despite the abundance of multi-modal data, such as image-text pairs, there

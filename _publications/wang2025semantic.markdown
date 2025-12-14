@@ -7,7 +7,7 @@ year: 2025
 bibkey: wang2025semantic
 citations: 167
 additional_links: [{name: Paper, url: 'http://ijcai.org/papers15/Papers/IJCAI15-546.pdf'}]
-tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Memory Efficiency", "Similarity Search"]
+tags: [Compact Codes, Evaluation, Similarity Search, Memory Efficiency, Hashing Methods]
 short_authors: di Wang, Gao, He
 ---
 Multimodal hashing is essential to cross-media

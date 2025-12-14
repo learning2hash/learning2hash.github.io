@@ -8,7 +8,7 @@ bibkey: khaliq2024vlad
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/Ahmedest61/VLAD-BuFF/'},
   {name: Paper, url: 'https://arxiv.org/abs/2409.19293'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Khaliq et al.
 ---
 Visual Place Recognition (VPR) is a crucial component of many visual

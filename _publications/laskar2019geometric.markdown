@@ -8,7 +8,8 @@ year: 2019
 bibkey: laskar2019geometric
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.06882'}]
-tags: ["Datasets", "Distance Metric Learning", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
+tags: [Image Retrieval, Re-ranking, Distance Metric Learning, Datasets, Hybrid ANN
+    Methods]
 short_authors: Laskar et al.
 ---
 This paper addresses the problem of determining dense pixel correspondences

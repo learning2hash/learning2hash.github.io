@@ -7,7 +7,7 @@ year: 2025
 bibkey: mukherjee2025an
 citations: 14
 additional_links: [{name: Paper, url: 'http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Mukherjee_An_NMF_Perspective_ICCV_2015_paper.pdf'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "ICCV", "Quantization"]
+tags: [Compact Codes, Evaluation, ICCV, Datasets, Quantization, Hashing Methods]
 short_authors: Mukherjee et al.
 ---
 The pervasiveness of massive data repositories has led

@@ -9,7 +9,7 @@ year: 2024
 bibkey: dadas2024pirb
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.13350'}]
-tags: ["Datasets", "Evaluation", "Supervised", "Text Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Supervised, Datasets, Tools & Libraries, Text Retrieval]
 short_authors: "S\u0142awomir Dadas, Micha\u0142 Pere\u0142kiewicz, Rafa\u0142 Po\u015B\
   wiata"
 ---

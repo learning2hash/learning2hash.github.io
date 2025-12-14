@@ -7,7 +7,7 @@ year: 2022
 bibkey: wang2022transvpr
 citations: 138
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.02001'}]
-tags: ["CVPR", "Evaluation"]
+tags: [Evaluation, CVPR]
 short_authors: Wang et al.
 ---
 Visual place recognition is a challenging task for applications such as

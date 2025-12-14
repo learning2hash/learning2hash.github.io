@@ -7,7 +7,7 @@ year: 2017
 bibkey: min2017exemplar
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.06602'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Evaluation", "Supervised"]
+tags: [Evaluation, Supervised, Efficiency, Distance Metric Learning, Datasets]
 short_authors: Martin Renqiang Min, Hongyu Guo, Dongjin Song
 ---
 Metric learning methods for dimensionality reduction in combination with

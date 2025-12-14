@@ -9,7 +9,7 @@ bibkey: guo2021subset
 citations: 13
 additional_links: [{name: Code, url: 'https://en.wikipedia.org/wiki/COVID-19_pandemic'},
   {name: Paper, url: 'https://arxiv.org/abs/2106.01570'}]
-tags: ["Efficiency", "Evaluation", "Graph Based ANN", "KDD", "Scalability"]
+tags: [Evaluation, Efficiency, Graph-based ANN, Scalability, KDD]
 short_authors: Xingzhi Guo, Baojian Zhou, Steven Skiena
 ---
 Dynamic graph representation learning is a task to learn node embeddings over

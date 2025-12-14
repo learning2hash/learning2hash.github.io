@@ -8,7 +8,8 @@ year: 2023
 bibkey: truong2023benchmarking
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.07273'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised", "Vector Indexing"]
+tags: [Evaluation, Supervised, Similarity Search, Self-Supervised, Vector Indexing,
+  Datasets]
 short_authors: Tuan Truong, Farnaz Khun Jush, Matthias Lenga
 ---
 Near- and duplicate image detection is a critical concern in the field of

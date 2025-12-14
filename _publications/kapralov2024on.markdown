@@ -7,7 +7,7 @@ year: 2024
 bibkey: kapralov2024on
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.09707'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Robustness"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Datasets, Robustness]
 short_authors: Michael Kapralov, Mikhail Makarov, Christian Sohler
 ---
 Locality-sensitive hashing~[Indyk,Motwani'98] is a classical data structure

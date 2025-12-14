@@ -8,7 +8,7 @@ year: 2021
 bibkey: gramacki2021unsupervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.02405'}]
-tags: ["Supervised", "Unsupervised"]
+tags: [Supervised, Unsupervised]
 short_authors: Piotr Gramacki
 ---
 The role of spatial data in tackling city-related tasks has been growing in

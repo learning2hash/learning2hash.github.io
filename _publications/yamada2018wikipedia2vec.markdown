@@ -10,7 +10,7 @@ bibkey: yamada2018wikipedia2vec
 citations: 40
 additional_links: [{name: Code, url: 'https://wikipedia2vec.github.io'}, {name: Paper,
     url: 'https://arxiv.org/abs/1812.06280'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Datasets]
 short_authors: Yamada et al.
 ---
 The embeddings of entities in a large knowledge base (e.g., Wikipedia) are

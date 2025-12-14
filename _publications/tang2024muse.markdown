@@ -8,7 +8,7 @@ year: 2024
 bibkey: tang2024muse
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.10575'}]
-tags: ["Evaluation", "Scalability", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Scalability]
 short_authors: Tang et al.
 ---
 Text-Video Retrieval (TVR) aims to align and associate relevant video content

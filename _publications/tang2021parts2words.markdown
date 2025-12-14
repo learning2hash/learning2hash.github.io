@@ -9,7 +9,7 @@ bibkey: tang2021parts2words
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/JLUtangchuan/Parts2Words'},
   {name: Paper, url: 'https://arxiv.org/abs/2107.01872'}]
-tags: ["Datasets"]
+tags: [Datasets]
 short_authors: Tang et al.
 ---
 Shape-Text matching is an important task of high-level shape understanding.

@@ -7,7 +7,7 @@ year: 2019
 bibkey: verma2019diversity
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.08292'}]
-tags: ["Datasets", "Recommender Systems", "Supervised"]
+tags: [Supervised, Recommender Systems, Datasets]
 short_authors: Verma et al.
 ---
 Developing recommendation system for fashion images is challenging due to the

@@ -8,7 +8,7 @@ year: 2023
 bibkey: gong2023vitr
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.06350'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets, Multimodal Retrieval]
 short_authors: Yan Gong, Georgina Cosma, Axel Finke
 ---
 The relations expressed in user queries are vital for cross-modal information

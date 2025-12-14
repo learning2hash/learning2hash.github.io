@@ -7,7 +7,8 @@ year: 2022
 bibkey: lu2022asymmetric
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.12592'}]
-tags: ["Evaluation", "Hashing Methods", "Similarity Search", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Similarity Search, Unsupervised, Tools & Libraries,
+  Hashing Methods]
 short_authors: Lu et al.
 ---
 Thanks to the efficient retrieval speed and low storage consumption, learning

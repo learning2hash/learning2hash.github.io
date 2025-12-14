@@ -7,7 +7,7 @@ year: 2019
 bibkey: yuan2019signal
 citations: 84
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.02616'}]
-tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Neural Hashing"]
+tags: [Evaluation, Neural Hashing, Distance Metric Learning, CVPR, Hashing Methods]
 short_authors: Yuan et al.
 ---
 Deep metric learning, which learns discriminative features to process image

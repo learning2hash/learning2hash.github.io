@@ -7,7 +7,7 @@ year: 2020
 bibkey: agarwal2020entity
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.03555'}]
-tags: ["Datasets", "Re-Ranking"]
+tags: [Re-ranking, Datasets]
 short_authors: Oshin Agarwal, Daniel M. Bikel
 ---
 Entity Linking has two main open areas of research: 1) generate candidate

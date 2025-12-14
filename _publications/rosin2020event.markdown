@@ -7,7 +7,7 @@ year: 2020
 bibkey: rosin2020event
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.12065'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Guy D. Rosin, Ido Guy, Kira Radinsky
 ---
 A significant number of event-related queries are issued in Web search. In

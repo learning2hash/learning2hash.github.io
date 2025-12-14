@@ -8,7 +8,7 @@ year: 2021
 bibkey: dutta2021sequence
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.10019'}]
-tags: ["Datasets", "Evaluation", "IJCAI", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Datasets, IJCAI]
 short_authors: Sourav Dutta, Haytham Assem, Edward Burgin
 ---
 Frequently-Asked-Question (FAQ) retrieval provides an effective procedure for

@@ -9,7 +9,7 @@ bibkey: li2024cross
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/ghrua/ccpr_release'}, {name: Paper,
     url: 'https://arxiv.org/abs/2403.16820'}]
-tags: ["Datasets", "EMNLP", "Self-Supervised"]
+tags: [EMNLP, Self-Supervised, Datasets, ACL]
 short_authors: Li et al.
 ---
 Phrase-level dense retrieval has shown many appealing characteristics in

@@ -9,7 +9,7 @@ bibkey: keetha2021a
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/Nik-V9/HEAPUtil'}, {name: Paper,
     url: 'https://arxiv.org/abs/2107.02440'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Self-Supervised, Datasets, Unsupervised]
 short_authors: Nikhil Varma Keetha, Michael Milford, Sourav Garg
 ---
 Visual Place Recognition (VPR) approaches have typically attempted to match

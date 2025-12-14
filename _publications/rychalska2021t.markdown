@@ -7,7 +7,7 @@ year: 2021
 bibkey: rychalska2021t
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.04242'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Recommender Systems"]
+tags: [Evaluation, Recommender Systems, Datasets, Multimodal Retrieval]
 short_authors: Barbara Rychalska, Mikolaj Wieczorek, Jacek Dabrowski
 ---
 The key challenge in cross-modal retrieval is to find similarities between

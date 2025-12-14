@@ -7,7 +7,7 @@ year: 2022
 bibkey: liu2022semi
 citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.07932'}]
-tags: ["Datasets", "Distance Metric Learning", "Supervised"]
+tags: [Distance Metric Learning, Supervised, Datasets]
 short_authors: Liu et al.
 ---
 For retinal image matching (RIM), we propose SuperRetina, the first

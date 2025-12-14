@@ -7,7 +7,7 @@ year: 2016
 bibkey: gennaro2016large
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.09687'}]
-tags: ["Datasets", "Image Retrieval", "Scalability", "Text Retrieval"]
+tags: [Text Retrieval, Image Retrieval, Scalability, Datasets]
 short_authors: Claudio Gennaro
 ---
 In this work, we propose an approach to index Deep Convolutional Neural

@@ -7,7 +7,7 @@ year: 2016
 bibkey: douze2016polysemous
 citations: 41
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.01882'}]
-tags: ["Compact Codes", "Datasets", "Efficiency", "Quantization", "Vector Indexing"]
+tags: [Compact Codes, Evaluation, Efficiency, Vector Indexing, Datasets, Quantization]
 short_authors: "Matthijs Douze, Herv\xE9 J\xE9gou, Florent Perronnin"
 ---
 This paper considers the problem of approximate nearest neighbor search in

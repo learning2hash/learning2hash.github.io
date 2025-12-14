@@ -7,7 +7,7 @@ year: 2022
 bibkey: manco2022contrastive
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.12208'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Text Retrieval", "Tools & Libraries"]
+tags: [Text Retrieval, Tools & Libraries, Few-shot & Zero-shot, Datasets]
 short_authors: Manco et al.
 ---
 As one of the most intuitive interfaces known to humans, natural language has

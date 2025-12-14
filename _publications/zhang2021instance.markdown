@@ -7,7 +7,8 @@ year: 2021
 bibkey: zhang2021instance
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.05274'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Similarity Search"]
+tags: [Compact Codes, Evaluation, Image Retrieval, Neural Hashing, Similarity Search,
+  Datasets, Scalability, Hashing Methods]
 short_authors: Zhiwei Zhang, Hanyu Peng
 ---
 Deep hashing has been widely applied to large-scale image retrieval by

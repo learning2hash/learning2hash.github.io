@@ -8,7 +8,7 @@ year: 2025
 bibkey: yuan2025neighbor
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.11798'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Robustness"]
+tags: [Evaluation, CVPR, Datasets, Robustness]
 short_authors: Chao Yuan, Tianyi Zhang, Guanglin Niu
 ---
 Person re-identification (Re-ID) aims to match the same pedestrian in a large

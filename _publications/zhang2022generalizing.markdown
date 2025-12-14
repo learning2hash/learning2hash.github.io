@@ -7,7 +7,7 @@ year: 2022
 bibkey: zhang2022generalizing
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.11091'}]
-tags: ["Evaluation", "Text Retrieval", "Tools & Libraries"]
+tags: [Text Retrieval, Evaluation, Tools & Libraries]
 short_authors: Liang Zhang, Anwen Hu, Qin Jin
 ---
 English-based Vision-Language Pre-training (VLP) has achieved great success

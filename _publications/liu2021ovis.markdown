@@ -8,7 +8,7 @@ year: 2021
 bibkey: liu2021ovis
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.03704'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Liu et al.
 ---
 We introduce the task of open-vocabulary visual instance search (OVIS). Given

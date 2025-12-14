@@ -8,7 +8,8 @@ year: 2023
 bibkey: bhardwaj2023steerable
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.11349'}]
-tags: ["Evaluation", "Image Retrieval", "Robustness", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Efficiency, Self-Supervised, Datasets,
+  Robustness]
 short_authors: Bhardwaj et al.
 ---
 Pre-trained deep image representations are useful for post-training tasks

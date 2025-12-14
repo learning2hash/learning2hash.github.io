@@ -8,7 +8,7 @@ year: 2024
 bibkey: oguri2024theoretical
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.04713'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Memory Efficiency"]
+tags: [Evaluation, Graph-based ANN, Datasets, Memory Efficiency]
 short_authors: Yutaro Oguri, Yusuke Matsui
 ---
 We present a theoretical and empirical analysis of the adaptive entry point

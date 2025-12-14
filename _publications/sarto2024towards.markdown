@@ -7,7 +7,7 @@ year: 2024
 bibkey: sarto2024towards
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.13127'}]
-tags: ["Datasets", "Neural Hashing"]
+tags: [Datasets, Neural Hashing]
 short_authors: Sarto et al.
 ---
 The objective of image captioning models is to bridge the gap between the

@@ -7,7 +7,7 @@ year: 2019
 bibkey: chen2019differentiable
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.09756'}]
-tags: ["Datasets", "Evaluation", "Quantization", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Datasets, Quantization]
 short_authors: Ting Chen, Lala Li, Yizhou Sun
 ---
 Embedding layers are commonly used to map discrete symbols into continuous

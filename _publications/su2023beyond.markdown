@@ -10,7 +10,8 @@ year: 2023
 bibkey: su2023beyond
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.18213'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "SIGIR", "Similarity Search"]
+tags: [Evaluation, Similarity Search, Efficiency, Datasets, Tools & Libraries, Recommender
+    Systems, SIGIR]
 short_authors: Su et al.
 ---
 Two-tower models are a prevalent matching framework for recommendation, which

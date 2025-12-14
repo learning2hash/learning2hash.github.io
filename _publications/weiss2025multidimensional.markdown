@@ -7,7 +7,8 @@ year: 2025
 bibkey: weiss2025multidimensional
 citations: 161
 additional_links: [{name: Paper, url: 'http://people.csail.mit.edu/torralba/publications/msh_eccv12.pdf'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Neural Hashing"]
+tags: [Compact Codes, Evaluation, Neural Hashing, Survey Paper, Datasets, Hashing
+    Methods]
 short_authors: Y. Weiss, Fergus, Torralba
 ---
 en a surge of interest in methods based on “semantic hashing”,

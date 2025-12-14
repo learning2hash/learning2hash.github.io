@@ -8,7 +8,7 @@ year: 2018
 bibkey: litschko2018unsupervised
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.00879'}]
-tags: ["Robustness", "SIGIR", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: [Supervised, Robustness, Tools & Libraries, Unsupervised, SIGIR]
 short_authors: Litschko et al.
 ---
 We propose a fully unsupervised framework for ad-hoc cross-lingual

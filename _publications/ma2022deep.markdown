@@ -7,7 +7,7 @@ year: 2022
 bibkey: ma2022deep
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.11951'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing"]
+tags: [Hashing Methods, Evaluation, Datasets, Neural Hashing]
 short_authors: Ma et al.
 ---
 As a novel deep learning model, gcForest has been widely used in various

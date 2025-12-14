@@ -8,7 +8,7 @@ bibkey: tan2021instance
 citations: 80
 additional_links: [{name: Code, url: 'https://github.com/uvavision/RerankingTransformer'},
   {name: Paper, url: 'https://arxiv.org/abs/2103.12236'}]
-tags: ["Datasets", "ICCV", "Image Retrieval", "Re-Ranking", "Supervised"]
+tags: [ICCV, Supervised, Image Retrieval, Re-ranking, Datasets, Hybrid ANN Methods]
 short_authors: Fuwen Tan, Jiangbo Yuan, Vicente Ordonez
 ---
 Instance-level image retrieval is the task of searching in a large database

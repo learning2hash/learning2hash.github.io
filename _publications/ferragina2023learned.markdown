@@ -7,7 +7,7 @@ year: 2023
 bibkey: ferragina2023learned
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.11012'}]
-tags: ["Datasets", "Hashing Methods"]
+tags: [Hashing Methods, Datasets]
 short_authors: Ferragina et al.
 ---
 A Monotone Minimal Perfect Hash Function (MMPHF) constructed on a set S of

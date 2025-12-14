@@ -8,7 +8,7 @@ year: 2025
 bibkey: luo2025graph
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.15052'}]
-tags: ["AAAI", "Datasets", "Graph Based ANN", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Graph-based ANN, Datasets, Unsupervised, AAAI]
 short_authors: Luo et al.
 ---
 Video surveillance systems are crucial components for ensuring public safety

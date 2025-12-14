@@ -8,7 +8,7 @@ year: 2019
 bibkey: berman2019multigrain
 citations: 33
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.05509'}]
-tags: ["Distance Metric Learning", "Image Retrieval"]
+tags: [Distance Metric Learning, Image Retrieval]
 short_authors: Berman et al.
 ---
 MultiGrain is a network architecture producing compact vector representations

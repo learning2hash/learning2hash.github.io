@@ -7,7 +7,7 @@ year: 2016
 bibkey: podlesnaya2016deep
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1601.07754'}]
-tags: ["Graph Based ANN", "Neural Hashing", "Video Retrieval"]
+tags: [Video Retrieval, Graph-based ANN, Neural Hashing]
 short_authors: Anna Podlesnaya, Sergey Podlesnyy
 ---
 We share the implementation details and testing results for video retrieval

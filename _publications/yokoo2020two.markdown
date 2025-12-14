@@ -9,7 +9,7 @@ bibkey: yokoo2020two
 citations: 21
 additional_links: [{name: Code, url: 'https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution'},
   {name: Paper, url: 'https://arxiv.org/abs/2003.11211'}]
-tags: ["CVPR", "Datasets", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
+tags: [Image Retrieval, Re-ranking, Datasets, Scalability, CVPR, Hybrid ANN Methods]
 short_authors: Yokoo et al.
 ---
 We propose an efficient pipeline for large-scale landmark image retrieval

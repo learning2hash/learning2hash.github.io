@@ -8,7 +8,7 @@ bibkey: ali2023gri
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/asif6827/GRI'}, {name: Paper,
     url: 'https://arxiv.org/abs/2310.12360'}]
-tags: ["EMNLP", "Evaluation", "Graph Based ANN"]
+tags: [EMNLP, Evaluation, Graph-based ANN, ACL]
 short_authors: Ali et al.
 ---
 Automated construction of bilingual dictionaries using monolingual embedding

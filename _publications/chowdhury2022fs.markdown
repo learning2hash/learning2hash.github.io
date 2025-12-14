@@ -8,7 +8,7 @@ year: 2022
 bibkey: chowdhury2022fs
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.02113'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Chowdhury et al.
 ---
 We advance sketch research to scenes with the first dataset of freehand scene

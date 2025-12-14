@@ -7,7 +7,7 @@ year: 2024
 bibkey: kiran2024image
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.08618'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Neural Hashing"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Distance Metric Learning, Datasets]
 short_authors: Kiran et al.
 ---
 Image retrieval methods rely on metric learning to train backbone feature

@@ -8,7 +8,7 @@ year: 2023
 bibkey: li2023oporp
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.03505'}]
-tags: ["Distance Metric Learning", "KDD", "Locality-Sensitive-Hashing"]
+tags: [Locality Sensitive Hashing, Distance Metric Learning, KDD]
 short_authors: Ping Li, Xiaoyun Li
 ---
 Consider two \(D\)-dimensional data vectors (e.g., embeddings): \(u, v\). In many

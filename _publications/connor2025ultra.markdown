@@ -7,7 +7,7 @@ year: 2025
 bibkey: connor2025ultra
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2506.00528'}]
-tags: ["Evaluation", "Quantization"]
+tags: [Evaluation, Quantization]
 short_authors: Richard Connor, Alan Dearle, Ben Claydon
 ---
 Many modern search domains comprise high-dimensional vectors of floating point numbers derived from neural networks, in the form of embeddings. Typical embeddings range in size from hundreds to thousands of dimensions, making the size of the embeddings, and the speed of comparison, a significant issue.

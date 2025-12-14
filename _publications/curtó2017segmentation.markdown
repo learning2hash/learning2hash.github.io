@@ -7,7 +7,7 @@ year: 2017
 bibkey: "curt\xF32017segmentation"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.08160'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Datasets]
 short_authors: "Curt\xF3 et al."
 ---
 We propose a novel approach to address the problem of Simultaneous Detection

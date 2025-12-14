@@ -8,7 +8,7 @@ year: 2016
 bibkey: andoni2016approximate
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.06222'}]
-tags: ["Datasets", "Efficiency"]
+tags: [Datasets, Efficiency]
 short_authors: Andoni et al.
 ---
 We show that every symmetric normed space admits an efficient nearest

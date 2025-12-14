@@ -8,7 +8,8 @@ bibkey: liu2021learnable
 citations: 20
 additional_links: [{name: Code, url: 'https://github.com/ssui-liu/learnable-embed-sizes-for-RecSys'},
   {name: Paper, url: 'https://arxiv.org/abs/2101.07577'}]
-tags: ["Evaluation", "Memory Efficiency", "Neural Hashing", "Recommender Systems", "Tools & Libraries"]
+tags: [Evaluation, Neural Hashing, Memory Efficiency, Tools & Libraries, Recommender
+    Systems]
 short_authors: Liu et al.
 ---
 The embedding-based representation learning is commonly used in deep learning

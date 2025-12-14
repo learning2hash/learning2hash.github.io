@@ -8,7 +8,7 @@ year: 2022
 bibkey: komorowski2022improving
 citations: 61
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.00972'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval]
 short_authors: Jacek Komorowski
 ---
 The paper presents a simple and effective learning-based method for computing

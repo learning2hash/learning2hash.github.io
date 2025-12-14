@@ -7,7 +7,7 @@ year: 2021
 bibkey: gao2021coarse
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.07201'}]
-tags: ["Distance Metric Learning", "Evaluation", "Video Retrieval"]
+tags: [Video Retrieval, Distance Metric Learning, Evaluation]
 short_authors: Zijian Gao, Huanyu Liu, Jingyu Liu
 ---
 The current state-of-the-art methods for video corpus moment retrieval (VCMR)

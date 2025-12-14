@@ -7,7 +7,7 @@ year: 2018
 bibkey: zhao2018approximate
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.03032'}]
-tags: ["Graph Based ANN"]
+tags: [Graph-based ANN]
 short_authors: Wan-Lei Zhao, Hui Wang, Chong-Wah Ngo
 ---
 Nearest neighbor search and k-nearest neighbor graph construction are two

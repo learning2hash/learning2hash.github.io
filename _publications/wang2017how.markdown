@@ -7,7 +7,7 @@ year: 2017
 bibkey: wang2017how
 citations: 45
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.02940'}]
-tags: ["Evaluation", "ICCV", "Image Retrieval", "Scalability"]
+tags: [Scalability, Evaluation, ICCV, Image Retrieval]
 short_authors: Chong Wang, Xue Zhang, Xipeng Lan
 ---
 Training triplet networks with large-scale data is challenging in face

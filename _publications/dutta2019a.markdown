@@ -7,7 +7,8 @@ year: 2019
 bibkey: dutta2019a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.08275'}]
-tags: ["Datasets", "Distance Metric Learning", "Graph Based ANN", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Few-shot & Zero-shot, Distance Metric Learning, Graph-based
+    ANN, Datasets, Unsupervised]
 short_authors: Ujjal Kr Dutta, Mehrtash Harandi, Chandra Sekhar Chellu
 ---
 For challenging machine learning problems such as zero-shot learning and

@@ -11,7 +11,7 @@ bibkey: yang2023atomic
 citations: 6
 additional_links: [{name: Code, url: 'https://github.com/TREC-AToMiC/AToMiC'}, {name: Paper,
     url: 'https://arxiv.org/abs/2304.01961'}]
-tags: ["Datasets", "Multimodal Retrieval", "SIGIR", "Scalability", "Text Retrieval"]
+tags: [Datasets, Multimodal Retrieval, Scalability, Text Retrieval, SIGIR]
 short_authors: Yang et al.
 ---
 This paper presents the AToMiC (Authoring Tools for Multimedia Content)

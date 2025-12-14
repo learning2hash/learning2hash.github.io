@@ -8,7 +8,7 @@ year: 2022
 bibkey: ruta2022stylebabel
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.05321'}]
-tags: ["Datasets", "Text Retrieval"]
+tags: [Text Retrieval, Datasets]
 short_authors: Ruta et al.
 ---
 We present StyleBabel, a unique open access dataset of natural language

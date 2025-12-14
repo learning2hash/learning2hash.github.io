@@ -7,7 +7,7 @@ year: 2024
 bibkey: pimpalkhute2024softqe
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.12663'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Pimpalkhute et al.
 ---
 We investigate the integration of Large Language Models (LLMs) into query

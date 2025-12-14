@@ -7,7 +7,8 @@ year: 2024
 bibkey: jang2024distilling
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.14726'}]
-tags: ["Hashing Methods", "Multimodal Retrieval", "Quantization", "Similarity Search", "Supervised"]
+tags: [Evaluation, Supervised, Similarity Search, Quantization, Multimodal Retrieval,
+  Memory Efficiency, Hashing Methods]
 short_authors: Young Kyun Jang, Donghyun Kim, Ser-Nam Lim
 ---
 ``Learning to hash'' is a practical solution for efficient retrieval,

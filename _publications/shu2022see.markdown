@@ -9,7 +9,7 @@ bibkey: shu2022see
 citations: 100
 additional_links: [{name: Code, url: 'https://github.com/TencentYoutuResearch/PersonRetrieval-IVT'},
   {name: Paper, url: 'https://arxiv.org/abs/2208.08608'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Datasets]
 short_authors: Shu et al.
 ---
 Text-based person retrieval aims to find the query person based on a textual

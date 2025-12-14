@@ -7,7 +7,7 @@ year: 2023
 bibkey: saket2023monitoring
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.15265'}]
-tags: ["Efficiency", "Recommender Systems", "Scalability"]
+tags: [Scalability, Recommender Systems, Efficiency]
 short_authors: Srijan Saket, Olivier Jeunen, Md. Danish Kalim
 ---
 Emerging short-video platforms like TikTok, Instagram Reels, and ShareChat

@@ -7,7 +7,7 @@ year: 2023
 bibkey: meiner2023data
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.17211'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation, Efficiency]
 short_authors: Lukas Meiner, Jens Mehnert, Alexandru Paul Condurache
 ---
 To reduce the computational cost of convolutional neural networks (CNNs) on

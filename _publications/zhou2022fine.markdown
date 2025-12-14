@@ -8,7 +8,7 @@ year: 2022
 bibkey: zhou2022fine
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.10423'}]
-tags: ["Evaluation", "Scalability", "Text Retrieval", "Tools & Libraries"]
+tags: [Text Retrieval, Evaluation, Tools & Libraries, Scalability]
 short_authors: Zhou et al.
 ---
 Long document retrieval aims to fetch query-relevant documents from a

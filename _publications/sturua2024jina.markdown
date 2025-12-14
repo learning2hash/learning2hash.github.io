@@ -9,7 +9,7 @@ year: 2024
 bibkey: sturua2024jina
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.10173'}]
-tags: ["Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation]
 short_authors: Sturua et al.
 ---
 We introduce jina-embeddings-v3, a novel text embedding model with 570

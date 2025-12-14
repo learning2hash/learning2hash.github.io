@@ -9,7 +9,8 @@ bibkey: chen2021spann
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/microsoft/SPTAG\'}, {name: Paper,
     url: 'https://arxiv.org/abs/2111.08566'}]
-tags: ["Datasets", "Efficiency", "Hybrid ANN Methods", "Large Scale Search", "Vector Indexing"]
+tags: [Evaluation, Efficiency, Vector Indexing, Datasets, Scalability, Large-Scale
+    Search, Hybrid ANN Methods]
 short_authors: Chen et al.
 ---
 The in-memory algorithms for approximate nearest neighbor search (ANNS) have

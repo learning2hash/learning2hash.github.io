@@ -8,7 +8,7 @@ year: 2022
 bibkey: schlachter2022zero
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.00682'}]
-tags: ["Few Shot & Zero Shot"]
+tags: [Few-shot & Zero-shot]
 short_authors: Schlachter et al.
 ---
 When creating 3D content, highly specialized skills are generally needed to

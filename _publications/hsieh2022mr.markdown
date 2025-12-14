@@ -7,7 +7,8 @@ year: 2022
 bibkey: hsieh2022mr
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.13764'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets, Multimodal Retrieval, Tools & Libraries,
+  Text Retrieval]
 short_authors: Cheng-An Hsieh, Cheng-Ping Hsieh, Pu-Jen Cheng
 ---
 Multimodal learning is a recent challenge that extends unimodal learning by

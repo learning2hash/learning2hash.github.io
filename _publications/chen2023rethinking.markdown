@@ -9,7 +9,8 @@ bibkey: chen2023rethinking
 citations: 18
 additional_links: [{name: Code, url: 'https://github.com/cwj1412/MSCOCO-Flikcr30K_FG'},
   {name: Paper, url: 'https://arxiv.org/abs/2304.10824'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "SIGIR", "Text Retrieval"]
+tags: [Evaluation, Survey Paper, Datasets, Multimodal Retrieval, Scalability, Text
+    Retrieval, SIGIR]
 short_authors: Weijing Chen, Linli Yao, Qin Jin
 ---
 Image-text retrieval, as a fundamental and important branch of information

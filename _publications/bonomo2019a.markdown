@@ -7,7 +7,7 @@ year: 2019
 bibkey: bonomo2019a
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.01326'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Recommender Systems, Datasets]
 short_authors: Bonomo et al.
 ---
 We propose a general framework for the recommendation of possible customers

@@ -7,7 +7,8 @@ year: 2018
 bibkey: park2018adversarial
 citations: 79
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.04155'}]
-tags: ["Efficiency", "Evaluation", "Recommender Systems", "Supervised", "Tools & Libraries"]
+tags: [Evaluation, Supervised, Efficiency, Robustness, Tools & Libraries, Recommender
+    Systems]
 short_authors: Dae Hoon Park, Yi Chang
 ---
 Ad-hoc retrieval models with implicit feedback often have problems, e.g., the

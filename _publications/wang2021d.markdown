@@ -8,7 +8,7 @@ bibkey: wang2021d
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/WangWenhao0716/ISC-Track1-Submission'},
   {name: Paper, url: 'https://arxiv.org/abs/2111.07090'}]
-tags: ["Supervised", "Unsupervised"]
+tags: [Supervised, Unsupervised]
 short_authors: Wang et al.
 ---
 Image copy detection is of great importance in real-life social media. In

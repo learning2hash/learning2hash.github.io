@@ -8,7 +8,7 @@ year: 2024
 bibkey: ma2024multi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.19333'}]
-tags: ["Efficiency", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Efficiency, Multimodal Retrieval]
 short_authors: Ma et al.
 ---
 Most multi-modal tasks can be formulated into problems of either generation

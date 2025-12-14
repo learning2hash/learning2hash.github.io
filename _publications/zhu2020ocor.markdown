@@ -8,7 +8,7 @@ year: 2020
 bibkey: zhu2020ocor
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.05201'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Zhu et al.
 ---
 Code retrieval helps developers reuse the code snippet in the open-source

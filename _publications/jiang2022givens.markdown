@@ -8,7 +8,7 @@ year: 2022
 bibkey: jiang2022givens
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.05082'}]
-tags: ["Quantization", "Similarity Search"]
+tags: [Quantization, ICLR, Similarity Search]
 short_authors: Jiang et al.
 ---
 Product quantization (PQ) coupled with a space rotation, is widely used in

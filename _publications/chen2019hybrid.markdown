@@ -7,7 +7,8 @@ year: 2019
 bibkey: chen2019hybrid
 citations: 70
 additional_links: [{name: Code, url: 'http://www.bhchen.cn'}, {name: Paper, url: 'https://arxiv.org/abs/1907.11832'}]
-tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Distance Metric Learning,
+  CVPR, Tools & Libraries]
 short_authors: Binghui Chen, Weihong Deng
 ---
 In zero-shot image retrieval (ZSIR) task, embedding learning becomes more

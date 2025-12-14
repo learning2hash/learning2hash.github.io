@@ -7,7 +7,7 @@ year: 2018
 bibkey: cakaloglu2018text
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.10176'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets]
 short_authors: Tolgahan Cakaloglu, Christian Szegedy, Xiaowei Xu
 ---
 Text embedding representing natural language documents in a semantic vector

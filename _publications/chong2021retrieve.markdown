@@ -7,7 +7,7 @@ year: 2021
 bibkey: chong2021retrieve
 citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.06256'}]
-tags: ["ICCV", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: [ICCV, Supervised, Unsupervised, Tools & Libraries]
 short_authors: Chong et al.
 ---
 We present Retrieve in Style (RIS), an unsupervised framework for facial

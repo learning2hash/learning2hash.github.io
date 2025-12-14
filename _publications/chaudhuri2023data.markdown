@@ -8,7 +8,7 @@ bibkey: chaudhuri2023data
 citations: 19
 additional_links: [{name: Code, url: 'https://github.com/abhrac/data-free-sbir'},
   {name: Paper, url: 'https://arxiv.org/abs/2303.07775'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval", "Neural Hashing"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Datasets, CVPR]
 short_authors: Chaudhuri et al.
 ---
 Rising concerns about privacy and anonymity preservation of deep learning

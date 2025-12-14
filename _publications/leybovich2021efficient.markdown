@@ -7,7 +7,8 @@ year: 2021
 bibkey: leybovich2021efficient
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.06817'}]
-tags: ["Efficiency", "Graph Based ANN", "Hashing Methods", "Locality-Sensitive-Hashing", "Quantization"]
+tags: [Evaluation, Efficiency, Graph-based ANN, Quantization, Hashing Methods, Locality
+    Sensitive Hashing]
 short_authors: Michael Leybovich, Oded Shmueli
 ---
 We consider a similarity measure between two sets \(A\) and \(B\) of vectors,

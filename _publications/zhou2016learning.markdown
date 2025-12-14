@@ -8,7 +8,7 @@ year: 2016
 bibkey: zhou2016learning
 citations: 179
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.03023'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Zhou et al.
 ---
 Learning powerful feature representations for image retrieval has always been

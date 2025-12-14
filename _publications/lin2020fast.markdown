@@ -8,7 +8,8 @@ year: 2020
 bibkey: lin2020fast
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.00318'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Supervised"]
+tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Efficiency, Datasets,
+  Scalability, Hashing Methods]
 short_authors: Lin et al.
 ---
 Online image hashing has received increasing research attention recently,

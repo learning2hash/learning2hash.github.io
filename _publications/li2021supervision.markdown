@@ -10,7 +10,7 @@ bibkey: li2021supervision
 citations: 126
 additional_links: [{name: Code, url: 'https://github.com/Sense-GVT/DeCLIP'}, {name: Paper,
     url: 'https://arxiv.org/abs/2110.05208'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Scalability", "Supervised", "Tools & Libraries"]
+tags: [Supervised, Few-shot & Zero-shot, Datasets, Scalability, Tools & Libraries]
 short_authors: Li et al.
 ---
 Recently, large-scale Contrastive Language-Image Pre-training (CLIP) has

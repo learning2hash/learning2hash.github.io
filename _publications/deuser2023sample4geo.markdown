@@ -7,7 +7,7 @@ year: 2023
 bibkey: deuser2023sample4geo
 citations: 72
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.11851'}]
-tags: ["Datasets", "Evaluation", "ICCV", "Self-Supervised", "Tools & Libraries"]
+tags: [Evaluation, ICCV, Self-Supervised, Datasets, Tools & Libraries]
 short_authors: Fabian Deuser, Konrad Habel, Norbert Oswald
 ---
 Cross-View Geo-Localisation is still a challenging task where additional

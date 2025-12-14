@@ -8,7 +8,7 @@ bibkey: fanaeet2024natural
 citations: 0
 additional_links: [{name: Code, url: 'http://natural-learning.cc'}, {name: Paper,
     url: 'https://arxiv.org/abs/2404.05903'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation, Datasets]
 short_authors: Hadi Fanaee-T
 ---
 We introduce Natural Learning (NL), a novel algorithm that elevates the

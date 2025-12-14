@@ -8,7 +8,7 @@ year: 2024
 bibkey: salman2024on
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.02310'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Robustness"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Robustness]
 short_authors: Salman et al.
 ---
 Adversarial examples add imperceptible alterations to inputs with the

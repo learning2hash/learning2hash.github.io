@@ -8,7 +8,8 @@ year: 2020
 bibkey: paria2020minimizing
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.05665'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing", "Quantization"]
+tags: [Image Retrieval, Datasets, Quantization, Hashing Methods, Locality Sensitive
+    Hashing, Recommender Systems]
 short_authors: Paria et al.
 ---
 Deep representation learning has become one of the most widely adopted

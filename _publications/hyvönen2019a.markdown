@@ -7,7 +7,8 @@ year: 2019
 bibkey: "hyv\xF6nen2019a"
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.08322'}]
-tags: ["Evaluation", "Similarity Search", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: [Evaluation, Supervised, Similarity Search, Vector Indexing, Unsupervised, Tools
+    & Libraries]
 short_authors: "Ville Hyv\xF6nen, Elias J\xE4\xE4saari, Teemu Roos"
 ---
 Both supervised and unsupervised machine learning algorithms have been used

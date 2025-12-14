@@ -8,7 +8,7 @@ year: 2018
 bibkey: parkerholder2018compressing
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.02764'}]
-tags: ["Hashing Methods", "Neural Hashing"]
+tags: [Hashing Methods, Neural Hashing]
 short_authors: Jack Parker-Holder, Sam Gass
 ---
 The popularity of deep learning is increasing by the day. However, despite

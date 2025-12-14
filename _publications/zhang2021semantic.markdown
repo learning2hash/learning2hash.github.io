@@ -7,7 +7,7 @@ year: 2021
 bibkey: zhang2021semantic
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.06365'}]
-tags: ["Supervised", "Tools & Libraries"]
+tags: [Supervised, Tools & Libraries]
 short_authors: Shuo Zhang, Krisztian Balog
 ---
 Tables on the Web contain a vast amount of knowledge in a structured form. To

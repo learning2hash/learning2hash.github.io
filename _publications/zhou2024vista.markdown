@@ -9,7 +9,7 @@ bibkey: zhou2024vista
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/FlagOpen/FlagEmbedding'},
   {name: Paper, url: 'https://arxiv.org/abs/2406.04292'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Supervised"]
+tags: [Evaluation, Supervised, Few-shot & Zero-shot, ACL]
 short_authors: Zhou et al.
 ---
 Multi-modal retrieval becomes increasingly popular in practice. However, the

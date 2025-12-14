@@ -7,7 +7,8 @@ year: 2024
 bibkey: verma2024improving
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.07189'}]
-tags: ["Distance Metric Learning", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Similarity Search"]
+tags: [Similarity Search, Distance Metric Learning, Scalability, Hashing Methods,
+  Locality Sensitive Hashing]
 short_authors: Bhisham Dev Verma, Rameshwar Pratap
 ---
 Locality sensitive hashing (LSH) is a fundamental algorithmic toolkit used by

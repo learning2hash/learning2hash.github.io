@@ -9,7 +9,7 @@ year: 2021
 bibkey: dwibedi2021with
 citations: 351
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.14548'}]
-tags: ["Datasets", "Distance Metric Learning", "ICCV", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, ICCV, Self-Supervised, Distance Metric Learning, Datasets]
 short_authors: Dwibedi et al.
 ---
 Self-supervised learning algorithms based on instance discrimination train

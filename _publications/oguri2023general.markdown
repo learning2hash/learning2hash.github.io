@@ -8,7 +8,7 @@ year: 2023
 bibkey: oguri2023general
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.00472'}]
-tags: ["Evaluation", "Graph Based ANN"]
+tags: [Evaluation, Graph-based ANN]
 short_authors: Yutaro Oguri, Yusuke Matsui
 ---
 Despite the efficacy of graph-based algorithms for Approximate Nearest

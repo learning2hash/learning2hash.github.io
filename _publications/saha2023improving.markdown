@@ -8,7 +8,7 @@ year: 2023
 bibkey: saha2023improving
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.15027'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Scalability, Datasets]
 short_authors: Saha et al.
 ---
 Neural ranking methods based on large transformer models have recently gained

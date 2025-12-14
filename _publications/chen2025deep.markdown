@@ -7,7 +7,7 @@ year: 2025
 bibkey: chen2025deep
 citations: 58
 additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0540.pdf'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Hashing Methods", "Neural Hashing"]
+tags: [Evaluation, Neural Hashing, Datasets, CVPR, Tools & Libraries, Hashing Methods]
 short_authors: Chen et al.
 ---
 This paper presents a discrepancy minimizing model to

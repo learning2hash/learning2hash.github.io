@@ -9,7 +9,7 @@ bibkey: yuan2022remote
 citations: 149
 additional_links: [{name: Code, url: 'https://github.com/xiaoyuan1996/GaLR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2204.09860'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Re-Ranking", "Tools & Libraries"]
+tags: [Evaluation, Image Retrieval, Re-ranking, Datasets, Tools & Libraries]
 short_authors: Yuan et al.
 ---
 Cross-modal remote sensing text-image retrieval (RSCTIR) has recently become

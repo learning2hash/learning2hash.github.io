@@ -7,7 +7,7 @@ year: 2019
 bibkey: chumbalov2019scalable
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.05049'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Datasets]
 short_authors: Daniyar Chumbalov, Lucas Maystre, Matthias Grossglauser
 ---
 We consider the problem of finding a target object \(t\) using pairwise

@@ -8,7 +8,7 @@ year: 2018
 bibkey: mitzenmacher2018robust
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.09694'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing]
 short_authors: Michael Mitzenmacher, Tom Morgan
 ---
 We consider variations of set reconciliation problems where two parties,

@@ -7,7 +7,7 @@ year: 2023
 bibkey: lin2023rafic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.06868'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Few-shot & Zero-shot, Datasets]
 short_authors: Hangfei Lin, Li Miao, Amir Ziai
 ---
 Few-shot image classification is the task of classifying unseen images to one

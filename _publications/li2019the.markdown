@@ -8,7 +8,7 @@ year: 2019
 bibkey: li2019the
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.07389'}]
-tags: ["Efficiency", "Image Retrieval", "Scalability"]
+tags: [Scalability, Image Retrieval, Efficiency]
 short_authors: Li et al.
 ---
 We present the design and implementation of a visual search system for real

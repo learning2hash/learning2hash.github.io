@@ -9,7 +9,7 @@ bibkey: hausler2024pair
 citations: 2
 additional_links: [{name: Code, url: 'https://csiro-robotics.github.io/Pair-VPR'},
   {name: Paper, url: 'https://arxiv.org/abs/2410.06614'}]
-tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
+tags: [Evaluation, Re-ranking, Hybrid ANN Methods, Datasets]
 short_authors: Stephen Hausler, Peyman Moghadam
 ---
 In this work we propose a novel joint training method for Visual Place

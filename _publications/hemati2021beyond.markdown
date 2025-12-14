@@ -8,7 +8,8 @@ year: 2021
 bibkey: hemati2021beyond
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.00216'}]
-tags: ["Datasets", "Hashing Methods", "Quantization", "Supervised", "Unsupervised"]
+tags: [Compact Codes, Evaluation, Supervised, Datasets, Quantization, Unsupervised,
+  Hashing Methods]
 short_authors: Sobhan Hemati, H. R. Tizhoosh
 ---
 An effective unsupervised hashing algorithm leads to compact binary codes

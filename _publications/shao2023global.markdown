@@ -9,7 +9,8 @@ bibkey: shao2023global
 citations: 40
 additional_links: [{name: Code, url: 'https://github.com/ShihaoShao-GH/SuperGlobal'},
   {name: Paper, url: 'https://arxiv.org/abs/2308.06954'}]
-tags: ["Datasets", "Efficiency", "Image Retrieval", "Re-Ranking", "Scalability"]
+tags: [Evaluation, ICCV, Image Retrieval, Re-ranking, Efficiency, Datasets, Scalability,
+  Hybrid ANN Methods]
 short_authors: Shao et al.
 ---
 Image retrieval systems conventionally use a two-stage paradigm, leveraging

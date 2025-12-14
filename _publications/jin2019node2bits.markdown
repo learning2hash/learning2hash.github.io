@@ -8,7 +8,8 @@ year: 2019
 bibkey: jin2019node2bits
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.08572'}]
-tags: ["Evaluation", "Recommender Systems", "Similarity Search", "Tools & Libraries", "Tree Based ANN"]
+tags: [Tree-based ANN, Evaluation, Similarity Search, Scalability, Tools & Libraries,
+  Hashing Methods, Locality Sensitive Hashing, Recommender Systems]
 short_authors: Jin et al.
 ---
 Identity stitching, the task of identifying and matching various online

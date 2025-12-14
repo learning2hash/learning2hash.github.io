@@ -8,7 +8,7 @@ year: 2018
 bibkey: joulin2018loss
 citations: 339
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.07745'}]
-tags: ["EMNLP", "Evaluation"]
+tags: [EMNLP, Evaluation]
 short_authors: Joulin et al.
 ---
 Continuous word representations learned separately on distinct languages can

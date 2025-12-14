@@ -9,7 +9,7 @@ year: 2018
 bibkey: dodds2018learning
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.04652'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
+tags: [Distance Metric Learning, Image Retrieval, Datasets]
 short_authors: Dodds et al.
 ---
 In this paper, we propose learning an embedding function for content-based

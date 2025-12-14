@@ -8,7 +8,8 @@ year: 2024
 bibkey: egiazarian2024accurate
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.00492'}]
-tags: ["Compact Codes", "Evaluation", "Large Scale Search", "Quantization", "Tools & Libraries"]
+tags: [Compact Codes, Evaluation, Quantization, Scalability, Tools & Libraries, Large-Scale
+    Search]
 short_authors: Egiazarian et al.
 ---
 Text-to-image diffusion models have emerged as a powerful framework for

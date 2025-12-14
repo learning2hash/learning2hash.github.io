@@ -9,7 +9,8 @@ bibkey: liang2024lightweight
 citations: 9
 additional_links: [{name: Code, url: 'https://github.com/xurong-liang/LEGCF'}, {name: Paper,
     url: 'https://arxiv.org/abs/2403.18479'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "SIGIR"]
+tags: [Evaluation, Efficiency, Graph-based ANN, Datasets, Tools & Libraries, Recommender
+    Systems, SIGIR]
 short_authors: Liang et al.
 ---
 Graph neural networks (GNNs) are currently one of the most performant

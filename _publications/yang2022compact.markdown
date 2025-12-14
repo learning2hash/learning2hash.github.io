@@ -9,7 +9,7 @@ year: 2022
 bibkey: yang2022compact
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.15328'}]
-tags: ["Efficiency", "Evaluation", "Hybrid ANN Methods", "Quantization", "Re-Ranking"]
+tags: [Evaluation, Re-ranking, Efficiency, Quantization, Hybrid ANN Methods, ACL]
 short_authors: Yingrui Yang, Yifan Qiao, Tao Yang
 ---
 Transformer based re-ranking models can achieve high search relevance through

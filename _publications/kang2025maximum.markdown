@@ -7,7 +7,8 @@ year: 2025
 bibkey: kang2025maximum
 citations: 39
 additional_links: [{name: Paper, url: 'http://ise.thss.tsinghua.edu.cn/~mlong/doc/maximum-margin-hamming-hashing-iccv19.pdf'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness"]
+tags: [Compact Codes, Evaluation, ICCV, Image Retrieval, Neural Hashing, Datasets,
+  Robustness, Hashing Methods]
 short_authors: Kang et al.
 ---
 Deep hashing enables computation and memory efficient

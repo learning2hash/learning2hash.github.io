@@ -8,7 +8,7 @@ year: 2024
 bibkey: cai2024dynamic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.13510'}]
-tags: ["Datasets", "Multimodal Retrieval", "Scalability"]
+tags: [Scalability, Datasets, Multimodal Retrieval]
 short_authors: Cai et al.
 ---
 Existing cross-modal retrieval methods typically rely on large-scale

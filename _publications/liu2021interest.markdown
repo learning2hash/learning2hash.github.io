@@ -7,7 +7,8 @@ year: 2021
 bibkey: liu2021interest
 citations: 264
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.10044'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Graph-based ANN, Datasets, Scalability, Unsupervised,
+  Recommender Systems]
 short_authors: Liu et al.
 ---
 Graph Convolution Networks (GCNs) manifest great potential in recommendation.

@@ -7,7 +7,8 @@ year: 2025
 bibkey: lv2025multi
 citations: 614
 additional_links: [{name: Paper, url: 'http://www.cs.princeton.edu/cass/papers/mplsh_vldb07.pdf'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: [Evaluation, Similarity Search, Efficiency, Datasets, Hashing Methods, Locality
+    Sensitive Hashing]
 short_authors: Lv et al.
 ---
 Similarity indices for high-dimensional data are very desirable for building content-based search systems for featurerich data such as audio, images, videos, and other sensor

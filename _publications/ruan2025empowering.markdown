@@ -9,7 +9,7 @@ year: 2025
 bibkey: ruan2025empowering
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2506.15986'}]
-tags: ["Evaluation", "Graph Based ANN", "KDD", "Recommender Systems", "Self-Supervised"]
+tags: [Evaluation, Self-Supervised, Graph-based ANN, KDD, Recommender Systems]
 short_authors: Ruan et al.
 ---
 Approximate Nearest Neighbor Search (ANNS) in high-dimensional spaces finds extensive applications in databases, information retrieval, recommender systems, etc. While graph-based methods have emerged as the leading solution for ANNS due to their superior query performance, they still face several challenges, such as struggling with local optima and redundant computations. These issues arise because existing methods (i) fail to fully exploit the topological information underlying the proximity graph G, and (ii) suffer from severe distribution mismatches between the base data and queries in practice.

@@ -7,7 +7,7 @@ year: 2021
 bibkey: chen2021fuzzy
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.02390'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Similarity Search", "Tools & Libraries"]
+tags: [Evaluation, Similarity Search, Datasets, Scalability, Tools & Libraries]
 short_authors: Xuelu Chen, Ziniu Hu, Yizhou Sun
 ---
 Answering complex First-Order Logical (FOL) queries on large-scale incomplete

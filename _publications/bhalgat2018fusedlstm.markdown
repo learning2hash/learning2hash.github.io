@@ -8,7 +8,7 @@ year: 2018
 bibkey: bhalgat2018fusedlstm
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.00136'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: [Distance Metric Learning, Evaluation]
 short_authors: Yash Bhalgat
 ---
 This paper describes two of my best performing approaches on the

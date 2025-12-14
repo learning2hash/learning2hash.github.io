@@ -8,7 +8,8 @@ year: 2018
 bibkey: tharani2018unsupervised
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.06470'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Distance Metric Learning, Datasets,
+  Unsupervised]
 short_authors: Mohbat Tharani, Numan Khurshid, Murtaza Taj
 ---
 The advent of deep perceptual networks brought about a paradigm shift in

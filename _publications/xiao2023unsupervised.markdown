@@ -7,7 +7,8 @@ year: 2023
 bibkey: xiao2023unsupervised
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.04228'}]
-tags: ["Datasets", "Image Retrieval", "Quantization", "Supervised", "Unsupervised"]
+tags: [Supervised, Image Retrieval, Efficiency, Neural Hashing, Datasets, Quantization,
+  Robustness, Unsupervised, Hashing Methods]
 short_authors: Yanru Xiao, Cong Wang, Xing Gao
 ---
 The vulnerability in the algorithm supply chain of deep learning has imposed

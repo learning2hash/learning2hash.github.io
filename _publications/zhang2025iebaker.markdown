@@ -9,7 +9,7 @@ bibkey: zhang2025iebaker
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/zhangy0822/iEBAKER'}, {name: Paper,
     url: 'https://arxiv.org/abs/2504.05644'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval", "Tools & Libraries"]
+tags: [Text Retrieval, Evaluation, Tools & Libraries, Datasets]
 short_authors: Zhang et al.
 ---
 Recent studies focus on the Remote Sensing Image-Text Retrieval (RSITR),

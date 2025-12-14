@@ -7,7 +7,7 @@ year: 2017
 bibkey: mishchuk2017working
 citations: 297
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.10872'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Mishchuk et al.
 ---
 We introduce a novel loss for learning local feature descriptors which is

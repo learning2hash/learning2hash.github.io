@@ -7,7 +7,8 @@ year: 2018
 bibkey: yang2018deep
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.01404'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing", "Supervised"]
+tags: [Evaluation, Supervised, Neural Hashing, Datasets, Scalability, Tools & Libraries,
+  Hashing Methods]
 short_authors: Yang et al.
 ---
 With the rapid growth of multimedia data (e.g., image, audio and video etc.)

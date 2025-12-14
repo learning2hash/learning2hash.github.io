@@ -8,7 +8,7 @@ year: 2018
 bibkey: krichene2018efficient
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.07187'}]
-tags: ["Efficiency", "Scalability"]
+tags: [Scalability, Efficiency]
 short_authors: Krichene et al.
 ---
 We study the problem of learning similarity functions over very large corpora

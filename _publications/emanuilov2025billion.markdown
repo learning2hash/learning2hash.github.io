@@ -8,7 +8,8 @@ year: 2025
 bibkey: emanuilov2025billion
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.13442'}]
-tags: ["Datasets", "Hybrid ANN Methods", "Large Scale Search", "Similarity Search", "Vector Indexing"]
+tags: [Similarity Search, Efficiency, Vector Indexing, Datasets, Scalability, Large-Scale
+    Search, Hybrid ANN Methods]
 short_authors: Simeon Emanuilov, Aleksandar Dimov
 ---
 This paper presents a novel approach for similarity search with complex

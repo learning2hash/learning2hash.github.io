@@ -10,7 +10,7 @@ year: 2019
 bibkey: zhang2019improving
 citations: 40
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.03492'}]
-tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Text Retrieval"]
+tags: [Evaluation, Re-ranking, Datasets, Text Retrieval, Hybrid ANN Methods, ACL]
 short_authors: Zhang et al.
 ---
 In this paper, we propose to boost low-resource cross-lingual document

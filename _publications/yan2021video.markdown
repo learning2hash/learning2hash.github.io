@@ -9,7 +9,7 @@ bibkey: yan2021video
 citations: 7
 additional_links: [{name: Code, url: 'https://github.com/ruiyan1995/Region_Learner'},
   {name: Paper, url: 'https://arxiv.org/abs/2112.01194'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Scalability, Datasets]
 short_authors: Yan et al.
 ---
 Video-Text pre-training aims at learning transferable representations from

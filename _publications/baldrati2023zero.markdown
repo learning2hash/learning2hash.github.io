@@ -8,7 +8,8 @@ bibkey: baldrati2023zero
 citations: 71
 additional_links: [{name: Code, url: 'https://github.com/miccunifi/SEARLE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2303.15247'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "ICCV", "Image Retrieval", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Few-shot & Zero-shot, ICCV, Datasets,
+  Unsupervised]
 short_authors: Baldrati et al.
 ---
 Composed Image Retrieval (CIR) aims to retrieve a target image based on a

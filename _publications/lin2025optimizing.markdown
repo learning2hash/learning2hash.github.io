@@ -7,7 +7,8 @@ year: 2025
 bibkey: lin2025optimizing
 citations: 23
 additional_links: [{name: Paper, url: 'http://link.springer.com/chapter/10.1007%2F978-3-319-10578-9_40'}]
-tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Image Retrieval", "Tools & Libraries"]
+tags: [Compact Codes, Evaluation, Image Retrieval, Scalability, Tools & Libraries,
+  Hashing Methods]
 short_authors: Guosheng Lin, Shen, Wu.
 ---
 Hashing has proven a valuable tool for large-scale information retrieval. Despite much success, existing hashing methods optimize over simple objectives such as the reconstruction error or graph Laplacian related loss functions, instead of the performance evaluation criteria of interest—multivariate performance measures such as the AUC and NDCG. Here we present a general framework (termed StructHash) that allows one to directly optimize multivariate performance measures.

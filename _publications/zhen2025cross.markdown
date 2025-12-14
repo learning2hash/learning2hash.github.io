@@ -7,7 +7,7 @@ year: 2025
 bibkey: zhen2025cross
 citations: 3
 additional_links: [{name: Paper, url: 'http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9648/10001/'}]
-tags: ["AAAI", "Compact Codes", "Hashing Methods", "Similarity Search", "Tools & Libraries"]
+tags: [Compact Codes, Similarity Search, Tools & Libraries, Hashing Methods, AAAI]
 short_authors: Zhen et al.
 ---
 We present a probabilistic framework for learning pairwise similarities between objects belonging to different modalities, such as drugs and proteins, or text and

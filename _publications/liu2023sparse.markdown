@@ -7,7 +7,8 @@ year: 2023
 bibkey: liu2023sparse
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.06928'}]
-tags: ["Hashing Methods", "Neural Hashing", "Quantization", "Supervised", "Unsupervised"]
+tags: [Compact Codes, Evaluation, Supervised, Neural Hashing, Quantization, Robustness,
+  Scalability, Unsupervised, Tools & Libraries, Hashing Methods]
 short_authors: Hong Liu
 ---
 Unsupervised hashing has received extensive research focus on the past

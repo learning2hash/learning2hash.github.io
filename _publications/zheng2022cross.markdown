@@ -9,7 +9,7 @@ year: 2022
 bibkey: zheng2022cross
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.08887'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Scalability"]
+tags: [Scalability, ACL, Datasets, Few-shot & Zero-shot]
 short_authors: Zheng et al.
 ---
 Cross-lingual retrieval aims to retrieve relevant text across languages.

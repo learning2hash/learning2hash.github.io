@@ -9,7 +9,7 @@ bibkey: shen2018matchable
 citations: 9
 additional_links: [{name: Code, url: 'https://github.com/hlzz/mirror'}, {name: Paper,
     url: 'https://arxiv.org/abs/1811.10343'}]
-tags: ["Evaluation", "Image Retrieval", "Scalability"]
+tags: [Scalability, Evaluation, Image Retrieval]
 short_authors: Shen et al.
 ---
 Convolutional Neural Networks (CNNs) have achieved superior performance on

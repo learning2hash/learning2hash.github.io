@@ -7,7 +7,7 @@ year: 2022
 bibkey: santhanam2022plaid
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.09707'}]
-tags: ["Evaluation", "Scalability"]
+tags: [Scalability, Evaluation]
 short_authors: Santhanam et al.
 ---
 Pre-trained language models are increasingly important components across

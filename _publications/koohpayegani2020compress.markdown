@@ -8,7 +8,7 @@ bibkey: koohpayegani2020compress
 citations: 24
 additional_links: [{name: Code, url: 'https://github.com/UMBCvision/CompRess'}, {
     name: Paper, url: 'https://arxiv.org/abs/2010.14713'}]
-tags: ["Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Self-Supervised, Supervised, Unsupervised, Evaluation]
 short_authors: Soroush Abbasi Koohpayegani, Ajinkya Tejankar, Hamed Pirsiavash
 ---
 Self-supervised learning aims to learn good representations with unlabeled

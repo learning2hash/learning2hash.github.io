@@ -7,7 +7,8 @@ year: 2018
 bibkey: li2018self
 citations: 457
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.01223'}]
-tags: ["Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, Neural Hashing, Self-Supervised, Datasets, Robustness,
+  Multimodal Retrieval, CVPR, Hashing Methods]
 short_authors: Li et al.
 ---
 Thanks to the success of deep learning, cross-modal retrieval has made

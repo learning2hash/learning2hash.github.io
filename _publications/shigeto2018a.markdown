@@ -8,7 +8,7 @@ year: 2018
 bibkey: shigeto2018a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.03945'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: [Evaluation, Distance Metric Learning, Datasets]
 short_authors: Yutaro Shigeto, Masashi Shimbo, Yuji Matsumoto
 ---
 This paper proposes an inexpensive way to learn an effective dissimilarity

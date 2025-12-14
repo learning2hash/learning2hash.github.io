@@ -10,7 +10,7 @@ bibkey: xie2024modalink
 citations: 6
 additional_links: [{name: Code, url: 'https://github.com/haomo-ai/ModaLink.git'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.18762'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "IROS", "Tools & Libraries"]
+tags: [Evaluation, Efficiency, Datasets, Tools & Libraries, IROS]
 short_authors: Xie et al.
 ---
 Place recognition is an important task for robots and autonomous cars to

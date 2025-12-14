@@ -9,7 +9,8 @@ year: 2019
 bibkey: hansen2019unsupervised
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.00671'}]
-tags: ["Hashing Methods", "Neural Hashing", "Similarity Search", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Neural Hashing, Similarity Search, Datasets, Scalability,
+  Unsupervised, Hashing Methods, SIGIR]
 short_authors: Hansen et al.
 ---
 Fast similarity search is a key component in large-scale information

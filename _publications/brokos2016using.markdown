@@ -8,7 +8,7 @@ year: 2016
 bibkey: brokos2016using
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.03905'}]
-tags: ["Re-Ranking", "Text Retrieval"]
+tags: [Text Retrieval, Re-ranking]
 short_authors: Georgios-Ioannis Brokos, Prodromos Malakasiotis, Ion Androutsopoulos
 ---
 We propose a document retrieval method for question answering that represents

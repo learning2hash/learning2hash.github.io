@@ -8,7 +8,7 @@ year: 2020
 bibkey: singh2020ihashnet
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.03881'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Neural Hashing", "Vector Indexing"]
+tags: [Neural Hashing, Efficiency, Vector Indexing, Datasets, Hashing Methods]
 short_authors: Singh et al.
 ---
 Massive biometric deployments are pervasive in today's world. But despite the

@@ -8,7 +8,7 @@ bibkey: mishkin2017repeatability
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/ducha-aiki/affnet'}, {name: Paper,
     url: 'https://arxiv.org/abs/1711.06704'}]
-tags: ["Image Retrieval"]
+tags: [Image Retrieval]
 short_authors: Dmytro Mishkin, Filip Radenovic, Jiri Matas
 ---
 A method for learning local affine-covariant regions is presented. We show

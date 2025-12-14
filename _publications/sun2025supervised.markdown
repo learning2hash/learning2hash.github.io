@@ -8,7 +8,8 @@ year: 2025
 bibkey: sun2025supervised
 citations: 51
 additional_links: [{name: Paper, url: 'https://xuemengsong.github.io/SIGIR2019_HiCHNet.pdf'}]
-tags: ["Datasets", "Hashing Methods", "SIGIR", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Datasets, Multimodal Retrieval, Unsupervised, Hashing
+    Methods, SIGIR]
 short_authors: Sun et al.
 ---
 Recently, due to the unprecedented growth of multimedia data,

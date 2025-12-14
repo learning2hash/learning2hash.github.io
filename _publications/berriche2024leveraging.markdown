@@ -7,7 +7,7 @@ year: 2024
 bibkey: berriche2024leveraging
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.13747'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Datasets, Hashing Methods]
 short_authors: Aymene Berriche, Mehdi Adjal Zakaria, Riyadh Baghdadi
 ---
 Deep hashing techniques have emerged as the predominant approach for

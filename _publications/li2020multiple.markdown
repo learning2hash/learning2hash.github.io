@@ -7,7 +7,8 @@ year: 2020
 bibkey: li2020multiple
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.01503'}]
-tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing", "Memory Efficiency"]
+tags: [Evaluation, Image Retrieval, Efficiency, Memory Efficiency, Scalability, Tools
+    & Libraries, Hashing Methods, Locality Sensitive Hashing]
 short_authors: Ming-Wei Li, Qing-Yuan Jiang, Wu-Jun Li
 ---
 Due to its low storage cost and fast query speed, hashing has been widely

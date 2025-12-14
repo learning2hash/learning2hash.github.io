@@ -7,7 +7,7 @@ year: 2016
 bibkey: wurzer2016randomised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.02641'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing]
 short_authors: Dominik Wurzer, Miles Osborne, Victor Lavrenko
 ---
 Relevance Models are well-known retrieval models and capable of producing

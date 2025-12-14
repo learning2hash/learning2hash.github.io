@@ -9,7 +9,7 @@ bibkey: zhang2020learning
 citations: 22
 additional_links: [{name: Code, url: 'https://sha-lab.github.io/DG'}, {name: Paper,
     url: 'https://arxiv.org/abs/2010.02949'}]
-tags: ["Datasets", "EMNLP", "Graph Based ANN", "Image Retrieval"]
+tags: [EMNLP, Graph-based ANN, Datasets, Image Retrieval]
 short_authors: Zhang et al.
 ---
 Learning to fuse vision and language information and representing them is an

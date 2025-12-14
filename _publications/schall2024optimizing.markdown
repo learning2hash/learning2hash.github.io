@@ -8,7 +8,8 @@ year: 2024
 bibkey: schall2024optimizing
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.01936'}]
-tags: ["Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval", "Robustness", "Similarity Search"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Similarity Search, Robustness,
+  Multimodal Retrieval, Scalability]
 short_authors: Schall et al.
 ---
 Contrastive Language and Image Pairing (CLIP), a transformative method in

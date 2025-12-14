@@ -9,7 +9,7 @@ year: 2021
 bibkey: huang2021seeing
 citations: 205
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.03135'}]
-tags: ["CVPR", "Text Retrieval"]
+tags: [Text Retrieval, CVPR]
 short_authors: Huang et al.
 ---
 We study joint learning of Convolutional Neural Network (CNN) and Transformer

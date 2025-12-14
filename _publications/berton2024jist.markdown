@@ -8,7 +8,7 @@ bibkey: berton2024jist
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/ga1i13o/JIST'}, {name: Paper,
     url: 'https://arxiv.org/abs/2403.19787'}]
-tags: ["Tools & Libraries"]
+tags: [Tools & Libraries]
 short_authors: Berton et al.
 ---
 Visual Place Recognition aims at recognizing previously visited places by

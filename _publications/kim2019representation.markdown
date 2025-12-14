@@ -9,7 +9,7 @@ year: 2019
 bibkey: kim2019representation
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.10409'}]
-tags: ["AAAI", "Datasets", "Distance Metric Learning", "Evaluation", "IJCAI"]
+tags: [AAAI, Datasets, Distance Metric Learning, Evaluation, IJCAI]
 short_authors: Kim et al.
 ---
 We propose \(\textit\{weighted inner product similarity\}\) (WIPS) for neural

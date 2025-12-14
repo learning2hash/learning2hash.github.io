@@ -10,7 +10,8 @@ year: 2022
 bibkey: mirchandani2022fad
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.15028'}]
-tags: ["EMNLP", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Multimodal Retrieval, Tools & Libraries,
+  EMNLP]
 short_authors: Mirchandani et al.
 ---
 Multimodal tasks in the fashion domain have significant potential for

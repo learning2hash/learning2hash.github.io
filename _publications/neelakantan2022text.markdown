@@ -11,7 +11,7 @@ year: 2022
 bibkey: neelakantan2022text
 citations: 146
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.10005'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Datasets, Scalability, Unsupervised]
 short_authors: Neelakantan et al.
 ---
 Text embeddings are useful features in many applications such as semantic

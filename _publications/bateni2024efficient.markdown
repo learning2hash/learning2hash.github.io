@@ -8,7 +8,7 @@ year: 2024
 bibkey: bateni2024efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.05066'}]
-tags: ["Efficiency", "Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Efficiency]
 short_authors: Bateni et al.
 ---
 We give an efficient algorithm for Centroid-Linkage Hierarchical

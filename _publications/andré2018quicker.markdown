@@ -9,7 +9,8 @@ bibkey: "andr\xE92018quicker"
 citations: 18
 additional_links: [{name: Code, url: 'http://github.com/nlescoua/faiss-quickeradc'},
   {name: Paper, url: 'https://arxiv.org/abs/1812.09162'}]
-tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Quantization", "Vector Indexing"]
+tags: [Evaluation, Efficiency, Vector Indexing, Graph-based ANN, Quantization, Tools
+    & Libraries]
 short_authors: "Fabien Andr\xE9, Anne-Marie Kermarrec, Nicolas Le Scouarnec"
 ---
 Efficient Nearest Neighbor (NN) search in high-dimensional spaces is a

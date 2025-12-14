@@ -7,7 +7,7 @@ year: 2022
 bibkey: gu2022uniasm
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.01144'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Tree Based ANN"]
+tags: [Compact Codes, Tree-based ANN, Evaluation, Datasets]
 short_authors: Gu et al.
 ---
 Binary code similarity detection (BCSD) is widely used in various binary

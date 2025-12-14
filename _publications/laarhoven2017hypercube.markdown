@@ -8,7 +8,7 @@ year: 2017
 bibkey: laarhoven2017hypercube
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.05760'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing]
 short_authors: Thijs Laarhoven
 ---
 A celebrated technique for finding near neighbors for the angular distance

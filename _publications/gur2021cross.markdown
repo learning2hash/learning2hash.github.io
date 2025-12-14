@@ -8,7 +8,7 @@ year: 2021
 bibkey: gur2021cross
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.08108'}]
-tags: ["EMNLP", "Evaluation", "Multimodal Retrieval"]
+tags: [EMNLP, Evaluation, ACL, Multimodal Retrieval]
 short_authors: Gur et al.
 ---
 Recent advances in using retrieval components over external knowledge sources

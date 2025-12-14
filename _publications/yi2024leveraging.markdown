@@ -8,7 +8,7 @@ bibkey: yi2024leveraging
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/YCaigogogo/CVPR24-CODER'},
   {name: Paper, url: 'https://arxiv.org/abs/2404.17753'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Self-Supervised"]
+tags: [Evaluation, Few-shot & Zero-shot, Self-Supervised, Datasets, CVPR]
 short_authors: Yi et al.
 ---
 CLIP showcases exceptional cross-modal matching capabilities due to its

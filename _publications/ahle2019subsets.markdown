@@ -7,7 +7,7 @@ year: 2019
 bibkey: ahle2019subsets
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.04045'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Similarity Search]
 short_authors: "Thomas Dybdahl Ahle, Jakob B\xE6k Tejs Knudsen"
 ---
 We formulate and optimally solve a new generalized Set Similarity Search

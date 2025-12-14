@@ -7,7 +7,8 @@ year: 2022
 bibkey: yin2022rapid
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.05933'}]
-tags: ["Compact Codes", "Distance Metric Learning", "Efficiency", "Evaluation", "Hashing Methods"]
+tags: [Compact Codes, Evaluation, Efficiency, Distance Metric Learning, Tools & Libraries,
+  Hashing Methods]
 short_authors: Yin et al.
 ---
 Person Re-Identification (ReID) matches pedestrians across disjoint cameras.

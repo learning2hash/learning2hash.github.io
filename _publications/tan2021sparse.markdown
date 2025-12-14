@@ -9,7 +9,7 @@ year: 2021
 bibkey: tan2021sparse
 citations: 135
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.09267'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "Scalability"]
+tags: [Scalability, Evaluation, Recommender Systems, Datasets]
 short_authors: Tan et al.
 ---
 Recent methods in sequential recommendation focus on learning an overall

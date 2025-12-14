@@ -7,7 +7,7 @@ year: 2023
 bibkey: monath2023improving
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.15311'}]
-tags: ["Datasets"]
+tags: [Datasets]
 short_authors: Monath et al.
 ---
 Dual encoder models are ubiquitous in modern classification and retrieval.

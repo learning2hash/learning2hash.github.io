@@ -8,7 +8,7 @@ year: 2019
 bibkey: yang2019multilingual
 citations: 66
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.04307'}]
-tags: ["Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation]
 short_authors: Yang et al.
 ---
 We introduce two pre-trained retrieval focused multilingual sentence encoding

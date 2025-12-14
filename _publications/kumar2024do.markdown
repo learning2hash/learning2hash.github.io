@@ -10,7 +10,8 @@ bibkey: kumar2024do
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/sonalkum/Compun'}, {name: Paper,
     url: 'https://arxiv.org/abs/2404.00419'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "NAACL"]
+tags: [NAACL, Evaluation, Image Retrieval, Distance Metric Learning, Multimodal Retrieval,
+  Tools & Libraries, ACL]
 short_authors: Kumar et al.
 ---
 Open-vocabulary vision-language models (VLMs) like CLIP, trained using

@@ -7,7 +7,8 @@ year: 2025
 bibkey: verma2025faster
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.06737'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Evaluation, Distance Metric Learning, Datasets, Hashing Methods, Locality Sensitive
+    Hashing]
 short_authors: Bhisham Dev Verma, Rameshwar Pratap
 ---
 This work suggests faster and space-efficient index construction algorithms

@@ -7,7 +7,7 @@ year: 2017
 bibkey: sivertsen2017fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.06867'}]
-tags: ["Datasets"]
+tags: [Datasets]
 short_authors: Johan Sivertsen
 ---
 We show an analog to the Fast Johnson-Lindenstrauss Transform for Nearest

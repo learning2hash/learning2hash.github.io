@@ -8,7 +8,7 @@ bibkey: abdallah2023generator
 citations: 5
 additional_links: [{name: Code, url: 'https://github.com/abdoelsayed2016/GRG'}, {
     name: Paper, url: 'https://arxiv.org/abs/2307.11278'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets]
 short_authors: Abdelrahman Abdallah, Adam Jatowt
 ---
 Open-domain question answering (QA) tasks usually require the retrieval of

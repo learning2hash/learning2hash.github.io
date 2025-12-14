@@ -7,7 +7,8 @@ year: 2025
 bibkey: lin2025unified
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.16474'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Recommender Systems", "Tools & Libraries"]
+tags: [Evaluation, Distance Metric Learning, Datasets, Scalability, Tools & Libraries,
+  Recommender Systems]
 short_authors: Lin et al.
 ---
 Effective recommendation is crucial for large-scale online platforms.

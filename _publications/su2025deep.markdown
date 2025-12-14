@@ -9,7 +9,8 @@ bibkey: su2025deep
 citations: 298
 additional_links: [{name: Code, url: 'https://github.com/zzs1994/DJSRH/blob/master/page_image/DJRSH.png?raw=true'},
   {name: Paper, url: 'http://openaccess.thecvf.com/content_ICCV_2019/papers/Su_Deep_Joint-Semantics_Reconstructing_Hashing_for_Large-Scale_Unsupervised_Cross-Modal_Retrieval_ICCV_2019_paper.pdf'}]
-tags: ["Compact Codes", "Hashing Methods", "Multimodal Retrieval", "Supervised", "Unsupervised"]
+tags: [Compact Codes, Evaluation, Supervised, ICCV, Multimodal Retrieval, Scalability,
+  Unsupervised, Tools & Libraries, Hashing Methods]
 short_authors: Shupeng Su, Zhong, Zhang
 ---
 ![Deep Joint-Semantics Reconstructing Hashing for Large-Scale Unsupervised Cross-Modal Retrieval](https://github.com/zzs1994/DJSRH/blob/master/page_image/DJRSH.png?raw=true "Deep Joint-Semantics Reconstructing Hashing for Large-Scale Unsupervised Cross-Modal Retrieval")

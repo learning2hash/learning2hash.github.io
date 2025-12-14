@@ -8,7 +8,7 @@ year: 2021
 bibkey: peng2021fast
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.08186'}]
-tags: ["Datasets", "Evaluation", "ICASSP", "Image Retrieval"]
+tags: [Evaluation, ICASSP, Datasets, Image Retrieval]
 short_authors: Puyuan Peng, David Harwath
 ---
 We present Fast-Slow Transformer for Visually Grounding Speech, or FaST-VGS.

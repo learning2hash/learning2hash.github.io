@@ -8,7 +8,7 @@ bibkey: muennighoff2022sgpt
 citations: 56
 additional_links: [{name: Code, url: 'https://github.com/Muennighoff/sgpt'}, {name: Paper,
     url: 'https://arxiv.org/abs/2202.08904'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Niklas Muennighoff
 ---
 Decoder transformers have continued increasing in scale reaching hundreds of

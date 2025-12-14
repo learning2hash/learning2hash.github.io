@@ -7,7 +7,7 @@ year: 2019
 bibkey: zhao2019on
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.00814'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Scalability"]
+tags: [Scalability, Evaluation, Graph-based ANN, Datasets]
 short_authors: Zhao et al.
 ---
 k-nearest neighbor graph is a fundamental data structure in many disciplines

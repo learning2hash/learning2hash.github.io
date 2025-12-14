@@ -8,7 +8,7 @@ year: 2020
 bibkey: "pr\xE9tet2020learning"
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.12977'}]
-tags: ["Distance Metric Learning", "Efficiency", "ICASSP", "Recommender Systems", "Scalability"]
+tags: [ICASSP, Efficiency, Distance Metric Learning, Scalability, Recommender Systems]
 short_authors: "Laure Pr\xE9tet, Ga\xEBl Richard, Geoffroy Peeters"
 ---
 Most music streaming services rely on automatic recommendation algorithms to

@@ -10,7 +10,8 @@ bibkey: dong2024m2
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/alipay/Ant-Multi-Modal-Framework/tree/main/prj/M2_RAAP'},
   {name: Paper, url: 'https://arxiv.org/abs/2401.17797'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Robustness", "Text Retrieval"]
+tags: [Evaluation, Few-shot & Zero-shot, Datasets, Robustness, Tools & Libraries,
+  Text Retrieval]
 short_authors: Dong et al.
 ---
 We present a Multi-Modal Recipe for Advancing Adaptation-based Pre-training

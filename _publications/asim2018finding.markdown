@@ -7,7 +7,7 @@ year: 2018
 bibkey: asim2018finding
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.08078'}]
-tags: ["Supervised", "Unsupervised"]
+tags: [Supervised, Unsupervised]
 short_authors: Raja Asim
 ---
 Convolututional Neural Networks have achieved state of the art in image

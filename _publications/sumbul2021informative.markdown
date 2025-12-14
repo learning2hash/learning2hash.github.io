@@ -9,7 +9,7 @@ bibkey: sumbul2021informative
 citations: 0
 additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/image-retrieval-from-triplets'},
   {name: Paper, url: 'https://arxiv.org/abs/2105.03647'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: [Distance Metric Learning, Tools & Libraries, Evaluation, Image Retrieval]
 short_authors: "Gencer Sumbul, Mahdyar Ravanbakhsh, Beg\xFCm Demir"
 ---
 Learning the similarity between remote sensing (RS) images forms the

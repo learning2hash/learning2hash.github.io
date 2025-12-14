@@ -8,7 +8,8 @@ year: 2021
 bibkey: zhao2021rescuing
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.00648'}]
-tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
+tags: [Image Retrieval, Neural Hashing, Hashing Methods, AAAI, Scalability, Efficiency,
+  IJCAI, Datasets, Quantization]
 short_authors: Zhao et al.
 ---
 Deep hashing methods have shown great retrieval accuracy and efficiency in

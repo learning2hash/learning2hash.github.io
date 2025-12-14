@@ -8,7 +8,7 @@ year: 2022
 bibkey: filtser2022labeled
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.11846'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: Arnold Filtser
 ---
 Chan, Har-Peled, and Jones [SICOMP 2020] developed locality-sensitive

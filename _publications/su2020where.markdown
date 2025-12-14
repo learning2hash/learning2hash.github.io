@@ -8,7 +8,7 @@ year: 2020
 bibkey: su2020where
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.13357'}]
-tags: ["Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Image Retrieval, Tools & Libraries]
 short_authors: Su et al.
 ---
 Fashion products typically feature in compositions of a variety of styles at

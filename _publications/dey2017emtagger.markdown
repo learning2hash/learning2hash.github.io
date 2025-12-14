@@ -8,7 +8,7 @@ year: 2017
 bibkey: dey2017emtagger
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.01562'}]
-tags: ["Recommender Systems", "Tools & Libraries"]
+tags: [Tools & Libraries, Recommender Systems]
 short_authors: Dey et al.
 ---
 The hashtag recommendation problem addresses recommending (suggesting) one or

@@ -9,7 +9,8 @@ bibkey: sarfraz2017a
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/pse-ecn/pose-sensitive-embedding'},
   {name: Paper, url: 'https://arxiv.org/abs/1711.10378'}]
-tags: ["Datasets", "Distance Metric Learning", "Re-Ranking", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Re-ranking, Distance Metric Learning, Datasets, Unsupervised,
+  Tools & Libraries, Hybrid ANN Methods]
 short_authors: Sarfraz et al.
 ---
 Person re identification is a challenging retrieval task that requires

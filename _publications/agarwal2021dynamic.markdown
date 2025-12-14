@@ -7,7 +7,7 @@ year: 2021
 bibkey: agarwal2021dynamic
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.01818'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing]
 short_authors: Agarwal et al.
 ---
 This paper considers enumerating answers to similarity-join queries under

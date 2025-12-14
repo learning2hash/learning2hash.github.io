@@ -7,7 +7,7 @@ year: 2017
 bibkey: han2017beyond
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.05833'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Similarity Search", "Vector Indexing"]
+tags: [Evaluation, Similarity Search, Vector Indexing, Datasets, Hashing Methods]
 short_authors: Han et al.
 ---
 In this paper a binary feature based Loop Closure Detection (LCD) method is

@@ -8,7 +8,7 @@ bibkey: liu2024distribution
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/LiuJinyu1229/DCGMH'}, {name: Paper,
     url: 'https://arxiv.org/abs/2412.11216'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Datasets, Unsupervised, Hashing Methods]
 short_authors: Liu et al.
 ---
 Multi-modal hashing methods have gained popularity due to their fast speed

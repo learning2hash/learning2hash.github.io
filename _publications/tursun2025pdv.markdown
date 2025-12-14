@@ -7,7 +7,7 @@ year: 2025
 bibkey: tursun2025pdv
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.07215'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Scalability"]
+tags: [Scalability, Evaluation, Image Retrieval, Few-shot & Zero-shot]
 short_authors: Tursun et al.
 ---
 Zero-shot composed image retrieval (ZS-CIR) enables image search using a

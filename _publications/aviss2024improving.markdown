@@ -8,7 +8,7 @@ year: 2024
 bibkey: aviss2024improving
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.18105'}]
-tags: ["Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation]
 short_authors: Thea Aviss
 ---
 In this paper we present APEX-Embedding-7B (Advanced Processing for Epistemic

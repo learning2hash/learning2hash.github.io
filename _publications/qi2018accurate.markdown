@@ -7,7 +7,7 @@ year: 2018
 bibkey: qi2018accurate
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.00365'}]
-tags: ["Efficiency", "Evaluation", "Scalability", "Similarity Search"]
+tags: [Scalability, Evaluation, Similarity Search, Efficiency]
 short_authors: Ce Qi, Zhizhong Liu, Fei Su
 ---
 Face verification is a relatively easy task with the help of discriminative

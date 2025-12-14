@@ -8,7 +8,7 @@ bibkey: jiang2023noisy
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/Fantabulous-J/Self-Training-DPR\'},
   {name: Paper, url: 'https://arxiv.org/abs/2311.15563'}]
-tags: ["Evaluation", "Re-Ranking", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Re-ranking]
 short_authors: Fan Jiang, Tom Drummond, Trevor Cohn
 ---
 Although existing neural retrieval models reveal promising results when

@@ -8,7 +8,8 @@ year: 2025
 bibkey: luo2025actgnn
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.18112'}]
-tags: ["Datasets", "Distance Metric Learning", "Graph Based ANN", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Evaluation, Distance Metric Learning, Graph-based ANN, Datasets, Tools & Libraries,
+  Hashing Methods, Locality Sensitive Hashing]
 short_authors: Yiran Luo, Evangelos E. Papalexakis
 ---
 Determining clustering tendency in datasets is a fundamental but challenging

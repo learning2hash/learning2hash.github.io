@@ -8,7 +8,7 @@ year: 2024
 bibkey: wang2024text
 citations: 36
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.17998'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Text Retrieval", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Datasets, CVPR, Text Retrieval]
 short_authors: Wang et al.
 ---
 The increasing prevalence of video clips has sparked growing interest in

@@ -7,7 +7,8 @@ year: 2021
 bibkey: cohen2021sdr
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.02065'}]
-tags: ["Datasets", "Evaluation", "Memory Efficiency", "Quantization", "Re-Ranking"]
+tags: [Evaluation, Re-ranking, Datasets, Quantization, Memory Efficiency, Hybrid ANN
+    Methods]
 short_authors: Cohen et al.
 ---
 BERT based ranking models have achieved superior performance on various

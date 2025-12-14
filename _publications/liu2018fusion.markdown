@@ -7,7 +7,8 @@ year: 2018
 bibkey: liu2018fusion
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.00644'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Similarity Search"]
+tags: [Evaluation, Similarity Search, Efficiency, Datasets, Tools & Libraries, Hashing
+    Methods]
 short_authors: Xingbo Liu, Xiushan Nie, Yilong Yin
 ---
 Hashing has been widely used for efficient similarity search based on its

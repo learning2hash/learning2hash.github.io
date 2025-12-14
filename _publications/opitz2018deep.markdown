@@ -7,7 +7,7 @@ year: 2018
 bibkey: opitz2018deep
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.04815'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Robustness"]
+tags: [Distance Metric Learning, Image Retrieval, Datasets, Robustness]
 short_authors: Opitz et al.
 ---
 Learning similarity functions between image pairs with deep neural networks

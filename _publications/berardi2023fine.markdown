@@ -7,7 +7,7 @@ year: 2023
 bibkey: berardi2023fine
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.08541'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "ICCV", "Supervised"]
+tags: [Evaluation, Supervised, ICCV, Few-shot & Zero-shot, Datasets]
 short_authors: Gianluca Berardi, Yulia Gryaditskaya
 ---
 Recently, encoders like ViT (vision transformer) and ResNet have been trained

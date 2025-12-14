@@ -8,7 +8,7 @@ year: 2019
 bibkey: sankar2019on
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.05763'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Evaluation, EACL, Hashing Methods, Locality Sensitive Hashing, ACL]
 short_authors: Chinnadhurai Sankar, Sujith Ravi, Zornitsa Kozareva
 ---
 Recently, there has been a strong interest in developing natural language

@@ -8,7 +8,7 @@ year: 2020
 bibkey: castorena2020learning
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.05713'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Neural Hashing"]
+tags: [Evaluation, CVPR, Datasets, Neural Hashing]
 short_authors: Juan Castorena, Manish Bhattarai, Diane Oyen
 ---
 Binary image based classification and retrieval of documents of an

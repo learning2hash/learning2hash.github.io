@@ -8,7 +8,7 @@ year: 2023
 bibkey: wang2023cl2cm
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.08984'}]
-tags: ["Datasets", "Multimodal Retrieval", "Scalability", "Tools & Libraries"]
+tags: [Scalability, Tools & Libraries, Datasets, Multimodal Retrieval]
 short_authors: Wang et al.
 ---
 Cross-lingual cross-modal retrieval has garnered increasing attention

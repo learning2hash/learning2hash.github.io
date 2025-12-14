@@ -7,7 +7,7 @@ year: 2016
 bibkey: ravanbakhsh2016efficient
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.06764'}]
-tags: ["Efficiency", "Hashing Methods", "Quantization"]
+tags: [Hashing Methods, Quantization, Efficiency]
 short_authors: Ravanbakhsh et al.
 ---
 In this paper we introduce a novel method for segmentation that can benefit

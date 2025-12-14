@@ -8,7 +8,7 @@ year: 2024
 bibkey: gao2024rabitq
 citations: 28
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.12497'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Quantization", "Similarity Search"]
+tags: [Evaluation, Similarity Search, Efficiency, Datasets, Quantization]
 short_authors: Jianyang Gao, Cheng Long
 ---
 Searching for approximate nearest neighbors (ANN) in the high-dimensional

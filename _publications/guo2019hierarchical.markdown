@@ -9,7 +9,7 @@ year: 2019
 bibkey: guo2019hierarchical
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.08401'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets, WMT]
 short_authors: Guo et al.
 ---
 We explore using multilingual document embeddings for nearest neighbor mining

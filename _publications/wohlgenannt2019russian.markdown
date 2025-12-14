@@ -9,7 +9,7 @@ year: 2019
 bibkey: wohlgenannt2019russian
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.08739'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Wohlgenannt et al.
 ---
 In this paper, we present Russian language datasets in the digital humanities

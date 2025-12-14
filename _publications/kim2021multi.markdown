@@ -7,7 +7,7 @@ year: 2021
 bibkey: kim2021multi
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.04223'}]
-tags: ["AAAI", "Datasets", "Distance Metric Learning", "Evaluation"]
+tags: [Evaluation, Distance Metric Learning, Datasets, AAAI]
 short_authors: Yonghyun Kim, Wonpyo Park
 ---
 We propose a novel distance-based regularization method for deep metric

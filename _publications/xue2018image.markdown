@@ -8,7 +8,7 @@ year: 2018
 bibkey: xue2018image
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.05789'}]
-tags: ["Evaluation", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Unsupervised]
 short_authors: Yunzhe Xue, Usman Roshan
 ---
 We propose a random convolutional neural network to generate a feature space

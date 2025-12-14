@@ -7,7 +7,7 @@ year: 2025
 bibkey: gong2025learning
 citations: 178
 additional_links: [{name: Paper, url: 'http://sanjivk.com/bilinearHashing_CVPR13.pdf'}]
-tags: ["CVPR", "Compact Codes", "Datasets", "Memory Efficiency", "Quantization"]
+tags: [Compact Codes, Datasets, Quantization, Memory Efficiency, Scalability, CVPR]
 short_authors: Gong et al.
 ---
 Recent advances in visual recognition indicate that to

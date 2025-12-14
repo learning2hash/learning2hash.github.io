@@ -8,7 +8,7 @@ year: 2023
 bibkey: neuman2023graph
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.12399'}]
-tags: ["Graph Based ANN", "Scalability"]
+tags: [Scalability, Graph-based ANN]
 short_authors: A. Martina Neuman
 ---
 A Shared Nearest Neighbor (SNN) graph is a type of graph construction using

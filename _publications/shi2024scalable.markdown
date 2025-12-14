@@ -8,7 +8,7 @@ bibkey: shi2024scalable
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/TencentARC/SEED-Voken'},
   {name: Paper, url: 'https://arxiv.org/abs/2412.02692'}]
-tags: ["Evaluation", "Quantization", "Scalability"]
+tags: [Scalability, Evaluation, Quantization]
 short_authors: Shi et al.
 ---
 Existing vector quantization (VQ) methods struggle with scalability, largely

@@ -8,7 +8,8 @@ year: 2023
 bibkey: javidani2023patch
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.18651'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Self-Supervised, Datasets, Tools &
+    Libraries]
 short_authors: Ali Javidani, Mohammad Amin Sadeghi, Babak Nadjar Araabi
 ---
 Self-supervised visual representation learning traditionally focuses on

@@ -8,7 +8,7 @@ year: 2024
 bibkey: fang2024prota
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.12216'}]
-tags: ["Distance Metric Learning", "Video Retrieval"]
+tags: [Video Retrieval, Distance Metric Learning]
 short_authors: Fang et al.
 ---
 Text-video retrieval aims to find the most relevant cross-modal samples for a

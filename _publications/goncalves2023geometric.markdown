@@ -7,7 +7,7 @@ year: 2023
 bibkey: goncalves2023geometric
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.14082'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing]
 short_authors: Goncalves et al.
 ---
 A set of vectors \(S \subseteq \mathbb\{R\}^d\) is

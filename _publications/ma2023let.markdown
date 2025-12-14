@@ -9,7 +9,8 @@ bibkey: ma2023let
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/Maryeon/whiten_mtd'}, {name: Paper,
     url: 'https://arxiv.org/abs/2312.09716'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Image Retrieval, Efficiency, Datasets, Tools &
+    Libraries]
 short_authors: Ma et al.
 ---
 Visual retrieval aims to search for the most relevant visual items, e.g.,

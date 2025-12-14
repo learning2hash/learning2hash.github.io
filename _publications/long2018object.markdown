@@ -7,7 +7,7 @@ year: 2018
 bibkey: long2018object
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.10777'}]
-tags: ["Datasets", "Few Shot & Zero Shot"]
+tags: [Few-shot & Zero-shot, Datasets]
 short_authors: Long et al.
 ---
 Few-shot learning that trains image classifiers over few labeled examples per

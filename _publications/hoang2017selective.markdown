@@ -7,7 +7,7 @@ year: 2017
 bibkey: hoang2017selective
 citations: 57
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.00809'}]
-tags: ["Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Image Retrieval, Tools & Libraries]
 short_authors: Hoang et al.
 ---
 Convolutional Neural Network (CNN) is a very powerful approach to extract

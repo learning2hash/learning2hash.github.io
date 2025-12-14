@@ -7,7 +7,7 @@ year: 2022
 bibkey: bhutta2022why
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.03212'}]
-tags: ["Efficiency", "Evaluation", "Image Retrieval", "Neural Hashing"]
+tags: [Evaluation, Neural Hashing, Image Retrieval, Efficiency]
 short_authors: Bhutta et al.
 ---
 Deep learning-based image retrieval techniques for the loop closure detection

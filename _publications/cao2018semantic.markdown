@@ -7,7 +7,7 @@ year: 2018
 bibkey: cao2018semantic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.05576'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets]
 short_authors: Tru H. Cao, Vuong M. Ngo
 ---
 Both named entities and keywords are important in defining the content of a

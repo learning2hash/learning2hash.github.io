@@ -7,7 +7,7 @@ year: 2020
 bibkey: chen2020making
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.04948'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods"]
+tags: [Hashing Methods, Evaluation, Datasets, Efficiency]
 short_authors: Chen et al.
 ---
 Data-dependent hashing methods have demonstrated good performance in various

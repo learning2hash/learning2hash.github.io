@@ -7,7 +7,8 @@ year: 2019
 bibkey: zhang2019collaborative
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.00623'}]
-tags: ["Datasets", "Distance Metric Learning", "Hashing Methods", "Quantization", "Similarity Search"]
+tags: [Evaluation, Similarity Search, Distance Metric Learning, Datasets, Quantization,
+  Hashing Methods]
 short_authors: Ting Zhang, Jingdong Wang
 ---
 Cross-modal similarity search is a problem about designing a search system

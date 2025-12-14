@@ -9,7 +9,7 @@ bibkey: zhu2023coarse
 citations: 7
 additional_links: [{name: Code, url: 'https://github.com/bassyess/CFCD'}, {name: Paper,
     url: 'https://arxiv.org/abs/2308.04008'}]
-tags: ["Efficiency", "Evaluation", "ICCV", "Image Retrieval", "Re-Ranking"]
+tags: [Evaluation, ICCV, Image Retrieval, Re-ranking, Efficiency, Tools & Libraries]
 short_authors: Zhu et al.
 ---
 Image retrieval targets to find images from a database that are visually

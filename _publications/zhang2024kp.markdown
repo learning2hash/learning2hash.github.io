@@ -9,7 +9,7 @@ bibkey: zhang2024kp
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/lolrudy/KP-RED'}, {name: Paper,
     url: 'https://arxiv.org/abs/2403.10099'}]
-tags: ["CVPR", "Datasets", "Tools & Libraries"]
+tags: [CVPR, Tools & Libraries, Datasets]
 short_authors: Zhang et al.
 ---
 In this paper, we present KP-RED, a unified KeyPoint-driven REtrieval and

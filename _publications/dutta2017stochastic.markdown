@@ -7,7 +7,7 @@ year: 2017
 bibkey: dutta2017stochastic
 citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.00156'}]
-tags: ["Evaluation", "Graph Based ANN", "Hashing Methods"]
+tags: [Hashing Methods, Evaluation, Graph-based ANN]
 short_authors: Anjan Dutta, Hichem Sahbi
 ---
 Graph-based methods are known to be successful in many machine learning and

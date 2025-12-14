@@ -7,7 +7,8 @@ year: 2020
 bibkey: wang2020asymmetric
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.04625'}]
-tags: ["Datasets", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Similarity Search"]
+tags: [Compact Codes, Evaluation, Similarity Search, Datasets, Quantization, Multimodal
+    Retrieval, Scalability, Tools & Libraries, Hashing Methods]
 short_authors: Lu Wang, Jie Yang
 ---
 Due to the superiority in similarity computation and database storage for

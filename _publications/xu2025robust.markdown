@@ -8,7 +8,8 @@ year: 2025
 bibkey: xu2025robust
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.04151'}]
-tags: ["Datasets", "Hashing Methods", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Self-Supervised, Datasets, Unsupervised, Tools & Libraries,
+  Hashing Methods]
 short_authors: Xu et al.
 ---
 Recently, multi-view learning (MVL) has garnered significant attention due to

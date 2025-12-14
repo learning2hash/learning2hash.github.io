@@ -7,7 +7,7 @@ year: 2023
 bibkey: baranchuk2023dedrift
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.02752'}]
-tags: ["Datasets", "Efficiency", "ICCV", "Scalability", "Similarity Search"]
+tags: [ICCV, Similarity Search, Efficiency, Datasets, Scalability]
 short_authors: Baranchuk et al.
 ---
 The statistical distribution of content uploaded and searched on media

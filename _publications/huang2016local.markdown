@@ -7,7 +7,8 @@ year: 2016
 bibkey: huang2016local
 citations: 116
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.08904'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Distance Metric Learning,
+  Datasets]
 short_authors: Chen Huang, Chen Change Loy, Xiaoou Tang
 ---
 Existing deep embedding methods in vision tasks are capable of learning a

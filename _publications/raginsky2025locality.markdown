@@ -7,7 +7,7 @@ year: 2025
 bibkey: raginsky2025locality
 citations: 615
 additional_links: [{name: Paper, url: 'http://papers.nips.cc/paper/3749-locality-sensitive-binary-codes-from-shift-invariant-kernels.pdf'}]
-tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Compact Codes, Evaluation]
 short_authors: M. Raginsky, Lazebnik
 ---
 This paper addresses the problem of designing binary codes for high-dimensional

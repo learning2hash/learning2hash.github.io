@@ -7,7 +7,7 @@ year: 2016
 bibkey: tizhoosh2016barcodes
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.05112'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Image Retrieval"]
+tags: [Compact Codes, Evaluation, Image Retrieval, Datasets]
 short_authors: Tizhoosh et al.
 ---
 Using content-based binary codes to tag digital images has emerged as a

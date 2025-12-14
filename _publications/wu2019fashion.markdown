@@ -8,7 +8,7 @@ year: 2019
 bibkey: wu2019fashion
 citations: 28
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.12794'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Wu et al.
 ---
 Conversational interfaces for the detail-oriented retail fashion domain are

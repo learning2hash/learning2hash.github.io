@@ -8,7 +8,7 @@ year: 2017
 bibkey: ghose2017fractional
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.00187'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval]
 short_authors: Ghose et al.
 ---
 In this paper, a new texture descriptor named "Fractional Local Neighborhood

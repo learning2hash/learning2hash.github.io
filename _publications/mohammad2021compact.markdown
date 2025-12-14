@@ -8,7 +8,7 @@ year: 2021
 bibkey: mohammad2021compact
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.07802'}]
-tags: ["Datasets", "Hybrid ANN Methods", "Re-Ranking"]
+tags: [Re-ranking, Hybrid ANN Methods, Datasets]
 short_authors: Mohammad et al.
 ---
 Image copy detection is challenging and appealing topic in computer vision

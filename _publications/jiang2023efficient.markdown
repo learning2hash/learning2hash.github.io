@@ -10,7 +10,7 @@ year: 2023
 bibkey: jiang2023efficient
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.04520'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Efficiency, Graph-based ANN, Datasets, Scalability]
 short_authors: Jiang et al.
 ---
 SfM (Structure from Motion) has been extensively used for UAV (Unmanned

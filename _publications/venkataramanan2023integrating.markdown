@@ -7,7 +7,7 @@ year: 2023
 bibkey: venkataramanan2023integrating
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.08431'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Similarity Search"]
+tags: [Evaluation, Image Retrieval, Datasets, Similarity Search]
 short_authors: "Aishwarya Venkataramanan, Martin Laviale, C\xE9dric Pradalier"
 ---
 Most of the research in content-based image retrieval (CBIR) focus on

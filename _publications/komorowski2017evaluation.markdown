@@ -7,7 +7,7 @@ year: 2017
 bibkey: komorowski2017evaluation
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.06825'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Datasets, Unsupervised, Hashing Methods]
 short_authors: Jacek Komorowski, Tomasz Trzcinski
 ---
 In this paper we evaluate performance of data-dependent hashing methods on

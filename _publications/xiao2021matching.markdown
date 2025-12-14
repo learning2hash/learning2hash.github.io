@@ -8,7 +8,7 @@ bibkey: xiao2021matching
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/microsoft/MoPQ'}, {name: Paper,
     url: 'https://arxiv.org/abs/2104.07858'}]
-tags: ["Datasets", "Distance Metric Learning", "Quantization", "Supervised", "Unsupervised"]
+tags: [Supervised, Distance Metric Learning, Datasets, Quantization, Unsupervised]
 short_authors: Xiao et al.
 ---
 Product quantization (PQ) is a widely used technique for ad-hoc retrieval.

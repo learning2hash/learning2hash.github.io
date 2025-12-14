@@ -7,7 +7,7 @@ year: 2022
 bibkey: hou2022bagformer
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.14322'}]
-tags: ["Evaluation", "Multimodal Retrieval"]
+tags: [Evaluation, Multimodal Retrieval]
 short_authors: Hou et al.
 ---
 In the field of cross-modal retrieval, single encoder models tend to perform

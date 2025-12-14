@@ -8,7 +8,7 @@ year: 2020
 bibkey: vanblokland2020an
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.02916'}]
-tags: ["Datasets"]
+tags: [Datasets]
 short_authors: Bart Iver van Blokland, Theoharis Theoharis
 ---
 A binary descriptor indexing scheme based on Hamming distance called the

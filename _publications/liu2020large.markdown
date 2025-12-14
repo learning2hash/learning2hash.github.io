@@ -7,7 +7,7 @@ year: 2020
 bibkey: liu2020large
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.05716'}]
-tags: ["Datasets", "Efficiency", "Recommender Systems", "Scalability"]
+tags: [Scalability, Recommender Systems, Efficiency, Datasets]
 short_authors: Liu et al.
 ---
 Similar product recommendation is one of the most common scenes in

@@ -9,7 +9,7 @@ year: 2022
 bibkey: gao2022clusterea
 citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.10312'}]
-tags: ["Datasets", "Evaluation", "KDD", "Scalability", "Tools & Libraries"]
+tags: [Evaluation, Datasets, Scalability, Tools & Libraries, KDD]
 short_authors: Gao et al.
 ---
 Entity alignment (EA) aims at finding equivalent entities in different

@@ -9,7 +9,8 @@ bibkey: sastry2023birdsat
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/mvrl/BirdSAT\'}, {name: Paper,
     url: 'https://arxiv.org/abs/2310.19168'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, Self-Supervised, Datasets, Multimodal Retrieval, Tools
+    & Libraries]
 short_authors: Sastry et al.
 ---
 We propose a metadata-aware self-supervised learning~(SSL)~framework useful

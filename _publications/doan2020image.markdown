@@ -8,7 +8,7 @@ bibkey: doan2020image
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/khoadoan/adversarial-hashing'},
   {name: Paper, url: 'https://arxiv.org/abs/2003.00134'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Robustness"]
+tags: [Evaluation, Image Retrieval, Datasets, Robustness, Scalability, Hashing Methods]
 short_authors: Doan et al.
 ---
 Image hashing is one of the fundamental problems that demand both efficient

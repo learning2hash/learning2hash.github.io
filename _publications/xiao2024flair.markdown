@@ -9,7 +9,7 @@ bibkey: xiao2024flair
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/ExplainableML/flair'}, {
     name: Paper, url: 'https://arxiv.org/abs/2412.03561'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval"]
+tags: [Evaluation, Few-shot & Zero-shot, Multimodal Retrieval]
 short_authors: Xiao et al.
 ---
 CLIP has shown impressive results in aligning images and texts at scale.

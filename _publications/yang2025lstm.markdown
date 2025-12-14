@@ -7,7 +7,7 @@ year: 2025
 bibkey: yang2025lstm
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.10639'}]
-tags: ["Datasets", "Text Retrieval"]
+tags: [Text Retrieval, Datasets]
 short_authors: Yang et al.
 ---
 This paper studies fast fusion of dense retrieval and sparse lexical

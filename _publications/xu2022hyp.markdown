@@ -8,7 +8,8 @@ bibkey: xu2022hyp
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/JerryXu0129/HyP2-Loss'},
   {name: Paper, url: 'https://arxiv.org/abs/2208.06866'}]
-tags: ["Distance Metric Learning", "Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: [Evaluation, Image Retrieval, Efficiency, Neural Hashing, Similarity Search,
+  Distance Metric Learning, Tools & Libraries, Hashing Methods]
 short_authors: Xu et al.
 ---
 Image retrieval has become an increasingly appealing technique with broad

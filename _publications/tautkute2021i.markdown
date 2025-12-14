@@ -8,7 +8,7 @@ year: 2021
 bibkey: tautkute2021i
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.08871'}]
-tags: ["Multimodal Retrieval", "Tools & Libraries"]
+tags: [Tools & Libraries, Multimodal Retrieval]
 short_authors: Ivona Tautkute, Tomasz Trzcinski
 ---
 This paper addresses the problem of media retrieval using a multimodal query

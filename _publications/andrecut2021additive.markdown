@@ -7,7 +7,7 @@ year: 2021
 bibkey: andrecut2021additive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.03943'}]
-tags: ["Evaluation", "Hashing Methods"]
+tags: [Hashing Methods, Evaluation]
 short_authors: M. Andrecut
 ---
 The hashing trick is a machine learning technique used to encode categorical

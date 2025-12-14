@@ -7,7 +7,7 @@ year: 2020
 bibkey: kim2020broadface
 citations: 46
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.06674'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: [Image Retrieval, Datasets]
 short_authors: Yonghyun Kim, Wonpyo Park, Jongju Shin
 ---
 The datasets of face recognition contain an enormous number of identities and

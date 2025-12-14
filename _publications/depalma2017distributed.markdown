@@ -8,7 +8,7 @@ year: 2017
 bibkey: depalma2017distributed
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.00206'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Evaluation, Efficiency, Datasets, Hashing Methods, Locality Sensitive Hashing]
 short_authors: Alessandro de Palma, Erik Hemberg, Una-May O'Reilly
 ---
 The availability of massive healthcare data repositories calls for efficient

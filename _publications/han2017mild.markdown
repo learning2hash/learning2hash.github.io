@@ -7,7 +7,7 @@ year: 2017
 bibkey: han2017mild
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.08780'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Vector Indexing"]
+tags: [Hashing Methods, Evaluation, Vector Indexing, Efficiency]
 short_authors: Lei Han, Lu Fang
 ---
 Loop Closure Detection (LCD) has been proved to be extremely useful in global

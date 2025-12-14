@@ -7,7 +7,7 @@ year: 2022
 bibkey: chen2022sedr
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.10841'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets]
 short_authors: Chen et al.
 ---
 Recently, Dense Retrieval (DR) has become a promising solution to document

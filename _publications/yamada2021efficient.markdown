@@ -10,7 +10,8 @@ bibkey: yamada2021efficient
 citations: 51
 additional_links: [{name: Code, url: 'https://github.com/studio-ousia/bpr'}, {name: Paper,
     url: 'https://arxiv.org/abs/2106.00882'}]
-tags: ["Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Re-Ranking"]
+tags: [Compact Codes, Evaluation, Re-ranking, Efficiency, Hashing Methods, Hybrid
+    ANN Methods, ACL]
 short_authors: Ikuya Yamada, Akari Asai, Hannaneh Hajishirzi
 ---
 Most state-of-the-art open-domain question answering systems use a neural

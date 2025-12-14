@@ -8,7 +8,7 @@ year: 2021
 bibkey: vanblokland2021partial
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.03368'}]
-tags: ["Datasets", "Similarity Search"]
+tags: [Datasets, Similarity Search]
 short_authors: Bart Iver van Blokland, Theoharis Theoharis
 ---
 A complete pipeline is presented for accurate and efficient partial 3D object

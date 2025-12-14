@@ -7,7 +7,7 @@ year: 2012
 bibkey: zadeh2012dimension
 citations: 52
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1206.2082'}]
-tags: ["Locality-Sensitive-Hashing", "Scalability", "Tools & Libraries"]
+tags: [Scalability, Locality Sensitive Hashing, Tools & Libraries]
 short_authors: Reza Bosagh Zadeh, Ashish Goel
 ---
 We present a suite of algorithms for Dimension Independent Similarity

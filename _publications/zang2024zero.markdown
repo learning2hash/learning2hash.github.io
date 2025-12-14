@@ -7,7 +7,8 @@ year: 2024
 bibkey: zang2024zero
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.18233'}]
-tags: ["AAAI", "Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
+tags: [Evaluation, Few-shot & Zero-shot, Distance Metric Learning, Datasets, Scalability,
+  Tools & Libraries, AAAI]
 short_authors: Zang et al.
 ---
 Existing object detection models are mainly trained on large-scale labeled

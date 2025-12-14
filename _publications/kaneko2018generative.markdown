@@ -7,7 +7,7 @@ year: 2018
 bibkey: kaneko2018generative
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.10603'}]
-tags: ["CVPR", "Datasets", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: [Supervised, Image Retrieval, Datasets, Robustness, CVPR, Unsupervised]
 short_authors: Takuhiro Kaneko, Kaoru Hiramatsu, Kunio Kashino
 ---
 This paper proposes the decision tree latent controller generative

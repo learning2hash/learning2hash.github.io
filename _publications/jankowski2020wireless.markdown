@@ -7,7 +7,7 @@ year: 2020
 bibkey: jankowski2020wireless
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.10915'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: [Image Retrieval, Datasets]
 short_authors: Mikolaj Jankowski, Deniz Gunduz, Krystian Mikolajczyk
 ---
 We study the image retrieval problem at the wireless edge, where an edge

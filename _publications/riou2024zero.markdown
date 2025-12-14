@@ -8,7 +8,7 @@ year: 2024
 bibkey: riou2024zero
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.19806'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Self-Supervised"]
+tags: [Evaluation, Datasets, Few-shot & Zero-shot, Self-Supervised]
 short_authors: Riou et al.
 ---
 In this paper, we tackle the task of musical stem retrieval. Given a musical

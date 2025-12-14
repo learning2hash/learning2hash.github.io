@@ -7,7 +7,7 @@ year: 2024
 bibkey: fedorova2024cross
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.15066'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Inessa Fedorova, Aleksei Musatow
 ---
 The paraphrase identification task involves measuring semantic similarity

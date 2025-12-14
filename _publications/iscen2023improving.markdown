@@ -7,7 +7,7 @@ year: 2023
 bibkey: iscen2023improving
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.05173'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Large Scale Search", "Scalability"]
+tags: [Evaluation, Datasets, Scalability, CVPR, Large-Scale Search]
 short_authors: Ahmet Iscen, Alireza Fathi, Cordelia Schmid
 ---
 Retrieval augmented models are becoming increasingly popular for computer

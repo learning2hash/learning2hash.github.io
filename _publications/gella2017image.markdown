@@ -8,7 +8,7 @@ year: 2017
 bibkey: gella2017image
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.07601'}]
-tags: ["EMNLP", "Evaluation", "Image Retrieval"]
+tags: [EMNLP, Evaluation, Image Retrieval]
 short_authors: Gella et al.
 ---
 In this paper we propose a model to learn multimodal multilingual

@@ -7,7 +7,7 @@ year: 2016
 bibkey: huang2016instance
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.05588'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Yan Huang, Wei Wang, Liang Wang
 ---
 Effective image and sentence matching depends on how to well measure their

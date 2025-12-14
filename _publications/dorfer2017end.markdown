@@ -10,7 +10,7 @@ bibkey: dorfer2017end
 citations: 47
 additional_links: [{name: Code, url: 'https://github.com/CPJKU/cca_layer'}, {name: Paper,
     url: 'https://arxiv.org/abs/1705.06979'}]
-tags: ["Few Shot & Zero Shot", "Text Retrieval"]
+tags: [Few-shot & Zero-shot, Text Retrieval]
 short_authors: Dorfer et al.
 ---
 Cross-modality retrieval encompasses retrieval tasks where the fetched items

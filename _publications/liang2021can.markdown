@@ -8,7 +8,7 @@ year: 2021
 bibkey: liang2021can
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.06887'}]
-tags: ["Evaluation", "Hashing Methods", "Memory Efficiency"]
+tags: [Hashing Methods, Evaluation, Memory Efficiency]
 short_authors: Liang et al.
 ---
 The mushroom body of the fruit fly brain is one of the best studied systems

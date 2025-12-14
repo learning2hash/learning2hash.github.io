@@ -8,7 +8,7 @@ year: 2020
 bibkey: schroeder2020structured
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.06653'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, CVPR, Image Retrieval, Datasets]
 short_authors: Brigit Schroeder, Subarna Tripathi
 ---
 A structured query can capture the complexity of object interactions (e.g.

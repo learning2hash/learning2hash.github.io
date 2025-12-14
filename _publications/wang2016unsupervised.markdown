@@ -7,7 +7,8 @@ year: 2016
 bibkey: wang2016unsupervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.05782'}]
-tags: ["Datasets", "Hashing Methods", "Scalability", "Supervised", "Unsupervised"]
+tags: [Supervised, Datasets, Scalability, Tools & Libraries, Unsupervised, Hashing
+    Methods]
 short_authors: Xiangyu Wang, Alex Yong-Sang Chia
 ---
 Recent years have seen the exponential growth of heterogeneous multimedia

@@ -7,7 +7,7 @@ year: 2024
 bibkey: xian2024bert
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.01582'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Datasets, Efficiency]
 short_authors: Xian et al.
 ---
 Text plagiarism detection task is a common natural language processing task

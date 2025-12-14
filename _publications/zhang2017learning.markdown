@@ -7,7 +7,7 @@ year: 2017
 bibkey: zhang2017learning
 citations: 136
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.06320'}]
-tags: ["Distance Metric Learning", "ICCV"]
+tags: [Distance Metric Learning, ICCV]
 short_authors: Zhang et al.
 ---
 We propose a simple, yet powerful regularization technique that can be used

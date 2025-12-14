@@ -7,7 +7,7 @@ year: 2017
 bibkey: vo2017revisiting
 citations: 118
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.04838'}]
-tags: ["Distance Metric Learning", "ICCV", "Neural Hashing"]
+tags: [Distance Metric Learning, ICCV, Neural Hashing]
 short_authors: Nam Vo, Nathan Jacobs, James Hays
 ---
 Image geolocalization, inferring the geographic location of an image, is a

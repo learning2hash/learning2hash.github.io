@@ -7,7 +7,8 @@ year: 2025
 bibkey: liong2025deep
 citations: 584
 additional_links: [{name: Paper, url: 'http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.707.72&rep=rep1&type=pdf'}]
-tags: ["CVPR", "Compact Codes", "Hashing Methods", "Neural Hashing", "Supervised"]
+tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Neural Hashing, Scalability,
+  CVPR, Hashing Methods]
 short_authors: Liong et al.
 ---
 In this paper, we propose a new deep hashing (DH) approach

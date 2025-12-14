@@ -7,7 +7,7 @@ year: 2018
 bibkey: iscen2018mining
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.11095'}]
-tags: ["CVPR", "Distance Metric Learning", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: [Supervised, Distance Metric Learning, CVPR, Tools & Libraries, Unsupervised]
 short_authors: Iscen et al.
 ---
 In this work we present a novel unsupervised framework for hard training

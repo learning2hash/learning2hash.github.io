@@ -8,7 +8,8 @@ bibkey: liu2022ecoformer
 citations: 16
 additional_links: [{name: Code, url: 'https://github.com/ziplab/EcoFormer'}, {name: Paper,
     url: 'https://arxiv.org/abs/2209.09004'}]
-tags: ["Compact Codes", "Efficiency", "Hashing Methods", "Self-Supervised", "Supervised"]
+tags: [Compact Codes, Evaluation, Supervised, Efficiency, Self-Supervised, Datasets,
+  Tools & Libraries, Hashing Methods]
 short_authors: Liu et al.
 ---
 Transformer is a transformative framework that models sequential data and has

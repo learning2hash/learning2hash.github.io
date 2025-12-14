@@ -9,7 +9,8 @@ year: 2025
 bibkey: lu2025selavpr
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.16601'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Memory Efficiency", "Re-Ranking"]
+tags: [Evaluation, Re-ranking, Neural Hashing, Efficiency, Datasets, Memory Efficiency,
+  Hashing Methods, Hybrid ANN Methods]
 short_authors: Lu et al.
 ---
 Recent studies show that the visual place recognition (VPR) method using

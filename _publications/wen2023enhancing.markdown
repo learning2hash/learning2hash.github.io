@@ -9,7 +9,7 @@ year: 2023
 bibkey: wen2023enhancing
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.14112'}]
-tags: ["Evaluation", "Image Retrieval", "SIGIR", "Scalability", "Tools & Libraries"]
+tags: [Evaluation, Image Retrieval, Scalability, Tools & Libraries, SIGIR]
 short_authors: Wen et al.
 ---
 In the multimedia era, image is an effective medium in search advertising.

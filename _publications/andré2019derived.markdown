@@ -7,7 +7,7 @@ year: 2019
 bibkey: "andr\xE92019derived"
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.06900'}]
-tags: ["Compact Codes", "Evaluation", "Quantization", "Scalability"]
+tags: [Compact Codes, Evaluation, Scalability, Quantization]
 short_authors: "Fabien Andr\xE9, Anne-Marie Kermarrec, Nicolas Le Scouarnec"
 ---
 High-dimensional Nearest Neighbor (NN) search is central in multimedia search

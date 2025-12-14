@@ -8,7 +8,7 @@ year: 2017
 bibkey: srivastava2017soft
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.05574'}]
-tags: ["Datasets", "Graph Based ANN", "Supervised", "Text Retrieval", "Unsupervised"]
+tags: [Supervised, Graph-based ANN, Datasets, Unsupervised, Text Retrieval, CIKM]
 short_authors: Avikalp Srivastava, Madhav Datt
 ---
 Semantic similarity based retrieval is playing an increasingly important role

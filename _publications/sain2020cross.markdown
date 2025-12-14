@@ -7,7 +7,7 @@ year: 2020
 bibkey: sain2020cross
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.15103'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval]
 short_authors: Sain et al.
 ---
 Sketch as an image search query is an ideal alternative to text in capturing

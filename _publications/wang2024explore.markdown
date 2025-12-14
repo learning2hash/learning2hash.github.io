@@ -9,7 +9,7 @@ bibkey: wang2024explore
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/supersupercong/MSGNN'}, {
     name: Paper, url: 'https://arxiv.org/abs/2406.00721'}]
-tags: ["Datasets", "Evaluation", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: [Evaluation, Supervised, Datasets, Tools & Libraries, Unsupervised]
 short_authors: Wang et al.
 ---
 Patch-level non-local self-similarity is an important property of natural

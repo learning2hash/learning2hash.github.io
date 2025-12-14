@@ -10,7 +10,8 @@ bibkey: he2024bit
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/hly1998/BRCD'}, {name: Paper,
     url: 'https://arxiv.org/abs/2403.06071'}]
-tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Neural Hashing, Scalability, Unsupervised,
+  Hashing Methods]
 short_authors: He et al.
 ---
 Unsupervised semantic hashing has emerged as an indispensable technique for

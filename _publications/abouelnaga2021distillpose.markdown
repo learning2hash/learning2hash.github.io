@@ -8,7 +8,7 @@ year: 2021
 bibkey: abouelnaga2021distillpose
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.03819'}]
-tags: ["IROS"]
+tags: [IROS]
 short_authors: Yehya Abouelnaga, Mai Bui, Slobodan Ilic
 ---
 We propose a lightweight retrieval-based pipeline to predict 6DOF camera

@@ -7,7 +7,7 @@ year: 2018
 bibkey: dutta2018when
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.02680'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Datasets, Efficiency]
 short_authors: Chinmoy Dutta
 ---
 Carpooling, or sharing a ride with other passengers, holds immense potential

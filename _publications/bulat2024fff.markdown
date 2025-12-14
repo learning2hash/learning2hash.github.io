@@ -8,7 +8,7 @@ year: 2024
 bibkey: bulat2024fff
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.10286'}]
-tags: ["CVPR", "Datasets", "Image Retrieval"]
+tags: [CVPR, Image Retrieval, Datasets]
 short_authors: Adrian Bulat, Yassine Ouali, Georgios Tzimiropoulos
 ---
 Despite noise and caption quality having been acknowledged as important

@@ -8,7 +8,7 @@ year: 2021
 bibkey: mallia2021learning
 citations: 140
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.12016'}]
-tags: ["Efficiency", "Hybrid ANN Methods", "Re-Ranking", "SIGIR", "Similarity Search"]
+tags: [Re-ranking, Similarity Search, Efficiency, SIGIR, Hybrid ANN Methods]
 short_authors: Mallia et al.
 ---
 Neural information retrieval systems typically use a cascading pipeline, in

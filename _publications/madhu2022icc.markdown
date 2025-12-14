@@ -9,7 +9,7 @@ year: 2022
 bibkey: madhu2022icc
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.11115'}]
-tags: ["Evaluation", "Image Retrieval", "Neural Hashing"]
+tags: [Evaluation, Image Retrieval, Neural Hashing]
 short_authors: Madhu et al.
 ---
 Image compositions are helpful in the study of image structures and assist in

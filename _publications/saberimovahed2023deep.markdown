@@ -8,7 +8,7 @@ year: 2023
 bibkey: saberimovahed2023deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.13055'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: [Distance Metric Learning, Image Retrieval, Evaluation]
 short_authors: Saberi-Movahed et al.
 ---
 Deep Metric Learning (DML) models rely on strong representations and

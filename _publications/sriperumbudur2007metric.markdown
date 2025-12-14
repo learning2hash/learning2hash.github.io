@@ -7,7 +7,7 @@ year: 2007
 bibkey: sriperumbudur2007metric
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/0706.3499'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Distance Metric Learning, Tools & Libraries, Datasets]
 short_authors: Bharath K. Sriperumbudur, Gert R. G. Lanckriet
 ---
 The distance metric plays an important role in nearest neighbor (NN)

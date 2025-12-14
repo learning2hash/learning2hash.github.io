@@ -8,7 +8,7 @@ year: 2023
 bibkey: yu2023pecann
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.03940'}]
-tags: ["Datasets", "Graph Based ANN", "Tools & Libraries"]
+tags: [Graph-based ANN, Tools & Libraries, Datasets]
 short_authors: Yu et al.
 ---
 This paper studies density-based clustering of point sets. These methods use dense regions of points to detect clusters of arbitrary shapes. In particular, we study variants of density peaks clustering, a popular type of algorithm that has been shown to work well in practice. Our goal is to cluster large high-dimensional datasets, which are prevalent in practice. Prior solutions are either sequential, and cannot scale to large data, or are specialized for low-dimensional data.

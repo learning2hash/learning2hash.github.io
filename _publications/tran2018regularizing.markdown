@@ -9,7 +9,7 @@ bibkey: tran2018regularizing
 citations: 48
 additional_links: [{name: Code, url: 'https://github.com/thanhdtran/RME.git'}, {name: Paper,
     url: 'https://arxiv.org/abs/1809.00979'}]
-tags: ["CIKM", "Datasets", "Evaluation", "Recommender Systems"]
+tags: [CIKM, Evaluation, Recommender Systems, Datasets]
 short_authors: Tran et al.
 ---
 Following recent successes in exploiting both latent factor and word

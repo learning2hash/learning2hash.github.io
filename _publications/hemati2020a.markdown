@@ -7,7 +7,8 @@ year: 2020
 bibkey: hemati2020a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.13138'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval"]
+tags: [Compact Codes, Evaluation, Image Retrieval, Efficiency, Datasets, Scalability,
+  Hashing Methods]
 short_authors: Hemati et al.
 ---
 In the era of big data, methods for improving memory and computational

@@ -7,7 +7,8 @@ year: 2019
 bibkey: teofili2019lucene
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.10208'}]
-tags: ["Efficiency", "Neural Hashing", "Similarity Search", "Tools & Libraries", "Tree Based ANN"]
+tags: [Tree-based ANN, Similarity Search, Neural Hashing, Efficiency, Tools & Libraries,
+  Locality Sensitive Hashing]
 short_authors: Tommaso Teofili, Jimmy Lin
 ---
 We demonstrate three approaches for adapting the open-source Lucene search

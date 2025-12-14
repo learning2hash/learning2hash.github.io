@@ -7,7 +7,8 @@ year: 2021
 bibkey: jiang2021a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.03024'}]
-tags: ["Datasets", "Evaluation", "Locality-Sensitive-Hashing", "Robustness", "Supervised"]
+tags: [Evaluation, Supervised, Efficiency, Datasets, Robustness, Scalability, Large-Scale
+    Search, Hashing Methods, Locality Sensitive Hashing]
 short_authors: Jiang et al.
 ---
 Many popular machine learning techniques in natural language processing and

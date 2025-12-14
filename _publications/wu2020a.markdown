@@ -7,7 +7,7 @@ year: 2020
 bibkey: wu2020a
 citations: 39
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.06580'}]
-tags: ["Datasets", "Evaluation", "Robustness"]
+tags: [Evaluation, Datasets, Robustness]
 short_authors: Lirong Wu, Kejie Huang, Haibin Shen
 ---
 The method of importance map has been widely adopted in DNN-based lossy image

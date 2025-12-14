@@ -7,7 +7,7 @@ year: 2023
 bibkey: jush2023medical
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.13547'}]
-tags: ["Efficiency", "Evaluation", "Image Retrieval", "Scalability", "Similarity Search"]
+tags: [Evaluation, Image Retrieval, Similarity Search, Efficiency, Scalability]
 short_authors: Jush et al.
 ---
 A wide range of imaging techniques and data formats available for medical

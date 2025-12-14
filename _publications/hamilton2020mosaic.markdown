@@ -10,7 +10,7 @@ year: 2020
 bibkey: hamilton2020mosaic
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.07177'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Similarity Search"]
+tags: [Evaluation, Image Retrieval, Similarity Search, Efficiency, Datasets, Robustness]
 short_authors: Hamilton et al.
 ---
 We introduce MosAIc, an interactive web app that allows users to find pairs

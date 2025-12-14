@@ -7,7 +7,8 @@ year: 2022
 bibkey: wu2022self
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.09806'}]
-tags: ["Image Retrieval", "Quantization", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Similarity Search, Self-Supervised,
+  Datasets, Quantization, Unsupervised]
 short_authors: Guile Wu, Chao Zhang, Stephan Liwicki
 ---
 Unsupervised image retrieval aims to learn an efficient retrieval system

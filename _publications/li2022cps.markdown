@@ -9,7 +9,7 @@ year: 2022
 bibkey: li2022cps
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.09787'}]
-tags: ["Tools & Libraries"]
+tags: [Tools & Libraries]
 short_authors: Li et al.
 ---
 Embedding-based retrieval (EBR) is a technique to use embeddings to represent

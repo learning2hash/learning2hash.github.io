@@ -9,7 +9,7 @@ year: 2025
 bibkey: tang2025onlineanyseg
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.01309'}]
-tags: ["CVPR", "Efficiency", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods"]
+tags: [Evaluation, Few-shot & Zero-shot, Efficiency, CVPR, Hashing Methods]
 short_authors: Tang et al.
 ---
 Online zero-shot 3D instance segmentation of a progressively reconstructed

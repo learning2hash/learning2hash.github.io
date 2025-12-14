@@ -7,7 +7,7 @@ year: 2018
 bibkey: barz2018hierarchy
 citations: 93
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.09924'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot]
 short_authors: "Bj\xF6rn Barz, Joachim Denzler"
 ---
 Deep neural networks trained for classification have been found to learn

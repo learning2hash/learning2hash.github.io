@@ -9,7 +9,8 @@ bibkey: yang2021unleashing
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/Frost-Yang-99/UP-ReID'},
   {name: Paper, url: 'https://arxiv.org/abs/2112.00317'}]
-tags: ["Datasets", "Robustness", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Self-Supervised, Datasets, Robustness, Unsupervised,
+  Tools & Libraries]
 short_authors: Yang et al.
 ---
 Existing person re-identification (ReID) methods typically directly load the

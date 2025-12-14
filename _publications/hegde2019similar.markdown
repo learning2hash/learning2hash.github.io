@@ -9,7 +9,7 @@ year: 2019
 bibkey: hegde2019similar
 citations: 121
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.11112'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Neural Hashing"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Efficiency, Datasets]
 short_authors: Hegde et al.
 ---
 The increasing availability of large institutional and public histopathology

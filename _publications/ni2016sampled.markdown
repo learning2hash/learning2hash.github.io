@@ -8,7 +8,7 @@ year: 2016
 bibkey: ni2016sampled
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.06962'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Neural Hashing", "Robustness", "Scalability"]
+tags: [Few-shot & Zero-shot, Neural Hashing, Datasets, Robustness, Scalability]
 short_authors: Ni et al.
 ---
 Traditional image tagging and retrieval algorithms have limited value as a

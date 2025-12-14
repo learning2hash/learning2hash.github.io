@@ -7,7 +7,7 @@ year: 2023
 bibkey: campos2023noise
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.03401'}]
-tags: ["Robustness"]
+tags: [Robustness]
 short_authors: Daniel Campos, Chengxiang Zhai, Alessandro Magnani
 ---
 The success of contextual word representations and advances in neural

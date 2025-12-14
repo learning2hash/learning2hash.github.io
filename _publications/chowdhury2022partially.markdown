@@ -8,7 +8,7 @@ year: 2022
 bibkey: chowdhury2022partially
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.14804'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, CVPR, Image Retrieval, Datasets]
 short_authors: Chowdhury et al.
 ---
 We scrutinise an important observation plaguing scene-level sketch research

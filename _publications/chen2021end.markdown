@@ -7,7 +7,8 @@ year: 2021
 bibkey: chen2021end
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.04468'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems", "Scalability"]
+tags: [Evaluation, Scalability, Hashing Methods, Locality Sensitive Hashing, Recommender
+    Systems]
 short_authors: Chen et al.
 ---
 Click-Through Rate (CTR) prediction is one of the core tasks in recommender

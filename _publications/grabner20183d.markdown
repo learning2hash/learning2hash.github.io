@@ -7,7 +7,7 @@ year: 2018
 bibkey: grabner20183d
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.11493'}]
-tags: ["CVPR", "Distance Metric Learning"]
+tags: [Distance Metric Learning, CVPR]
 short_authors: Alexander Grabner, Peter M. Roth, Vincent Lepetit
 ---
 We propose a scalable, efficient and accurate approach to retrieve 3D models

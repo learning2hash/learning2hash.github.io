@@ -8,7 +8,7 @@ year: 2023
 bibkey: carvalho2023towards
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.12158'}]
-tags: ["Neural Hashing", "Scalability"]
+tags: [Scalability, Neural Hashing]
 short_authors: Luis Carvalho, Gerhard Widmer
 ---
 A range of applications of multi-modal music information retrieval is centred

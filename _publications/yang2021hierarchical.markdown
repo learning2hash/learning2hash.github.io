@@ -7,7 +7,7 @@ year: 2021
 bibkey: yang2021hierarchical
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.13538'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Image Retrieval, Distance Metric Learning, Datasets, Tools & Libraries]
 short_authors: Yang et al.
 ---
 Proxy-based metric learning losses are superior to pair-based losses due to

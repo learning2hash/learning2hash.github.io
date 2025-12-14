@@ -8,7 +8,8 @@ year: 2016
 bibkey: bhattarai2016cp
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.02975'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Image Retrieval", "Scalability"]
+tags: [Evaluation, Image Retrieval, Distance Metric Learning, Datasets, Scalability,
+  CVPR]
 short_authors: Binod Bhattarai, Gaurav Sharma, Frederic Jurie
 ---
 We propose a novel Coupled Projection multi-task Metric Learning (CP-mtML)

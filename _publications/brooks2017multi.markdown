@@ -7,7 +7,7 @@ year: 2017
 bibkey: brooks2017multi
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.03517'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing]
 short_authors: Teresa Nicole Brooks, Rania Almajalid
 ---
 This paper introduces "Multi-Level Spherical LSH": parameter-free, a

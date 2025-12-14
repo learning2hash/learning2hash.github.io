@@ -7,7 +7,7 @@ year: 2020
 bibkey: veit2020improving
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.08824'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: [Distance Metric Learning, Image Retrieval, Evaluation]
 short_authors: Andreas Veit, Kimberly Wilber
 ---
 Modern image retrieval systems increasingly rely on the use of deep neural

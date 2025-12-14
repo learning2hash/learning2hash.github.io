@@ -9,7 +9,7 @@ bibkey: sumbul2021a
 citations: 1
 additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/GT-DRL-CBIR'},
   {name: Paper, url: 'https://arxiv.org/abs/2106.00506'}]
-tags: ["Graph Based ANN", "Image Retrieval", "RSS", "Tools & Libraries"]
+tags: [Graph-based ANN, Tools & Libraries, RSS, Image Retrieval]
 short_authors: "Gencer Sumbul, Beg\xFCm Demir"
 ---
 This paper presents a novel graph-theoretic deep representation learning

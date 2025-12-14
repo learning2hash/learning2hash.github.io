@@ -9,7 +9,7 @@ bibkey: chen2019uniter
 citations: 183
 additional_links: [{name: Code, url: 'https://github.com/ChenRocks/UNITER'}, {name: Paper,
     url: 'https://arxiv.org/abs/1909.11740'}]
-tags: ["Datasets", "Scalability", "Text Retrieval"]
+tags: [Text Retrieval, Scalability, Datasets]
 short_authors: Chen et al.
 ---
 Joint image-text embedding is the bedrock for most Vision-and-Language (V+L)

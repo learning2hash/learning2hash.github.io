@@ -9,7 +9,7 @@ year: 2016
 bibkey: ye2016robust
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.05757'}]
-tags: ["Efficiency", "Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Efficiency]
 short_authors: Ye et al.
 ---
 For early diagnosis of malignancies in the gastrointestinal tract,

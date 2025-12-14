@@ -7,7 +7,7 @@ year: 2020
 bibkey: gao2020complementing
 citations: 59
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.13969'}]
-tags: ["Efficiency", "Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
+tags: [Hybrid ANN Methods, Evaluation, Re-ranking, Efficiency]
 short_authors: Gao et al.
 ---
 This paper presents CLEAR, a retrieval model that seeks to complement

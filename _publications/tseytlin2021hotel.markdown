@@ -7,7 +7,7 @@ year: 2021
 bibkey: tseytlin2021hotel
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.08042'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Survey Paper"]
+tags: [Evaluation, Distance Metric Learning, Datasets, Survey Paper]
 short_authors: Boris Tseytlin, Ilya Makarov
 ---
 We approach the problem of hotel recognition with deep metric learning. We

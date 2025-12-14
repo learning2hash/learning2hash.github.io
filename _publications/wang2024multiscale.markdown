@@ -9,7 +9,7 @@ year: 2024
 bibkey: wang2024multiscale
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.10146'}]
-tags: ["Datasets", "ICASSP", "Self-Supervised", "Text Retrieval", "Tools & Libraries"]
+tags: [ICASSP, Self-Supervised, Datasets, Tools & Libraries, Text Retrieval]
 short_authors: Qian Wang, Jia-Chen Gu, Zhen-Hua Ling
 ---
 Audio-text retrieval (ATR), which retrieves a relevant caption given an audio

@@ -9,7 +9,8 @@ year: 2018
 bibkey: ying2018graph
 citations: 2548
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.01973'}]
-tags: ["Graph Based ANN", "Large Scale Search", "Neural Hashing", "Recommender Systems", "Robustness"]
+tags: [Evaluation, Neural Hashing, Graph-based ANN, Robustness, Scalability, Large-Scale
+    Search, KDD, Recommender Systems]
 short_authors: Ying et al.
 ---
 Recent advancements in deep neural networks for graph-structured data have

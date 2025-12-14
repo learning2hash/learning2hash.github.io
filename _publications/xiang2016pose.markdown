@@ -7,7 +7,7 @@ year: 2016
 bibkey: xiang2016pose
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.07042'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Xiang Xiang, Trac D. Tran
 ---
 In this paper, we deal with two challenges for measuring the similarity of

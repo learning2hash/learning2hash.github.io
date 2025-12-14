@@ -7,7 +7,7 @@ year: 2022
 bibkey: wald2022a
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.12859'}]
-tags: ["Tree Based ANN"]
+tags: [Tree-based ANN]
 short_authors: Ingo Wald
 ---
 We present an algorithm that allows for find-closest-point and kNN-style

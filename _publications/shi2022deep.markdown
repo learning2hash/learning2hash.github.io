@@ -8,7 +8,7 @@ year: 2022
 bibkey: shi2022deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.08365'}]
-tags: ["AAAI", "Hashing Methods", "Multimodal Retrieval", "Supervised"]
+tags: [Supervised, Multimodal Retrieval, Hashing Methods, Medical Retrieval, AAAI]
 short_authors: Shi et al.
 ---
 Mapping X-ray images, radiology reports, and other medical data as binary

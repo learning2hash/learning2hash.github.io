@@ -7,7 +7,7 @@ year: 2018
 bibkey: ge2018deep
 citations: 435
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.06951'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: [Distance Metric Learning, Image Retrieval, Evaluation]
 short_authors: Ge et al.
 ---
 We present a novel hierarchical triplet loss (HTL) capable of automatically

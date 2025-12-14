@@ -7,7 +7,8 @@ year: 2018
 bibkey: tu2018object
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.09822'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Datasets, Scalability, Unsupervised,
+  Hashing Methods]
 short_authors: Tu et al.
 ---
 Recently, similarity-preserving hashing methods have been extensively studied

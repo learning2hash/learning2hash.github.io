@@ -9,7 +9,7 @@ year: 2022
 bibkey: zubchuk2022lib
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.12356'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Recommender Systems, Datasets]
 short_authors: Zubchuk et al.
 ---
 We opensource under CC BY 4.0 license Lib-SibGMU - a university library

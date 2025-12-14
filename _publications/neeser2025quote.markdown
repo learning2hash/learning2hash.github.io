@@ -7,7 +7,7 @@ year: 2025
 bibkey: neeser2025quote
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.10976'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Neeser et al.
 ---
 We present QuOTE (Question-Oriented Text Embeddings), a novel enhancement to

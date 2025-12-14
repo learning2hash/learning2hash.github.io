@@ -7,7 +7,7 @@ year: 2019
 bibkey: li2019deep
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.10980'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Tools & Libraries", "Vector Indexing"]
+tags: [Efficiency, Vector Indexing, Datasets, Tools & Libraries, Hashing Methods]
 short_authors: Ming-Wei Li, Qing-Yuan Jiang, Wu-Jun Li
 ---
 Traditional person re-identification (ReID) methods typically represent

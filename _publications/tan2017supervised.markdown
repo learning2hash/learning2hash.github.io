@@ -7,7 +7,8 @@ year: 2017
 bibkey: tan2017supervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08901'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Datasets, Scalability,
+  Unsupervised, Hashing Methods]
 short_authors: Dang-Khoa Le Tan, Thanh-Toan Do, Ngai-Man Cheung
 ---
 Image hashing is a popular technique applied to large scale content-based

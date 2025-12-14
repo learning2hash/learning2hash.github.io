@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhong2024compositional
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.05756'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Self-Supervised, Datasets]
 short_authors: Zhong et al.
 ---
 Composed Image Retrieval (CIR) involves retrieving a target image based on a

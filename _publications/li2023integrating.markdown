@@ -8,7 +8,8 @@ bibkey: li2023integrating
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/AAA-Zheng/Listwise_ITR'},
   {name: Paper, url: 'https://arxiv.org/abs/2305.16566'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Re-Ranking", "Text Retrieval"]
+tags: [Evaluation, Re-ranking, Distance Metric Learning, Datasets, Text Retrieval,
+  Hybrid ANN Methods]
 short_authors: Li et al.
 ---
 Image-Text Retrieval (ITR) is essentially a ranking problem. Given a query

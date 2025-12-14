@@ -7,7 +7,7 @@ year: 2021
 bibkey: razzhigaev2021darker
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.14290'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: Razzhigaev et al.
 ---
 Several methods for inversion of face recognition models were recently

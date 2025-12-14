@@ -7,7 +7,7 @@ year: 2020
 bibkey: luan2020sparse
 citations: 154
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.00181'}]
-tags: ["Efficiency", "Evaluation", "Scalability", "Text Retrieval"]
+tags: [Evaluation, Efficiency, Scalability, Text Retrieval, TACL, ACL]
 short_authors: Luan et al.
 ---
 Dual encoders perform retrieval by encoding documents and queries into dense

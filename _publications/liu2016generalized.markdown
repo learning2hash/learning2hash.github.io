@@ -7,7 +7,8 @@ year: 2016
 bibkey: liu2016generalized
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.05345'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Quantization", "Similarity Search"]
+tags: [Evaluation, Similarity Search, Efficiency, Survey Paper, Datasets, Quantization,
+  Scalability, Tools & Libraries]
 short_authors: Shicong Liu, Junru Shao, Hongtao Lu
 ---
 Vector quantization is an essential tool for tasks involving large scale

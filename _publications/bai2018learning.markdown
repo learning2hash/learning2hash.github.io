@@ -8,7 +8,7 @@ year: 2018
 bibkey: bai2018learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.04440'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Similarity Search"]
+tags: [Evaluation, Graph-based ANN, Datasets, Similarity Search]
 short_authors: Bai et al.
 ---
 Graph similarity computation is one of the core operations in many

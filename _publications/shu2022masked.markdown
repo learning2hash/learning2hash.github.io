@@ -8,7 +8,7 @@ year: 2022
 bibkey: shu2022masked
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.00986'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Text Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Efficiency, Datasets, Tools & Libraries, Text Retrieval]
 short_authors: Shu et al.
 ---
 We present a simple yet effective end-to-end Video-language Pre-training

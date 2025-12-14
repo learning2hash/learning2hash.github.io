@@ -9,7 +9,7 @@ bibkey: sun2024mair
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/sunnweiwei/Mair'}, {name: Paper,
     url: 'https://arxiv.org/abs/2410.10127'}]
-tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
+tags: [Evaluation, Re-ranking, Hybrid ANN Methods, Datasets]
 short_authors: Sun et al.
 ---
 Recent information retrieval (IR) models are pre-trained and

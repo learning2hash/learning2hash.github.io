@@ -7,7 +7,7 @@ year: 2021
 bibkey: bonetta2021retrieval
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.09235'}]
-tags: ["Datasets"]
+tags: [Datasets]
 short_authors: Bonetta et al.
 ---
 Transformer-based models have demonstrated excellent capabilities of

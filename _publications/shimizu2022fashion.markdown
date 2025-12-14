@@ -8,7 +8,7 @@ year: 2022
 bibkey: shimizu2022fashion
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.17417'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval]
 short_authors: Ryotaro Shimizu, Masanari Kimura, Masayuki Goto
 ---
 Several techniques to map various types of components, such as words,

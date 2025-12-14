@@ -7,7 +7,7 @@ year: 2014
 bibkey: yi2014deep
 citations: 138
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1407.4979'}]
-tags: ["Datasets", "Distance Metric Learning", "Tools & Libraries"]
+tags: [Distance Metric Learning, Tools & Libraries, Datasets]
 short_authors: Dong Yi, Zhen Lei, Stan Z. Li
 ---
 Various hand-crafted features and metric learning methods prevail in the

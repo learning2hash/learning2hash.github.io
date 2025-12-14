@@ -7,7 +7,7 @@ year: 2024
 bibkey: siciliano2024static
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.09983'}]
-tags: ["Efficiency"]
+tags: [Efficiency]
 short_authors: Siciliano et al.
 ---
 In the era of dense retrieval, document indexing and retrieval is largely

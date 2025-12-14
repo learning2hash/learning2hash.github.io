@@ -7,7 +7,7 @@ year: 2017
 bibkey: song2017deep
 citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.07901'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Efficiency, Datasets, Scalability, Hashing Methods]
 short_authors: Song et al.
 ---
 Instance Search (INS) is a fundamental problem for many applications, while

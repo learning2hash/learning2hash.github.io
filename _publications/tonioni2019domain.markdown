@@ -7,7 +7,7 @@ year: 2019
 bibkey: tonioni2019domain
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.00760'}]
-tags: ["Datasets"]
+tags: [Datasets]
 short_authors: Alessio Tonioni, Luigi di Stefano
 ---
 Recognizing packaged grocery products based solely on appearance is still an

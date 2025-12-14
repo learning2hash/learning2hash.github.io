@@ -7,7 +7,7 @@ year: 2019
 bibkey: tian2019sosnet
 citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.05019'}]
-tags: ["CVPR", "Evaluation"]
+tags: [Evaluation, CVPR]
 short_authors: Tian et al.
 ---
 Despite the fact that Second Order Similarity (SOS) has been used with

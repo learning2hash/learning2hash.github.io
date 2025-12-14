@@ -8,7 +8,7 @@ year: 2023
 bibkey: liao2023feature
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.05017'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Neural Hashing", "Self-Supervised"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Neural Hashing, Self-Supervised]
 short_authors: Yi Liao, Yongsheng Gao, Weichuan Zhang
 ---
 Decisions made by convolutional neural networks(CNN) can be understood and

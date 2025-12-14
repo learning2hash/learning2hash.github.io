@@ -8,7 +8,7 @@ year: 2021
 bibkey: fornoni2021bridging
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.10258'}]
-tags: ["Evaluation", "Image Retrieval", "Scalability"]
+tags: [Scalability, Evaluation, Image Retrieval]
 short_authors: Fornoni et al.
 ---
 When interacting with objects through cameras, or pictures, users often have

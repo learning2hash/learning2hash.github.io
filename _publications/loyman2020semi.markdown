@@ -7,7 +7,7 @@ year: 2020
 bibkey: loyman2020semi
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.01805'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: [Supervised, Image Retrieval, Distance Metric Learning, Datasets, Unsupervised]
 short_authors: Mark Loyman, Hayit Greenspan
 ---
 Content based image retrieval (CBIR) provides the clinician with visual

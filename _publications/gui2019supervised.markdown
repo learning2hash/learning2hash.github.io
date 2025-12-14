@@ -7,7 +7,8 @@ year: 2019
 bibkey: gui2019supervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.03549'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Supervised", "Unsupervised"]
+tags: [Supervised, Similarity Search, Efficiency, Datasets, Scalability, Unsupervised,
+  Hashing Methods]
 short_authors: Gui et al.
 ---
 Data-dependent hashing has recently attracted attention due to being able to

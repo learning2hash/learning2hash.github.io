@@ -7,7 +7,8 @@ year: 2017
 bibkey: lai2017improved
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.06993'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Similarity Search"]
+tags: [Compact Codes, Evaluation, Image Retrieval, Efficiency, Similarity Search,
+  Vector Indexing, Datasets, Scalability, Hashing Methods]
 short_authors: Hanjiang Lai, Yan Pan
 ---
 Similarity-preserving hashing is a widely-used method for nearest neighbour

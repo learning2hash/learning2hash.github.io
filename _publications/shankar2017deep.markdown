@@ -8,7 +8,7 @@ year: 2017
 bibkey: shankar2017deep
 citations: 60
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.02344'}]
-tags: ["Datasets", "Image Retrieval", "Neural Hashing", "Recommender Systems", "Scalability"]
+tags: [Image Retrieval, Neural Hashing, Datasets, Scalability, Recommender Systems]
 short_authors: Shankar et al.
 ---
 In this paper, we present a unified end-to-end approach to build a large

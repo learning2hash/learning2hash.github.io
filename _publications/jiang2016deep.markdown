@@ -7,7 +7,8 @@ year: 2016
 bibkey: jiang2016deep
 citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.02255'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Similarity Search"]
+tags: [Evaluation, Similarity Search, Datasets, Memory Efficiency, Multimodal Retrieval,
+  Tools & Libraries, Hashing Methods]
 short_authors: Qing-Yuan Jiang, Wu-Jun Li
 ---
 Due to its low storage cost and fast query speed, cross-modal hashing (CMH)

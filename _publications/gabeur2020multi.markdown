@@ -8,7 +8,7 @@ bibkey: gabeur2020multi
 citations: 362
 additional_links: [{name: Code, url: 'http://thoth.inrialpes.fr/research/MMT'}, {
     name: Paper, url: 'https://arxiv.org/abs/2007.10639'}]
-tags: ["Datasets", "Tools & Libraries", "Video Retrieval"]
+tags: [Video Retrieval, Tools & Libraries, Datasets]
 short_authors: Gabeur et al.
 ---
 The task of retrieving video content relevant to natural language queries

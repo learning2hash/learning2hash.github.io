@@ -7,7 +7,7 @@ year: 2011
 bibkey: godil2011retrieval
 citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1105.2800'}]
-tags: ["Tools & Libraries"]
+tags: [Tools & Libraries]
 short_authors: Afzal Godil, Sandy Ressler
 ---
 In this paper, we describe a framework for similarity based retrieval and

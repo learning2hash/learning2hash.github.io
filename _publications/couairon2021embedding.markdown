@@ -7,7 +7,7 @@ year: 2021
 bibkey: couairon2021embedding
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.03162'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: [Image Retrieval, Datasets]
 short_authors: Couairon et al.
 ---
 Latent text representations exhibit geometric regularities, such as the

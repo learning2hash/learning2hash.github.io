@@ -7,7 +7,7 @@ year: 2019
 bibkey: matiyali2019video
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.08055'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Neeraj Matiyali, Gaurav Sharma
 ---
 We address the challenging task of video-based person re-identification.

@@ -7,7 +7,7 @@ year: 2017
 bibkey: wu2017starspace
 citations: 92
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.03856'}]
-tags: ["Recommender Systems"]
+tags: [Recommender Systems]
 short_authors: Wu et al.
 ---
 We present StarSpace, a general-purpose neural embedding model that can solve

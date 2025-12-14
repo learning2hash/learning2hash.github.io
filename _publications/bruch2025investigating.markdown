@@ -9,7 +9,7 @@ year: 2025
 bibkey: bruch2025investigating
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.11628'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Scalability"]
+tags: [Evaluation, Efficiency, Graph-based ANN, Datasets, Scalability]
 short_authors: Bruch et al.
 ---
 Learned sparse text embeddings have gained popularity due to their

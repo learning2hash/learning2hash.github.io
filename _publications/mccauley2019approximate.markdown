@@ -8,7 +8,7 @@ year: 2019
 bibkey: mccauley2019approximate
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.01600'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Similarity Search, Efficiency]
 short_authors: Samuel McCauley
 ---
 Edit distance similarity search, also called approximate pattern matching, is

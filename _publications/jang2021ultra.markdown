@@ -10,7 +10,7 @@ year: 2021
 bibkey: jang2021ultra
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.07198'}]
-tags: ["EMNLP", "Efficiency", "Hybrid ANN Methods", "Re-Ranking", "Text Retrieval"]
+tags: [Re-ranking, Efficiency, Text Retrieval, EMNLP, Hybrid ANN Methods]
 short_authors: Jang et al.
 ---
 The semantic matching capabilities of neural information retrieval can

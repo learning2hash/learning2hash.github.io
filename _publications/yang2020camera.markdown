@@ -7,7 +7,7 @@ year: 2020
 bibkey: yang2020camera
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.14579'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Scalability"]
+tags: [Hashing Methods, Scalability, Efficiency, Datasets]
 short_authors: Daniel Yang, Tj Tsai
 ---
 This paper presents a method for large-scale retrieval of piano sheet music

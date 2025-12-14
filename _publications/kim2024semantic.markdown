@@ -8,7 +8,7 @@ year: 2024
 bibkey: kim2024semantic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.08469'}]
-tags: ["EMNLP", "Few Shot & Zero Shot", "Image Retrieval", "Tools & Libraries"]
+tags: [Image Retrieval, Few-shot & Zero-shot, Tools & Libraries, EMNLP, ACL]
 short_authors: Kim et al.
 ---
 A text encoder within Vision-Language Models (VLMs) like CLIP plays a crucial

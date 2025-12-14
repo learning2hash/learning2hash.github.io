@@ -8,7 +8,7 @@ year: 2021
 bibkey: zhou2021uc2
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.00332'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval", "Tools & Libraries"]
+tags: [Text Retrieval, Evaluation, Tools & Libraries, Datasets]
 short_authors: Zhou et al.
 ---
 Vision-and-language pre-training has achieved impressive success in learning

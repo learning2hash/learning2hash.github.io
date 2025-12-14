@@ -7,7 +7,7 @@ year: 2020
 bibkey: keung2020unsupervised
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.07761'}]
-tags: ["Datasets", "Evaluation", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Datasets, Unsupervised, TACL, ACL]
 short_authors: Keung et al.
 ---
 We describe an unsupervised method to create pseudo-parallel corpora for

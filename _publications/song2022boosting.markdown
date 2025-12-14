@@ -8,7 +8,7 @@ bibkey: song2022boosting
 citations: 34
 additional_links: [{name: Code, url: 'https://github.com/dealicious-inc/DToP'}, {
     name: Paper, url: 'https://arxiv.org/abs/2210.11909'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval]
 short_authors: Song et al.
 ---
 Vision transformers have achieved remarkable progress in vision tasks such as

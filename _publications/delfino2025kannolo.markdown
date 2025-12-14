@@ -9,7 +9,8 @@ bibkey: delfino2025kannolo
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/TusKANNy/kannolo'}, {name: Paper,
     url: 'https://arxiv.org/abs/2501.06121'}]
-tags: ["Distance Metric Learning", "Quantization", "Recommender Systems", "Similarity Search", "Tools & Libraries"]
+tags: [Evaluation, Similarity Search, Distance Metric Learning, Quantization, Tools
+    & Libraries, Recommender Systems]
 short_authors: Delfino et al.
 ---
 Approximate Nearest Neighbors (ANN) search is a crucial task in several

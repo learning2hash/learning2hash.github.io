@@ -7,7 +7,8 @@ year: 2016
 bibkey: ozdemir2016scalable
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.07335'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Scalability", "Supervised"]
+tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Datasets, Scalability,
+  Hashing Methods]
 short_authors: Bahadir Ozdemir, Larry S. Davis
 ---
 We propose a flexible procedure for large-scale image search by hash

@@ -8,7 +8,7 @@ year: 2019
 bibkey: mohammadshahi2019aligning
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.03291'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets, Multimodal Retrieval]
 short_authors: Alireza Mohammadshahi, Remi Lebret, Karl Aberer
 ---
 In this paper, we propose a new approach to learn multimodal multilingual

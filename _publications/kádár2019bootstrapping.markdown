@@ -8,7 +8,7 @@ year: 2019
 bibkey: "k\xE1d\xE1r2019bootstrapping"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.03678'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: "K\xE1d\xE1r et al."
 ---
 Recent work has highlighted the advantage of jointly learning grounded

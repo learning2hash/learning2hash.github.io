@@ -7,7 +7,7 @@ year: 2019
 bibkey: jeong2019end
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.10990'}]
-tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Quantization"]
+tags: [Evaluation, Efficiency, Datasets, Quantization, CVPR, Hashing Methods]
 short_authors: Yeonwoo Jeong, Yoonsung Kim, Hyun Oh Song
 ---
 We develop hierarchically quantized efficient embedding representations for

@@ -8,7 +8,7 @@ year: 2019
 bibkey: yang2019end
 citations: 161
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.01718'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Yang et al.
 ---
 We demonstrate an end-to-end question answering system that integrates BERT

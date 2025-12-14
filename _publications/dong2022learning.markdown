@@ -10,7 +10,7 @@ bibkey: dong2022learning
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/PRBonn/descriptor-dr'}, {
     name: Paper, url: 'https://arxiv.org/abs/2209.13586'}]
-tags: ["Image Retrieval", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Self-Supervised, Supervised, Image Retrieval, Unsupervised]
 short_authors: Dong et al.
 ---
 A distinctive representation of image patches in form of features is a key

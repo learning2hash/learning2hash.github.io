@@ -8,7 +8,7 @@ year: 2024
 bibkey: chen2024roargraph
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.08933'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Recommender Systems"]
+tags: [Evaluation, Recommender Systems, Efficiency, Datasets]
 short_authors: Chen et al.
 ---
 Approximate Nearest Neighbor Search (ANNS) is a fundamental and critical

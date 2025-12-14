@@ -7,7 +7,8 @@ year: 2019
 bibkey: yang2019distillhash
 citations: 158
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.03465'}]
-tags: ["Efficiency", "Hashing Methods", "Similarity Search", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Efficiency, Neural Hashing, Similarity Search, Datasets,
+  Scalability, CVPR, Unsupervised, Tools & Libraries, Hashing Methods]
 short_authors: Yang et al.
 ---
 Due to the high storage and search efficiency, hashing has become prevalent

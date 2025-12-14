@@ -7,7 +7,7 @@ year: 2023
 bibkey: pratap2023minwise
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.11240'}]
-tags: ["Datasets", "Evaluation", "Locality-Sensitive-Hashing"]
+tags: [Evaluation, Locality Sensitive Hashing, Datasets]
 short_authors: Rameshwar Pratap, Raghav Kulkarni
 ---
 In their seminal work, Broder \textit\{et. al.\}~\citep\{BroderCFM98\} introduces

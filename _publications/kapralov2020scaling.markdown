@@ -7,7 +7,7 @@ year: 2020
 bibkey: kapralov2020scaling
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.09756'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Scalability, Datasets]
 short_authors: Kapralov et al.
 ---
 Random binning features, introduced in the seminal paper of Rahimi and Recht

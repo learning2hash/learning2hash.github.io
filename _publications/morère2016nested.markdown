@@ -8,7 +8,7 @@ year: 2016
 bibkey: "mor\xE8re2016nested"
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.04595'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods"]
+tags: [Hashing Methods, Evaluation, Datasets]
 short_authors: "Mor\xE8re et al."
 ---
 The goal of this work is the computation of very compact binary hashes for

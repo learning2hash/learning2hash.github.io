@@ -8,7 +8,7 @@ year: 2019
 bibkey: lagunas2019a
 citations: 62
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.01562'}]
-tags: ["Evaluation", "Neural Hashing"]
+tags: [Evaluation, Neural Hashing]
 short_authors: Lagunas et al.
 ---
 We present a model to measure the similarity in appearance between different

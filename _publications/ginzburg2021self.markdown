@@ -9,7 +9,7 @@ year: 2021
 bibkey: ginzburg2021self
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.01186'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Self-Supervised, Datasets, Unsupervised, ACL]
 short_authors: Ginzburg et al.
 ---
 We present a novel model for the problem of ranking a collection of documents

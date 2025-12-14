@@ -7,7 +7,7 @@ year: 2019
 bibkey: merkx2019language
 citations: 50
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.03795'}]
-tags: ["Evaluation", "Image Retrieval", "Interspeech"]
+tags: [Evaluation, INTERSPEECH, Image Retrieval]
 short_authors: Danny Merkx, Stefan L. Frank, Mirjam Ernestus
 ---
 Humans learn language by interaction with their environment and listening to

@@ -8,7 +8,8 @@ bibkey: nainani2023zerosearch
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/NainaniJatinZ/zero-search'},
   {name: Paper, url: 'https://arxiv.org/abs/2305.00715'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Distance Metric Learning,
+  Datasets]
 short_authors: Jatin Nainani, Abhishek Mazumdar, Viraj Sheth
 ---
 The problem of organizing and finding images in a user's directory has become

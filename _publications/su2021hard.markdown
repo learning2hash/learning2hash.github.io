@@ -7,7 +7,7 @@ year: 2021
 bibkey: su2021hard
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.13565'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: [Hashing Methods, Evaluation, Image Retrieval, Neural Hashing]
 short_authors: Su et al.
 ---
 Compared with the traditional hashing methods, deep hashing methods generate

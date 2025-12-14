@@ -7,7 +7,7 @@ year: 2018
 bibkey: xuan2018deep
 citations: 114
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.04469'}]
-tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: [Distance Metric Learning, Image Retrieval, Evaluation]
 short_authors: Hong Xuan, Richard Souvenir, Robert Pless
 ---
 Learning embedding functions, which map semantically related inputs to nearby

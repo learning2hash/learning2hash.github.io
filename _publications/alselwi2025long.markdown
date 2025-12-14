@@ -8,7 +8,7 @@ year: 2025
 bibkey: alselwi2025long
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.14800'}]
-tags: ["Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Re-ranking, Hybrid ANN Methods]
 short_authors: Alselwi et al.
 ---
 Effective long-term memory management is crucial for language models handling extended contexts. We introduce a novel framework that dynamically ranks memory entries based on relevance. Unlike previous works, our model introduces a novel relevance scoring and a pointwise re-ranking model for key-value embeddings, inspired by learning-to-rank techniques in information retrieval. Enhanced Ranked Memory Augmented Retrieval ERMAR achieves state-of-the-art results on standard benchmarks.

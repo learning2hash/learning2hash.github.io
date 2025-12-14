@@ -7,7 +7,7 @@ year: 2021
 bibkey: baloian2021scalable
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.00161'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval]
 short_authors: Andres Baloian, Nils Murrugarra-Llerena, Jose M. Saavedra
 ---
 Visual attributes play an essential role in real applications based on image

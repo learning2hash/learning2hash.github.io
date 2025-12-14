@@ -7,7 +7,8 @@ year: 2025
 bibkey: shrivastava2025asymmetric
 citations: 255
 additional_links: [{name: Paper, url: 'http://papers.nips.cc/paper/5329-asymmetric-lsh-alsh-for-sublinear-time-maximum-inner-product-search-mips.pdf'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems", "Tools & Libraries"]
+tags: [Datasets, Tools & Libraries, Hashing Methods, Locality Sensitive Hashing, Recommender
+    Systems]
 short_authors: A. Shrivastava, Li
 ---
 We present the first provably sublinear time hashing algorithm for approximate

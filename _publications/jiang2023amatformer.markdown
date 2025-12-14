@@ -7,7 +7,7 @@ year: 2023
 bibkey: jiang2023amatformer
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.19205'}]
-tags: ["Efficiency", "Evaluation", "Scalability"]
+tags: [Scalability, Evaluation, Efficiency]
 short_authors: Jiang et al.
 ---
 Learning based feature matching methods have been commonly studied in recent

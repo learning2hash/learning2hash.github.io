@@ -8,7 +8,7 @@ year: 2019
 bibkey: thapar2019fkimnet
 citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.01289'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: [Evaluation, Distance Metric Learning, Datasets]
 short_authors: Daksh Thapar, Gaurav Jaswal, Aditya Nigam
 ---
 Current finger knuckle image recognition systems, often require users to

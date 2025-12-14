@@ -7,7 +7,7 @@ year: 2020
 bibkey: dirksen2020binarized
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.08320'}]
-tags: ["Datasets", "Distance Metric Learning"]
+tags: [Distance Metric Learning, Datasets]
 short_authors: Sjoerd Dirksen, Alexander Stollenwerk
 ---
 We consider the problem of encoding a set of vectors into a minimal number of

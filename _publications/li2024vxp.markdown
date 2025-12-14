@@ -8,7 +8,8 @@ bibkey: li2024vxp
 citations: 4
 additional_links: [{name: Other, url: 'https://yunjinli.github.io/projects-vxp/'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.14594'}]
-tags: ["Evaluation", "Multimodal Retrieval", "Self-Supervised", "Supervised", "Tools & Libraries"]
+tags: [Evaluation, Supervised, Self-Supervised, Multimodal Retrieval, Scalability,
+  Tools & Libraries]
 short_authors: Li et al.
 ---
 Cross-modal place recognition methods are flexible GPS-alternatives under

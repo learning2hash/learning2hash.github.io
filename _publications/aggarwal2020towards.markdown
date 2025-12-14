@@ -8,7 +8,7 @@ bibkey: aggarwal2020towards
 citations: 16
 additional_links: [{name: Code, url: 'https://github.com/adobe-research/Cross-lingual-Test-Dataset-XTD10'},
   {name: Paper, url: 'https://arxiv.org/abs/2012.05107'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Datasets]
 short_authors: Pranav Aggarwal, Ajinkya Kale
 ---
 There has been a recent spike in interest in multi-modal Language and Vision

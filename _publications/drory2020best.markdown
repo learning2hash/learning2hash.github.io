@@ -7,7 +7,7 @@ year: 2020
 bibkey: drory2020best
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.01912'}]
-tags: ["Datasets"]
+tags: [Datasets]
 short_authors: Drory et al.
 ---
 We propose new, and robust, loss functions for the point cloud registration

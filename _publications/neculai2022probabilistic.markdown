@@ -9,7 +9,7 @@ bibkey: neculai2022probabilistic
 citations: 27
 additional_links: [{name: Code, url: 'https://github.com/andreineculai/MPC'}, {name: Paper,
     url: 'https://arxiv.org/abs/2204.05845'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, CVPR, Image Retrieval, Datasets]
 short_authors: Andrei Neculai, Yanbei Chen, Zeynep Akata
 ---
 Existing works in image retrieval often consider retrieving images with one

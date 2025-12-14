@@ -8,7 +8,7 @@ year: 2021
 bibkey: shrivastava2021breaking
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.15139'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Tools & Libraries]
 short_authors: Anshumali Shrivastava, Zhao Song, Zhaozhuo Xu
 ---
 Conditional gradient methods (CGM) are widely used in modern machine

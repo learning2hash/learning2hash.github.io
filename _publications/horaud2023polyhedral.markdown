@@ -7,7 +7,7 @@ year: 2023
 bibkey: horaud2023polyhedral
 citations: 47
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.12641'}]
-tags: ["CVPR", "Evaluation", "Hashing Methods"]
+tags: [Hashing Methods, Evaluation, CVPR]
 short_authors: Radu Horaud, Humberto Sossa
 ---
 In computer vision, the indexing problem is the problem of recognizing a few

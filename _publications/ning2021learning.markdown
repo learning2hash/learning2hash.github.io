@@ -7,7 +7,7 @@ year: 2021
 bibkey: ning2021learning
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.07931'}]
-tags: ["Evaluation", "Recommender Systems", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Recommender Systems]
 short_authors: Ning et al.
 ---
 Deep retrieval models are widely used for learning entity representations and

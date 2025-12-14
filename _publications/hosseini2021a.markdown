@@ -8,7 +8,7 @@ year: 2021
 bibkey: hosseini2021a
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.01024'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation, Datasets]
 short_authors: Seyedrebvar Hosseini, Burak Turhan
 ---
 Context: Previous studies have shown that training data instance selection

@@ -8,7 +8,7 @@ year: 2018
 bibkey: xu2018cross
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.01504'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Datasets, Image Retrieval]
 short_authors: Xu et al.
 ---
 In this paper we address the problem of learning robust cross-domain

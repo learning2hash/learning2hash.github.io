@@ -8,7 +8,7 @@ bibkey: huang2023dynamic
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/fuxianghuang1/DWC'}, {name: Paper,
     url: 'https://arxiv.org/abs/2312.06179'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Distance Metric Learning, Image Retrieval, Datasets]
 short_authors: Huang et al.
 ---
 Mixed-Modal Image Retrieval (MMIR) as a flexible search paradigm has

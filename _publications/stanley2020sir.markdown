@@ -8,7 +8,7 @@ year: 2020
 bibkey: stanley2020sir
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.13836'}]
-tags: ["Evaluation", "Image Retrieval", "Supervised", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Supervised, Image Retrieval]
 short_authors: Stanley et al.
 ---
 We present a similar image retrieval (SIR) platform that is used to quickly

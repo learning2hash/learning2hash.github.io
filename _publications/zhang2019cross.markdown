@@ -8,7 +8,7 @@ year: 2019
 bibkey: zhang2019cross
 citations: 238
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.02497'}]
-tags: ["Evaluation", "SIGIR"]
+tags: [Evaluation, SIGIR]
 short_authors: Zhang et al.
 ---
 Query-based moment retrieval aims to localize the most relevant moment in an

@@ -7,7 +7,7 @@ year: 2021
 bibkey: pannatier2021efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.10408'}]
-tags: ["Datasets", "Efficiency"]
+tags: [Datasets, Efficiency]
 short_authors: "Arnaud Pannatier, Ricardo Picatoste, Fran\xE7ois Fleuret"
 ---
 This paper proposes a simple yet efficient high-altitude wind nowcasting

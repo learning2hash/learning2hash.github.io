@@ -8,7 +8,7 @@ year: 2022
 bibkey: zhu2022adaptive
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.10073'}]
-tags: ["Efficiency", "Evaluation"]
+tags: [Evaluation, Efficiency]
 short_authors: Zhu et al.
 ---
 Skeleton-based action recognition receives increasing attention because the

@@ -7,7 +7,7 @@ year: 2017
 bibkey: bai2017incorporating
 citations: 60
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.00196'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: [Evaluation, Distance Metric Learning, Datasets]
 short_authors: Bai et al.
 ---
 Fine-grained visual recognition aims to capture discriminative

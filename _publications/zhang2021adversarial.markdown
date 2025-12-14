@@ -8,7 +8,7 @@ bibkey: zhang2021adversarial
 citations: 37
 additional_links: [{name: Code, url: 'https://github.com/microsoft/AR2'}, {name: Paper,
     url: 'https://arxiv.org/abs/2110.03611'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Robustness", "Text Retrieval"]
+tags: [Evaluation, Distance Metric Learning, Datasets, Robustness, Text Retrieval]
 short_authors: Zhang et al.
 ---
 Current dense text retrieval models face two typical challenges. First, they

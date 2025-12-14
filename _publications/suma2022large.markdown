@@ -8,7 +8,7 @@ bibkey: suma2022large
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/pavelsuma/raml'}, {name: Paper,
     url: 'https://arxiv.org/abs/2210.05463'}]
-tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "Image Retrieval"]
+tags: [Distance Metric Learning, Image Retrieval, Evaluation, Efficiency]
 short_authors: Pavel Suma, Giorgos Tolias
 ---
 Deep metric learning for vision is trained by optimizing a representation

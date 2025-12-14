@@ -7,7 +7,7 @@ year: 2022
 bibkey: cohen2022this
 citations: 42
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.01694'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Large Scale Search", "Scalability"]
+tags: [Evaluation, Image Retrieval, Datasets, Scalability, Large-Scale Search]
 short_authors: Cohen et al.
 ---
 Large Vision & Language models pretrained on web-scale data provide

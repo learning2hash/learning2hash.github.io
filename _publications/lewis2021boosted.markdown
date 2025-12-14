@@ -8,7 +8,7 @@ year: 2021
 bibkey: lewis2021boosted
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.07771'}]
-tags: ["Quantization"]
+tags: [Quantization]
 short_authors: Lewis et al.
 ---
 We propose DrBoost, a dense retrieval ensemble inspired by boosting. DrBoost

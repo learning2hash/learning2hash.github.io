@@ -7,7 +7,7 @@ year: 2018
 bibkey: iscen2018hybrid
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.08692'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval]
 short_authors: Iscen et al.
 ---
 State of the art image retrieval performance is achieved with CNN features

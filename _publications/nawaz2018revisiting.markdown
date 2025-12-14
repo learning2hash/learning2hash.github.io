@@ -7,7 +7,7 @@ year: 2018
 bibkey: nawaz2018revisiting
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.07364'}]
-tags: ["Datasets", "Multimodal Retrieval"]
+tags: [Datasets, Multimodal Retrieval]
 short_authors: Nawaz et al.
 ---
 This paper proposes a cross-modal retrieval system that leverages on image

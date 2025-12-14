@@ -8,7 +8,7 @@ bibkey: liang2023learning
 citations: 7
 additional_links: [{name: Code, url: 'https://github.com/xurong-liang/CERP'}, {name: Paper,
     url: 'https://arxiv.org/abs/2309.03518'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Recommender Systems", "Tools & Libraries"]
+tags: [Evaluation, Datasets, Tools & Libraries, Hashing Methods, Recommender Systems]
 short_authors: Liang et al.
 ---
 Latent factor models are the dominant backbones of contemporary recommender

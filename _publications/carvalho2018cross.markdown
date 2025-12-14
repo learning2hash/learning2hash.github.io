@@ -9,7 +9,7 @@ year: 2018
 bibkey: carvalho2018cross
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.11146'}]
-tags: ["Datasets", "Multimodal Retrieval", "Scalability"]
+tags: [Scalability, Datasets, Multimodal Retrieval]
 short_authors: Carvalho et al.
 ---
 Designing powerful tools that support cooking activities has rapidly gained

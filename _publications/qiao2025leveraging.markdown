@@ -7,7 +7,7 @@ year: 2025
 bibkey: qiao2025leveraging
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.18151'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Scalability"]
+tags: [Scalability, Evaluation, Few-shot & Zero-shot]
 short_authors: Qiao et al.
 ---
 Learned Sparse Retrieval (LSR) has traditionally focused on small-scale

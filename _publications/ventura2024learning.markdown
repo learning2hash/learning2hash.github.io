@@ -7,7 +7,8 @@ year: 2024
 bibkey: ventura2024learning
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.17498'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval", "Video Retrieval"]
+tags: [Video Retrieval, Image Retrieval, Few-shot & Zero-shot, Datasets, Multimodal
+    Retrieval, Tools & Libraries]
 short_authors: "Lucas Ventura, Cordelia Schmid, G\xFCl Varol"
 ---
 We describe a protocol to study text-to-video retrieval training with

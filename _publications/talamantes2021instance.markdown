@@ -7,7 +7,7 @@ year: 2021
 bibkey: talamantes2021instance
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.02755'}]
-tags: ["Datasets", "Graph Based ANN"]
+tags: [Graph-based ANN, Datasets]
 short_authors: Ariana Talamantes, Edgar Chavez
 ---
 The primary example of instance-based learning is the \(k\)-nearest neighbor

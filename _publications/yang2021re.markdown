@@ -8,7 +8,7 @@ year: 2021
 bibkey: yang2021re
 citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.09875'}]
-tags: ["Evaluation", "Supervised", "Tools & Libraries"]
+tags: [Evaluation, Supervised, Tools & Libraries]
 short_authors: Yang et al.
 ---
 Fine-grained image recognition is very challenging due to the difficulty of

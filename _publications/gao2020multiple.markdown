@@ -7,7 +7,7 @@ year: 2020
 bibkey: gao2020multiple
 citations: 86
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.11977'}]
-tags: ["Distance Metric Learning", "Evaluation", "Neural Hashing", "Scalability"]
+tags: [ICANN, Neural Hashing, Scalability, Distance Metric Learning, Evaluation]
 short_authors: Z. Gao, K. X Xue, S. H Wan
 ---
 With the rapid development and wide application of computer, camera device,

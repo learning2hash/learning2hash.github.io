@@ -9,7 +9,7 @@ year: 2017
 bibkey: sarvadevabhatla2017sketchparse
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.01295'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
+tags: [Scalability, Evaluation, Image Retrieval, Datasets]
 short_authors: Sarvadevabhatla et al.
 ---
 The ability to semantically interpret hand-drawn line sketches, although very

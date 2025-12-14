@@ -10,7 +10,8 @@ year: 2025
 bibkey: ma2025tevatron
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2505.02466'}]
-tags: ["Audio Retrieval", "Evaluation", "Large Scale Search", "Multimodal Retrieval", "Text Retrieval"]
+tags: [Evaluation, Few-shot & Zero-shot, Multimodal Retrieval, Scalability, Large-Scale
+    Search, Text Retrieval, SIGIR, Audio Retrieval]
 short_authors: Ma et al.
 ---
 Recent advancements in large language models (LLMs) have driven interest in

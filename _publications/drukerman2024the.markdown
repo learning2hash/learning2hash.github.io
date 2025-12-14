@@ -7,7 +7,7 @@ year: 2024
 bibkey: drukerman2024the
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.14584'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Ogen Schlachet Drukerman, Einat Minkov
 ---
 Social networks form a valuable source of world knowledge, where influential

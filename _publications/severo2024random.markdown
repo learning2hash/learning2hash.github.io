@@ -8,7 +8,7 @@ year: 2024
 bibkey: severo2024random
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.00369'}]
-tags: ["Similarity Search"]
+tags: [Similarity Search]
 short_authors: Daniel Severo, Ashish Khisti, Alireza Makhzani
 ---
 We present an optimal method for encoding cluster assignments of arbitrary

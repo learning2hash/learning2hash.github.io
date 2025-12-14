@@ -7,7 +7,7 @@ year: 2019
 bibkey: xie2019unsupervised
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.06648'}]
-tags: ["Supervised", "Tools & Libraries", "Unsupervised"]
+tags: [Supervised, Unsupervised, Tools & Libraries]
 short_authors: Xie et al.
 ---
 User identity linkage (UIL), the problem of matching user account across

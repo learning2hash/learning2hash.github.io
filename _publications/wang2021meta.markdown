@@ -7,7 +7,7 @@ year: 2021
 bibkey: wang2021meta
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.04086'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods"]
+tags: [Hashing Methods, Datasets, Efficiency]
 short_authors: Wang et al.
 ---
 Due to the advantage of reducing storage while speeding up query time on big

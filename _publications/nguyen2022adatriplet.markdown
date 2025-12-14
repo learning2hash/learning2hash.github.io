@@ -9,7 +9,7 @@ bibkey: nguyen2022adatriplet
 citations: 7
 additional_links: [{name: Code, url: 'https://github.com/Oulu-IMEDS/AdaTriplet'},
   {name: Paper, url: 'https://arxiv.org/abs/2205.02849'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Scalability"]
+tags: [Evaluation, Image Retrieval, Distance Metric Learning, Datasets, Scalability]
 short_authors: Khanh Nguyen, Huy Hoang Nguyen, Aleksei Tiulpin
 ---
 This paper tackles the challenge of forensic medical image matching (FMIM)

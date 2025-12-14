@@ -7,7 +7,7 @@ year: 2015
 bibkey: kalantidis2015cross
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1512.04065'}]
-tags: ["Datasets", "Image Retrieval", "Tools & Libraries"]
+tags: [Tools & Libraries, Datasets, Image Retrieval]
 short_authors: Yannis Kalantidis, Clayton Mellina, Simon Osindero
 ---
 We propose a simple and straightforward way of creating powerful image

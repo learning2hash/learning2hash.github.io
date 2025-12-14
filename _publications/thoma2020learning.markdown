@@ -8,7 +8,7 @@ year: 2020
 bibkey: thoma2020learning
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.12165'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Scalability"]
+tags: [Scalability, Distance Metric Learning, Evaluation, Datasets]
 short_authors: Thoma et al.
 ---
 Image features for retrieval-based localization must be invariant to dynamic

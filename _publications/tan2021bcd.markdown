@@ -9,7 +9,8 @@ bibkey: tan2021bcd
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/h4sh5/bcddb'}, {name: Paper,
     url: 'https://arxiv.org/abs/2112.05492'}]
-tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: [Compact Codes, Evaluation, Similarity Search, Tools & Libraries, Hashing Methods,
+  Locality Sensitive Hashing]
 short_authors: Haoxi Tan
 ---
 Given a binary executable without source code, it is difficult to determine

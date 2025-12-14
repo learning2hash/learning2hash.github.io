@@ -8,7 +8,7 @@ year: 2020
 bibkey: ravi2020buy
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.11638'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: Ravi et al.
 ---
 Have you ever looked at an Instagram model, or a model in a fashion

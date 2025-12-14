@@ -8,7 +8,8 @@ year: 2018
 bibkey: georgakis2018end
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.07869'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Distance Metric Learning, Datasets, CVPR, Tools
+    & Libraries]
 short_authors: Georgakis et al.
 ---
 Finding correspondences between images or 3D scans is at the heart of many

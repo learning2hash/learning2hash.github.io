@@ -7,7 +7,7 @@ year: 2025
 bibkey: zhen2025co
 citations: 194
 additional_links: [{name: Paper, url: 'http://papers.nips.cc/paper/4793-co-regularized-hashing-for-multimodal-data.pdf'}]
-tags: ["Hashing Methods", "Scalability", "Similarity Search", "Tools & Libraries"]
+tags: [Hashing Methods, Tools & Libraries, Scalability, Similarity Search]
 short_authors: Y. Zhen, Yeung
 ---
 Hashing-based methods provide a very promising approach to large-scale similarity

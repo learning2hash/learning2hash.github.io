@@ -7,7 +7,8 @@ year: 2025
 bibkey: jiang2025scalable
 citations: 209
 additional_links: [{name: Paper, url: 'http://cs.nju.edu.cn/lwj/paper/IJCAI15_SGH.pdf'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Scalability", "Similarity Search"]
+tags: [Compact Codes, Evaluation, Similarity Search, Efficiency, Datasets, Memory
+    Efficiency, Scalability, Hashing Methods]
 short_authors: Q. Jiang, Li
 ---
 Hashing has been widely used for approximate nearest

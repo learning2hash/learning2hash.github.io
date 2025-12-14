@@ -7,7 +7,7 @@ year: 2017
 bibkey: zeng2017place
 citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.03470'}]
-tags: ["Image Retrieval", "Survey Paper"]
+tags: [Image Retrieval, Survey Paper]
 short_authors: Zeng et al.
 ---
 Place recognition is one of the most fundamental topics in computer vision

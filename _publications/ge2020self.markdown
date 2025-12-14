@@ -7,7 +7,7 @@ year: 2020
 bibkey: ge2020self
 citations: 132
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.03926'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Self-Supervised, Datasets, Scalability]
 short_authors: Ge et al.
 ---
 The task of large-scale retrieval-based image localization is to estimate the

@@ -7,7 +7,7 @@ year: 2025
 bibkey: mai2025boolean
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.01753'}]
-tags: ["Datasets"]
+tags: [Datasets]
 short_authors: Quan Mai, Susan Gauch, Douglas Adams
 ---
 We present Boolean-aware attention, a novel attention mechanism that

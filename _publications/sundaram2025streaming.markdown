@@ -8,7 +8,8 @@ year: 2025
 bibkey: sundaram2025streaming
 citations: 109
 additional_links: [{name: Paper, url: 'http://www.vldb.org/pvldb/vol6/p1930-sundaram.pdf'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search", "Text Retrieval"]
+tags: [Evaluation, Similarity Search, Efficiency, Datasets, Hashing Methods, Text
+    Retrieval, Locality Sensitive Hashing]
 short_authors: Sundaram et al.
 ---
 Finding nearest neighbors has become an important operation on databases, with applications to text search, multimedia indexing,

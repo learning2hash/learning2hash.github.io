@@ -8,7 +8,8 @@ year: 2024
 bibkey: rahman2024optimizing
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.01555'}]
-tags: ["Efficiency", "Image Retrieval", "Memory Efficiency", "Quantization", "Tree Based ANN"]
+tags: [Tree-based ANN, Evaluation, Image Retrieval, Efficiency, Neural Hashing, Vector
+    Indexing, Datasets, Quantization, Memory Efficiency, Tools & Libraries]
 short_authors: Md Shaikh Rahman, Syed Maudud E Rabbi, Muhammad Mahbubur Rashid
 ---
 Approximate Nearest Neighbor search is one of the keys to high-scale data

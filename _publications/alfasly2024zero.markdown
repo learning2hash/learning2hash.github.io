@@ -9,7 +9,7 @@ year: 2024
 bibkey: alfasly2024zero
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.04631'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot]
 short_authors: Alfasly et al.
 ---
 We have tested recently published foundation models for histopathology for

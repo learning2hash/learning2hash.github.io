@@ -8,7 +8,8 @@ year: 2021
 bibkey: tang2021when
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.08789'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Survey Paper"]
+tags: [Evaluation, Survey Paper, Scalability, Hashing Methods, Locality Sensitive
+    Hashing]
 short_authors: Tang et al.
 ---
 The booming vector manage system calls for feasible similarity hash function

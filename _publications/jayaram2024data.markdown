@@ -7,7 +7,7 @@ year: 2024
 bibkey: jayaram2024data
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.05041'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing]
 short_authors: Rajesh Jayaram, Erik Waingarten, Tian Zhang
 ---
 We give new data-dependent locality sensitive hashing schemes (LSH) for the

@@ -7,7 +7,7 @@ year: 2018
 bibkey: qi2018maskreid
 citations: 61
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.03864'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Qi et al.
 ---
 Person retrieval faces many challenges including cluttered background,

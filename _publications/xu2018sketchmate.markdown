@@ -8,7 +8,9 @@ year: 2018
 bibkey: xu2018sketchmate
 citations: 133
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.01401'}]
-tags: ["Compact Codes", "Few Shot & Zero Shot", "Hashing Methods", "Large Scale Search", "Neural Hashing"]
+tags: [Compact Codes, Evaluation, Few-shot & Zero-shot, Neural Hashing, Similarity
+    Search, Datasets, Scalability, CVPR, Tools & Libraries, Large-Scale Search, Hashing
+    Methods]
 short_authors: Xu et al.
 ---
 We propose a deep hashing framework for sketch retrieval that, for the first

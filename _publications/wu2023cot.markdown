@@ -9,7 +9,7 @@ year: 2023
 bibkey: wu2023cot
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.03158'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Scalability"]
+tags: [Scalability, Evaluation, Few-shot & Zero-shot]
 short_authors: Wu et al.
 ---
 Growing techniques have been emerging to improve the performance of passage

@@ -7,7 +7,7 @@ year: 2018
 bibkey: billings2018gradient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.04494'}]
-tags: ["Evaluation", "Hashing Methods", "Neural Hashing"]
+tags: [Hashing Methods, Evaluation, Neural Hashing]
 short_authors: Sean Billings
 ---
 This paper will explore the use of autoencoders for semantic hashing in the

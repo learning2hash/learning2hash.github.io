@@ -8,7 +8,8 @@ bibkey: li2024t2vindexer
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/Lilidamowang/T2VIndexer-generativeSearch'},
   {name: Paper, url: 'https://arxiv.org/abs/2408.11432'}]
-tags: ["Datasets", "Efficiency", "Multimodal Retrieval", "Text Retrieval", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Efficiency, Datasets, Multimodal Retrieval, Text
+    Retrieval]
 short_authors: Li et al.
 ---
 Current text-video retrieval methods mainly rely on cross-modal matching

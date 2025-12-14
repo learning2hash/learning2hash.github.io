@@ -9,7 +9,7 @@ year: 2020
 bibkey: kang2020learning
 citations: 36
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.08530'}]
-tags: ["Datasets", "Evaluation", "Quantization", "Recommender Systems"]
+tags: [Evaluation, Recommender Systems, Quantization, Datasets]
 short_authors: Kang et al.
 ---
 Recommender system models often represent various sparse features like users,

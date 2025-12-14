@@ -7,7 +7,7 @@ year: 2016
 bibkey: wang2016learning
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.01475'}]
-tags: ["Hashing Methods", "Neural Hashing", "Quantization", "Robustness", "Supervised"]
+tags: [Evaluation, Supervised, Neural Hashing, Quantization, Robustness, Hashing Methods]
 short_authors: Wang et al.
 ---
 We investigate the \(\ell_\infty\)-constrained representation which

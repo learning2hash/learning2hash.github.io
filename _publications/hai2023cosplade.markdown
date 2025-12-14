@@ -8,7 +8,7 @@ year: 2023
 bibkey: hai2023cosplade
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.04413'}]
-tags: ["Datasets", "Few Shot & Zero Shot"]
+tags: [Few-shot & Zero-shot, Datasets]
 short_authors: Hai et al.
 ---
 Conversational search is a difficult task as it aims at retrieving documents

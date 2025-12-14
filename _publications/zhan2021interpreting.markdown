@@ -7,7 +7,7 @@ year: 2021
 bibkey: zhan2021interpreting
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.13957'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: Zhan et al.
 ---
 Dense Retrieval (DR) reaches state-of-the-art results in first-stage

@@ -8,7 +8,7 @@ bibkey: milbich2020sharing
 citations: 21
 additional_links: [{name: Other, url: 'https://ieeexplore.ieee.org/document/9141449'},
   {name: Paper, url: 'https://arxiv.org/abs/2004.05582'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Distance Metric Learning, Tools & Libraries, Datasets]
 short_authors: Milbich et al.
 ---
 Learning the similarity between images constitutes the foundation for

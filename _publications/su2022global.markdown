@@ -7,7 +7,7 @@ year: 2022
 bibkey: su2022global
 citations: 51
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.01057'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation]
 short_authors: Su et al.
 ---
 Self-similarity is valuable to the exploration of non-local textures in

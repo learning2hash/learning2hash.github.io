@@ -7,7 +7,7 @@ year: 2020
 bibkey: ribeiro2020sketchformer
 citations: 57
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.10381'}]
-tags: ["CVPR", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, CVPR, Image Retrieval]
 short_authors: Ribeiro et al.
 ---
 Sketchformer is a novel transformer-based representation for encoding

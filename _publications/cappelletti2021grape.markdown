@@ -9,7 +9,7 @@ year: 2021
 bibkey: cappelletti2021grape
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.06196'}]
-tags: ["Evaluation", "Graph Based ANN"]
+tags: [Evaluation, Graph-based ANN]
 short_authors: Cappelletti et al.
 ---
 Graph Representation Learning (GRL) methods opened new avenues for addressing

@@ -7,7 +7,7 @@ year: 2018
 bibkey: "j\xE4\xE4saari2018efficient"
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.07484'}]
-tags: ["Efficiency", "Locality-Sensitive-Hashing", "Tree Based ANN", "Vector Indexing"]
+tags: [Locality Sensitive Hashing, Vector Indexing, Tree-based ANN, Efficiency]
 short_authors: "Elias J\xE4\xE4saari, Ville Hyv\xF6nen, Teemu Roos"
 ---
 Approximate nearest neighbor algorithms are used to speed up nearest neighbor

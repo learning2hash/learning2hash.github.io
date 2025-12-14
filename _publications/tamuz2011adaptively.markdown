@@ -7,7 +7,7 @@ year: 2011
 bibkey: tamuz2011adaptively
 citations: 137
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1105.1033'}]
-tags: ["ICML"]
+tags: [ICML]
 short_authors: Tamuz et al.
 ---
 We introduce an algorithm that, given n objects, learns a similarity matrix

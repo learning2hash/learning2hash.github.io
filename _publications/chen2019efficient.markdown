@@ -7,7 +7,7 @@ year: 2019
 bibkey: chen2019efficient
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.11903'}]
-tags: ["Efficiency", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Image Retrieval, Tools & Libraries, Efficiency]
 short_authors: Chen et al.
 ---
 Detecting spliced images is one of the emerging challenges in computer

@@ -7,7 +7,7 @@ year: 2017
 bibkey: fan2017matchzoo
 citations: 38
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.07270'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Fan et al.
 ---
 In recent years, deep neural models have been widely adopted for text

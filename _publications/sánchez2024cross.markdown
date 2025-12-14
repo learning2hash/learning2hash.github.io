@@ -7,7 +7,7 @@ year: 2024
 bibkey: "s\xE1nchez2024cross"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.16347'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets, Multimodal Retrieval]
 short_authors: "Jorge S\xE1nchez, Rodrigo Laguna"
 ---
 Cross-modal retrieval is the task of retrieving samples of a given modality

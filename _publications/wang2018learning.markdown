@@ -7,7 +7,7 @@ year: 2018
 bibkey: wang2018learning
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.10818'}]
-tags: ["Efficiency"]
+tags: [Efficiency]
 short_authors: Wenbo Wang, Xingye Qiao
 ---
 The goal of confidence-set learning in the binary classification setting is

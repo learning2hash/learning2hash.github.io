@@ -8,7 +8,8 @@ year: 2017
 bibkey: sharma2017when
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.01054'}]
-tags: ["Distance Metric Learning", "Locality-Sensitive-Hashing", "Recommender Systems", "Scalability"]
+tags: [Scalability, Locality Sensitive Hashing, Distance Metric Learning, Recommender
+    Systems]
 short_authors: Aneesh Sharma, C. Seshadhri, Ashish Goel
 ---
 Finding similar user pairs is a fundamental task in social networks, with

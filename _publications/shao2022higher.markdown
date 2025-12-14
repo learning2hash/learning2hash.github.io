@@ -7,7 +7,7 @@ year: 2022
 bibkey: shao2022higher
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.07573'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Tools & Libraries"]
+tags: [Hashing Methods, Evaluation, Tools & Libraries, Datasets]
 short_authors: Shao et al.
 ---
 Two-sample hypothesis testing for network comparison presents many

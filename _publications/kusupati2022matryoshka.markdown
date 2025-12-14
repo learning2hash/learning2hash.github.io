@@ -10,7 +10,7 @@ bibkey: kusupati2022matryoshka
 citations: 22
 additional_links: [{name: Code, url: 'https://github.com/RAIVNLab/MRL'}, {name: Paper,
     url: 'https://arxiv.org/abs/2205.13147'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Large Scale Search", "Scalability"]
+tags: [Scalability, Large-Scale Search, Datasets, Few-shot & Zero-shot]
 short_authors: Kusupati et al.
 ---
 Learned representations are a central component in modern ML systems, serving

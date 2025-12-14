@@ -7,7 +7,8 @@ year: 2023
 bibkey: dai2023fine
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.09972'}]
-tags: ["Datasets", "Distance Metric Learning", "Scalability", "Similarity Search", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Similarity Search, Distance Metric Learning, Datasets,
+  Scalability]
 short_authors: Dai et al.
 ---
 State-of-the-art text-video retrieval (TVR) methods typically utilize CLIP

@@ -8,7 +8,7 @@ year: 2021
 bibkey: ma2021pre
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.09346'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Supervised"]
+tags: [Scalability, Evaluation, Supervised, Datasets]
 short_authors: Ma et al.
 ---
 Designing pre-training objectives that more closely resemble the downstream

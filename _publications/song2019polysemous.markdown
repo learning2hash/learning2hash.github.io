@@ -7,7 +7,7 @@ year: 2019
 bibkey: song2019polysemous
 citations: 243
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.04402'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Multimodal Retrieval", "Text Retrieval"]
+tags: [Evaluation, Datasets, Multimodal Retrieval, CVPR, Tools & Libraries, Text Retrieval]
 short_authors: Yale Song, Mohammad Soleymani
 ---
 Visual-semantic embedding aims to find a shared latent space where related

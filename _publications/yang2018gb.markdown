@@ -7,7 +7,7 @@ year: 2018
 bibkey: yang2018gb
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.00458'}]
-tags: ["Datasets", "Locality-Sensitive-Hashing", "Similarity Search", "Tools & Libraries"]
+tags: [Locality Sensitive Hashing, Tools & Libraries, Datasets, Similarity Search]
 short_authors: Yang et al.
 ---
 In this paper, we study the problem of approximate containment similarity

@@ -7,7 +7,7 @@ year: 2024
 bibkey: huang2024fashionfae
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.19997'}]
-tags: ["Scalability"]
+tags: [Scalability]
 short_authors: Huang et al.
 ---
 Large-scale Vision-Language Pre-training (VLP) has demonstrated remarkable

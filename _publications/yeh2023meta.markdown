@@ -7,7 +7,7 @@ year: 2023
 bibkey: yeh2023meta
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.10169'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Scalability"]
+tags: [Scalability, Evaluation, CVPR, Datasets]
 short_authors: Yeh et al.
 ---
 Large-scale vision-language models (VLM) have shown impressive results for

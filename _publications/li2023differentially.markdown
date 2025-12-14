@@ -8,7 +8,8 @@ year: 2023
 bibkey: li2023differentially
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.07674'}]
-tags: ["Hashing Methods", "Large Scale Search", "Locality-Sensitive-Hashing", "Privacy & Security", "Similarity Search"]
+tags: [Privacy & Security, Evaluation, Similarity Search, Scalability, Tools & Libraries,
+  Large-Scale Search, Hashing Methods, Locality Sensitive Hashing]
 short_authors: Xiaoyun Li, Ping Li
 ---
 Minwise hashing (MinHash) is a standard algorithm widely used in the

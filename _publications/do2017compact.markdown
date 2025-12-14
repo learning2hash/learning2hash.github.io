@@ -7,7 +7,8 @@ year: 2017
 bibkey: do2017compact
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.02956'}]
-tags: ["Compact Codes", "Image Retrieval", "Neural Hashing", "Supervised", "Unsupervised"]
+tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Neural Hashing, Datasets,
+  Unsupervised, Hashing Methods]
 short_authors: Do et al.
 ---
 Learning compact binary codes for image retrieval problem using deep neural

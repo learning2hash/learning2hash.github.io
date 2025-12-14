@@ -7,7 +7,7 @@ year: 2019
 bibkey: chang2019distribution
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.07273'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: [Distance Metric Learning, Evaluation]
 short_authors: Chang et al.
 ---
 To learn the optimal similarity function between probe and gallery images in

@@ -8,7 +8,7 @@ year: 2018
 bibkey: magliani2018an
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.08565'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Federico Magliani, Andrea Prati
 ---
 The landmark recognition problem is far from being solved, but with the use

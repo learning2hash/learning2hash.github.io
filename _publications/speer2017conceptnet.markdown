@@ -9,7 +9,7 @@ year: 2017
 bibkey: speer2017conceptnet
 citations: 51
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.03560'}]
-tags: ["Evaluation"]
+tags: [Uncategorized, Evaluation]
 short_authors: Robyn Speer, Joanna Lowry-Duda
 ---
 This paper describes Luminoso's participation in SemEval 2017 Task 2,

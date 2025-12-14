@@ -7,7 +7,7 @@ year: 2019
 bibkey: imbriaco2019aggregated
 citations: 69
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.09469'}]
-tags: ["Efficiency", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Efficiency]
 short_authors: Imbriaco et al.
 ---
 Remote Sensing Image Retrieval remains a challenging topic due to the special

@@ -8,7 +8,8 @@ year: 2021
 bibkey: podberezko2021quality
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.09927'}]
-tags: ["Datasets", "Evaluation", "Memory Efficiency", "Neural Hashing", "Re-Ranking"]
+tags: [Evaluation, Re-ranking, Neural Hashing, Efficiency, Datasets, Memory Efficiency,
+  Hybrid ANN Methods]
 short_authors: Podberezko et al.
 ---
 Deep learning models named transformers achieved state-of-the-art results in

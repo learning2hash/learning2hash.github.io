@@ -7,7 +7,7 @@ year: 2019
 bibkey: li2019unicoder
 citations: 117
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.06066'}]
-tags: ["Scalability", "Text Retrieval"]
+tags: [Text Retrieval, Scalability]
 short_authors: Li et al.
 ---
 We propose Unicoder-VL, a universal encoder that aims to learn joint

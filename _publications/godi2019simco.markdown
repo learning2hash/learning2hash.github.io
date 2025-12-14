@@ -7,7 +7,7 @@ year: 2019
 bibkey: godi2019simco
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.07092'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Distance Metric Learning, Datasets, Unsupervised]
 short_authors: Godi et al.
 ---
 We present SIMCO, the first agnostic multi-class object counting approach.

@@ -7,7 +7,8 @@ year: 2016
 bibkey: cao2016correlation
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.06697'}]
-tags: ["Compact Codes", "Efficiency", "Hashing Methods", "Multimodal Retrieval", "Quantization"]
+tags: [Compact Codes, Evaluation, Efficiency, Quantization, Multimodal Retrieval,
+  Scalability, Hashing Methods]
 short_authors: Cao et al.
 ---
 Hashing is widely applied to approximate nearest neighbor search for

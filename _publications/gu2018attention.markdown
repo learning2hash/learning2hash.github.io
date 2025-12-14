@@ -7,7 +7,7 @@ year: 2018
 bibkey: gu2018attention
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.00202'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval]
 short_authors: Yinzheng Gu, Chuanpeng Li, Jinbin Xie
 ---
 It has been shown that image descriptors extracted by convolutional neural

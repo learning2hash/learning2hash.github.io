@@ -7,7 +7,7 @@ year: 2022
 bibkey: he2022vlmae
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.09374'}]
-tags: ["Efficiency", "Evaluation", "Scalability", "Text Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Efficiency, Scalability, Tools & Libraries, Text Retrieval]
 short_authors: He et al.
 ---
 Image and language modeling is of crucial importance for vision-language

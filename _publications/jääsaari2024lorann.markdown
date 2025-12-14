@@ -7,7 +7,8 @@ year: 2024
 bibkey: "j\xE4\xE4saari2024lorann"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.18926'}]
-tags: ["Graph Based ANN", "Quantization", "Scalability", "Similarity Search", "Supervised"]
+tags: [Supervised, Similarity Search, Graph-based ANN, Memory Efficiency, Quantization,
+  Scalability, Tools & Libraries, NeurIPS]
 short_authors: "Elias J\xE4\xE4saari, Ville Hyv\xF6nen, Teemu Roos"
 ---
 Approximate nearest neighbor (ANN) search is a key component in many modern

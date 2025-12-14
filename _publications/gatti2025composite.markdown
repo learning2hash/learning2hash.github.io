@@ -9,7 +9,7 @@ year: 2025
 bibkey: gatti2025composite
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.08438'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Image Retrieval", "Self-Supervised"]
+tags: [Evaluation, Image Retrieval, Self-Supervised, Datasets, AAAI]
 short_authors: Gatti et al.
 ---
 Non-native speakers with limited vocabulary often struggle to name specific

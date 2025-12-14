@@ -9,7 +9,7 @@ year: 2019
 bibkey: hu2019retrieval
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.10184'}]
-tags: ["Datasets", "Evaluation", "IROS", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, Self-Supervised, Datasets, IROS]
 short_authors: Hu et al.
 ---
 Visual localization is a crucial problem in mobile robotics and autonomous

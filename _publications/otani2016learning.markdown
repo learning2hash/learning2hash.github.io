@@ -7,7 +7,7 @@ year: 2016
 bibkey: otani2016learning
 citations: 84
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.02367'}]
-tags: ["Evaluation", "Image Retrieval", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Image Retrieval]
 short_authors: Otani et al.
 ---
 Our objective is video retrieval based on natural language queries. In

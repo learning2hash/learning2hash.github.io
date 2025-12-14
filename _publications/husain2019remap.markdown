@@ -8,7 +8,8 @@ year: 2019
 bibkey: husain2019remap
 citations: 49
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.06626'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Robustness", "Scalability"]
+tags: [Evaluation, Image Retrieval, Distance Metric Learning, Datasets, Robustness,
+  Scalability, Tools & Libraries]
 short_authors: Syed Sameed Husain, Miroslaw Bober
 ---
 This paper addresses the problem of very large-scale image retrieval,

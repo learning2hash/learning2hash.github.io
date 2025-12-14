@@ -9,7 +9,7 @@ year: 2020
 bibkey: zhang2020model
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.14523'}]
-tags: ["Evaluation", "Hashing Methods", "Recommender Systems"]
+tags: [Hashing Methods, Evaluation, Recommender Systems, RecSys]
 short_authors: Zhang et al.
 ---
 Deep Neural Networks (DNNs) with sparse input features have been widely used

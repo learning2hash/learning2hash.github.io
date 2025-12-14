@@ -9,7 +9,7 @@ bibkey: reddy2022context
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/satoru2001/CUKDFIR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2207.09070'}]
-tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Quantization", "Tools & Libraries"]
+tags: [Image Retrieval, Efficiency, Quantization, Tools & Libraries, Hashing Methods]
 short_authors: Reddy et al.
 ---
 Existing data-dependent hashing methods use large backbone networks with

@@ -8,7 +8,7 @@ bibkey: geigle2023babel
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/gregor-ge/Babel-ImageNet'},
   {name: Paper, url: 'https://arxiv.org/abs/2306.08658'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Few-shot & Zero-shot]
 short_authors: "Gregor Geigle, Radu Timofte, Goran Glava\u0161"
 ---
 Vision-and-language (VL) models with separate encoders for each modality

@@ -7,7 +7,8 @@ year: 2018
 bibkey: douze2018link
 citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.09996'}]
-tags: ["CVPR", "Evaluation", "Large Scale Search", "Quantization", "Similarity Search"]
+tags: [Evaluation, Similarity Search, Quantization, Scalability, CVPR, Large-Scale
+    Search]
 short_authors: "Matthijs Douze, Alexandre Sablayrolles, Herv\xE9 J\xE9gou"
 ---
 Similarity search approaches based on graph walks have recently attained

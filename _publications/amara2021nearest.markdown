@@ -7,7 +7,8 @@ year: 2021
 bibkey: amara2021nearest
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.09568'}]
-tags: ["Compact Codes", "Datasets", "Hashing Methods", "Large Scale Search", "Quantization"]
+tags: [Compact Codes, Evaluation, Efficiency, Datasets, Quantization, Scalability,
+  Large-Scale Search, Hashing Methods]
 short_authors: Amara et al.
 ---
 Modern approaches for fast retrieval of similar vectors on billion-scaled

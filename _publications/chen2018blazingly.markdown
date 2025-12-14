@@ -7,7 +7,7 @@ year: 2018
 bibkey: chen2018blazingly
 citations: 269
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.03131'}]
-tags: ["CVPR", "Distance Metric Learning", "Supervised"]
+tags: [Distance Metric Learning, Supervised, CVPR]
 short_authors: Chen et al.
 ---
 This paper tackles the problem of video object segmentation, given some user

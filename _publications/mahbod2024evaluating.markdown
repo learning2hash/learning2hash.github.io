@@ -9,7 +9,7 @@ bibkey: mahbod2024evaluating
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/masih4/MedImageRetrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2409.09430'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Self-Supervised, Datasets]
 short_authors: Mahbod et al.
 ---
 Medical image retrieval refers to the task of finding similar images for

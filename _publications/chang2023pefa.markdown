@@ -10,7 +10,7 @@ bibkey: chang2023pefa
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/amzn/pecos/tree/mainline/examples/pefa-wsdm24'},
   {name: Paper, url: 'https://arxiv.org/abs/2312.02429'}]
-tags: ["Evaluation", "Scalability", "Text Retrieval", "Tools & Libraries", "Vector Indexing"]
+tags: [Evaluation, Vector Indexing, Scalability, Tools & Libraries, Text Retrieval]
 short_authors: Chang et al.
 ---
 Embedding-based Retrieval Models (ERMs) have emerged as a promising framework

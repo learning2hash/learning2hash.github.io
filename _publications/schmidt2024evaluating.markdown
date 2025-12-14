@@ -7,7 +7,8 @@ year: 2024
 bibkey: schmidt2024evaluating
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.13531'}]
-tags: ["Efficiency", "Evaluation", "Recommender Systems", "Scalability", "Tools & Libraries"]
+tags: [Evaluation, Efficiency, Datasets, Scalability, Tools & Libraries, Recommender
+    Systems]
 short_authors: Michael Schmidt, Jannik Nitschke, Tim Prinz
 ---
 This study examines the performance of item-based k-Nearest Neighbors

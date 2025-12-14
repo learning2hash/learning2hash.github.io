@@ -7,7 +7,7 @@ year: 2020
 bibkey: lee2020metric
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.03729'}]
-tags: ["Distance Metric Learning", "Evaluation", "Similarity Search", "Tools & Libraries"]
+tags: [Distance Metric Learning, Tools & Libraries, Evaluation, Similarity Search]
 short_authors: Lee et al.
 ---
 Deep representation learning offers a powerful paradigm for mapping input

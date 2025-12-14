@@ -9,7 +9,7 @@ year: 2024
 bibkey: zhang2024mutual
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.12758'}]
-tags: ["Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Self-Supervised, Supervised, Unsupervised, Evaluation]
 short_authors: Zhang et al.
 ---
 Unsupervised visible infrared person re-identification (USVI-ReID) is a

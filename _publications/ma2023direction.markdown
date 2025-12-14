@@ -8,7 +8,7 @@ year: 2023
 bibkey: ma2023direction
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.08276'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets]
 short_authors: Qing Ma, Jiancheng Pan, Cong Bai
 ---
 Image-text retrieval has developed rapidly in recent years. However, it is

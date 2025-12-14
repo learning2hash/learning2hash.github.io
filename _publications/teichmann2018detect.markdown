@@ -8,7 +8,7 @@ bibkey: teichmann2018detect
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/tensorflow/models/tree/master/research/delf'},
   {name: Paper, url: 'https://arxiv.org/abs/1812.01584'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Teichmann et al.
 ---
 Retrieving object instances among cluttered scenes efficiently requires

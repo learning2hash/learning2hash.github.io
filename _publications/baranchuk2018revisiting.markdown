@@ -7,7 +7,8 @@ year: 2018
 bibkey: baranchuk2018revisiting
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02422'}]
-tags: ["Datasets", "Evaluation", "Large Scale Search", "Tools & Libraries", "Vector Indexing"]
+tags: [Evaluation, Vector Indexing, Datasets, Scalability, Tools & Libraries, Large-Scale
+    Search]
 short_authors: Dmitry Baranchuk, Artem Babenko, Yury Malkov
 ---
 This work addresses the problem of billion-scale nearest neighbor search. The

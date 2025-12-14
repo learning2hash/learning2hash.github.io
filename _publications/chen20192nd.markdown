@@ -8,7 +8,7 @@ year: 2019
 bibkey: chen20192nd
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.03990'}]
-tags: ["Hybrid ANN Methods", "Re-Ranking", "Tools & Libraries"]
+tags: [Tools & Libraries, Re-ranking, Hybrid ANN Methods]
 short_authors: Chen et al.
 ---
 We present a retrieval based system for landmark retrieval and recognition

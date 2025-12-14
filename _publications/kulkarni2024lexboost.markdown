@@ -7,7 +7,8 @@ year: 2024
 bibkey: kulkarni2024lexboost
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.05882'}]
-tags: ["Efficiency", "Graph Based ANN", "Hybrid ANN Methods", "Re-Ranking", "Text Retrieval"]
+tags: [Re-ranking, Efficiency, Graph-based ANN, Datasets, Text Retrieval, Hybrid ANN
+    Methods]
 short_authors: Kulkarni et al.
 ---
 Sparse retrieval methods like BM25 are based on lexical overlap, focusing on

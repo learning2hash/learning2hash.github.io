@@ -7,7 +7,7 @@ year: 2018
 bibkey: azarafrooz2018fuzzy
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.07071'}]
-tags: ["Datasets", "Hashing Methods", "Robustness", "Tools & Libraries"]
+tags: [Hashing Methods, Tools & Libraries, Datasets, Robustness]
 short_authors: Ari Azarafrooz, John Brock
 ---
 Measuring the similarity of two files is an important task in malware

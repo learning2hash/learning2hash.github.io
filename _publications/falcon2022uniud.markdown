@@ -8,7 +8,7 @@ year: 2022
 bibkey: falcon2022uniud
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.10903'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: [Distance Metric Learning, Evaluation]
 short_authors: Falcon et al.
 ---
 This report presents the technical details of our submission to the

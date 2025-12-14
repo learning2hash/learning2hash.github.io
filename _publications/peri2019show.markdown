@@ -7,7 +7,7 @@ year: 2019
 bibkey: peri2019show
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.06275'}]
-tags: ["Multimodal Retrieval"]
+tags: [Multimodal Retrieval]
 short_authors: Dheeraj Peri, Shagan Sah, Raymond Ptucha
 ---
 Humans have an incredible ability to process and understand information from

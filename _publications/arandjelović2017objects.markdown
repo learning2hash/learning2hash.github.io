@@ -7,7 +7,7 @@ year: 2017
 bibkey: "arandjelovi\u01072017objects"
 citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.06651'}]
-tags: ["Multimodal Retrieval"]
+tags: [Multimodal Retrieval]
 short_authors: "Relja Arandjelovi\u0107, Andrew Zisserman"
 ---
 In this paper our objectives are, first, networks that can embed audio and

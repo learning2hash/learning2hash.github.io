@@ -8,7 +8,7 @@ year: 2024
 bibkey: abdou2024mucai
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.03652'}]
-tags: ["Datasets", "Similarity Search"]
+tags: [Datasets, Similarity Search]
 short_authors: Ahmed Abdou, Tasneem Mohsen
 ---
 Named Entity Recognition (NER) is a task in Natural Language Processing (NLP)

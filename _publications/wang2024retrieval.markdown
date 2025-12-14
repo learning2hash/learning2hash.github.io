@@ -7,7 +7,7 @@ year: 2024
 bibkey: wang2024retrieval
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.13916'}]
-tags: ["Datasets", "Evaluation", "Similarity Search", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Datasets, Similarity Search]
 short_authors: Wang et al.
 ---
 When embedding objects (foreground) into images (background), considering the

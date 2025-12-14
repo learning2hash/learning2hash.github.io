@@ -8,7 +8,7 @@ year: 2023
 bibkey: lawrie2023overview
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.12367'}]
-tags: ["Evaluation", "Survey Paper"]
+tags: [Evaluation, Survey Paper]
 short_authors: Lawrie et al.
 ---
 This is the first year of the TREC Neural CLIR (NeuCLIR) track, which aims to

@@ -8,7 +8,7 @@ year: 2017
 bibkey: wang2017zero
 citations: 51
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.05820'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: [Evaluation, Supervised, Few-shot & Zero-shot, Tools & Libraries, Unsupervised]
 short_authors: Wang et al.
 ---
 We present a deep generative model for learning to predict classes not seen

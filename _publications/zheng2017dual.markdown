@@ -8,7 +8,7 @@ year: 2017
 bibkey: zheng2017dual
 citations: 469
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.05535'}]
-tags: ["Datasets", "Supervised", "Unsupervised"]
+tags: [Supervised, Unsupervised, Datasets]
 short_authors: Zheng et al.
 ---
 Matching images and sentences demands a fine understanding of both

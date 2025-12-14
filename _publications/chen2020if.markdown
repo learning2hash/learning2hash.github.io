@@ -7,7 +7,7 @@ year: 2020
 bibkey: chen2020if
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.03897'}]
-tags: ["Datasets", "Evaluation", "ICRA", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, ICRA, Datasets]
 short_authors: Chen et al.
 ---
 Feature descriptor matching is a critical step is many computer vision

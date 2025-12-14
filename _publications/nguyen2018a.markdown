@@ -7,7 +7,7 @@ year: 2018
 bibkey: nguyen2018a
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.08316'}]
-tags: ["Datasets", "Scalability", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: [Supervised, Datasets, Scalability, Tools & Libraries, Unsupervised]
 short_authors: Tu Nguyen, Tuan Tran, Wolfgang Nejdl
 ---
 Measuring entity relatedness is a fundamental task for many natural language

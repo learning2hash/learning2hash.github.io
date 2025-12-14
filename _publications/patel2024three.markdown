@@ -7,7 +7,8 @@ year: 2024
 bibkey: patel2024three
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.12432'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Distance Metric Learning, Datasets,
+  Scalability]
 short_authors: Yash Patel, Giorgos Tolias, Jiri Matas
 ---
 This paper addresses supervised deep metric learning for open-set image

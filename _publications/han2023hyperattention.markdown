@@ -8,7 +8,7 @@ year: 2023
 bibkey: han2023hyperattention
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.05869'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Evaluation, Efficiency, Datasets, Hashing Methods, Locality Sensitive Hashing]
 short_authors: Han et al.
 ---
 We present an approximate attention mechanism named HyperAttention to address

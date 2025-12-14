@@ -7,7 +7,7 @@ year: 2019
 bibkey: ye2019unsupervised
 citations: 588
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.03436'}]
-tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Distance Metric Learning, CVPR, Unsupervised]
 short_authors: Ye et al.
 ---
 This paper studies the unsupervised embedding learning problem, which

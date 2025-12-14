@@ -10,7 +10,7 @@ year: 2022
 bibkey: li2022mplug
 citations: 141
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.12005'}]
-tags: ["EMNLP", "Efficiency", "Few Shot & Zero Shot", "Scalability", "Text Retrieval"]
+tags: [Few-shot & Zero-shot, Efficiency, Scalability, Text Retrieval, EMNLP]
 short_authors: Li et al.
 ---
 Large-scale pretrained foundation models have been an emerging paradigm for

@@ -7,7 +7,7 @@ year: 2025
 bibkey: zhu2025linear
 citations: 286
 additional_links: [{name: Paper, url: 'https://dl.acm.org/citation.cfm?id=2502107'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Scalability"]
+tags: [Compact Codes, Evaluation, Datasets, Scalability, Hashing Methods]
 short_authors: Zhu et al.
 ---
 Most existing cross-modal hashing methods suffer from the scalability issue in the training phase. In this paper, we propose a novel 

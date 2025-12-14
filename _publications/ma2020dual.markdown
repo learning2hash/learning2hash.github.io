@@ -8,7 +8,7 @@ year: 2020
 bibkey: ma2020dual
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.09343'}]
-tags: ["Datasets", "Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Datasets]
 short_authors: Ma et al.
 ---
 Text-based person re-identification(Re-id) is an important task in video

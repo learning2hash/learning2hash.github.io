@@ -8,7 +8,7 @@ year: 2018
 bibkey: izadinia2018viser
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02568'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Supervised"]
+tags: [Evaluation, Supervised, Distance Metric Learning, Datasets, CVPR]
 short_authors: Hamid Izadinia, Pierre Garrigues
 ---
 In this work, we propose the use of large set of unlabeled images as a source

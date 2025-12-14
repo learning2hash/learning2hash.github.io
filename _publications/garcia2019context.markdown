@@ -7,7 +7,7 @@ year: 2019
 bibkey: garcia2019context
 citations: 53
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.04985'}]
-tags: ["Evaluation", "Multimodal Retrieval"]
+tags: [Evaluation, Multimodal Retrieval]
 short_authors: Noa Garcia, Benjamin Renoust, Yuta Nakashima
 ---
 Automatic art analysis aims to classify and retrieve artistic representations

@@ -9,7 +9,8 @@ year: 2021
 bibkey: bhunia2021more
 citations: 64
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.13990'}]
-tags: ["CVPR", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Multimodal Retrieval, Scalability,
+  CVPR, Tools & Libraries]
 short_authors: Bhunia et al.
 ---
 A fundamental challenge faced by existing Fine-Grained Sketch-Based Image

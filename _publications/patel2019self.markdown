@@ -8,7 +8,8 @@ year: 2019
 bibkey: patel2019self
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.00378'}]
-tags: ["Datasets", "Multimodal Retrieval", "Self-Supervised", "Supervised", "Tools & Libraries"]
+tags: [Supervised, Self-Supervised, Datasets, Multimodal Retrieval, Scalability, Tools
+    & Libraries]
 short_authors: Patel et al.
 ---
 Cross-modal retrieval methods have been significantly improved in last years

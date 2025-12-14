@@ -9,7 +9,8 @@ bibkey: zhang2023contrasting
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/lezhang7/Enhance-FineGrained'},
   {name: Paper, url: 'https://arxiv.org/abs/2306.08832'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Few-shot & Zero-shot, Self-Supervised, Datasets, Tools & Libraries,
+  Text Retrieval]
 short_authors: Le Zhang, Rabiul Awal, Aishwarya Agrawal
 ---
 Vision-Language Models (VLMs), such as CLIP, exhibit strong image-text

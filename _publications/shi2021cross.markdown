@@ -7,7 +7,7 @@ year: 2021
 bibkey: shi2021cross
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.01628'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Supervised", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Supervised, Few-shot & Zero-shot]
 short_authors: Shi et al.
 ---
 Dense retrieval has shown great success in passage ranking in English.

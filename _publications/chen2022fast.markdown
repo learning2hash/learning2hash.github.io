@@ -7,7 +7,7 @@ year: 2022
 bibkey: chen2022fast
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.07679'}]
-tags: ["Efficiency", "Evaluation", "Tree Based ANN"]
+tags: [Tree-based ANN, Evaluation, Efficiency]
 short_authors: "Xinye Chen, Stefan G\xFCttel"
 ---
 Fixed-radius near neighbor search is a fundamental data operation that

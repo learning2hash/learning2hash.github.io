@@ -7,7 +7,7 @@ year: 2024
 bibkey: shore2024spagbol
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.15514'}]
-tags: ["Datasets", "Graph Based ANN"]
+tags: [Graph-based ANN, Datasets]
 short_authors: Tavis Shore, Oscar Mendez, Simon Hadfield
 ---
 Cross-View Geo-Localisation within urban regions is challenging in part due

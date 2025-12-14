@@ -8,7 +8,7 @@ year: 2022
 bibkey: martins2022chunk
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.12230'}]
-tags: ["EMNLP"]
+tags: [EMNLP]
 short_authors: "Pedro Henrique Martins, Zita Marinho, Andr\xE9 F. T. Martins"
 ---
 Semi-parametric models, which augment generation with retrieval, have led to

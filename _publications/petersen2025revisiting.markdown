@@ -8,7 +8,7 @@ year: 2025
 bibkey: petersen2025revisiting
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.14051'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot]
 short_authors: Petersen et al.
 ---
 Multi-modal models require aligned, shared embedding spaces. However, common

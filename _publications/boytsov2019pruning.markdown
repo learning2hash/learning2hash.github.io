@@ -7,7 +7,7 @@ year: 2019
 bibkey: boytsov2019pruning
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.03539'}]
-tags: ["Tree Based ANN"]
+tags: [Tree-based ANN]
 short_authors: Leonid Boytsov, Eric Nyberg
 ---
 We focus on low-dimensional non-metric search, where tree-based approaches

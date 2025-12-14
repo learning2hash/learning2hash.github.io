@@ -7,7 +7,7 @@ year: 2021
 bibkey: webb2021tight
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.07076'}]
-tags: ["CVPR", "Efficiency"]
+tags: [CVPR, Efficiency]
 short_authors: Geoffrey I. Webb, Francois Petitjean
 ---
 Dynamic Time Warping (DTW) is a popular similarity measure for aligning and

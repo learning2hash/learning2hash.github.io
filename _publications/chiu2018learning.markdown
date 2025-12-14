@@ -7,7 +7,8 @@ year: 2018
 bibkey: chiu2018learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.02962'}]
-tags: ["Datasets", "Evaluation", "Large Scale Search", "Quantization", "Re-Ranking"]
+tags: [Evaluation, Re-ranking, Datasets, Quantization, Scalability, Large-Scale Search,
+  Hybrid ANN Methods]
 short_authors: Chih-Yi Chiu, Amorntip Prayoonwong, Yin-Chih Liao
 ---
 In this study, we present a novel ranking model based on learning

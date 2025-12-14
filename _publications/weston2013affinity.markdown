@@ -7,7 +7,7 @@ year: 2013
 bibkey: weston2013affinity
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1301.4171'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Datasets, Unsupervised, Recommender Systems]
 short_authors: Jason Weston, Ron Weiss, Hector Yee
 ---
 Supervised (linear) embedding models like Wsabie and PSI have proven

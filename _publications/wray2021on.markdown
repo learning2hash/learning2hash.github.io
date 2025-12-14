@@ -7,7 +7,7 @@ year: 2021
 bibkey: wray2021on
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.10095'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Scalability", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Datasets, Scalability, CVPR]
 short_authors: Michael Wray, Hazel Doughty, Dima Damen
 ---
 Current video retrieval efforts all found their evaluation on an

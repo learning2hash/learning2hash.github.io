@@ -7,7 +7,7 @@ year: 2023
 bibkey: visheratin2023nllb
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.01859'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Alexander Visheratin
 ---
 Today, the exponential rise of large models developed by academic and

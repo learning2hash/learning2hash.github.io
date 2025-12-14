@@ -9,7 +9,7 @@ year: 2021
 bibkey: xiao2021neural
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.01549'}]
-tags: ["CIKM", "Datasets", "Similarity Search", "Tools & Libraries"]
+tags: [Datasets, Tools & Libraries, CIKM, Similarity Search]
 short_authors: Xiao et al.
 ---
 PathSim is a widely used meta-path-based similarity in heterogeneous

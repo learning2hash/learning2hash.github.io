@@ -8,7 +8,8 @@ year: 2016
 bibkey: riazi2016sub
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.01835'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Efficiency, Distance Metric Learning, Datasets, Hashing Methods, Locality Sensitive
+    Hashing]
 short_authors: Riazi et al.
 ---
 In Near-Neighbor Search (NNS), a new client queries a database (held by a

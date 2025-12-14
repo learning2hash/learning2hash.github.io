@@ -8,7 +8,7 @@ year: 2023
 bibkey: "labb\xE92023killing"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.15090'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets]
 short_authors: "Etienne Labb\xE9, Thomas Pellegrini, Julien Pinquier"
 ---
 Automated Audio Captioning (AAC) aims to develop systems capable of

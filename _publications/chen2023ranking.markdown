@@ -7,7 +7,7 @@ year: 2023
 bibkey: chen2023ranking
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.08131'}]
-tags: ["Datasets", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking", "Text Retrieval"]
+tags: [Image Retrieval, Re-ranking, Datasets, Text Retrieval, Hybrid ANN Methods]
 short_authors: Junyang Chen, Hanjiang Lai
 ---
 Text-guided image retrieval is to incorporate conditional text to better

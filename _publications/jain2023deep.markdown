@@ -8,7 +8,7 @@ year: 2023
 bibkey: jain2023deep
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.11924'}]
-tags: ["Evaluation", "Hashing Methods"]
+tags: [Hashing Methods, Evaluation]
 short_authors: Jain et al.
 ---
 End-to-end encryption (E2EE) provides strong technical protections to

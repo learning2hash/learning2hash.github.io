@@ -9,7 +9,7 @@ bibkey: wang2024symmetric
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/xqwang14/SMS-Loss/tree/main'},
   {name: Paper, url: 'https://arxiv.org/abs/2406.12256'}]
-tags: ["Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation]
 short_authors: Xiaoqi Wang, Yi Wang, Lap-Pui Chau
 ---
 In this report, we present our champion solution for EPIC-KITCHENS-100

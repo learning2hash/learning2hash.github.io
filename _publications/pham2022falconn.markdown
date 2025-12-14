@@ -8,7 +8,8 @@ year: 2022
 bibkey: pham2022falconn
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.01382'}]
-tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Evaluation, Efficiency, Graph-based ANN, Hashing Methods, Locality Sensitive
+    Hashing]
 short_authors: Ninh Pham, Tao Liu
 ---
 We present Falconn++, a novel locality-sensitive filtering approach for

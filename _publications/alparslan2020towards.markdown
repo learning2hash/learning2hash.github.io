@@ -8,7 +8,7 @@ year: 2020
 bibkey: alparslan2020towards
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.00140'}]
-tags: ["Evaluation", "Hashing Methods", "Robustness"]
+tags: [Hashing Methods, Evaluation, Robustness]
 short_authors: Alparslan et al.
 ---
 With the growth in social media, there is a huge amount of images of faces

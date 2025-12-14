@@ -8,7 +8,7 @@ year: 2021
 bibkey: wang2021continual
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.06806'}]
-tags: ["CVPR", "Datasets", "Multimodal Retrieval", "Text Retrieval", "Tools & Libraries"]
+tags: [Datasets, Multimodal Retrieval, CVPR, Tools & Libraries, Text Retrieval]
 short_authors: Kai Wang, Luis Herranz, Joost van de Weijer
 ---
 Multimodal representations and continual learning are two areas closely

@@ -9,7 +9,7 @@ year: 2016
 bibkey: amato2016using
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.05576'}]
-tags: ["Datasets", "Evaluation", "Similarity Search", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets, Similarity Search]
 short_authors: Amato et al.
 ---
 Surrogate Text Representation (STR) is a profitable solution to efficient

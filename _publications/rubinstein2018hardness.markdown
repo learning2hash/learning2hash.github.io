@@ -7,7 +7,7 @@ year: 2018
 bibkey: rubinstein2018hardness
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.00904'}]
-tags: ["Efficiency", "Tools & Libraries"]
+tags: [Tools & Libraries, Efficiency]
 short_authors: Aviad Rubinstein
 ---
 We prove conditional near-quadratic running time lower bounds for approximate

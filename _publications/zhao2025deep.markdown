@@ -7,7 +7,8 @@ year: 2025
 bibkey: zhao2025deep
 citations: 492
 additional_links: [{name: Paper, url: 'http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zhao_Deep_Semantic_Ranking_2015_CVPR_paper.pdf'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Datasets, Scalability, CVPR, Hashing
+    Methods]
 short_authors: Zhao et al.
 ---
 With the rapid growth of web images, hashing has received

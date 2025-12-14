@@ -7,7 +7,7 @@ year: 2020
 bibkey: aghazadeh2020a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.05824'}]
-tags: ["Datasets", "Efficiency", "Evaluation"]
+tags: [Evaluation, Datasets, Efficiency]
 short_authors: Aysan Aghazadeh, Maryam Amirmazlaghani
 ---
 Nowadays, face recognition and more generally image recognition have many

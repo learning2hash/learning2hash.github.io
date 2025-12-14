@@ -7,7 +7,7 @@ year: 2021
 bibkey: budhiraja2021revisiting
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.03665'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Neural Hashing", "Recommender Systems"]
+tags: [Evaluation, Neural Hashing, Graph-based ANN, Datasets, Recommender Systems]
 short_authors: Amar Budhiraja
 ---
 Graph Representation Learning (GRL) is an upcoming and promising area in

@@ -7,7 +7,7 @@ year: 2017
 bibkey: iscen2017fast
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.06935'}]
-tags: ["Datasets", "Efficiency", "Neural Hashing", "Similarity Search"]
+tags: [Similarity Search, Neural Hashing, Datasets, Efficiency]
 short_authors: Iscen et al.
 ---
 Despite the success of deep learning on representing images for particular

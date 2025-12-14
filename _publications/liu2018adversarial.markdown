@@ -7,7 +7,7 @@ year: 2018
 bibkey: liu2018adversarial
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.10914'}]
-tags: ["Compact Codes", "Efficiency", "Evaluation", "Scalability", "Tools & Libraries"]
+tags: [Compact Codes, Evaluation, Efficiency, Robustness, Scalability, Tools & Libraries]
 short_authors: Liu et al.
 ---
 Person re-identification (ReID) aims at matching persons across different

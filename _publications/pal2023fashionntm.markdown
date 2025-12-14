@@ -9,7 +9,7 @@ bibkey: pal2023fashionntm
 citations: 3
 additional_links: [{name: Other, url: 'https://sites.google.com/eng.ucsd.edu/fashionntm'},
   {name: Paper, url: 'https://arxiv.org/abs/2308.10170'}]
-tags: ["Datasets", "Evaluation", "ICCV", "Image Retrieval", "Tools & Libraries"]
+tags: [Evaluation, ICCV, Image Retrieval, Datasets, Tools & Libraries]
 short_authors: Pal et al.
 ---
 Multi-turn textual feedback-based fashion image retrieval focuses on a

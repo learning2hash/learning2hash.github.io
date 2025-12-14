@@ -9,7 +9,7 @@ bibkey: yu2020comprehensive
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/Atmegal/DGCPN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2012.13538'}]
-tags: ["Datasets", "Hashing Methods", "Quantization", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Datasets, Quantization, Unsupervised, Hashing Methods]
 short_authors: Yu et al.
 ---
 Unsupervised cross-modal hashing (UCMH) has become a hot topic recently.

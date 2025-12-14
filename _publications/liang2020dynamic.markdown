@@ -7,7 +7,7 @@ year: 2020
 bibkey: liang2020dynamic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.11624'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: [Distance Metric Learning, Evaluation]
 short_authors: Chang-Hui Liang, Wan-Lei Zhao, Run-Qing Chen
 ---
 Deep metric learning maps visually similar images onto nearby locations and

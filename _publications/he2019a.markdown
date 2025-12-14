@@ -8,7 +8,7 @@ bibkey: he2019a
 citations: 78
 additional_links: [{name: Code, url: 'https://github.com/PKU-ICST-MIPL/FGCrossNet_ACMMM2019'},
   {name: Paper, url: 'https://arxiv.org/abs/1907.04476'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Xiangteng He, Yuxin Peng, Liu Xie
 ---
 Cross-media retrieval is to return the results of various media types

@@ -8,7 +8,7 @@ year: 2022
 bibkey: narayanan2022curator
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.14099'}]
-tags: ["Datasets", "Scalability", "Self-Supervised", "Supervised"]
+tags: [Scalability, Self-Supervised, Supervised, Datasets]
 short_authors: Narayanan et al.
 ---
 Applying Machine learning to domains like Earth Sciences is impeded by the

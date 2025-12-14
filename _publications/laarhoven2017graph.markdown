@@ -8,7 +8,7 @@ year: 2017
 bibkey: laarhoven2017graph
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.03158'}]
-tags: ["Efficiency", "Graph Based ANN"]
+tags: [Graph-based ANN, Efficiency]
 short_authors: Thijs Laarhoven
 ---
 We take a first step towards a rigorous asymptotic analysis of graph-based

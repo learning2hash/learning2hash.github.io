@@ -8,7 +8,7 @@ year: 2021
 bibkey: riba2021learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.05144'}]
-tags: ["Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries]
 short_authors: Riba et al.
 ---
 In this paper, we explore and evaluate the use of ranking-based objective

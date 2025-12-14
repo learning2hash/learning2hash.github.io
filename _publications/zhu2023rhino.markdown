@@ -7,7 +7,7 @@ year: 2023
 bibkey: zhu2023rhino
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.12642'}]
-tags: ["Efficiency"]
+tags: [Efficiency]
 short_authors: Zhu et al.
 ---
 The use of Implicit Neural Representation (INR) through a hash-table has

@@ -8,7 +8,7 @@ year: 2022
 bibkey: zou2022tokenflow
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.13822'}]
-tags: ["Efficiency", "Evaluation", "Multimodal Retrieval", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Efficiency, Multimodal Retrieval]
 short_authors: Zou et al.
 ---
 Most existing methods in vision-language retrieval match two modalities by

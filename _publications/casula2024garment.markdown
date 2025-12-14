@@ -8,7 +8,7 @@ year: 2024
 bibkey: casula2024garment
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.10206'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Datasets, Image Retrieval]
 short_authors: Casula et al.
 ---
 In the rapidly evolving field of online fashion shopping, the need for more

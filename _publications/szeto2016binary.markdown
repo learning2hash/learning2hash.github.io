@@ -7,7 +7,8 @@ year: 2016
 bibkey: szeto2016binary
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.07060'}]
-tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
+tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Unsupervised, Hashing
+    Methods]
 short_authors: Antonio Sze-To, Hamid R. Tizhoosh, Andrew K. C. Wong
 ---
 A Content-Based Image Retrieval (CBIR) system which identifies similar

@@ -7,7 +7,7 @@ year: 2019
 bibkey: jacob2019metric
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.02735'}]
-tags: ["Datasets", "Distance Metric Learning", "Few Shot & Zero Shot", "ICCV", "Image Retrieval"]
+tags: [ICCV, Image Retrieval, Few-shot & Zero-shot, Distance Metric Learning, Datasets]
 short_authors: Jacob et al.
 ---
 Learning an effective similarity measure between image representations is key

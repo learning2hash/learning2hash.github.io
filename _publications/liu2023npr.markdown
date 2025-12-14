@@ -7,7 +7,7 @@ year: 2023
 bibkey: liu2023npr
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.00276'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Tools & Libraries"]
+tags: [Scalability, Evaluation, Tools & Libraries, Datasets]
 short_authors: Liu et al.
 ---
 Visual Place Recognition (VPR) is the task of retrieving database images

@@ -7,7 +7,7 @@ year: 2022
 bibkey: godbole2022learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.02425'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: Akash Godbole, Karthik Nandakumar, Anil K. Jain
 ---
 Deep neural networks (DNNs) have shown incredible promise in learning

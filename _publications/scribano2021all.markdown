@@ -11,7 +11,7 @@ bibkey: scribano2021all
 citations: 8
 additional_links: [{name: Code, url: 'https://github.com/cscribano/AYCE_2021'}, {
     name: Paper, url: 'https://arxiv.org/abs/2106.10153'}]
-tags: ["CVPR"]
+tags: [CVPR]
 short_authors: Scribano et al.
 ---
 Combining Natural Language with Vision represents a unique and interesting

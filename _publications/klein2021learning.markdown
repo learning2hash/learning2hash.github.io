@@ -7,7 +7,7 @@ year: 2021
 bibkey: klein2021learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.02666'}]
-tags: ["Evaluation", "Graph Based ANN", "Image Retrieval", "Supervised"]
+tags: [Evaluation, Supervised, Graph-based ANN, Image Retrieval]
 short_authors: Benjamin Klein, Lior Wolf
 ---
 Query Expansion (QE) is a well established method for improving retrieval

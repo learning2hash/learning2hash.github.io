@@ -7,7 +7,8 @@ year: 2023
 bibkey: li2023dual
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.08009'}]
-tags: ["Evaluation", "Hashing Methods", "Supervised", "Unsupervised", "Video Retrieval"]
+tags: [Compact Codes, Evaluation, Video Retrieval, Supervised, Unsupervised, Hashing
+    Methods]
 short_authors: Li et al.
 ---
 Unsupervised video hashing usually optimizes binary codes by learning to

@@ -7,7 +7,7 @@ year: 2025
 bibkey: singh2025hierarchical
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.02401'}]
-tags: ["Re-Ranking", "Text Retrieval", "Tools & Libraries"]
+tags: [Text Retrieval, Tools & Libraries, Re-ranking]
 short_authors: Ashish Singh, Priti Mohapatra
 ---
 Retrieving the right level of context for a given query is a perennial

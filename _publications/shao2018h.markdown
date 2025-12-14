@@ -7,7 +7,7 @@ year: 2018
 bibkey: shao2018h
 citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.11385'}]
-tags: ["Evaluation", "Hashing Methods", "Memory Efficiency", "Tree Based ANN"]
+tags: [Hashing Methods, Tree-based ANN, Evaluation, Memory Efficiency]
 short_authors: Shao et al.
 ---
 We present a novel spatial hashing based data structure to facilitate 3D

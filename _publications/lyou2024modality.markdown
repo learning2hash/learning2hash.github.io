@@ -7,7 +7,7 @@ year: 2024
 bibkey: lyou2024modality
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.04860'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Tools & Libraries"]
+tags: [Tools & Libraries, Few-shot & Zero-shot, Image Retrieval, Datasets]
 short_authors: Lyou et al.
 ---
 Zero-shot learning offers an efficient solution for a machine learning model

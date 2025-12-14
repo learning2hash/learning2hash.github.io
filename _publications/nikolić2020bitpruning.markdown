@@ -8,7 +8,7 @@ year: 2020
 bibkey: "nikoli\u01072020bitpruning"
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.03090'}]
-tags: ["Memory Efficiency", "Quantization"]
+tags: [Quantization, Memory Efficiency]
 short_authors: "Nikoli\u0107 et al."
 ---
 Neural networks have demonstrably achieved state-of-the art accuracy using

@@ -7,7 +7,7 @@ year: 2023
 bibkey: yang2023confidence
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.15917'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Yang et al.
 ---
 In this paper, we consider the extent to which the transformer-based Dense

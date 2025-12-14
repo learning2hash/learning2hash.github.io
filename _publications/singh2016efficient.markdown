@@ -7,7 +7,7 @@ year: 2016
 bibkey: singh2016efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.06693'}]
-tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "Similarity Search"]
+tags: [Distance Metric Learning, Similarity Search, Evaluation, Efficiency]
 short_authors: Gaurav Singh, Benjamin Piwowarski
 ---
 We present a novel method for efficiently searching top-k neighbors for

@@ -7,7 +7,7 @@ year: 2021
 bibkey: pan2021click
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.13921'}]
-tags: ["Quantization", "Recommender Systems", "Self-Supervised", "Tools & Libraries"]
+tags: [Self-Supervised, Tools & Libraries, Recommender Systems, Quantization]
 short_authors: Pan et al.
 ---
 Click-through rate (CTR) prediction becomes indispensable in ubiquitous web

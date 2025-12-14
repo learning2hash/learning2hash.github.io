@@ -7,7 +7,8 @@ year: 2025
 bibkey: wang2025hamming
 citations: 20
 additional_links: [{name: Paper, url: 'http://www.ijcai.org/Proceedings/15/Papers/325.pdf'}]
-tags: ["Distance Metric Learning", "Evaluation", "Hashing Methods", "Quantization", "Similarity Search"]
+tags: [Compact Codes, Evaluation, Efficiency, Similarity Search, Distance Metric Learning,
+  Quantization, Hashing Methods]
 short_authors: Wang et al.
 ---
 Hashing is one of the effective techniques for fast

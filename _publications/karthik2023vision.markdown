@@ -7,7 +7,7 @@ year: 2023
 bibkey: karthik2023vision
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.09291'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Scalability", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Few-shot & Zero-shot, Scalability]
 short_authors: Karthik et al.
 ---
 Given an image and a target modification (e.g an image of the Eiffel tower

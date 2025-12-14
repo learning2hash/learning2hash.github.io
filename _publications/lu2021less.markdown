@@ -10,7 +10,7 @@ bibkey: lu2021less
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/microsoft/SEED-Encoder/'},
   {name: Paper, url: 'https://arxiv.org/abs/2102.09206'}]
-tags: ["Few Shot & Zero Shot", "Recommender Systems"]
+tags: [Recommender Systems, Few-shot & Zero-shot]
 short_authors: Lu et al.
 ---
 Dense retrieval requires high-quality text sequence embeddings to support

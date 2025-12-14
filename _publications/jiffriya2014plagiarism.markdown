@@ -8,7 +8,7 @@ year: 2014
 bibkey: jiffriya2014plagiarism
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1412.7782'}]
-tags: ["Datasets", "Distance Metric Learning"]
+tags: [Distance Metric Learning, Datasets]
 short_authors: Mac Jiffriya, Mac Akmal Jahan, Roshan G. Ragel
 ---
 Plagiarism is known as illegal use of others' part of work or whole work as

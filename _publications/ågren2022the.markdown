@@ -7,7 +7,7 @@ year: 2022
 bibkey: "\xE5gren2022the"
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.03169'}]
-tags: ["Evaluation", "Self-Supervised", "Supervised", "Tools & Libraries"]
+tags: [Self-Supervised, Supervised, Tools & Libraries, Evaluation]
 short_authors: "Wilhelm \xC5gren"
 ---
 Self-supervised learning is a growing paradigm in deep representation

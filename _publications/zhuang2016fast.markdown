@@ -7,7 +7,8 @@ year: 2016
 bibkey: zhuang2016fast
 citations: 133
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.02844'}]
-tags: ["Compact Codes", "Datasets", "Distance Metric Learning", "Hashing Methods", "Image Retrieval"]
+tags: [Compact Codes, Evaluation, Image Retrieval, Distance Metric Learning, Datasets,
+  Scalability, CVPR, Hashing Methods]
 short_authors: Zhuang et al.
 ---
 In this paper, we aim to learn a mapping (or embedding) from images to a

@@ -7,7 +7,7 @@ year: 2020
 bibkey: shavit2020do
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.12014'}]
-tags: ["Image Retrieval"]
+tags: [Image Retrieval]
 short_authors: Yoli Shavit, Ron Ferens
 ---
 Visual pose regression models estimate the camera pose from a query image

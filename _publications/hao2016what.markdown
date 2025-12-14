@@ -7,7 +7,7 @@ year: 2016
 bibkey: hao2016what
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.01640'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Hao et al.
 ---
 Previous work has shown that feature maps of deep convolutional neural

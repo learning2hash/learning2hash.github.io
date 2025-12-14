@@ -8,7 +8,7 @@ year: 2020
 bibkey: jose2020optimized
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.11400'}]
-tags: ["Compact Codes", "Datasets", "Evaluation", "Image Retrieval", "Quantization"]
+tags: [Compact Codes, Evaluation, Image Retrieval, Datasets, Quantization]
 short_authors: Jose et al.
 ---
 In this paper we propose an approach for learning low dimensional optimized

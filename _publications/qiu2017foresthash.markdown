@@ -8,7 +8,7 @@ year: 2017
 bibkey: qiu2017foresthash
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08364'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
+tags: [Image Retrieval, Neural Hashing, Datasets, Scalability, Hashing Methods]
 short_authors: Qiu et al.
 ---
 Hash codes are efficient data representations for coping with the ever

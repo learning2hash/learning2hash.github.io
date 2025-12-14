@@ -7,7 +7,7 @@ year: 2016
 bibkey: gripon2016associative
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.05898'}]
-tags: ["Hashing Methods", "Quantization"]
+tags: [Hashing Methods, Quantization]
 short_authors: "Vincent Gripon, Matthias L\xF6we, Franck Vermet"
 ---
 Nearest neighbor search is a very active field in machine learning for it

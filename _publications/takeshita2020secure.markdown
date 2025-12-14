@@ -8,7 +8,7 @@ year: 2020
 bibkey: takeshita2020secure
 citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.02330'}]
-tags: ["Efficiency", "Hashing Methods", "ICCV", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, ICCV, Efficiency]
 short_authors: Jonathan Takeshita, Ryan Karl, Taeho Jung
 ---
 Cloud computing is often utilized for file storage. Clients of cloud storage

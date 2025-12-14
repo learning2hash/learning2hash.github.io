@@ -8,7 +8,8 @@ year: 2023
 bibkey: jha2023mem
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.07205'}]
-tags: ["Evaluation", "Hashing Methods", "Memory Efficiency", "Neural Hashing", "Recommender Systems"]
+tags: [Evaluation, Neural Hashing, Memory Efficiency, Hashing Methods, Recommender
+    Systems]
 short_authors: Jha et al.
 ---
 Deep learning-based recommendation systems (e.g., DLRMs) are widely used AI

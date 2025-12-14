@@ -7,7 +7,8 @@ year: 2023
 bibkey: li2023pb
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.15944'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Neural Hashing", "Scalability"]
+tags: [Evaluation, Neural Hashing, Scalability, Hashing Methods, Locality Sensitive
+    Hashing]
 short_authors: Ping Li, Weijie Zhao
 ---
 Many hashing algorithms including minwise hashing (MinHash), one permutation

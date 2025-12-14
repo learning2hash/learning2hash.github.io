@@ -7,7 +7,7 @@ year: 2023
 bibkey: ahmadi2023retrieval
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.14899'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: Sareh Ahmadi, Aditya Shah, Edward Fox
 ---
 This paper addresses the problem of selecting of a set of texts for

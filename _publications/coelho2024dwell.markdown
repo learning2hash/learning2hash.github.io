@@ -10,7 +10,7 @@ year: 2024
 bibkey: coelho2024dwell
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.04163'}]
-tags: ["Text Retrieval"]
+tags: [Text Retrieval, ACL]
 short_authors: Coelho et al.
 ---
 This study investigates the existence of positional biases in

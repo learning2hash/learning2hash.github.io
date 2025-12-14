@@ -8,7 +8,7 @@ bibkey: zhu2022a
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/VL-Group/LBHash'}, {name: Paper,
     url: 'https://arxiv.org/abs/2210.05899'}]
-tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "Hashing Methods"]
+tags: [Hashing Methods, Distance Metric Learning, Evaluation, Efficiency]
 short_authors: Zhu et al.
 ---
 As a crucial approach for compact representation learning, hashing has

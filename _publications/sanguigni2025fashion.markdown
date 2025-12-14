@@ -7,7 +7,7 @@ year: 2025
 bibkey: sanguigni2025fashion
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.14011'}]
-tags: ["Datasets"]
+tags: [Datasets]
 short_authors: Sanguigni et al.
 ---
 In recent years, the fashion industry has increasingly adopted AI

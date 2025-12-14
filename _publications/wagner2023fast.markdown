@@ -7,7 +7,8 @@ year: 2023
 bibkey: wagner2023fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.01877'}]
-tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Quantization", "Tools & Libraries"]
+tags: [Datasets, Quantization, Tools & Libraries, Hashing Methods, Locality Sensitive
+    Hashing]
 short_authors: Tal Wagner, Yonatan Naamad, Nina Mishra
 ---
 We study efficient mechanisms for differentially private kernel density

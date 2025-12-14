@@ -7,7 +7,7 @@ year: 2021
 bibkey: li2021learning
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.06714'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Shiping Li, Min Cao, Min Zhang
 ---
 Text-based person search aims to retrieve images of a certain pedestrian by a

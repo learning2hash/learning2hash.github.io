@@ -8,7 +8,8 @@ year: 2022
 bibkey: yan2022generative
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.17322'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
+tags: [Evaluation, Few-shot & Zero-shot, Distance Metric Learning, Datasets, Text
+    Retrieval]
 short_authors: Yan et al.
 ---
 Vision-language pre-training (VLP) has attracted increasing attention

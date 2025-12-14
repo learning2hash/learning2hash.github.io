@@ -7,7 +7,7 @@ year: 2013
 bibkey: li20133d
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1306.2081'}]
-tags: ["Graph Based ANN"]
+tags: [Graph-based ANN]
 short_authors: Bo Li, Henry Johan
 ---
 3D model retrieval techniques can be classified as histogram-based,

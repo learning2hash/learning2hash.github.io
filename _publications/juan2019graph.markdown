@@ -8,7 +8,7 @@ year: 2019
 bibkey: juan2019graph
 citations: 28
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.10814'}]
-tags: ["Evaluation", "Graph Based ANN", "Image Retrieval", "Scalability", "Tools & Libraries"]
+tags: [Evaluation, Image Retrieval, Graph-based ANN, Scalability, Tools & Libraries]
 short_authors: Juan et al.
 ---
 Learning image representations to capture fine-grained semantics has been a

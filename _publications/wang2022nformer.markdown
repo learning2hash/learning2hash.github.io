@@ -8,7 +8,7 @@ bibkey: wang2022nformer
 citations: 144
 additional_links: [{name: Code, url: 'https://github.com/haochenheheda/NFormer'},
   {name: Paper, url: 'https://arxiv.org/abs/2204.09331'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Scalability"]
+tags: [Scalability, Evaluation, CVPR, Datasets]
 short_authors: Wang et al.
 ---
 Person re-identification aims to retrieve persons in highly varying settings

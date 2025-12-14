@@ -8,7 +8,7 @@ bibkey: gao2021backdoor
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/KuofengGao/CIBA'}, {name: Paper,
     url: 'https://arxiv.org/abs/2109.08868'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Robustness, Hashing Methods]
 short_authors: Gao et al.
 ---
 A backdoored deep hashing model is expected to behave normally on original

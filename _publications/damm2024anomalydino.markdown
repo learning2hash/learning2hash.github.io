@@ -7,7 +7,7 @@ year: 2024
 bibkey: damm2024anomalydino
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.14529'}]
-tags: ["Evaluation", "Few Shot & Zero Shot"]
+tags: [Evaluation, Few-shot & Zero-shot]
 short_authors: Damm et al.
 ---
 Recent advances in multimodal foundation models have set new standards in

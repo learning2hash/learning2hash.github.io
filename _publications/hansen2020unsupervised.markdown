@@ -9,7 +9,8 @@ year: 2020
 bibkey: hansen2020unsupervised
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.00380'}]
-tags: ["Datasets", "Hashing Methods", "Neural Hashing", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Neural Hashing, Similarity Search, Datasets, Scalability,
+  Unsupervised, Hashing Methods, SIGIR]
 short_authors: Hansen et al.
 ---
 Semantic Hashing is a popular family of methods for efficient similarity

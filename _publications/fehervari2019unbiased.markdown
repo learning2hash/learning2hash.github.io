@@ -7,7 +7,7 @@ year: 2019
 bibkey: fehervari2019unbiased
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.12528'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: [Evaluation, Distance Metric Learning, Datasets]
 short_authors: Istvan Fehervari, Avinash Ravichandran, Srikar Appalaraju
 ---
 Deep metric learning (DML) is a popular approach for images retrieval,

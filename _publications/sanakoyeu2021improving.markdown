@@ -7,7 +7,7 @@ year: 2021
 bibkey: sanakoyeu2021improving
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.04003'}]
-tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
+tags: [Distance Metric Learning, Image Retrieval, Datasets]
 short_authors: Sanakoyeu et al.
 ---
 Deep metric learning (DML) is a cornerstone of many computer vision

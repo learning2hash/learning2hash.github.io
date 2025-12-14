@@ -9,7 +9,7 @@ year: 2018
 bibkey: gligorijevic2018deeply
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.10739'}]
-tags: ["Supervised"]
+tags: [Supervised]
 short_authors: Gligorijevic et al.
 ---
 In sponsored search it is critical to match ads that are relevant to a query

@@ -8,7 +8,7 @@ year: 2021
 bibkey: schuhmann2021laion
 citations: 366
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.02114'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Similarity Search"]
+tags: [Few-shot & Zero-shot, Similarity Search, Datasets]
 short_authors: Schuhmann et al.
 ---
 Multi-modal language-vision models trained on hundreds of millions of

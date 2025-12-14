@@ -7,7 +7,8 @@ year: 2024
 bibkey: tao2024nevlp
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.09582'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Text Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Self-Supervised, Datasets, Scalability, Tools & Libraries, Text
+    Retrieval]
 short_authors: Tao et al.
 ---
 The success of Vision Language Models (VLMs) on various vision-language tasks

@@ -7,7 +7,8 @@ year: 2024
 bibkey: li2024unsupervised
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.18411'}]
-tags: ["Datasets", "Image Retrieval", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Self-Supervised, Datasets, Unsupervised,
+  Tools & Libraries, AAAI]
 short_authors: Li et al.
 ---
 Unsupervised cross-domain image retrieval (UCIR) aims to retrieve images

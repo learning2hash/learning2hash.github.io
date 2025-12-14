@@ -7,7 +7,7 @@ year: 2016
 bibkey: wang2016zero
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.02104'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Supervised", "Tools & Libraries"]
+tags: [Evaluation, Supervised, Few-shot & Zero-shot, Datasets, Tools & Libraries]
 short_authors: Qian Wang, Ke Chen
 ---
 Zero-shot learning for visual recognition, e.g., object and action

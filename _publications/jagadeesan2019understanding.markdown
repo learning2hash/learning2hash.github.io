@@ -7,7 +7,7 @@ year: 2019
 bibkey: jagadeesan2019understanding
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.03605'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing]
 short_authors: Meena Jagadeesan
 ---
 Feature hashing and other random projection schemes are commonly used to

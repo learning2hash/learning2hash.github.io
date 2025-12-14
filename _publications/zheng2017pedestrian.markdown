@@ -7,7 +7,7 @@ year: 2017
 bibkey: zheng2017pedestrian
 citations: 550
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.00408'}]
-tags: ["Datasets", "Image Retrieval", "Scalability"]
+tags: [Scalability, Image Retrieval, Datasets]
 short_authors: Zhedong Zheng, Liang Zheng, Yi Yang
 ---
 Person re-identification (person re-ID) is mostly viewed as an image

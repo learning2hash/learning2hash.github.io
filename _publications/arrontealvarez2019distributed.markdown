@@ -7,7 +7,7 @@ year: 2019
 bibkey: arrontealvarez2019distributed
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.08756'}]
-tags: ["Distance Metric Learning", "Evaluation"]
+tags: [Distance Metric Learning, Evaluation]
 short_authors: "Aitor Arronte-Alvarez, Francisco G\xF3mez-Martin"
 ---
 This article presents a distributed vector representation model for learning

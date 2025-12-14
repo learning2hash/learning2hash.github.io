@@ -8,7 +8,8 @@ year: 2022
 bibkey: zheng2022spatial
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.09489'}]
-tags: ["Datasets", "Graph Based ANN", "Large Scale Search", "Recommender Systems", "Scalability"]
+tags: [Graph-based ANN, Datasets, Scalability, Tools & Libraries, Large-Scale Search,
+  Recommender Systems]
 short_authors: Zheng et al.
 ---
 Graph embedding methods including traditional shallow models and deep Graph

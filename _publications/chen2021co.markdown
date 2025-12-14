@@ -8,7 +8,7 @@ year: 2021
 bibkey: chen2021co
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.08523'}]
-tags: ["Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
+tags: [Evaluation, Re-ranking, Hybrid ANN Methods]
 short_authors: Chen et al.
 ---
 BERT-based text ranking models have dramatically advanced the

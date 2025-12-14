@@ -7,7 +7,7 @@ year: 2022
 bibkey: "fr\xF6be2022how"
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.14759'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
+tags: [Evaluation, Few-shot & Zero-shot, Datasets]
 short_authors: "Fr\xF6be et al."
 ---
 Neural retrieval models are often trained on (subsets of) the millions of

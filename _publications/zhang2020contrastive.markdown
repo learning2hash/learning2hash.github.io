@@ -9,7 +9,8 @@ year: 2020
 bibkey: zhang2020contrastive
 citations: 275
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.00747'}]
-tags: ["Efficiency", "Few Shot & Zero Shot", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Few-shot & Zero-shot, Efficiency, Self-Supervised,
+  Unsupervised]
 short_authors: Zhang et al.
 ---
 Learning visual representations of medical images (e.g., X-rays) is core to

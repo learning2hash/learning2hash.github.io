@@ -7,7 +7,7 @@ year: 2025
 bibkey: jain2025fast
 citations: 265
 additional_links: [{name: Paper, url: 'https://www.cs.utexas.edu/~pjain/pubs/hashing_tr.pdf'}]
-tags: ["Datasets", "Distance Metric Learning", "Hashing Methods", "Similarity Search"]
+tags: [Hashing Methods, Distance Metric Learning, Datasets, Similarity Search]
 short_authors: P. Jain, Kulis, Grauman
 ---
 We propose a method to efficiently index into a large database of examples according to a learned metric.

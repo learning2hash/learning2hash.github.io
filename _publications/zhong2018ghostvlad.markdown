@@ -7,7 +7,7 @@ year: 2018
 bibkey: zhong2018ghostvlad
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.09951'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: "Yujie Zhong, Relja Arandjelovi\u0107, Andrew Zisserman"
 ---
 The objective of this paper is to learn a compact representation of image

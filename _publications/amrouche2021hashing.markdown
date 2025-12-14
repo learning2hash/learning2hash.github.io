@@ -7,7 +7,7 @@ year: 2021
 bibkey: amrouche2021hashing
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.06428'}]
-tags: ["Distance Metric Learning", "Efficiency", "Hashing Methods"]
+tags: [Hashing Methods, Distance Metric Learning, Efficiency]
 short_authors: Amrouche et al.
 ---
 We propose a novel approach to charged particle tracking at high intensity

@@ -7,7 +7,7 @@ year: 2024
 bibkey: huang2024diversity
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.13858'}]
-tags: ["Efficiency", "Recommender Systems", "Similarity Search"]
+tags: [Similarity Search, Recommender Systems, Efficiency]
 short_authors: Huang et al.
 ---
 The \(k\)-Maximum Inner Product Search (\(k\)MIPS) serves as a foundational

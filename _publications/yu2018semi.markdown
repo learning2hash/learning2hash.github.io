@@ -7,7 +7,7 @@ year: 2018
 bibkey: yu2018semi
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.07155'}]
-tags: ["Datasets", "Hashing Methods", "Scalability", "Supervised", "Tools & Libraries"]
+tags: [Supervised, Datasets, Scalability, Tools & Libraries, Hashing Methods]
 short_authors: Jun Yu, Xiao-Jun Wu, Josef Kittler
 ---
 Recently, hashing techniques have gained importance in large-scale retrieval

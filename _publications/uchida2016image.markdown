@@ -7,7 +7,7 @@ year: 2016
 bibkey: uchida2016image
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.08291'}]
-tags: ["Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval]
 short_authors: Yusuke Uchida, Shigeyuki Sakazawa, Shin'Ichi Satoh
 ---
 Recently, the Fisher vector representation of local features has attracted

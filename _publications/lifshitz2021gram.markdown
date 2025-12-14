@@ -7,7 +7,7 @@ year: 2021
 bibkey: lifshitz2021gram
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.15519'}]
-tags: ["Datasets", "Image Retrieval"]
+tags: [Image Retrieval, Datasets]
 short_authors: Shalev Lifshitz, Abtin Riasatian, H. R. Tizhoosh
 ---
 Recent advances in digital pathology have led to the need for Histopathology

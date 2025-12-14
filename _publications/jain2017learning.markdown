@@ -7,7 +7,8 @@ year: 2017
 bibkey: jain2017learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.04480'}]
-tags: ["Hashing Methods", "Neural Hashing", "Supervised", "Unsupervised", "Vector Indexing"]
+tags: [Supervised, Neural Hashing, Vector Indexing, Unsupervised, Tools & Libraries,
+  Hashing Methods]
 short_authors: Jain et al.
 ---
 To work at scale, a complete image indexing system comprises two components:

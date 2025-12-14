@@ -7,7 +7,7 @@ year: 2021
 bibkey: zhao2021memory
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.15686'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets]
 short_authors: Zhao et al.
 ---
 Cross-modal video-text retrieval, a challenging task in the field of vision

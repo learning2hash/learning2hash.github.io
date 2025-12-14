@@ -7,7 +7,7 @@ year: 2021
 bibkey: craswell2021overview
 citations: 116
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.07662'}]
-tags: ["Evaluation", "Neural Hashing", "Survey Paper", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Neural Hashing, Survey Paper]
 short_authors: Craswell et al.
 ---
 This is the second year of the TREC Deep Learning Track, with the goal of

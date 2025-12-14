@@ -7,7 +7,7 @@ year: 2021
 bibkey: esser2021a
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.02597'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation, Datasets]
 short_authors: "Andre Esser, Robert K\xFCbler, Floyd Zweydinger"
 ---
 We study the Closest Pair Problem in Hamming metric, which asks to find the

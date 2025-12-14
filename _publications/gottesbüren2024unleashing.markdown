@@ -7,7 +7,7 @@ year: 2024
 bibkey: "gottesb\xFCren2024unleashing"
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.01797'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Large Scale Search", "Scalability"]
+tags: [Evaluation, Efficiency, Datasets, Scalability, Large-Scale Search]
 short_authors: "Gottesb\xFCren et al."
 ---
 We consider the fundamental problem of decomposing a large-scale approximate

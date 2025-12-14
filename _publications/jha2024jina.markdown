@@ -9,7 +9,7 @@ year: 2024
 bibkey: jha2024jina
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.16672'}]
-tags: ["Efficiency", "Evaluation"]
+tags: [Evaluation, Efficiency]
 short_authors: Jha et al.
 ---
 Multi-vector dense models, such as ColBERT, have proven highly effective in

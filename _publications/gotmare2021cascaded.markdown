@@ -7,7 +7,8 @@ year: 2021
 bibkey: gotmare2021cascaded
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.07811'}]
-tags: ["Efficiency", "Evaluation", "Re-Ranking", "Scalability", "Tools & Libraries"]
+tags: [Evaluation, Re-ranking, Efficiency, Scalability, Tools & Libraries, Hybrid
+    ANN Methods]
 short_authors: Gotmare et al.
 ---
 The goal of natural language semantic code search is to retrieve a

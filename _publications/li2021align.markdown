@@ -10,7 +10,7 @@ bibkey: li2021align
 citations: 820
 additional_links: [{name: Code, url: 'https://github.com/salesforce/ALBEF/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2107.07651'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Scalability", "Text Retrieval"]
+tags: [Evaluation, Distance Metric Learning, Datasets, Scalability, Text Retrieval]
 short_authors: Li et al.
 ---
 Large-scale vision and language representation learning has shown promising

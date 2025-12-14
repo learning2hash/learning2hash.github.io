@@ -9,7 +9,8 @@ year: 2025
 bibkey: shen2025structvpr
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.06601'}]
-tags: ["Efficiency", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
+tags: [Evaluation, Image Retrieval, Re-ranking, Neural Hashing, Efficiency, Tools
+    & Libraries, Hybrid ANN Methods]
 short_authors: Shen et al.
 ---
 Visual place recognition is a challenging task for autonomous driving and

@@ -8,7 +8,7 @@ year: 2023
 bibkey: linial2023asymmetric
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.17531'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets]
 short_authors: Linial et al.
 ---
 The asymmetrical retrieval setting is a well suited solution for resource

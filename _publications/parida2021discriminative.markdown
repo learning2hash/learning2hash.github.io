@@ -7,7 +7,7 @@ year: 2021
 bibkey: parida2021discriminative
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.14103'}]
-tags: ["Evaluation", "Multimodal Retrieval"]
+tags: [Evaluation, Multimodal Retrieval]
 short_authors: Kranti Kumar Parida, Gaurav Sharma
 ---
 Cross-modal retrieval is generally performed by projecting and aligning the

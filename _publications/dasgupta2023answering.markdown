@@ -7,7 +7,7 @@ year: 2023
 bibkey: dasgupta2023answering
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.04133'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems"]
+tags: [Evaluation, Recommender Systems, Datasets]
 short_authors: Dasgupta et al.
 ---
 The need to compactly and robustly represent item-attribute relations arises

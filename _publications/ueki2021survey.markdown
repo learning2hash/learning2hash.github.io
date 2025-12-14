@@ -8,7 +8,8 @@ year: 2021
 bibkey: ueki2021survey
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.07391'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Survey Paper", "Text Retrieval"]
+tags: [ICML, Evaluation, Image Retrieval, Few-shot & Zero-shot, Survey Paper, Datasets,
+  Text Retrieval]
 short_authors: Kazuya Ueki
 ---
 Visual-semantic embedding is an interesting research topic because it is

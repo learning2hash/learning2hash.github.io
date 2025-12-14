@@ -7,7 +7,7 @@ year: 2020
 bibkey: roy2020adversarial
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.08974'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Robustness", "Tools & Libraries"]
+tags: [Evaluation, Graph-based ANN, Datasets, Robustness, Tools & Libraries]
 short_authors: Indradyumna Roy, Abir de, Soumen Chakrabarti
 ---
 After observing a snapshot of a social network, a link prediction (LP)

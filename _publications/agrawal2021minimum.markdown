@@ -7,7 +7,7 @@ year: 2021
 bibkey: agrawal2021minimum
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.02559'}]
-tags: ["Distance Metric Learning", "Tools & Libraries"]
+tags: [Distance Metric Learning, Tools & Libraries]
 short_authors: Akshay Agrawal, Alnur Ali, Stephen Boyd
 ---
 We consider the vector embedding problem. We are given a finite set of items,

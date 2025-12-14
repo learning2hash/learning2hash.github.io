@@ -8,7 +8,7 @@ year: 2023
 bibkey: ravfogel2023description
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.12517'}]
-tags: ["Similarity Search"]
+tags: [Similarity Search]
 short_authors: Ravfogel et al.
 ---
 Identifying texts with a given semantics is central for many information

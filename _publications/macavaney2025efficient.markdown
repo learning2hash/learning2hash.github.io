@@ -7,7 +7,7 @@ year: 2025
 bibkey: macavaney2025efficient
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.01818'}]
-tags: ["Efficiency", "Memory Efficiency"]
+tags: [Efficiency, Memory Efficiency]
 short_authors: Sean MacAvaney, Antonio Mallia, Nicola Tonellotto
 ---
 Multi-vector retrieval methods, exemplified by the ColBERT architecture, have

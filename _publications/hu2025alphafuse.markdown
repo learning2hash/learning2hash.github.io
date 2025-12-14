@@ -10,7 +10,7 @@ bibkey: hu2025alphafuse
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/Hugo-Chinn/AlphaFuse'}, {
     name: Paper, url: 'https://arxiv.org/abs/2504.19218'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems", "SIGIR", "Tools & Libraries"]
+tags: [Evaluation, Datasets, Tools & Libraries, Recommender Systems, SIGIR]
 short_authors: Hu et al.
 ---
 Recent advancements in sequential recommendation have underscored the

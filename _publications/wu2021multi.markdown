@@ -7,7 +7,7 @@ year: 2021
 bibkey: wu2021multi
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.07800'}]
-tags: ["Neural Hashing", "Robustness"]
+tags: [Neural Hashing, Robustness]
 short_authors: Lin Wu, Teng Wang, Changyin Sun
 ---
 Visual place recognition is one of the essential and challenging problems in

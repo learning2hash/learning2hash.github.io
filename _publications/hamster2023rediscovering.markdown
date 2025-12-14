@@ -8,7 +8,7 @@ year: 2023
 bibkey: hamster2023rediscovering
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.02481'}]
-tags: ["Locality-Sensitive-Hashing", "Memory Efficiency", "Quantization"]
+tags: [Locality Sensitive Hashing, Quantization, Memory Efficiency]
 short_authors: Hamster et al.
 ---
 Training and inference on edge devices often requires an efficient setup due

@@ -8,7 +8,7 @@ year: 2024
 bibkey: liu2024an
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.13291'}]
-tags: ["Datasets", "Efficiency"]
+tags: [Datasets, Efficiency]
 short_authors: Liu et al.
 ---
 With the development of pre-trained language models, the dense retrieval

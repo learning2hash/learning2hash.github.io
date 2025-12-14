@@ -8,7 +8,7 @@ year: 2018
 bibkey: saeed2018not
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.05184'}]
-tags: ["Evaluation", "Recommender Systems"]
+tags: [Evaluation, Recommender Systems]
 short_authors: Muhammad Rizwan Saeed, Charalampos Chelmis, Viktor K. Prasanna
 ---
 Knowledge Graphs (KGs) are becoming essential to information systems that

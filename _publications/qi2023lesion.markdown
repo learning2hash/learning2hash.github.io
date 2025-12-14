@@ -7,7 +7,7 @@ year: 2023
 bibkey: qi2023lesion
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.11014'}]
-tags: ["Evaluation", "Image Retrieval", "Self-Supervised", "Supervised"]
+tags: [Self-Supervised, Supervised, Image Retrieval, Evaluation]
 short_authors: Kristin Qi, Jiali Cheng, Daniel Haehn
 ---
 Content-based image retrieval (CBIR) with self-supervised learning (SSL)

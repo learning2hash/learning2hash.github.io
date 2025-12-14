@@ -7,7 +7,7 @@ year: 2017
 bibkey: zhou2017deep
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.11445'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Quantization, Hashing Methods]
 short_authors: Zhou et al.
 ---
 With the explosive growth of image databases, deep hashing, which learns

@@ -7,7 +7,7 @@ year: 2018
 bibkey: wang2018deep
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.01459'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: [Evaluation, Distance Metric Learning, Datasets]
 short_authors: Wang et al.
 ---
 Deep metric learning aims to learn a deep embedding that can capture the

@@ -8,7 +8,8 @@ year: 2025
 bibkey: li2025clean
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.21236'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
+tags: [Image Retrieval, Neural Hashing, Datasets, Robustness, Scalability, Hashing
+    Methods]
 short_authors: Li et al.
 ---
 Large-scale image retrieval using deep hashing has become increasingly

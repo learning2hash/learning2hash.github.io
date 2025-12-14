@@ -7,7 +7,7 @@ year: 2017
 bibkey: chandrasekaran2017lattice
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.08558'}]
-tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Efficiency]
 short_authors: Chandrasekaran et al.
 ---
 Locality sensitive hashing (LSH) was introduced by Indyk and Motwani (STOC

@@ -7,7 +7,7 @@ year: 2022
 bibkey: kobs2022on
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.01615'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: [Evaluation, Distance Metric Learning, Datasets]
 short_authors: Konstantin Kobs, Andreas Hotho
 ---
 Deep Metric Learning trains a neural network to map input images to a

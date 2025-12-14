@@ -7,7 +7,8 @@ year: 2020
 bibkey: riba2020learning
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.07641'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Graph Based ANN", "Neural Hashing"]
+tags: [Graph-based ANN, CVPR, Neural Hashing, Tools & Libraries, Datasets, Distance
+    Metric Learning, Evaluation]
 short_authors: Riba et al.
 ---
 The emergence of geometric deep learning as a novel framework to deal with

@@ -9,7 +9,7 @@ year: 2021
 bibkey: zhan2021product1m
 citations: 44
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.14572'}]
-tags: ["Datasets", "ICCV", "Self-Supervised", "Supervised"]
+tags: [Self-Supervised, Supervised, Datasets, ICCV]
 short_authors: Zhan et al.
 ---
 Nowadays, customer's demands for E-commerce are more diversified, which

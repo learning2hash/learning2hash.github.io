@@ -8,7 +8,7 @@ year: 2019
 bibkey: mihaylov2019semanticz
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.08743'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Todor Mihaylov, Preslav Nakov
 ---
 We describe our system for finding good answers in a community forum, as

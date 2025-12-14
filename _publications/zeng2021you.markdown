@@ -9,7 +9,7 @@ bibkey: zeng2021you
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/mlpen/YOSO'}, {name: Paper,
     url: 'https://arxiv.org/abs/2111.09714'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation]
 short_authors: Zeng et al.
 ---
 Transformer-based models are widely used in natural language processing

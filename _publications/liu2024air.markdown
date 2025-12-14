@@ -8,7 +8,7 @@ year: 2024
 bibkey: liu2024air
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.18281'}]
-tags: ["Datasets", "Image Retrieval", "Robustness"]
+tags: [Image Retrieval, Datasets, Robustness]
 short_authors: Liu et al.
 ---
 State-of-the-art hierarchical localisation pipelines (HLoc) employ image

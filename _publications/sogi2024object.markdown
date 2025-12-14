@@ -8,7 +8,7 @@ bibkey: sogi2024object
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/NEC-N-SOGI/query-perturbation'},
   {name: Paper, url: 'https://arxiv.org/abs/2407.12346'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval", "Tools & Libraries"]
+tags: [Text Retrieval, Evaluation, Tools & Libraries, Datasets]
 short_authors: Naoya Sogi, Takashi Shibata, Makoto Terao
 ---
 The pre-trained vision and language (V\&L) models have substantially improved

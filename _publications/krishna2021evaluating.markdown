@@ -7,7 +7,7 @@ year: 2021
 bibkey: krishna2021evaluating
 citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.14939'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval", "Supervised"]
+tags: [Image Retrieval, Evaluation, Multimodal Retrieval, Supervised]
 short_authors: Tarun Krishna, Kevin McGuinness, Noel O'Connor
 ---
 In this work, we evaluate contrastive models for the task of image retrieval.

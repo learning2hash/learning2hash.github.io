@@ -7,7 +7,7 @@ year: 2024
 bibkey: shafique2024crisp
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.16972'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing"]
+tags: [Evaluation, Image Retrieval, Datasets, Neural Hashing]
 short_authors: Samia Shafique, Shu Kong, Charless Fowlkes
 ---
 Shoeprints are a common type of evidence found at crime scenes and are used

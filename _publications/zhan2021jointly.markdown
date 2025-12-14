@@ -9,7 +9,7 @@ year: 2021
 bibkey: zhan2021jointly
 citations: 83
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.00644'}]
-tags: ["CIKM", "Efficiency", "Evaluation", "Memory Efficiency", "Quantization"]
+tags: [CIKM, Memory Efficiency, Efficiency, Evaluation, Quantization]
 short_authors: Zhan et al.
 ---
 Recently, Information Retrieval community has witnessed fast-paced advances

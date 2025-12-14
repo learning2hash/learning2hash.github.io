@@ -7,7 +7,7 @@ year: 2020
 bibkey: zhang2020beyond
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.04991'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: [Evaluation, Distance Metric Learning, Datasets]
 short_authors: Zhang et al.
 ---
 Person Re-identification (ReID) aims at matching a person of interest across

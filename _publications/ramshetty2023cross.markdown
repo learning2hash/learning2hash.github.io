@@ -10,7 +10,8 @@ bibkey: ramshetty2023cross
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/claws-lab/multimodal-robustness-xmai'},
   {name: Paper, url: 'https://arxiv.org/abs/2306.11065'}]
-tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval", "Neural Hashing", "Robustness"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Robustness, Multimodal Retrieval,
+  ACL]
 short_authors: Shivaen Ramshetty, Gaurav Verma, Srijan Kumar
 ---
 The robustness of multimodal deep learning models to realistic changes in the

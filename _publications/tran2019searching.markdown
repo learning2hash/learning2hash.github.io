@@ -7,7 +7,7 @@ year: 2019
 bibkey: tran2019searching
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.02244'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Tran et al.
 ---
 In this age of social media, people often look at what others are wearing. In

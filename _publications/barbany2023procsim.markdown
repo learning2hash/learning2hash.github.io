@@ -7,7 +7,7 @@ year: 2023
 bibkey: barbany2023procsim
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.00668'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
+tags: [Evaluation, Distance Metric Learning, Tools & Libraries, Datasets]
 short_authors: Barbany et al.
 ---
 Deep Metric Learning (DML) methods aim at learning an embedding space in

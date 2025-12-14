@@ -8,7 +8,8 @@ year: 2021
 bibkey: zerveas2021coder
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.08766'}]
-tags: ["Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Similarity Search", "Tools & Libraries"]
+tags: [Evaluation, Re-ranking, Similarity Search, Self-Supervised, Tools & Libraries,
+  Hybrid ANN Methods]
 short_authors: Zerveas et al.
 ---
 Contrastive learning has been the dominant approach to training dense

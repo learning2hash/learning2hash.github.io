@@ -8,7 +8,7 @@ year: 2020
 bibkey: wroblewska2020multi
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.06331'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems"]
+tags: [Evaluation, Recommender Systems, Datasets]
 short_authors: Wroblewska et al.
 ---
 Recommendation systems have lately been popularized globally, with primary

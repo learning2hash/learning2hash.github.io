@@ -7,7 +7,7 @@ year: 2023
 bibkey: "clavi\xE92023towards"
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.16144'}]
-tags: ["Datasets", "Evaluation", "Neural Hashing", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets, Neural Hashing]
 short_authors: "Benjamin Clavi\xE9"
 ---
 As language-specific training data tends to be sparsely available compared to

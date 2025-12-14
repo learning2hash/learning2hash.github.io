@@ -8,7 +8,7 @@ year: 2025
 bibkey: jegou2025searching
 citations: 18
 additional_links: [{name: Paper, url: 'https://hal.inria.fr/inria-00410767/document/'}]
-tags: ["Compact Codes", "Distance Metric Learning", "Hashing Methods", "Quantization"]
+tags: [Hashing Methods, Distance Metric Learning, Compact Codes, Quantization]
 short_authors: H. Jegou, Douze, Schmid
 ---
 We propose an approximate nearest neighbor search method based

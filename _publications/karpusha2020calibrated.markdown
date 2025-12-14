@@ -7,7 +7,8 @@ year: 2020
 bibkey: karpusha2020calibrated
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.04935'}]
-tags: ["Datasets", "Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval", "Robustness"]
+tags: [Evaluation, Image Retrieval, Re-ranking, Neural Hashing, Few-shot & Zero-shot,
+  Distance Metric Learning, Datasets, Robustness]
 short_authors: Maryna Karpusha, Sunghee Yun, Istvan Fehervari
 ---
 Deep metric learning has gained promising improvement in recent years

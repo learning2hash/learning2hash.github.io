@@ -9,7 +9,7 @@ bibkey: spencer2020same
 citations: 20
 additional_links: [{name: Code, url: 'https://github.com/jspenmar/DejaVu_Features'},
   {name: Paper, url: 'https://arxiv.org/abs/2003.13431'}]
-tags: ["CVPR", "Datasets", "Image Retrieval", "Neural Hashing", "Supervised"]
+tags: [Supervised, Image Retrieval, Neural Hashing, Datasets, CVPR]
 short_authors: Jaime Spencer, Richard Bowden, Simon Hadfield
 ---
 "Like night and day" is a commonly used expression to imply that two things

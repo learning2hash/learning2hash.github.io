@@ -8,7 +8,7 @@ year: 2024
 bibkey: geirhos2024towards
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.08172'}]
-tags: ["Large Scale Search", "Scalability"]
+tags: [Scalability, Large-Scale Search]
 short_authors: Geirhos et al.
 ---
 Training a neural network is a monolithic endeavor, akin to carving knowledge

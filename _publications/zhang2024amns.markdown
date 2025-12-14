@@ -8,7 +8,7 @@ year: 2024
 bibkey: zhang2024amns
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.06385'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Runqing Zhang, Xue Zhou
 ---
 Most existing text-to-image person retrieval methods usually assume that the

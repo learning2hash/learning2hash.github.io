@@ -8,7 +8,7 @@ bibkey: uy2018pointnetvlad
 citations: 93
 additional_links: [{name: Code, url: 'http://github.com/mikacuy/pointnetvlad/'}, {
     name: Paper, url: 'https://arxiv.org/abs/1804.03492'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Scalability"]
+tags: [Scalability, Evaluation, CVPR, Datasets]
 short_authors: Mikaela Angelina Uy, Gim Hee Lee
 ---
 Unlike its image based counterpart, point cloud based retrieval for place

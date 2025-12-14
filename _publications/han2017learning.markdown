@@ -7,7 +7,7 @@ year: 2017
 bibkey: han2017learning
 citations: 290
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.05691'}]
-tags: ["Datasets", "Recommender Systems", "Tools & Libraries"]
+tags: [Tools & Libraries, Recommender Systems, Datasets]
 short_authors: Han et al.
 ---
 The ubiquity of online fashion shopping demands effective recommendation

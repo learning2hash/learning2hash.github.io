@@ -7,7 +7,8 @@ year: 2019
 bibkey: taha2019unsupervised
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.02586'}]
-tags: ["Distance Metric Learning", "Evaluation", "Supervised", "Unsupervised", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Supervised, Efficiency, Distance Metric Learning,
+  Datasets, Unsupervised]
 short_authors: Taha et al.
 ---
 We introduce an unsupervised formulation to estimate heteroscedastic

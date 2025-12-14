@@ -8,7 +8,8 @@ year: 2019
 bibkey: wang2019learning
 citations: 138
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.01273'}]
-tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Multimodal Retrieval"]
+tags: [Evaluation, Distance Metric Learning, Datasets, Robustness, Multimodal Retrieval,
+  CVPR, Tools & Libraries]
 short_authors: Wang et al.
 ---
 Food computing is playing an increasingly important role in human daily life,

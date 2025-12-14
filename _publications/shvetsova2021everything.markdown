@@ -8,7 +8,7 @@ year: 2021
 bibkey: shvetsova2021everything
 citations: 111
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.04446'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, Few-shot & Zero-shot, Datasets, Scalability, CVPR]
 short_authors: Shvetsova et al.
 ---
 Multi-modal learning from video data has seen increased attention recently as

@@ -9,7 +9,7 @@ bibkey: revaud2019learning
 citations: 35
 additional_links: [{name: Other, url: 'https://europe.naverlabs.com/Deep-Image-Retrieval/'},
   {name: Paper, url: 'https://arxiv.org/abs/1906.07589'}]
-tags: ["Evaluation", "ICCV", "Image Retrieval"]
+tags: [Evaluation, ICCV, Image Retrieval]
 short_authors: Revaud et al.
 ---
 Image retrieval can be formulated as a ranking problem where the goal is to

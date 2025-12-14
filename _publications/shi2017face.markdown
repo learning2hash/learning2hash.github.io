@@ -7,7 +7,7 @@ year: 2017
 bibkey: shi2017face
 citations: 86
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.05067'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Supervised"]
+tags: [Scalability, Evaluation, Supervised, Datasets]
 short_authors: Yichun Shi, Charles Otto, Anil K. Jain
 ---
 Clustering face images according to their identity has two important

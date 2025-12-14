@@ -7,7 +7,7 @@ year: 2018
 bibkey: tissier2018near
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.09065'}]
-tags: ["AAAI", "Evaluation", "Hashing Methods", "Memory Efficiency"]
+tags: [Hashing Methods, Evaluation, AAAI, Memory Efficiency]
 short_authors: Julien Tissier, Christophe Gravier, Amaury Habrard
 ---
 Word embeddings are commonly used as a starting point in many NLP models to

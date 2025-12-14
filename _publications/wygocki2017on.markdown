@@ -7,7 +7,7 @@ year: 2017
 bibkey: wygocki2017on
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.05902'}]
-tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing]
 short_authors: Piotr Wygocki
 ---
 In this paper, we examine the hash functions expressed as scalar products,

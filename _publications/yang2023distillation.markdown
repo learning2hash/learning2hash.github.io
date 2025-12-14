@@ -7,7 +7,7 @@ year: 2023
 bibkey: yang2023distillation
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.06906'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Evaluation", "Quantization"]
+tags: [Evaluation, Efficiency, Distance Metric Learning, Datasets, Quantization]
 short_authors: Yang et al.
 ---
 Real-time visual localization often utilizes online computing, for which

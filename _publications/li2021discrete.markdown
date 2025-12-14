@@ -8,7 +8,7 @@ year: 2021
 bibkey: li2021discrete
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.04817'}]
-tags: ["Evaluation", "Hashing Methods"]
+tags: [Hashing Methods, Evaluation]
 short_authors: Li et al.
 ---
 This paper proposes a discrete knowledge graph (KG) embedding (DKGE) method,

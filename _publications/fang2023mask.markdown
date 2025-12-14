@@ -7,7 +7,7 @@ year: 2023
 bibkey: fang2023mask
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.07910'}]
-tags: ["Evaluation", "Text Retrieval", "Video Retrieval"]
+tags: [Text Retrieval, Evaluation, Video Retrieval]
 short_authors: Fang et al.
 ---
 Recently, masked video modeling has been widely explored and significantly

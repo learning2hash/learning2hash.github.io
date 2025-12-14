@@ -7,7 +7,7 @@ year: 2020
 bibkey: zhang2020deepemd
 citations: 38
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.06777'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot]
 short_authors: Zhang et al.
 ---
 In this work, we develop methods for few-shot image classification from a new

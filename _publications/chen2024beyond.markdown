@@ -7,7 +7,7 @@ year: 2024
 bibkey: chen2024beyond
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.12407'}]
-tags: ["Datasets", "Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets]
 short_authors: Chen et al.
 ---
 Video-text retrieval has seen significant advancements, yet the ability of

@@ -8,7 +8,7 @@ bibkey: liang2018mile
 citations: 27
 additional_links: [{name: Code, url: 'https://github.com/jiongqian/MILE'}, {name: Paper,
     url: 'https://arxiv.org/abs/1802.09612'}]
-tags: ["Datasets", "Scalability", "Tools & Libraries"]
+tags: [Scalability, Tools & Libraries, Datasets]
 short_authors: Jiongqian Liang, Saket Gurukar, Srinivasan Parthasarathy
 ---
 Recently there has been a surge of interest in designing graph embedding

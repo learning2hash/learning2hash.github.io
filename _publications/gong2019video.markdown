@@ -7,7 +7,7 @@ year: 2019
 bibkey: gong2019video
 citations: 49
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.07327'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Sixue Gong, Yichun Shi, Anil K. Jain
 ---
 We propose a new approach to video face recognition. Our component-wise

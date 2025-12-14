@@ -7,7 +7,8 @@ year: 2021
 bibkey: lu2021deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.12478'}]
-tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
+tags: [Compact Codes, Evaluation, Image Retrieval, Neural Hashing, Datasets, Quantization,
+  Hashing Methods]
 short_authors: Lu et al.
 ---
 Recently, deep hashing methods have been widely used in image retrieval task.

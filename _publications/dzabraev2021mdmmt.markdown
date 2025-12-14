@@ -8,7 +8,7 @@ year: 2021
 bibkey: dzabraev2021mdmmt
 citations: 105
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.10699'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Video Retrieval"]
+tags: [Video Retrieval, Evaluation, CVPR, Datasets]
 short_authors: Dzabraev et al.
 ---
 We present a new state-of-the-art on the text to video retrieval task on

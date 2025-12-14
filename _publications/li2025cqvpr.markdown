@@ -7,7 +7,7 @@ year: 2025
 bibkey: li2025cqvpr
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.08170'}]
-tags: ["Datasets", "Supervised"]
+tags: [Supervised, Datasets]
 short_authors: Dongyue Li, Daisuke Deguchi, Hiroshi Murase
 ---
 Visual Place Recognition (VPR) aims to estimate the location of the given

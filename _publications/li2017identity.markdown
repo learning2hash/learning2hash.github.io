@@ -7,7 +7,7 @@ year: 2017
 bibkey: li2017identity
 citations: 259
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.01988'}]
-tags: ["Datasets", "ICCV", "Tools & Libraries"]
+tags: [ICCV, Tools & Libraries, Datasets]
 short_authors: Li et al.
 ---
 Textual-visual matching aims at measuring similarities between sentence

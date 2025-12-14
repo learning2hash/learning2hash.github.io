@@ -8,7 +8,8 @@ bibkey: liu2019semantic
 citations: 116
 additional_links: [{name: Code, url: 'https://github.com/qliu24/SAKE'}, {name: Paper,
     url: 'https://arxiv.org/abs/1904.03208'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "ICCV", "Image Retrieval"]
+tags: [Evaluation, ICCV, Image Retrieval, Few-shot & Zero-shot, Datasets, Tools &
+    Libraries]
 short_authors: Liu et al.
 ---
 Sketch-based image retrieval (SBIR) is widely recognized as an important

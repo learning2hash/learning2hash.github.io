@@ -8,7 +8,7 @@ year: 2016
 bibkey: diaz2016query
 citations: 195
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.07891'}]
-tags: ["Uncategorized"]
+tags: [ACL]
 short_authors: Fernando Diaz, Bhaskar Mitra, Nick Craswell
 ---
 Continuous space word embeddings have received a great deal of attention in

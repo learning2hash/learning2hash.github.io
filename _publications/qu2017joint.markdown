@@ -7,7 +7,8 @@ year: 2017
 bibkey: qu2017joint
 citations: 54
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.05072'}]
-tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Evaluation", "Tree Based ANN"]
+tags: [Tree-based ANN, Evaluation, Efficiency, Distance Metric Learning, Datasets,
+  Scalability]
 short_authors: Qu et al.
 ---
 We investigate the scalable image classification problem with a large number

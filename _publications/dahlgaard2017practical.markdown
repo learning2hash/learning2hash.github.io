@@ -7,7 +7,7 @@ year: 2017
 bibkey: dahlgaard2017practical
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08797'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Scalability, Evaluation]
 short_authors: "S\xF8ren Dahlgaard, Mathias B\xE6k Tejs Knudsen, Mikkel Thorup"
 ---
 Hashing is a basic tool for dimensionality reduction employed in several

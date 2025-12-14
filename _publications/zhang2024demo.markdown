@@ -9,7 +9,8 @@ year: 2024
 bibkey: zhang2024demo
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.11496'}]
-tags: ["Datasets", "Hashing Methods", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [NAACL, Evaluation, Supervised, Self-Supervised, Datasets, Scalability, Unsupervised,
+  Hashing Methods, ACL]
 short_authors: Zhang et al.
 ---
 Image-text matching has been a long-standing problem, which seeks to connect

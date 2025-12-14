@@ -8,7 +8,7 @@ bibkey: huang2024cross
 citations: 23
 additional_links: [{name: Code, url: 'https://github.com/lerogo/aaai24_itr_cusa'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.05261'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Datasets, AAAI]
 short_authors: Huang et al.
 ---
 Current image-text retrieval methods have demonstrated impressive performance

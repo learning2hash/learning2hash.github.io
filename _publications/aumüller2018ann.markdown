@@ -8,7 +8,7 @@ bibkey: "aum\xFCller2018ann"
 citations: 5
 additional_links: [{name: Other, url: 'http://ann-benchmarks.com'}, {name: Paper,
     url: 'https://arxiv.org/abs/1807.05614'}]
-tags: ["Evaluation", "Similarity Search", "Survey Paper"]
+tags: [Evaluation, Similarity Search, Survey Paper]
 short_authors: "Martin Aum\xFCller, Erik Bernhardsson, Alexander Faithfull"
 ---
 This paper describes ANN-Benchmarks, a tool for evaluating the performance of

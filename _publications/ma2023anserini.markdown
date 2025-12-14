@@ -8,7 +8,7 @@ year: 2023
 bibkey: ma2023anserini
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.12139'}]
-tags: ["CIKM", "Datasets", "Efficiency", "Graph Based ANN", "Tools & Libraries"]
+tags: [Efficiency, Graph-based ANN, Datasets, Tools & Libraries, CIKM]
 short_authors: Xueguang Ma, Tommaso Teofili, Jimmy Lin
 ---
 Anserini is a Lucene-based toolkit for reproducible information retrieval

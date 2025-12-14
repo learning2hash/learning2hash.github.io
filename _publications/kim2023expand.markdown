@@ -8,7 +8,7 @@ year: 2023
 bibkey: kim2023expand
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.07342'}]
-tags: ["Evaluation", "Quantization", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: [Evaluation, Supervised, Quantization, Unsupervised, Tools & Libraries]
 short_authors: Kim et al.
 ---
 Unsupervised semantic segmentation (USS) aims to discover and recognize

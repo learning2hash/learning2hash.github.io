@@ -8,7 +8,8 @@ year: 2019
 bibkey: fain2019dividing
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.12763'}]
-tags: ["Datasets", "Distance Metric Learning", "Multimodal Retrieval", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, Distance Metric Learning, Self-Supervised, Datasets,
+  Multimodal Retrieval]
 short_authors: Fain et al.
 ---
 We propose a novel non-parametric method for cross-modal recipe retrieval

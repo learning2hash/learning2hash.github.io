@@ -7,7 +7,8 @@ year: 2019
 bibkey: gomez2019self
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.02004'}]
-tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Self-Supervised, Datasets, Multimodal
+    Retrieval]
 short_authors: Gomez et al.
 ---
 Self-Supervised learning from multimodal image and text data allows deep

@@ -7,7 +7,7 @@ year: 2020
 bibkey: liu2020neuromorphic
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.01380'}]
-tags: ["Efficiency", "Evaluation", "Image Retrieval", "Neural Hashing", "Recommender Systems"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Efficiency, Recommender Systems]
 short_authors: Liu et al.
 ---
 Neuromorphic computing mimics the neural activity of the brain through

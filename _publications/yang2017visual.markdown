@@ -9,7 +9,8 @@ year: 2017
 bibkey: yang2017visual
 citations: 116
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.03154'}]
-tags: ["Datasets", "Image Retrieval", "Neural Hashing", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Neural Hashing, Datasets, Scalability,
+  Unsupervised, KDD]
 short_authors: Yang et al.
 ---
 In this paper, we propose a novel end-to-end approach for scalable visual

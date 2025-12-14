@@ -7,7 +7,7 @@ year: 2018
 bibkey: woodbridge2018detecting
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.09738'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Tree Based ANN"]
+tags: [Evaluation, Tree-based ANN, Datasets, Efficiency]
 short_authors: Woodbridge et al.
 ---
 A homoglyph (name spoofing) attack is a common technique used by adversaries

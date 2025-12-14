@@ -7,7 +7,7 @@ year: 2022
 bibkey: tian2022a
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.10028'}]
-tags: ["Datasets", "Efficiency", "Similarity Search", "Vector Indexing"]
+tags: [Similarity Search, Vector Indexing, Datasets, Efficiency]
 short_authors: Tian et al.
 ---
 Indexing is an effective way to support efficient query processing in large

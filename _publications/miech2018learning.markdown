@@ -8,7 +8,7 @@ bibkey: miech2018learning
 citations: 174
 additional_links: [{name: Code, url: 'https://github.com/antoine77340/Mixture-of-Embedding-Experts'},
   {name: Paper, url: 'https://arxiv.org/abs/1804.02516'}]
-tags: ["Datasets", "Scalability", "Text Retrieval", "Tools & Libraries", "Video Retrieval"]
+tags: [Video Retrieval, Datasets, Scalability, Tools & Libraries, Text Retrieval]
 short_authors: Antoine Miech, Ivan Laptev, Josef Sivic
 ---
 Joint understanding of video and language is an active research area with

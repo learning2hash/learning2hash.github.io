@@ -9,7 +9,7 @@ year: 2023
 bibkey: askari2023retrieval
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.01200'}]
-tags: ["Datasets", "Efficiency", "Evaluation"]
+tags: [Evaluation, Datasets, Efficiency]
 short_authors: Askari et al.
 ---
 Retrieval with extremely long queries and documents is a well-known and

@@ -8,7 +8,7 @@ year: 2023
 bibkey: yousefzadeh2023a
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.08398'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Robustness"]
+tags: [Evaluation, Image Retrieval, Distance Metric Learning, Datasets, Robustness]
 short_authors: Saeideh Yousefzadeh, Hamidreza Pourreza, Hamidreza Mahyar
 ---
 Content-based image retrieval is the process of retrieving a subset of images

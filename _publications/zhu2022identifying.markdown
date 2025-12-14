@@ -7,7 +7,7 @@ year: 2022
 bibkey: zhu2022identifying
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.00447'}]
-tags: ["Datasets", "Recommender Systems"]
+tags: [Recommender Systems, Datasets]
 short_authors: Ziyue Zhu
 ---
 We consider the noir classification problem by exploring noir attributes and

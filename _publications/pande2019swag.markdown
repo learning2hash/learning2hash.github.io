@@ -7,7 +7,7 @@ year: 2019
 bibkey: pande2019swag
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.10232'}]
-tags: ["Evaluation", "Graph Based ANN", "Recommender Systems"]
+tags: [Evaluation, Graph-based ANN, Recommender Systems]
 short_authors: Amit Pande, Kai Ni, Venkataramani Kini
 ---
 Recent advancements in deep neural networks for graph-structured data have

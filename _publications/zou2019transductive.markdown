@@ -7,7 +7,8 @@ year: 2019
 bibkey: zou2019transductive
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.07192'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Quantization"]
+tags: [Compact Codes, Evaluation, Image Retrieval, Few-shot & Zero-shot, Datasets,
+  Quantization, Scalability, Hashing Methods]
 short_authors: Zou et al.
 ---
 Hash coding has been widely used in approximate nearest neighbor search for

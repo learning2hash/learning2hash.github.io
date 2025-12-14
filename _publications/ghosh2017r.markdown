@@ -8,7 +8,7 @@ year: 2017
 bibkey: ghosh2017r
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.01294'}]
-tags: ["Datasets", "Similarity Search"]
+tags: [Datasets, Similarity Search]
 short_authors: Suman Ghosh, Ernest Valveny
 ---
 This paper proposes a region based convolutional neural network for

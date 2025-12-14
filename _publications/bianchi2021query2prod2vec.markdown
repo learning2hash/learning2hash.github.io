@@ -9,7 +9,7 @@ year: 2021
 bibkey: bianchi2021query2prod2vec
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.02061'}]
-tags: ["Efficiency", "Evaluation", "NAACL"]
+tags: [NAACL, Evaluation, Efficiency, ACL]
 short_authors: Federico Bianchi, Jacopo Tagliabue, Bingqing Yu
 ---
 We present Query2Prod2Vec, a model that grounds lexical representations for

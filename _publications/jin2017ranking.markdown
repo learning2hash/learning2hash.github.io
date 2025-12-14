@@ -8,7 +8,7 @@ year: 2017
 bibkey: jin2017ranking
 citations: 196
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.05455'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation]
 short_authors: Jin et al.
 ---
 In this paper, we propose a ranking based locality sensitive hashing inspired

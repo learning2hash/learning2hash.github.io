@@ -8,7 +8,7 @@ year: 2023
 bibkey: "b\xF6hne2023extending"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.14786'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval"]
+tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Multimodal Retrieval]
 short_authors: "Nils B\xF6hne, Mark Berger, Ronald van Velzen"
 ---
 Nowadays, one of the critical challenges in forensics is analyzing the

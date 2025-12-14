@@ -8,7 +8,7 @@ year: 2023
 bibkey: centurion2023geometric
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.12377'}]
-tags: ["Uncategorized"]
+tags: [Uncategorized]
 short_authors: Centurion et al.
 ---
 We propose a label poisoning attack on geometric data sets against

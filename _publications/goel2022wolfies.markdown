@@ -9,7 +9,7 @@ year: 2022
 bibkey: goel2022wolfies
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.09715'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
+tags: [Distance Metric Learning, Evaluation, Datasets]
 short_authors: Nikhil Goel, Ranjith Reddy
 ---
 This work is about finding the similarity between a pair of news articles.

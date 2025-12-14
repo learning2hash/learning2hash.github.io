@@ -7,7 +7,7 @@ year: 2023
 bibkey: wu2023pix2map
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.04224'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets, Multimodal Retrieval, CVPR]
 short_authors: Wu et al.
 ---
 Self-driving vehicles rely on urban street maps for autonomous navigation. In

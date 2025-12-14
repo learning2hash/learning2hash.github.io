@@ -8,7 +8,7 @@ year: 2023
 bibkey: kim2023semantic
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.05692'}]
-tags: ["Datasets", "Evaluation", "ICASSP", "Robustness", "Text Retrieval"]
+tags: [ICASSP, Evaluation, Datasets, Robustness, Text Retrieval]
 short_authors: Kim et al.
 ---
 Image text retrieval is a task to search for the proper textual descriptions

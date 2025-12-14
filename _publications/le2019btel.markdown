@@ -7,7 +7,7 @@ year: 2019
 bibkey: le2019btel
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.11992'}]
-tags: ["Efficiency", "Evaluation", "Image Retrieval", "Quantization"]
+tags: [Evaluation, Quantization, Image Retrieval, Efficiency]
 short_authors: Huu Le, Tuan Hoang, Michael Milford
 ---
 Visual localization algorithms have achieved significant improvements in

@@ -8,7 +8,7 @@ bibkey: diao2024deep
 citations: 5
 additional_links: [{name: Code, url: 'https://github.com/Paranioar/DBL'}, {name: Paper,
     url: 'https://arxiv.org/abs/2404.18114'}]
-tags: ["Distance Metric Learning", "Evaluation", "Self-Supervised"]
+tags: [Distance Metric Learning, Evaluation, Self-Supervised]
 short_authors: Diao et al.
 ---
 Image-text matching remains a challenging task due to heterogeneous semantic

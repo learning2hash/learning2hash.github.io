@@ -8,7 +8,8 @@ year: 2022
 bibkey: dereka2022deep
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.11195'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Neural Hashing, Datasets, Scalability,
+  CVPR]
 short_authors: Stanislav Dereka, Ivan Karpukhin, Sergey Kolesnikov
 ---
 Large-scale datasets are essential for the success of deep learning in image

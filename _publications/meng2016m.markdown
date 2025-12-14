@@ -8,7 +8,7 @@ year: 2016
 bibkey: meng2016m
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.05519'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Neural Hashing", "Tools & Libraries"]
+tags: [Evaluation, Neural Hashing, Distance Metric Learning, Datasets, Tools & Libraries]
 short_authors: Lingxun Meng, Yan Li
 ---
 Recent works using artificial neural networks based on distributed word

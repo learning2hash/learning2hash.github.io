@@ -8,7 +8,7 @@ year: 2017
 bibkey: chen2017doctag2vec
 citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.04596'}]
-tags: ["Datasets", "Recommender Systems"]
+tags: [Recommender Systems, Datasets]
 short_authors: Chen et al.
 ---
 Tagging news articles or blog posts with relevant tags from a collection of

@@ -8,7 +8,7 @@ year: 2024
 bibkey: wang2024advancing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.00440'}]
-tags: ["Evaluation", "Scalability", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation, Scalability]
 short_authors: Wang et al.
 ---
 In rapidly evolving field of vision-language models (VLMs), contrastive

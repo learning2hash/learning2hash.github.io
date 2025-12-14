@@ -11,7 +11,7 @@ bibkey: dong2023from
 citations: 10
 additional_links: [{name: Code, url: 'https://github.com/HuiGuanLab/RPF'}, {name: Paper,
     url: 'https://arxiv.org/abs/2305.10260'}]
-tags: ["Datasets", "SIGIR", "Self-Supervised", "Tools & Libraries"]
+tags: [Self-Supervised, Tools & Libraries, SIGIR, Datasets]
 short_authors: Dong et al.
 ---
 Attribute-specific fashion retrieval (ASFR) is a challenging information

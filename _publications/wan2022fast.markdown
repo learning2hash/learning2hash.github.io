@@ -10,7 +10,7 @@ year: 2022
 bibkey: wan2022fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.14226'}]
-tags: ["Hybrid ANN Methods", "NAACL", "Neural Hashing", "Re-Ranking", "Text Retrieval"]
+tags: [NAACL, Re-ranking, Neural Hashing, Text Retrieval, Hybrid ANN Methods, ACL]
 short_authors: Wan et al.
 ---
 Dialogue systems can benefit from being able to search through a corpus of

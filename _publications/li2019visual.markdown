@@ -8,7 +8,7 @@ bibkey: li2019visual
 citations: 553
 additional_links: [{name: Code, url: 'https://github.com/KunpengLi1994/VSRN'}, {name: Paper,
     url: 'https://arxiv.org/abs/1909.02701'}]
-tags: ["Datasets", "Evaluation", "ICCV", "Image Retrieval"]
+tags: [Evaluation, ICCV, Image Retrieval, Datasets]
 short_authors: Li et al.
 ---
 Image-text matching has been a hot research topic bridging the vision and

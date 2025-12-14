@@ -9,7 +9,7 @@ year: 2023
 bibkey: wang2023must
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.06397'}]
-tags: ["Datasets", "Efficiency", "Graph Based ANN", "Scalability", "Tools & Libraries"]
+tags: [Efficiency, Graph-based ANN, Datasets, Scalability, Tools & Libraries]
 short_authors: Wang et al.
 ---
 We investigate the problem of multimodal search of target modality, where the

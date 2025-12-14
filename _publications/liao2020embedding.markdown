@@ -7,7 +7,7 @@ year: 2020
 bibkey: liao2020embedding
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.05314'}]
-tags: ["AAAI", "Evaluation", "Image Retrieval", "Neural Hashing", "Quantization"]
+tags: [Evaluation, Image Retrieval, Neural Hashing, Quantization, AAAI]
 short_authors: Liao et al.
 ---
 Continuous representation of words is a standard component in deep

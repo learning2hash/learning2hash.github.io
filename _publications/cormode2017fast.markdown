@@ -7,7 +7,7 @@ year: 2017
 bibkey: cormode2017fast
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.01985'}]
-tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
+tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation]
 short_authors: Graham Cormode, Jacques Dark
 ---
 Many data sources can be interpreted as time-series, and a key problem is to

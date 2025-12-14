@@ -8,7 +8,7 @@ year: 2020
 bibkey: zhang2020leveraging
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.10891'}]
-tags: ["Image Retrieval", "Neural Hashing", "Tools & Libraries"]
+tags: [Image Retrieval, Tools & Libraries, Neural Hashing]
 short_authors: Pengju Zhang, Yihong Wu, Bingxi Liu
 ---
 Visual localization to compute 6DoF camera pose from a given image has wide

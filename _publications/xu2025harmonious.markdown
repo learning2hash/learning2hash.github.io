@@ -7,7 +7,7 @@ year: 2025
 bibkey: xu2025harmonious
 citations: 47
 additional_links: [{name: Paper, url: 'http://ijcai.org/papers13/Papers/IJCAI13-269.pdf'}]
-tags: ["Hashing Methods", "Scalability"]
+tags: [Hashing Methods, Scalability]
 short_authors: Xu et al.
 ---
 Hashing-based fast nearest neighbor search technique

@@ -7,7 +7,7 @@ year: 2018
 bibkey: gomez2018learning
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.06368'}]
-tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Datasets]
 short_authors: Gomez et al.
 ---
 In this paper we propose to learn a multimodal image and text embedding from

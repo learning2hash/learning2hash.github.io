@@ -7,7 +7,7 @@ year: 2016
 bibkey: castrejon2016learning
 citations: 193
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.07295'}]
-tags: ["CVPR", "Datasets"]
+tags: [CVPR, Datasets]
 short_authors: Castrejon et al.
 ---
 People can recognize scenes across many different modalities beyond natural

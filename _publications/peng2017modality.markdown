@@ -8,7 +8,7 @@ year: 2017
 bibkey: peng2017modality
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.04776'}]
-tags: ["Datasets", "Multimodal Retrieval", "Scalability", "Tools & Libraries"]
+tags: [Scalability, Tools & Libraries, Datasets, Multimodal Retrieval]
 short_authors: Yuxin Peng, Jinwei Qi, Yuxin Yuan
 ---
 Nowadays, cross-modal retrieval plays an indispensable role to flexibly find

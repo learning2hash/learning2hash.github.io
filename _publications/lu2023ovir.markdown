@@ -7,7 +7,7 @@ year: 2023
 bibkey: lu2023ovir
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.02873'}]
-tags: ["Datasets", "Efficiency"]
+tags: [Datasets, Efficiency]
 short_authors: Lu et al.
 ---
 This work presents OVIR-3D, a straightforward yet effective method for

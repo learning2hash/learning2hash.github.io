@@ -8,7 +8,7 @@ year: 2021
 bibkey: zhang2021where
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.08908'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Recommender Systems"]
+tags: [Evaluation, Distance Metric Learning, Recommender Systems, Datasets]
 short_authors: Zhang et al.
 ---
 Hyperbolic space and hyperbolic embeddings are becoming a popular research

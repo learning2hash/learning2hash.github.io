@@ -7,7 +7,7 @@ year: 2020
 bibkey: tchayekondi2020a
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.02290'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Supervised", "Tree Based ANN"]
+tags: [Tree-based ANN, Evaluation, Supervised, Efficiency, Datasets, Hashing Methods]
 short_authors: Jude Tchaye-Kondi, Yanlong Zhai, Liehuang Zhu
 ---
 KNN has the reputation to be the word simplest but efficient supervised

@@ -7,7 +7,7 @@ year: 2017
 bibkey: jain2017compact
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.08103'}]
-tags: ["Compact Codes", "Hashing Methods", "Neural Hashing", "Robustness", "Supervised"]
+tags: [Compact Codes, Supervised, Neural Hashing, Robustness, Hashing Methods]
 short_authors: Unnat Jain, Vinay P. Namboodiri, Gaurav Pandey
 ---
 Robust visual place recognition (VPR) requires scene representations that are

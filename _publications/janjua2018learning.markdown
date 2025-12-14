@@ -8,7 +8,7 @@ year: 2018
 bibkey: janjua2018learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.07037'}]
-tags: ["Distance Metric Learning"]
+tags: [Distance Metric Learning]
 short_authors: Janjua et al.
 ---
 Majority of the current dimensionality reduction or retrieval techniques rely

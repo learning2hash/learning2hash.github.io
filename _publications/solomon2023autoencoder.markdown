@@ -7,7 +7,7 @@ year: 2023
 bibkey: solomon2023autoencoder
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.14301'}]
-tags: ["Datasets", "Evaluation", "Neural Hashing", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Neural Hashing, Datasets, Unsupervised]
 short_authors: Enoch Solomon, Abraham Woubie, Eyael Solomon Emiru
 ---
 The primary objective of this work is to present an alternative approach

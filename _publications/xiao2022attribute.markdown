@@ -8,7 +8,7 @@ bibkey: xiao2022attribute
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/Dr-LingXiao/AG-MAN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2301.13014'}]
-tags: ["Datasets", "Evaluation"]
+tags: [Evaluation, Datasets]
 short_authors: Ling Xiao, Toshihiko Yamasaki
 ---
 Fine-grained fashion retrieval searches for items that share a similar

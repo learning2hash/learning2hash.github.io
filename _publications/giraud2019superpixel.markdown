@@ -7,7 +7,7 @@ year: 2019
 bibkey: giraud2019superpixel
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.06010'}]
-tags: ["Tools & Libraries"]
+tags: [Tools & Libraries]
 short_authors: "R\xE9mi Giraud, Vinh-Thong Ta, Nicolas Papadakis"
 ---
 In this work, we propose a fast superpixel-based color transfer method (SCT)

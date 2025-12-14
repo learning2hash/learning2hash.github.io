@@ -10,7 +10,7 @@ year: 2020
 bibkey: fan2020multi
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.09026'}]
-tags: ["Datasets", "Evaluation", "ICASSP", "Neural Hashing"]
+tags: [Evaluation, ICASSP, Datasets, Neural Hashing]
 short_authors: Fan et al.
 ---
 Realistic recordings of soundscapes often have multiple sound events

@@ -8,7 +8,7 @@ bibkey: li2023prototype
 citations: 6
 additional_links: [{name: Code, url: 'https://github.com/leolee99/PAU'}, {name: Paper,
     url: 'https://arxiv.org/abs/2309.17093'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, Datasets, Multimodal Retrieval]
 short_authors: Li et al.
 ---
 Cross-modal Retrieval methods build similarity relations between vision and

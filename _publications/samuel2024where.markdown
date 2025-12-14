@@ -7,7 +7,7 @@ year: 2024
 bibkey: samuel2024where
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.18025'}]
-tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Self-Supervised, Datasets, Unsupervised]
 short_authors: Samuel et al.
 ---
 Personalized retrieval and segmentation aim to locate specific instances

@@ -7,7 +7,7 @@ year: 2019
 bibkey: stylianou2019visualizing
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.00536'}]
-tags: ["Similarity Search"]
+tags: [Similarity Search]
 short_authors: Abby Stylianou, Richard Souvenir, Robert Pless
 ---
 For convolutional neural network models that optimize an image embedding, we

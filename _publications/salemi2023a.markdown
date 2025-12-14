@@ -9,7 +9,7 @@ year: 2023
 bibkey: salemi2023a
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.13649'}]
-tags: ["Datasets", "Evaluation", "SIGIR", "Tools & Libraries"]
+tags: [Evaluation, Tools & Libraries, SIGIR, Datasets]
 short_authors: Alireza Salemi, Juan Altmayer Pizzorno, Hamed Zamani
 ---
 Knowledge-Intensive Visual Question Answering (KI-VQA) refers to answering a

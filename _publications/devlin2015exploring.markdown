@@ -8,7 +8,7 @@ year: 2015
 bibkey: devlin2015exploring
 citations: 158
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1505.04467'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Devlin et al.
 ---
 We explore a variety of nearest neighbor baseline approaches for image

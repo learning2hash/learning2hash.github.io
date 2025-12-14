@@ -7,7 +7,7 @@ year: 2024
 bibkey: kleyko2024on
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.14741'}]
-tags: ["Evaluation", "Locality-Sensitive-Hashing", "Similarity Search"]
+tags: [Locality Sensitive Hashing, Evaluation, Similarity Search]
 short_authors: Denis Kleyko, Dmitri A. Rachkovskij
 ---
 Expand & Sparsify is a principle that is observed in anatomically similar

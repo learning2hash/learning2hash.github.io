@@ -7,7 +7,8 @@ year: 2024
 bibkey: wu2024sketchtriplet
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.18801'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised", "Supervised"]
+tags: [Evaluation, Supervised, Image Retrieval, Few-shot & Zero-shot, Self-Supervised,
+  Datasets, Scalability]
 short_authors: Zhenbei Wu, Qiang Wang, Jie Yang
 ---
 The scarcity of free-hand sketch presents a challenging problem. Despite the

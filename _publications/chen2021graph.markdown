@@ -9,7 +9,7 @@ year: 2021
 bibkey: chen2021graph
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.13552'}]
-tags: ["Datasets", "Graph Based ANN", "Multimodal Retrieval", "Supervised", "Unsupervised"]
+tags: [Evaluation, Supervised, Graph-based ANN, Datasets, Multimodal Retrieval, Unsupervised]
 short_authors: Xueying Chen, Rong Zhang, Yibing Zhan
 ---
 Cross-modal retrieval aims to enable flexible retrieval experience by

@@ -8,7 +8,7 @@ year: 2024
 bibkey: rizve2024vidla
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.14870'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Scalability"]
+tags: [Scalability, Evaluation, CVPR, Datasets]
 short_authors: Rizve et al.
 ---
 In this paper, we propose VidLA, an approach for video-language alignment at

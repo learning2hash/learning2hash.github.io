@@ -9,7 +9,7 @@ year: 2023
 bibkey: chen2023eve
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.11971'}]
-tags: ["Evaluation", "Text Retrieval"]
+tags: [Text Retrieval, Evaluation]
 short_authors: Chen et al.
 ---
 Building scalable vision-language models to learn from diverse, multimodal

@@ -8,7 +8,7 @@ year: 2021
 bibkey: hendriksen2021extending
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.11294'}]
-tags: ["Evaluation", "Image Retrieval", "Recommender Systems"]
+tags: [Evaluation, Image Retrieval, Recommender Systems]
 short_authors: Hendriksen et al.
 ---
 E-commerce provides rich multimodal data that is barely leveraged in

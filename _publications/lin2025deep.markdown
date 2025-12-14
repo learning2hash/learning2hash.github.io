@@ -8,7 +8,8 @@ year: 2025
 bibkey: lin2025deep
 citations: 631
 additional_links: [{name: Paper, url: 'http://www.iis.sinica.edu.tw/~kevinlin311.tw/cvprw15.pdf'}]
-tags: ["Compact Codes", "Datasets", "Image Retrieval", "Neural Hashing", "Supervised"]
+tags: [Compact Codes, Supervised, Image Retrieval, Neural Hashing, Datasets, Scalability,
+  CVPR, Tools & Libraries, Hashing Methods]
 short_authors: Lin et al.
 ---
 Approximate nearest neighbor search is an efficient strategy for large-scale image retrieval. Encouraged by the recent advances in convolutional neural networks (CNNs), we propose an effective deep learning framework to generate binary hash codes for fast image retrieval. Our idea is that when the data labels are available, binary codes can be learned by employing a hidden layer for representing the latent concepts that dominate the class labels.

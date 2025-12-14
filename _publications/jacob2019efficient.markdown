@@ -7,7 +7,7 @@ year: 2019
 bibkey: jacob2019efficient
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.01972'}]
-tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
+tags: [Evaluation, Image Retrieval, Datasets, Efficiency]
 short_authors: Jacob et al.
 ---
 Learning rich and compact representations is an open topic in many fields

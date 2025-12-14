@@ -10,7 +10,7 @@ bibkey: qiu2022dureader_retrieval
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/baidu/DuReader/tree/master/DuReader-Retrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2203.10232'}]
-tags: ["Datasets", "Evaluation", "Scalability"]
+tags: [Scalability, Evaluation, Datasets]
 short_authors: Qiu et al.
 ---
 In this paper, we present DuReader_retrieval, a large-scale Chinese dataset

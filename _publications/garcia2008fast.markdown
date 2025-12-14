@@ -8,7 +8,7 @@ year: 2008
 bibkey: garcia2008fast
 citations: 440
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/0804.1448'}]
-tags: ["CVPR", "Tools & Libraries"]
+tags: [CVPR, Tools & Libraries]
 short_authors: Vincent Garcia, Eric Debreuve, Michel Barlaud
 ---
 The recent improvements of graphics processing units (GPU) offer to the

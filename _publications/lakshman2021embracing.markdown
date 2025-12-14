@@ -8,7 +8,7 @@ year: 2021
 bibkey: lakshman2021embracing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.06125'}]
-tags: ["Datasets", "Large Scale Search", "Scalability"]
+tags: [Scalability, Large-Scale Search, Datasets]
 short_authors: Lakshman et al.
 ---
 We present principled approaches to train and deploy dyadic neural embedding

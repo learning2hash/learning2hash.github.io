@@ -9,7 +9,7 @@ bibkey: najdenkoska2024tulip
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/ivonajdenkoska/tulip'}, {
     name: Paper, url: 'https://arxiv.org/abs/2410.10034'}]
-tags: ["Evaluation"]
+tags: [Evaluation]
 short_authors: Najdenkoska et al.
 ---
 We address the challenge of representing long captions in vision-language

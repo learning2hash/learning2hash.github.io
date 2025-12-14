@@ -7,7 +7,7 @@ year: 2016
 bibkey: veit2016conditional
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.07810'}]
-tags: ["CVPR", "Evaluation"]
+tags: [Evaluation, CVPR]
 short_authors: Andreas Veit, Serge Belongie, Theofanis Karaletsos
 ---
 What makes images similar? To measure the similarity between images, they are

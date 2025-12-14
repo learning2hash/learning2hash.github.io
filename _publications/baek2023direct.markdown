@@ -8,7 +8,7 @@ year: 2023
 bibkey: baek2023direct
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.12416'}]
-tags: ["Re-Ranking", "Tools & Libraries"]
+tags: [Tools & Libraries, Re-ranking, ACL]
 short_authors: Baek et al.
 ---
 There has been a surge of interest in utilizing Knowledge Graphs (KGs) for

@@ -7,7 +7,7 @@ year: 2018
 bibkey: cao2018end
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.10213'}]
-tags: ["Efficiency", "Evaluation", "Quantization"]
+tags: [Evaluation, Quantization, Efficiency]
 short_authors: Cao et al.
 ---
 Latent fingerprints are one of the most important and widely used sources of

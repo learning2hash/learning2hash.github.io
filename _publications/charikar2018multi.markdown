@@ -7,7 +7,7 @@ year: 2018
 bibkey: charikar2018multi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.07635'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "Tools & Libraries"]
+tags: [Hashing Methods, Tools & Libraries, Datasets, Efficiency]
 short_authors: Moses Charikar, Paris Siminelakis
 ---
 A basic computational primitive in the analysis of massive datasets is

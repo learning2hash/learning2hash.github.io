@@ -7,7 +7,7 @@ year: 2025
 bibkey: lu2025cross
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.04645'}]
-tags: ["Evaluation", "Scalability"]
+tags: [Scalability, Evaluation]
 short_authors: Meng Lu, Catherine Chen, Carsten Eickhoff
 ---
 Neural Ranking Models (NRMs) have rapidly advanced state-of-the-art

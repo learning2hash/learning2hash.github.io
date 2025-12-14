@@ -7,7 +7,8 @@ year: 2016
 bibkey: zhang2016scalable
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.08740'}]
-tags: ["Compact Codes", "Datasets", "Hashing Methods", "Scalability", "Supervised"]
+tags: [Compact Codes, Supervised, Efficiency, Datasets, Memory Efficiency, Scalability,
+  Tools & Libraries, Hashing Methods]
 short_authors: Zhang et al.
 ---
 Hashing method maps similar data to binary hashcodes with smaller hamming

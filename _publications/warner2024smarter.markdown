@@ -11,7 +11,7 @@ year: 2024
 bibkey: warner2024smarter
 citations: 48
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.13663'}]
-tags: ["Evaluation"]
+tags: [Evaluation, ACL]
 short_authors: Warner et al.
 ---
 Encoder-only transformer models such as BERT offer a great performance-size

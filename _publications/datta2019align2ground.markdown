@@ -7,7 +7,7 @@ year: 2019
 bibkey: datta2019align2ground
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.11649'}]
-tags: ["Datasets", "ICCV", "Image Retrieval", "Supervised"]
+tags: [ICCV, Supervised, Image Retrieval, Datasets]
 short_authors: Datta et al.
 ---
 We address the problem of grounding free-form textual phrases by using weak

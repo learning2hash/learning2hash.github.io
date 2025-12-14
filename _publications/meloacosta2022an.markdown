@@ -9,7 +9,8 @@ year: 2022
 bibkey: meloacosta2022an
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.04310'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
+tags: [Evaluation, Datasets, Scalability, Tools & Libraries, Hashing Methods, Locality
+    Sensitive Hashing]
 short_authors: "Germ\xE1n E. Melo-Acosta, Freddy Duitama-Mu\xF1oz, Juli\xE1n D. Arias-Londo\xF1\
   o"
 ---

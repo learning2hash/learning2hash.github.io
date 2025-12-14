@@ -7,7 +7,7 @@ year: 2022
 bibkey: robberechts2022elastic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.01856'}]
-tags: ["Datasets", "Evaluation", "Memory Efficiency", "Quantization", "Similarity Search"]
+tags: [Evaluation, Similarity Search, Efficiency, Datasets, Memory Efficiency, Quantization]
 short_authors: Pieter Robberechts, Wannes Meert, Jesse Davis
 ---
 Analyzing numerous or long time series is difficult in practice due to the

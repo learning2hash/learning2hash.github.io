@@ -8,7 +8,7 @@ year: 2023
 bibkey: peer2023feature
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.12939'}]
-tags: ["Evaluation", "Neural Hashing"]
+tags: [Evaluation, Neural Hashing]
 short_authors: Marco Peer, Robert Sablatnig
 ---
 This paper proposes a deep-learning-based approach to writer retrieval and

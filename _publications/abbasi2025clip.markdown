@@ -9,7 +9,7 @@ bibkey: abbasi2025clip
 citations: 0
 additional_links: [{name: Code, url: 'https://clip-oscope.github.io'}, {name: Paper,
     url: 'https://arxiv.org/abs/2502.19842'}]
-tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot"]
+tags: [Evaluation, CVPR, Few-shot & Zero-shot, Datasets]
 short_authors: Abbasi et al.
 ---
 Contrastive Language-Image Pre-training (CLIP) models excel in zero-shot

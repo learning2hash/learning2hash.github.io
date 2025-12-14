@@ -8,7 +8,7 @@ year: 2023
 bibkey: eom2023cross
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.15273'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval"]
+tags: [Evaluation, Multimodal Retrieval, Datasets, Few-shot & Zero-shot]
 short_authors: Eom et al.
 ---
 Contrastive language-image pre-training (CLIP) has demonstrated remarkable

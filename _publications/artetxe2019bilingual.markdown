@@ -8,7 +8,7 @@ year: 2019
 bibkey: artetxe2019bilingual
 citations: 49
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.10761'}]
-tags: ["Datasets", "Supervised", "Unsupervised"]
+tags: [Supervised, Unsupervised, Datasets, ACL]
 short_authors: Mikel Artetxe, Gorka Labaka, Eneko Agirre
 ---
 A recent research line has obtained strong results on bilingual lexicon

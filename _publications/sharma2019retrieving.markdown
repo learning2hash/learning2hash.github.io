@@ -7,7 +7,7 @@ year: 2019
 bibkey: sharma2019retrieving
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.03546'}]
-tags: ["Datasets", "Image Retrieval", "Neural Hashing"]
+tags: [Image Retrieval, Datasets, Neural Hashing]
 short_authors: Rishab Sharma, Anirudha Vishvakarma
 ---
 In this paper, we propose a deep convolutional neural network for learning

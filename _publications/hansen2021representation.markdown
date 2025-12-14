@@ -7,7 +7,7 @@ year: 2021
 bibkey: hansen2021representation
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.01815'}]
-tags: ["Efficiency", "Hashing Methods", "Recommender Systems", "Similarity Search"]
+tags: [Hashing Methods, Similarity Search, Recommender Systems, Efficiency]
 short_authors: Casper Hansen
 ---
 How data is represented and operationalized is critical for building
