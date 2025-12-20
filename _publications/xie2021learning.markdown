@@ -8,7 +8,7 @@ year: 2021
 bibkey: xie2021learning
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.00724'}]
-tags: [Evaluation, Datasets, Multimodal Retrieval]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
 short_authors: Xie et al.
 ---
 It is widely acknowledged that learning joint embeddings of recipes with

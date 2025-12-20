@@ -7,7 +7,7 @@ year: 2020
 bibkey: lav2020proximity
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.01793'}]
-tags: [Hashing Methods, Compact Codes, Tools & Libraries, AAAI]
+tags: ["AAAI", "Compact Codes", "Hashing Methods", "Tools & Libraries"]
 short_authors: Lav et al.
 ---
 We introduce a binary embedding framework, called Proximity Preserving Code

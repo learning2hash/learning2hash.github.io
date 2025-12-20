@@ -8,7 +8,7 @@ bibkey: quedenfeld2017variant
 citations: 4
 additional_links: [{name: Code, url: 'https://bitbucket.org/Quedenfeld/vatram-src/'},
   {name: Paper, url: 'https://arxiv.org/abs/1702.01703'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation]
+tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Jens Quedenfeld, Sven Rahmann
 ---
 DNA read mapping is a ubiquitous task in bioinformatics, and many tools have

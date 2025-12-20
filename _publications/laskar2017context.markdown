@@ -7,7 +7,7 @@ year: 2017
 bibkey: laskar2017context
 citations: 43
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.01226'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Zakaria Laskar, Juho Kannala
 ---
 The current models of image representation based on Convolutional Neural

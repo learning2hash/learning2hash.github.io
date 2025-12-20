@@ -7,7 +7,7 @@ year: 2025
 bibkey: ren2025enhanced
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.01476'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Junlong Ren, Hao Wang
 ---
 Cross-modal 3D retrieval is a critical yet challenging task, aiming to

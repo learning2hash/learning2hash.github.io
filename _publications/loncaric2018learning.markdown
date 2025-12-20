@@ -7,7 +7,7 @@ year: 2018
 bibkey: loncaric2018learning
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.01008'}]
-tags: [Hashing Methods, Evaluation, Vector Indexing, Similarity Search]
+tags: ["Evaluation", "Hashing Methods", "Similarity Search", "Vector Indexing"]
 short_authors: Martin Loncaric, Bowei Liu, Ryan Weber
 ---
 We present a powerful new loss function and training scheme for learning

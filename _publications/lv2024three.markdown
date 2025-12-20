@@ -8,7 +8,7 @@ year: 2024
 bibkey: lv2024three
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.09692'}]
-tags: [Evaluation, Re-ranking, Neural Hashing, Efficiency, Robustness]
+tags: ["Efficiency", "Evaluation", "Neural Hashing", "Re-Ranking", "Robustness"]
 short_authors: Lv et al.
 ---
 Deep hash-based retrieval techniques are widely used in facial retrieval

@@ -9,7 +9,7 @@ bibkey: wang2022english
 citations: 14
 additional_links: [{name: Code, url: 'https://github.com/yaushian/mSimCSE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2211.06127'}]
-tags: [Evaluation, Supervised, Self-Supervised, Unsupervised, EMNLP]
+tags: ["EMNLP", "Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Yau-Shian Wang, Ashley Wu, Graham Neubig
 ---
 Universal cross-lingual sentence embeddings map semantically similar

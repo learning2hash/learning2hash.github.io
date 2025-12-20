@@ -7,7 +7,7 @@ year: 2025
 bibkey: berton2025astroloc
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.07003'}]
-tags: [Evaluation, Supervised, Image Retrieval, Datasets, Unsupervised]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Gabriele Berton, Alex Stoken, Carlo Masone
 ---
 Astronauts take thousands of photos of Earth per day from the International

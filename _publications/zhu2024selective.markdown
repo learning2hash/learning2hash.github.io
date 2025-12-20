@@ -8,7 +8,7 @@ bibkey: zhu2024selective
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/zhuhsingyuu/SSP'}, {name: Paper,
     url: 'https://arxiv.org/abs/2407.16977'}]
-tags: [Evaluation, Tools & Libraries, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Zhu et al.
 ---
 Vision-language models such as CLIP are capable of mapping the different

@@ -7,7 +7,7 @@ year: 2022
 bibkey: song2022supergf
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.13105'}]
-tags: [Evaluation, Image Retrieval, Efficiency]
+tags: ["Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Song et al.
 ---
 Advanced visual localization techniques encompass image retrieval challenges

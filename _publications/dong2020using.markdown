@@ -7,7 +7,7 @@ year: 2020
 bibkey: dong2020using
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.09928'}]
-tags: [Text Retrieval, Image Retrieval, Datasets]
+tags: ["Datasets", "Image Retrieval", "Text Retrieval"]
 short_authors: Dong et al.
 ---
 Image retrieval relies heavily on the quality of the data modeling and the

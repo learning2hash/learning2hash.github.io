@@ -7,7 +7,7 @@ year: 2019
 bibkey: xu2019hashing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.10718'}]
-tags: [Hashing Methods, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Hashing Methods"]
 short_authors: Dong Xu, Wu-Jun Li
 ---
 Answer selection is an important subtask of question answering (QA), where

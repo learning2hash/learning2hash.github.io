@@ -7,7 +7,7 @@ year: 2017
 bibkey: qureshi2017eve
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.06891'}]
-tags: [Supervised, Unsupervised]
+tags: ["Supervised", "Unsupervised"]
 short_authors: M. Atif Qureshi, Derek Greene
 ---
 We present an unsupervised explainable word embedding technique, called EVE,

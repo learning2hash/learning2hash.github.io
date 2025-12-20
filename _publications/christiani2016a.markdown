@@ -8,8 +8,7 @@ year: 2016
 bibkey: christiani2016a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.02687'}]
-tags: [Evaluation, Similarity Search, Efficiency, Tools & Libraries, Hashing Methods,
-  Locality Sensitive Hashing]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Tobias Christiani
 ---
 We present a framework for similarity search based on Locality-Sensitive

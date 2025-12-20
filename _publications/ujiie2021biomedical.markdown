@@ -7,7 +7,7 @@ year: 2021
 bibkey: ujiie2021biomedical
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.07583'}]
-tags: [Self-Supervised, Tools & Libraries]
+tags: ["Self-Supervised", "Tools & Libraries"]
 short_authors: Shogo Ujiie, Hayate Iso, Eiji Aramaki
 ---
 We introduce BioCoM, a contrastive learning framework for biomedical entity

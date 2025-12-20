@@ -8,8 +8,7 @@ year: 2025
 bibkey: shi2025scalable
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.20695'}]
-tags: [Evaluation, Similarity Search, Graph-based ANN, Datasets, Scalability, Tools
-    & Libraries, Large-Scale Search]
+tags: ["Datasets", "Graph Based ANN", "Large Scale Search", "Scalability", "Similarity Search"]
 short_authors: Shi et al.
 ---
 Approximate Nearest Neighbor Search (ANNS) is essential for modern

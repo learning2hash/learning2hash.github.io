@@ -7,7 +7,7 @@ year: 2019
 bibkey: "\xF6zayd\u0131n2019a"
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.09300'}]
-tags: [Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: "Umut \xD6zayd\u0131n, Theodoros Georgiou, Michael Lew"
 ---
 Feature detectors and descriptors have been successfully used for various

@@ -7,7 +7,7 @@ year: 2023
 bibkey: gerling2023company2vec
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.09332'}]
-tags: [Evaluation, Supervised, Unsupervised]
+tags: ["Evaluation", "Supervised", "Unsupervised"]
 short_authors: Christopher Gerling
 ---
 With Company2Vec, the paper proposes a novel application in representation

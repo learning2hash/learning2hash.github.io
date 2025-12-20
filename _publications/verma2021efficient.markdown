@@ -7,7 +7,7 @@ year: 2021
 bibkey: verma2021efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.07163'}]
-tags: [Hashing Methods, Datasets, Efficiency]
+tags: ["Datasets", "Efficiency", "Hashing Methods"]
 short_authors: Bhisham Dev Verma, Rameshwar Pratap, Debajyoti Bera
 ---
 In this work, we present a dimensionality reduction algorithm, aka.

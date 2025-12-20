@@ -7,7 +7,7 @@ year: 2020
 bibkey: dubey2020a
 citations: 300
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.00641'}]
-tags: [Evaluation, Image Retrieval, Neural Hashing, Survey Paper, Datasets, Scalability]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Survey Paper"]
 short_authors: Shiv Ram Dubey
 ---
 The content based image retrieval aims to find the similar images from a

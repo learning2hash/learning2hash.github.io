@@ -9,7 +9,7 @@ year: 2022
 bibkey: biesner2022zero
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.07716'}]
-tags: [ICML, Supervised, Few-shot & Zero-shot, Efficiency, Unsupervised]
+tags: ["Efficiency", "Few Shot & Zero Shot", "ICML", "Supervised", "Unsupervised"]
 short_authors: Biesner et al.
 ---
 Natural language processing methods have several applications in automated

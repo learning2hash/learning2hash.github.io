@@ -10,7 +10,7 @@ bibkey: xu2023weakly
 citations: 12
 additional_links: [{name: Code, url: 'https://github.com/ritaranx/wander'}, {name: Paper,
     url: 'https://arxiv.org/abs/2306.07193'}]
-tags: [Supervised, SIGIR, Datasets]
+tags: ["Datasets", "SIGIR", "Supervised"]
 short_authors: Xu et al.
 ---
 Scientific document classification is a critical task for a wide range of

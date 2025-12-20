@@ -7,7 +7,7 @@ year: 2024
 bibkey: tien2024improving
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.00657'}]
-tags: [Text Retrieval, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Text Retrieval"]
 short_authors: Tien et al.
 ---
 In the field of legal information retrieval, effective embedding-based models

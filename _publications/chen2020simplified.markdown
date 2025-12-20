@@ -7,7 +7,7 @@ year: 2020
 bibkey: chen2020simplified
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.07531'}]
-tags: [Text Retrieval, Evaluation, Efficiency]
+tags: ["Efficiency", "Evaluation", "Text Retrieval"]
 short_authors: Chen et al.
 ---
 Despite the effectiveness of utilizing the BERT model for document ranking,

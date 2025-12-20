@@ -10,8 +10,7 @@ bibkey: xiao2022progressively
 citations: 16
 additional_links: [{name: Code, url: 'https://github.com/microsoft/BiDR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2201.05409'}]
-tags: [Evaluation, Neural Hashing, Similarity Search, Vector Indexing, Datasets, Quantization,
-  Scalability, Tools & Libraries, Large-Scale Search]
+tags: ["Evaluation", "Large Scale Search", "Quantization", "Scalability", "Similarity Search"]
 short_authors: Xiao et al.
 ---
 Ad-hoc search calls for the selection of appropriate answers from a

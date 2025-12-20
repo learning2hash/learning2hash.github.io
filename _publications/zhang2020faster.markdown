@@ -7,8 +7,7 @@ year: 2020
 bibkey: zhang2020faster
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.00712'}]
-tags: [Compact Codes, Evaluation, Distance Metric Learning, Datasets, Quantization,
-  Hashing Methods]
+tags: ["Compact Codes", "Datasets", "Distance Metric Learning", "Hashing Methods", "Quantization"]
 short_authors: Jinjie Zhang, Rayan Saab
 ---
 We propose a fast, distance-preserving, binary embedding algorithm to

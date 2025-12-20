@@ -9,7 +9,7 @@ bibkey: ng2023unsupervised
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/kamwoh/sdc'}, {name: Paper,
     url: 'https://arxiv.org/abs/2302.07669'}]
-tags: [Hashing Methods, Supervised, Image Retrieval, Unsupervised]
+tags: ["Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Ng et al.
 ---
 Unsupervised hashing methods typically aim to preserve the similarity between

@@ -8,7 +8,7 @@ year: 2025
 bibkey: li2025two
 citations: 31
 additional_links: [{name: Paper, url: 'https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Li_Two_Birds_One_ICCV_2015_paper.pdf'}]
-tags: [Compact Codes, ICCV, Supervised, Image Retrieval, Scalability, Tools & Libraries]
+tags: ["Compact Codes", "ICCV", "Image Retrieval", "Scalability", "Supervised"]
 short_authors: Li et al.
 ---
 We address the challenging large-scale content-based

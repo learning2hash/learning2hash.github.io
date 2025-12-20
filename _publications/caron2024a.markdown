@@ -7,7 +7,7 @@ year: 2024
 bibkey: caron2024a
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.02041'}]
-tags: [Evaluation, Scalability, CVPR, Tools & Libraries, Large-Scale Search]
+tags: ["CVPR", "Evaluation", "Large Scale Search", "Scalability", "Tools & Libraries"]
 short_authors: Caron et al.
 ---
 In this paper, we address web-scale visual entity recognition, specifically

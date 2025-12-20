@@ -7,7 +7,7 @@ year: 2019
 bibkey: yang2019simple
 citations: 133
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.10972'}]
-tags: [Text Retrieval, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Text Retrieval"]
 short_authors: Wei Yang, Haotian Zhang, Jimmy Lin
 ---
 Following recent successes in applying BERT to question answering, we explore

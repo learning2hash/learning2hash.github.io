@@ -8,7 +8,7 @@ bibkey: lin2025neighborretr
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/zzezze/NeighborRetr'}, {
     name: Paper, url: 'https://arxiv.org/abs/2503.10526'}]
-tags: [Evaluation, CVPR, Multimodal Retrieval]
+tags: ["CVPR", "Evaluation", "Multimodal Retrieval"]
 short_authors: Lin et al.
 ---
 Cross-modal retrieval aims to bridge the semantic gap between different

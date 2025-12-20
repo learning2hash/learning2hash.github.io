@@ -7,7 +7,7 @@ year: 2023
 bibkey: chen2023tagging
 citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.12644'}]
-tags: [Text Retrieval, Evaluation, Supervised, AAAI]
+tags: ["AAAI", "Evaluation", "Supervised", "Text Retrieval"]
 short_authors: Chen et al.
 ---
 Vision-language alignment learning for video-text retrieval arouses a lot of

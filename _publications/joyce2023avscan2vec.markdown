@@ -8,7 +8,7 @@ year: 2023
 bibkey: joyce2023avscan2vec
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.06228'}]
-tags: [Evaluation, Similarity Search, Datasets, Memory Efficiency]
+tags: ["Datasets", "Evaluation", "Memory Efficiency", "Similarity Search"]
 short_authors: Joyce et al.
 ---
 When investigating a malicious file, searching for related files is a common

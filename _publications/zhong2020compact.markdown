@@ -7,7 +7,7 @@ year: 2020
 bibkey: zhong2020compact
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.11794'}]
-tags: [Scalability, Evaluation, Datasets, Similarity Search]
+tags: ["Datasets", "Evaluation", "Scalability", "Similarity Search"]
 short_authors: "Yujie Zhong, Relja Arandjelovi\u0107, Andrew Zisserman"
 ---
 The objective of this work is to learn a compact embedding of a set of

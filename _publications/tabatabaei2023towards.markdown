@@ -8,7 +8,7 @@ year: 2023
 bibkey: tabatabaei2023towards
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.11728'}]
-tags: [Evaluation, Supervised, Image Retrieval, Efficiency, Datasets, Unsupervised]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Tabatabaei et al.
 ---
 Digital pathology has revolutionized cancer diagnosis by leveraging

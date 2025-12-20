@@ -7,7 +7,7 @@ year: 2017
 bibkey: "corbi\xE8re2017leveraging"
 citations: 98
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.09426'}]
-tags: [ICCV, Supervised, Image Retrieval, Datasets]
+tags: ["Datasets", "ICCV", "Image Retrieval", "Supervised"]
 short_authors: "Corbi\xE8re et al."
 ---
 In this paper, we present a method to learn a visual representation adapted

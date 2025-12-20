@@ -8,7 +8,7 @@ year: 2019
 bibkey: nawaz2019do
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.01976'}]
-tags: [Evaluation, ICCV, Datasets, Multimodal Retrieval]
+tags: ["Datasets", "Evaluation", "ICCV", "Multimodal Retrieval"]
 short_authors: Nawaz et al.
 ---
 Current cross-modal retrieval systems are evaluated using R@K measure which

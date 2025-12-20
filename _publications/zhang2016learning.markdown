@@ -8,7 +8,7 @@ year: 2016
 bibkey: zhang2016learning
 citations: 33
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1601.03821'}]
-tags: [Evaluation, Tools & Libraries, ICRA]
+tags: ["Evaluation", "ICRA", "Tools & Libraries"]
 short_authors: Guangcong Zhang, Mason J. Lilly, Patricio A. Vela
 ---
 This paper proposes a simple yet effective approach to learn visual features

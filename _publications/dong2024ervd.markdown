@@ -9,7 +9,7 @@ year: 2024
 bibkey: dong2024ervd
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.18136'}]
-tags: [Image Retrieval, Tools & Libraries]
+tags: ["Image Retrieval", "Tools & Libraries"]
 short_authors: Dong et al.
 ---
 ERVD: An Efficient and Robust ViT-Based Distillation Framework for Remote

@@ -8,7 +8,7 @@ year: 2010
 bibkey: zvedeniouk2010angle
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1003.5474'}]
-tags: [Tree-based ANN]
+tags: ["Tree Based ANN"]
 short_authors: Ilia Zvedeniouk, Sanjay Chawla
 ---
 We propose an extension of tree-based space-partitioning indexing structures

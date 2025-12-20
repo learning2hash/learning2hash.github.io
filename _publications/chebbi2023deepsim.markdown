@@ -8,7 +8,7 @@ year: 2023
 bibkey: chebbi2023deepsim
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.08056'}]
-tags: [Evaluation, Distance Metric Learning, Datasets, Robustness, CVPR]
+tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Robustness"]
 short_authors: Chebbi et al.
 ---
 We present three multi-scale similarity learning architectures, or DeepSim

@@ -7,7 +7,7 @@ year: 2017
 bibkey: appalaraju2017image
 citations: 61
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.08761'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Srikar Appalaraju, Vineet Chaoji
 ---
 Image similarity involves fetching similar looking images given a reference

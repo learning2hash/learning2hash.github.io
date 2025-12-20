@@ -9,7 +9,7 @@ year: 2021
 bibkey: molina2021date
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.05618'}]
-tags: [Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Molina et al.
 ---
 This paper presents a novel method for date estimation of historical

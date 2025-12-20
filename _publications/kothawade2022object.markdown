@@ -8,7 +8,7 @@ year: 2022
 bibkey: kothawade2022object
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.01778'}]
-tags: [Scalability, Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Kothawade et al.
 ---
 Retrieving images with objects that are semantically similar to objects of

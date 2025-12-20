@@ -10,7 +10,7 @@ year: 2020
 bibkey: zhang2020discriminative
 citations: 65
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.13009'}]
-tags: [EMNLP, Scalability, Few-shot & Zero-shot]
+tags: ["EMNLP", "Few Shot & Zero Shot", "Scalability"]
 short_authors: Zhang et al.
 ---
 Intent detection is one of the core components of goal-oriented dialog

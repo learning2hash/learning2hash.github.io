@@ -9,7 +9,7 @@ year: 2024
 bibkey: magnani2024semantic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.04637'}]
-tags: [Evaluation, Re-ranking, Hybrid ANN Methods]
+tags: ["Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Magnani et al.
 ---
 In product search, the retrieval of candidate products before re-ranking is

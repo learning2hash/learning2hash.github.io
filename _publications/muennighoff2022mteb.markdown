@@ -8,7 +8,7 @@ bibkey: muennighoff2022mteb
 citations: 57
 additional_links: [{name: Code, url: 'https://github.com/embeddings-benchmark/mteb'},
   {name: Paper, url: 'https://arxiv.org/abs/2210.07316'}]
-tags: [Evaluation, Re-ranking, Hybrid ANN Methods, Datasets]
+tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Muennighoff et al.
 ---
 Text embeddings are commonly evaluated on a small set of datasets from a

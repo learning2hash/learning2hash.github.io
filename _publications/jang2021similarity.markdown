@@ -7,7 +7,7 @@ year: 2021
 bibkey: jang2021similarity
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.05025'}]
-tags: [Evaluation, Supervised, Image Retrieval, Datasets, Scalability, Hashing Methods]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Scalability", "Supervised"]
 short_authors: Young Kyun Jang, Nam Ik Cho
 ---
 Face image retrieval, which searches for images of the same identity from the

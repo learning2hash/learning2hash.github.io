@@ -8,7 +8,7 @@ year: 2019
 bibkey: wang2019self
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.07812'}]
-tags: [Evaluation, Image Retrieval, Distance Metric Learning, Datasets, Tools & Libraries]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Huibing Wang, Jinjia Peng, Xianping Fu
 ---
 With the development of multimedia time, one sample can always be described

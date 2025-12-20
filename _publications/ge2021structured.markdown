@@ -7,7 +7,7 @@ year: 2021
 bibkey: ge2021structured
 citations: 47
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.02417'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Ge et al.
 ---
 The current state-of-the-art image-sentence retrieval methods implicitly

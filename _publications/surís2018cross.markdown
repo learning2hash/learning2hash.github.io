@@ -8,8 +8,7 @@ year: 2018
 bibkey: "sur\xEDs2018cross"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.02200'}]
-tags: [Video Retrieval, Evaluation, Supervised, Self-Supervised, Datasets, Scalability,
-  Unsupervised, Audio Retrieval]
+tags: ["Audio Retrieval", "Datasets", "Self-Supervised", "Supervised", "Video Retrieval"]
 short_authors: "Sur\xEDs et al."
 ---
 The increasing amount of online videos brings several opportunities for

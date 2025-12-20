@@ -7,7 +7,7 @@ year: 2016
 bibkey: shen2016learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.04116'}]
-tags: [Hashing Methods, Evaluation, Compact Codes, Image Retrieval]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Image Retrieval"]
 short_authors: Shen et al.
 ---
 This paper proposes a generic formulation that significantly expedites the

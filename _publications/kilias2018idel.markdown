@@ -8,7 +8,7 @@ year: 2018
 bibkey: kilias2018idel
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.04884'}]
-tags: [Vector Indexing, Efficiency]
+tags: ["Efficiency", "Vector Indexing"]
 short_authors: Kilias et al.
 ---
 We present a novel architecture, In-Database Entity Linking (IDEL), in which

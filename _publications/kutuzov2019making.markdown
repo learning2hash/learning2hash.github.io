@@ -9,7 +9,7 @@ year: 2019
 bibkey: kutuzov2019making
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.07040'}]
-tags: [Evaluation, Graph-based ANN, ACL]
+tags: ["Evaluation", "Graph Based ANN"]
 short_authors: Kutuzov et al.
 ---
 The computation of distance measures between nodes in graphs is inefficient

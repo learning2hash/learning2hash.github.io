@@ -8,7 +8,7 @@ year: 2019
 bibkey: singh2019adversarially
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.00382'}]
-tags: [Hashing Methods, Evaluation, Neural Hashing, Robustness]
+tags: ["Evaluation", "Hashing Methods", "Neural Hashing", "Robustness"]
 short_authors: Saket Singh, Debdoot Sheet, Mithun Dasgupta
 ---
 The simple approach of retrieving a closest match of a query image from one

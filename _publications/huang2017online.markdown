@@ -7,7 +7,7 @@ year: 2017
 bibkey: huang2017online
 citations: 56
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.01897'}]
-tags: [Hashing Methods, Scalability, Efficiency, Datasets]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Scalability"]
 short_authors: Long-Kai Huang, Qiang Yang, Wei-Shi Zheng
 ---
 Although hash function learning algorithms have achieved great success in

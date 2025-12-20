@@ -7,7 +7,7 @@ year: 2019
 bibkey: coleman2019sub
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.06687'}]
-tags: [Evaluation, Locality Sensitive Hashing, Recommender Systems, Datasets]
+tags: ["Datasets", "Evaluation", "Locality-Sensitive-Hashing", "Recommender Systems"]
 short_authors: Benjamin Coleman, Richard G. Baraniuk, Anshumali Shrivastava
 ---
 We present the first sublinear memory sketch that can be queried to find the

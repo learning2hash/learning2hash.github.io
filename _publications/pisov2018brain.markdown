@@ -8,7 +8,7 @@ year: 2018
 bibkey: pisov2018brain
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.09369'}]
-tags: [Distance Metric Learning, Image Retrieval]
+tags: ["Distance Metric Learning", "Image Retrieval"]
 short_authors: Pisov et al.
 ---
 Classification-based image retrieval systems are built by training

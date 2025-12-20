@@ -8,7 +8,7 @@ year: 2021
 bibkey: xu20213rd
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.02794'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Xu et al.
 ---
 In this paper, we show our solution to the Google Landmark Recognition 2021

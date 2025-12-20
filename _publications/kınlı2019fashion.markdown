@@ -7,7 +7,7 @@ year: 2019
 bibkey: "k\u0131nl\u01312019fashion"
 citations: 36
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.09943'}]
-tags: [Evaluation, ICCV, Image Retrieval]
+tags: ["Evaluation", "ICCV", "Image Retrieval"]
 short_authors: "Furkan K\u0131nl\u0131, Bar\u0131\u015F \xD6zcan, Furkan K\u0131ra\xE7"
 ---
 In this study, we investigate in-shop clothing retrieval performance of

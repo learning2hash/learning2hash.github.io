@@ -9,8 +9,7 @@ bibkey: shukor2022transformer
 citations: 25
 additional_links: [{name: Code, url: 'https://github.com/mshukor/TFood'}, {name: Paper,
     url: 'https://arxiv.org/abs/2204.09730'}]
-tags: [Similarity Search, Distance Metric Learning, Datasets, Scalability, CVPR, Tools
-    & Libraries]
+tags: ["CVPR", "Datasets", "Distance Metric Learning", "Similarity Search", "Tools & Libraries"]
 short_authors: Shukor et al.
 ---
 Cross-modal image-recipe retrieval has gained significant attention in recent

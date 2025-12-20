@@ -8,7 +8,7 @@ year: 2024
 bibkey: derasmo2024eclipse
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.14967'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: D'Erasmo et al.
 ---
 Recent advances in Information Retrieval have leveraged high-dimensional

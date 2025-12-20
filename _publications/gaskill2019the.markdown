@@ -7,7 +7,7 @@ year: 2019
 bibkey: gaskill2019the
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.08646'}]
-tags: [Hashing Methods, Evaluation]
+tags: ["Evaluation", "Hashing Methods"]
 short_authors: Braddock Gaskill
 ---
 Many real world problems require fast and efficient lexical comparison of

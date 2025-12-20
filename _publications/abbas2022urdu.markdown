@@ -7,7 +7,7 @@ year: 2022
 bibkey: abbas2022urdu
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.11862'}]
-tags: [Distance Metric Learning, Tools & Libraries, Recommender Systems]
+tags: ["Distance Metric Learning", "Recommender Systems", "Tools & Libraries"]
 short_authors: Abbas et al.
 ---
 There are several online newspapers in urdu but for the users it is difficult

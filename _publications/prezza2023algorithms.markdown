@@ -7,8 +7,7 @@ year: 2023
 bibkey: prezza2023algorithms
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.00754'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Tools & Libraries, Similarity
-    Search]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search", "Tools & Libraries"]
 short_authors: Nicola Prezza
 ---
 These are the lecture notes for the course CM0622 - Algorithms for Massive

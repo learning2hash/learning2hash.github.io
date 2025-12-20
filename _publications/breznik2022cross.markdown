@@ -8,7 +8,7 @@ bibkey: breznik2022cross
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/MIDA-group/CrossModal_ImgRetrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2201.03597'}]
-tags: [Evaluation, Image Retrieval, Datasets, Neural Hashing]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing"]
 short_authors: Breznik et al.
 ---
 In tissue characterization and cancer diagnostics, multimodal imaging has

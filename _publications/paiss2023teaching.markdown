@@ -8,7 +8,7 @@ year: 2023
 bibkey: paiss2023teaching
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.12066'}]
-tags: [Evaluation, ICCV, Image Retrieval, Few-shot & Zero-shot, Distance Metric Learning]
+tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "ICCV", "Image Retrieval"]
 short_authors: Paiss et al.
 ---
 Large vision-language models (VLMs), such as CLIP, learn rich joint

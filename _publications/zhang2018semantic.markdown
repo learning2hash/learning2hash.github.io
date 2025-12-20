@@ -7,8 +7,7 @@ year: 2018
 bibkey: zhang2018semantic
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.08705'}]
-tags: [Supervised, Neural Hashing, Efficiency, Distance Metric Learning, Datasets,
-  Memory Efficiency, Scalability, Hashing Methods]
+tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Hashing Methods", "Neural Hashing"]
 short_authors: Shifeng Zhang, Jianmin Li, Bo Zhang
 ---
 Hashing method maps similar data to binary hashcodes with smaller hamming

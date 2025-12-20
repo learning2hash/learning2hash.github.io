@@ -7,7 +7,7 @@ year: 2016
 bibkey: tao2016siamese
 citations: 1140
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.05863'}]
-tags: [Evaluation, CVPR]
+tags: ["CVPR", "Evaluation"]
 short_authors: Ran Tao, Efstratios Gavves, Arnold W. M. Smeulders
 ---
 In this paper we present a tracker, which is radically different from

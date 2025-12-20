@@ -7,8 +7,7 @@ year: 2024
 bibkey: levi2024for
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.18806'}]
-tags: [Evaluation, Supervised, Image Retrieval, Re-ranking, Efficiency, Datasets,
-  Tools & Libraries]
+tags: ["Datasets", "Efficiency", "Image Retrieval", "Re-Ranking", "Supervised"]
 short_authors: Hila Levi, Guy Heller, Dan Levi
 ---
 As working with large datasets becomes standard, the task of accurately

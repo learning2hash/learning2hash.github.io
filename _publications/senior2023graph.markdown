@@ -7,7 +7,7 @@ year: 2023
 bibkey: senior2023graph
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.03761'}]
-tags: [Graph-based ANN, Image Retrieval, Survey Paper]
+tags: ["Graph Based ANN", "Image Retrieval", "Survey Paper"]
 short_authors: Senior et al.
 ---
 2D image understanding is a complex problem within computer vision, but it

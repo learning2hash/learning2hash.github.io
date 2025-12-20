@@ -7,7 +7,7 @@ year: 2025
 bibkey: kim2025rt
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.13436'}]
-tags: [Scalability, Evaluation, Datasets, Efficiency]
+tags: ["Datasets", "Efficiency", "Evaluation", "Scalability"]
 short_authors: Youngwoo Kim, Jaehong Lee, Duksu Kim
 ---
 The Hausdorff distance is a fundamental metric with widespread applications

@@ -8,7 +8,7 @@ year: 2020
 bibkey: yu2020a
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.12994'}]
-tags: [SIGIR]
+tags: ["SIGIR"]
 short_authors: Puxuan Yu, James Allan
 ---
 In this study, we investigate interaction-based neural matching models for

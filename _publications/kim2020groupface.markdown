@@ -8,7 +8,7 @@ year: 2020
 bibkey: kim2020groupface
 citations: 92
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.10497'}]
-tags: [CVPR, Datasets]
+tags: ["CVPR", "Datasets"]
 short_authors: Kim et al.
 ---
 In the field of face recognition, a model learns to distinguish millions of

@@ -7,8 +7,7 @@ year: 2025
 bibkey: gong2025iterative
 citations: 1086
 additional_links: [{name: Paper, url: 'http://slazebni.cs.illinois.edu/publications/cvpr11_small_code.pdf'}]
-tags: [Compact Codes, Supervised, Similarity Search, Quantization, Scalability, CVPR,
-  Unsupervised]
+tags: ["Compact Codes", "Quantization", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Y. Gong, Lazebnik
 ---
 This paper addresses the problem of learning similarity preserving binary codes for efficient retrieval in large-scale image collections. We propose a simple and efficient alternating minimization scheme for finding a rotation of zerocentered data so as to minimize the quantization error of

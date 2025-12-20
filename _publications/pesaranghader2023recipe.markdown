@@ -8,8 +8,7 @@ year: 2023
 bibkey: pesaranghader2023recipe
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.04579'}]
-tags: [Evaluation, Few-shot & Zero-shot, Survey Paper, Datasets, Tools & Libraries,
-  Recommender Systems]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Recommender Systems", "Tools & Libraries"]
 short_authors: Ali Pesaranghader, Touqir Sajed
 ---
 Over the past two decades, recommendation systems (RSs) have used machine

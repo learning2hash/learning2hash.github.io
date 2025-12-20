@@ -7,7 +7,7 @@ year: 2019
 bibkey: zhuang2019local
 citations: 408
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.12355'}]
-tags: [Evaluation, Supervised, ICCV, Datasets, Scalability, Unsupervised]
+tags: ["Datasets", "Evaluation", "ICCV", "Supervised", "Unsupervised"]
 short_authors: Chengxu Zhuang, Alex Lin Zhai, Daniel Yamins
 ---
 Unsupervised approaches to learning in neural networks are of substantial

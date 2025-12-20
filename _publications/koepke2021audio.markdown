@@ -9,7 +9,7 @@ bibkey: koepke2021audio
 citations: 67
 additional_links: [{name: Code, url: 'https://github.com/akoepke/audio-retrieval-benchmark'},
   {name: Paper, url: 'https://arxiv.org/abs/2112.09418'}]
-tags: [Text Retrieval, Evaluation, Datasets, Audio Retrieval]
+tags: ["Audio Retrieval", "Datasets", "Evaluation", "Text Retrieval"]
 short_authors: Koepke et al.
 ---
 The objectives of this work are cross-modal text-audio and audio-text

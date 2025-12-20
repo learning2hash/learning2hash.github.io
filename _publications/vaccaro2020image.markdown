@@ -7,7 +7,7 @@ year: 2020
 bibkey: vaccaro2020image
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.09695'}]
-tags: [Datasets, Multimodal Retrieval, Image Retrieval]
+tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Vaccaro et al.
 ---
 In this paper, we address the problem of image retrieval by learning images

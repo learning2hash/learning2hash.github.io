@@ -8,7 +8,7 @@ year: 2021
 bibkey: gkelios2021investigating
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.03771'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Socratis Gkelios, Yiannis Boutalis, Savvas A. Chatzichristofis
 ---
 This paper introduces a plug-and-play descriptor that can be effectively

@@ -7,8 +7,7 @@ year: 2020
 bibkey: coleman2020a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.09352'}]
-tags: [Privacy & Security, Datasets, Scalability, Hashing Methods, Locality Sensitive
-    Hashing]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Privacy & Security", "Scalability"]
 short_authors: Benjamin Coleman, Anshumali Shrivastava
 ---
 Differential privacy (DP) is a compelling privacy definition that explains

@@ -7,7 +7,7 @@ year: 2016
 bibkey: andoni2016optimal
 citations: 60
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.03580'}]
-tags: [Hashing Methods, Datasets, Efficiency]
+tags: ["Datasets", "Efficiency", "Hashing Methods"]
 short_authors: Andoni et al.
 ---
 [See the paper for the full abstract.]

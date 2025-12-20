@@ -8,7 +8,7 @@ year: 2022
 bibkey: chern2022tpu
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.14286'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Chern et al.
 ---
 This paper presents a novel nearest neighbor search algorithm achieving TPU

@@ -7,7 +7,7 @@ year: 2018
 bibkey: "k\xFAdela2018extracting"
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.10413'}]
-tags: [Hashing Methods, Locality Sensitive Hashing]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: "Jakub K\xFAdela, Irena Holubov\xE1, Ond\u0159ej Bojar"
 ---
 Most of the current methods for mining parallel texts from the web assume

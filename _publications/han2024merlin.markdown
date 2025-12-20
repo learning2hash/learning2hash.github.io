@@ -9,8 +9,7 @@ year: 2024
 bibkey: han2024merlin
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.12508'}]
-tags: [Video Retrieval, Evaluation, Re-ranking, Datasets, Multimodal Retrieval, Scalability,
-  EMNLP]
+tags: ["Datasets", "EMNLP", "Evaluation", "Multimodal Retrieval", "Video Retrieval"]
 short_authors: Han et al.
 ---
 The rapid expansion of multimedia content has made accurately retrieving

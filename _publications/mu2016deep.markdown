@@ -7,8 +7,7 @@ year: 2016
 bibkey: mu2016deep
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.03658'}]
-tags: [Evaluation, Supervised, Image Retrieval, Neural Hashing, Datasets, Unsupervised,
-  Hashing Methods]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Yadong Mu, Zhu Liu
 ---
 Similarity-based image hashing represents crucial technique for visual data

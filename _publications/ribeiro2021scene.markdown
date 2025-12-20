@@ -7,7 +7,7 @@ year: 2021
 bibkey: ribeiro2021scene
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.07353'}]
-tags: [Self-Supervised, ICCV, Image Retrieval]
+tags: ["ICCV", "Image Retrieval", "Self-Supervised"]
 short_authors: Ribeiro et al.
 ---
 Scene Designer is a novel method for searching and generating images using

@@ -7,7 +7,7 @@ year: 2025
 bibkey: "g\xF6ring2025clipse"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.17643'}]
-tags: [Evaluation, Image Retrieval, Survey Paper, Datasets, Tools & Libraries]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Survey Paper", "Tools & Libraries"]
 short_authors: "Steve G\xF6ring"
 ---
 A brief overview of CLIPSE, a self-hosted image search engine with the main

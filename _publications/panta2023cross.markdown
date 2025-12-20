@@ -9,7 +9,7 @@ year: 2023
 bibkey: panta2023cross
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.07435'}]
-tags: [Evaluation, Distance Metric Learning, Datasets, Self-Supervised]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Self-Supervised"]
 short_authors: Panta et al.
 ---
 Video moment retrieval is a challenging task requiring fine-grained

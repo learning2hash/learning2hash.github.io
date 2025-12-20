@@ -8,7 +8,7 @@ bibkey: zou2024retrieval
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/Rong-Zou/Retrieval-Robust-to-Object-Motion-Blur'},
   {name: Paper, url: 'https://arxiv.org/abs/2404.18025'}]
-tags: [Scalability, Datasets]
+tags: ["Datasets", "Scalability"]
 short_authors: Rong Zou, Marc Pollefeys, Denys Rozumnyi
 ---
 Moving objects are frequently seen in daily life and usually appear blurred

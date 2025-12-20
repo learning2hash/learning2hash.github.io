@@ -9,7 +9,7 @@ bibkey: stein2021mining
 citations: 42
 additional_links: [{name: Code, url: 'https://github.com/georgestein/ssl-legacysurvey'},
   {name: Paper, url: 'https://arxiv.org/abs/2110.00023'}]
-tags: [Supervised, Similarity Search, Efficiency, Survey Paper, Self-Supervised]
+tags: ["Efficiency", "Self-Supervised", "Similarity Search", "Supervised", "Survey Paper"]
 short_authors: Stein et al.
 ---
 We employ self-supervised representation learning to distill information from

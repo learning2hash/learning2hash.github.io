@@ -8,7 +8,7 @@ bibkey: hubert2023do
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/nicolas-hbt/similar-embeddings/'},
   {name: Paper, url: 'https://arxiv.org/abs/2312.10370'}]
-tags: [Recommender Systems, Datasets]
+tags: ["Datasets", "Recommender Systems"]
 short_authors: Hubert et al.
 ---
 Knowledge graph embedding models (KGEMs) developed for link prediction learn

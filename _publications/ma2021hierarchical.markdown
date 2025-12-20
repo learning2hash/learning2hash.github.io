@@ -9,7 +9,7 @@ bibkey: ma2021hierarchical
 citations: 5
 additional_links: [{name: Code, url: 'https://github.com/liufh1/hsl'}, {name: Paper,
     url: 'https://arxiv.org/abs/2102.09375'}]
-tags: [Scalability, ICASSP, Image Retrieval, Datasets]
+tags: ["Datasets", "ICASSP", "Image Retrieval", "Scalability"]
 short_authors: Ma et al.
 ---
 This paper aims for the language-based product image retrieval task. The

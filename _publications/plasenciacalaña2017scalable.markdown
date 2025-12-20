@@ -8,7 +8,7 @@ year: 2017
 bibkey: "plasenciacala\xF1a2017scalable"
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.09277'}]
-tags: [Hashing Methods, Supervised, Unsupervised, Datasets]
+tags: ["Datasets", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: "Plasencia-Cala\xF1a et al."
 ---
 Classification in the dissimilarity space has become a very active research

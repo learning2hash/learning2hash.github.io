@@ -8,8 +8,7 @@ year: 2016
 bibkey: zhou2016transfer
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.04034'}]
-tags: [Compact Codes, Evaluation, Datasets, Quantization, Tools & Libraries, Hashing
-    Methods]
+tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Quantization"]
 short_authors: Zhou et al.
 ---
 Most existing learning to hash methods assume that there are sufficient data,

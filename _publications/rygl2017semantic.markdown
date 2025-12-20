@@ -8,7 +8,7 @@ year: 2017
 bibkey: rygl2017semantic
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.00957'}]
-tags: [Evaluation, Similarity Search, Efficiency, Robustness, Scalability, Text Retrieval]
+tags: ["Efficiency", "Robustness", "Scalability", "Similarity Search", "Text Retrieval"]
 short_authors: Rygl et al.
 ---
 Vector representations and vector space modeling (VSM) play a central role in

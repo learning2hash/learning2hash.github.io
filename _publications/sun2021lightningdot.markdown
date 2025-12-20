@@ -10,8 +10,7 @@ bibkey: sun2021lightningdot
 citations: 79
 additional_links: [{name: Code, url: 'https://github.com/intersun/LightningDOT'},
   {name: Paper, url: 'https://arxiv.org/abs/2103.08784'}]
-tags: [NAACL, Evaluation, Re-ranking, Efficiency, Scalability, Text Retrieval, Hybrid
-    ANN Methods, ACL]
+tags: ["Efficiency", "Evaluation", "NAACL", "Re-Ranking", "Text Retrieval"]
 short_authors: Sun et al.
 ---
 Multimodal pre-training has propelled great advancement in

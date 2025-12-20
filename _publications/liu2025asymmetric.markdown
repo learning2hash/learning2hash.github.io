@@ -8,7 +8,7 @@ year: 2025
 bibkey: liu2025asymmetric
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.06974'}]
-tags: [Scalability, Tools & Libraries, Datasets, AAAI]
+tags: ["AAAI", "Datasets", "Scalability", "Tools & Libraries"]
 short_authors: Liu et al.
 ---
 Learning visual semantic similarity is a critical challenge in bridging the

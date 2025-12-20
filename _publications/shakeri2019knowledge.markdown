@@ -7,7 +7,7 @@ year: 2019
 bibkey: shakeri2019knowledge
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.11065'}]
-tags: [Text Retrieval, Evaluation, Scalability, Neural Hashing]
+tags: ["Evaluation", "Neural Hashing", "Scalability", "Text Retrieval"]
 short_authors: Siamak Shakeri, Abhinav Sethy, Cheng Cheng
 ---
 Complex deep learning models now achieve state of the art performance for

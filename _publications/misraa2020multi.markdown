@@ -7,7 +7,7 @@ year: 2020
 bibkey: misraa2020multi
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.01666'}]
-tags: [Image Retrieval, Re-ranking, Hybrid ANN Methods, Datasets]
+tags: ["Datasets", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
 short_authors: Misraa et al.
 ---
 Most real world applications of image retrieval such as Adobe Stock, which is

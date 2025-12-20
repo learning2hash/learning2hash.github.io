@@ -7,7 +7,7 @@ year: 2023
 bibkey: afchar2023of
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.01212'}]
-tags: [Recommender Systems, Datasets, RecSys]
+tags: ["Datasets", "Recommender Systems"]
 short_authors: Darius Afchar, Romain Hennequin, Vincent Guigue
 ---
 The truncated singular value decomposition is a widely used methodology in

@@ -9,8 +9,7 @@ bibkey: suma2024ames
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/pavelsuma/ames'}, {name: Paper,
     url: 'https://arxiv.org/abs/2408.03282'}]
-tags: [Evaluation, Image Retrieval, Re-ranking, Efficiency, Memory Efficiency, Hybrid
-    ANN Methods]
+tags: ["Efficiency", "Hybrid ANN Methods", "Image Retrieval", "Memory Efficiency", "Re-Ranking"]
 short_authors: Suma et al.
 ---
 This work investigates the problem of instance-level image retrieval

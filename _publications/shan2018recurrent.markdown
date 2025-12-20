@@ -9,8 +9,7 @@ year: 2018
 bibkey: shan2018recurrent
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.06466'}]
-tags: [Evaluation, Neural Hashing, Efficiency, Scalability, Large-Scale Search, Hashing
-    Methods, KDD]
+tags: ["Efficiency", "Evaluation", "KDD", "Large Scale Search", "Neural Hashing"]
 short_authors: Shan et al.
 ---
 Rapid advances in GPU hardware and multiple areas of Deep Learning open up a

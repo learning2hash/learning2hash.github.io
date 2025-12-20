@@ -7,7 +7,7 @@ year: 2016
 bibkey: esen2016large
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.07160'}]
-tags: [Video Retrieval, Evaluation, Efficiency, Scalability, Hashing Methods]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Scalability", "Video Retrieval"]
 short_authors: Ersin Esen, Savas Ozkan, Ilkay Atil
 ---
 In this work, we propose a fast content-based video querying system for

@@ -7,8 +7,7 @@ year: 2019
 bibkey: sankar2019transferable
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.01605'}]
-tags: [Evaluation, Supervised, Memory Efficiency, Unsupervised, Hashing Methods, Locality
-    Sensitive Hashing]
+tags: ["Evaluation", "Locality-Sensitive-Hashing", "Memory Efficiency", "Supervised", "Unsupervised"]
 short_authors: Chinnadhurai Sankar, Sujith Ravi, Zornitsa Kozareva
 ---
 Neural word representations are at the core of many state-of-the-art natural

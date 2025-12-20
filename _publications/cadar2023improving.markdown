@@ -9,7 +9,7 @@ bibkey: cadar2023improving
 citations: 5
 additional_links: [{name: Code, url: 'https://github.com/verlab/LearningToDetect_PRL_2023'},
   {name: Paper, url: 'https://arxiv.org/abs/2309.00434'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Cadar et al.
 ---
 We propose a novel learned keypoint detection method to increase the number

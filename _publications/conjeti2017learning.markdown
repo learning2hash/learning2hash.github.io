@@ -7,8 +7,7 @@ year: 2017
 bibkey: conjeti2017learning
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.05724'}]
-tags: [Evaluation, Image Retrieval, Neural Hashing, Datasets, Scalability, Hashing
-    Methods]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Conjeti et al.
 ---
 In this paper, for the first time, we introduce a multiple instance (MI) deep

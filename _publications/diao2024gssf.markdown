@@ -8,7 +8,7 @@ bibkey: diao2024gssf
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/Paranioar/GSSF'}, {name: Paper,
     url: 'https://arxiv.org/abs/2410.15266'}]
-tags: [Text Retrieval, Distance Metric Learning, Image Retrieval, Tools & Libraries]
+tags: ["Distance Metric Learning", "Image Retrieval", "Text Retrieval", "Tools & Libraries"]
 short_authors: Diao et al.
 ---
 Cross-modal metric learning is a prominent research topic that bridges the

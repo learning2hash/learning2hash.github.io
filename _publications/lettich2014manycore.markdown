@@ -7,7 +7,7 @@ year: 2014
 bibkey: lettich2014manycore
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1412.6170'}]
-tags: [Evaluation, Datasets, Efficiency]
+tags: ["Datasets", "Efficiency", "Evaluation"]
 short_authors: Francesco Lettich, Salvatore Orlando, Claudio Silvestri
 ---
 The ability to timely process significant amounts of continuously updated

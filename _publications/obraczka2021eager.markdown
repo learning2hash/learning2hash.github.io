@@ -7,7 +7,7 @@ year: 2021
 bibkey: obraczka2021eager
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.06126'}]
-tags: [Evaluation, Supervised, Datasets]
+tags: ["Datasets", "Evaluation", "Supervised"]
 short_authors: Daniel Obraczka, Jonathan Schuchart, Erhard Rahm
 ---
 Entity Resolution (ER) is a constitutional part for integrating different

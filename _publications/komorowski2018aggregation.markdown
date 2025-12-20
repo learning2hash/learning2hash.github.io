@@ -8,7 +8,7 @@ year: 2018
 bibkey: komorowski2018aggregation
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.11062'}]
-tags: [Scalability]
+tags: ["Scalability"]
 short_authors: Jacek Komorowski, Tomasz Trzcinski
 ---
 In this paper we present an efficient method for aggregating binary feature

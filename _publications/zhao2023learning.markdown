@@ -10,7 +10,7 @@ bibkey: zhao2023learning
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/tiev-tongji/Spatio-Temporal-SeqVPR'},
   {name: Paper, url: 'https://arxiv.org/abs/2305.11467'}]
-tags: [Evaluation, Datasets, Robustness]
+tags: ["Datasets", "Evaluation", "Robustness"]
 short_authors: Zhao et al.
 ---
 Visual Place Recognition (VPR) aims to retrieve frames from a geotagged

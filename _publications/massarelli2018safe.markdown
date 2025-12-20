@@ -8,7 +8,7 @@ year: 2018
 bibkey: massarelli2018safe
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.05296'}]
-tags: [Compact Codes, Evaluation]
+tags: ["Compact Codes", "Evaluation"]
 short_authors: Massarelli et al.
 ---
 The binary similarity problem consists in determining if two functions are

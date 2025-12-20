@@ -8,7 +8,7 @@ bibkey: cao2024flame
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/MIV-XJTU/FLAME'}, {name: Paper,
     url: 'https://arxiv.org/abs/2411.11927'}]
-tags: [Text Retrieval, Evaluation, CVPR]
+tags: ["CVPR", "Evaluation", "Text Retrieval"]
 short_authors: Anjia Cao, Xing Wei, Zhiheng Ma
 ---
 Language-image pre-training faces significant challenges due to limited data

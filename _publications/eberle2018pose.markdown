@@ -7,7 +7,7 @@ year: 2018
 bibkey: eberle2018pose
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.08709'}]
-tags: [Datasets, Robustness]
+tags: ["Datasets", "Robustness"]
 short_authors: Andreas Eberle
 ---
 Person re-identification (re-id) is the task of recognizing and matching

@@ -8,7 +8,7 @@ year: 2023
 bibkey: campos2023overview
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.07861'}]
-tags: [Evaluation, Few-shot & Zero-shot, Survey Paper]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Survey Paper"]
 short_authors: Campos et al.
 ---
 This is the first year of the TREC Product search track. The focus this year

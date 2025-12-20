@@ -7,8 +7,7 @@ year: 2021
 bibkey: weng2021online
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.02560'}]
-tags: [Compact Codes, Image Retrieval, Efficiency, Distance Metric Learning, Datasets,
-  Tools & Libraries, Hashing Methods]
+tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Hashing Methods", "Image Retrieval"]
 short_authors: Zhenyu Weng, Yuesheng Zhu
 ---
 Online hashing methods usually learn the hash functions online, aiming to

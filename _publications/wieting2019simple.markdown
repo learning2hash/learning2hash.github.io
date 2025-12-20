@@ -8,7 +8,7 @@ year: 2019
 bibkey: wieting2019simple
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.13872'}]
-tags: [ACL]
+tags: ["Uncategorized"]
 short_authors: Wieting et al.
 ---
 We present a model and methodology for learning paraphrastic sentence

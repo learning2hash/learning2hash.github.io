@@ -7,7 +7,7 @@ year: 2024
 bibkey: chen2024digital
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.14155'}]
-tags: [Hashing Methods, Neural Hashing, Survey Paper]
+tags: ["Hashing Methods", "Neural Hashing", "Survey Paper"]
 short_authors: Wendi Chen, Wensheng Gan, Philip S. Yu
 ---
 The explosive growth of multimedia content in the digital economy era has

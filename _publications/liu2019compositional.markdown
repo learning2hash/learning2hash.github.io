@@ -9,8 +9,7 @@ year: 2019
 bibkey: liu2019compositional
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.03752'}]
-tags: [Compact Codes, Evaluation, Efficiency, Datasets, Tools & Libraries, Hashing
-    Methods, Recommender Systems, SIGIR]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Recommender Systems", "SIGIR"]
 short_authors: Liu et al.
 ---
 Efficiency is crucial to the online recommender systems. Representing users

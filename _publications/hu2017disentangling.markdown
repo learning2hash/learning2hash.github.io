@@ -7,7 +7,7 @@ year: 2017
 bibkey: hu2017disentangling
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.07410'}]
-tags: [Datasets]
+tags: ["Datasets"]
 short_authors: Hu et al.
 ---
 We propose an approach to learn image representations that consist of

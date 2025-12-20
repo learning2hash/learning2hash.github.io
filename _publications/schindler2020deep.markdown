@@ -7,7 +7,7 @@ year: 2020
 bibkey: schindler2020deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.05266'}]
-tags: [Neural Hashing, Audio Retrieval, Similarity Search]
+tags: ["Audio Retrieval", "Neural Hashing", "Similarity Search"]
 short_authors: "Alexander Schindler, Thomas Lidy, Sebastian B\xF6ck"
 ---
 Deep Learning has become state of the art in visual computing and

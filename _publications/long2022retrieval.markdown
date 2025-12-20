@@ -8,7 +8,7 @@ year: 2022
 bibkey: long2022retrieval
 citations: 57
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.11233'}]
-tags: [Evaluation, CVPR, Datasets]
+tags: ["CVPR", "Datasets", "Evaluation"]
 short_authors: Long et al.
 ---
 We introduce Retrieval Augmented Classification (RAC), a generic approach to

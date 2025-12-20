@@ -7,7 +7,7 @@ year: 2019
 bibkey: zhao2019a
 citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.12939'}]
-tags: [Evaluation, Supervised, ICCV, Similarity Search, Distance Metric Learning]
+tags: ["Distance Metric Learning", "Evaluation", "ICCV", "Similarity Search", "Supervised"]
 short_authors: Zhao et al.
 ---
 We address the problem of distance metric learning in visual similarity

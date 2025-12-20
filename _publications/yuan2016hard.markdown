@@ -7,7 +7,7 @@ year: 2016
 bibkey: yuan2016hard
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.05720'}]
-tags: [Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning"]
 short_authors: Yuhui Yuan, Kuiyuan Yang, Chao Zhang
 ---
 Riding on the waves of deep neural networks, deep metric learning has also

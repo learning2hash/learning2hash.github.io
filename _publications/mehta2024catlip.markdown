@@ -10,8 +10,7 @@ bibkey: mehta2024catlip
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/apple/corenet'}, {name: Paper,
     url: 'https://arxiv.org/abs/2404.15653'}]
-tags: [Supervised, Distance Metric Learning, Self-Supervised, Scalability, Large-Scale
-    Search]
+tags: ["Distance Metric Learning", "Large Scale Search", "Scalability", "Self-Supervised", "Supervised"]
 short_authors: Mehta et al.
 ---
 Contrastive learning has emerged as a transformative method for learning

@@ -7,8 +7,7 @@ year: 2019
 bibkey: wang2019cluster
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.07923'}]
-tags: [Compact Codes, Evaluation, Supervised, Similarity Search, Datasets, Scalability,
-  Unsupervised, Tools & Libraries, Hashing Methods]
+tags: ["Datasets", "Hashing Methods", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Lu Wang, Jie Yang
 ---
 Large-scale cross-modal hashing similarity retrieval has attracted more and

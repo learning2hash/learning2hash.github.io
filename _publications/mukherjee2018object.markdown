@@ -7,7 +7,7 @@ year: 2018
 bibkey: mukherjee2018object
 citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.02555'}]
-tags: [Evaluation, Supervised, Tools & Libraries, Neural Hashing]
+tags: ["Evaluation", "Neural Hashing", "Supervised", "Tools & Libraries"]
 short_authors: Prerana Mukherjee, Brejesh Lall, Snehith Lattupally
 ---
 Object cosegmentation addresses the problem of discovering similar objects

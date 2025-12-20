@@ -7,7 +7,7 @@ year: 2019
 bibkey: sivertsen2019similarity
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.04842'}]
-tags: [Scalability, Similarity Search]
+tags: ["Scalability", "Similarity Search"]
 short_authors: Johan von Tangen Sivertsen
 ---
 The main contribution of this dissertation is the introduction of new or

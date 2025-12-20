@@ -8,7 +8,7 @@ bibkey: falcon2022learning
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/aranciokov/ranp'}, {name: Paper,
     url: 'https://arxiv.org/abs/2203.08688'}]
-tags: [Video Retrieval, Evaluation, Datasets, Neural Hashing]
+tags: ["Datasets", "Evaluation", "Neural Hashing", "Video Retrieval"]
 short_authors: Alex Falcon, Giuseppe Serra, Oswald Lanz
 ---
 Due to the amount of videos and related captions uploaded every hour, deep

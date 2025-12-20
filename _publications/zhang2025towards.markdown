@@ -9,7 +9,7 @@ year: 2025
 bibkey: zhang2025towards
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.12799'}]
-tags: [Evaluation, Datasets, ACL]
+tags: ["Datasets", "Evaluation"]
 short_authors: Zhang et al.
 ---
 Current multimodal information retrieval studies mainly focus on single-image

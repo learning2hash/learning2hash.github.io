@@ -9,8 +9,7 @@ year: 2022
 bibkey: yuan2022exploring
 citations: 173
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.09868'}]
-tags: [Evaluation, Image Retrieval, Distance Metric Learning, Datasets, Multimodal
-    Retrieval]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Yuan et al.
 ---
 Remote sensing (RS) cross-modal text-image retrieval has attracted extensive

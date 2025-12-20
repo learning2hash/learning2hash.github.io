@@ -7,7 +7,7 @@ year: 2019
 bibkey: laarhoven2019nearest
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.06196'}]
-tags: [Efficiency]
+tags: ["Efficiency"]
 short_authors: Thijs Laarhoven
 ---
 Over the past decade, various improvements have been made to Tardos'

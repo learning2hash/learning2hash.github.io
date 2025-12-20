@@ -10,8 +10,7 @@ bibkey: hoe2021one
 citations: 13
 additional_links: [{name: Code, url: 'https://github.com/kamwoh/orthohash'}, {name: Paper,
     url: 'https://arxiv.org/abs/2109.14449'}]
-tags: [Evaluation, Neural Hashing, Distance Metric Learning, Quantization, Scalability,
-  Hashing Methods]
+tags: ["Distance Metric Learning", "Evaluation", "Hashing Methods", "Neural Hashing", "Quantization"]
 short_authors: Hoe et al.
 ---
 A deep hashing model typically has two main learning objectives: to make the

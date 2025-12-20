@@ -9,7 +9,7 @@ year: 2022
 bibkey: "hofst\xE4tter2022introducing"
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.13088'}]
-tags: [Efficiency, Robustness]
+tags: ["Efficiency", "Robustness"]
 short_authors: "Hofst\xE4tter et al."
 ---
 Recent progress in neural information retrieval has demonstrated large gains

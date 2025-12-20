@@ -7,8 +7,7 @@ year: 2019
 bibkey: mihajlovic2019finding
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.00262'}]
-tags: [Evaluation, Supervised, Distance Metric Learning, Unsupervised, Recommender
-    Systems]
+tags: ["Distance Metric Learning", "Evaluation", "Recommender Systems", "Supervised", "Unsupervised"]
 short_authors: Marko Mihajlovic, Ning Xiong
 ---
 In recent years, huge amounts of unstructured textual data on the Internet

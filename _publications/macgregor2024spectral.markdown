@@ -7,7 +7,7 @@ year: 2024
 bibkey: macgregor2024spectral
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.07096'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Tools & Libraries]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
 short_authors: Peter MacGregor, He Sun
 ---
 Spectral Toolkit of Algorithms for Graphs (STAG) is an open-source library

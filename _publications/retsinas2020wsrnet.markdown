@@ -7,7 +7,7 @@ year: 2020
 bibkey: retsinas2020wsrnet
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.07109'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: George Retsinas, Giorgos Sfikas, Petros Maragos
 ---
 In this work, we present a unified model that can handle both Keyword

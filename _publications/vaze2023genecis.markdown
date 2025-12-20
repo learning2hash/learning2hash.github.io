@@ -8,8 +8,7 @@ bibkey: vaze2023genecis
 citations: 13
 additional_links: [{name: Other, url: 'https://sgvaze.github.io/genecis/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2306.07969'}]
-tags: [Evaluation, Supervised, Image Retrieval, Few-shot & Zero-shot, Self-Supervised,
-  Datasets, CVPR]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Sagar Vaze, Nicolas Carion, Ishan Misra
 ---
 We argue that there are many notions of 'similarity' and that models, like

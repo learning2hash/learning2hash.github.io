@@ -9,8 +9,7 @@ year: 2024
 bibkey: nie2024improving
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.18254'}]
-tags: [Evaluation, Self-Supervised, Datasets, Multimodal Retrieval, Scalability, Text
-    Retrieval, KDD]
+tags: ["Datasets", "Evaluation", "KDD", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Nie et al.
 ---
 Cross-lingual Cross-modal Retrieval (CCR) is an essential task in web search,

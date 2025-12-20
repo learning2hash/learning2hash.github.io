@@ -8,7 +8,7 @@ year: 2023
 bibkey: seddati2023a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.18988'}]
-tags: [Distance Metric Learning, Image Retrieval, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Seddati et al.
 ---
 Sketch-Based Image Retrieval (SBIR) is a crucial task in multimedia

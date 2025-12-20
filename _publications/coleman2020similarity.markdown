@@ -8,8 +8,7 @@ year: 2020
 bibkey: coleman2020similarity
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.00077'}]
-tags: [Evaluation, Similarity Search, Efficiency, Datasets, Scalability, Large-Scale
-    Search]
+tags: ["Datasets", "Efficiency", "Large Scale Search", "Scalability", "Similarity Search"]
 short_authors: Coleman et al.
 ---
 Many active learning and search approaches are intractable for large-scale

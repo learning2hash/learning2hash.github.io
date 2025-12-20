@@ -7,7 +7,7 @@ year: 2023
 bibkey: hubenthal2023image
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.10206'}]
-tags: [Evaluation, Distance Metric Learning, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Mark Hubenthal, Suren Kumar
 ---
 Open-set logo recognition is commonly solved by first detecting possible logo

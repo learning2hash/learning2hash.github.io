@@ -8,9 +8,7 @@ year: 2025
 bibkey: ma2025progressive
 citations: 18
 additional_links: [{name: Paper, url: 'https://www.ijcai.org/proceedings/2018/0121.pdf'}]
-tags: [Image Retrieval, Neural Hashing, Tools & Libraries, Hashing Methods, AAAI,
-  Scalability, Supervised, Datasets, Distance Metric Learning, Unsupervised, Evaluation,
-  IJCAI, Robustness]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Ma et al.
 ---
 Recent years have witnessed the success of the emerging hashing techniques in large-scale image

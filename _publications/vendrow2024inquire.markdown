@@ -9,8 +9,7 @@ bibkey: vendrow2024inquire
 citations: 0
 additional_links: [{name: Code, url: 'https://inquire-benchmark.github.io'}, {name: Paper,
     url: 'https://arxiv.org/abs/2411.02537'}]
-tags: [Evaluation, Image Retrieval, Re-ranking, Datasets, Multimodal Retrieval, NeurIPS,
-  Hybrid ANN Methods]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Re-Ranking"]
 short_authors: Vendrow et al.
 ---
 We introduce INQUIRE, a text-to-image retrieval benchmark designed to

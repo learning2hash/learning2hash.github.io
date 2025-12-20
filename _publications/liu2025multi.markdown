@@ -7,7 +7,7 @@ year: 2025
 bibkey: liu2025multi
 citations: 57
 additional_links: [{name: Paper, url: 'http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Multi-View_Complementary_Hash_ICCV_2015_paper.pdf'}]
-tags: [ICCV, Image Retrieval, Datasets, Scalability, Tools & Libraries, Hashing Methods]
+tags: ["Datasets", "Hashing Methods", "ICCV", "Image Retrieval", "Tools & Libraries"]
 short_authors: Liu et al.
 ---
 Recent years have witnessed the success of hashing techniques in fast nearest neighbor search. In practice many

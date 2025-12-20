@@ -7,7 +7,7 @@ year: 2020
 bibkey: tursun2020learning
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.01642'}]
-tags: [Evaluation, Distance Metric Learning, Image Retrieval, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Tursun et al.
 ---
 Off-the-shelf convolutional neural network features achieve outstanding

@@ -7,7 +7,7 @@ year: 2021
 bibkey: zolfaghari2021crossclr
 citations: 121
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.14910'}]
-tags: [ICCV, Distance Metric Learning, Self-Supervised, Datasets, Text Retrieval]
+tags: ["Datasets", "Distance Metric Learning", "ICCV", "Self-Supervised", "Text Retrieval"]
 short_authors: Zolfaghari et al.
 ---
 Contrastive learning allows us to flexibly define powerful losses by

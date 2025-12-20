@@ -7,8 +7,7 @@ year: 2017
 bibkey: klein2017end
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08589'}]
-tags: [Evaluation, Supervised, Image Retrieval, Memory Efficiency, Quantization, Unsupervised,
-  Hashing Methods]
+tags: ["Hashing Methods", "Image Retrieval", "Quantization", "Supervised", "Unsupervised"]
 short_authors: Benjamin Klein, Lior Wolf
 ---
 Product Quantization, a dictionary based hashing method, is one of the

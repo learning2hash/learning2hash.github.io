@@ -7,7 +7,7 @@ year: 2018
 bibkey: he2018local
 citations: 202
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.05312'}]
-tags: [Evaluation, CVPR]
+tags: ["CVPR", "Evaluation"]
 short_authors: Kun He, Yan Lu, Stan Sclaroff
 ---
 Extraction of local feature descriptors is a vital stage in the solution

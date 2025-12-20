@@ -8,7 +8,7 @@ year: 2017
 bibkey: han2017automatic
 citations: 192
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.01311'}]
-tags: [Evaluation, ICCV, Datasets]
+tags: ["Datasets", "Evaluation", "ICCV"]
 short_authors: Han et al.
 ---
 This paper proposes an automatic spatially-aware concept discovery approach

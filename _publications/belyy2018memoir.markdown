@@ -7,8 +7,7 @@ year: 2018
 bibkey: belyy2018memoir
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.09863'}]
-tags: [Evaluation, Similarity Search, Datasets, Scalability, Hashing Methods, Locality
-    Sensitive Hashing]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Similarity Search"]
 short_authors: Anton Belyy, Aleksei Sholokhov
 ---
 Multi-class classification with a very large number of classes, or extreme

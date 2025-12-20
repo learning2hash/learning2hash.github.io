@@ -8,8 +8,7 @@ year: 2019
 bibkey: zhang2019pairwise
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.00643'}]
-tags: [Supervised, Efficiency, Datasets, Memory Efficiency, Scalability, CVPR, Tools
-    & Libraries, Hashing Methods]
+tags: ["CVPR", "Datasets", "Efficiency", "Hashing Methods", "Supervised"]
 short_authors: Shifeng Zhang, Jianmin Li, Bo Zhang
 ---
 Hashing method maps similar high-dimensional data to binary hashcodes with

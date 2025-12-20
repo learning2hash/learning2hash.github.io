@@ -9,7 +9,7 @@ bibkey: zeng2023cascading
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/kaiba007/FG-CNET'}, {name: Paper,
     url: 'https://arxiv.org/abs/2303.11274'}]
-tags: [Similarity Search, Efficiency, Datasets, Scalability, Hashing Methods]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Scalability", "Similarity Search"]
 short_authors: Xianxian Zeng, Yanjun Zheng
 ---
 With the explosive growth in the number of fine-grained images in the

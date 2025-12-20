@@ -7,8 +7,7 @@ year: 2017
 bibkey: hu2017supervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.00573'}]
-tags: [Evaluation, Supervised, Datasets, Memory Efficiency, Unsupervised, Hashing
-    Methods]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Hu et al.
 ---
 Recently, supervised hashing methods have attracted much attention since they

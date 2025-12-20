@@ -9,7 +9,7 @@ year: 2019
 bibkey: renoust2019buda
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.12932'}]
-tags: [Image Retrieval]
+tags: ["Image Retrieval"]
 short_authors: Renoust et al.
 ---
 We introduce BUDA.ART, a system designed to assist researchers in Art

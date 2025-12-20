@@ -7,8 +7,7 @@ year: 2019
 bibkey: ding2019bilinear
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.01474'}]
-tags: [Compact Codes, Evaluation, Supervised, Datasets, Tools & Libraries, Hashing
-    Methods]
+tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Supervised"]
 short_authors: Ding et al.
 ---
 Hashing has been recognized as an efficient representation learning method to

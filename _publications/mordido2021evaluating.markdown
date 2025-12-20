@@ -7,8 +7,7 @@ year: 2021
 bibkey: mordido2021evaluating
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.11912'}]
-tags: [Compact Codes, Evaluation, Datasets, Quantization, Robustness, Hashing Methods,
-  Locality Sensitive Hashing]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Quantization"]
 short_authors: "Gon\xE7alo Mordido, Haojin Yang, Christoph Meinel"
 ---
 The analysis of the compression effects in generative adversarial networks

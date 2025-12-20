@@ -7,7 +7,7 @@ year: 2025
 bibkey: ding2025collective
 citations: 672
 additional_links: [{name: Paper, url: 'http://ise.thss.tsinghua.edu.cn/MIG/CVPR2014%20Collective%20Matrix%20Factorization%20Hashing%20for%20Multimodal%20Data.pdf'}]
-tags: [Similarity Search, Datasets, Scalability, CVPR, Hashing Methods]
+tags: ["CVPR", "Datasets", "Hashing Methods", "Scalability", "Similarity Search"]
 short_authors: G. Ding, Guo, Zhou
 ---
 Nearest neighbor search methods based on hashing have

@@ -7,7 +7,7 @@ year: 2024
 bibkey: dong2024embedding
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.08406'}]
-tags: [Tools & Libraries]
+tags: ["Tools & Libraries"]
 short_authors: Dong et al.
 ---
 Visible-infrared person re-identification (VIReID) retrieves pedestrian

@@ -7,8 +7,7 @@ year: 2019
 bibkey: huang2019learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.08639'}]
-tags: [Evaluation, Supervised, Image Retrieval, Tools & Libraries, Unsupervised, Hashing
-    Methods]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Yinjie Huang, Michael Georgiopoulos, Georgios C. Anagnostopoulos
 ---
 In this paper, we propose a novel hash learning approach that has the

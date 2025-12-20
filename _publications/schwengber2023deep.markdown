@@ -7,8 +7,7 @@ year: 2023
 bibkey: schwengber2023deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.04207'}]
-tags: [Evaluation, Supervised, Neural Hashing, Similarity Search, Distance Metric
-    Learning, Datasets, Quantization, Scalability, Unsupervised, Hashing Methods]
+tags: ["Distance Metric Learning", "Hashing Methods", "Neural Hashing", "Quantization", "Similarity Search"]
 short_authors: Schwengber et al.
 ---
 Hashing is at the heart of large-scale image similarity search, and recent

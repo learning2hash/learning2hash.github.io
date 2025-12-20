@@ -7,7 +7,7 @@ year: 2023
 bibkey: rozner2023efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.13240'}]
-tags: [Datasets, Efficiency]
+tags: ["Datasets", "Efficiency"]
 short_authors: Rozner et al.
 ---
 We study the problem of performing face verification with an efficient neural

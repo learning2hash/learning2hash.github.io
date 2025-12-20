@@ -8,7 +8,7 @@ year: 2016
 bibkey: kuo2016de
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.08999'}]
-tags: [Hashing Methods, Compact Codes, Image Retrieval, Video Retrieval]
+tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Video Retrieval"]
 short_authors: Yin-Hsi Kuo, Winston H. Hsu
 ---
 Due to the prevalence of mobile devices, mobile search becomes a more

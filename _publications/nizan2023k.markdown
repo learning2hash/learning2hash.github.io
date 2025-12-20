@@ -7,7 +7,7 @@ year: 2023
 bibkey: nizan2023k
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.17695'}]
-tags: [Datasets]
+tags: ["Datasets"]
 short_authors: Ori Nizan, Ayellet Tal
 ---
 Anomaly detection aims at identifying images that deviate significantly from

@@ -8,7 +8,7 @@ year: 2024
 bibkey: koley2024how
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.07203'}]
-tags: [Evaluation, Image Retrieval, Distance Metric Learning, CVPR, Tools & Libraries]
+tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Koley et al.
 ---
 In this paper, we propose a novel abstraction-aware sketch-based image

@@ -10,7 +10,7 @@ bibkey: adimoolam2023efficient
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/yeshwanth95/CrowdAI_Hash_and_search'},
   {name: Paper, url: 'https://arxiv.org/abs/2304.02296'}]
-tags: [Neural Hashing, Efficiency, Datasets, Scalability, Hashing Methods]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Neural Hashing", "Scalability"]
 short_authors: Adimoolam et al.
 ---
 Recent advancements in deep learning and computer vision have led to

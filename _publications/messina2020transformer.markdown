@@ -8,7 +8,7 @@ bibkey: messina2020transformer
 citations: 45
 additional_links: [{name: Code, url: 'https://github.com/mesnico/TERN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2004.09144'}]
-tags: [Scalability, Image Retrieval, Datasets, Neural Hashing]
+tags: ["Datasets", "Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Messina et al.
 ---
 Image-text matching is an interesting and fascinating task in modern AI

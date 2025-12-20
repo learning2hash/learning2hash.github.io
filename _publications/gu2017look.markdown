@@ -8,7 +8,7 @@ year: 2017
 bibkey: gu2017look
 citations: 289
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.06420'}]
-tags: [Evaluation, Datasets, Multimodal Retrieval, CVPR, Tools & Libraries, Text Retrieval]
+tags: ["CVPR", "Datasets", "Evaluation", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Gu et al.
 ---
 Textual-visual cross-modal retrieval has been a hot research topic in both

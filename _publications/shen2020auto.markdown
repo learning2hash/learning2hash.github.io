@@ -9,8 +9,7 @@ bibkey: shen2020auto
 citations: 128
 additional_links: [{name: Code, url: 'https://github.com/ymcidence/TBH'}, {name: Paper,
     url: 'https://arxiv.org/abs/2002.11930'}]
-tags: [Compact Codes, Evaluation, Supervised, Graph-based ANN, Datasets, CVPR, Unsupervised,
-  Tools & Libraries, Hashing Methods]
+tags: ["Compact Codes", "Datasets", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Shen et al.
 ---
 Conventional unsupervised hashing methods usually take advantage of

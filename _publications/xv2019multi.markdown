@@ -9,7 +9,7 @@ year: 2019
 bibkey: xv2019multi
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.06418'}]
-tags: [Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning"]
 short_authors: Xv et al.
 ---
 Low-shot learning indicates the ability to recognize unseen objects based on

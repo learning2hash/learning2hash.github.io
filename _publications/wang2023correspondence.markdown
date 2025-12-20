@@ -7,7 +7,7 @@ year: 2023
 bibkey: wang2023correspondence
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.06081'}]
-tags: [Evaluation, Supervised, Image Retrieval, Datasets, Unsupervised, AAAI]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Wang et al.
 ---
 Cross-domain image retrieval aims at retrieving images across different

@@ -8,7 +8,7 @@ year: 2019
 bibkey: lu2019vilbert
 citations: 1672
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.02265'}]
-tags: [Image Retrieval, Datasets]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Lu et al.
 ---
 We present ViLBERT (short for Vision-and-Language BERT), a model for learning

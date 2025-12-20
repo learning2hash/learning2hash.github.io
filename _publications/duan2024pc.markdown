@@ -9,7 +9,7 @@ bibkey: duan2024pc
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/alipay/PC2-NoiseofWeb'},
   {name: Paper, url: 'https://arxiv.org/abs/2408.01349'}]
-tags: [Evaluation, Tools & Libraries, Datasets, Multimodal Retrieval]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Duan et al.
 ---
 In the realm of cross-modal retrieval, seamlessly integrating diverse

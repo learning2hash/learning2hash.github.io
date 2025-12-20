@@ -10,7 +10,7 @@ year: 2019
 bibkey: bai2019unsupervised
 citations: 54
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.01098'}]
-tags: [AAAI, Supervised, Unsupervised, Datasets, Tools & Libraries, IJCAI]
+tags: ["AAAI", "Datasets", "IJCAI", "Supervised", "Unsupervised"]
 short_authors: Bai et al.
 ---
 We introduce a novel approach to graph-level representation learning, which

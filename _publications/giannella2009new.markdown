@@ -7,7 +7,7 @@ year: 2009
 bibkey: giannella2009new
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/0906.0684'}]
-tags: [Datasets]
+tags: ["Datasets"]
 short_authors: Chris Giannella
 ---
 Consider a dataset of n(d) points generated independently from R^d according

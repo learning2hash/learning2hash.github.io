@@ -7,8 +7,7 @@ year: 2017
 bibkey: venkateswara2017deep
 citations: 1903
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.07522'}]
-tags: [Supervised, Efficiency, Neural Hashing, Datasets, CVPR, Unsupervised, Tools
-    & Libraries, Hashing Methods]
+tags: ["Efficiency", "Hashing Methods", "Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Venkateswara et al.
 ---
 In recent years, deep neural networks have emerged as a dominant machine

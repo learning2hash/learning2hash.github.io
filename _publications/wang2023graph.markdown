@@ -7,8 +7,7 @@ year: 2023
 bibkey: wang2023graph
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.02484'}]
-tags: [Compact Codes, Evaluation, Supervised, Graph-based ANN, Datasets, Quantization,
-  Scalability, Unsupervised, Hashing Methods]
+tags: ["Graph Based ANN", "Hashing Methods", "Quantization", "Supervised", "Unsupervised"]
 short_authors: Wang et al.
 ---
 Unsupervised hashing methods have attracted widespread attention with the

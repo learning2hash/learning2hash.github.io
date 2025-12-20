@@ -8,7 +8,7 @@ year: 2014
 bibkey: csurka2014unsupervised
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1401.6891'}]
-tags: [Evaluation, Supervised, Graph-based ANN, Datasets, Unsupervised, Tools & Libraries]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Supervised", "Unsupervised"]
 short_authors: "Gabriela Csurka, Julien Ah-Pine, St\xE9phane Clinchant"
 ---
 Multimedia collections are more than ever growing in size and diversity.

@@ -8,7 +8,7 @@ year: 2022
 bibkey: wang2022fairclip
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.14562'}]
-tags: [Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Junyang Wang, Yi Zhang, Jitao Sang
 ---
 The Vision-Language Pre-training (VLP) models like CLIP have gained

@@ -9,7 +9,7 @@ year: 2023
 bibkey: singh2023better
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.08121'}]
-tags: [Hashing Methods, Recommender Systems]
+tags: ["Hashing Methods", "Recommender Systems"]
 short_authors: Singh et al.
 ---
 Randomly-hashed item ids are used ubiquitously in recommendation models.

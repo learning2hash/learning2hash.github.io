@@ -8,7 +8,7 @@ year: 2022
 bibkey: formal2022from
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.04733'}]
-tags: [Few-shot & Zero-shot, Efficiency]
+tags: ["Efficiency", "Few Shot & Zero Shot"]
 short_authors: Formal et al.
 ---
 Neural retrievers based on dense representations combined with Approximate

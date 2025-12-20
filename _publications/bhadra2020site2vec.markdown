@@ -9,7 +9,7 @@ bibkey: bhadra2020site2vec
 citations: 7
 additional_links: [{name: Code, url: 'http://services.iittp.ac.in/bioinfo/home'},
   {name: Paper, url: 'https://arxiv.org/abs/2003.08149'}]
-tags: [Hashing Methods, Evaluation, Datasets, Neural Hashing]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing"]
 short_authors: Arnab Bhadra, Kalidas Y
 ---
 Protein-ligand interactions are one of the fundamental types of molecular

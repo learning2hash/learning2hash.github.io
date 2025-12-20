@@ -7,7 +7,7 @@ year: 2020
 bibkey: zhao2020stacked
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.04959'}]
-tags: [Text Retrieval, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Text Retrieval"]
 short_authors: Rui Zhao, Kecheng Zheng, Zheng-Jun Zha
 ---
 Existing dominant approaches for cross-modal video-text retrieval task are to

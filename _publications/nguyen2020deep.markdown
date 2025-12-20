@@ -9,7 +9,7 @@ year: 2020
 bibkey: nguyen2020deep
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.04091'}]
-tags: [Evaluation, Supervised, Distance Metric Learning, Datasets, Unsupervised]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: Nguyen et al.
 ---
 Unsupervised Deep Distance Metric Learning (UDML) aims to learn sample

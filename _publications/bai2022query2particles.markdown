@@ -7,7 +7,7 @@ year: 2022
 bibkey: bai2022query2particles
 citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.12847'}]
-tags: [NAACL, Evaluation, ACL]
+tags: ["Evaluation", "NAACL"]
 short_authors: Bai et al.
 ---
 Answering complex logical queries on incomplete knowledge graphs (KGs) with

@@ -7,7 +7,7 @@ year: 2018
 bibkey: andoni2018approximate
 citations: 40
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.09823'}]
-tags: [Survey Paper]
+tags: ["Survey Paper"]
 short_authors: Alexandr Andoni, Piotr Indyk, Ilya Razenshteyn
 ---
 The nearest neighbor problem is defined as follows: Given a set \(P\) of \(n\)

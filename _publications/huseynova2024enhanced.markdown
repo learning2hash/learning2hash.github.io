@@ -8,7 +8,7 @@ year: 2024
 bibkey: huseynova2024enhanced
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.10435'}]
-tags: [Text Retrieval, Evaluation, Efficiency]
+tags: ["Efficiency", "Evaluation", "Text Retrieval"]
 short_authors: Kavsar Huseynova, Jafar Isbarov
 ---
 Document retrieval systems have experienced a revitalized interest with the

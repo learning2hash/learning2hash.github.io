@@ -8,7 +8,7 @@ bibkey: hwang2020variational
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/gr8joo/IIAE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2012.04251'}]
-tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Robustness]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Robustness"]
 short_authors: Hwang et al.
 ---
 Cross-domain disentanglement is the problem of learning representations

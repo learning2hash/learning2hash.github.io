@@ -9,8 +9,7 @@ year: 2016
 bibkey: kalantidis2016loh
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.06480'}]
-tags: [Evaluation, Image Retrieval, Graph-based ANN, Datasets, Quantization, Scalability,
-  Large-Scale Search, Hashing Methods, Recommender Systems]
+tags: ["Datasets", "Graph Based ANN", "Large Scale Search", "Quantization", "Recommender Systems"]
 short_authors: Kalantidis et al.
 ---
 We propose a novel hashing-based matching scheme, called Locally Optimized

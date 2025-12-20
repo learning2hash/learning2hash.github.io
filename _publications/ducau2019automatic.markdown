@@ -7,7 +7,7 @@ year: 2019
 bibkey: ducau2019automatic
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.06262'}]
-tags: [Tree-based ANN, Neural Hashing]
+tags: ["Neural Hashing", "Tree Based ANN"]
 short_authors: Ducau et al.
 ---
 With the rapid proliferation and increased sophistication of malicious

@@ -7,7 +7,7 @@ year: 2021
 bibkey: chen2021locality
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.10850'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Recommender Systems, Evaluation]
+tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems"]
 short_authors: Chen et al.
 ---
 Online recommendation requires handling rapidly changing user preferences.

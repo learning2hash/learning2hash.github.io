@@ -7,8 +7,7 @@ year: 2022
 bibkey: fan2022tree
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.03237'}]
-tags: [Tree-based ANN, Evaluation, Efficiency, Graph-based ANN, Datasets, Scalability,
-  Large-Scale Search]
+tags: ["Datasets", "Efficiency", "Graph Based ANN", "Large Scale Search", "Tree Based ANN"]
 short_authors: Fan et al.
 ---
 Nearest neighbor search supports important applications in many domains, such

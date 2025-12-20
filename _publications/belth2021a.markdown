@@ -7,7 +7,7 @@ year: 2021
 bibkey: belth2021a
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.07878'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Tools & Libraries, Datasets]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
 short_authors: "Caleb Belth, Alican B\xFCy\xFCk\xE7ak\u0131r, Danai Koutra"
 ---
 The traditional setup of link prediction in networks assumes that a test set

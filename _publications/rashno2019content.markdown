@@ -8,7 +8,7 @@ year: 2019
 bibkey: rashno2019content
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.02059'}]
-tags: [Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Abdolreza Rashno, Elyas Rashno
 ---
 Content-based image retrieval (CBIR) has become one of the most important

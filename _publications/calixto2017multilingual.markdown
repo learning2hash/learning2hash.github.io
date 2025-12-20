@@ -7,7 +7,7 @@ year: 2017
 bibkey: calixto2017multilingual
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.01101'}]
-tags: [Re-ranking, Hybrid ANN Methods]
+tags: ["Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Iacer Calixto, Qun Liu, Nick Campbell
 ---
 We propose a novel discriminative model that learns embeddings from

@@ -9,7 +9,7 @@ bibkey: izquierdo2024close
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/serizba/cliquemining'}, {
     name: Paper, url: 'https://arxiv.org/abs/2407.02422'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Sergio Izquierdo, Javier Civera
 ---
 Visual Place Recognition (VPR) plays a critical role in many localization and

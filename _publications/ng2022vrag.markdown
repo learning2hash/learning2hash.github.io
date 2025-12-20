@@ -7,7 +7,7 @@ year: 2022
 bibkey: ng2022vrag
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.09068'}]
-tags: [Video Retrieval, Evaluation, Recommender Systems, Efficiency]
+tags: ["Efficiency", "Evaluation", "Recommender Systems", "Video Retrieval"]
 short_authors: Kennard Ng, Ser-Nam Lim, Gim Hee Lee
 ---
 Content-based Video Retrieval (CBVR) is used on media-sharing platforms for

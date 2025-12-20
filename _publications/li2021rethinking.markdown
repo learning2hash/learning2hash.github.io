@@ -10,7 +10,7 @@ bibkey: li2021rethinking
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/interestingzhuo/PNPloss'},
   {name: Paper, url: 'https://arxiv.org/abs/2102.04640'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Li et al.
 ---
 Optimizing the approximation of Average Precision (AP) has been widely

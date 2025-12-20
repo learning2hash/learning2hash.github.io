@@ -8,7 +8,7 @@ year: 2018
 bibkey: hoang2018simultaneous
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.06645'}]
-tags: [Supervised, Image Retrieval, Quantization, Unsupervised, Hashing Methods]
+tags: ["Hashing Methods", "Image Retrieval", "Quantization", "Supervised", "Unsupervised"]
 short_authors: Hoang et al.
 ---
 For unsupervised data-dependent hashing, the two most important requirements

@@ -7,7 +7,7 @@ year: 2022
 bibkey: srinivasan2022curriculum
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.14525'}]
-tags: [Self-Supervised, Image Retrieval, Few-shot & Zero-shot]
+tags: ["Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised"]
 short_authors: Tejas Srinivasan, Xiang Ren, Jesse Thomason
 ---
 Aligning image and text encoders from scratch using contrastive learning

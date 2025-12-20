@@ -7,7 +7,7 @@ year: 2017
 bibkey: tian2017cross
 citations: 200
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.07815'}]
-tags: [CVPR, Tools & Libraries, Datasets]
+tags: ["CVPR", "Datasets", "Tools & Libraries"]
 short_authors: Yicong Tian, Chen Chen, Mubarak Shah
 ---
 In this paper, we address the problem of cross-view image geo-localization.

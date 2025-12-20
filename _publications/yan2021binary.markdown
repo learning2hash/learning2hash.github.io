@@ -9,8 +9,7 @@ year: 2021
 bibkey: yan2021binary
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.02471'}]
-tags: [Large-Scale Search, Neural Hashing, CIKM, Scalability, Compact Codes, Recommender
-    Systems, Evaluation]
+tags: ["Compact Codes", "Evaluation", "Large Scale Search", "Recommender Systems", "Scalability"]
 short_authors: Yan et al.
 ---
 Nowadays, deep learning models are widely adopted in web-scale applications

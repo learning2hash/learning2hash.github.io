@@ -8,7 +8,7 @@ year: 2020
 bibkey: mafla2020multi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.09809'}]
-tags: [Image Retrieval, Datasets]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Mafla et al.
 ---
 Scene text instances found in natural images carry explicit semantic

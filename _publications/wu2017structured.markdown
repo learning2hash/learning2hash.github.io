@@ -8,7 +8,7 @@ year: 2017
 bibkey: wu2017structured
 citations: 75
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.04179'}]
-tags: [Evaluation, Neural Hashing, Efficiency, Tools & Libraries, Hashing Methods]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Tools & Libraries"]
 short_authors: Lin Wu, Yang Wang
 ---
 Given a pedestrian image as a query, the purpose of person re-identification

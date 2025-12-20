@@ -7,7 +7,7 @@ year: 2021
 bibkey: song2021graph
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.03135'}]
-tags: [Evaluation, Graph-based ANN, Tools & Libraries, Recommender Systems]
+tags: ["Evaluation", "Graph Based ANN", "Recommender Systems", "Tools & Libraries"]
 short_authors: Song et al.
 ---
 We present Graph Attention Collaborative Similarity Embedding (GACSE), a new

@@ -9,7 +9,7 @@ bibkey: aiger2023yes
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/google-research/google-research/tree/master/cann'},
   {name: Paper, url: 'https://arxiv.org/abs/2306.09012'}]
-tags: [Tree-based ANN, Evaluation, ICCV, Image Retrieval, Efficiency, Datasets, Scalability]
+tags: ["Datasets", "Evaluation", "ICCV", "Image Retrieval", "Tree Based ANN"]
 short_authors: "Dror Aiger, Andr\xE9 Araujo, Simon Lynen"
 ---
 Large-scale visual localization systems continue to rely on 3D point clouds

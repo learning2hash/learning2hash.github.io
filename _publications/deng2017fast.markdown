@@ -7,7 +7,7 @@ year: 2017
 bibkey: deng2017fast
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.01813'}]
-tags: [Scalability, Evaluation, Graph-based ANN]
+tags: ["Evaluation", "Graph Based ANN", "Scalability"]
 short_authors: Cheng-Hao Deng, Wan-Lei Zhao
 ---
 In the era of big data, k-means clustering has been widely adopted as a basic

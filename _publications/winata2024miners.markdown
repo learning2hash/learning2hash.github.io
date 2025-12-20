@@ -7,7 +7,7 @@ year: 2024
 bibkey: winata2024miners
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.07424'}]
-tags: [Evaluation, Robustness, Tools & Libraries, EMNLP, ACL]
+tags: ["EMNLP", "Evaluation", "Robustness", "Tools & Libraries"]
 short_authors: Genta Indra Winata, Ruochen Zhang, David Ifeoluwa Adelani
 ---
 Words have been represented in a high-dimensional vector space that encodes

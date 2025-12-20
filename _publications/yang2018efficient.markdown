@@ -8,7 +8,7 @@ year: 2018
 bibkey: yang2018efficient
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.10907'}]
-tags: [Evaluation, Image Retrieval, Re-ranking, Efficiency, Datasets, Hybrid ANN Methods]
+tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Re-Ranking"]
 short_authors: Yang et al.
 ---
 Diffusion is commonly used as a ranking or re-ranking method in retrieval

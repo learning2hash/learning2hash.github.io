@@ -7,7 +7,7 @@ year: 2021
 bibkey: mazumder2021few
 citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.01454'}]
-tags: [INTERSPEECH, Few-shot & Zero-shot]
+tags: ["Few Shot & Zero Shot", "Interspeech"]
 short_authors: Mazumder et al.
 ---
 We introduce a few-shot transfer learning method for keyword spotting in any

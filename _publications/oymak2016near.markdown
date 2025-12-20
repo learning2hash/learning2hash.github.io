@@ -8,7 +8,7 @@ year: 2016
 bibkey: oymak2016near
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.03178'}]
-tags: [Hashing Methods, ICASSP]
+tags: ["Hashing Methods", "ICASSP"]
 short_authors: Samet Oymak
 ---
 Binary embedding is the problem of mapping points from a high-dimensional

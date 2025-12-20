@@ -7,7 +7,7 @@ year: 2021
 bibkey: nguyen2021a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.02400'}]
-tags: [Text Retrieval, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Text Retrieval"]
 short_authors: Manh-Duy Nguyen, Binh T. Nguyen, Cathal Gurrin
 ---
 Conventional approaches to image-text retrieval mainly focus on indexing

@@ -8,8 +8,7 @@ year: 2022
 bibkey: doan2022one
 citations: 46
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.15721'}]
-tags: [Evaluation, Supervised, Image Retrieval, Neural Hashing, Quantization, CVPR,
-  Hashing Methods]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Supervised"]
 short_authors: Khoa D. Doan, Peng Yang, Ping Li
 ---
 Image hashing is a principled approximate nearest neighbor approach to find

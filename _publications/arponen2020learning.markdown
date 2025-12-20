@@ -7,8 +7,7 @@ year: 2020
 bibkey: arponen2020learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.04917'}]
-tags: [Evaluation, Supervised, Image Retrieval, Efficiency, Distance Metric Learning,
-  Datasets, Hashing Methods]
+tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Image Retrieval", "Supervised"]
 short_authors: Heikki Arponen, Tom E. Bishop
 ---
 Learning to hash is an efficient paradigm for exact and approximate nearest

@@ -8,8 +8,7 @@ year: 2016
 bibkey: xia2016unsupervised
 citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.00206'}]
-tags: [Compact Codes, Supervised, Image Retrieval, Neural Hashing, Scalability, Unsupervised,
-  Tools & Libraries, Hashing Methods]
+tags: ["Compact Codes", "Hashing Methods", "Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Xia et al.
 ---
 Learning based hashing plays a pivotal role in large-scale visual search.

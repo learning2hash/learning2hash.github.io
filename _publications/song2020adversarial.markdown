@@ -9,7 +9,7 @@ bibkey: song2020adversarial
 citations: 28
 additional_links: [{name: Code, url: 'https://github.com/csong27/collision-bert'},
   {name: Paper, url: 'https://arxiv.org/abs/2011.04743'}]
-tags: [EMNLP, Robustness, Text Retrieval]
+tags: ["EMNLP", "Robustness", "Text Retrieval"]
 short_authors: Congzheng Song, Alexander M. Rush, Vitaly Shmatikov
 ---
 We study semantic collisions: texts that are semantically unrelated but

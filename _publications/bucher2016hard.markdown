@@ -7,7 +7,7 @@ year: 2016
 bibkey: bucher2016hard
 citations: 53
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.07441'}]
-tags: [Evaluation, Distance Metric Learning, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: "Maxime Bucher, St\xE9phane Herbin, Fr\xE9d\xE9ric Jurie"
 ---
 Zero-Shot learning has been shown to be an efficient strategy for domain

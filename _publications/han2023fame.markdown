@@ -8,7 +8,7 @@ bibkey: han2023fame
 citations: 35
 additional_links: [{name: Code, url: 'https://github.com/BrandonHanx/FAME-ViL'}, {
     name: Paper, url: 'https://arxiv.org/abs/2303.02483'}]
-tags: [Image Retrieval, Efficiency, Datasets, Multimodal Retrieval, CVPR]
+tags: ["CVPR", "Datasets", "Efficiency", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Han et al.
 ---
 In the fashion domain, there exists a variety of vision-and-language (V+L)

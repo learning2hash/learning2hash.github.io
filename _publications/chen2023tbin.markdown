@@ -7,7 +7,7 @@ year: 2023
 bibkey: chen2023tbin
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.08483'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Recommender Systems]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems"]
 short_authors: Chen et al.
 ---
 Click-through rate (CTR) prediction plays a pivotal role in the success of

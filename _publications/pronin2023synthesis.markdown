@@ -7,7 +7,7 @@ year: 2023
 bibkey: pronin2023synthesis
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.15295'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Cesar Borisovich Pronin, Andrey Vladimirovich Ostroukh
 ---
 This paper describes a method for using Grovers algorithm to create a quantum

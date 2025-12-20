@@ -7,7 +7,7 @@ year: 2024
 bibkey: goel2024quantifying
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.15241'}]
-tags: [Distance Metric Learning, Robustness]
+tags: ["Distance Metric Learning", "Robustness"]
 short_authors: Samarth Goel, Reagan J. Lee, Kannan Ramchandran
 ---
 Embedding models are crucial for tasks in Information Retrieval (IR) and

@@ -8,7 +8,7 @@ year: 2025
 bibkey: gupta2025retreever
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.07971'}]
-tags: [Tree-based ANN, Evaluation, Similarity Search, Scalability, Text Retrieval]
+tags: ["Evaluation", "Scalability", "Similarity Search", "Text Retrieval", "Tree Based ANN"]
 short_authors: Gupta et al.
 ---
 Document retrieval is a core component of question-answering systems, as it

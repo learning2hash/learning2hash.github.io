@@ -7,7 +7,7 @@ year: 2020
 bibkey: henkel2020supporting
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.01650'}]
-tags: [Scalability]
+tags: ["Scalability"]
 short_authors: Christof Henkel, Philipp Singer
 ---
 This article presents an efficient end-to-end method to perform

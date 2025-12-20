@@ -7,8 +7,7 @@ year: 2018
 bibkey: shen2018zero
 citations: 161
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.02284'}]
-tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Similarity Search, Datasets,
-  Scalability, CVPR, Large-Scale Search, Hashing Methods]
+tags: ["Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Large Scale Search", "Similarity Search"]
 short_authors: Shen et al.
 ---
 Recent studies show that large-scale sketch-based image retrieval (SBIR) can

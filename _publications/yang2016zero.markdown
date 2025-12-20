@@ -7,8 +7,7 @@ year: 2016
 bibkey: yang2016zero
 citations: 143
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.05032'}]
-tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Few-shot & Zero-shot,
-  Efficiency, Datasets, Scalability, Unsupervised, Hashing Methods]
+tags: ["Efficiency", "Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Supervised"]
 short_authors: Yang et al.
 ---
 Hashing has shown its efficiency and effectiveness in facilitating

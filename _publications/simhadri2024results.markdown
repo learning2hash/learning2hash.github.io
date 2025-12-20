@@ -11,7 +11,7 @@ year: 2024
 bibkey: simhadri2024results
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.17424'}]
-tags: [Evaluation, Similarity Search, Datasets, Efficiency]
+tags: ["Datasets", "Efficiency", "Evaluation", "Similarity Search"]
 short_authors: Simhadri et al.
 ---
 The 2023 Big ANN Challenge, held at NeurIPS 2023, focused on advancing the

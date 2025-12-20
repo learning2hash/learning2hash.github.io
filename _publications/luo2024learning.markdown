@@ -8,8 +8,7 @@ bibkey: luo2024learning
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/Luo-Fangyuan/HashRec\'},
   {name: Paper, url: 'https://arxiv.org/abs/2412.03875'}]
-tags: [Evaluation, Efficiency, Survey Paper, Memory Efficiency, Scalability, Hashing
-    Methods, Recommender Systems]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Recommender Systems", "Survey Paper"]
 short_authors: Luo et al.
 ---
 With the explosive growth of users and items, Recommender Systems (RS) are

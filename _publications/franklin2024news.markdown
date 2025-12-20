@@ -8,7 +8,7 @@ year: 2024
 bibkey: franklin2024news
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.15593'}]
-tags: [Datasets, Neural Hashing]
+tags: ["Datasets", "Neural Hashing"]
 short_authors: Franklin et al.
 ---
 Social scientists and the general public often analyze contemporary events by

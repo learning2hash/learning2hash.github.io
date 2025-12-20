@@ -8,7 +8,7 @@ year: 2023
 bibkey: ming2023aegis
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.09538'}]
-tags: [Evaluation, Tree-based ANN, Datasets, Neural Hashing]
+tags: ["Datasets", "Evaluation", "Neural Hashing", "Tree Based ANN"]
 short_authors: Ming et al.
 ---
 We present AEGIS-Net, a novel indoor place recognition model that takes in

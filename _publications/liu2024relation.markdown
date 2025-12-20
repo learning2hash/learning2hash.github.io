@@ -7,7 +7,7 @@ year: 2024
 bibkey: liu2024relation
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.00120'}]
-tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Datasets, Tools & Libraries]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Tools & Libraries"]
 short_authors: Liu et al.
 ---
 Sketch-based image retrieval (SBIR) relies on free-hand sketches to retrieve

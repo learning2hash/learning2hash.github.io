@@ -8,8 +8,7 @@ bibkey: jimenez2017class
 citations: 15
 additional_links: [{name: Code, url: 'http://imatge-upc.github.io/retrieval-2017-cam/'},
   {name: Paper, url: 'https://arxiv.org/abs/1707.02581'}]
-tags: [Supervised, Image Retrieval, Re-ranking, Datasets, Unsupervised, Hybrid ANN
-    Methods]
+tags: ["Datasets", "Image Retrieval", "Re-Ranking", "Supervised", "Unsupervised"]
 short_authors: Albert Jimenez, Jose M. Alvarez, Xavier Giro-I-Nieto
 ---
 Image retrieval in realistic scenarios targets large dynamic datasets of

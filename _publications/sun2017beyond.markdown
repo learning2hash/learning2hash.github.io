@@ -8,7 +8,7 @@ year: 2017
 bibkey: sun2017beyond
 citations: 152
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.09349'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Sun et al.
 ---
 Employing part-level features for pedestrian image description offers

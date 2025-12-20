@@ -9,7 +9,7 @@ year: 2022
 bibkey: wang2022coder
 citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.09843'}]
-tags: [Text Retrieval, Self-Supervised, Evaluation]
+tags: ["Evaluation", "Self-Supervised", "Text Retrieval"]
 short_authors: Wang et al.
 ---
 Image-Text Retrieval (ITR) is challenging in bridging visual and lingual

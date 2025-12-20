@@ -7,7 +7,7 @@ year: 2020
 bibkey: shanehsazzadeh2020fixed
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.15065'}]
-tags: [Hashing Methods, Evaluation, Supervised, Neural Hashing]
+tags: ["Evaluation", "Hashing Methods", "Neural Hashing", "Supervised"]
 short_authors: Amir Shanehsazzadeh, David Belanger, David Dohan
 ---
 The Basic Local Alignment Search Tool (BLAST) is currently the most popular

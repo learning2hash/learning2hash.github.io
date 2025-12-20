@@ -8,7 +8,7 @@ bibkey: yan2024mute
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/lumennYan/MUTE_SLAM'}, {
     name: Paper, url: 'https://arxiv.org/abs/2403.17765'}]
-tags: [Datasets, AAAI, Evaluation, Efficiency]
+tags: ["AAAI", "Datasets", "Efficiency", "Evaluation"]
 short_authors: Yifan Yan, Ruomin He, Zhenghua Liu
 ---
 We introduce MUTE-SLAM, a real-time neural RGB-D SLAM system employing

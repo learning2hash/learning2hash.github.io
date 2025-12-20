@@ -8,7 +8,7 @@ year: 2021
 bibkey: li2021deep
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.08149'}]
-tags: [Evaluation, Distance Metric Learning, Few-shot & Zero-shot, Survey Paper]
+tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Survey Paper"]
 short_authors: Li et al.
 ---
 Few-shot image classification is a challenging problem that aims to achieve

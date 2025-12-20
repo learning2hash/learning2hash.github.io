@@ -7,7 +7,7 @@ year: 2019
 bibkey: patel2019tinysearch
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.02451'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Manish Patel
 ---
 Existing search engines use keyword matching or tf-idf based matching to map

@@ -8,7 +8,7 @@ year: 2025
 bibkey: nozawa2025prompt
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.01348'}]
-tags: [Evaluation, CVPR, Image Retrieval, Datasets]
+tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Nozawa et al.
 ---
 The goal of this paper is to enhance pretrained Vision Transformer (ViT)

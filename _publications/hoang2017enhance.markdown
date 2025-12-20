@@ -7,7 +7,7 @@ year: 2017
 bibkey: hoang2017enhance
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.01754'}]
-tags: [Evaluation, Supervised, Datasets, Quantization, Unsupervised, Hashing Methods]
+tags: ["Evaluation", "Hashing Methods", "Quantization", "Supervised", "Unsupervised"]
 short_authors: Hoang et al.
 ---
 We introduce a novel approach to improve unsupervised hashing. Specifically,

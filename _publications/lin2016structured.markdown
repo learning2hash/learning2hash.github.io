@@ -7,8 +7,7 @@ year: 2016
 bibkey: lin2016structured
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.06654'}]
-tags: [Compact Codes, Evaluation, Image Retrieval, Distance Metric Learning, Scalability,
-  Tools & Libraries, Hashing Methods]
+tags: ["Compact Codes", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Image Retrieval"]
 short_authors: Lin et al.
 ---
 Hashing methods aim to learn a set of hash functions which map the original

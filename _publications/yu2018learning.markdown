@@ -8,7 +8,7 @@ year: 2018
 bibkey: yu2018learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.04152'}]
-tags: [Datasets, Quantization, Multimodal Retrieval, Tools & Libraries, Hashing Methods]
+tags: ["Datasets", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Tools & Libraries"]
 short_authors: Jun Yu, Xiao-Jun Wu, Josef Kittler
 ---
 Hashing techniques have been applied broadly in retrieval tasks due to their

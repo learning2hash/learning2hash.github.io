@@ -8,7 +8,7 @@ year: 2021
 bibkey: zhang2021text
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.12965'}]
-tags: [Scalability, Evaluation, Tools & Libraries, Datasets]
+tags: ["Datasets", "Evaluation", "Scalability", "Tools & Libraries"]
 short_authors: Zhang et al.
 ---
 Finding target persons in full scene images with a query of text description

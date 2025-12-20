@@ -8,7 +8,7 @@ year: 2020
 bibkey: guerrero2020cross
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.01345'}]
-tags: [Datasets, Multimodal Retrieval]
+tags: ["Datasets", "Multimodal Retrieval"]
 short_authors: Ricardo Guerrero, Hai Xuan Pham, Vladimir Pavlovic
 ---
 Computational food analysis (CFA) naturally requires multi-modal evidence of

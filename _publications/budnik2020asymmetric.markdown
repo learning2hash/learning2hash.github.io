@@ -7,7 +7,7 @@ year: 2020
 bibkey: budnik2020asymmetric
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.16331'}]
-tags: [Distance Metric Learning, Image Retrieval]
+tags: ["Distance Metric Learning", "Image Retrieval"]
 short_authors: Mateusz Budnik, Yannis Avrithis
 ---
 Knowledge transfer from large teacher models to smaller student models has

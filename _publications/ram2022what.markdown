@@ -8,7 +8,7 @@ year: 2022
 bibkey: ram2022what
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.10380'}]
-tags: [Evaluation, Few-shot & Zero-shot]
+tags: ["Evaluation", "Few Shot & Zero Shot"]
 short_authors: Ram et al.
 ---
 Dual encoders are now the dominant architecture for dense retrieval. Yet, we

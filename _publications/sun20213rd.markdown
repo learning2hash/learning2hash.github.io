@@ -8,7 +8,7 @@ year: 2021
 bibkey: sun20213rd
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.02373'}]
-tags: [Supervised, Similarity Search, Self-Supervised, Scalability, Tools & Libraries]
+tags: ["Scalability", "Self-Supervised", "Similarity Search", "Supervised", "Tools & Libraries"]
 short_authors: Sun et al.
 ---
 As a basic task of computer vision, image similarity retrieval is facing the

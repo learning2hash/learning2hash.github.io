@@ -7,7 +7,7 @@ year: 2020
 bibkey: doan2020hm4
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.00450'}]
-tags: [Evaluation, Datasets, Scalability, Hashing Methods, Locality Sensitive Hashing]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability"]
 short_authors: Doan et al.
 ---
 Visual place recognition needs to be robust against appearance variability

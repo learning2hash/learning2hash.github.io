@@ -7,7 +7,7 @@ year: 2021
 bibkey: koo2021semantic
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.05478'}]
-tags: [Compact Codes, Evaluation]
+tags: ["Compact Codes", "Evaluation"]
 short_authors: Koo et al.
 ---
 A wide range of binary analysis applications, such as bug discovery, malware

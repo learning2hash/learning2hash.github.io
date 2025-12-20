@@ -8,7 +8,7 @@ bibkey: zhang2023user
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/zhangy0822/USER'}, {name: Paper,
     url: 'https://arxiv.org/abs/2301.06844'}]
-tags: [Evaluation, Efficiency, Self-Supervised, Datasets, Text Retrieval]
+tags: ["Datasets", "Efficiency", "Evaluation", "Self-Supervised", "Text Retrieval"]
 short_authors: Zhang et al.
 ---
 As a fundamental and challenging task in bridging language and vision

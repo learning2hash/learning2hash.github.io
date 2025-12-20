@@ -7,7 +7,7 @@ year: 2021
 bibkey: wu2021hanet
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.12059'}]
-tags: [Text Retrieval, Datasets]
+tags: ["Datasets", "Text Retrieval"]
 short_authors: Wu et al.
 ---
 Video-text retrieval is an important yet challenging task in vision-language

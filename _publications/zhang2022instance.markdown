@@ -8,7 +8,7 @@ year: 2022
 bibkey: zhang2022instance
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.06119'}]
-tags: [Evaluation, Supervised, Image Retrieval, Self-Supervised, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Zhang et al.
 ---
 Quality feature representation is key to instance image retrieval. To attain

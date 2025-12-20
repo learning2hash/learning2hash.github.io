@@ -7,7 +7,7 @@ year: 2019
 bibkey: huang2019black
 citations: 49
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.07140'}]
-tags: [Efficiency, Tools & Libraries, Robustness]
+tags: ["Efficiency", "Robustness", "Tools & Libraries"]
 short_authors: Zhichao Huang, Tong Zhang
 ---
 We present a new method for black-box adversarial attack. Unlike previous

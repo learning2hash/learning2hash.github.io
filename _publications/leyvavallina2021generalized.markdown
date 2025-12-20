@@ -8,7 +8,7 @@ bibkey: leyvavallina2021generalized
 citations: 12
 additional_links: [{name: Code, url: 'https://github.com/marialeyvallina/generalized_contrastive_loss'},
   {name: Paper, url: 'https://arxiv.org/abs/2103.06638'}]
-tags: [Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning"]
 short_authors: "Mar\xEDa Leyva-Vallina, Nicola Strisciuglio, Nicolai Petkov"
 ---
 Visual place recognition is a challenging task in computer vision and a key

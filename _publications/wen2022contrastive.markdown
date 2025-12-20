@@ -8,7 +8,7 @@ year: 2022
 bibkey: wen2022contrastive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.00733'}]
-tags: [Evaluation, Image Retrieval, Efficiency, Self-Supervised, Multimodal Retrieval]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Wen et al.
 ---
 Recently, the cross-modal pre-training task has been a hotspot because of its

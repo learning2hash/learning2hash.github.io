@@ -7,7 +7,7 @@ year: 2020
 bibkey: li2020frame
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.09290'}]
-tags: [Tools & Libraries, Datasets]
+tags: ["Datasets", "Tools & Libraries"]
 short_authors: Li et al.
 ---
 Video-based person recognition is challenging due to persons being blocked

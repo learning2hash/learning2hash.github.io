@@ -9,7 +9,7 @@ year: 2023
 bibkey: schopf2023aspectcse
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.07851'}]
-tags: [Self-Supervised]
+tags: ["Self-Supervised"]
 short_authors: Schopf et al.
 ---
 Generic sentence embeddings provide a coarse-grained approximation of

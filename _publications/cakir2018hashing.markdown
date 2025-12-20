@@ -7,7 +7,7 @@ year: 2018
 bibkey: cakir2018hashing
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.00974'}]
-tags: [Video Retrieval, Evaluation, Supervised, Image Retrieval, Hashing Methods]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Supervised", "Video Retrieval"]
 short_authors: Cakir et al.
 ---
 Binary vector embeddings enable fast nearest neighbor retrieval in large

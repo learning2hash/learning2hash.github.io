@@ -7,7 +7,7 @@ year: 2017
 bibkey: quinn2017semantic
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.00088'}]
-tags: [Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Quinn et al.
 ---
 We describe a novel architecture for semantic image retrieval---in

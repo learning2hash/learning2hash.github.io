@@ -8,7 +8,7 @@ year: 2020
 bibkey: yu2020apparel
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.06181'}]
-tags: [Evaluation, Supervised, Neural Hashing, Datasets, Unsupervised, Tools & Libraries]
+tags: ["Datasets", "Evaluation", "Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Yu et al.
 ---
 With the rise of deep learning methods, person Re-Identification (ReID)

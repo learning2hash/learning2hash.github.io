@@ -7,7 +7,7 @@ year: 2017
 bibkey: lai2017transductive
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.02856'}]
-tags: [Hashing Methods, Evaluation, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods"]
 short_authors: Hanjiang Lai, Yan Pan
 ---
 Zero-shot Hashing (ZSH) is to learn hashing models for novel/target classes

@@ -9,7 +9,7 @@ year: 2020
 bibkey: roy2020lareqa
 citations: 38
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.05484'}]
-tags: [EMNLP, Evaluation, Few-shot & Zero-shot]
+tags: ["EMNLP", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Roy et al.
 ---
 We present LAReQA, a challenging new benchmark for language-agnostic answer

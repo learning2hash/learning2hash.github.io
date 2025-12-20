@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhang2024clip
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.09763'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Zhang et al.
 ---
 Text-to-image synthesis, a subfield of multimodal generation, has gained

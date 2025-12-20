@@ -7,7 +7,7 @@ year: 2019
 bibkey: alemu2019deep
 citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.11397'}]
-tags: [Evaluation, ICCV, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "ICCV", "Image Retrieval"]
 short_authors: Leulseged Tesfaye Alemu, Marcello Pelillo, Mubarak Shah
 ---
 In this work, we propose an end-to-end constrained clustering scheme to

@@ -8,7 +8,7 @@ year: 2023
 bibkey: gong2023lite
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.03781'}]
-tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Gong et al.
 ---
 The limited data availability and the low signal-to-noise ratio of fMRI

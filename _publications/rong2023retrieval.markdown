@@ -7,7 +7,7 @@ year: 2023
 bibkey: rong2023retrieval
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.02243'}]
-tags: [Evaluation, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Rong et al.
 ---
 The Contrastive Language-Image Pretraining (CLIP) model has been widely used

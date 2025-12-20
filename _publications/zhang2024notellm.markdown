@@ -8,7 +8,7 @@ year: 2024
 bibkey: zhang2024notellm
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.01744'}]
-tags: [Self-Supervised, Tools & Libraries, Recommender Systems]
+tags: ["Recommender Systems", "Self-Supervised", "Tools & Libraries"]
 short_authors: Zhang et al.
 ---
 People enjoy sharing "notes" including their experiences within online

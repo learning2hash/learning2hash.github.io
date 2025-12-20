@@ -7,7 +7,7 @@ year: 2021
 bibkey: hui2021efficient
 citations: 78
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.02374'}]
-tags: [Evaluation, Neural Hashing, Efficiency, Datasets, Scalability]
+tags: ["Datasets", "Efficiency", "Evaluation", "Neural Hashing", "Scalability"]
 short_authors: Hui et al.
 ---
 Point cloud based retrieval for place recognition is still a challenging

@@ -7,7 +7,7 @@ year: 2020
 bibkey: wang2020progressive
 citations: 60
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.08878'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Wang et al.
 ---
 This paper focuses on network pruning for image retrieval acceleration.

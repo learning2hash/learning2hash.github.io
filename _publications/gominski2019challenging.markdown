@@ -9,7 +9,7 @@ year: 2019
 bibkey: gominski2019challenging
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.08866'}]
-tags: [Image Retrieval, Datasets, Neural Hashing]
+tags: ["Datasets", "Image Retrieval", "Neural Hashing"]
 short_authors: Gominski et al.
 ---
 This article proposes to study the behavior of recent and efficient

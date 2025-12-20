@@ -8,7 +8,7 @@ bibkey: lin2022a
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/castorini/dhr'}, {name: Paper,
     url: 'https://arxiv.org/abs/2206.09912'}]
-tags: [Text Retrieval, Evaluation, Tools & Libraries, Few-shot & Zero-shot]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Text Retrieval", "Tools & Libraries"]
 short_authors: Sheng-Chieh Lin, Jimmy Lin
 ---
 Lexical and semantic matching capture different successful approaches to text

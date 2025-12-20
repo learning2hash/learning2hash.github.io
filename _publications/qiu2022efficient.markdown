@@ -9,8 +9,7 @@ year: 2022
 bibkey: qiu2022efficient
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.17170'}]
-tags: [Compact Codes, Evaluation, Neural Hashing, Efficiency, Similarity Search, Distance
-    Metric Learning, Quantization, Hashing Methods, Text Retrieval, EMNLP]
+tags: ["Efficiency", "Hashing Methods", "Neural Hashing", "Quantization", "Text Retrieval"]
 short_authors: Qiu et al.
 ---
 Efficient document retrieval heavily relies on the technique of semantic

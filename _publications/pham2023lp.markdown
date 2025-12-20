@@ -8,7 +8,7 @@ bibkey: pham2023lp
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/VinAIResearch/LP-OVOD'},
   {name: Paper, url: 'https://arxiv.org/abs/2310.17109'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Chau Pham, Truong Vu, Khoi Nguyen
 ---
 This paper addresses the challenging problem of open-vocabulary object

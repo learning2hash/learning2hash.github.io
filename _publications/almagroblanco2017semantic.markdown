@@ -7,7 +7,7 @@ year: 2017
 bibkey: almagroblanco2017semantic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.02759'}]
-tags: [Datasets]
+tags: ["Datasets"]
 short_authors: Pedro Almagro-Blanco, Fernando Sancho-Caparrini
 ---
 A new approach to the study of Generalized Graphs as semantic data structures

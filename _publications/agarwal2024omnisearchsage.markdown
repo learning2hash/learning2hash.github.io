@@ -9,7 +9,7 @@ bibkey: agarwal2024omnisearchsage
 citations: 5
 additional_links: [{name: Code, url: 'https://github.com/pinterest/atg-research/tree/main/omnisearchsage'},
   {name: Paper, url: 'https://arxiv.org/abs/2404.16260'}]
-tags: [Efficiency]
+tags: ["Efficiency"]
 short_authors: Agarwal et al.
 ---
 In this paper, we present OmniSearchSage, a versatile and scalable system for

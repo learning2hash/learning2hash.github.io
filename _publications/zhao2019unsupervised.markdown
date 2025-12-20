@@ -7,7 +7,7 @@ year: 2019
 bibkey: zhao2019unsupervised
 citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.05793'}]
-tags: [Tree-based ANN, Evaluation, Supervised, Image Retrieval, Robustness, Unsupervised]
+tags: ["Evaluation", "Image Retrieval", "Supervised", "Tree Based ANN", "Unsupervised"]
 short_authors: Zhao et al.
 ---
 Studies show that Deep Neural Network (DNN)-based image classification models

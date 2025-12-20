@@ -8,7 +8,7 @@ year: 2019
 bibkey: chakraborty2019conlsh
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.04925'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Datasets, Efficiency]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Angana Chakraborty, Sanghamitra Bandyopadhyay
 ---
 Single Molecule Real-Time (SMRT) sequencing is a recent advancement of Next

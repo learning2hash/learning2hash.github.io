@@ -9,7 +9,7 @@ bibkey: poppi2023safe
 citations: 14
 additional_links: [{name: Code, url: 'https://github.com/aimagelab/safe-clip'}, {
     name: Paper, url: 'https://arxiv.org/abs/2311.16254'}]
-tags: [Scalability, Large-Scale Search, Multimodal Retrieval]
+tags: ["Large Scale Search", "Multimodal Retrieval", "Scalability"]
 short_authors: Poppi et al.
 ---
 Large-scale vision-and-language models, such as CLIP, are typically trained

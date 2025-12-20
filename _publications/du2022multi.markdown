@@ -9,7 +9,7 @@ bibkey: du2022multi
 citations: 16
 additional_links: [{name: Code, url: 'https://github.com/duyali2000/MQMC'}, {name: Paper,
     url: 'https://arxiv.org/abs/2212.11471'}]
-tags: [Scalability, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Du et al.
 ---
 The booming development and huge market of micro-videos bring new e-commerce

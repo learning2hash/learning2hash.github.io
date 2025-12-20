@@ -8,7 +8,7 @@ year: 2020
 bibkey: dou2020learning
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.01284'}]
-tags: [Evaluation, Supervised, Image Retrieval, Neural Hashing, Datasets, Unsupervised]
+tags: ["Datasets", "Image Retrieval", "Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Dou et al.
 ---
 Diffusion has shown great success in improving accuracy of unsupervised image

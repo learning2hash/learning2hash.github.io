@@ -8,7 +8,7 @@ year: 2023
 bibkey: ono2023relative
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.20419'}]
-tags: [Evaluation, Graph-based ANN, Datasets, Scalability, Large-Scale Search]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Large Scale Search", "Scalability"]
 short_authors: Naoki Ono, Yusuke Matsui
 ---
 Approximate Nearest Neighbor Search (ANNS) is the task of finding the

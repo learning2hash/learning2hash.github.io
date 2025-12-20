@@ -8,7 +8,7 @@ year: 2020
 bibkey: xie2020differentiable
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.06504'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Xie et al.
 ---
 The top-k operation, i.e., finding the k largest or smallest elements from a

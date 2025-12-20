@@ -7,7 +7,7 @@ year: 2024
 bibkey: fang2024adaptive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.15668'}]
-tags: [Evaluation, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Fang et al.
 ---
 This paper focuses on a significant yet challenging task: out-of-distribution

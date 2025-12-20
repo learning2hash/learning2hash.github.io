@@ -7,8 +7,7 @@ year: 2018
 bibkey: chen2018improving
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.06061'}]
-tags: [Compact Codes, Evaluation, Image Retrieval, Distance Metric Learning, Datasets,
-  Hashing Methods]
+tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval"]
 short_authors: Chen et al.
 ---
 In this paper, we focus on triplet-based deep binary embedding networks for

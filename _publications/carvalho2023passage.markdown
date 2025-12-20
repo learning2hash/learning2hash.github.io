@@ -7,7 +7,7 @@ year: 2023
 bibkey: carvalho2023passage
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.12111'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Luis Carvalho, Gerhard Widmer
 ---
 Many applications of cross-modal music retrieval are related to connecting

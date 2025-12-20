@@ -9,7 +9,7 @@ year: 2021
 bibkey: hayat2021estimating
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.04293'}]
-tags: [Supervised, Similarity Search, Survey Paper, Self-Supervised, Tools & Libraries]
+tags: ["Self-Supervised", "Similarity Search", "Supervised", "Survey Paper", "Tools & Libraries"]
 short_authors: Hayat et al.
 ---
 We use a contrastive self-supervised learning framework to estimate distances

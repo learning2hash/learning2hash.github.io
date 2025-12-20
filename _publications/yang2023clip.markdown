@@ -9,8 +9,7 @@ bibkey: yang2023clip
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/winycg/CLIP-KD'}, {name: Paper,
     url: 'https://arxiv.org/abs/2307.12732'}]
-tags: [Evaluation, Supervised, Few-shot & Zero-shot, Self-Supervised, Multimodal Retrieval,
-  Tools & Libraries]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Yang et al.
 ---
 Contrastive Language-Image Pre-training (CLIP) has become a promising

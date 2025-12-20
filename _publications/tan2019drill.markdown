@@ -9,7 +9,7 @@ year: 2019
 bibkey: tan2019drill
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.03826'}]
-tags: [Evaluation, Tools & Libraries, Datasets, Image Retrieval]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Tan et al.
 ---
 This paper explores the task of interactive image retrieval using natural

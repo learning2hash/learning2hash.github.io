@@ -7,7 +7,7 @@ year: 2025
 bibkey: yu2025circulant
 citations: 124
 additional_links: [{name: Paper, url: 'http://www.ee.columbia.edu/ln/dvmm/publications/14/yu2014_cbe.pdf'}]
-tags: [Hashing Methods, Evaluation, Memory Efficiency]
+tags: ["Evaluation", "Hashing Methods", "Memory Efficiency"]
 short_authors: Yu et al.
 ---
 Binary embedding of high-dimensional data requires

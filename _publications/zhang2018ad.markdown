@@ -8,7 +8,7 @@ year: 2018
 bibkey: zhang2018ad
 citations: 123
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.06159'}]
-tags: [Supervised]
+tags: ["Supervised"]
 short_authors: Shuo Zhang, Krisztian Balog
 ---
 We introduce and address the problem of ad hoc table retrieval: answering a

@@ -8,7 +8,7 @@ year: 2018
 bibkey: sarlin2018leveraging
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.01019'}]
-tags: [Evaluation, Neural Hashing, Efficiency, Robustness, Scalability]
+tags: ["Efficiency", "Evaluation", "Neural Hashing", "Robustness", "Scalability"]
 short_authors: Sarlin et al.
 ---
 Many robotics applications require precise pose estimates despite operating

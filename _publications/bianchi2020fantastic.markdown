@@ -8,7 +8,7 @@ year: 2020
 bibkey: bianchi2020fantastic
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.14906'}]
-tags: [Evaluation, Supervised, Few-shot & Zero-shot, Datasets, Unsupervised]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Supervised", "Unsupervised"]
 short_authors: Bianchi et al.
 ---
 This paper addresses the challenge of leveraging multiple embedding spaces

@@ -7,8 +7,7 @@ year: 2022
 bibkey: andonian2022robust
 citations: 38
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.04588'}]
-tags: [Evaluation, Few-shot & Zero-shot, Efficiency, Self-Supervised, Datasets, Robustness,
-  CVPR, Tools & Libraries, Text Retrieval]
+tags: ["Datasets", "Efficiency", "Evaluation", "Robustness", "Text Retrieval"]
 short_authors: Alex Andonian, Shixing Chen, Raffay Hamid
 ---
 The learning objective of vision-language approach of CLIP does not

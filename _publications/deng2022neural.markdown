@@ -7,7 +7,7 @@ year: 2022
 bibkey: deng2022neural
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.12637'}]
-tags: [Self-Supervised, Supervised, Image Retrieval, Evaluation]
+tags: ["Evaluation", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Deng et al.
 ---
 This paper introduces a structured, adaptive-length deep representation

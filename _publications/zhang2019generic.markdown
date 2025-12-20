@@ -9,7 +9,7 @@ year: 2019
 bibkey: zhang2019generic
 citations: 33
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.10710'}]
-tags: [Scalability, Evaluation, SIGIR]
+tags: ["Evaluation", "SIGIR", "Scalability"]
 short_authors: Zhang et al.
 ---
 This paper presents GEneric iNtent Encoder (GEN Encoder) which learns a

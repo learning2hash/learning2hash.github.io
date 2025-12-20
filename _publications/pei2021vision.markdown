@@ -9,7 +9,7 @@ bibkey: pei2021vision
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/lajlksdf/vtl'}, {name: Paper,
     url: 'https://arxiv.org/abs/2112.08117'}]
-tags: [Hashing Methods, Distance Metric Learning, Evaluation, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods"]
 short_authors: Pei et al.
 ---
 In recent years, the spread of fake videos has brought great influence on

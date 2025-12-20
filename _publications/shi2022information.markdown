@@ -7,7 +7,7 @@ year: 2022
 bibkey: shi2022information
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.12491'}]
-tags: [Evaluation, Few-shot & Zero-shot, Datasets, Multimodal Retrieval, Hashing Methods]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods", "Multimodal Retrieval"]
 short_authors: Shi et al.
 ---
 Zero-shot cross-modal retrieval (ZS-CMR) deals with the retrieval problem

@@ -9,7 +9,7 @@ bibkey: artetxe2018massively
 citations: 723
 additional_links: [{name: Code, url: 'https://github.com/facebookresearch/LASER'},
   {name: Paper, url: 'https://arxiv.org/abs/1812.10464'}]
-tags: [Few-shot & Zero-shot, Similarity Search, Datasets, TACL, ACL]
+tags: ["Datasets", "Few Shot & Zero Shot", "Similarity Search"]
 short_authors: Mikel Artetxe, Holger Schwenk
 ---
 We introduce an architecture to learn joint multilingual sentence

@@ -7,7 +7,7 @@ year: 2019
 bibkey: zeng2019modal
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.08479'}]
-tags: [Hashing Methods, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Hashing Methods"]
 short_authors: Zeng et al.
 ---
 Many retrieval applications can benefit from multiple modalities, e.g., text

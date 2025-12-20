@@ -7,7 +7,7 @@ year: 2017
 bibkey: "dar\xF3czy2017machine"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.04964'}]
-tags: [Recommender Systems, Image Retrieval, Datasets, Survey Paper]
+tags: ["Datasets", "Image Retrieval", "Recommender Systems", "Survey Paper"]
 short_authors: "B\xE1lint Zolt\xE1n Dar\xF3czy"
 ---
 In this thesis we examined several multimodal feature extraction and learning

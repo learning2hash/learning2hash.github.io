@@ -7,7 +7,7 @@ year: 2024
 bibkey: "lanzend\xF6rfer2024audio"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.00591'}]
-tags: [Datasets]
+tags: ["Datasets"]
 short_authors: "Lanzend\xF6rfer et al."
 ---
 We introduce Audio Atlas, an interactive web application for visualizing

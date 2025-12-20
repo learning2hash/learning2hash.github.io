@@ -7,7 +7,7 @@ year: 2021
 bibkey: gao2021rethink
 citations: 71
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.08751'}]
-tags: [Evaluation, Re-ranking, Vector Indexing, Text Retrieval, Hybrid ANN Methods]
+tags: ["Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Text Retrieval", "Vector Indexing"]
 short_authors: Luyu Gao, Zhuyun Dai, Jamie Callan
 ---
 Pre-trained deep language models~(LM) have advanced the state-of-the-art of

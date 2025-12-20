@@ -7,7 +7,7 @@ year: 2023
 bibkey: dong2023seine
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.15923'}]
-tags: [Distance Metric Learning, Tools & Libraries, Datasets, Efficiency]
+tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Tools & Libraries"]
 short_authors: Sibo Dong, Justin Goldstein, Grace Hui Yang
 ---
 Many early neural Information Retrieval (NeurIR) methods are re-rankers that

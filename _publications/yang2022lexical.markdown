@@ -7,7 +7,7 @@ year: 2022
 bibkey: yang2022lexical
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.00754'}]
-tags: [Evaluation, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Yang et al.
 ---
 Current breakthroughs in natural language processing have benefited

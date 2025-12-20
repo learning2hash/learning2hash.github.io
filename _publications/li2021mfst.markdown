@@ -8,7 +8,7 @@ bibkey: li2021mfst
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/zhenxili96/MFST'}, {name: Paper,
     url: 'https://arxiv.org/abs/2103.00810'}]
-tags: [Evaluation, Tools & Libraries]
+tags: ["Evaluation", "Tools & Libraries"]
 short_authors: Zhenxi Li, Guillaume-Alexandre Bilodeau, Wassim Bouachir
 ---
 Siamese trackers have recently achieved interesting results due to their

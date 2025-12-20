@@ -9,7 +9,7 @@ year: 2019
 bibkey: josifoski2019crosslingual
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.03922'}]
-tags: [Text Retrieval, Evaluation]
+tags: ["Evaluation", "Text Retrieval"]
 short_authors: Josifoski et al.
 ---
 There has recently been much interest in extending vector-based word

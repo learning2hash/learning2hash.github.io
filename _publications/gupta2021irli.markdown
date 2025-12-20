@@ -7,7 +7,7 @@ year: 2021
 bibkey: gupta2021irli
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.09944'}]
-tags: [Evaluation, Efficiency, Scalability, Tools & Libraries, Hashing Methods]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Scalability", "Tools & Libraries"]
 short_authors: Gupta et al.
 ---
 Neural models have transformed the fundamental information retrieval problem

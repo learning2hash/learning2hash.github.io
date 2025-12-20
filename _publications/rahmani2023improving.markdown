@@ -8,8 +8,7 @@ year: 2023
 bibkey: rahmani2023improving
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.03017'}]
-tags: [Evaluation, Efficiency, Survey Paper, Hashing Methods, Locality Sensitive Hashing,
-  Recommender Systems]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems"]
 short_authors: Sajjad Rahmani, Amirhossein Naghshzan, Latifa Guerrouj
 ---
 Our research investigates the recommendation of code examples to aid software

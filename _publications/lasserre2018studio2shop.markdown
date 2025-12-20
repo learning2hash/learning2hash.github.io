@@ -8,7 +8,7 @@ year: 2018
 bibkey: lasserre2018studio2shop
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.00556'}]
-tags: [Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Julia Lasserre, Katharina Rasch, Roland Vollgraf
 ---
 Fashion is an increasingly important topic in computer vision, in particular

@@ -9,7 +9,7 @@ year: 2022
 bibkey: dong2022reading
 citations: 67
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.09168'}]
-tags: [Video Retrieval, Evaluation, Survey Paper, Datasets, Scalability]
+tags: ["Datasets", "Evaluation", "Scalability", "Survey Paper", "Video Retrieval"]
 short_authors: Dong et al.
 ---
 This paper aims for the task of text-to-video retrieval, where given a query

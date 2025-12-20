@@ -7,7 +7,7 @@ year: 2020
 bibkey: jiang2020convolutional
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.10932'}]
-tags: [Evaluation, Datasets, Tools & Libraries, IJCAI, Recommender Systems]
+tags: ["Datasets", "Evaluation", "IJCAI", "Recommender Systems", "Tools & Libraries"]
 short_authors: Jiang et al.
 ---
 Most of existing embedding based recommendation models use embeddings

@@ -8,7 +8,7 @@ year: 2019
 bibkey: liu2019use
 citations: 206
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.13487'}]
-tags: [Video Retrieval, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Video Retrieval"]
 short_authors: Liu et al.
 ---
 The rapid growth of video on the internet has made searching for video

@@ -8,8 +8,7 @@ year: 2024
 bibkey: tzachor2024effovpr
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.18065'}]
-tags: [Evaluation, Supervised, Re-ranking, Few-shot & Zero-shot, Robustness, Hybrid
-    ANN Methods]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Re-Ranking", "Robustness", "Supervised"]
 short_authors: Tzachor et al.
 ---
 The task of Visual Place Recognition (VPR) is to predict the location of a

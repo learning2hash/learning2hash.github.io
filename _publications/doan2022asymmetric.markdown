@@ -7,9 +7,7 @@ year: 2022
 bibkey: doan2022asymmetric
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.00619'}]
-tags: [Compact Codes, Evaluation, Neural Hashing, Similarity Search, Graph-based ANN,
-  Datasets, Tools & Libraries, Hashing Methods, Locality Sensitive Hashing, Recommender
-    Systems]
+tags: ["Graph Based ANN", "Hashing Methods", "Locality-Sensitive-Hashing", "Neural Hashing", "Recommender Systems"]
 short_authors: Doan et al.
 ---
 Fast item ranking is an important task in recommender systems. In previous

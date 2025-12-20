@@ -8,7 +8,7 @@ year: 2019
 bibkey: doras2019a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.09862'}]
-tags: [ICASSP, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "ICASSP"]
 short_authors: Guillaume Doras, Geoffroy Peeters
 ---
 Automatic cover detection -- the task of finding in a audio dataset all

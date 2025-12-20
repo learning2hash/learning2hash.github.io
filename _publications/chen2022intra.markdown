@@ -8,7 +8,7 @@ bibkey: chen2022intra
 citations: 7
 additional_links: [{name: Code, url: 'https://github.com/CanonChen/IMC'}, {name: Paper,
     url: 'https://arxiv.org/abs/2207.05024'}]
-tags: [Text Retrieval, Datasets, Multimodal Retrieval]
+tags: ["Datasets", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Chen et al.
 ---
 Cross-modal retrieval has drawn much attention in both computer vision and

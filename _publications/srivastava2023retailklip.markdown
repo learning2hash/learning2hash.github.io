@@ -8,7 +8,7 @@ year: 2023
 bibkey: srivastava2023retailklip
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.10282'}]
-tags: [Evaluation, Distance Metric Learning, Few-shot & Zero-shot]
+tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Muktabh Mayank Srivastava
 ---
 Retail product or packaged grocery goods images need to classified in various

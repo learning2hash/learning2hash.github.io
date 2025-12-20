@@ -8,7 +8,7 @@ year: 2019
 bibkey: franzoni2019topological
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.08977'}]
-tags: [Evaluation, Graph-based ANN]
+tags: ["Evaluation", "Graph Based ANN"]
 short_authors: Valentina Franzoni, Michele Lepri, Alfredo Milani
 ---
 In this work, we introduce a novel method for entity resolution author

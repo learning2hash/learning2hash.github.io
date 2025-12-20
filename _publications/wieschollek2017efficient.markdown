@@ -8,8 +8,7 @@ year: 2017
 bibkey: wieschollek2017efficient
 citations: 58
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.05911'}]
-tags: [Evaluation, Re-ranking, Efficiency, Similarity Search, Datasets, Quantization,
-  Memory Efficiency, Scalability, CVPR, Hybrid ANN Methods]
+tags: ["Datasets", "Efficiency", "Quantization", "Re-Ranking", "Similarity Search"]
 short_authors: Wieschollek et al.
 ---
 We present a new approach for efficient approximate nearest neighbor (ANN)

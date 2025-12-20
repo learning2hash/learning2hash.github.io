@@ -7,7 +7,7 @@ year: 2023
 bibkey: ferreira2023end
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.05200'}]
-tags: [Self-Supervised, Image Retrieval]
+tags: ["Image Retrieval", "Self-Supervised"]
 short_authors: Silvan Ferreira, Allan Martins, Ivanovitch Silva
 ---
 Traditional semantic image search methods aim to retrieve images that match

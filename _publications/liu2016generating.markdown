@@ -8,7 +8,7 @@ year: 2016
 bibkey: liu2016generating
 citations: 63
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.04676'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Xinran Liu, Hamid R. Tizhoosh, Jonathan Kofman
 ---
 Content-based image retrieval (CBIR) in large medical image archives is a

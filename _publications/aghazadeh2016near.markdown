@@ -7,7 +7,7 @@ year: 2016
 bibkey: aghazadeh2016near
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.03836'}]
-tags: [Hashing Methods, Evaluation, Scalability, Datasets]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Scalability"]
 short_authors: Aghazadeh et al.
 ---
 We develop a scalable algorithm to learn binary hash codes for indexing

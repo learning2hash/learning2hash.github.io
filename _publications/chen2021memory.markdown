@@ -8,7 +8,7 @@ bibkey: chen2021memory
 citations: 5
 additional_links: [{name: Code, url: 'https://github.com/Chenfeng1271/MGMRA'}, {name: Paper,
     url: 'https://arxiv.org/abs/2109.08843'}]
-tags: [Hashing Methods, Distance Metric Learning, Robustness]
+tags: ["Distance Metric Learning", "Hashing Methods", "Robustness"]
 short_authors: Chen et al.
 ---
 The domain shift, coming from unneglectable modality gap and non-overlapped

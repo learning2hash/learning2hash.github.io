@@ -8,7 +8,7 @@ year: 2021
 bibkey: zhang2021vldeformer
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.11338'}]
-tags: [Evaluation, Image Retrieval, Efficiency, Datasets, Multimodal Retrieval]
+tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Zhang et al.
 ---
 Cross-model retrieval has emerged as one of the most important upgrades for

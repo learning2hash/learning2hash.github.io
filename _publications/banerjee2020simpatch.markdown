@@ -7,7 +7,7 @@ year: 2020
 bibkey: banerjee2020simpatch
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.03085'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Aritra Banerjee
 ---
 Measuring the similarity between patches in images is a fundamental building

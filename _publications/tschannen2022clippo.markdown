@@ -7,8 +7,7 @@ year: 2022
 bibkey: tschannen2022clippo
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.08045'}]
-tags: [Evaluation, Few-shot & Zero-shot, Distance Metric Learning, Self-Supervised,
-  Multimodal Retrieval]
+tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval", "Self-Supervised"]
 short_authors: Michael Tschannen, Basil Mustafa, Neil Houlsby
 ---
 Multimodal models are becoming increasingly effective, in part due to unified

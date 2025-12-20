@@ -9,7 +9,7 @@ year: 2024
 bibkey: dutto2024collaborative
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.13324'}]
-tags: [Self-Supervised, CVPR, Image Retrieval, Tools & Libraries]
+tags: ["CVPR", "Image Retrieval", "Self-Supervised", "Tools & Libraries"]
 short_authors: Dutto et al.
 ---
 Visual Place Recognition (VPR) aims to estimate the location of an image by

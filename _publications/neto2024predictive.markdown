@@ -7,7 +7,7 @@ year: 2024
 bibkey: neto2024predictive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.09940'}]
-tags: [Scalability, Graph-based ANN, Datasets]
+tags: ["Datasets", "Graph Based ANN", "Scalability"]
 short_authors: "Pl\xE1cido A Souza Neto"
 ---
 Graphs face challenges when dealing with massive datasets. They are essential

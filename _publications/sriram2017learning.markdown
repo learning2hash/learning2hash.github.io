@@ -7,7 +7,7 @@ year: 2017
 bibkey: sriram2017learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.01247'}]
-tags: [Evaluation, Tools & Libraries, Datasets, Survey Paper]
+tags: ["Datasets", "Evaluation", "Survey Paper", "Tools & Libraries"]
 short_authors: Sriram et al.
 ---
 Autoencoders have been recently used for encoding medical images. In this

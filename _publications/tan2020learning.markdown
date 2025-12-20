@@ -7,8 +7,7 @@ year: 2020
 bibkey: tan2020learning
 citations: 86
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.01917'}]
-tags: [Evaluation, Neural Hashing, Graph-based ANN, Datasets, Tools & Libraries, Hashing
-    Methods, Recommender Systems]
+tags: ["Datasets", "Graph Based ANN", "Hashing Methods", "Neural Hashing", "Recommender Systems"]
 short_authors: Tan et al.
 ---
 Graph representation learning has attracted much attention in supporting high

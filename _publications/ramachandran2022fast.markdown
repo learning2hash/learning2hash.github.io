@@ -7,7 +7,7 @@ year: 2022
 bibkey: ramachandran2022fast
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.14981'}]
-tags: [Evaluation, Supervised, Unsupervised]
+tags: ["Evaluation", "Supervised", "Unsupervised"]
 short_authors: Ramachandran et al.
 ---
 Scene categorization is a useful precursor task that provides prior knowledge

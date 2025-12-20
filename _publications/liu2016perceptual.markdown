@@ -9,7 +9,7 @@ year: 2016
 bibkey: liu2016perceptual
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.07615'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Liu et al.
 ---
 Incompatibility of image descriptor and ranking is always neglected in image

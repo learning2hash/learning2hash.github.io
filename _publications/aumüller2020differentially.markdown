@@ -7,7 +7,7 @@ year: 2020
 bibkey: "aum\xFCller2020differentially"
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.08134'}]
-tags: [Locality Sensitive Hashing]
+tags: ["Locality-Sensitive-Hashing"]
 short_authors: "Martin Aum\xFCller, Anders Bourgeat, Jana Schmurr"
 ---
 This paper describes two locally-differential private algorithms for

@@ -7,7 +7,7 @@ year: 2015
 bibkey: ding2015deep
 citations: 727
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1512.03622'}]
-tags: [Distance Metric Learning, CVPR, Tools & Libraries, Evaluation]
+tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
 short_authors: Ding et al.
 ---
 Identifying the same individual across different scenes is an important yet

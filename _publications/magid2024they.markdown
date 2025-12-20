@@ -8,7 +8,7 @@ year: 2024
 bibkey: magid2024they
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.11331'}]
-tags: [Video Retrieval, Evaluation, Image Retrieval, Datasets, Tools & Libraries]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries", "Video Retrieval"]
 short_authors: Magid et al.
 ---
 Vision Language Models (VLMs) such as CLIP are powerful models; however they

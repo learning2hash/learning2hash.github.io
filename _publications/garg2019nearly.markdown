@@ -7,7 +7,7 @@ year: 2019
 bibkey: garg2019nearly
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.03881'}]
-tags: [Hashing Methods, Supervised, Unsupervised]
+tags: ["Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Garg et al.
 ---
 Recently, kernelized locality sensitive hashcodes have been successfully

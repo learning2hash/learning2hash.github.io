@@ -7,7 +7,7 @@ year: 2017
 bibkey: yamaguchi2017spatio
 citations: 67
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.07945'}]
-tags: [ICCV, Datasets, Multimodal Retrieval]
+tags: ["Datasets", "ICCV", "Multimodal Retrieval"]
 short_authors: Yamaguchi et al.
 ---
 In this paper, we address the problem of spatio-temporal person retrieval

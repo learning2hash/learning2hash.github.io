@@ -8,7 +8,7 @@ year: 2011
 bibkey: weston2011large
 citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1105.5196'}]
-tags: [Scalability, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Jason Weston, Samy Bengio, Philippe Hamel
 ---
 Music prediction tasks range from predicting tags given a song or clip of

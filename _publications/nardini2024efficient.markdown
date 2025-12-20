@@ -7,7 +7,7 @@ year: 2024
 bibkey: nardini2024efficient
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.02805'}]
-tags: [Memory Efficiency, Quantization, Tools & Libraries, Efficiency]
+tags: ["Efficiency", "Memory Efficiency", "Quantization", "Tools & Libraries"]
 short_authors: Franco Maria Nardini, Cosimo Rulli, Rossano Venturini
 ---
 Dense retrieval techniques employ pre-trained large language models to build

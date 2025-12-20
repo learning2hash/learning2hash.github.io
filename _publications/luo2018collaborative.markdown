@@ -7,8 +7,7 @@ year: 2018
 bibkey: luo2018collaborative
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.09329'}]
-tags: [Evaluation, Image Retrieval, Efficiency, Datasets, Tools & Libraries, Hashing
-    Methods]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval"]
 short_authors: Luo et al.
 ---
 Hashing techniques are in great demand for a wide range of real-world

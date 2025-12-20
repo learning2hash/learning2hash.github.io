@@ -8,7 +8,7 @@ year: 2020
 bibkey: yang2020learning
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.08189'}]
-tags: [Recommender Systems, Similarity Search, Datasets]
+tags: ["Datasets", "Recommender Systems", "Similarity Search"]
 short_authors: Yang et al.
 ---
 Outfit recommendation requires the answers of some challenging outfit

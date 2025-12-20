@@ -7,7 +7,7 @@ year: 2018
 bibkey: peng2018deep
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02904'}]
-tags: [Compact Codes, Image Retrieval, Neural Hashing, Datasets, Hashing Methods]
+tags: ["Compact Codes", "Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Yuxin Peng, Jian Zhang, Zhaoda Ye
 ---
 Deep hashing methods have received much attention recently, which achieve

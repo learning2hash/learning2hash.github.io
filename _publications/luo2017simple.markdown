@@ -8,7 +8,7 @@ year: 2017
 bibkey: luo2017simple
 citations: 78
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.01229'}]
-tags: [Evaluation, Datasets, Robustness, Multimodal Retrieval]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Robustness"]
 short_authors: Luo et al.
 ---
 The heterogeneity-gap between different modalities brings a significant

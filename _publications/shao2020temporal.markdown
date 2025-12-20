@@ -7,8 +7,7 @@ year: 2020
 bibkey: shao2020temporal
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.01334'}]
-tags: [Video Retrieval, Evaluation, Supervised, Self-Supervised, Datasets, Tools &
-    Libraries]
+tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised", "Video Retrieval"]
 short_authors: Shao et al.
 ---
 The current research focus on Content-Based Video Retrieval requires

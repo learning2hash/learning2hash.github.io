@@ -7,7 +7,7 @@ year: 2022
 bibkey: dadas2022training
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.12759'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: "S\u0142awomir Dadas"
 ---
 Sentence embeddings are commonly used in text clustering and semantic

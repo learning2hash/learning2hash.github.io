@@ -7,8 +7,7 @@ year: 2019
 bibkey: dey2019doodle
 citations: 166
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.03451'}]
-tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Datasets, Scalability, CVPR,
-  Tools & Libraries]
+tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Dey et al.
 ---
 In this paper, we investigate the problem of zero-shot sketch-based image

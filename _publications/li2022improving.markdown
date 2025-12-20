@@ -8,7 +8,7 @@ year: 2022
 bibkey: li2022improving
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.09593'}]
-tags: [Evaluation, Self-Supervised, Datasets, Robustness, Recommender Systems, SIGIR]
+tags: ["Datasets", "Evaluation", "Recommender Systems", "Robustness", "SIGIR"]
 short_authors: Li et al.
 ---
 With the rapid increase of micro-video creators and viewers, how to make

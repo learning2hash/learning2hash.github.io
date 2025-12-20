@@ -7,7 +7,7 @@ year: 2023
 bibkey: khatry2023augmented
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.05380'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Khatry et al.
 ---
 Information retrieval involves selecting artifacts from a corpus that are

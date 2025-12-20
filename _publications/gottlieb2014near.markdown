@@ -7,7 +7,7 @@ year: 2014
 bibkey: gottlieb2014near
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1404.3368'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Lee-Ad Gottlieb, Aryeh Kontorovich, Pinhas Nisnevitch
 ---
 We present the first sample compression algorithm for nearest neighbors with

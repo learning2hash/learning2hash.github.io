@@ -8,7 +8,7 @@ bibkey: anwaar2020compositional
 citations: 7
 additional_links: [{name: Code, url: 'https://github.com/ecom-research/ComposeAE'},
   {name: Paper, url: 'https://arxiv.org/abs/2006.11149'}]
-tags: [Evaluation, Image Retrieval, Distance Metric Learning, Datasets, Text Retrieval]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Text Retrieval"]
 short_authors: Muhammad Umer Anwaar, Egor Labintcev, Martin Kleinsteuber
 ---
 In this paper, we investigate the problem of retrieving images from a

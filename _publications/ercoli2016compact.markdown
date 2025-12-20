@@ -8,7 +8,7 @@ year: 2016
 bibkey: ercoli2016compact
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.02892'}]
-tags: [Evaluation, Similarity Search, Datasets, Scalability, Hashing Methods]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Scalability", "Similarity Search"]
 short_authors: Simone Ercoli, Marco Bertini, Alberto del Bimbo
 ---
 In this paper we present an efficient method for visual descriptors retrieval

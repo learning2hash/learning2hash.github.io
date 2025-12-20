@@ -8,7 +8,7 @@ year: 2024
 bibkey: dallasen2024retrieval
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.00988'}]
-tags: [EMNLP, Evaluation, Few-shot & Zero-shot]
+tags: ["EMNLP", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Dall'Asen et al.
 ---
 Low-resource domains, characterized by scarce data and annotations, present

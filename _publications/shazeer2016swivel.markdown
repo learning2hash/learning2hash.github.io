@@ -7,7 +7,7 @@ year: 2016
 bibkey: shazeer2016swivel
 citations: 56
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.02215'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Shazeer et al.
 ---
 We present Submatrix-wise Vector Embedding Learner (Swivel), a method for

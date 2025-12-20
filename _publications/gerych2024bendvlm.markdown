@@ -8,7 +8,7 @@ year: 2024
 bibkey: gerych2024bendvlm
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.04420'}]
-tags: [Few-shot & Zero-shot]
+tags: ["Few Shot & Zero Shot"]
 short_authors: Gerych et al.
 ---
 Vision-language model (VLM) embeddings have been shown to encode biases

@@ -9,8 +9,7 @@ year: 2024
 bibkey: tatsuno2024aisaq
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.06004'}]
-tags: [Evaluation, Graph-based ANN, Datasets, Quantization, Memory Efficiency, Scalability,
-  Large-Scale Search]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Large Scale Search", "Quantization"]
 short_authors: Tatsuno et al.
 ---
 Graph-based approximate nearest neighbor search (ANNS) algorithms work

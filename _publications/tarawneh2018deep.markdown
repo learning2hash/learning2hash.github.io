@@ -9,7 +9,7 @@ year: 2018
 bibkey: tarawneh2018deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.05490'}]
-tags: [Image Retrieval, Neural Hashing, Survey Paper, Datasets, Recommender Systems]
+tags: ["Datasets", "Image Retrieval", "Neural Hashing", "Recommender Systems", "Survey Paper"]
 short_authors: Tarawneh et al.
 ---
 Facial image retrieval is a challenging task since faces have many similar

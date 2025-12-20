@@ -8,7 +8,7 @@ bibkey: luo2021clip4clip
 citations: 113
 additional_links: [{name: Code, url: 'https://github.com/ArrowLuo/CLIP4Clip'}, {name: Paper,
     url: 'https://arxiv.org/abs/2104.08860'}]
-tags: [Text Retrieval, Evaluation, Scalability, Datasets]
+tags: ["Datasets", "Evaluation", "Scalability", "Text Retrieval"]
 short_authors: Luo et al.
 ---
 Video-text retrieval plays an essential role in multi-modal research and has

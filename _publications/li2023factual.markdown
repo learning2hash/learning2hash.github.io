@@ -9,7 +9,7 @@ bibkey: li2023factual
 citations: 9
 additional_links: [{name: Code, url: 'https://github.com/zhuang-li/FACTUAL'}, {name: Paper,
     url: 'https://arxiv.org/abs/2305.17497'}]
-tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Datasets, ACL]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Li et al.
 ---
 Textual scene graph parsing has become increasingly important in various

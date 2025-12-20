@@ -9,7 +9,7 @@ year: 2023
 bibkey: chen2023stair
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.13081'}]
-tags: [EMNLP, Evaluation, Few-shot & Zero-shot, Text Retrieval]
+tags: ["EMNLP", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
 short_authors: Chen et al.
 ---
 Image and text retrieval is one of the foundational tasks in the vision and

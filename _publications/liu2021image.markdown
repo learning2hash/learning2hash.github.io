@@ -7,7 +7,7 @@ year: 2021
 bibkey: liu2021image
 citations: 151
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.04024'}]
-tags: [ICCV, Image Retrieval, Datasets]
+tags: ["Datasets", "ICCV", "Image Retrieval"]
 short_authors: Liu et al.
 ---
 We extend the task of composed image retrieval, where an input query consists

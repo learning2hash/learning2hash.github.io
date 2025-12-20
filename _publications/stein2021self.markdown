@@ -9,7 +9,7 @@ bibkey: stein2021self
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/georgestein/galaxy_search'},
   {name: Paper, url: 'https://arxiv.org/abs/2110.13151'}]
-tags: [Supervised, Similarity Search, Survey Paper, Self-Supervised, Datasets]
+tags: ["Datasets", "Self-Supervised", "Similarity Search", "Supervised", "Survey Paper"]
 short_authors: Stein et al.
 ---
 We present the use of self-supervised learning to explore and exploit large

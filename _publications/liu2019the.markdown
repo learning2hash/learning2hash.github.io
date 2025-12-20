@@ -7,7 +7,7 @@ year: 2019
 bibkey: liu2019the
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.12837'}]
-tags: [Evaluation, Image Retrieval, Survey Paper, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Survey Paper"]
 short_authors: Liu et al.
 ---
 Deep metric learning aims at learning the distance metric between pair of

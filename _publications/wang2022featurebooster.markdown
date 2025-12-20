@@ -7,7 +7,7 @@ year: 2022
 bibkey: wang2022featurebooster
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.15069'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Wang et al.
 ---
 We introduce a lightweight network to improve descriptors of keypoints within

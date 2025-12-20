@@ -10,7 +10,7 @@ bibkey: rouditchenko2022c2kd
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/roudimit/c2kd'}, {name: Paper,
     url: 'https://arxiv.org/abs/2210.03625'}]
-tags: [Video Retrieval, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Video Retrieval"]
 short_authors: Rouditchenko et al.
 ---
 Multilingual text-video retrieval methods have improved significantly in

@@ -7,8 +7,7 @@ year: 2022
 bibkey: lassance2022composite
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.07023'}]
-tags: [Evaluation, Supervised, Image Retrieval, Similarity Search, Vector Indexing,
-  Graph-based ANN, Datasets, Quantization, Memory Efficiency]
+tags: ["Graph Based ANN", "Image Retrieval", "Similarity Search", "Supervised", "Vector Indexing"]
 short_authors: Carlos Lassance, Thibault Formal, Stephane Clinchant
 ---
 We propose a Composite Code Sparse Autoencoder (CCSA) approach for

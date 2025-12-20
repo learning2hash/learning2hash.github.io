@@ -9,7 +9,7 @@ year: 2023
 bibkey: bateni2023optimal
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.11843'}]
-tags: [Hashing Methods, Locality Sensitive Hashing]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Bateni et al.
 ---
 In fully dynamic clustering problems, a clustering of a given data set in a

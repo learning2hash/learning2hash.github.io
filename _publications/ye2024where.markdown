@@ -9,7 +9,7 @@ bibkey: ye2024where
 citations: 1
 additional_links: [{name: Other, url: 'https://yejy53.github.io/CVG-Text/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2412.17007'}]
-tags: [Text Retrieval, Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Text Retrieval"]
 short_authors: Ye et al.
 ---
 Cross-view geo-localization identifies the locations of street-view images by

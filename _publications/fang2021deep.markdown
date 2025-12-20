@@ -7,8 +7,7 @@ year: 2021
 bibkey: fang2021deep
 citations: 60
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.12346'}]
-tags: [Evaluation, Image Retrieval, Neural Hashing, Datasets, Scalability, Tools &
-    Libraries, Hashing Methods]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Jiansheng Fang, Huazhu Fu, Jiang Liu
 ---
 Deep hashing methods have been shown to be the most efficient approximate

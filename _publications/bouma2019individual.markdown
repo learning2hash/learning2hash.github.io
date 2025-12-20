@@ -8,7 +8,7 @@ year: 2019
 bibkey: bouma2019individual
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.03662'}]
-tags: [Distance Metric Learning, Neural Hashing]
+tags: ["Distance Metric Learning", "Neural Hashing"]
 short_authors: Bouma et al.
 ---
 Photo-identification (photo-id) of dolphin individuals is a commonly used

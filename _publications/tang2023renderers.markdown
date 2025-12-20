@@ -9,7 +9,7 @@ bibkey: tang2023renderers
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/michaelwilliamtang/golden-retriever'},
   {name: Paper, url: 'https://arxiv.org/abs/2306.10721'}]
-tags: [Distance Metric Learning, Few-shot & Zero-shot]
+tags: ["Distance Metric Learning", "Few Shot & Zero Shot"]
 short_authors: Michael Tang, David Shustin
 ---
 Can the latent spaces of modern generative neural rendering models serve as

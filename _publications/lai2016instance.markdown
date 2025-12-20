@@ -7,8 +7,7 @@ year: 2016
 bibkey: lai2016instance
 citations: 125
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.03234'}]
-tags: [Evaluation, Supervised, Image Retrieval, Neural Hashing, Similarity Search,
-  Datasets, Scalability, Unsupervised, Hashing Methods]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Similarity Search"]
 short_authors: Lai et al.
 ---
 Similarity-preserving hashing is a commonly used method for nearest neighbour

@@ -7,7 +7,7 @@ year: 2024
 bibkey: zaffar2024on
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.00546'}]
-tags: [Evaluation, CVPR, Image Retrieval]
+tags: ["CVPR", "Evaluation", "Image Retrieval"]
 short_authors: Mubariz Zaffar, Liangliang Nan, Julian F. P. Kooij
 ---
 In Visual Place Recognition (VPR) the pose of a query image is estimated by

@@ -8,8 +8,7 @@ year: 2017
 bibkey: wang2017supervised
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.02088'}]
-tags: [Supervised, Image Retrieval, Neural Hashing, Datasets, Scalability, Unsupervised,
-  Hashing Methods]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Wang et al.
 ---
 Recently, hashing methods have been widely used in large-scale image

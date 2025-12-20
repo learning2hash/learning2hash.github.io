@@ -7,7 +7,7 @@ year: 2017
 bibkey: wang2017deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.01229'}]
-tags: [Datasets]
+tags: ["Datasets"]
 short_authors: Wang et al.
 ---
 Deep neural networks are playing an important role in state-of-the-art visual

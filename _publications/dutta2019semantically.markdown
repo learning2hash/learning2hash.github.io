@@ -8,7 +8,7 @@ year: 2019
 bibkey: dutta2019semantically
 citations: 159
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.03372'}]
-tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Datasets, Robustness, CVPR]
+tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Anjan Dutta, Zeynep Akata
 ---
 Zero-shot sketch-based image retrieval (SBIR) is an emerging task in computer

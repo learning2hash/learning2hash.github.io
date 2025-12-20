@@ -7,7 +7,7 @@ year: 2017
 bibkey: wang2017learning
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.03470'}]
-tags: [Datasets]
+tags: ["Datasets"]
 short_authors: Wang et al.
 ---
 Image-language matching tasks have recently attracted a lot of attention in

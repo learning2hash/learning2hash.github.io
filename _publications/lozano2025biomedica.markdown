@@ -11,8 +11,7 @@ year: 2025
 bibkey: lozano2025biomedica
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.07171'}]
-tags: [Evaluation, Few-shot & Zero-shot, Datasets, Scalability, CVPR, Tools & Libraries,
-  Text Retrieval]
+tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
 short_authors: Lozano et al.
 ---
 The development of vision-language models (VLMs) is driven by large-scale and

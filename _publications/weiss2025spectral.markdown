@@ -7,7 +7,7 @@ year: 2025
 bibkey: weiss2025spectral
 citations: 2083
 additional_links: [{name: Paper, url: 'https://people.csail.mit.edu/torralba/publications/spectralhashing.pdf'}]
-tags: [Hashing Methods, Compact Codes, Datasets, Neural Hashing]
+tags: ["Compact Codes", "Datasets", "Hashing Methods", "Neural Hashing"]
 short_authors: Y. Weiss, Torralba, Fergus
 ---
 Semantic hashing seeks compact binary codes of data-points so that the

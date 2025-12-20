@@ -7,7 +7,7 @@ year: 2017
 bibkey: dong2017cross
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.01305'}]
-tags: [Evaluation, Image Retrieval, Neural Hashing, Datasets, Scalability]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Jianfeng Dong, Xirong Li, Duanqing Xu
 ---
 In order to retrieve unlabeled images by textual queries, cross-media

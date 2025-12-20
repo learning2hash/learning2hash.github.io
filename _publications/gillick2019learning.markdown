@@ -9,7 +9,7 @@ year: 2019
 bibkey: gillick2019learning
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.10506'}]
-tags: [Supervised, Unsupervised, Datasets]
+tags: ["Datasets", "Supervised", "Unsupervised"]
 short_authors: Gillick et al.
 ---
 We show that it is feasible to perform entity linking by training a dual

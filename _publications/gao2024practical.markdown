@@ -9,7 +9,7 @@ year: 2024
 bibkey: gao2024practical
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.09913'}]
-tags: [Evaluation, Quantization, Datasets, Efficiency]
+tags: ["Datasets", "Efficiency", "Evaluation", "Quantization"]
 short_authors: Gao et al.
 ---
 Approximate nearest neighbor (ANN) query in high-dimensional Euclidean space

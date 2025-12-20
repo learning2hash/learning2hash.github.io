@@ -8,7 +8,7 @@ year: 2019
 bibkey: georgiou2019meta
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.13146'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Neural Hashing, Memory Efficiency]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Memory Efficiency", "Neural Hashing"]
 short_authors: Georgiou et al.
 ---
 Metagenomic studies have increasingly utilized sequencing technologies in

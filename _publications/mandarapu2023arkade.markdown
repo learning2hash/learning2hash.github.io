@@ -8,7 +8,7 @@ year: 2023
 bibkey: mandarapu2023arkade
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.09168'}]
-tags: [Tree-based ANN, Distance Metric Learning, Evaluation, Efficiency]
+tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "Tree Based ANN"]
 short_authors: Mandarapu et al.
 ---
 High-performance implementations of \(k\)-Nearest Neighbor Search (\(k\)NN) in

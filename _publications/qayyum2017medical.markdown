@@ -7,7 +7,7 @@ year: 2017
 bibkey: qayyum2017medical
 citations: 430
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.08472'}]
-tags: [Evaluation, Image Retrieval, Neural Hashing, Datasets, Tools & Libraries]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Tools & Libraries"]
 short_authors: Qayyum et al.
 ---
 With a widespread use of digital imaging data in hospitals, the size of

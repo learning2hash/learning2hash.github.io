@@ -7,7 +7,7 @@ year: 2020
 bibkey: moskvyak2020keypoint
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.11368'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Moskvyak et al.
 ---
 Learning embeddings that are invariant to the pose of the object is crucial

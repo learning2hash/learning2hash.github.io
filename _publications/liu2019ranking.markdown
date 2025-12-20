@@ -8,8 +8,7 @@ year: 2019
 bibkey: liu2019ranking
 citations: 65
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.04450'}]
-tags: [Evaluation, Supervised, Datasets, Memory Efficiency, Multimodal Retrieval,
-  Hashing Methods, AAAI]
+tags: ["AAAI", "Datasets", "Hashing Methods", "Multimodal Retrieval", "Supervised"]
 short_authors: Liu et al.
 ---
 Cross-modal hashing has been receiving increasing interests for its low

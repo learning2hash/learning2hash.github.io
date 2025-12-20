@@ -7,8 +7,7 @@ year: 2018
 bibkey: yu2018discriminative
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.07660'}]
-tags: [Compact Codes, Supervised, Similarity Search, Efficiency, Datasets, Memory
-    Efficiency, Robustness, Tools & Libraries, Hashing Methods]
+tags: ["Efficiency", "Hashing Methods", "Robustness", "Similarity Search", "Supervised"]
 short_authors: Jun Yu, Xiao-Jun Wu, Josef Kittler
 ---
 With the advantage of low storage cost and high retrieval efficiency, hashing

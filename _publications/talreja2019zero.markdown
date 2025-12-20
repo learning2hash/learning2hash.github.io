@@ -9,8 +9,7 @@ year: 2019
 bibkey: talreja2019zero
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.02706'}]
-tags: [Compact Codes, Evaluation, Few-shot & Zero-shot, Neural Hashing, Tools & Libraries,
-  Hashing Methods]
+tags: ["Compact Codes", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods", "Neural Hashing"]
 short_authors: Veeru Talreja, Matthew C. Valenti, Nasser M. Nasrabadi
 ---
 In this paper, we present a novel architecture that integrates a deep hashing

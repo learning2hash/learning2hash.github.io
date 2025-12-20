@@ -9,7 +9,7 @@ bibkey: wang2025teda
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/wangzhichuan123/TeDA'}, {
     name: Paper, url: 'https://arxiv.org/abs/2505.02325'}]
-tags: [Tools & Libraries, Evaluation, Multimodal Retrieval, Few-shot & Zero-shot]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Wang et al.
 ---
 Learning discriminative 3D representations that generalize well to unknown

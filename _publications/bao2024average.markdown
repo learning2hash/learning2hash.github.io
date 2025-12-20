@@ -8,7 +8,7 @@ year: 2024
 bibkey: bao2024average
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.05156'}]
-tags: [Hashing Methods, Locality Sensitive Hashing]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Bao et al.
 ---
 We introduce average-distortion sketching for metric spaces. As in

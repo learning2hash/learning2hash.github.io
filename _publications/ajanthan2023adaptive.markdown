@@ -7,7 +7,7 @@ year: 2023
 bibkey: ajanthan2023adaptive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.17127'}]
-tags: [Evaluation, Distance Metric Learning, Image Retrieval, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Ajanthan et al.
 ---
 Metric learning is a fundamental problem in computer vision whereby a model

@@ -10,7 +10,7 @@ bibkey: liu2022wl
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/ChenPengGang/WLAlignCode'},
   {name: Paper, url: 'https://arxiv.org/abs/2212.14182'}]
-tags: [Hashing Methods, Evaluation, Tools & Libraries, Datasets]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Tools & Libraries"]
 short_authors: Liu et al.
 ---
 Aligning users across networks using graph representation learning has been

@@ -10,7 +10,7 @@ bibkey: busolin2024early
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/francescobusolin/faiss_pEE'},
   {name: Paper, url: 'https://arxiv.org/abs/2408.04981'}]
-tags: [Supervised, Similarity Search, Efficiency, Unsupervised, CIKM]
+tags: ["CIKM", "Efficiency", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Busolin et al.
 ---
 Learned dense representations are a popular family of techniques for encoding

@@ -7,7 +7,7 @@ year: 2023
 bibkey: ren2023empowering
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.14991'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Ren et al.
 ---
 In monolingual dense retrieval, lots of works focus on how to distill

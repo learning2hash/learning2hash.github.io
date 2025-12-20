@@ -8,7 +8,7 @@ bibkey: tian2023collapse
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/michaeltian108/CA-TRIDE'},
   {name: Paper, url: 'https://arxiv.org/abs/2312.07364'}]
-tags: [Evaluation, Image Retrieval, Distance Metric Learning, Datasets, Robustness]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Robustness"]
 short_authors: Tian et al.
 ---
 Adversarial training has achieved substantial performance in defending image

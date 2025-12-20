@@ -8,7 +8,7 @@ year: 2018
 bibkey: lin2018learning
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.09899'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Lin et al.
 ---
 We propose a novel approach to jointly perform 3D shape retrieval and pose

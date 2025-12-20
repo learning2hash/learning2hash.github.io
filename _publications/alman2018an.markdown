@@ -7,7 +7,7 @@ year: 2018
 bibkey: alman2018an
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.06740'}]
-tags: [Hashing Methods, Locality Sensitive Hashing]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Josh Alman
 ---
 The Light Bulb Problem is one of the most basic problems in data analysis.

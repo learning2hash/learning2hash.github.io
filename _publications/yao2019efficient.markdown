@@ -7,8 +7,7 @@ year: 2019
 bibkey: yao2019efficient
 citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.01304'}]
-tags: [Evaluation, Supervised, Efficiency, Datasets, Quantization, Multimodal Retrieval,
-  Scalability, Unsupervised, Hashing Methods]
+tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Supervised"]
 short_authors: Yao et al.
 ---
 Supervised cross-modal hashing has gained increasing research interest on

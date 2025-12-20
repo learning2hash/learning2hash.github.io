@@ -8,8 +8,7 @@ year: 2022
 bibkey: grover2022contextclip
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.07122'}]
-tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Self-Supervised, Datasets,
-  Multimodal Retrieval, Tools & Libraries]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Chanda Grover, Indra Deep Mastan, Debayan Gupta
 ---
 State-of-the-art empirical work has shown that visual representations learned

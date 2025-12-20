@@ -8,7 +8,7 @@ year: 2021
 bibkey: sun2021magnification
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.01063'}]
-tags: [Evaluation, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Sun et al.
 ---
 The classification of histopathological images is of great value in both

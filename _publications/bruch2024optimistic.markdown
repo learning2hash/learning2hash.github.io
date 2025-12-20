@@ -8,7 +8,7 @@ year: 2024
 bibkey: bruch2024optimistic
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.12207'}]
-tags: [Evaluation, Tools & Libraries, Datasets]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Sebastian Bruch, Aditya Krishnan, Franco Maria Nardini
 ---
 Clustering-based nearest neighbor search is an effective method in which

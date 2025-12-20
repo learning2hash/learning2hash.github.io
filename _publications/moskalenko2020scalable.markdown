@@ -9,7 +9,7 @@ year: 2020
 bibkey: moskalenko2020scalable
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.11771'}]
-tags: [Evaluation, Recommender Systems, RecSys]
+tags: ["Evaluation", "Recommender Systems"]
 short_authors: Oleksii Moskalenko, Denis Parra, Diego Saez-Trumper
 ---
 Wikipedia is edited by volunteer editors around the world. Considering the

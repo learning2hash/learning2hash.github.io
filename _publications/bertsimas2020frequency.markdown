@@ -7,7 +7,7 @@ year: 2020
 bibkey: bertsimas2020frequency
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.09261'}]
-tags: [Hashing Methods, Datasets]
+tags: ["Datasets", "Hashing Methods"]
 short_authors: Dimitris Bertsimas, Vassilis Digalakis
 ---
 We present a novel approach for the problem of frequency estimation in data

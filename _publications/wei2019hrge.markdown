@@ -8,7 +8,7 @@ year: 2019
 bibkey: wei2019hrge
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.10098'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Xin Wei, Ruixuan Yu, Jian Sun
 ---
 View-based approach that recognizes 3D shape through its projected 2D images

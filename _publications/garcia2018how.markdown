@@ -7,7 +7,7 @@ year: 2018
 bibkey: garcia2018how
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.09617'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Noa Garcia, George Vogiatzis
 ---
 Automatic art analysis has been mostly focused on classifying artworks into

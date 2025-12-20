@@ -8,7 +8,7 @@ year: 2024
 bibkey: shlapentokhrothman2024region
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.02352'}]
-tags: [Evaluation, Supervised, Image Retrieval, CVPR, Unsupervised]
+tags: ["CVPR", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Shlapentokh-Rothman et al.
 ---
 We investigate whether region-based representations are effective for

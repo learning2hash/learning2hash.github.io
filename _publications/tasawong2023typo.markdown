@@ -9,7 +9,7 @@ year: 2023
 bibkey: tasawong2023typo
 citations: 4
 additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2306.10348'}]
-tags: [Evaluation, Datasets, ACL]
+tags: ["Datasets", "Evaluation"]
 short_authors: Tasawong et al.
 ---
 Dense retrieval is a basic building block of information retrieval

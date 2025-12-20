@@ -7,8 +7,7 @@ year: 2022
 bibkey: deshmukh2022audio
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.14275'}]
-tags: [Evaluation, Self-Supervised, Datasets, Tools & Libraries, Text Retrieval, Audio
-    Retrieval]
+tags: ["Audio Retrieval", "Datasets", "Evaluation", "Text Retrieval", "Tools & Libraries"]
 short_authors: Soham Deshmukh, Benjamin Elizalde, Huaming Wang
 ---
 Audio-Text retrieval takes a natural language query to retrieve relevant

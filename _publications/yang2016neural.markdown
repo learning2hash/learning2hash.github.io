@@ -8,7 +8,7 @@ year: 2016
 bibkey: yang2016neural
 citations: 45
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.05474'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Yang et al.
 ---
 This paper presents a Neural Aggregation Network (NAN) for video face

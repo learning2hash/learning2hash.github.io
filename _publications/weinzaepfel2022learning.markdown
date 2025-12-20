@@ -8,7 +8,7 @@ bibkey: weinzaepfel2022learning
 citations: 13
 additional_links: [{name: Code, url: 'https://github.com/naver/FIRe'}, {name: Paper,
     url: 'https://arxiv.org/abs/2201.13182'}]
-tags: [Distance Metric Learning, Image Retrieval, Evaluation, Memory Efficiency]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Memory Efficiency"]
 short_authors: Weinzaepfel et al.
 ---
 Methods that combine local and global features have recently shown excellent

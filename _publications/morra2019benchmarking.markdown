@@ -7,8 +7,7 @@ year: 2019
 bibkey: morra2019benchmarking
 citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.02821'}]
-tags: [Evaluation, Supervised, Image Retrieval, Neural Hashing, Datasets, Scalability,
-  Unsupervised, Large-Scale Search]
+tags: ["Datasets", "Image Retrieval", "Large Scale Search", "Supervised", "Unsupervised"]
 short_authors: Lia Morra, Fabrizio Lamberti
 ---
 Unsupervised near-duplicate detection has many practical applications ranging

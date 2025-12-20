@@ -9,8 +9,7 @@ bibkey: ghazanfari2023lipsim
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/SaraGhazanfari/LipSim'},
   {name: Paper, url: 'https://arxiv.org/abs/2310.18274'}]
-tags: [Evaluation, Image Retrieval, Distance Metric Learning, Robustness, Tools &
-    Libraries]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Robustness", "Tools & Libraries"]
 short_authors: Ghazanfari et al.
 ---
 Recent years have seen growing interest in developing and applying perceptual

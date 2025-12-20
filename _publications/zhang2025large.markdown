@@ -7,8 +7,7 @@ year: 2025
 bibkey: zhang2025large
 citations: 635
 additional_links: [{name: Paper, url: 'http://cs.nju.edu.cn/lwj/paper/AAAI14_SCM.pdf'}]
-tags: [Supervised, Similarity Search, Datasets, Memory Efficiency, Scalability, Hashing
-    Methods, AAAI]
+tags: ["Datasets", "Hashing Methods", "Scalability", "Similarity Search", "Supervised"]
 short_authors: D. Zhang, Li
 ---
 Due to its low storage cost and fast query speed, hashing

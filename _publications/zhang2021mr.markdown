@@ -8,7 +8,7 @@ bibkey: zhang2021mr
 citations: 13
 additional_links: [{name: Code, url: 'https://github.com/castorini/mr.tydi'}, {name: Paper,
     url: 'https://arxiv.org/abs/2108.08787'}]
-tags: [Evaluation, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Zhang et al.
 ---
 We present Mr. TyDi, a multi-lingual benchmark dataset for mono-lingual

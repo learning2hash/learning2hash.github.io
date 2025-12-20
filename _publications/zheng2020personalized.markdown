@@ -8,8 +8,7 @@ year: 2020
 bibkey: zheng2020personalized
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.12439'}]
-tags: [Evaluation, Distance Metric Learning, Datasets, Tools & Libraries, Recommender
-    Systems]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Recommender Systems", "Tools & Libraries"]
 short_authors: Zheng et al.
 ---
 With the growth of online shopping for fashion products, accurate fashion

@@ -11,7 +11,7 @@ bibkey: peng2021affect
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/KPeng9510/Affect-DML'}, {
     name: Paper, url: 'https://arxiv.org/abs/2111.15271'}]
-tags: [Evaluation, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Peng et al.
 ---
 Human affect recognition is a well-established research area with numerous

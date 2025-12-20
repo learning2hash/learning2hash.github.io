@@ -7,7 +7,7 @@ year: 2017
 bibkey: germann2017bilingual
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.09443'}]
-tags: [Text Retrieval, Distance Metric Learning, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation", "Text Retrieval"]
 short_authors: Ulrich Germann
 ---
 We apply cross-lingual Latent Semantic Indexing to the Bilingual Document

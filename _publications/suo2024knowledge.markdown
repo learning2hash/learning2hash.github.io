@@ -7,8 +7,7 @@ year: 2024
 bibkey: suo2024knowledge
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.16005'}]
-tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Datasets, CVPR, Tools &
-    Libraries]
+tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Suo et al.
 ---
 We study the zero-shot Composed Image Retrieval (ZS-CIR) task, which is to

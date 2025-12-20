@@ -8,8 +8,7 @@ year: 2025
 bibkey: fan2025deep
 citations: 107
 additional_links: [{name: Paper, url: 'https://www.ijcai.org/proceedings/2020/0115.pdf'}]
-tags: [Tools & Libraries, Hashing Methods, AAAI, Supervised, Datasets, Distance Metric
-    Learning, Compact Codes, Evaluation, IJCAI]
+tags: ["Compact Codes", "Datasets", "Distance Metric Learning", "Hashing Methods", "Supervised"]
 short_authors: Fan et al.
 ---
 This paper proposes a novel deep polarized network (DPN) for learning to hash, in which each channel in the network outputs is pushed far away

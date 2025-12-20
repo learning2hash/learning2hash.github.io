@@ -8,7 +8,7 @@ year: 2019
 bibkey: zeng2019audio
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.03744'}]
-tags: [Video Retrieval, Evaluation, Supervised, Neural Hashing, Datasets]
+tags: ["Datasets", "Evaluation", "Neural Hashing", "Supervised", "Video Retrieval"]
 short_authors: Donghuo Zeng, Yi Yu, Keizo Oyama
 ---
 Deep learning has successfully shown excellent performance in learning joint

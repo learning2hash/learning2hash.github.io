@@ -9,7 +9,7 @@ bibkey: vongala2025compositional
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/madhukarreddyvongala/GroundingCLIP'},
   {name: Paper, url: 'https://arxiv.org/abs/2505.02278'}]
-tags: [Evaluation, CVPR, Few-shot & Zero-shot, Datasets]
+tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: "Madhukar Reddy Vongala, Saurabh Srivastava, Jana Ko\u0161eck\xE1"
 ---
 Vision-language pretraining on large datasets of images-text pairs is one of

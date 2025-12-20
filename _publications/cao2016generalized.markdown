@@ -7,7 +7,7 @@ year: 2016
 bibkey: cao2016generalized
 citations: 107
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.09696'}]
-tags: [Evaluation, Supervised, Image Retrieval, Multimodal Retrieval, Tools & Libraries]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval", "Supervised", "Tools & Libraries"]
 short_authors: Cao et al.
 ---
 In this paper, the problem of multi-view embedding from different visual cues

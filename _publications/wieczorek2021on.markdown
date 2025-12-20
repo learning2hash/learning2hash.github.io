@@ -7,7 +7,7 @@ year: 2021
 bibkey: wieczorek2021on
 citations: 94
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.13643'}]
-tags: [Distance Metric Learning, Image Retrieval, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Mikolaj Wieczorek, Barbara Rychalska, Jacek Dabrowski
 ---
 Image retrieval task consists of finding similar images to a query image from

@@ -9,7 +9,7 @@ year: 2023
 bibkey: cao2023less
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.05095'}]
-tags: [Efficiency, Evaluation, Datasets, Robustness]
+tags: ["Datasets", "Efficiency", "Evaluation", "Robustness"]
 short_authors: Cao et al.
 ---
 The CLIP (Contrastive Language-Image Pre-training) model and its variants are

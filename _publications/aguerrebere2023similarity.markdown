@@ -7,8 +7,7 @@ year: 2023
 bibkey: aguerrebere2023similarity
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.04759'}]
-tags: [Evaluation, Similarity Search, Graph-based ANN, Quantization, Memory Efficiency,
-  Scalability, Large-Scale Search]
+tags: ["Graph Based ANN", "Large Scale Search", "Memory Efficiency", "Quantization", "Similarity Search"]
 short_authors: Aguerrebere et al.
 ---
 Nowadays, data is represented by vectors. Retrieving those vectors, among

@@ -7,7 +7,7 @@ year: 2024
 bibkey: du2024image2sentence
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.01431'}]
-tags: [Efficiency, Tools & Libraries, Few-shot & Zero-shot, Image Retrieval]
+tags: ["Efficiency", "Few Shot & Zero Shot", "Image Retrieval", "Tools & Libraries"]
 short_authors: Du et al.
 ---
 The task of composed image retrieval (CIR) aims to retrieve images based on

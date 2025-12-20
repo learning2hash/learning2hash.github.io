@@ -7,7 +7,7 @@ year: 2018
 bibkey: cheng2018crh
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.05730'}]
-tags: [Hashing Methods, Evaluation]
+tags: ["Evaluation", "Hashing Methods"]
 short_authors: Miao Cheng, Ah Chung Tsoi
 ---
 In recent years, the distinctive advancement of handling huge data promotes

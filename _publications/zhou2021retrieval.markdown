@@ -8,7 +8,7 @@ year: 2021
 bibkey: zhou2021retrieval
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.08516'}]
-tags: [Evaluation, Image Retrieval, ICRA, Datasets]
+tags: ["Datasets", "Evaluation", "ICRA", "Image Retrieval"]
 short_authors: Zhou et al.
 ---
 Accurate visual re-localization is very critical to many artificial

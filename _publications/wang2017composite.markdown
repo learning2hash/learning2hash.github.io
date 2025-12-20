@@ -7,8 +7,7 @@ year: 2017
 bibkey: wang2017composite
 citations: 28
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.00955'}]
-tags: [Evaluation, Similarity Search, Efficiency, Vector Indexing, Datasets, Quantization,
-  Tools & Libraries]
+tags: ["Datasets", "Efficiency", "Evaluation", "Quantization", "Similarity Search"]
 short_authors: Jingdong Wang, Ting Zhang
 ---
 This paper studies the compact coding approach to approximate nearest

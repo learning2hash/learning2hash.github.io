@@ -7,7 +7,7 @@ year: 2018
 bibkey: jing2018pose
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.08440'}]
-tags: [Datasets]
+tags: ["Datasets"]
 short_authors: Jing et al.
 ---
 Text-based person search aims to retrieve the corresponding person images in

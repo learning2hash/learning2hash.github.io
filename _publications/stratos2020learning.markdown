@@ -8,7 +8,7 @@ year: 2020
 bibkey: stratos2020learning
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.03991'}]
-tags: [Hashing Methods, Robustness]
+tags: ["Hashing Methods", "Robustness"]
 short_authors: Karl Stratos, Sam Wiseman
 ---
 We propose learning discrete structured representations from unlabeled data

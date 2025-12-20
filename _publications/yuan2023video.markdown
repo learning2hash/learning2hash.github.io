@@ -8,8 +8,7 @@ year: 2023
 bibkey: yuan2023video
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.13820'}]
-tags: [Video Retrieval, Evaluation, Datasets, Multimodal Retrieval, Tools & Libraries,
-  Audio Retrieval]
+tags: ["Audio Retrieval", "Datasets", "Evaluation", "Multimodal Retrieval", "Video Retrieval"]
 short_authors: Yuan et al.
 ---
 Cross-modal retrieval has become popular in recent years, particularly with

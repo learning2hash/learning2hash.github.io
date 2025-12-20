@@ -7,7 +7,7 @@ year: 2020
 bibkey: wang2020distilling
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.01424'}]
-tags: [Hashing Methods, Locality Sensitive Hashing]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Guo-Hua Wang, Yifan Ge, Jianxin Wu
 ---
 Knowledge distillation (KD) is a popular method to train efficient networks

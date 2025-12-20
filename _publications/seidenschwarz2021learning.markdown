@@ -8,7 +8,7 @@ bibkey: seidenschwarz2021learning
 citations: 13
 additional_links: [{name: Code, url: 'https://github.com/dvl-tum/intra_batch_connections'},
   {name: Paper, url: 'https://arxiv.org/abs/2102.07753'}]
-tags: [Distance Metric Learning, Image Retrieval, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
 short_authors: "Jenny Seidenschwarz, Ismail Elezi, Laura Leal-Taix\xE9"
 ---
 The goal of metric learning is to learn a function that maps samples to a

@@ -7,7 +7,7 @@ year: 2019
 bibkey: collomosse2019livesketch
 citations: 59
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.06611'}]
-tags: [CVPR, Image Retrieval, Efficiency]
+tags: ["CVPR", "Efficiency", "Image Retrieval"]
 short_authors: John Collomosse, Tu Bui, Hailin Jin
 ---
 LiveSketch is a novel algorithm for searching large image collections using

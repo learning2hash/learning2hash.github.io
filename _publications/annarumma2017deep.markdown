@@ -7,7 +7,7 @@ year: 2017
 bibkey: annarumma2017deep
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.07682'}]
-tags: [Scalability, Distance Metric Learning, Image Retrieval]
+tags: ["Distance Metric Learning", "Image Retrieval", "Scalability"]
 short_authors: Mauro Annarumma, Giovanni Montana
 ---
 Many radiological studies can reveal the presence of several co-existing

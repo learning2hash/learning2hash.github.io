@@ -7,7 +7,7 @@ year: 2021
 bibkey: ho2021user
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.02464'}]
-tags: [Evaluation, Recommender Systems, Datasets]
+tags: ["Datasets", "Evaluation", "Recommender Systems"]
 short_authors: Ngai Lam Ho, Kwan Hui Lim
 ---
 Tour itinerary planning and recommendation are challenging tasks for tourists

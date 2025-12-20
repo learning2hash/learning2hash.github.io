@@ -7,7 +7,7 @@ year: 2018
 bibkey: yu2018a
 citations: 331
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.02559'}]
-tags: [Evaluation, Datasets, Multimodal Retrieval]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
 short_authors: Youngjae Yu, Jongseok Kim, Gunhee Kim
 ---
 We present an approach named JSFusion (Joint Sequence Fusion) that can

@@ -7,7 +7,7 @@ year: 2018
 bibkey: xu2018unsupervised
 citations: 43
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.01422'}]
-tags: [Evaluation, Supervised, Image Retrieval, Unsupervised]
+tags: ["Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Xu et al.
 ---
 In this paper, we propose a simple but effective semantic-based aggregation

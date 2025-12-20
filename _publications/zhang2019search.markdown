@@ -8,8 +8,7 @@ bibkey: zhang2019search
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/daokunzhang/BinaryNE'}, {
     name: Paper, url: 'https://arxiv.org/abs/1901.04097'}]
-tags: [Hashing Methods, Scalability, Memory Efficiency, Similarity Search, Distance
-    Metric Learning, Compact Codes, KDD, Evaluation]
+tags: ["Distance Metric Learning", "Hashing Methods", "KDD", "Memory Efficiency", "Similarity Search"]
 short_authors: Zhang et al.
 ---
 Traditional network embedding primarily focuses on learning a continuous

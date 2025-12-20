@@ -8,8 +8,7 @@ year: 2022
 bibkey: wei2022accurate
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.01339'}]
-tags: [Evaluation, Re-ranking, Efficiency, Distance Metric Learning, Datasets, Scalability,
-  IROS, Hybrid ANN Methods]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "IROS", "Re-Ranking"]
 short_authors: Wei et al.
 ---
 We present a new solution to the fine-grained retrieval of clean CAD models

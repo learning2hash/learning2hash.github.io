@@ -7,7 +7,7 @@ year: 2017
 bibkey: nikhil2017content
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.08321'}]
-tags: [Supervised, Recommender Systems, Neural Hashing]
+tags: ["Neural Hashing", "Recommender Systems", "Supervised"]
 short_authors: Nishant Nikhil, Muktabh Mayank Srivastava
 ---
 With the recent advancements in information technology there has been a huge

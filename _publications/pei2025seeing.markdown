@@ -8,7 +8,7 @@ year: 2025
 bibkey: pei2025seeing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.17080'}]
-tags: [Evaluation, Few-shot & Zero-shot, Efficiency, Robustness, Scalability, CVPR]
+tags: ["CVPR", "Efficiency", "Evaluation", "Few Shot & Zero Shot", "Robustness"]
 short_authors: Pei et al.
 ---
 The CLIP model has demonstrated significant advancements in aligning visual

@@ -7,7 +7,7 @@ year: 2019
 bibkey: backurs2019scalable
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.04126'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Backurs et al.
 ---
 The Optimal Transport (a.k.a. Wasserstein) distance is an increasingly

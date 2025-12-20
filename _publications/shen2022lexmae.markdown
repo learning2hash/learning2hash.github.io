@@ -8,8 +8,7 @@ year: 2022
 bibkey: shen2022lexmae
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.14754'}]
-tags: [Evaluation, Supervised, Few-shot & Zero-shot, Efficiency, Datasets, Scalability,
-  Unsupervised, Tools & Libraries]
+tags: ["Datasets", "Few Shot & Zero Shot", "Scalability", "Supervised", "Unsupervised"]
 short_authors: Shen et al.
 ---
 In large-scale retrieval, the lexicon-weighting paradigm, learning weighted

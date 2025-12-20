@@ -8,8 +8,7 @@ year: 2020
 bibkey: kanda2020succinct
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.10917'}]
-tags: [Evaluation, Similarity Search, Efficiency, Datasets, Memory Efficiency, Hashing
-    Methods, Locality Sensitive Hashing]
+tags: ["Datasets", "Efficiency", "Locality-Sensitive-Hashing", "Memory Efficiency", "Similarity Search"]
 short_authors: Kanda et al.
 ---
 Massive datasets of spatial trajectories representing the mobility of a

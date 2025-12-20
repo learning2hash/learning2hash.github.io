@@ -9,7 +9,7 @@ year: 2020
 bibkey: kobayashi2020decomposing
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.06224'}]
-tags: [Image Retrieval, Similarity Search]
+tags: ["Image Retrieval", "Similarity Search"]
 short_authors: Kobayashi et al.
 ---
 Medical images can be decomposed into normal and abnormal features, which is

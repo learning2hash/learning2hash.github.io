@@ -11,7 +11,7 @@ year: 2020
 bibkey: zhong2020deep
 citations: 76
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.03663'}]
-tags: [Distance Metric Learning, Image Retrieval, Datasets, Neural Hashing]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Neural Hashing"]
 short_authors: Zhong et al.
 ---
 In recent years, deep learning-based image analysis methods have been widely

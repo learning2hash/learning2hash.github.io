@@ -7,7 +7,7 @@ year: 2021
 bibkey: kluser2021fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.06630'}]
-tags: [Evaluation, Distance Metric Learning, Graph-based ANN, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Graph Based ANN"]
 short_authors: Kluser et al.
 ---
 Fast and reliable K-Nearest Neighbor Graph algorithms are more important than

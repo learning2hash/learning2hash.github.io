@@ -9,7 +9,7 @@ year: 2018
 bibkey: bhunia2018a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.00879'}]
-tags: [Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Bhunia et al.
 ---
 In this paper, we have proposed a novel feature descriptors combining color

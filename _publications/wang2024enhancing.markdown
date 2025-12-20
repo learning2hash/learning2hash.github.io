@@ -8,7 +8,7 @@ year: 2024
 bibkey: wang2024enhancing
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.09725'}]
-tags: [Text Retrieval, ICASSP, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "ICASSP", "Text Retrieval"]
 short_authors: Zuhui Wang, Yunting Yin, I. V. Ramakrishnan
 ---
 Image-text matching aims to find matched cross-modal pairs accurately. While

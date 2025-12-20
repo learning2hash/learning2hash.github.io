@@ -7,7 +7,7 @@ year: 2023
 bibkey: wang2023ordered
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.16043'}]
-tags: [Compact Codes, Efficiency, Datasets, Memory Efficiency, Hashing Methods]
+tags: ["Compact Codes", "Datasets", "Efficiency", "Hashing Methods", "Memory Efficiency"]
 short_authors: Wang et al.
 ---
 Modern speaker recognition systems represent utterances by embedding vectors.

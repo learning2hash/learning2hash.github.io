@@ -8,7 +8,7 @@ bibkey: chaudhuri2022cross
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/abhrac/xmodal-vit'}, {name: Paper,
     url: 'https://arxiv.org/abs/2210.10486'}]
-tags: [Evaluation, Image Retrieval, Tools & Libraries, Multimodal Retrieval]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Chaudhuri et al.
 ---
 Representation learning for sketch-based image retrieval has mostly been

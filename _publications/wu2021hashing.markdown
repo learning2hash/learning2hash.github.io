@@ -7,7 +7,7 @@ year: 2021
 bibkey: wu2021hashing
 citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.14280'}]
-tags: [Hashing Methods, Tools & Libraries, Scalability, Efficiency]
+tags: ["Efficiency", "Hashing Methods", "Scalability", "Tools & Libraries"]
 short_authors: Wu et al.
 ---
 Networks are ubiquitous in the real world. Link prediction, as one of the key

@@ -7,7 +7,7 @@ year: 2017
 bibkey: kale2017towards
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.07835'}]
-tags: [Evaluation, Supervised]
+tags: ["Evaluation", "Supervised"]
 short_authors: Kale et al.
 ---
 Query Segmentation is one of the critical components for understanding users'

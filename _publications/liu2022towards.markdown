@@ -8,7 +8,7 @@ year: 2022
 bibkey: liu2022towards
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.12515'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation]
+tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Liu et al.
 ---
 As a promising method of central model training on decentralized device data

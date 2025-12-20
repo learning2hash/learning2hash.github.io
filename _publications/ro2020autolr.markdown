@@ -9,7 +9,7 @@ bibkey: ro2020autolr
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/youngminPIL/AutoLR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2002.06048'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Youngmin Ro, Jin Young Choi
 ---
 Existing fine-tuning methods use a single learning rate over all layers. In

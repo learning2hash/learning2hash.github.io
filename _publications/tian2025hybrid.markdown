@@ -7,7 +7,7 @@ year: 2025
 bibkey: tian2025hybrid
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.12796'}]
-tags: [Supervised, Tools & Libraries, Datasets]
+tags: ["Datasets", "Supervised", "Tools & Libraries"]
 short_authors: Tian et al.
 ---
 In traditional supervised learning, the cross-entropy loss treats all

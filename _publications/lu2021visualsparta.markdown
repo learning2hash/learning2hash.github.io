@@ -10,7 +10,7 @@ year: 2021
 bibkey: lu2021visualsparta
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.00265'}]
-tags: [Image Retrieval, Efficiency, Datasets, Multimodal Retrieval, Scalability, ACL]
+tags: ["Datasets", "Efficiency", "Image Retrieval", "Multimodal Retrieval", "Scalability"]
 short_authors: Xiaopeng Lu, Tiancheng Zhao, Kyusong Lee
 ---
 Text-to-image retrieval is an essential task in cross-modal information

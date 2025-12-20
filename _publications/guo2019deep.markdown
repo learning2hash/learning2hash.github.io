@@ -8,7 +8,7 @@ year: 2019
 bibkey: guo2019deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.04007'}]
-tags: [Hashing Methods, Evaluation, Neural Hashing, Efficiency]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing"]
 short_authors: Guo et al.
 ---
 Network embedding is a promising way of network representation, facilitating

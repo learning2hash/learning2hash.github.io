@@ -8,8 +8,7 @@ bibkey: yuan2023semantic
 citations: 29
 additional_links: [{name: Code, url: 'https://github.com/xandery-geek/SAAT'}, {name: Paper,
     url: 'https://arxiv.org/abs/2310.14637'}]
-tags: [Evaluation, Image Retrieval, Neural Hashing, Efficiency, Datasets, Robustness,
-  Scalability, Hashing Methods]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness"]
 short_authors: Yuan et al.
 ---
 Deep hashing has been intensively studied and successfully applied in

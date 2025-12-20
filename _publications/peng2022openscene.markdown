@@ -8,7 +8,7 @@ year: 2022
 bibkey: peng2022openscene
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.15654'}]
-tags: [Evaluation, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Peng et al.
 ---
 Traditional 3D scene understanding approaches rely on labeled 3D datasets to

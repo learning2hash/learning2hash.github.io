@@ -7,7 +7,7 @@ year: 2022
 bibkey: song2022dalg
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.00287'}]
-tags: [Evaluation, Image Retrieval, Re-ranking, Efficiency, Tools & Libraries]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Re-Ranking", "Tools & Libraries"]
 short_authors: Song et al.
 ---
 Deeply learned representations have achieved superior image retrieval

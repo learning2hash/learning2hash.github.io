@@ -7,8 +7,7 @@ year: 2019
 bibkey: groh2019ggnn
 citations: 57
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.01059'}]
-tags: [Evaluation, Neural Hashing, Similarity Search, Vector Indexing, Graph-based
-    ANN, Tools & Libraries]
+tags: ["Evaluation", "Graph Based ANN", "Neural Hashing", "Similarity Search", "Vector Indexing"]
 short_authors: Groh et al.
 ---
 Approximate nearest neighbor (ANN) search in high dimensions is an integral

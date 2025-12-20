@@ -7,7 +7,7 @@ year: 2010
 bibkey: piro2010boosting
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1001.1221'}]
-tags: [Datasets]
+tags: ["Datasets"]
 short_authors: Piro et al.
 ---
 The k-nearest neighbors (k-NN) classification rule has proven extremely

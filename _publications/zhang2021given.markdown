@@ -7,7 +7,7 @@ year: 2021
 bibkey: zhang2021given
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.01762'}]
-tags: [Recommender Systems, Survey Paper]
+tags: ["Recommender Systems", "Survey Paper"]
 short_authors: Zhang et al.
 ---
 In our project, we focus on NLP-based hybrid recommendation systems. Our data

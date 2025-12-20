@@ -9,7 +9,7 @@ year: 2023
 bibkey: fervers2023c
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.08060'}]
-tags: [Evaluation, Supervised, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised"]
 short_authors: Fervers et al.
 ---
 To find the geolocation of a street-view image, cross-view geolocalization

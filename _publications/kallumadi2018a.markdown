@@ -7,7 +7,7 @@ year: 2018
 bibkey: kallumadi2018a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.08061'}]
-tags: [Evaluation, Recommender Systems]
+tags: ["Evaluation", "Recommender Systems"]
 short_authors: Surya Kallumadi, Bhaskar Mitra, Tereza Iofciu
 ---
 The popular approaches to recommendation and ad-hoc retrieval tasks are

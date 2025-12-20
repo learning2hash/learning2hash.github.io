@@ -7,7 +7,7 @@ year: 2019
 bibkey: gasser2019towards
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.03878'}]
-tags: [Similarity Search, Multimodal Retrieval]
+tags: ["Multimodal Retrieval", "Similarity Search"]
 short_authors: Ralph Gasser, Luca Rossetto, Heiko Schuldt
 ---
 The growth of multimedia collections - in terms of size, heterogeneity, and

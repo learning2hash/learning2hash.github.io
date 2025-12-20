@@ -9,7 +9,7 @@ bibkey: efthymiadis2024composed
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/NikosEfth/freedom'}, {name: Paper,
     url: 'https://arxiv.org/abs/2412.03297'}]
-tags: [Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Efthymiadis et al.
 ---
 This work addresses composed image retrieval in the context of domain

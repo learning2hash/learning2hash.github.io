@@ -7,7 +7,7 @@ year: 2022
 bibkey: fang2022adversarial
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.03871'}]
-tags: [Evaluation, Image Retrieval, Datasets, Robustness]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Robustness"]
 short_authors: Fang et al.
 ---
 Image retrieval methods for place recognition learn global image descriptors

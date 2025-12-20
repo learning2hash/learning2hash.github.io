@@ -7,7 +7,7 @@ year: 2021
 bibkey: fang2021combating
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.08872'}]
-tags: [ALT, Hashing Methods, Tools & Libraries, Datasets, Evaluation]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Tools & Libraries"]
 short_authors: Fang et al.
 ---
 When encountering a dubious diagnostic case, medical instance retrieval can

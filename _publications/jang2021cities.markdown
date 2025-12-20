@@ -7,7 +7,7 @@ year: 2021
 bibkey: jang2021cities
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.10868'}]
-tags: [Evaluation, Tools & Libraries, Recommender Systems, Datasets]
+tags: ["Datasets", "Evaluation", "Recommender Systems", "Tools & Libraries"]
 short_authors: Jang et al.
 ---
 Sequential recommendation techniques provide users with product

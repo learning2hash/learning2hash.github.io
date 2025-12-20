@@ -8,8 +8,7 @@ bibkey: lepage2023lrvs
 citations: 0
 additional_links: [{name: Code, url: 'https://huggingface.co/datasets/Slep/LAION-RVS-Fashion'},
   {name: Paper, url: 'https://arxiv.org/abs/2306.02928'}]
-tags: [Evaluation, Supervised, Image Retrieval, Similarity Search, Self-Supervised,
-  Datasets, Robustness]
+tags: ["Datasets", "Robustness", "Self-Supervised", "Similarity Search", "Supervised"]
 short_authors: "Simon Lepage, J\xE9r\xE9mie Mary, David Picard"
 ---
 This paper introduces a new challenge for image similarity search in the

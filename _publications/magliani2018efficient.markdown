@@ -7,8 +7,7 @@ year: 2018
 bibkey: magliani2018efficient
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.05946'}]
-tags: [Similarity Search, Efficiency, Vector Indexing, Datasets, Scalability, Hashing
-    Methods]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Similarity Search", "Vector Indexing"]
 short_authors: Federico Magliani, Tomaso Fontanini, Andrea Prati
 ---
 The problem of landmark recognition has achieved excellent results in

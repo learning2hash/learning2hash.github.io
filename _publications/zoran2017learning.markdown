@@ -8,7 +8,7 @@ year: 2017
 bibkey: zoran2017learning
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.08833'}]
-tags: [Efficiency]
+tags: ["Efficiency"]
 short_authors: Daniel Zoran, Balaji Lakshminarayanan, Charles Blundell
 ---
 Nearest neighbor (kNN) methods have been gaining popularity in recent years

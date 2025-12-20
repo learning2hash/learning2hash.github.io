@@ -7,8 +7,7 @@ year: 2019
 bibkey: li2019push
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.00206'}]
-tags: [Compact Codes, Evaluation, Image Retrieval, Neural Hashing, Datasets, Quantization,
-  Hashing Methods]
+tags: ["Compact Codes", "Datasets", "Hashing Methods", "Neural Hashing", "Quantization"]
 short_authors: Li et al.
 ---
 Current massive datasets demand light-weight access for analysis. Discrete

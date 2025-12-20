@@ -10,7 +10,7 @@ year: 2021
 bibkey: yang2021asteria
 citations: 55
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.06082'}]
-tags: [Compact Codes, Evaluation, Datasets, Neural Hashing]
+tags: ["Compact Codes", "Datasets", "Evaluation", "Neural Hashing"]
 short_authors: Yang et al.
 ---
 Binary code similarity detection is a fundamental technique for many security

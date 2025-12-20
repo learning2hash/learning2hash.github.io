@@ -8,8 +8,7 @@ year: 2021
 bibkey: yu2021pseudo
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.14962'}]
-tags: [Tree-based ANN, Evaluation, Neural Hashing, Efficiency, Datasets, Hashing Methods,
-  Locality Sensitive Hashing]
+tags: ["Datasets", "Efficiency", "Locality-Sensitive-Hashing", "Neural Hashing", "Tree Based ANN"]
 short_authors: Yu et al.
 ---
 We present PSEUDo, an adaptive feature learning technique for exploring

@@ -8,7 +8,7 @@ year: 2020
 bibkey: yang2020tree
 citations: 127
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.02503'}]
-tags: [Video Retrieval, Evaluation, Datasets, Scalability, SIGIR]
+tags: ["Datasets", "Evaluation", "SIGIR", "Scalability", "Video Retrieval"]
 short_authors: Yang et al.
 ---
 The rapid growth of user-generated videos on the Internet has intensified the

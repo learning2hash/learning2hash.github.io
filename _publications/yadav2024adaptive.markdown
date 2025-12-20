@@ -7,7 +7,7 @@ year: 2024
 bibkey: yadav2024adaptive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.03651'}]
-tags: [Scalability, Evaluation, Re-ranking, Efficiency]
+tags: ["Efficiency", "Evaluation", "Re-Ranking", "Scalability"]
 short_authors: Yadav et al.
 ---
 Cross-encoder (CE) models which compute similarity by jointly encoding a

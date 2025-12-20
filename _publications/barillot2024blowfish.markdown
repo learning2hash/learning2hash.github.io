@@ -8,7 +8,7 @@ year: 2024
 bibkey: barillot2024blowfish
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.07990'}]
-tags: [Datasets]
+tags: ["Datasets"]
 short_authors: Thomas Roland Barillot, Alex de Castro
 ---
 This works reports evidence for the topological signatures of ambiguity in

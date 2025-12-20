@@ -8,7 +8,7 @@ bibkey: liu2018stochastic
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/Liumouliu/deepIBL'}, {name: Paper,
     url: 'https://arxiv.org/abs/1808.08779'}]
-tags: [Scalability, Distance Metric Learning, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation", "Scalability"]
 short_authors: Liu Liu, Hongdong Li, Yuchao Dai
 ---
 This paper tackles the problem of large-scale image-based localization (IBL)

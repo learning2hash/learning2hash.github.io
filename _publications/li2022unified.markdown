@@ -7,8 +7,7 @@ year: 2022
 bibkey: li2022unified
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.13869'}]
-tags: [Evaluation, Distance Metric Learning, Self-Supervised, Datasets, Multimodal
-    Retrieval, Text Retrieval]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Li et al.
 ---
 There are two popular loss functions used for vision-language retrieval,

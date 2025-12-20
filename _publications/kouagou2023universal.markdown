@@ -9,7 +9,7 @@ year: 2023
 bibkey: kouagou2023universal
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.14899'}]
-tags: [Scalability, Tools & Libraries, Datasets]
+tags: ["Datasets", "Scalability", "Tools & Libraries"]
 short_authors: Kouagou et al.
 ---
 A variety of knowledge graph embedding approaches have been developed. Most

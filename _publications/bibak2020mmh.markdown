@@ -7,7 +7,7 @@ year: 2020
 bibkey: bibak2020mmh
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.05420'}]
-tags: [Hashing Methods, Evaluation]
+tags: ["Evaluation", "Hashing Methods"]
 short_authors: Khodakhast Bibak, Bruce M. Kapron, Venkatesh Srinivasan
 ---
 Universal hash functions, discovered by Carter and Wegman in 1979, are of

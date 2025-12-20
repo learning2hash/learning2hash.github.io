@@ -9,7 +9,7 @@ year: 2023
 bibkey: xu2023hybrid
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.12039'}]
-tags: [Text Retrieval, Evaluation, Scalability, Neural Hashing]
+tags: ["Evaluation", "Neural Hashing", "Scalability", "Text Retrieval"]
 short_authors: Xu et al.
 ---
 Large-scale text retrieval technology has been widely used in various

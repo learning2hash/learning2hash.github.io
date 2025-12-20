@@ -7,7 +7,7 @@ year: 2022
 bibkey: lei2022grm
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.10972'}]
-tags: [Evaluation, Tools & Libraries, Datasets]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Lei et al.
 ---
 Visual place retrieval aims to search images in the database that depict

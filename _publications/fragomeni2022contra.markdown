@@ -7,7 +7,7 @@ year: 2022
 bibkey: fragomeni2022contra
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.04341'}]
-tags: [Video Retrieval, Evaluation, Supervised, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Supervised", "Video Retrieval"]
 short_authors: Adriano Fragomeni, Michael Wray, Dima Damen
 ---
 In this paper, we re-examine the task of cross-modal clip-sentence retrieval,

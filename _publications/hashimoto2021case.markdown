@@ -12,7 +12,7 @@ year: 2021
 bibkey: hashimoto2021case
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.03602'}]
-tags: [Distance Metric Learning, Supervised, Image Retrieval, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Supervised"]
 short_authors: Hashimoto et al.
 ---
 In the present study, we propose a novel case-based similar image retrieval

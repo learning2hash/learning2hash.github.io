@@ -10,7 +10,7 @@ bibkey: chang2020neural
 citations: 2
 additional_links: [{name: Code, url: 'https://mimbres.github.io/neural-audio-fp/'},
   {name: Paper, url: 'https://arxiv.org/abs/2010.11910'}]
-tags: [Self-Supervised, Tools & Libraries, Datasets, Audio Retrieval]
+tags: ["Audio Retrieval", "Datasets", "Self-Supervised", "Tools & Libraries"]
 short_authors: Chang et al.
 ---
 Most of existing audio fingerprinting systems have limitations to be used for

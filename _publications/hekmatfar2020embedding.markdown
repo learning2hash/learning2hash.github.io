@@ -7,8 +7,7 @@ year: 2020
 bibkey: hekmatfar2020embedding
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.16173'}]
-tags: [Evaluation, Neural Hashing, Graph-based ANN, Datasets, Tools & Libraries, Recommender
-    Systems]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Neural Hashing", "Recommender Systems"]
 short_authors: Taher Hekmatfar, Saman Haratizadeh, Sama Goliaei
 ---
 Graph-based recommender systems (GRSs) analyze the structural information in

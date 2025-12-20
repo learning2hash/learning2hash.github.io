@@ -8,7 +8,7 @@ bibkey: nguyen2023a
 citations: 29
 additional_links: [{name: Code, url: 'https://github.com/thongnt99/learned-sparse-retrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2303.13416'}]
-tags: [Evaluation, Tools & Libraries, Efficiency]
+tags: ["Efficiency", "Evaluation", "Tools & Libraries"]
 short_authors: Thong Nguyen, Sean MacAvaney, Andrew Yates
 ---
 Learned sparse retrieval (LSR) is a family of first-stage retrieval methods

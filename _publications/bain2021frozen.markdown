@@ -7,7 +7,7 @@ year: 2021
 bibkey: bain2021frozen
 citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.00650'}]
-tags: [Video Retrieval, Evaluation, ICCV, Datasets, Scalability, Text Retrieval]
+tags: ["Datasets", "Evaluation", "ICCV", "Text Retrieval", "Video Retrieval"]
 short_authors: Bain et al.
 ---
 Our objective in this work is video-text retrieval - in particular a joint

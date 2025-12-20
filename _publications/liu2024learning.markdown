@@ -8,7 +8,7 @@ year: 2024
 bibkey: liu2024learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.13363'}]
-tags: [Evaluation, Supervised, Datasets]
+tags: ["Datasets", "Evaluation", "Supervised"]
 short_authors: Liu et al.
 ---
 Current weakly-supervised incremental learning for semantic segmentation

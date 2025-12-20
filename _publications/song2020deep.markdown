@@ -7,8 +7,7 @@ year: 2020
 bibkey: song2020deep
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.02698'}]
-tags: [Evaluation, Neural Hashing, Distance Metric Learning, Robustness, Multimodal
-    Retrieval, Hashing Methods]
+tags: ["Distance Metric Learning", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Robustness"]
 short_authors: Ge Song, Jun Zhao, Xiaoyang Tan
 ---
 Hashing based cross-modal retrieval has recently made significant progress.

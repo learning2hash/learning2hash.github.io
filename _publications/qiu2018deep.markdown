@@ -7,8 +7,7 @@ year: 2018
 bibkey: qiu2018deep
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.08275'}]
-tags: [Evaluation, Supervised, Image Retrieval, Neural Hashing, Robustness, Scalability,
-  Tools & Libraries, Hashing Methods]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness", "Supervised"]
 short_authors: Qiu et al.
 ---
 Hashing has been a widely-adopted technique for nearest neighbor search in

@@ -7,8 +7,7 @@ year: 2024
 bibkey: duhan2024semantic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.06649'}]
-tags: [Evaluation, Efficiency, Datasets, Scalability, Tools & Libraries, Recommender
-    Systems]
+tags: ["Datasets", "Efficiency", "Evaluation", "Recommender Systems", "Scalability"]
 short_authors: Duhan et al.
 ---
 This paper introduces a new semantic search algorithm that uses Word2Vec and

@@ -7,7 +7,7 @@ year: 2024
 bibkey: karjalainen2024fast
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.04148'}]
-tags: [Hashing Methods, Locality Sensitive Hashing]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Maiju Karjalainen, Esther Galbrun, Pauli Miettinen
 ---
 Redescription mining is a data analysis technique that has found applications

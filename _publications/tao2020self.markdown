@@ -9,8 +9,7 @@ bibkey: tao2020self
 citations: 107
 additional_links: [{name: Code, url: 'https://github.com/BestJuly/Inter-intra-video-contrastive-learning'},
   {name: Paper, url: 'https://arxiv.org/abs/2008.02531'}]
-tags: [Video Retrieval, Evaluation, Supervised, Self-Supervised, Datasets, Tools &
-    Libraries]
+tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised", "Video Retrieval"]
 short_authors: Li Tao, Xueting Wang, Toshihiko Yamasaki
 ---
 We propose a self-supervised method to learn feature representations from

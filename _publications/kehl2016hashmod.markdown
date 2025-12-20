@@ -7,7 +7,7 @@ year: 2016
 bibkey: kehl2016hashmod
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.06062'}]
-tags: [Hashing Methods]
+tags: ["Hashing Methods"]
 short_authors: Kehl et al.
 ---
 We present a scalable method for detecting objects and estimating their 3D

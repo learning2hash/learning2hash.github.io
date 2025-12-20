@@ -7,7 +7,7 @@ year: 2016
 bibkey: tang2016visualizing
 citations: 304
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.00370'}]
-tags: [Scalability, Evaluation, Graph-based ANN, Efficiency]
+tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Scalability"]
 short_authors: Tang et al.
 ---
 We study the problem of visualizing large-scale and high-dimensional data in

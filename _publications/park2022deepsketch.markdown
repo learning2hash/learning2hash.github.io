@@ -8,7 +8,7 @@ year: 2022
 bibkey: park2022deepsketch
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.10584'}]
-tags: [Evaluation, Efficiency]
+tags: ["Efficiency", "Evaluation"]
 short_authors: Park et al.
 ---
 Data reduction in storage systems is becoming increasingly important as an

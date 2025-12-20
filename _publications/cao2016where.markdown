@@ -8,7 +8,7 @@ year: 2016
 bibkey: cao2016where
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.06811'}]
-tags: [Evaluation, Tools & Libraries, Re-ranking, Hybrid ANN Methods]
+tags: ["Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Tools & Libraries"]
 short_authors: Cao et al.
 ---
 Instance retrieval requires one to search for images that contain a

@@ -9,8 +9,7 @@ year: 2022
 bibkey: malkiel2022metricbert
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.06610'}]
-tags: [ICASSP, Evaluation, Supervised, Distance Metric Learning, Self-Supervised,
-  Datasets, Recommender Systems]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Self-Supervised", "Supervised"]
 short_authors: Malkiel et al.
 ---
 We present MetricBERT, a BERT-based model that learns to embed text under a

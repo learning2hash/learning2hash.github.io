@@ -7,7 +7,7 @@ year: 2022
 bibkey: chen2022locality
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.03097'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation, Efficiency]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Ke Chen, Mingfu Shao
 ---
 Many bioinformatics applications involve bucketing a set of sequences where

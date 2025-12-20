@@ -8,7 +8,7 @@ bibkey: laitz2024inranker
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/unicamp-dl/InRanker'}, {
     name: Paper, url: 'https://arxiv.org/abs/2401.06910'}]
-tags: [Supervised, Re-ranking, Few-shot & Zero-shot]
+tags: ["Few Shot & Zero Shot", "Re-Ranking", "Supervised"]
 short_authors: Laitz et al.
 ---
 Despite multi-billion parameter neural rankers being common components of

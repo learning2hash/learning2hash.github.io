@@ -7,7 +7,7 @@ year: 2020
 bibkey: pahde2020multimodal
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.08899'}]
-tags: [Tools & Libraries, Few-shot & Zero-shot, Neural Hashing, Datasets]
+tags: ["Datasets", "Few Shot & Zero Shot", "Neural Hashing", "Tools & Libraries"]
 short_authors: Pahde et al.
 ---
 Although providing exceptional results for many computer vision tasks,

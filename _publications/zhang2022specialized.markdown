@@ -9,7 +9,7 @@ year: 2022
 bibkey: zhang2022specialized
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.03592'}]
-tags: [Re-ranking, CVPR, Datasets, Tools & Libraries, Hybrid ANN Methods]
+tags: ["CVPR", "Datasets", "Hybrid ANN Methods", "Re-Ranking", "Tools & Libraries"]
 short_authors: Zhang et al.
 ---
 Cloth changing person re-identification(Re-ID) can work under more

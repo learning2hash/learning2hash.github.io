@@ -8,7 +8,7 @@ bibkey: ustinova2015multiregion
 citations: 33
 additional_links: [{name: Code, url: 'https://github.com/madkn/MultiregionBilinearCNN-ReId'},
   {name: Paper, url: 'https://arxiv.org/abs/1512.05300'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Evgeniya Ustinova, Yaroslav Ganin, Victor Lempitsky
 ---
 In this work we propose a new architecture for person re-identification. As

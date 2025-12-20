@@ -7,8 +7,7 @@ year: 2018
 bibkey: tuinhof2018image
 citations: 50
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.08694'}]
-tags: [Evaluation, Neural Hashing, Datasets, Robustness, Tools & Libraries, Recommender
-    Systems]
+tags: ["Datasets", "Evaluation", "Neural Hashing", "Recommender Systems", "Robustness"]
 short_authors: Hessel Tuinhof, Clemens Pirker, Markus Haltmeier
 ---
 We develop a two-stage deep learning framework that recommends fashion images

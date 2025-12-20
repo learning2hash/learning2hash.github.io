@@ -7,8 +7,7 @@ year: 2025
 bibkey: liu2025discrete
 citations: 488
 additional_links: [{name: Paper, url: 'http://www.ee.columbia.edu/~wliu/NIPS14_dgh.pdf'}]
-tags: [Compact Codes, Evaluation, Supervised, Efficiency, Graph-based ANN, Datasets,
-  Unsupervised, Tools & Libraries, Hashing Methods]
+tags: ["Efficiency", "Graph Based ANN", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Liu et al.
 ---
 Hashing has emerged as a popular technique for fast nearest neighbor search in gigantic

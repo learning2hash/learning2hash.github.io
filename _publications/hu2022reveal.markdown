@@ -9,7 +9,7 @@ year: 2022
 bibkey: hu2022reveal
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.05221'}]
-tags: [Scalability]
+tags: ["Scalability"]
 short_authors: Hu et al.
 ---
 In this paper, we propose an end-to-end Retrieval-Augmented Visual Language

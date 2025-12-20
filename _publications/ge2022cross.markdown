@@ -7,7 +7,7 @@ year: 2022
 bibkey: ge2022cross
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.08908'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Ge et al.
 ---
 Image-sentence retrieval has attracted extensive research attention in

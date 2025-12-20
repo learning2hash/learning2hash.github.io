@@ -9,7 +9,7 @@ bibkey: huang2023lightweight
 citations: 7
 additional_links: [{name: Code, url: 'https://github.com/HuangQiang/BC-Tree'}, {name: Paper,
     url: 'https://arxiv.org/abs/2302.10626'}]
-tags: [Hashing Methods, Tree-based ANN]
+tags: ["Hashing Methods", "Tree Based ANN"]
 short_authors: Qiang Huang, Anthony K. H. Tung
 ---
 Finding the nearest neighbor to a hyperplane (or Point-to-Hyperplane Nearest

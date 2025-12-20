@@ -7,7 +7,7 @@ year: 2020
 bibkey: pandey2020stacked
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.06657'}]
-tags: [Distance Metric Learning, Image Retrieval, Few-shot & Zero-shot, Robustness]
+tags: ["Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval", "Robustness"]
 short_authors: Pandey et al.
 ---
 Conventional approaches to Sketch-Based Image Retrieval (SBIR) assume that

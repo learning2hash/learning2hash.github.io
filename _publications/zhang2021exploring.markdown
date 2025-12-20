@@ -7,7 +7,7 @@ year: 2021
 bibkey: zhang2021exploring
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.03341'}]
-tags: [Self-Supervised, Supervised, Unsupervised, Evaluation]
+tags: ["Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Yifei Zhang, Yu Zhou, Weiping Wang
 ---
 Despite the great progress achieved in unsupervised feature embedding,

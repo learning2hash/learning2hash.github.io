@@ -7,7 +7,7 @@ year: 2018
 bibkey: hu2018deep
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.03402'}]
-tags: [Hashing Methods, Evaluation, Supervised, Datasets]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Supervised"]
 short_authors: di Hu, Feiping Nie, Xuelong Li
 ---
 The conventional supervised hashing methods based on classification do not

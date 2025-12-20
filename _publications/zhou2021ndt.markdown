@@ -9,7 +9,7 @@ year: 2021
 bibkey: zhou2021ndt
 citations: 98
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.12292'}]
-tags: [Scalability, Evaluation, ICRA, Efficiency]
+tags: ["Efficiency", "Evaluation", "ICRA", "Scalability"]
 short_authors: Zhou et al.
 ---
 3D point cloud-based place recognition is highly demanded by autonomous

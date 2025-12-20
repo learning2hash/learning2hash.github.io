@@ -7,7 +7,7 @@ year: 2023
 bibkey: tan2023fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.15479'}]
-tags: [Evaluation, Efficiency, Datasets, Hashing Methods, Locality Sensitive Hashing]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Tan et al.
 ---
 Locality-sensitive hashing (LSH) is an effective randomized technique widely

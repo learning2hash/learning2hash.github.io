@@ -8,7 +8,7 @@ year: 2019
 bibkey: xin2019localizing
 citations: 51
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.06635'}]
-tags: [Evaluation, ICRA, Datasets]
+tags: ["Datasets", "Evaluation", "ICRA"]
 short_authors: Xin et al.
 ---
 We address the problem of visual place recognition with perceptual changes.

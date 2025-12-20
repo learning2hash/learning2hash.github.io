@@ -7,7 +7,7 @@ year: 2021
 bibkey: zaratiana2021contrastive
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.04217'}]
-tags: [Self-Supervised, Evaluation]
+tags: ["Evaluation", "Self-Supervised"]
 short_authors: Urchade Zaratiana
 ---
 String representation Learning (SRL) is an important task in the field of

@@ -9,8 +9,7 @@ bibkey: yuan2019central
 citations: 19
 additional_links: [{name: Code, url: 'https://github.com/yuanli2333/Hadamard-Matrix-for-hashing'},
   {name: Paper, url: 'https://arxiv.org/abs/1908.00347'}]
-tags: [Video Retrieval, Evaluation, Efficiency, Distance Metric Learning, Quantization,
-  Scalability, Hashing Methods]
+tags: ["Distance Metric Learning", "Efficiency", "Hashing Methods", "Quantization", "Video Retrieval"]
 short_authors: Yuan et al.
 ---
 Existing data-dependent hashing methods usually learn hash functions from

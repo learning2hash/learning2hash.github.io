@@ -8,8 +8,7 @@ year: 2020
 bibkey: bai2020targeted
 citations: 75
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.07955'}]
-tags: [Video Retrieval, Evaluation, Image Retrieval, Neural Hashing, Robustness, Scalability,
-  Hashing Methods]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Video Retrieval"]
 short_authors: Bai et al.
 ---
 The deep hashing based retrieval method is widely adopted in large-scale

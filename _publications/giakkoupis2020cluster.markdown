@@ -8,7 +8,7 @@ year: 2020
 bibkey: giakkoupis2020cluster
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.11497'}]
-tags: [Evaluation, Distance Metric Learning, Locality Sensitive Hashing, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Locality-Sensitive-Hashing"]
 short_authors: Giakkoupis et al.
 ---
 K-Nearest-Neighbors (KNN) graphs are central to many emblematic data mining

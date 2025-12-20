@@ -8,7 +8,7 @@ year: 2023
 bibkey: reddy2023refit
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.11744'}]
-tags: [Evaluation, Tools & Libraries, Re-ranking]
+tags: ["Evaluation", "Re-Ranking", "Tools & Libraries"]
 short_authors: Reddy et al.
 ---
 Retrieve-and-rerank is a prevalent framework in neural information retrieval,

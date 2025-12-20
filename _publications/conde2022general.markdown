@@ -7,7 +7,7 @@ year: 2022
 bibkey: conde2022general
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.11141'}]
-tags: [Image Retrieval, Few-shot & Zero-shot]
+tags: ["Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: "Marcos V. Conde, Ivan Aerlic, Simon J\xE9gou"
 ---
 The Google Universal Image Embedding (GUIE) Challenge is one of the first

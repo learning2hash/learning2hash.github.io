@@ -7,7 +7,7 @@ year: 2022
 bibkey: chen2022efficient
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.12212'}]
-tags: [Evaluation, Efficiency, Datasets, Hashing Methods, KDD, Recommender Systems]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Recommender Systems"]
 short_authors: Chen et al.
 ---
 Recent studies on Click-Through Rate (CTR) prediction has reached new levels

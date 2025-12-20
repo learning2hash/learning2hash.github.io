@@ -8,7 +8,7 @@ year: 2019
 bibkey: sikka2019deep
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.07075'}]
-tags: [Tools & Libraries, Multimodal Retrieval]
+tags: ["Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Karan Sikka, Lucas van Bramer, Ajay Divakaran
 ---
 There has been an explosion of multimodal content generated on social media

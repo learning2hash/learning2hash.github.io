@@ -7,7 +7,7 @@ year: 2018
 bibkey: schlegel2018hbst
 citations: 46
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.09261'}]
-tags: [Tools & Libraries, Datasets, Image Retrieval]
+tags: ["Datasets", "Image Retrieval", "Tools & Libraries"]
 short_authors: Dominik Schlegel, Giorgio Grisetti
 ---
 Reliable and efficient Visual Place Recognition is a major building block of

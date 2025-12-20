@@ -10,8 +10,7 @@ year: 2022
 bibkey: chen2022approximate
 citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.10226'}]
-tags: [Graph-based ANN, Datasets, CIKM, Scalability, Efficiency, Similarity Search,
-  Distance Metric Learning, Recommender Systems, Evaluation, Robustness]
+tags: ["Distance Metric Learning", "Efficiency", "Graph Based ANN", "Recommender Systems", "Similarity Search"]
 short_authors: Chen et al.
 ---
 Model-based methods for recommender systems have been studied extensively for

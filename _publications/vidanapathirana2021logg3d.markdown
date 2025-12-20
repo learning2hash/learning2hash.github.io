@@ -9,7 +9,7 @@ bibkey: vidanapathirana2021logg3d
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/csiro-robotics/LoGG3D-Net'},
   {name: Paper, url: 'https://arxiv.org/abs/2109.08336'}]
-tags: [Scalability, Evaluation, Efficiency]
+tags: ["Efficiency", "Evaluation", "Scalability"]
 short_authors: Vidanapathirana et al.
 ---
 Retrieval-based place recognition is an efficient and effective solution for

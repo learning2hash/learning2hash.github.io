@@ -7,7 +7,7 @@ year: 2018
 bibkey: royoletelier2018disambiguating
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.01807'}]
-tags: [Scalability, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Scalability"]
 short_authors: Royo-Letelier et al.
 ---
 We address the problem of disambiguating large scale catalogs through the

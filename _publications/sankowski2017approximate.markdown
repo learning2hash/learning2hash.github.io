@@ -8,7 +8,7 @@ year: 2017
 bibkey: sankowski2017approximate
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.06395'}]
-tags: [Efficiency]
+tags: ["Efficiency"]
 short_authors: Piotr Sankowski, Piotr Wygocki
 ---
 In this paper, we report progress on answering the open problem presented by

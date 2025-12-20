@@ -8,7 +8,7 @@ year: 2023
 bibkey: wang2023conaclip
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.17652'}]
-tags: [Evaluation, Image Retrieval, Efficiency, Scalability, Text Retrieval]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Scalability", "Text Retrieval"]
 short_authors: Wang et al.
 ---
 Large-scale pre-trained text-image models with dual-encoder architectures

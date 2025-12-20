@@ -8,7 +8,7 @@ year: 2024
 bibkey: hamilton2024separating
 citations: 5
 additional_links: [{name: Code, url: 'https://aka.ms/denseav\'}, {name: Paper, url: 'https://arxiv.org/abs/2406.05629'}]
-tags: [Evaluation, Supervised, Self-Supervised, Datasets, Multimodal Retrieval, CVPR]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Hamilton et al.
 ---
 We present DenseAV, a novel dual encoder grounding architecture that learns

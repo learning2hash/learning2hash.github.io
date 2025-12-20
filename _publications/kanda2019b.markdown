@@ -7,8 +7,7 @@ year: 2019
 bibkey: kanda2019b
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.08278'}]
-tags: [Tree-based ANN, Efficiency, Similarity Search, Distance Metric Learning, Datasets,
-  Scalability, Large-Scale Search, Hashing Methods]
+tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Large Scale Search", "Similarity Search"]
 short_authors: Shunsuke Kanda, Yasuo Tabei
 ---
 Recently, randomly mapping vectorial data to strings of discrete symbols

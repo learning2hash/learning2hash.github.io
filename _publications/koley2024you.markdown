@@ -8,7 +8,7 @@ year: 2024
 bibkey: koley2024you
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.07222'}]
-tags: [Text Retrieval, CVPR, Image Retrieval, Tools & Libraries]
+tags: ["CVPR", "Image Retrieval", "Text Retrieval", "Tools & Libraries"]
 short_authors: Koley et al.
 ---
 Two primary input modalities prevail in image retrieval: sketch and text.

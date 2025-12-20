@@ -8,7 +8,7 @@ year: 2023
 bibkey: shi2023revisiting
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.08807'}]
-tags: [Distance Metric Learning]
+tags: ["Distance Metric Learning"]
 short_authors: Hongguang Shi, Shuirong Cao, Cam-Tu Nguyen
 ---
 This paper studies the task of best counter-argument retrieval given an input

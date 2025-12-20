@@ -7,7 +7,7 @@ year: 2017
 bibkey: bamberger2017optimal
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.01774'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Stefan Bamberger, Felix Krahmer
 ---
 Johnson-Lindenstrauss embeddings are widely used to reduce the dimension and

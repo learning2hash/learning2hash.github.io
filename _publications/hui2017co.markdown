@@ -7,7 +7,7 @@ year: 2017
 bibkey: hui2017co
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.10192'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Hui et al.
 ---
 Neural IR models, such as DRMM and PACRR, have achieved strong results by

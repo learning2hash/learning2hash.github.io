@@ -7,7 +7,7 @@ year: 2022
 bibkey: zhornyak2022hashencoding
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.15894'}]
-tags: [Hashing Methods]
+tags: ["Hashing Methods"]
 short_authors: Zhornyak et al.
 ---
 We present HashEncoding, a novel autoencoding architecture that leverages a

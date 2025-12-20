@@ -8,7 +8,7 @@ year: 2020
 bibkey: an2020fast
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.11703'}]
-tags: [Hashing Methods, Evaluation, Graph-based ANN, Datasets]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Hashing Methods"]
 short_authors: An et al.
 ---
 In recent years, the robotics community has extensively examined methods

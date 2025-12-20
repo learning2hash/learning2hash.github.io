@@ -9,8 +9,7 @@ bibkey: luo2025fast
 citations: 92
 additional_links: [{name: Code, url: 'https://lcbwlx.wixsite.com/fssh'}, {name: Paper,
     url: 'http://staff.ustc.edu.cn/~hexn/papers/sigir18-hashing.pdf'}]
-tags: [Evaluation, Supervised, Datasets, Scalability, Unsupervised, Hashing Methods,
-  SIGIR]
+tags: ["Datasets", "Hashing Methods", "Scalability", "Supervised", "Unsupervised"]
 short_authors: Luo et al.
 ---
 Despite significant progress in supervised hashing, there are three

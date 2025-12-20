@@ -9,7 +9,7 @@ year: 2023
 bibkey: jain2023self
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.02249'}]
-tags: [Self-Supervised, Supervised, Image Retrieval]
+tags: ["Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Jain et al.
 ---
 Image search engines enable the retrieval of images relevant to a query

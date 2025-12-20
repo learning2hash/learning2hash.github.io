@@ -7,7 +7,7 @@ year: 2019
 bibkey: sawatzky2019harvesting
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.06784'}]
-tags: [ICCV, Supervised, Datasets]
+tags: ["Datasets", "ICCV", "Supervised"]
 short_authors: Johann Sawatzky, Debayan Banerjee, Juergen Gall
 ---
 Since acquiring pixel-wise annotations for training convolutional neural

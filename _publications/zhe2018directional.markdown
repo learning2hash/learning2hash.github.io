@@ -8,7 +8,7 @@ year: 2018
 bibkey: zhe2018directional
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.09662'}]
-tags: [Evaluation, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Xuefei Zhe, Shifeng Chen, Hong Yan
 ---
 Deep distance metric learning (DDML), which is proposed to learn image

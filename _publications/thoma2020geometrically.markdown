@@ -7,7 +7,7 @@ year: 2020
 bibkey: thoma2020geometrically
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.09682'}]
-tags: [Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Thoma et al.
 ---
 Vision-based localization of an agent in a map is an important problem in

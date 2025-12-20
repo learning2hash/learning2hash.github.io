@@ -9,8 +9,7 @@ bibkey: chowdhury2023what
 citations: 38
 additional_links: [{name: Code, url: 'https://pinakinathc.github.io/sketch-detect'},
   {name: Paper, url: 'https://arxiv.org/abs/2303.15149'}]
-tags: [Evaluation, Supervised, Image Retrieval, Few-shot & Zero-shot, Datasets, CVPR,
-  Tools & Libraries]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Supervised"]
 short_authors: Chowdhury et al.
 ---
 Sketches are highly expressive, inherently capturing subjective and

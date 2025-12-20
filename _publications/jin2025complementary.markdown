@@ -7,7 +7,7 @@ year: 2025
 bibkey: jin2025complementary
 citations: 56
 additional_links: [{name: Paper, url: 'http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.883.1565&rep=rep1&type=pdf'}]
-tags: [Hashing Methods, ICCV]
+tags: ["Hashing Methods", "ICCV"]
 short_authors: Jin et al.
 ---
 Recently, hashing techniques have been widely applied

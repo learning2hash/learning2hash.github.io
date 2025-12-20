@@ -9,8 +9,7 @@ bibkey: wang2024weakly
 citations: 11
 additional_links: [{name: Code, url: 'https://github.com/gimpong/AAAI21-WSDHQ'}, {
     name: Paper, url: 'https://arxiv.org/abs/2404.04998'}]
-tags: [Evaluation, Supervised, Image Retrieval, Efficiency, Datasets, Quantization,
-  Scalability, AAAI]
+tags: ["AAAI", "Efficiency", "Image Retrieval", "Quantization", "Supervised"]
 short_authors: Wang et al.
 ---
 Deep quantization methods have shown high efficiency on large-scale image

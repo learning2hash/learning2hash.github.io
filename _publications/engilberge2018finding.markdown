@@ -7,7 +7,7 @@ year: 2018
 bibkey: engilberge2018finding
 citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.01720'}]
-tags: [Evaluation, CVPR, Multimodal Retrieval]
+tags: ["CVPR", "Evaluation", "Multimodal Retrieval"]
 short_authors: Engilberge et al.
 ---
 Several works have proposed to learn a two-path neural network that maps

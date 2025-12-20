@@ -8,7 +8,7 @@ year: 2021
 bibkey: cui2021dsc
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.13838'}]
-tags: [Scalability, Datasets]
+tags: ["Datasets", "Scalability"]
 short_authors: Cui et al.
 ---
 LiDAR-based place recognition is an essential and challenging task both in

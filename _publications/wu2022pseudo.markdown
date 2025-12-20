@@ -8,7 +8,7 @@ year: 2022
 bibkey: wu2022pseudo
 citations: 58
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.13035'}]
-tags: [Evaluation, Supervised, Unsupervised, Datasets]
+tags: ["Datasets", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: Wu et al.
 ---
 Person re-identification (re-ID) is of great importance to video surveillance

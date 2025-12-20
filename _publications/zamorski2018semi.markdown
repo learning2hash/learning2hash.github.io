@@ -7,8 +7,7 @@ year: 2018
 bibkey: zamorski2018semi
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.11426'}]
-tags: [Evaluation, Supervised, Image Retrieval, Distance Metric Learning, Datasets,
-  Robustness]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Supervised"]
 short_authors: "MacIej Zamorski, MacIej Zi\u0119ba"
 ---
 In this work we introduce a novel approach to train Bidirectional Generative

@@ -7,7 +7,7 @@ year: 2021
 bibkey: sharma2021learning
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.02994'}]
-tags: [Evaluation, Tools & Libraries, Datasets]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Abhishek Sharma, Maks Ovsjanikov
 ---
 This paper provides a novel framework that learns canonical embeddings for

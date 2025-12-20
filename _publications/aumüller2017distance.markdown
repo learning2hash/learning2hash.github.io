@@ -7,8 +7,7 @@ year: 2017
 bibkey: "aum\xFCller2017distance"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.07867'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Tools & Libraries, Similarity
-    Search]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search", "Tools & Libraries"]
 short_authors: "Aum\xFCller et al."
 ---
 Locality-sensitive hashing (LSH) is an important tool for managing

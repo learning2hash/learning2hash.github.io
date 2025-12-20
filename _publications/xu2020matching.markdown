@@ -7,7 +7,7 @@ year: 2020
 bibkey: xu2020matching
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.00636'}]
-tags: [Image Retrieval, Efficiency, Datasets, Robustness, Memory Efficiency]
+tags: ["Datasets", "Efficiency", "Image Retrieval", "Memory Efficiency", "Robustness"]
 short_authors: Xu et al.
 ---
 The event camera has appealing properties: high dynamic range, low latency,

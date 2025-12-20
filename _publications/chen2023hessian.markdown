@@ -8,8 +8,7 @@ year: 2023
 bibkey: chen2023hessian
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.01032'}]
-tags: [Evaluation, Efficiency, Graph-based ANN, Datasets, Scalability, RecSys, Hashing
-    Methods, Recommender Systems]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Hashing Methods", "Recommender Systems"]
 short_authors: Chen et al.
 ---
 Graph Neural Networks (GNNs) have achieved state-of-the-art performance in

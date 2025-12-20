@@ -8,7 +8,7 @@ year: 2024
 bibkey: alabdulmohsin2024clip
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.04547'}]
-tags: [Evaluation, ICLR, Multimodal Retrieval, Text Retrieval, Recommender Systems]
+tags: ["Evaluation", "Multimodal Retrieval", "Recommender Systems", "Text Retrieval"]
 short_authors: Alabdulmohsin et al.
 ---
 We study the effectiveness of data-balancing for mitigating biases in

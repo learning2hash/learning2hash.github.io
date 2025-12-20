@@ -9,7 +9,7 @@ year: 2021
 bibkey: yang2021fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.13353'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Datasets, Efficiency]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Yang et al.
 ---
 Edge computing enabled smart greenhouse is a representative application of

@@ -9,7 +9,7 @@ year: 2016
 bibkey: liang2016optimizing
 citations: 56
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.06620'}]
-tags: [Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Liang et al.
 ---
 In this paper we study the problem of content-based image retrieval. In this

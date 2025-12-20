@@ -10,7 +10,7 @@ bibkey: schlatt2024lightning
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/webis-de/lightning-ir'},
   {name: Paper, url: 'https://arxiv.org/abs/2411.04677'}]
-tags: [Tools & Libraries, Re-ranking, Hybrid ANN Methods]
+tags: ["Hybrid ANN Methods", "Re-Ranking", "Tools & Libraries"]
 short_authors: "Ferdinand Schlatt, Maik Fr\xF6be, Matthias Hagen"
 ---
 A wide range of transformer-based language models have been proposed for

@@ -9,7 +9,7 @@ year: 2021
 bibkey: westermann2021sentence
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.11494'}]
-tags: [Similarity Search]
+tags: ["Similarity Search"]
 short_authors: Westermann et al.
 ---
 Human-performed annotation of sentences in legal documents is an important

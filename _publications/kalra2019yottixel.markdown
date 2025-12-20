@@ -8,7 +8,7 @@ year: 2019
 bibkey: kalra2019yottixel
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.08748'}]
-tags: [Evaluation, Image Retrieval, Datasets, Efficiency]
+tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Kalra et al.
 ---
 With the emergence of digital pathology, searching for similar images in

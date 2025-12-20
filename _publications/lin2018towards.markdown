@@ -7,7 +7,7 @@ year: 2018
 bibkey: lin2018towards
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.10244'}]
-tags: [Hashing Methods, Neural Hashing]
+tags: ["Hashing Methods", "Neural Hashing"]
 short_authors: Yibo Lin, Zhao Song, Lin F. Yang
 ---
 Parameter reduction has been an important topic in deep learning due to the

@@ -8,7 +8,7 @@ year: 2020
 bibkey: touvron2020grafit
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.12982'}]
-tags: [Evaluation, Supervised, Datasets, Self-Supervised]
+tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised"]
 short_authors: Touvron et al.
 ---
 This paper tackles the problem of learning a finer representation than the

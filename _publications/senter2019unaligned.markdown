@@ -7,7 +7,7 @@ year: 2019
 bibkey: senter2019unaligned
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.06929'}]
-tags: [Distance Metric Learning, Neural Hashing, Evaluation, Similarity Search]
+tags: ["Distance Metric Learning", "Evaluation", "Neural Hashing", "Similarity Search"]
 short_authors: Senter et al.
 ---
 Gene annotation has traditionally required direct comparison of DNA sequences

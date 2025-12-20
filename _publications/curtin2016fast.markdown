@@ -7,7 +7,7 @@ year: 2016
 bibkey: curtin2016fast
 citations: 0
 additional_links: [{name: Other, url: 'http://www.mlpack.org'}, {name: Paper, url: 'https://arxiv.org/abs/1605.09784'}]
-tags: [Hashing Methods, Evaluation, Tools & Libraries, Efficiency]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Tools & Libraries"]
 short_authors: Ryan R. Curtin, Andrew B. Gardner
 ---
 We present a novel hashing strategy for approximate furthest neighbor search

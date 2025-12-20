@@ -7,7 +7,7 @@ year: 2017
 bibkey: kraus2017fishing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.02062'}]
-tags: [Locality Sensitive Hashing, Datasets, Similarity Search]
+tags: ["Datasets", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Naama Kraus, David Carmel, Idit Keidar
 ---
 Similarity search is the task of retrieving data items that are similar to a

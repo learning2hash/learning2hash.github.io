@@ -8,8 +8,7 @@ year: 2017
 bibkey: wang2017flash
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.01190'}]
-tags: [Evaluation, Similarity Search, Datasets, Hashing Methods, Locality Sensitive
-    Hashing]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Wang et al.
 ---
 We present FLASH (\textbf\{F\}ast \textbf\{L\}SH \textbf\{A\}lgorithm for

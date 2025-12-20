@@ -8,7 +8,7 @@ year: 2024
 bibkey: aguerrebere2024locally
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.02044'}]
-tags: [Evaluation, Quantization, Tools & Libraries, Similarity Search]
+tags: ["Evaluation", "Quantization", "Similarity Search", "Tools & Libraries"]
 short_authors: Aguerrebere et al.
 ---
 Retrieving the most similar vector embeddings to a given query among a

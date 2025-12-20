@@ -7,8 +7,7 @@ year: 2017
 bibkey: christiani2017fast
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.07586'}]
-tags: [Evaluation, Efficiency, Tools & Libraries, Hashing Methods, Locality Sensitive
-    Hashing]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
 short_authors: Tobias Christiani
 ---
 The Indyk-Motwani Locality-Sensitive Hashing (LSH) framework (STOC 1998) is a

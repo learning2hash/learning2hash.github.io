@@ -7,8 +7,7 @@ year: 2019
 bibkey: qiao2019deep
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.01048'}]
-tags: [Compact Codes, Evaluation, Video Retrieval, Datasets, Tools & Libraries, Hashing
-    Methods]
+tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Video Retrieval"]
 short_authors: Qiao et al.
 ---
 Retrieving videos of a particular person with face image as a query via

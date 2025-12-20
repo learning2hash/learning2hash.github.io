@@ -9,7 +9,7 @@ bibkey: shen2024tempme
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/LunarShen/TempMe'}, {name: Paper,
     url: 'https://arxiv.org/abs/2409.01156'}]
-tags: [Video Retrieval, Evaluation, Efficiency, Memory Efficiency, Tools & Libraries]
+tags: ["Efficiency", "Evaluation", "Memory Efficiency", "Tools & Libraries", "Video Retrieval"]
 short_authors: Shen et al.
 ---
 Most text-video retrieval methods utilize the text-image pre-trained models

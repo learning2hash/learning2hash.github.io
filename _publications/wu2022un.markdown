@@ -7,7 +7,7 @@ year: 2022
 bibkey: wu2022un
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.00282'}]
-tags: [Video Retrieval, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Video Retrieval"]
 short_authors: Wu et al.
 ---
 Cross-modal representation learning has become a new normal for bridging the

@@ -9,7 +9,7 @@ year: 2019
 bibkey: nigam2019semantic
 citations: 114
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.00937'}]
-tags: [Evaluation, Neural Hashing, Scalability, Hashing Methods, KDD]
+tags: ["Evaluation", "Hashing Methods", "KDD", "Neural Hashing", "Scalability"]
 short_authors: Nigam et al.
 ---
 We study the problem of semantic matching in product search, that is, given a

@@ -7,7 +7,7 @@ year: 2016
 bibkey: choy2016universal
 citations: 256
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1606.03558'}]
-tags: [Distance Metric Learning, Tools & Libraries, Datasets, Neural Hashing]
+tags: ["Datasets", "Distance Metric Learning", "Neural Hashing", "Tools & Libraries"]
 short_authors: Choy et al.
 ---
 We present a deep learning framework for accurate visual correspondences and

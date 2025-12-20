@@ -7,7 +7,7 @@ year: 2016
 bibkey: conjeti2016cross
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.06098'}]
-tags: [Evaluation, Datasets, Multimodal Retrieval]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
 short_authors: Conjeti et al.
 ---
 This paper presents a new scalable algorithm for cross-modal similarity

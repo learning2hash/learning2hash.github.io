@@ -8,8 +8,7 @@ year: 2024
 bibkey: jush2024content
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.09334'}]
-tags: [Evaluation, Supervised, Image Retrieval, Re-ranking, Efficiency, Datasets,
-  Unsupervised, Hybrid ANN Methods]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Jush et al.
 ---
 While content-based image retrieval (CBIR) has been extensively studied in

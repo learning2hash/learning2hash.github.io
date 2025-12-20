@@ -7,7 +7,7 @@ year: 2016
 bibkey: sharma2016stacked
 citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.00320'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Sharma et al.
 ---
 Medical images can be a valuable resource for reliable information to support

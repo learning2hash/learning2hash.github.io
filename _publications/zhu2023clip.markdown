@@ -7,7 +7,7 @@ year: 2023
 bibkey: zhu2023clip
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.11797'}]
-tags: [Evaluation, Supervised, Scalability, Unsupervised, Hashing Methods]
+tags: ["Evaluation", "Hashing Methods", "Scalability", "Supervised", "Unsupervised"]
 short_authors: Zhu et al.
 ---
 The multi-modal hashing method is widely used in multimedia retrieval. It can

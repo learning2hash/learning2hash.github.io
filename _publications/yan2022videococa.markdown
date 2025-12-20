@@ -8,7 +8,7 @@ year: 2022
 bibkey: yan2022videococa
 citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.04979'}]
-tags: [Video Retrieval, Few-shot & Zero-shot]
+tags: ["Few Shot & Zero Shot", "Video Retrieval"]
 short_authors: Yan et al.
 ---
 We explore an efficient approach to establish a foundational video-text

@@ -7,7 +7,7 @@ year: 2019
 bibkey: tian2019global
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.08685'}]
-tags: [Hashing Methods, Image Retrieval]
+tags: ["Hashing Methods", "Image Retrieval"]
 short_authors: Dayong Tian, Dacheng Tao
 ---
 Hashing methods have been widely investigated for fast approximate nearest

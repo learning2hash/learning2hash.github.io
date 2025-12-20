@@ -7,8 +7,7 @@ year: 2023
 bibkey: li2023reclip
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.06028'}]
-tags: [Evaluation, Supervised, Few-shot & Zero-shot, Self-Supervised, Scalability,
-  Text Retrieval]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Self-Supervised", "Supervised", "Text Retrieval"]
 short_authors: Li et al.
 ---
 We present RECLIP (Resource-efficient CLIP), a simple method that minimizes

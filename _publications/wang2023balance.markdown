@@ -10,7 +10,7 @@ bibkey: wang2023balance
 citations: 6
 additional_links: [{name: Code, url: 'https://github.com/yimuwangcs/Better_Cross_Modal_Retrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2310.11612'}]
-tags: [Evaluation, Re-ranking, Multimodal Retrieval, Tools & Libraries, EMNLP]
+tags: ["EMNLP", "Evaluation", "Multimodal Retrieval", "Re-Ranking", "Tools & Libraries"]
 short_authors: Yimu Wang, Xiangru Jian, Bo Xue
 ---
 In this work, we present a post-processing solution to address the hubness

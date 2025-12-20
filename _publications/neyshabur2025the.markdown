@@ -7,7 +7,7 @@ year: 2025
 bibkey: neyshabur2025the
 citations: 57
 additional_links: [{name: Paper, url: 'https://ttic.uchicago.edu/~yury/papers/nips2013_asym.pdf'}]
-tags: [Hashing Methods, Compact Codes]
+tags: ["Compact Codes", "Hashing Methods"]
 short_authors: B. Neyshabur, Salakhutdinov, Srebro
 ---
 When approximating binary similarity using the hamming distance between short

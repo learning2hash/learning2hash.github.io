@@ -7,7 +7,7 @@ year: 2022
 bibkey: trabelsi2022strubert
 citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.14278'}]
-tags: [Datasets]
+tags: ["Datasets"]
 short_authors: Trabelsi et al.
 ---
 A large amount of information is stored in data tables. Users can search for

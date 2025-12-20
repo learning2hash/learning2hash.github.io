@@ -7,8 +7,7 @@ year: 2018
 bibkey: misra2018bernoulli
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.09211'}]
-tags: [Re-ranking, Neural Hashing, Datasets, Quantization, Hybrid ANN Methods, Hashing
-    Methods, AAAI]
+tags: ["Datasets", "Hashing Methods", "Neural Hashing", "Quantization", "Re-Ranking"]
 short_authors: Vinith Misra, Sumit Bhatia
 ---
 Just as semantic hashing can accelerate information retrieval, binary valued

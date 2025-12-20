@@ -7,7 +7,7 @@ year: 2021
 bibkey: park2021homography
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.10329'}]
-tags: [Evaluation, Image Retrieval, Neural Hashing, Self-Supervised, Datasets, Scalability]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Park et al.
 ---
 Deep learning-based image retrieval has been emphasized in computer vision.

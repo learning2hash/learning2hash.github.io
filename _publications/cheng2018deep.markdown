@@ -7,7 +7,7 @@ year: 2018
 bibkey: cheng2018deep
 citations: 224
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.09535'}]
-tags: [Quantization, Neural Hashing, Efficiency]
+tags: ["Efficiency", "Neural Hashing", "Quantization"]
 short_authors: Cheng et al.
 ---
 Image compression has been investigated as a fundamental research topic for

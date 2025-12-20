@@ -7,7 +7,7 @@ year: 2018
 bibkey: vemulapalli2018a
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.11283'}]
-tags: [Scalability, CVPR, Datasets]
+tags: ["CVPR", "Datasets", "Scalability"]
 short_authors: Raviteja Vemulapalli, Aseem Agarwala
 ---
 Most of the existing work on automatic facial expression analysis focuses on

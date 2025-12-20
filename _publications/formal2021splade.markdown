@@ -8,7 +8,7 @@ year: 2021
 bibkey: formal2021splade
 citations: 270
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.05720'}]
-tags: [SIGIR, Efficiency]
+tags: ["Efficiency", "SIGIR"]
 short_authors: "Thibault Formal, Benjamin Piwowarski, St\xE9phane Clinchant"
 ---
 In neural Information Retrieval, ongoing research is directed towards

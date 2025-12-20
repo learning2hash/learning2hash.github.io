@@ -7,7 +7,7 @@ year: 2024
 bibkey: bobe2024havana
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.10641'}]
-tags: [Video Retrieval, Datasets, Robustness]
+tags: ["Datasets", "Robustness", "Video Retrieval"]
 short_authors: Alexandru Bobe, Jan C. van Gemert
 ---
 Video annotation is a critical and time-consuming task in computer vision

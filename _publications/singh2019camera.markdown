@@ -7,7 +7,7 @@ year: 2019
 bibkey: singh2019camera
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.02165'}]
-tags: [Image Retrieval, Similarity Search]
+tags: ["Image Retrieval", "Similarity Search"]
 short_authors: Singh et al.
 ---
 We investigate using generated decorative art as a source of inspiration for

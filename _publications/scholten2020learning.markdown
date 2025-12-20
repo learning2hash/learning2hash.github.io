@@ -7,7 +7,7 @@ year: 2020
 bibkey: scholten2020learning
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.00512'}]
-tags: [Image Retrieval, Tools & Libraries]
+tags: ["Image Retrieval", "Tools & Libraries"]
 short_authors: Sebastiaan Scholten, Danny Merkx, Odette Scharenborg
 ---
 We investigated word recognition in a Visually Grounded Speech model. The

@@ -7,7 +7,7 @@ year: 2019
 bibkey: zhou2019ladder
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.07528'}]
-tags: [Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning"]
 short_authors: Zhou et al.
 ---
 For visual-semantic embedding, the existing methods normally treat the

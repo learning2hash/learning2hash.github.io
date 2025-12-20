@@ -8,8 +8,7 @@ year: 2024
 bibkey: jang2024visual
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.15516'}]
-tags: [Evaluation, Supervised, Image Retrieval, Few-shot & Zero-shot, Scalability,
-  CVPR, Unsupervised]
+tags: ["Few Shot & Zero Shot", "Image Retrieval", "Scalability", "Supervised", "Unsupervised"]
 short_authors: Jang et al.
 ---
 Composed Image Retrieval (CIR) is a task that retrieves images similar to a

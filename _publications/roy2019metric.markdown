@@ -8,8 +8,7 @@ year: 2019
 bibkey: roy2019metric
 citations: 79
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.01258'}]
-tags: [Compact Codes, Evaluation, Neural Hashing, Efficiency, Distance Metric Learning,
-  Hashing Methods]
+tags: ["Compact Codes", "Distance Metric Learning", "Efficiency", "Hashing Methods", "Neural Hashing"]
 short_authors: Roy et al.
 ---
 Hashing methods have been recently found very effective in retrieval of

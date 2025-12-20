@@ -7,7 +7,7 @@ year: 2017
 bibkey: xu2017self
 citations: 218
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.00185'}]
-tags: [ICANN, Supervised, Unsupervised, Datasets, Compact Codes, Tools & Libraries]
+tags: ["Compact Codes", "Datasets", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Xu et al.
 ---
 Short text clustering is a challenging problem due to its sparseness of text

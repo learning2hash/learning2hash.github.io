@@ -7,7 +7,7 @@ year: 2011
 bibkey: blundo2011espresso
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1111.5062'}]
-tags: [Evaluation, Locality Sensitive Hashing, Datasets]
+tags: ["Datasets", "Evaluation", "Locality-Sensitive-Hashing"]
 short_authors: Carlo Blundo, Emiliano de Cristofaro, Paolo Gasti
 ---
 Electronic information is increasingly often shared among entities without

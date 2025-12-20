@@ -7,7 +7,7 @@ year: 2025
 bibkey: lin2025a
 citations: 195
 additional_links: [{name: Paper, url: 'http://arxiv.org/pdf/1309.1853v1.pdf'}]
-tags: [Hashing Methods, ICCV, Tools & Libraries]
+tags: ["Hashing Methods", "ICCV", "Tools & Libraries"]
 short_authors: Lin et al.
 ---
 Most existing approaches to hashing apply a single form of hash function, and an optimization process which

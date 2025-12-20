@@ -8,7 +8,7 @@ year: 2024
 bibkey: cheng2024a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.03202'}]
-tags: [Evaluation, Tools & Libraries, Datasets, Self-Supervised]
+tags: ["Datasets", "Evaluation", "Self-Supervised", "Tools & Libraries"]
 short_authors: Cheng et al.
 ---
 Multi-Label Text Classification (MLTC) is a practical yet challenging task

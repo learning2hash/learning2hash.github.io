@@ -8,8 +8,7 @@ bibkey: hu2022feature
 citations: 18
 additional_links: [{name: Code, url: 'https://github.com/conghuihu/UCDIR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2207.09721'}]
-tags: [Evaluation, Supervised, Image Retrieval, Self-Supervised, Datasets, Unsupervised,
-  Tools & Libraries]
+tags: ["Datasets", "Image Retrieval", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Conghui Hu, Gim Hee Lee
 ---
 Current supervised cross-domain image retrieval methods can achieve excellent

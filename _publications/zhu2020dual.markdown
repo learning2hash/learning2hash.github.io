@@ -8,8 +8,7 @@ bibkey: zhu2020dual
 citations: 45
 additional_links: [{name: Code, url: 'https://github.com/research2020-1/DSTDH'}, {
     name: Paper, url: 'https://arxiv.org/abs/2006.05586'}]
-tags: [Evaluation, Supervised, Image Retrieval, Efficiency, Neural Hashing, Datasets,
-  Memory Efficiency, Scalability, Unsupervised, Tools & Libraries, Hashing Methods]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Zhu et al.
 ---
 Social network stores and disseminates a tremendous amount of user shared

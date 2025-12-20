@@ -7,7 +7,7 @@ year: 2016
 bibkey: conjeti2016deep
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.05400'}]
-tags: [Supervised, Image Retrieval, Quantization, Scalability, Hashing Methods]
+tags: ["Hashing Methods", "Image Retrieval", "Quantization", "Scalability", "Supervised"]
 short_authors: Conjeti et al.
 ---
 Hashing aims at generating highly compact similarity preserving code words

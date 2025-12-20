@@ -7,7 +7,7 @@ year: 2024
 bibkey: "vysko\u010Dil2024towards"
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.12769'}]
-tags: [Evaluation, Tools & Libraries, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: "Ji\u0159\xED Vysko\u010Dil, Lukas Picek"
 ---
 This paper describes the search for an alternative approach to the automatic

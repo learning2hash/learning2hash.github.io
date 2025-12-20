@@ -8,7 +8,7 @@ year: 2023
 bibkey: li2023freestyleret
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.02428'}]
-tags: [Evaluation, Tools & Libraries, Datasets, Image Retrieval]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Li et al.
 ---
 Image Retrieval aims to retrieve corresponding images based on a given query.

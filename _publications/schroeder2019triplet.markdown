@@ -7,7 +7,7 @@ year: 2019
 bibkey: schroeder2019triplet
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.09256'}]
-tags: [Evaluation, ICCV, Image Retrieval]
+tags: ["Evaluation", "ICCV", "Image Retrieval"]
 short_authors: Brigit Schroeder, Subarna Tripathi, Hanlin Tang
 ---
 Scene graphs have become an important form of structured knowledge for tasks

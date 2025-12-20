@@ -8,7 +8,7 @@ bibkey: zhang2023poar
 citations: 9
 additional_links: [{name: Code, url: 'https://github.com/IvyYZ/POAR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2303.14643'}]
-tags: [Text Retrieval, Evaluation, Tools & Libraries, Datasets]
+tags: ["Datasets", "Evaluation", "Text Retrieval", "Tools & Libraries"]
 short_authors: Zhang et al.
 ---
 Pedestrian attribute recognition (PAR) aims to predict the attributes of a

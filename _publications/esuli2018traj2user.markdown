@@ -8,7 +8,7 @@ year: 2018
 bibkey: esuli2018traj2user
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.00554'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Esuli et al.
 ---
 Semantic trajectories are high level representations of user movements where

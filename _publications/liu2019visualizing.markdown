@@ -7,7 +7,7 @@ year: 2019
 bibkey: liu2019visualizing
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.07464'}]
-tags: [Evaluation, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Liu et al.
 ---
 Deep metric learning is often used to learn an embedding function that

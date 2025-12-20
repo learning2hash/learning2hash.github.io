@@ -7,7 +7,7 @@ year: 2016
 bibkey: boytsov2016off
 citations: 39
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.10001'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Boytsov et al.
 ---
 Retrieval pipelines commonly rely on a term-based search to obtain candidate

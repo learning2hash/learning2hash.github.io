@@ -8,7 +8,7 @@ bibkey: li2019revisiting
 citations: 623
 additional_links: [{name: Code, url: 'https://github.com/WenbinLee/DN4.git\'}, {name: Paper,
     url: 'https://arxiv.org/abs/1903.12290'}]
-tags: [Evaluation, Few-shot & Zero-shot, Efficiency, Datasets, CVPR, Tools & Libraries]
+tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Li et al.
 ---
 Few-shot learning in image classification aims to learn a classifier to

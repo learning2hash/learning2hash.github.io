@@ -8,7 +8,7 @@ year: 2023
 bibkey: zhou2023pairingnet
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.08704'}]
-tags: [Evaluation, Distance Metric Learning, Graph-based ANN, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Graph Based ANN"]
 short_authors: Zhou et al.
 ---
 In this paper, we propose a learning-based image fragment pair-searching and

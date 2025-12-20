@@ -7,7 +7,7 @@ year: 2022
 bibkey: algayres2022speech
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.05148'}]
-tags: [Evaluation, Supervised, Self-Supervised, Datasets, Unsupervised, INTERSPEECH]
+tags: ["Datasets", "Interspeech", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Algayres et al.
 ---
 We introduce a simple neural encoder architecture that can be trained using

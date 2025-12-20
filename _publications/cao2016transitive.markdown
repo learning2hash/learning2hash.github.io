@@ -7,7 +7,7 @@ year: 2016
 bibkey: cao2016transitive
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.04307'}]
-tags: [Evaluation, Similarity Search, Efficiency, Datasets, Scalability, Hashing Methods]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Similarity Search"]
 short_authors: Zhangjie Cao, Mingsheng Long, Qiang Yang
 ---
 Hashing has been widely applied to large-scale multimedia retrieval due to

@@ -8,8 +8,7 @@ year: 2022
 bibkey: ruijin2022simclf
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.02442'}]
-tags: [Compact Codes, Supervised, Few-shot & Zero-shot, Self-Supervised, Robustness,
-  Unsupervised, Tools & Libraries, Hashing Methods]
+tags: ["Few Shot & Zero Shot", "Hashing Methods", "Robustness", "Supervised", "Unsupervised"]
 short_authors: Ruijin et al.
 ---
 Function-level binary code similarity detection is a crucial aspect of

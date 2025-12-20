@@ -9,7 +9,7 @@ year: 2022
 bibkey: zhang2022mcse
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.10931'}]
-tags: [NAACL, Evaluation, Self-Supervised, Datasets, ACL]
+tags: ["Datasets", "Evaluation", "NAACL", "Self-Supervised"]
 short_authors: Zhang et al.
 ---
 Learning semantically meaningful sentence embeddings is an open problem in

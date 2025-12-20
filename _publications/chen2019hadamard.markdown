@@ -8,8 +8,7 @@ year: 2019
 bibkey: chen2019hadamard
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.09182'}]
-tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Neural Hashing, Efficiency,
-  Scalability, Hashing Methods]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Chen et al.
 ---
 As an approximate nearest neighbor search technique, hashing has been widely

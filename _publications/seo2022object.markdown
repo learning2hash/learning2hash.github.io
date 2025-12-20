@@ -7,7 +7,7 @@ year: 2022
 bibkey: seo2022object
 citations: 33
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.07576'}]
-tags: [Distance Metric Learning, Supervised, Self-Supervised]
+tags: ["Distance Metric Learning", "Self-Supervised", "Supervised"]
 short_authors: Seo et al.
 ---
 Weakly Supervised Object Detection (WSOD) is a task that detects objects in

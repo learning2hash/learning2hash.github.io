@@ -8,8 +8,7 @@ year: 2022
 bibkey: huang2022nlip
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.07086'}]
-tags: [Evaluation, Few-shot & Zero-shot, Datasets, Scalability, Tools & Libraries,
-  Text Retrieval]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval", "Tools & Libraries"]
 short_authors: Huang et al.
 ---
 Large-scale cross-modal pre-training paradigms have recently shown ubiquitous

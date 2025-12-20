@@ -8,7 +8,7 @@ year: 2024
 bibkey: wu2024collap
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.02271'}]
-tags: [Evaluation, Self-Supervised, Datasets, Scalability, Text Retrieval]
+tags: ["Datasets", "Evaluation", "Scalability", "Self-Supervised", "Text Retrieval"]
 short_authors: Wu et al.
 ---
 Modeling temporal characteristics plays a significant role in the

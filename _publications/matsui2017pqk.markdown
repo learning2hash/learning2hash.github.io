@@ -7,7 +7,7 @@ year: 2017
 bibkey: matsui2017pqk
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.03708'}]
-tags: [Scalability, Large-Scale Search, Quantization]
+tags: ["Large Scale Search", "Quantization", "Scalability"]
 short_authors: Matsui et al.
 ---
 Data clustering is a fundamental operation in data analysis. For handling

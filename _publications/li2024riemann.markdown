@@ -9,7 +9,7 @@ bibkey: li2024riemann
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/liwrui/RMARN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2408.13712'}]
-tags: [Scalability, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Li et al.
 ---
 Due to the challenges in acquiring paired Text-3D data and the inherent

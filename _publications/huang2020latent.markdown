@@ -8,7 +8,7 @@ year: 2020
 bibkey: huang2020latent
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.12175'}]
-tags: [Supervised, Unsupervised, Neural Hashing]
+tags: ["Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Huang et al.
 ---
 We propose a method to facilitate exploration and analysis of new large data

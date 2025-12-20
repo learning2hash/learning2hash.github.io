@@ -7,7 +7,7 @@ year: 2016
 bibkey: yu2016variable
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.05414'}]
-tags: [Evaluation, Similarity Search, Efficiency, Scalability, Hashing Methods]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Scalability", "Similarity Search"]
 short_authors: Yu et al.
 ---
 Hashing has emerged as a popular technique for large-scale similarity search.

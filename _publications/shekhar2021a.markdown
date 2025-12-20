@@ -7,7 +7,7 @@ year: 2021
 bibkey: shekhar2021a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.12269'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Diwanshu Shekhar, Pooran S. Negi, Mohammad Mahoor
 ---
 Creating a data-driven model that is trained on a large dataset of

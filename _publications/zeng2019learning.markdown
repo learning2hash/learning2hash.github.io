@@ -7,7 +7,7 @@ year: 2019
 bibkey: zeng2019learning
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.07673'}]
-tags: [Supervised, Multimodal Retrieval]
+tags: ["Multimodal Retrieval", "Supervised"]
 short_authors: Donghuo Zeng
 ---
 A cross-modal retrieval process is to use a query in one modality to obtain

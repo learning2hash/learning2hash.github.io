@@ -8,7 +8,7 @@ year: 2021
 bibkey: stammbach2021docscan
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.04024'}]
-tags: [Evaluation, Supervised, Unsupervised, Datasets]
+tags: ["Datasets", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: Dominik Stammbach, Elliott Ash
 ---
 We introduce DocSCAN, a completely unsupervised text classification approach

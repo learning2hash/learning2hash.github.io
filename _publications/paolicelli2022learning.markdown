@@ -8,7 +8,7 @@ year: 2022
 bibkey: paolicelli2022learning
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.09701'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Paolicelli et al.
 ---
 In this paper we address the task of visual place recognition (VPR), where

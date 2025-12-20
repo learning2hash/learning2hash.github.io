@@ -7,8 +7,7 @@ year: 2018
 bibkey: wu2018learning
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.03004'}]
-tags: [Evaluation, Image Retrieval, Datasets, Memory Efficiency, Scalability, Hashing
-    Methods]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Memory Efficiency"]
 short_authors: Jianxin Wu, Jian-Hao Luo
 ---
 Although traditionally binary visual representations are mainly designed to

@@ -7,7 +7,7 @@ year: 2021
 bibkey: shrivastava2021sublinear
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.08285'}]
-tags: [Hashing Methods, Locality Sensitive Hashing]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Anshumali Shrivastava, Zhao Song, Zhaozhuo Xu
 ---
 We present the first provable Least-Squares Value Iteration (LSVI) algorithms

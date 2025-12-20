@@ -7,7 +7,7 @@ year: 2023
 bibkey: houen2023a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.03110'}]
-tags: [Hashing Methods, Evaluation]
+tags: ["Evaluation", "Hashing Methods"]
 short_authors: "Jakob B\xE6k Tejs Houen, Mikkel Thorup"
 ---
 The *Sparse Johnson-Lindenstrauss Transform* of Kane and Nelson (SODA

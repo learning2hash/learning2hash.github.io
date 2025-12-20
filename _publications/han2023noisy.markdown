@@ -7,7 +7,7 @@ year: 2023
 bibkey: han2023noisy
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.06275'}]
-tags: [Evaluation, CVPR, Datasets, Multimodal Retrieval]
+tags: ["CVPR", "Datasets", "Evaluation", "Multimodal Retrieval"]
 short_authors: Han et al.
 ---
 Despite the success of multimodal learning in cross-modal retrieval task, the

@@ -7,7 +7,7 @@ year: 2025
 bibkey: kong2025double
 citations: 6
 additional_links: [{name: Paper, url: 'https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/5080/5250'}]
-tags: [Compact Codes, Quantization, Memory Efficiency, Hashing Methods, AAAI]
+tags: ["AAAI", "Compact Codes", "Hashing Methods", "Memory Efficiency", "Quantization"]
 short_authors: W. Kong, Li
 ---
 Hashing, which tries to learn similarity-preserving binary

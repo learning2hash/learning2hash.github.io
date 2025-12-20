@@ -8,7 +8,7 @@ bibkey: dong2025gaussiantoken
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/ChrisDong-THU/GaussianToken'},
   {name: Paper, url: 'https://arxiv.org/abs/2501.15619'}]
-tags: [Evaluation, Tools & Libraries, Quantization]
+tags: ["Evaluation", "Quantization", "Tools & Libraries"]
 short_authors: Dong et al.
 ---
 Effective image tokenization is crucial for both multi-modal understanding

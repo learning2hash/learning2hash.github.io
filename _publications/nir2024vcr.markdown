@@ -7,7 +7,7 @@ year: 2024
 bibkey: nir2024vcr
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.07466'}]
-tags: [Recommender Systems, Evaluation, ICCV]
+tags: ["Evaluation", "ICCV", "Recommender Systems"]
 short_authors: Nir et al.
 ---
 Streamlining content discovery within media archives requires integrating

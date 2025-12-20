@@ -10,7 +10,7 @@ bibkey: lebailly2023adaptive
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/tileb1/AdaSim'}, {name: Paper,
     url: 'https://arxiv.org/abs/2303.13606'}]
-tags: [Self-Supervised, Supervised, Evaluation, ICCV]
+tags: ["Evaluation", "ICCV", "Self-Supervised", "Supervised"]
 short_authors: Lebailly et al.
 ---
 Most self-supervised methods for representation learning leverage a

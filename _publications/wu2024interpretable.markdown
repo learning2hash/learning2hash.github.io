@@ -7,7 +7,7 @@ year: 2024
 bibkey: wu2024interpretable
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.11812'}]
-tags: [Video Retrieval, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Video Retrieval"]
 short_authors: Jiaxin Wu, Chong-Wah Ngo
 ---
 Answering query with semantic concepts has long been the mainstream approach

@@ -8,7 +8,7 @@ bibkey: alibey2024boq
 citations: 14
 additional_links: [{name: Code, url: 'https://github.com/amaralibey/Bag-of-Queries'},
   {name: Paper, url: 'https://arxiv.org/abs/2405.07364'}]
-tags: [Scalability, Evaluation, CVPR]
+tags: ["CVPR", "Evaluation", "Scalability"]
 short_authors: "Amar Ali-Bey, Brahim Chaib-Draa, Philippe Gigu\xE8re"
 ---
 In visual place recognition, accurately identifying and matching images of

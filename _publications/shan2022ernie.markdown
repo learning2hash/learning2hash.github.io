@@ -8,8 +8,7 @@ bibkey: shan2022ernie
 citations: 10
 additional_links: [{name: Code, url: 'https://github.com/PaddlePaddle/ERNIE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2209.15270'}]
-tags: [Evaluation, Efficiency, Self-Supervised, Datasets, Multimodal Retrieval, Tools
-    & Libraries]
+tags: ["Datasets", "Efficiency", "Evaluation", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Shan et al.
 ---
 Recent Vision-Language Pre-trained (VLP) models based on dual encoder have

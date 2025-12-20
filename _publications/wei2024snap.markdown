@@ -8,7 +8,7 @@ year: 2024
 bibkey: wei2024snap
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.14723'}]
-tags: [Image Retrieval, Datasets, Multimodal Retrieval]
+tags: ["Datasets", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Tianqi Wei, Zhi Chen, Xin Yu
 ---
 Plant disease recognition is a critical task that ensures crop health and

@@ -8,7 +8,7 @@ bibkey: mohwald2023dark
 citations: 5
 additional_links: [{name: Code, url: 'https://github.com/mohwald/gandtr'}, {name: Paper,
     url: 'https://arxiv.org/abs/2309.16351'}]
-tags: [Evaluation, ICCV, Image Retrieval, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "ICCV", "Image Retrieval"]
 short_authors: "Albert Mohwald, Tomas Jenicek, Ond\u0159ej Chum"
 ---
 Image retrieval methods based on CNN descriptors rely on metric learning from

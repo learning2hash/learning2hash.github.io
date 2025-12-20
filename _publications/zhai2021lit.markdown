@@ -8,7 +8,7 @@ year: 2021
 bibkey: zhai2021lit
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.07991'}]
-tags: [Supervised, Unsupervised, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Few Shot & Zero Shot", "Supervised", "Unsupervised"]
 short_authors: Zhai et al.
 ---
 This paper presents contrastive-tuning, a simple method employing contrastive

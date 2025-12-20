@@ -7,7 +7,7 @@ year: 2019
 bibkey: sarafianos2019adversarial
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.10534'}]
-tags: [Evaluation, ICCV, Datasets, Robustness]
+tags: ["Datasets", "Evaluation", "ICCV", "Robustness"]
 short_authors: Nikolaos Sarafianos, Xiang Xu, Ioannis A. Kakadiaris
 ---
 For many computer vision applications such as image captioning, visual

@@ -9,7 +9,7 @@ year: 2018
 bibkey: yu2018vlase
 citations: 40
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.02536'}]
-tags: [Evaluation, Image Retrieval, Tools & Libraries, IROS]
+tags: ["Evaluation", "IROS", "Image Retrieval", "Tools & Libraries"]
 short_authors: Yu et al.
 ---
 In this paper, we propose VLASE, a framework to use semantic edge features

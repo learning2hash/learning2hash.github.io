@@ -7,7 +7,7 @@ year: 2025
 bibkey: irie2025locally
 citations: 95
 additional_links: [{name: Paper, url: 'http://www.ee.columbia.edu/~zgli/papers/CVPR-2014-LLH.pdf'}]
-tags: [Hashing Methods, Evaluation, CVPR, Quantization]
+tags: ["CVPR", "Evaluation", "Hashing Methods", "Quantization"]
 short_authors: Irie et al.
 ---
 Previous efforts in hashing intend to preserve data variance

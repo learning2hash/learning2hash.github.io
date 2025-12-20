@@ -7,7 +7,7 @@ year: 2019
 bibkey: liu2019explore
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.10554'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Liu et al.
 ---
 This paper explores entity embedding effectiveness in ad-hoc entity

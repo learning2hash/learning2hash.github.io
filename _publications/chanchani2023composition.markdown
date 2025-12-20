@@ -8,7 +8,7 @@ year: 2023
 bibkey: chanchani2023composition
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.07380'}]
-tags: [Self-Supervised, ACL]
+tags: ["Self-Supervised"]
 short_authors: Sachin J. Chanchani, Ruihong Huang
 ---
 Vector representations of natural language are ubiquitous in search

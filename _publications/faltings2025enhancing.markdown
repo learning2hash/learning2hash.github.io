@@ -8,8 +8,7 @@ year: 2025
 bibkey: faltings2025enhancing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.17860'}]
-tags: [Evaluation, Efficiency, Distance Metric Learning, Datasets, Tools & Libraries,
-  ACL]
+tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Evaluation", "Tools & Libraries"]
 short_authors: Felix Faltings, Wei Wei, Yujia Bao
 ---
 Traditional retrieval methods rely on transforming user queries into vector

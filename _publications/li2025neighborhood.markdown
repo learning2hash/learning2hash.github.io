@@ -7,8 +7,7 @@ year: 2025
 bibkey: li2025neighborhood
 citations: 48
 additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_Neighborhood_Preserving_Hashing_for_Scalable_Video_Retrieval_ICCV_2019_paper.pdf'}]
-tags: [Compact Codes, Evaluation, Video Retrieval, Supervised, ICCV, Datasets, Unsupervised,
-  Hashing Methods]
+tags: ["Datasets", "Hashing Methods", "Supervised", "Unsupervised", "Video Retrieval"]
 short_authors: Li et al.
 ---
 In this paper, we propose a Neighborhood Preserving

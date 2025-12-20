@@ -8,7 +8,7 @@ year: 2023
 bibkey: tabatabaei2023wwfedcbmir
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.03383'}]
-tags: [Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Tabatabaei et al.
 ---
 The paper proposes a Federated Content-Based Medical Image Retrieval

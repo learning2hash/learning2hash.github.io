@@ -7,8 +7,7 @@ year: 2022
 bibkey: li2022adaptive
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.04214'}]
-tags: [Evaluation, Supervised, Neural Hashing, Unsupervised, Tools & Libraries, Hashing
-    Methods]
+tags: ["Evaluation", "Hashing Methods", "Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Liang Li, Baihua Zheng, Weiwei Sun
 ---
 Cross-modal hashing is an important approach for multimodal data management

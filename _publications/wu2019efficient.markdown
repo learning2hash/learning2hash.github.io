@@ -7,8 +7,7 @@ year: 2019
 bibkey: wu2019efficient
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.08690'}]
-tags: [Evaluation, Efficiency, Datasets, Scalability, Hashing Methods, Locality Sensitive
-    Hashing]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Wu et al.
 ---
 Many emerging use cases of data mining and machine learning operate on large

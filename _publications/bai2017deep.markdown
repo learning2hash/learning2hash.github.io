@@ -7,7 +7,7 @@ year: 2017
 bibkey: bai2017deep
 citations: 63
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.10658'}]
-tags: [Evaluation, Re-ranking, Datasets, Tools & Libraries, Hybrid ANN Methods]
+tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Tools & Libraries"]
 short_authors: Bai et al.
 ---
 Recently, many methods of person re-identification (Re-ID) rely on part-based

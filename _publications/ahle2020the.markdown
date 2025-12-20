@@ -7,7 +7,7 @@ year: 2020
 bibkey: ahle2020the
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.08654'}]
-tags: [Hashing Methods]
+tags: ["Hashing Methods"]
 short_authors: "Thomas Dybdahl Ahle, Jakob Tejs B\xE6k Knudsen, Mikkel Thorup"
 ---
 The classic way of computing a \(k\)-universal hash function is to use a random

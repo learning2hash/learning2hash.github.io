@@ -8,7 +8,7 @@ year: 2022
 bibkey: hoffmann2022ranking
 citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.11736'}]
-tags: [Self-Supervised, Supervised, Unsupervised, AAAI]
+tags: ["AAAI", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Hoffmann et al.
 ---
 This paper introduces Ranking Info Noise Contrastive Estimation (RINCE), a

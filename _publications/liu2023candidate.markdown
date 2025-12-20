@@ -9,8 +9,7 @@ bibkey: liu2023candidate
 citations: 6
 additional_links: [{name: Code, url: 'https://github.com/Cuberick-Orion/Candidate-Reranking-CIR'},
   {name: Paper, url: 'https://arxiv.org/abs/2305.16304'}]
-tags: [Evaluation, Image Retrieval, Re-ranking, Datasets, Scalability, Hybrid ANN
-    Methods]
+tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
 short_authors: Liu et al.
 ---
 Composed image retrieval aims to find an image that best matches a given

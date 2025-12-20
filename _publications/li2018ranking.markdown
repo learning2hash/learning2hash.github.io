@@ -7,7 +7,7 @@ year: 2018
 bibkey: li2018ranking
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.05105'}]
-tags: [Evaluation, Graph-based ANN, Datasets, Scalability, Text Retrieval]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Scalability", "Text Retrieval"]
 short_authors: Muge Li, Liangyue Li, Feiping Nie
 ---
 Retrieving the most similar objects in a large-scale database for a given

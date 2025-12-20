@@ -7,7 +7,7 @@ year: 2019
 bibkey: liberman2019search
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.03336'}]
-tags: [Scalability, Tree-based ANN, Recommender Systems, Efficiency]
+tags: ["Efficiency", "Recommender Systems", "Scalability", "Tree Based ANN"]
 short_authors: Liberman et al.
 ---
 Over the past 10 years, many recommendation techniques have been based on

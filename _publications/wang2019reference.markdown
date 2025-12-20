@@ -7,7 +7,7 @@ year: 2019
 bibkey: wang2019reference
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.05985'}]
-tags: [Hashing Methods, Evaluation, Efficiency]
+tags: ["Efficiency", "Evaluation", "Hashing Methods"]
 short_authors: Wang et al.
 ---
 For a product of interest, we propose a search method to surface a set of

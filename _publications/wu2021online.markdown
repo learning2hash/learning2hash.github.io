@@ -9,8 +9,7 @@ year: 2021
 bibkey: wu2021online
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.04260'}]
-tags: [Efficiency, Neural Hashing, Similarity Search, Memory Efficiency, Scalability,
-  Hashing Methods]
+tags: ["Efficiency", "Hashing Methods", "Memory Efficiency", "Neural Hashing", "Similarity Search"]
 short_authors: Wu et al.
 ---
 With the vigorous development of multimedia equipment and applications,

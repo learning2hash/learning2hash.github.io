@@ -7,7 +7,7 @@ year: 2018
 bibkey: liao2018triplet
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.03254'}]
-tags: [Evaluation, Tools & Libraries, Datasets]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Liao et al.
 ---
 In recent years, person re-identification (re-id) catches great attention in

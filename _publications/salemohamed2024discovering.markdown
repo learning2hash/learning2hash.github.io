@@ -7,7 +7,7 @@ year: 2024
 bibkey: salemohamed2024discovering
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.03253'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Tools & Libraries]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
 short_authors: Salemohamed et al.
 ---
 We propose a general framework for end-to-end learning of data structures.

@@ -8,7 +8,7 @@ year: 2023
 bibkey: wei2023uniir
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.17136'}]
-tags: [Evaluation, Multimodal Retrieval, Datasets, Few-shot & Zero-shot]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval"]
 short_authors: Wei et al.
 ---
 Existing information retrieval (IR) models often assume a homogeneous format,

@@ -7,7 +7,7 @@ year: 2023
 bibkey: agarwaal2023robust
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.09559'}]
-tags: [Robustness, Similarity Search, Datasets, Memory Efficiency]
+tags: ["Datasets", "Memory Efficiency", "Robustness", "Similarity Search"]
 short_authors: Agarwaal et al.
 ---
 This research paper presents a novel audio fingerprinting system for

@@ -9,8 +9,7 @@ year: 2023
 bibkey: zhang2023irgen
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.10126'}]
-tags: [Evaluation, Image Retrieval, Re-ranking, Datasets, Scalability, Tools & Libraries,
-  Large-Scale Search, Hybrid ANN Methods]
+tags: ["Datasets", "Hybrid ANN Methods", "Image Retrieval", "Large Scale Search", "Re-Ranking"]
 short_authors: Zhang et al.
 ---
 While generative modeling has become prevalent across numerous research

@@ -8,7 +8,7 @@ year: 2024
 bibkey: chen2024image
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.07741'}]
-tags: [Evaluation, Supervised, Image Retrieval, Efficiency, Self-Supervised]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Chen et al.
 ---
 Purpose: Intraoperative ultrasound (US) can enhance real-time visualization

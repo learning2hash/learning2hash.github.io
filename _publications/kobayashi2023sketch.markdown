@@ -9,7 +9,7 @@ year: 2023
 bibkey: kobayashi2023sketch
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.03633'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Kobayashi et al.
 ---
 The amount of medical images stored in hospitals is increasing faster than

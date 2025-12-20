@@ -7,7 +7,7 @@ year: 2018
 bibkey: conover2018pangloss
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.06036'}]
-tags: [Graph-based ANN, Datasets]
+tags: ["Datasets", "Graph Based ANN"]
 short_authors: Conover et al.
 ---
 Entity linking is the task of mapping potentially ambiguous terms in text to

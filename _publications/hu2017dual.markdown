@@ -7,7 +7,7 @@ year: 2017
 bibkey: hu2017dual
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.00631'}]
-tags: [Distance Metric Learning, Tools & Libraries]
+tags: ["Distance Metric Learning", "Tools & Libraries"]
 short_authors: Bingzhang Hu, Feng Zheng, Ling Shao
 ---
 Face retrieval has received much attention over the past few decades, and

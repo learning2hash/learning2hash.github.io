@@ -7,7 +7,7 @@ year: 2021
 bibkey: kim2021open
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.15278'}]
-tags: [Evaluation, Supervised, Image Retrieval, Datasets, Unsupervised]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Geeho Kim, Junoh Kang, Bohyung Han
 ---
 Visual recognition tasks are often limited to dealing with a small subset of

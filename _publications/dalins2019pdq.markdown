@@ -7,7 +7,7 @@ year: 2019
 bibkey: dalins2019pdq
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.07745'}]
-tags: [Hashing Methods, Evaluation, Efficiency, Survey Paper]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Survey Paper"]
 short_authors: Janis Dalins, Campbell Wilson, Douglas Boudry
 ---
 Efficient and reliable automated detection of modified image and multimedia

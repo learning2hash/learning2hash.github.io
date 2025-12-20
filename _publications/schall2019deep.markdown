@@ -9,7 +9,7 @@ year: 2019
 bibkey: schall2019deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.09420'}]
-tags: [Evaluation, Supervised, Image Retrieval, Neural Hashing, Distance Metric Learning]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Schall et al.
 ---
 One of the key challenges of deep learning based image retrieval remains in

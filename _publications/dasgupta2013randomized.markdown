@@ -7,7 +7,7 @@ year: 2013
 bibkey: dasgupta2013randomized
 citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1302.1948'}]
-tags: [Tree-based ANN]
+tags: ["Tree Based ANN"]
 short_authors: Sanjoy Dasgupta, Kaushik Sinha
 ---
 The k-d tree was one of the first spatial data structures proposed for

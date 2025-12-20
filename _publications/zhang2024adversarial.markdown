@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhang2024adversarial
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.14113'}]
-tags: [Evaluation, Image Retrieval, Datasets, Robustness]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Robustness"]
 short_authors: Zhang et al.
 ---
 Hubness is a phenomenon in high-dimensional vector spaces where a single

@@ -7,7 +7,7 @@ year: 2020
 bibkey: tahmasebzadeh2020a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.06390'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Tahmasebzadeh et al.
 ---
 Content-based information retrieval is based on the information contained in

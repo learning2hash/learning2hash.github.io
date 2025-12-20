@@ -8,7 +8,7 @@ year: 2019
 bibkey: lutov2019bridging
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.08808'}]
-tags: [Distance Metric Learning, Graph-based ANN]
+tags: ["Distance Metric Learning", "Graph Based ANN"]
 short_authors: "Artem Lutov, Dingqi Yang, Philippe Cudr\xE9-Mauroux"
 ---
 Graph embedding has become a key component of many data mining and analysis

@@ -8,8 +8,7 @@ year: 2023
 bibkey: cheng2023category
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.03972'}]
-tags: [Evaluation, Image Retrieval, Datasets, Multimodal Retrieval, Scalability, Tools
-    & Libraries]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Cheng et al.
 ---
 The rise of multi-modal search requests from users has highlighted the

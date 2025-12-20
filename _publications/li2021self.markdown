@@ -8,7 +8,7 @@ bibkey: li2021self
 citations: 21
 additional_links: [{name: Code, url: 'https://github.com/deepmind/ssl_hsic'}, {name: Paper,
     url: 'https://arxiv.org/abs/2106.08320'}]
-tags: [Self-Supervised, Supervised, Tools & Libraries, Evaluation]
+tags: ["Evaluation", "Self-Supervised", "Supervised", "Tools & Libraries"]
 short_authors: Li et al.
 ---
 We approach self-supervised learning of image representations from a

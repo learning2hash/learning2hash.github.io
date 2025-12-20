@@ -7,7 +7,7 @@ year: 2020
 bibkey: kaya2020learning
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.02330'}]
-tags: [Text Retrieval, Evaluation, Supervised, Datasets]
+tags: ["Datasets", "Evaluation", "Supervised", "Text Retrieval"]
 short_authors: Semih Kaya, Elif Vural
 ---
 While many approaches exist in the literature to learn low-dimensional

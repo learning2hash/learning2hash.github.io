@@ -8,7 +8,7 @@ year: 2017
 bibkey: liu2017neural
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.03957'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Liu et al.
 ---
 This paper proposed a new explicit nonlinear dimensionality reduction using

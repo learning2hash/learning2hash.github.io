@@ -7,7 +7,7 @@ year: 2020
 bibkey: chakrabarti2020efficient
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.03234'}]
-tags: [Hashing Methods, Image Retrieval, Efficiency]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval"]
 short_authors: Sourin Chakrabarti
 ---
 This paper aims to deliver an efficient and modified approach for image

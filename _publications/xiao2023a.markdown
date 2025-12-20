@@ -7,7 +7,7 @@ year: 2023
 bibkey: xiao2023a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.10506'}]
-tags: [Evaluation, Supervised, Neural Hashing, Datasets, Unsupervised, Hashing Methods]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Lianghai Xiao, Yitian Qian, Shaohua Pan
 ---
 This paper focuses on a class of binary orthogonal optimization problems

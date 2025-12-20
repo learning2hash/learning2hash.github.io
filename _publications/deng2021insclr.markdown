@@ -8,7 +8,7 @@ bibkey: deng2021insclr
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/zeludeng/insclr'}, {name: Paper,
     url: 'https://arxiv.org/abs/2112.01390'}]
-tags: [Self-Supervised, Supervised, Evaluation]
+tags: ["Evaluation", "Self-Supervised", "Supervised"]
 short_authors: Deng et al.
 ---
 This work aims at improving instance retrieval with self-supervision. We find

@@ -8,8 +8,7 @@ bibkey: han2021text
 citations: 37
 additional_links: [{name: Code, url: 'https://github.com/BrandonHanx/TextReID'}, {
     name: Paper, url: 'https://arxiv.org/abs/2110.10807'}]
-tags: [Evaluation, Self-Supervised, Datasets, Multimodal Retrieval, Scalability, Tools
-    & Libraries]
+tags: ["Datasets", "Multimodal Retrieval", "Scalability", "Self-Supervised", "Tools & Libraries"]
 short_authors: Han et al.
 ---
 Text-based person search (TBPS) aims at retrieving a target person from an

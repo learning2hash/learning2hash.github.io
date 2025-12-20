@@ -7,7 +7,7 @@ year: 2016
 bibkey: song2016deep
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.01213'}]
-tags: [Evaluation, Distance Metric Learning, Tools & Libraries, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
 short_authors: Song et al.
 ---
 Learning the representation and the similarity metric in an end-to-end

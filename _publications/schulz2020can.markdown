@@ -8,7 +8,7 @@ year: 2020
 bibkey: schulz2020can
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.11082'}]
-tags: [Evaluation, Distance Metric Learning, Datasets, Scalability, AAAI]
+tags: ["AAAI", "Datasets", "Distance Metric Learning", "Evaluation", "Scalability"]
 short_authors: Claudia Schulz, Damir Juric
 ---
 A large number of embeddings trained on medical data have emerged, but it

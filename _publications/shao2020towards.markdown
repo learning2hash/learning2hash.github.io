@@ -9,7 +9,7 @@ bibkey: shao2020towards
 citations: 8
 additional_links: [{name: Code, url: 'http://gr.xjtu.edu.cn/web/bell/resource'}, {
     name: Paper, url: 'https://arxiv.org/abs/2004.03303'}]
-tags: [Compact Codes, Evaluation, Efficiency, Datasets, Hashing Methods]
+tags: ["Compact Codes", "Datasets", "Efficiency", "Evaluation", "Hashing Methods"]
 short_authors: Huikai Shao, Dexing Zhong, Xuefeng Du
 ---
 Deep palmprint recognition has become an emerging issue with great potential

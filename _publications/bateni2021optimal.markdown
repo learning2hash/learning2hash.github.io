@@ -7,7 +7,7 @@ year: 2021
 bibkey: bateni2021optimal
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.07050'}]
-tags: [Hashing Methods, Locality Sensitive Hashing]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Bateni et al.
 ---
 We present the first algorithm for fully dynamic \(k\)-centers clustering in an

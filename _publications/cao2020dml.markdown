@@ -9,7 +9,7 @@ year: 2020
 bibkey: cao2020dml
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.03116'}]
-tags: [Distance Metric Learning, Image Retrieval, Evaluation, Robustness]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Robustness"]
 short_authors: Cao et al.
 ---
 With a small number of labeled samples for training, it can save considerable

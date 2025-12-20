@@ -9,7 +9,7 @@ year: 2018
 bibkey: guo2018effective
 citations: 111
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.11906'}]
-tags: [Evaluation, WMT]
+tags: ["Evaluation"]
 short_authors: Guo et al.
 ---
 This paper presents an effective approach for parallel corpus mining using

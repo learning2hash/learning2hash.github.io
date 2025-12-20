@@ -8,7 +8,7 @@ year: 2024
 bibkey: yashima2024open
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.16576'}]
-tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Self-Supervised, Datasets]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised"]
 short_authors: Daichi Yashima, Ryosuke Korekata, Komei Sugiura
 ---
 Growing labor shortages are increasing the demand for domestic service robots

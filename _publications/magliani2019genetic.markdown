@@ -9,7 +9,7 @@ year: 2019
 bibkey: magliani2019genetic
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.06896'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Magliani et al.
 ---
 Several computer vision and artificial intelligence projects are nowadays

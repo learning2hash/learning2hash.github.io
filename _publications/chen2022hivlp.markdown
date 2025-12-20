@@ -7,7 +7,7 @@ year: 2022
 bibkey: chen2022hivlp
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.12105'}]
-tags: [Evaluation, Efficiency, Multimodal Retrieval, Scalability, Text Retrieval]
+tags: ["Efficiency", "Evaluation", "Multimodal Retrieval", "Scalability", "Text Retrieval"]
 short_authors: Chen et al.
 ---
 In the past few years, the emergence of vision-language pre-training (VLP)

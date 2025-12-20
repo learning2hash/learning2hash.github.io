@@ -7,7 +7,7 @@ year: 2018
 bibkey: xie2018comparator
 citations: 65
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.11440'}]
-tags: [Distance Metric Learning, Image Retrieval, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Weidi Xie, Li Shen, Andrew Zisserman
 ---
 The objective of this work is set-based verification, e.g. to decide if two

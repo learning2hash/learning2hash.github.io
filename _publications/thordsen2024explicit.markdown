@@ -8,7 +8,7 @@ year: 2024
 bibkey: thordsen2024explicit
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.18401'}]
-tags: [Evaluation, Similarity Search]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: Erik Thordsen, Erich Schubert
 ---
 Many algorithms require discriminative boundaries, such as separating

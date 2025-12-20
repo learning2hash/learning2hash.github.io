@@ -7,8 +7,7 @@ year: 2021
 bibkey: sodani2021scalable
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.04479'}]
-tags: [Supervised, Image Retrieval, Similarity Search, Self-Supervised, Datasets,
-  Scalability]
+tags: ["Datasets", "Image Retrieval", "Scalability", "Similarity Search", "Supervised"]
 short_authors: Sodani et al.
 ---
 Researchers often spend weeks sifting through decades of unlabeled satellite

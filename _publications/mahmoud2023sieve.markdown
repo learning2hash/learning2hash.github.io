@@ -8,7 +8,7 @@ year: 2023
 bibkey: mahmoud2023sieve
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.02110'}]
-tags: [Scalability, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Mahmoud et al.
 ---
 Vision-Language Models (VLMs) are pretrained on large, diverse, and noisy

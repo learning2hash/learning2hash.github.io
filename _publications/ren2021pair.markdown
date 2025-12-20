@@ -10,7 +10,7 @@ year: 2021
 bibkey: ren2021pair
 citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.06027'}]
-tags: [Datasets, ACL]
+tags: ["Datasets"]
 short_authors: Ren et al.
 ---
 Recently, dense passage retrieval has become a mainstream approach to finding

@@ -7,8 +7,7 @@ year: 2016
 bibkey: amato2016on
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.04142'}]
-tags: [Evaluation, Image Retrieval, Similarity Search, Efficiency, Vector Indexing,
-  Text Retrieval]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Similarity Search", "Text Retrieval"]
 short_authors: Giuseppe Amato, Fabrizio Falchi, Claudio Gennaro
 ---
 A new class of applications based on visual search engines are emerging,

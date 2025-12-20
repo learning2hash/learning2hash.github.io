@@ -7,8 +7,7 @@ year: 2020
 bibkey: jang2020generalized
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.11281'}]
-tags: [Evaluation, Supervised, Image Retrieval, Neural Hashing, Distance Metric Learning,
-  Datasets, Quantization, Scalability, CVPR, Hashing Methods]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Quantization", "Supervised"]
 short_authors: Young Kyun Jang, Nam Ik Cho
 ---
 Image retrieval methods that employ hashing or vector quantization have

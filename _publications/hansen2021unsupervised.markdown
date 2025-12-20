@@ -8,8 +8,7 @@ year: 2021
 bibkey: hansen2021unsupervised
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.14460'}]
-tags: [Supervised, Efficiency, Neural Hashing, Similarity Search, Vector Indexing,
-  Scalability, Unsupervised, Hashing Methods]
+tags: ["Hashing Methods", "Neural Hashing", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Hansen et al.
 ---
 Semantic hashing represents documents as compact binary vectors (hash codes)

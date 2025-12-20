@@ -7,7 +7,7 @@ year: 2020
 bibkey: memmesheimer2020skeleton
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.13823'}]
-tags: [Evaluation, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Memmesheimer et al.
 ---
 One-shot action recognition allows the recognition of human-performed actions

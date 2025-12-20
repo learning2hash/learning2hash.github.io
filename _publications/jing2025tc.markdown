@@ -9,7 +9,7 @@ bibkey: jing2025tc
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/JingXiaolun/TC-MGC'}, {name: Paper,
     url: 'https://arxiv.org/abs/2504.04707'}]
-tags: [Video Retrieval, Self-Supervised, Tools & Libraries, Evaluation]
+tags: ["Evaluation", "Self-Supervised", "Tools & Libraries", "Video Retrieval"]
 short_authors: Xiaolun Jing, Genke Yang, Jian Chu
 ---
 Motivated by the success of coarse-grained or fine-grained contrast in

@@ -8,7 +8,7 @@ year: 2023
 bibkey: zheng2023embeddingtree
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.01329'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Zheng et al.
 ---
 Embedding learning transforms discrete data entities into continuous

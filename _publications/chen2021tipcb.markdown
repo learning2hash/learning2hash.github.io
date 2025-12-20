@@ -10,7 +10,7 @@ bibkey: chen2021tipcb
 citations: 7
 additional_links: [{name: Code, url: 'https://github.com/OrangeYHChen/TIPCB'}, {name: Paper,
     url: 'https://arxiv.org/abs/2105.11628'}]
-tags: [Evaluation, Tools & Libraries, Datasets, Image Retrieval]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Chen et al.
 ---
 Text-based person search is a sub-task in the field of image retrieval, which

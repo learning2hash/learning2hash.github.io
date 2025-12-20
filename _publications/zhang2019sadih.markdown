@@ -7,8 +7,7 @@ year: 2019
 bibkey: zhang2019sadih
 citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.01739'}]
-tags: [Supervised, Similarity Search, Datasets, Memory Efficiency, Scalability, Tools
-    & Libraries, Hashing Methods, AAAI]
+tags: ["AAAI", "Datasets", "Hashing Methods", "Similarity Search", "Supervised"]
 short_authors: Zhang et al.
 ---
 Due to its low storage cost and fast query speed, hashing has been recognized

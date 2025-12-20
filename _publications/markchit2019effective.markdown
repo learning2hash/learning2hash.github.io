@@ -7,8 +7,7 @@ year: 2019
 bibkey: markchit2019effective
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.13325'}]
-tags: [Compact Codes, Evaluation, Efficiency, Datasets, Multimodal Retrieval, Hashing
-    Methods]
+tags: ["Compact Codes", "Datasets", "Efficiency", "Hashing Methods", "Multimodal Retrieval"]
 short_authors: Sarawut Markchit, Chih-Yi Chiu
 ---
 To overcome the barrier of storage and computation, the hashing technique has

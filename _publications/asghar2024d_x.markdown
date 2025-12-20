@@ -7,7 +7,7 @@ year: 2024
 bibkey: asghar2024d_x
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.13784'}]
-tags: [Privacy & Security, Re-ranking]
+tags: ["Privacy & Security", "Re-Ranking"]
 short_authors: Asghar et al.
 ---
 A widely used method to ensure privacy of unstructured text data is the

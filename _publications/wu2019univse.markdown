@@ -8,7 +8,7 @@ year: 2019
 bibkey: wu2019univse
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.05521'}]
-tags: [Self-Supervised, Robustness, Multimodal Retrieval]
+tags: ["Multimodal Retrieval", "Robustness", "Self-Supervised"]
 short_authors: Wu et al.
 ---
 We propose Unified Visual-Semantic Embeddings (UniVSE) for learning a joint

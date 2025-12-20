@@ -8,7 +8,7 @@ year: 2021
 bibkey: zhan2021learning
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.05789'}]
-tags: [Evaluation, Efficiency, Vector Indexing, Quantization, Memory Efficiency]
+tags: ["Efficiency", "Evaluation", "Memory Efficiency", "Quantization", "Vector Indexing"]
 short_authors: Zhan et al.
 ---
 Dense Retrieval (DR) has achieved state-of-the-art first-stage ranking

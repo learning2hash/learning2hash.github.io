@@ -7,8 +7,7 @@ year: 2020
 bibkey: zhang2020collaborative
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.00953'}]
-tags: [Compact Codes, Efficiency, Datasets, Scalability, Tools & Libraries, Hashing
-    Methods, Recommender Systems]
+tags: ["Compact Codes", "Datasets", "Efficiency", "Hashing Methods", "Recommender Systems"]
 short_authors: Yan Zhang, Ivor W. Tsang, Lixin Duan
 ---
 Cold-start has being a critical issue in recommender systems with the

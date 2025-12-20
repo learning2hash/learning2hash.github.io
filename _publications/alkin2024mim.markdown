@@ -7,7 +7,7 @@ year: 2024
 bibkey: alkin2024mim
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.10093'}]
-tags: [Self-Supervised, Evaluation]
+tags: ["Evaluation", "Self-Supervised"]
 short_authors: Alkin et al.
 ---
 We introduce MIM (Masked Image Modeling)-Refiner, a contrastive learning

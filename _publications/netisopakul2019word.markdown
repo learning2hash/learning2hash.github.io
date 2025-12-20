@@ -7,7 +7,7 @@ year: 2019
 bibkey: netisopakul2019word
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.04307'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Ponrudee Netisopakul, Gerhard Wohlgenannt, Aleksei Pulich
 ---
 Distributional semantics in the form of word embeddings are an essential

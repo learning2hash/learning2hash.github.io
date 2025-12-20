@@ -10,7 +10,7 @@ year: 2023
 bibkey: scotti2023reconstructing
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.18274'}]
-tags: [Scalability, Self-Supervised, Evaluation]
+tags: ["Evaluation", "Scalability", "Self-Supervised"]
 short_authors: Scotti et al.
 ---
 We present MindEye, a novel fMRI-to-image approach to retrieve and

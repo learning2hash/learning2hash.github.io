@@ -8,8 +8,7 @@ year: 2025
 bibkey: wang2025affinity
 citations: 11
 additional_links: [{name: Paper, url: 'http://www.jdl.ac.cn/doc/2011/201612291012037194_affinity.pdf'}]
-tags: [Compact Codes, Evaluation, Similarity Search, Quantization, Hashing Methods,
-  AAAI]
+tags: ["AAAI", "Evaluation", "Hashing Methods", "Quantization", "Similarity Search"]
 short_authors: Wang et al.
 ---
 Hashing techniques are powerful for approximate nearest

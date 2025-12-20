@@ -7,8 +7,7 @@ year: 2025
 bibkey: lai2025simultaneous
 citations: 916
 additional_links: [{name: Paper, url: 'https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lai_Simultaneous_Feature_Learning_2015_CVPR_paper.pdf'}]
-tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Similarity Search,
-  Datasets, Quantization, Scalability, CVPR, Unsupervised, Hashing Methods]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Quantization", "Supervised"]
 short_authors: Lai et al.
 ---
 Similarity-preserving hashing is a widely-used method

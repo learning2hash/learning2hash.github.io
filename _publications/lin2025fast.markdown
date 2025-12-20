@@ -7,8 +7,7 @@ year: 2025
 bibkey: lin2025fast
 citations: 452
 additional_links: [{name: Paper, url: 'https://bitbucket.org/chhshen/fasthash/src'}]
-tags: [Compact Codes, Evaluation, Supervised, Scalability, CVPR, Unsupervised, Hashing
-    Methods]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Lin et al.
 ---
 Supervised hashing aims to map the original features to

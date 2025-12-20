@@ -9,7 +9,7 @@ bibkey: vobecky2024pop
 citations: 8
 additional_links: [{name: Code, url: 'https://vobecant.github.io/POP3D'}, {name: Paper,
     url: 'https://arxiv.org/abs/2401.09413'}]
-tags: [Evaluation, Supervised, Few-shot & Zero-shot, Self-Supervised, Datasets]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Self-Supervised", "Supervised"]
 short_authors: Vobecky et al.
 ---
 We describe an approach to predict open-vocabulary 3D semantic voxel

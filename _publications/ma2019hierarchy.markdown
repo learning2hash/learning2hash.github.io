@@ -8,7 +8,7 @@ year: 2019
 bibkey: ma2019hierarchy
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.03060'}]
-tags: [Supervised, Image Retrieval, Datasets, Scalability, Hashing Methods]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Scalability", "Supervised"]
 short_authors: Ma et al.
 ---
 Recently, deep supervised hashing methods have become popular for large-scale

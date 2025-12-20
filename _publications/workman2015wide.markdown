@@ -7,7 +7,7 @@ year: 2015
 bibkey: workman2015wide
 citations: 323
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1510.03743'}]
-tags: [Evaluation, ICCV, Datasets]
+tags: ["Datasets", "Evaluation", "ICCV"]
 short_authors: Scott Workman, Richard Souvenir, Nathan Jacobs
 ---
 We propose to use deep convolutional neural networks to address the problem

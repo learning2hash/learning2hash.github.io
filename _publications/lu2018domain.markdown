@@ -8,7 +8,7 @@ year: 2018
 bibkey: lu2018domain
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.04275'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Lu et al.
 ---
 This paper proposes a novel approach for Sketch-Based Image Retrieval (SBIR),

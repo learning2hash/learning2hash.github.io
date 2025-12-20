@@ -8,8 +8,7 @@ year: 2017
 bibkey: lunga2017hashed
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.05685'}]
-tags: [RSS, Tools & Libraries, Hashing Methods, Scalability, Locality Sensitive Hashing,
-  Supervised, Datasets, Compact Codes, Evaluation]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "RSS", "Supervised"]
 short_authors: Dalton Lunga, Lexie Yang, Budhendra Bhaduri
 ---
 Very large overhead imagery associated with ground truth maps has the

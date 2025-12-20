@@ -7,7 +7,7 @@ year: 2024
 bibkey: li2024csa
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.07610'}]
-tags: [Evaluation, ICLR, Few-shot & Zero-shot, Multimodal Retrieval]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval"]
 short_authors: Po-Han Li, Sandeep P. Chinchali, Ufuk Topcu
 ---
 Multimodal encoders like CLIP excel in tasks such as zero-shot image

@@ -8,7 +8,7 @@ year: 2016
 bibkey: kanji2016self
 citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.00993'}]
-tags: [Distance Metric Learning, Tools & Libraries, Evaluation, IROS]
+tags: ["Distance Metric Learning", "Evaluation", "IROS", "Tools & Libraries"]
 short_authors: Tanaka Kanji
 ---
 With the recent success of visual features from deep convolutional neural

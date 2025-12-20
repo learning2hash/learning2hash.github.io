@@ -7,7 +7,7 @@ year: 2016
 bibkey: rudolph2016exponential
 citations: 74
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.00778'}]
-tags: [Recommender Systems]
+tags: ["Recommender Systems"]
 short_authors: Rudolph et al.
 ---
 Word embeddings are a powerful approach for capturing semantic similarity

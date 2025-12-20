@@ -9,7 +9,7 @@ year: 2018
 bibkey: dufter2018embedding
 citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.06807'}]
-tags: [Evaluation, ACL]
+tags: ["Evaluation"]
 short_authors: Dufter et al.
 ---
 We present a new method for estimating vector space representations of words:

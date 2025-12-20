@@ -7,8 +7,7 @@ year: 2020
 bibkey: hoang2020unsupervised
 citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.00223'}]
-tags: [Compact Codes, Evaluation, Supervised, Datasets, Multimodal Retrieval, Unsupervised,
-  Tools & Libraries, Hashing Methods]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Hoang et al.
 ---
 This paper presents a novel framework, namely Deep Cross-modality Spectral

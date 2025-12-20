@@ -8,7 +8,7 @@ year: 2020
 bibkey: zhou2020it
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.09474'}]
-tags: [Evaluation, Neural Hashing, Datasets, Hashing Methods, Locality Sensitive Hashing]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Neural Hashing"]
 short_authors: Zhou et al.
 ---
 In recent, deep learning has become the most popular direction in machine

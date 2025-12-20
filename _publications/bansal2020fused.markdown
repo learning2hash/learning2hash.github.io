@@ -7,7 +7,7 @@ year: 2020
 bibkey: bansal2020fused
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.00166'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Siddhant Bansal, Praveen Krishnan, C. V. Jawahar
 ---
 Recognition and retrieval of textual content from the large document

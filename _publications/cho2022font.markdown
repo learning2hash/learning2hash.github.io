@@ -8,7 +8,7 @@ bibkey: cho2022font
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/junhocho/paired-glyph-matching'},
   {name: Paper, url: 'https://arxiv.org/abs/2211.10967'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Junho Cho, Kyuewang Lee, Jin Young Choi
 ---
 Fonts can convey profound meanings of words in various forms of glyphs.

@@ -8,8 +8,7 @@ year: 2016
 bibkey: fu2016an
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.00122'}]
-tags: [Evaluation, Datasets, Tools & Libraries, Hashing Methods, Locality Sensitive
-    Hashing]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
 short_authors: Fu et al.
 ---
 Novelty detection in news events has long been a difficult problem. A number

@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhang2024long
 citations: 44
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.15378'}]
-tags: [Evaluation, Tools & Libraries, Few-shot & Zero-shot, Image Retrieval]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Tools & Libraries"]
 short_authors: Zhang et al.
 ---
 Contrastive Language-Image Pre-training (CLIP) has been the cornerstone for

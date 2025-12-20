@@ -7,7 +7,7 @@ year: 2023
 bibkey: shoib2023methods
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.17371'}]
-tags: [Image Retrieval, Survey Paper]
+tags: ["Image Retrieval", "Survey Paper"]
 short_authors: Shoib et al.
 ---
 Content-based fashion image retrieval (CBFIR) has been widely used in our

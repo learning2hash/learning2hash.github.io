@@ -7,7 +7,7 @@ year: 2021
 bibkey: munro2021domain
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.12812'}]
-tags: [Video Retrieval, Evaluation, Supervised, Unsupervised]
+tags: ["Evaluation", "Supervised", "Unsupervised", "Video Retrieval"]
 short_authors: Munro et al.
 ---
 Given a gallery of uncaptioned video sequences, this paper considers the task

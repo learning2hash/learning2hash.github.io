@@ -7,7 +7,7 @@ year: 2023
 bibkey: warburg2023bayesian
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.01332'}]
-tags: [Distance Metric Learning, Image Retrieval, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Warburg et al.
 ---
 We propose the first Bayesian encoder for metric learning. Rather than

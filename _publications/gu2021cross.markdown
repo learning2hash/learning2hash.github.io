@@ -8,8 +8,7 @@ year: 2021
 bibkey: gu2021cross
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.06032'}]
-tags: [Evaluation, Supervised, Image Retrieval, Distance Metric Learning, Self-Supervised,
-  Datasets, Multimodal Retrieval, Scalability]
+tags: ["Distance Metric Learning", "Image Retrieval", "Multimodal Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Gu et al.
 ---
 In this paper, we study the cross-modal image retrieval, where the inputs

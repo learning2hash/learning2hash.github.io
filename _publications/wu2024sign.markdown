@@ -7,8 +7,7 @@ year: 2024
 bibkey: wu2024sign
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.02716'}]
-tags: [Evaluation, Similarity Search, Self-Supervised, Tools & Libraries, Hashing
-    Methods]
+tags: ["Evaluation", "Hashing Methods", "Self-Supervised", "Similarity Search", "Tools & Libraries"]
 short_authors: Xueyi Wu
 ---
 Bipartite graph hashing (BGH) is extensively used for Top-K search in Hamming

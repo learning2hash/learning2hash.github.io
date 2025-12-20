@@ -7,7 +7,7 @@ year: 2019
 bibkey: atighehchi2019a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.01389'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Datasets]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Atighehchi et al.
 ---
 Cancelable biometric schemes generate secure biometric templates by combining

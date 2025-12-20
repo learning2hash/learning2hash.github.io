@@ -7,7 +7,7 @@ year: 2024
 bibkey: yang2024soft
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.04538'}]
-tags: [Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Yang et al.
 ---
 The chain-of-thought technique has been received well in multi-modal tasks.

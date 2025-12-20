@@ -8,8 +8,7 @@ bibkey: wang2021prototype
 citations: 50
 additional_links: [{name: Code, url: 'https://github.com/xunguangwang/ProS-GAN'},
   {name: Paper, url: 'https://arxiv.org/abs/2105.07553'}]
-tags: [Evaluation, Supervised, Image Retrieval, Efficiency, Neural Hashing, Robustness,
-  Scalability, CVPR, Tools & Libraries, Hashing Methods]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Wang et al.
 ---
 Due to its powerful capability of representation learning and high-efficiency

@@ -7,7 +7,7 @@ year: 2016
 bibkey: wang2016contextual
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.02534'}]
-tags: [Supervised, Image Retrieval, Similarity Search, Unsupervised]
+tags: ["Image Retrieval", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Xiaofang Wang, Kris M. Kitani, Martial Hebert
 ---
 Measuring visual similarity is critical for image understanding. But what

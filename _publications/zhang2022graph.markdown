@@ -7,7 +7,7 @@ year: 2022
 bibkey: zhang2022graph
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.10520'}]
-tags: [Scalability, Graph-based ANN, Efficiency]
+tags: ["Efficiency", "Graph Based ANN", "Scalability"]
 short_authors: Li-Chun Zhang
 ---
 Node embedding is a central topic in graph representation learning.

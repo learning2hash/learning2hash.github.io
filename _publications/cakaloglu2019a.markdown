@@ -8,7 +8,7 @@ year: 2019
 bibkey: cakaloglu2019a
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.00663'}]
-tags: [Text Retrieval, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Text Retrieval"]
 short_authors: Tolgahan Cakaloglu, Xiaowei Xu
 ---
 Deep language models learning a hierarchical representation proved to be a

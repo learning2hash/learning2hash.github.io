@@ -7,7 +7,7 @@ year: 2019
 bibkey: shi2019cross
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.02989'}]
-tags: [Text Retrieval, Few-shot & Zero-shot]
+tags: ["Few Shot & Zero Shot", "Text Retrieval"]
 short_authors: Peng Shi, Jimmy Lin
 ---
 Recent work has shown the surprising ability of multi-lingual BERT to serve

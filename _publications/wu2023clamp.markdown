@@ -9,7 +9,7 @@ bibkey: wu2023clamp
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/microsoft/muzic/tree/main/clamp'},
   {name: Paper, url: 'https://arxiv.org/abs/2304.11029'}]
-tags: [Evaluation, Distance Metric Learning, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Wu et al.
 ---
 We introduce CLaMP: Contrastive Language-Music Pre-training, which learns

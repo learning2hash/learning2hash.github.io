@@ -8,7 +8,7 @@ year: 2025
 bibkey: xiao2025locore
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.21772'}]
-tags: [Evaluation, Image Retrieval, Re-ranking, CVPR, Hybrid ANN Methods]
+tags: ["CVPR", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
 short_authors: Xiao et al.
 ---
 We introduce LOCORE, Long-Context Re-ranker, a model that takes as input

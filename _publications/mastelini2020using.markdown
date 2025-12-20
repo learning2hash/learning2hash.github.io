@@ -7,7 +7,7 @@ year: 2020
 bibkey: mastelini2020using
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.00083'}]
-tags: [Hashing Methods, Evaluation, Quantization, Efficiency]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Quantization"]
 short_authors: Saulo Martiello Mastelini, Andre Carlos Ponce de Leon Ferreira de Carvalho
 ---
 A central aspect of online decision tree solutions is evaluating the incoming

@@ -9,7 +9,7 @@ bibkey: hu2019multi
 citations: 22
 additional_links: [{name: Code, url: 'https://github.com/olivesgatech'}, {name: Paper,
     url: 'https://arxiv.org/abs/1905.09907'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Yuting Hu, Zhiling Long, Ghassan Alregib
 ---
 In this paper, we propose a multi-level texture encoding and representation

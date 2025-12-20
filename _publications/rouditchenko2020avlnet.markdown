@@ -10,7 +10,7 @@ year: 2020
 bibkey: rouditchenko2020avlnet
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.09199'}]
-tags: [Video Retrieval, Evaluation, Supervised, Image Retrieval, Self-Supervised]
+tags: ["Evaluation", "Image Retrieval", "Self-Supervised", "Supervised", "Video Retrieval"]
 short_authors: Rouditchenko et al.
 ---
 Current methods for learning visually grounded language from videos often

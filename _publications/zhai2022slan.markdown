@@ -8,7 +8,7 @@ year: 2022
 bibkey: zhai2022slan
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.16208'}]
-tags: [Image Retrieval, Few-shot & Zero-shot, Multimodal Retrieval]
+tags: ["Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Zhai et al.
 ---
 Learning fine-grained interplay between vision and language allows to a more

@@ -7,8 +7,7 @@ year: 2024
 bibkey: ye2024wpfed
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.11378'}]
-tags: [Evaluation, Datasets, Robustness, Tools & Libraries, Hashing Methods, Locality
-    Sensitive Hashing]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Robustness"]
 short_authors: Ye et al.
 ---
 Decentralized learning has become crucial for collaborative model training in

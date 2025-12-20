@@ -8,8 +8,7 @@ bibkey: long2024cfir
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/longkukuhi/CFIR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2402.15276'}]
-tags: [Evaluation, Image Retrieval, Re-ranking, Efficiency, Datasets, Multimodal Retrieval,
-  Scalability, Tools & Libraries, Hybrid ANN Methods]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Re-Ranking"]
 short_authors: Long et al.
 ---
 Text-to-image retrieval aims to find the relevant images based on a text

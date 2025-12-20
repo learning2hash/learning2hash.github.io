@@ -7,8 +7,7 @@ year: 2019
 bibkey: christiani2019algorithms
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.09430'}]
-tags: [Evaluation, Similarity Search, Distance Metric Learning, Tools & Libraries,
-  Hashing Methods, Locality Sensitive Hashing]
+tags: ["Distance Metric Learning", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Tobias Christiani
 ---
 We study the problem of approximate near neighbor (ANN) search and show the

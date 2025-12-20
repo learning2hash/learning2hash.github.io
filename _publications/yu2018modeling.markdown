@@ -9,7 +9,7 @@ year: 2018
 bibkey: yu2018modeling
 citations: 47
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.00985'}]
-tags: [Evaluation, Neural Hashing]
+tags: ["Evaluation", "Neural Hashing"]
 short_authors: Yu et al.
 ---
 Cross-modal information retrieval aims to find heterogeneous data of various

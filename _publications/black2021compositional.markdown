@@ -7,7 +7,7 @@ year: 2021
 bibkey: black2021compositional
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.08009'}]
-tags: [Distance Metric Learning, Image Retrieval, Quantization]
+tags: ["Distance Metric Learning", "Image Retrieval", "Quantization"]
 short_authors: Black et al.
 ---
 We present an algorithm for searching image collections using free-hand

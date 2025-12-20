@@ -10,7 +10,7 @@ year: 2021
 bibkey: li2021ce
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.00899'}]
-tags: [Hashing Methods, Evaluation, Tools & Libraries, Datasets]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Tools & Libraries"]
 short_authors: Xuan Li, Liqiong Chang, Xue Liu
 ---
 Attributed to the ever-increasing large image datasets, Convolutional Neural

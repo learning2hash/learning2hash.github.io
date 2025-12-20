@@ -8,7 +8,7 @@ year: 2022
 bibkey: pishdad2022uncertainty
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.09268'}]
-tags: [Evaluation, Image Retrieval, Multimodal Retrieval]
+tags: ["Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Pishdad et al.
 ---
 Probabilistic embeddings have proven useful for capturing polysemous word

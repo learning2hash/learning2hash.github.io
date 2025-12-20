@@ -7,8 +7,7 @@ year: 2020
 bibkey: christiani2020dartminhash
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.11547'}]
-tags: [Similarity Search, Efficiency, Scalability, Hashing Methods, Locality Sensitive
-    Hashing]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Similarity Search"]
 short_authors: Tobias Christiani
 ---
 Weighted minwise hashing is a standard dimensionality reduction technique

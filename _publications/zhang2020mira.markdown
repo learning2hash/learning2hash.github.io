@@ -9,8 +9,7 @@ year: 2020
 bibkey: zhang2020mira
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.01510'}]
-tags: [Evaluation, Efficiency, Datasets, Scalability, Tools & Libraries, Large-Scale
-    Search, Text Retrieval]
+tags: ["Datasets", "Evaluation", "Large Scale Search", "Scalability", "Text Retrieval"]
 short_authors: Zhang et al.
 ---
 We study the problem of deep recall model in industrial web search, which is,

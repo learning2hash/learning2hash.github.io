@@ -8,7 +8,7 @@ year: 2023
 bibkey: takikawa2023compact
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.17241'}]
-tags: [Evaluation, Quantization, Tools & Libraries, Memory Efficiency]
+tags: ["Evaluation", "Memory Efficiency", "Quantization", "Tools & Libraries"]
 short_authors: Takikawa et al.
 ---
 Neural graphics primitives are faster and achieve higher quality when their

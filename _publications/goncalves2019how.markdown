@@ -8,7 +8,7 @@ year: 2019
 bibkey: goncalves2019how
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.10642'}]
-tags: [Recommender Systems]
+tags: ["Recommender Systems"]
 short_authors: "Diogo Goncalves, Liweu Liu, Ana Magalh\xE3es"
 ---
 Using embeddings as representations of products is quite commonplace in

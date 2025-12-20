@@ -8,7 +8,7 @@ year: 2020
 bibkey: hu2020pyretri
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.02154'}]
-tags: [Supervised, Image Retrieval, Neural Hashing, Tools & Libraries, Unsupervised]
+tags: ["Image Retrieval", "Neural Hashing", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Hu et al.
 ---
 Despite significant progress of applying deep learning methods to the field

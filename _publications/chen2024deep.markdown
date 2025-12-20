@@ -8,8 +8,7 @@ bibkey: chen2024deep
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/donnotnormal/DCGH'}, {name: Paper,
     url: 'https://arxiv.org/abs/2410.15387'}]
-tags: [Evaluation, Neural Hashing, Similarity Search, Datasets, Multimodal Retrieval,
-  Tools & Libraries, Hashing Methods]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing"]
 short_authors: Hao Chen, Lei Zhu, Xinghui Zhu
 ---
 Deep hashing, due to its low cost and efficient retrieval advantages, is

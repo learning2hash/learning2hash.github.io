@@ -10,8 +10,7 @@ year: 2024
 bibkey: wolf2024less
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.14524'}]
-tags: [Evaluation, Supervised, Neural Hashing, Self-Supervised, Datasets, Hashing
-    Methods]
+tags: ["Datasets", "Evaluation", "Neural Hashing", "Self-Supervised", "Supervised"]
 short_authors: Wolf et al.
 ---
 Self-supervised pre-training of deep learning models with contrastive

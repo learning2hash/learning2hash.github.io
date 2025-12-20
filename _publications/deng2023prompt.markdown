@@ -7,7 +7,7 @@ year: 2023
 bibkey: deng2023prompt
 citations: 28
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.07648'}]
-tags: [Video Retrieval, Evaluation, ICCV, Efficiency, Datasets, Scalability]
+tags: ["Datasets", "Efficiency", "Evaluation", "ICCV", "Video Retrieval"]
 short_authors: Deng et al.
 ---
 In text-video retrieval, recent works have benefited from the powerful

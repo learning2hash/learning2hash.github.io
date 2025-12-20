@@ -7,7 +7,7 @@ year: 2020
 bibkey: tiwari2020visually
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.06908'}]
-tags: [Tools & Libraries, Recommender Systems, Datasets]
+tags: ["Datasets", "Recommender Systems", "Tools & Libraries"]
 short_authors: Tiwari et al.
 ---
 The visual appearance of a product significantly influences purchase

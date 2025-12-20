@@ -7,7 +7,7 @@ year: 2023
 bibkey: wu2023rethinking
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.00909'}]
-tags: [Scalability, Similarity Search]
+tags: ["Scalability", "Similarity Search"]
 short_authors: Wu et al.
 ---
 In this vision paper, we propose a shift in perspective for improving the

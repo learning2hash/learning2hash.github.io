@@ -10,8 +10,7 @@ year: 2023
 bibkey: nunes2023dothash
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.17310'}]
-tags: [Evaluation, Distance Metric Learning, Locality Sensitive Hashing, KDD, Recommender
-    Systems]
+tags: ["Distance Metric Learning", "Evaluation", "KDD", "Locality-Sensitive-Hashing", "Recommender Systems"]
 short_authors: Nunes et al.
 ---
 Metrics for set similarity are a core aspect of several data mining tasks. To

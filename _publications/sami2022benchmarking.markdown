@@ -8,7 +8,7 @@ year: 2022
 bibkey: sami2022benchmarking
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.11822'}]
-tags: [Scalability, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Sami et al.
 ---
 The problem of distinguishing identical twins and non-twin look-alikes in

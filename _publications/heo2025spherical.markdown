@@ -7,7 +7,7 @@ year: 2025
 bibkey: heo2025spherical
 citations: 376
 additional_links: [{name: Paper, url: 'http://www.ee.columbia.edu/ln/dvmm/pubs/files/Spherical_Hashing.pdf'}]
-tags: [Compact Codes, Evaluation, Similarity Search, Scalability, CVPR, Hashing Methods]
+tags: ["CVPR", "Compact Codes", "Evaluation", "Hashing Methods", "Similarity Search"]
 short_authors: Heo et al.
 ---
 Many binary code encoding schemes based on hashing

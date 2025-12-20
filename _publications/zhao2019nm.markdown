@@ -7,7 +7,7 @@ year: 2019
 bibkey: zhao2019nm
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.00320'}]
-tags: [Evaluation, CVPR, Datasets]
+tags: ["CVPR", "Datasets", "Evaluation"]
 short_authors: Zhao et al.
 ---
 Feature correspondence selection is pivotal to many feature-matching based

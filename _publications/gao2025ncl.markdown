@@ -9,7 +9,7 @@ year: 2025
 bibkey: gao2025ncl
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.04339'}]
-tags: [Evaluation, ICASSP, Image Retrieval, Self-Supervised, Datasets]
+tags: ["Datasets", "Evaluation", "ICASSP", "Image Retrieval", "Self-Supervised"]
 short_authors: Gao et al.
 ---
 Composed Image Retrieval (CIR) seeks to find a target image using a

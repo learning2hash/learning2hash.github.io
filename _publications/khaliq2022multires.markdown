@@ -9,7 +9,7 @@ bibkey: khaliq2022multires
 citations: 43
 additional_links: [{name: Code, url: 'https://github.com/Ahmedest61/MultiRes-NetVLAD'},
   {name: Paper, url: 'https://arxiv.org/abs/2202.09146'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Ahmad Khaliq, Michael Milford, Sourav Garg
 ---
 Visual Place Recognition (VPR) is a crucial component of 6-DoF localization,

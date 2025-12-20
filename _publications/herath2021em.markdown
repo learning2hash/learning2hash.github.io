@@ -7,7 +7,7 @@ year: 2021
 bibkey: herath2021em
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.04070'}]
-tags: [Scalability, Tree-based ANN, Datasets, Similarity Search]
+tags: ["Datasets", "Scalability", "Similarity Search", "Tree Based ANN"]
 short_authors: Samudra Herath, Matthew Roughan, Gary Glonek
 ---
 Accurate and efficient entity resolution (ER) is a significant challenge in

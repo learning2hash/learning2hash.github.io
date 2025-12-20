@@ -7,7 +7,7 @@ year: 2019
 bibkey: weng2019efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.05006'}]
-tags: [Compact Codes, Efficiency, Vector Indexing, Datasets, Scalability]
+tags: ["Compact Codes", "Datasets", "Efficiency", "Scalability", "Vector Indexing"]
 short_authors: Zhenyu Weng, Yuesheng Zhu
 ---
 Binary codes are widely used to represent the data due to their small storage

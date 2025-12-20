@@ -7,7 +7,7 @@ year: 2022
 bibkey: song2022inter
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.00219'}]
-tags: [Compact Codes, Evaluation, Distance Metric Learning, Datasets, Scalability]
+tags: ["Compact Codes", "Datasets", "Distance Metric Learning", "Evaluation", "Scalability"]
 short_authors: Song et al.
 ---
 The big wave of Internet of Things (IoT) malware reflects the fragility of

@@ -7,7 +7,7 @@ year: 2022
 bibkey: zhou2022non
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.09304'}]
-tags: [Evaluation, Supervised, Few-shot & Zero-shot, Self-Supervised, Tools & Libraries]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Self-Supervised", "Supervised", "Tools & Libraries"]
 short_authors: Zhou et al.
 ---
 Contrastive language-image pre-training (CLIP) serves as a de-facto standard

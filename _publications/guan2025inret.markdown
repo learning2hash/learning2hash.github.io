@@ -8,7 +8,7 @@ year: 2025
 bibkey: guan2025inret
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.15722'}]
-tags: [Tools & Libraries]
+tags: ["Tools & Libraries"]
 short_authors: Guan et al.
 ---
 Implicit neural representations (INRs) have become an important method for

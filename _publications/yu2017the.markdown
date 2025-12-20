@@ -8,7 +8,7 @@ year: 2017
 bibkey: yu2017the
 citations: 80
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08106'}]
-tags: [Image Retrieval, Tools & Libraries]
+tags: ["Image Retrieval", "Tools & Libraries"]
 short_authors: Yu et al.
 ---
 Many vision problems require matching images of object instances across

@@ -7,7 +7,7 @@ year: 2016
 bibkey: ustinova2016learning
 citations: 260
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.00822'}]
-tags: [Datasets]
+tags: ["Datasets"]
 short_authors: Evgeniya Ustinova, Victor Lempitsky
 ---
 We suggest a loss for learning deep embeddings. The new loss does not

@@ -8,7 +8,7 @@ year: 2021
 bibkey: boytsov2021exploring
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.06815'}]
-tags: [Text Retrieval, Efficiency]
+tags: ["Efficiency", "Text Retrieval"]
 short_authors: Leonid Boytsov, Zico Kolter
 ---
 We study the utility of the lexical translation model (IBM Model 1) for

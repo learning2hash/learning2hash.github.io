@@ -8,8 +8,7 @@ bibkey: wu2022cap4video
 citations: 6
 additional_links: [{name: Code, url: 'https://github.com/whwu95/Cap4Video'}, {name: Paper,
     url: 'https://arxiv.org/abs/2301.00184'}]
-tags: [Video Retrieval, Evaluation, Re-ranking, Few-shot & Zero-shot, Scalability,
-  Tools & Libraries, Large-Scale Search]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Large Scale Search", "Scalability", "Video Retrieval"]
 short_authors: Wu et al.
 ---
 Most existing text-video retrieval methods focus on cross-modal matching

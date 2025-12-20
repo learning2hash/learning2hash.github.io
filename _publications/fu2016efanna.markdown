@@ -8,8 +8,7 @@ year: 2016
 bibkey: fu2016efanna
 citations: 63
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.07228'}]
-tags: [Evaluation, Similarity Search, Efficiency, Graph-based ANN, Tools & Libraries,
-  Hashing Methods]
+tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Hashing Methods", "Similarity Search"]
 short_authors: Cong Fu, Deng Cai
 ---
 Approximate nearest neighbor (ANN) search is a fundamental problem in many

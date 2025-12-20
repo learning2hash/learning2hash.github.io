@@ -7,7 +7,7 @@ year: 2022
 bibkey: liu2022ts2
 citations: 97
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.07852'}]
-tags: [Video Retrieval, Evaluation]
+tags: ["Evaluation", "Video Retrieval"]
 short_authors: Liu et al.
 ---
 Text-Video retrieval is a task of great practical value and has received

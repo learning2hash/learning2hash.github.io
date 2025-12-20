@@ -8,8 +8,7 @@ year: 2021
 bibkey: desai2021random
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.02191'}]
-tags: [Evaluation, Neural Hashing, Memory Efficiency, Hashing Methods, Recommender
-    Systems]
+tags: ["Evaluation", "Hashing Methods", "Memory Efficiency", "Neural Hashing", "Recommender Systems"]
 short_authors: Aditya Desai, Li Chou, Anshumali Shrivastava
 ---
 Deep learning for recommendation data is one of the most pervasive and

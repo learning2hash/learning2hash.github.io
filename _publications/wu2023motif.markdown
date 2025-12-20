@@ -7,7 +7,7 @@ year: 2023
 bibkey: wu2023motif
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.10597'}]
-tags: [Self-Supervised, Evaluation]
+tags: ["Evaluation", "Self-Supervised"]
 short_authors: Yuxuan Wu, Roger B. Dannenberg, Gus Xia
 ---
 Music motif, as a conceptual building block of composition, is crucial for

@@ -7,7 +7,7 @@ year: 2022
 bibkey: ni2022motion
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.06105'}]
-tags: [Video Retrieval, Self-Supervised, Supervised, Evaluation]
+tags: ["Evaluation", "Self-Supervised", "Supervised", "Video Retrieval"]
 short_authors: Ni et al.
 ---
 Contrastive learning has shown great potential in video representation

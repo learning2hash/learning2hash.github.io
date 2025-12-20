@@ -7,7 +7,7 @@ year: 2021
 bibkey: struppek2021learning
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.06628'}]
-tags: [Hashing Methods]
+tags: ["Hashing Methods"]
 short_authors: Struppek et al.
 ---
 Apple recently revealed its deep perceptual hashing system NeuralHash to

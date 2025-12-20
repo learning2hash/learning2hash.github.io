@@ -7,7 +7,7 @@ year: 2023
 bibkey: dominguez2023unsupervised
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.09350'}]
-tags: [Evaluation, Supervised, Few-shot & Zero-shot, Datasets, Unsupervised]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Supervised", "Unsupervised"]
 short_authors: Dominguez et al.
 ---
 Neural information retrieval requires costly annotated data for each target

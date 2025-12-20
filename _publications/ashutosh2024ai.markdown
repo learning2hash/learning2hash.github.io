@@ -8,7 +8,7 @@ year: 2024
 bibkey: ashutosh2024ai
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.09504'}]
-tags: [Hashing Methods, Image Retrieval]
+tags: ["Hashing Methods", "Image Retrieval"]
 short_authors: Ashutosh, Rahul Jashvantbhai Pandya
 ---
 The expanse of information available over the internet makes it difficult to

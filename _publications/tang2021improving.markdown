@@ -10,7 +10,7 @@ year: 2021
 bibkey: tang2021improving
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.03599'}]
-tags: [Evaluation, Efficiency, Datasets, Tools & Libraries, Text Retrieval, ACL]
+tags: ["Datasets", "Efficiency", "Evaluation", "Text Retrieval", "Tools & Libraries"]
 short_authors: Tang et al.
 ---
 Recently, the retrieval models based on dense representations have been

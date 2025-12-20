@@ -7,7 +7,7 @@ year: 2021
 bibkey: lian2021quotient
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.12371'}]
-tags: [Evaluation, Tools & Libraries, Efficiency]
+tags: ["Efficiency", "Evaluation", "Tools & Libraries"]
 short_authors: Lian et al.
 ---
 Synonymous keyword retrieval has become an important problem for sponsored

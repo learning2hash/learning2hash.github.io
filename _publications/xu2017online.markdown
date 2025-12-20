@@ -7,8 +7,7 @@ year: 2017
 bibkey: xu2017online
 citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.10775'}]
-tags: [Evaluation, Efficiency, Similarity Search, Quantization, Scalability, Hashing
-    Methods]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Quantization", "Similarity Search"]
 short_authors: Donna Xu, Ivor W. Tsang, Ying Zhang
 ---
 Approximate nearest neighbor (ANN) search has achieved great success in many

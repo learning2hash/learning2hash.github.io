@@ -8,7 +8,7 @@ bibkey: he2021neural
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/LeavesLei/activation-code'},
   {name: Paper, url: 'https://arxiv.org/abs/2101.05490'}]
-tags: [Evaluation, Neural Hashing]
+tags: ["Evaluation", "Neural Hashing"]
 short_authors: He et al.
 ---
 The input space of a neural network with ReLU-like activations is partitioned

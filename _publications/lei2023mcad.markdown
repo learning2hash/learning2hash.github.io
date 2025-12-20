@@ -9,7 +9,7 @@ year: 2023
 bibkey: lei2023mcad
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.19654'}]
-tags: [Text Retrieval, Evaluation, Scalability, Efficiency]
+tags: ["Efficiency", "Evaluation", "Scalability", "Text Retrieval"]
 short_authors: Lei et al.
 ---
 Due to the success of large-scale visual-language pretraining (VLP) models

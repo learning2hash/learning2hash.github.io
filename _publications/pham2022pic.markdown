@@ -7,7 +7,7 @@ year: 2022
 bibkey: pham2022pic
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.09068'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Pham et al.
 ---
 While contextualized word embeddings have been a de-facto standard, learning

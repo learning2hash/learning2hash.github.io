@@ -8,7 +8,7 @@ year: 2022
 bibkey: liu2022das
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.00119'}]
-tags: [Evaluation, Image Retrieval, Distance Metric Learning, Datasets, Tools & Libraries]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Liu et al.
 ---
 Deep Metric Learning (DML) serves to learn an embedding function to project

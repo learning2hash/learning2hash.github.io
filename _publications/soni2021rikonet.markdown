@@ -8,7 +8,7 @@ year: 2021
 bibkey: soni2021rikonet
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.12970'}]
-tags: [Evaluation, Recommender Systems]
+tags: ["Evaluation", "Recommender Systems"]
 short_authors: Soni et al.
 ---
 Anime is quite well-received today, especially among the younger generations.

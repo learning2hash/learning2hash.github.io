@@ -7,8 +7,7 @@ year: 2019
 bibkey: wang2019deep
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.01728'}]
-tags: [Image Retrieval, Neural Hashing, Hashing Methods, Scalability, Datasets, Distance
-    Metric Learning, Compact Codes, Evaluation, Multimodal Retrieval]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Wang et al.
 ---
 Deep-networks-based hashing has become a leading approach for large-scale

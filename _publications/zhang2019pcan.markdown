@@ -8,7 +8,7 @@ year: 2019
 bibkey: zhang2019pcan
 citations: 235
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.09793'}]
-tags: [Evaluation, CVPR, Datasets]
+tags: ["CVPR", "Datasets", "Evaluation"]
 short_authors: Wenxiao Zhang, Chunxia Xiao
 ---
 Point cloud based retrieval for place recognition is an emerging problem in

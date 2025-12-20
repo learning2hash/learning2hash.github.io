@@ -7,7 +7,7 @@ year: 2018
 bibkey: magliani2018a
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.05022'}]
-tags: [Evaluation, Image Retrieval, Datasets, Neural Hashing]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing"]
 short_authors: Federico Magliani, Tomaso Fontanini, Andrea Prati
 ---
 The recent advances brought by deep learning allowed to improve the

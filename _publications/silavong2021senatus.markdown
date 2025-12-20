@@ -7,8 +7,7 @@ year: 2021
 bibkey: silavong2021senatus
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.04473'}]
-tags: [Tree-based ANN, Evaluation, Efficiency, Neural Hashing, Datasets, Scalability,
-  Hashing Methods, Locality Sensitive Hashing, Recommender Systems]
+tags: ["Datasets", "Evaluation", "Locality-Sensitive-Hashing", "Neural Hashing", "Tree Based ANN"]
 short_authors: Silavong et al.
 ---
 Machine learning on source code (MLOnCode) is a popular research field that

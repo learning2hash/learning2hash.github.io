@@ -7,7 +7,7 @@ year: 2018
 bibkey: noshad2018scalable
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.00398'}]
-tags: [Hashing Methods]
+tags: ["Hashing Methods"]
 short_authors: Morteza Noshad, Alfred O. Hero
 ---
 We propose a scalable divergence estimation method based on hashing. Consider

@@ -7,7 +7,7 @@ year: 2024
 bibkey: nguyenle2024multimodal
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.07584'}]
-tags: [Video Retrieval]
+tags: ["Video Retrieval"]
 short_authors: Quoc-Bao Nguyen-Le, Thanh-Huy Le-Nguyen
 ---
 Current video retrieval systems, especially those used in competitions,

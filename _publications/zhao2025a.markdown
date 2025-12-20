@@ -7,7 +7,7 @@ year: 2025
 bibkey: zhao2025a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.14291'}]
-tags: [Scalability, Similarity Search, Recommender Systems, Efficiency]
+tags: ["Efficiency", "Recommender Systems", "Scalability", "Similarity Search"]
 short_authors: Dongfang Zhao
 ---
 Traditional approaches to vector similarity search over encrypted data rely

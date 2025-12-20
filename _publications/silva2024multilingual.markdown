@@ -8,8 +8,7 @@ year: 2024
 bibkey: silva2024multilingual
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.23370'}]
-tags: [Evaluation, Supervised, Few-shot & Zero-shot, Self-Supervised, Datasets, Multimodal
-    Retrieval, Text Retrieval]
+tags: ["Datasets", "Few Shot & Zero Shot", "Self-Supervised", "Supervised", "Text Retrieval"]
 short_authors: Silva et al.
 ---
 Methods based on Contrastive Language-Image Pre-training (CLIP) are nowadays

@@ -8,7 +8,7 @@ year: 2019
 bibkey: chang2019semi
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.04944'}]
-tags: [Supervised, Image Retrieval, Datasets]
+tags: ["Datasets", "Image Retrieval", "Supervised"]
 short_authors: Chang et al.
 ---
 We present our solution to Landmark Image Retrieval Challenge 2019. This

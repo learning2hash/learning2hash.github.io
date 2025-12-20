@@ -8,7 +8,7 @@ year: 2021
 bibkey: alappat2021cbir
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.14455'}]
-tags: [Image Retrieval, Datasets]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Alappat et al.
 ---
 Much of the recent research work in image retrieval, has been focused around

@@ -10,7 +10,7 @@ year: 2021
 bibkey: ren2021learning
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.13868'}]
-tags: [Evaluation, Datasets, Multimodal Retrieval, Scalability, Text Retrieval, ACL]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Scalability", "Text Retrieval"]
 short_authors: Ren et al.
 ---
 Despite the achievements of large-scale multimodal pre-training approaches,

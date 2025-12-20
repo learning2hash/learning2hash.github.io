@@ -7,7 +7,7 @@ year: 2022
 bibkey: engels2022dessert
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.15748'}]
-tags: [Evaluation, Efficiency]
+tags: ["Efficiency", "Evaluation"]
 short_authors: Engels et al.
 ---
 We study the problem of \(\textit\{vector set search\}\) with \(\textit\{vector set

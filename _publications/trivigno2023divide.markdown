@@ -7,7 +7,7 @@ year: 2023
 bibkey: trivigno2023divide
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.08417'}]
-tags: [Evaluation, ICCV, Image Retrieval, Similarity Search, Datasets]
+tags: ["Datasets", "Evaluation", "ICCV", "Image Retrieval", "Similarity Search"]
 short_authors: Trivigno et al.
 ---
 Visual Place recognition is commonly addressed as an image retrieval problem.

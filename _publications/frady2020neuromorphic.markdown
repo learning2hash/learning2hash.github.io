@@ -8,7 +8,7 @@ year: 2020
 bibkey: frady2020neuromorphic
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.12691'}]
-tags: [Datasets, Efficiency]
+tags: ["Datasets", "Efficiency"]
 short_authors: Frady et al.
 ---
 Neuromorphic computing applies insights from neuroscience to uncover

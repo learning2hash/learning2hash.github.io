@@ -9,7 +9,7 @@ year: 2020
 bibkey: "hofst\xE4tter2020local"
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.04908'}]
-tags: [Text Retrieval, Evaluation, SIGIR, Neural Hashing]
+tags: ["Evaluation", "Neural Hashing", "SIGIR", "Text Retrieval"]
 short_authors: "Hofst\xE4tter et al."
 ---
 Neural networks, particularly Transformer-based architectures, have achieved

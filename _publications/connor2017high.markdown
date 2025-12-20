@@ -7,7 +7,7 @@ year: 2017
 bibkey: connor2017high
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.08370'}]
-tags: [Evaluation, Similarity Search]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: Richard Connor, Lucia Vadicamo, Fausto Rabitti
 ---
 In 1953, Blumenthal showed that every semi-metric space that is isometrically

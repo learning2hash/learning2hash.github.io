@@ -9,7 +9,7 @@ year: 2022
 bibkey: li2022debiasing
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.09240'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Li et al.
 ---
 People frequently interact with information retrieval (IR) systems, however,

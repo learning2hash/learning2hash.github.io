@@ -7,7 +7,7 @@ year: 2024
 bibkey: yu2024improved
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.06703'}]
-tags: [Efficiency]
+tags: ["Efficiency"]
 short_authors: Puxuan Yu, Antonio Mallia, Matthias Petri
 ---
 We explore leveraging corpus-specific vocabularies that improve both

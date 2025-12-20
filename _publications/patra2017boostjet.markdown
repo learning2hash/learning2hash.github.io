@@ -8,7 +8,7 @@ year: 2017
 bibkey: patra2017boostjet
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.05828'}]
-tags: [Scalability, Evaluation, Recommender Systems, Datasets]
+tags: ["Datasets", "Evaluation", "Recommender Systems", "Scalability"]
 short_authors: Patra et al.
 ---
 Recommenders have become widely popular in recent years because of their

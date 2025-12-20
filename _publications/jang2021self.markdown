@@ -7,8 +7,7 @@ year: 2021
 bibkey: jang2021self
 citations: 66
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.02244'}]
-tags: [Evaluation, Supervised, Image Retrieval, ICCV, Neural Hashing, Self-Supervised,
-  Quantization, Scalability, Unsupervised]
+tags: ["Image Retrieval", "Quantization", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Young Kyun Jang, Nam Ik Cho
 ---
 Supervised deep learning-based hash and vector quantization are enabling fast

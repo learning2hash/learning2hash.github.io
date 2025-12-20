@@ -8,7 +8,7 @@ year: 2019
 bibkey: kamper2019semantic
 citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.07078'}]
-tags: [ICASSP, Evaluation]
+tags: ["Evaluation", "ICASSP"]
 short_authors: Herman Kamper, Aristotelis Anastassiou, Karen Livescu
 ---
 A number of recent studies have started to investigate how speech systems can

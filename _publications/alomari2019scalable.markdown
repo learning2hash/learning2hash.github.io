@@ -7,7 +7,7 @@ year: 2019
 bibkey: alomari2019scalable
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.11817'}]
-tags: [Evaluation, Similarity Search, Efficiency]
+tags: ["Efficiency", "Evaluation", "Similarity Search"]
 short_authors: F Alomari, M Harbi
 ---
 Source code similarity are increasingly used in application development to

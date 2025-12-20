@@ -7,7 +7,7 @@ year: 2020
 bibkey: yu2020encode
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.14661'}]
-tags: [Video Retrieval, Evaluation, Efficiency, Tools & Libraries, Hashing Methods]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Tools & Libraries", "Video Retrieval"]
 short_authors: Tong Yu, Nicolas Padoy
 ---
 This paper tackles a new problem in computer vision: mid-stream

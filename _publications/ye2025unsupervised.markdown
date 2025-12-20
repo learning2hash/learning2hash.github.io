@@ -7,8 +7,7 @@ year: 2025
 bibkey: ye2025unsupervised
 citations: 4
 additional_links: [{name: Paper, url: 'https://www.aclweb.org/anthology/2020.findings-emnlp.233.pdf'}]
-tags: [Evaluation, Supervised, Neural Hashing, Datasets, Unsupervised, Hashing Methods,
-  EMNLP, ACL]
+tags: ["Datasets", "Hashing Methods", "Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Fanghua Ye, Manotumruksa, Yilmaz
 ---
 Semantic hashing is a powerful paradigm for

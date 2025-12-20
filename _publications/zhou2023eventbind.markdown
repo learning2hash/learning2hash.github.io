@@ -9,7 +9,7 @@ bibkey: zhou2023eventbind
 citations: 5
 additional_links: [{name: Code, url: 'https://vlislab22.github.io/EventBind/'}, {
     name: Paper, url: 'https://arxiv.org/abs/2308.03135'}]
-tags: [Evaluation, Few-shot & Zero-shot, Datasets, Scalability, Tools & Libraries]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Scalability", "Tools & Libraries"]
 short_authors: Zhou et al.
 ---
 In this paper, we propose EventBind, a novel and effective framework that

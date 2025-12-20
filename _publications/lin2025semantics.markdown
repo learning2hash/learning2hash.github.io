@@ -7,8 +7,7 @@ year: 2025
 bibkey: lin2025semantics
 citations: 554
 additional_links: [{name: Paper, url: 'http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lin_Semantics-Preserving_Hashing_for_2015_CVPR_paper.pdf'}]
-tags: [Evaluation, Supervised, Datasets, Memory Efficiency, Scalability, CVPR, Hashing
-    Methods]
+tags: ["CVPR", "Datasets", "Evaluation", "Hashing Methods", "Supervised"]
 short_authors: Zijia Lin, Ding, Wang
 ---
 With benefits of low storage costs and high query speeds,

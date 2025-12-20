@@ -9,7 +9,7 @@ bibkey: wang2021object
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/FingerRec/OA-Transformer'},
   {name: Paper, url: 'https://arxiv.org/abs/2112.00656'}]
-tags: [Scalability, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Wang et al.
 ---
 Recently, by introducing large-scale dataset and strong transformer network,

@@ -7,7 +7,7 @@ year: 2018
 bibkey: shen2018deep
 citations: 146
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.11178'}]
-tags: [CVPR, Tools & Libraries, Datasets]
+tags: ["CVPR", "Datasets", "Tools & Libraries"]
 short_authors: Shen et al.
 ---
 Person re-identification aims at finding a person of interest in an image

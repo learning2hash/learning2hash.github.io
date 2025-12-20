@@ -7,7 +7,7 @@ year: 2024
 bibkey: hegeman2024compact
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.09255'}]
-tags: [Hashing Methods, Evaluation, Efficiency]
+tags: ["Efficiency", "Evaluation", "Hashing Methods"]
 short_authors: Hegeman et al.
 ---
 On the GPU, hash table operation speed is determined in large part by cache

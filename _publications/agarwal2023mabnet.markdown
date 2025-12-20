@@ -9,7 +9,7 @@ year: 2023
 bibkey: agarwal2023mabnet
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.03050'}]
-tags: [ICASSP, Supervised, Image Retrieval, Re-ranking, Self-Supervised, Datasets]
+tags: ["Datasets", "ICASSP", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Agarwal et al.
 ---
 Image retrieval has garnered growing interest in recent times. The current

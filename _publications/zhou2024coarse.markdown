@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhou2024coarse
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.13119'}]
-tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Datasets, Tools & Libraries]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Tools & Libraries"]
 short_authors: Lifeng Zhou, Yuke Li
 ---
 In this paper, we propose a novel framework for speech-image retrieval. We

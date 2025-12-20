@@ -7,7 +7,7 @@ year: 2021
 bibkey: ciro2021lsh
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.11478'}]
-tags: [Locality Sensitive Hashing, Datasets]
+tags: ["Datasets", "Locality-Sensitive-Hashing"]
 short_authors: Ciro et al.
 ---
 This paper illustrates locality sensitive hasing (LSH) models for the

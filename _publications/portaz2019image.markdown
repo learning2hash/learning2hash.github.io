@@ -9,7 +9,7 @@ year: 2019
 bibkey: portaz2019image
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.11299'}]
-tags: [Efficiency, Tools & Libraries, Datasets, Image Retrieval]
+tags: ["Datasets", "Efficiency", "Image Retrieval", "Tools & Libraries"]
 short_authors: Portaz et al.
 ---
 Multilingual (or cross-lingual) embeddings represent several languages in a

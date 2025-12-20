@@ -7,7 +7,7 @@ year: 2023
 bibkey: jiang2023dual
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.02169'}]
-tags: [Evaluation, Image Retrieval, Datasets, Tools & Libraries, Text Retrieval]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Text Retrieval", "Tools & Libraries"]
 short_authors: Jiang et al.
 ---
 Composed image retrieval, a task involving the search for a target image

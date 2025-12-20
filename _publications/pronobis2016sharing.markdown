@@ -8,7 +8,7 @@ year: 2016
 bibkey: pronobis2016sharing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.03219'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation, Efficiency]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Pronobis et al.
 ---
 Locality sensitive hashing (LSH) is a powerful tool for sublinear-time

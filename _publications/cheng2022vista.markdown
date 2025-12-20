@@ -8,7 +8,7 @@ year: 2022
 bibkey: cheng2022vista
 citations: 81
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.16778'}]
-tags: [Evaluation, Self-Supervised, Multimodal Retrieval, CVPR, Tools & Libraries]
+tags: ["CVPR", "Evaluation", "Multimodal Retrieval", "Self-Supervised", "Tools & Libraries"]
 short_authors: Cheng et al.
 ---
 Visual appearance is considered to be the most important cue to understand

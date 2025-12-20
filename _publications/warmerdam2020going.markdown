@@ -8,7 +8,7 @@ bibkey: warmerdam2020going
 citations: 0
 additional_links: [{name: Other, url: 'https://rasahq.github.io/whatlies/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2009.02113'}]
-tags: [Tools & Libraries]
+tags: ["Tools & Libraries"]
 short_authors: Vincent D. Warmerdam, Thomas Kober, Rachael Tatman
 ---
 We introduce whatlies, an open source toolkit for visually inspecting word

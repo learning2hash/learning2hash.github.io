@@ -8,8 +8,7 @@ year: 2022
 bibkey: hu2022badhash
 citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.00278'}]
-tags: [Evaluation, Image Retrieval, Neural Hashing, Efficiency, Self-Supervised, Datasets,
-  Robustness, Scalability, Hashing Methods]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Hu et al.
 ---
 Due to its powerful feature learning capability and high efficiency, deep

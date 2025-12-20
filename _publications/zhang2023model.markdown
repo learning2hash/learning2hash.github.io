@@ -9,7 +9,7 @@ year: 2023
 bibkey: zhang2023model
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.13335'}]
-tags: [Evaluation, Efficiency, Vector Indexing, Quantization, Text Retrieval]
+tags: ["Efficiency", "Evaluation", "Quantization", "Text Retrieval", "Vector Indexing"]
 short_authors: Zhang et al.
 ---
 Embedding-based retrieval methods construct vector indices to search for

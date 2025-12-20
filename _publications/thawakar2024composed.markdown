@@ -9,8 +9,7 @@ bibkey: thawakar2024composed
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/OmkarThawakar/composed-video-retrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.16997'}]
-tags: [Video Retrieval, Evaluation, Few-shot & Zero-shot, Datasets, CVPR, Tools &
-    Libraries]
+tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Video Retrieval"]
 short_authors: Thawakar et al.
 ---
 Composed video retrieval (CoVR) is a challenging problem in computer vision

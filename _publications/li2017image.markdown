@@ -7,8 +7,7 @@ year: 2017
 bibkey: li2017image
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.05248'}]
-tags: [Evaluation, Supervised, Image Retrieval, Neural Hashing, Datasets, Unsupervised,
-  Hashing Methods, Locality Sensitive Hashing]
+tags: ["Evaluation", "Image Retrieval", "Locality-Sensitive-Hashing", "Supervised", "Unsupervised"]
 short_authors: Hailiang Li, Kin-Man Lam, Miaohui Wang
 ---
 Recent random-forest (RF)-based image super-resolution approaches inherit

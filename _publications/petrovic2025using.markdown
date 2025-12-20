@@ -7,7 +7,7 @@ year: 2025
 bibkey: petrovic2025using
 citations: 97
 additional_links: [{name: Paper, url: 'http://homepages.inf.ed.ac.uk/miles/papers/naacl12.pdf'}]
-tags: [Supervised, Datasets, Unsupervised, Hashing Methods, Locality Sensitive Hashing]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Supervised", "Unsupervised"]
 short_authors: S. Petrovic, Osborne, Lavrenko
 ---
 First story detection (FSD) involves identifying

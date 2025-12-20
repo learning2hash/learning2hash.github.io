@@ -8,8 +8,7 @@ year: 2023
 bibkey: remil2023deeplsh
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.06703'}]
-tags: [Evaluation, Similarity Search, Efficiency, Datasets, Hashing Methods, Locality
-    Sensitive Hashing]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Remil et al.
 ---
 Automatic crash bucketing is a crucial phase in the software development

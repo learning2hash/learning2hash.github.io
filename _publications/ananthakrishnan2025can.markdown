@@ -8,7 +8,7 @@ year: 2025
 bibkey: ananthakrishnan2025can
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.03552'}]
-tags: [Datasets, Efficiency]
+tags: ["Datasets", "Efficiency"]
 short_authors: Ananthakrishnan et al.
 ---
 Cross encoders (CEs) are trained with sentence pairs to detect relatedness.

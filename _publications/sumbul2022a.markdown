@@ -9,7 +9,7 @@ bibkey: sumbul2022a
 citations: 1
 additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/RS-JCIF'}, {name: Paper,
     url: 'https://arxiv.org/abs/2201.06459'}]
-tags: [RSS, Image Retrieval, Hashing Methods, Scalability, Tools & Libraries]
+tags: ["Hashing Methods", "Image Retrieval", "RSS", "Scalability", "Tools & Libraries"]
 short_authors: Sumbul et al.
 ---
 Remote sensing (RS) images are usually stored in compressed format to reduce

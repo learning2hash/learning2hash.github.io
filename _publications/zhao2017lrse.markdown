@@ -8,7 +8,7 @@ year: 2017
 bibkey: zhao2017lrse
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.11056'}]
-tags: [Evaluation, Privacy & Security, Similarity Search, Datasets, Tools & Libraries]
+tags: ["Datasets", "Evaluation", "Privacy & Security", "Similarity Search", "Tools & Libraries"]
 short_authors: Ruihui Zhao, Yuanliang Sun, Mizuho Iwaihara
 ---
 Cloud computing is emerging as a revolutionary computing paradigm, while

@@ -7,7 +7,7 @@ year: 2016
 bibkey: ning2016scalable
 citations: 40
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.04614'}]
-tags: [Evaluation, Image Retrieval, Similarity Search, Datasets, Quantization, Scalability]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Quantization", "Similarity Search"]
 short_authors: Ning et al.
 ---
 Fast Approximate Nearest Neighbor (ANN) search technique for high-dimensional

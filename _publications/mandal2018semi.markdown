@@ -7,8 +7,7 @@ year: 2018
 bibkey: mandal2018semi
 citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.01391'}]
-tags: [Evaluation, Supervised, Datasets, Multimodal Retrieval, Unsupervised, Tools
-    & Libraries]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Supervised", "Unsupervised"]
 short_authors: Devraj Mandal, Pramod Rao, Soma Biswas
 ---
 Due to abundance of data from multiple modalities, cross-modal retrieval

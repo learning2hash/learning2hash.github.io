@@ -9,7 +9,7 @@ bibkey: hoxha2024annotation
 citations: 0
 additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/anneal_tgrs'},
   {name: Paper, url: 'https://arxiv.org/abs/2406.10107'}]
-tags: [Evaluation, Distance Metric Learning, Image Retrieval, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Hoxha et al.
 ---
 Deep metric learning (DML) has shown to be effective for content-based image

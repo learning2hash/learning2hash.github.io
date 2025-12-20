@@ -8,7 +8,7 @@ bibkey: yu2025camel
 citations: 5
 additional_links: [{name: Code, url: 'https://github.com/Jahawn-Wen/CAMeL-reID'},
   {name: Paper, url: 'https://arxiv.org/abs/2504.18782'}]
-tags: [Privacy & Security, Evaluation, Robustness, Scalability, Tools & Libraries]
+tags: ["Evaluation", "Privacy & Security", "Robustness", "Scalability", "Tools & Libraries"]
 short_authors: Hang Yu, Jiahao Wen, Zhedong Zheng
 ---
 Text-based person retrieval aims to identify specific individuals within an

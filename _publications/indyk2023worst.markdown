@@ -8,7 +8,7 @@ year: 2023
 bibkey: indyk2023worst
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.19126'}]
-tags: [Evaluation, Graph-based ANN, Datasets, Efficiency]
+tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN"]
 short_authors: Piotr Indyk, Haike Xu
 ---
 Graph-based approaches to nearest neighbor search are popular and powerful

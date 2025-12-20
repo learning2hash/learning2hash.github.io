@@ -8,7 +8,7 @@ year: 2021
 bibkey: "stegm\xFCller2021detecting"
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.09749'}]
-tags: [Scalability, Evaluation, Large-Scale Search]
+tags: ["Evaluation", "Large Scale Search", "Scalability"]
 short_authors: "Stegm\xFCller et al."
 ---
 Identifying cross-language plagiarism is challenging, especially for distant

@@ -8,7 +8,7 @@ year: 2021
 bibkey: vepakomma2021privatemail
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.10802'}]
-tags: [Privacy & Security, Supervised, Image Retrieval, Re-ranking, Efficiency, Unsupervised]
+tags: ["Efficiency", "Image Retrieval", "Privacy & Security", "Supervised", "Unsupervised"]
 short_authors: Praneeth Vepakomma, Julia Balla, Ramesh Raskar
 ---
 Differential Privacy offers strong guarantees such as immutable privacy under

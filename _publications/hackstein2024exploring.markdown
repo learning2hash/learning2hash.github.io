@@ -9,7 +9,7 @@ bibkey: hackstein2024exploring
 citations: 4
 additional_links: [{name: Code, url: 'https://github.com/jakhac/CSMAE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2401.07782'}]
-tags: [Self-Supervised, Supervised, Image Retrieval, Survey Paper]
+tags: ["Image Retrieval", "Self-Supervised", "Supervised", "Survey Paper"]
 short_authors: Hackstein et al.
 ---
 Self-supervised learning through masked autoencoders (MAEs) has recently

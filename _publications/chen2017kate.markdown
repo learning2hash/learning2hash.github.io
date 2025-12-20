@@ -7,7 +7,7 @@ year: 2017
 bibkey: chen2017kate
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.02033'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Yu Chen, Mohammed J. Zaki
 ---
 Autoencoders have been successful in learning meaningful representations from

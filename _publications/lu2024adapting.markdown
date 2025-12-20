@@ -8,7 +8,7 @@ bibkey: lu2024adapting
 citations: 0
 additional_links: [{name: Other, url: 'https://irvlutd.github.io/NIDSNet/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2405.17859'}]
-tags: [Evaluation, Tools & Libraries, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Lu et al.
 ---
 Novel Instance Detection and Segmentation (NIDS) aims at detecting and

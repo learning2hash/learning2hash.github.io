@@ -7,7 +7,7 @@ year: 2020
 bibkey: borthwick2020scalable
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.08285'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Borthwick et al.
 ---
 In the field of database deduplication, the goal is to find approximately

@@ -8,7 +8,7 @@ year: 2020
 bibkey: zhang2020spatial
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.03169'}]
-tags: [Scalability, Distance Metric Learning, Evaluation, Re-ranking]
+tags: ["Distance Metric Learning", "Evaluation", "Re-Ranking", "Scalability"]
 short_authors: Zhang et al.
 ---
 We propose spatial semantic embedding network (SSEN), a simple, yet efficient

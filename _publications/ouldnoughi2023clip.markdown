@@ -7,7 +7,7 @@ year: 2023
 bibkey: ouldnoughi2023clip
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.10420'}]
-tags: [Evaluation, Supervised, Few-shot & Zero-shot, Self-Supervised, Datasets]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Self-Supervised", "Supervised"]
 short_authors: Rabah Ouldnoughi, Chia-Wen Kuo, Zsolt Kira
 ---
 Generalized Category Discovery (GCD) requires a model to both classify known

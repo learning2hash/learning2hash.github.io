@@ -8,7 +8,7 @@ bibkey: jeong20254bit
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/taeheej/4bit-Quantization-in-Vector-Embedding-for-RAG'},
   {name: Paper, url: 'https://arxiv.org/abs/2501.10534'}]
-tags: [Evaluation, Quantization]
+tags: ["Evaluation", "Quantization"]
 short_authors: Taehee Jeong
 ---
 Retrieval-augmented generation (RAG) is a promising technique that has shown

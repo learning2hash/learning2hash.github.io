@@ -8,7 +8,7 @@ bibkey: ji2023hierarchical
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/LZH-053/HMRN'}, {name: Paper,
     url: 'https://arxiv.org/abs/2306.14460'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Ji et al.
 ---
 As a promising field, Multi-Query Image Retrieval (MQIR) aims at searching

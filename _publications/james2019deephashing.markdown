@@ -7,8 +7,7 @@ year: 2019
 bibkey: james2019deephashing
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.10822'}]
-tags: [Evaluation, Image Retrieval, Neural Hashing, Similarity Search, Distance Metric
-    Learning, Scalability, Hashing Methods]
+tags: ["Distance Metric Learning", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Similarity Search"]
 short_authors: Jithin James
 ---
 Hashing is one of the most efficient techniques for approximate nearest

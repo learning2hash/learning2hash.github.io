@@ -8,7 +8,7 @@ year: 2018
 bibkey: iwasaki2018optimization
 citations: 39
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.07355'}]
-tags: [Graph-based ANN, Efficiency]
+tags: ["Efficiency", "Graph Based ANN"]
 short_authors: Masajiro Iwasaki, Daisuke Miyazaki
 ---
 Searching for high-dimensional vector data with high accuracy is an

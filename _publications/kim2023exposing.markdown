@@ -9,8 +9,7 @@ bibkey: kim2023exposing
 citations: 28
 additional_links: [{name: Code, url: 'https://github.com/ExplainableML/Spurious_CM_Retrieval'},
   {name: Paper, url: 'https://arxiv.org/abs/2304.03391'}]
-tags: [Evaluation, Robustness, Multimodal Retrieval, CVPR, Tools & Libraries, Text
-    Retrieval]
+tags: ["CVPR", "Evaluation", "Multimodal Retrieval", "Robustness", "Text Retrieval"]
 short_authors: Kim et al.
 ---
 Cross-modal retrieval methods are the preferred tool to search databases for

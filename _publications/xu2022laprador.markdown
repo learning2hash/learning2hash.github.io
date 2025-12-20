@@ -7,8 +7,7 @@ year: 2022
 bibkey: xu2022laprador
 citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.06169'}]
-tags: [Evaluation, Supervised, Re-ranking, Few-shot & Zero-shot, Self-Supervised,
-  Datasets, Unsupervised, Text Retrieval, Hybrid ANN Methods, ACL]
+tags: ["Few Shot & Zero Shot", "Self-Supervised", "Supervised", "Text Retrieval", "Unsupervised"]
 short_authors: Xu et al.
 ---
 In this paper, we propose LaPraDoR, a pretrained dual-tower dense retriever

@@ -7,8 +7,7 @@ year: 2025
 bibkey: song2025top
 citations: 79
 additional_links: [{name: Paper, url: 'http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Song_Top_Rank_Supervised_ICCV_2015_paper.pdf'}]
-tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, ICCV, Efficiency, Datasets,
-  Scalability]
+tags: ["Compact Codes", "Datasets", "Efficiency", "Image Retrieval", "Supervised"]
 short_authors: Song et al.
 ---
 In recent years, binary coding techniques are becoming

@@ -7,7 +7,7 @@ year: 2023
 bibkey: chen2023multi
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.06304'}]
-tags: [Evaluation, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Chen et al.
 ---
 Few-Shot Segmentation (FSS) is challenging for limited support images and

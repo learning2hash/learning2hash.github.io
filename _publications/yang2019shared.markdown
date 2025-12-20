@@ -7,8 +7,7 @@ year: 2019
 bibkey: yang2019shared
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.07488'}]
-tags: [Compact Codes, Evaluation, Supervised, Similarity Search, Quantization, Hashing
-    Methods]
+tags: ["Compact Codes", "Hashing Methods", "Quantization", "Similarity Search", "Supervised"]
 short_authors: Yang et al.
 ---
 With explosive growth of data volume and ever-increasing diversity of data

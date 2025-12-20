@@ -7,7 +7,7 @@ year: 2017
 bibkey: zieba2017training
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.02227'}]
-tags: [Evaluation, Datasets, Robustness]
+tags: ["Datasets", "Evaluation", "Robustness"]
 short_authors: MacIej Zieba, Lei Wang
 ---
 Triplet networks are widely used models that are characterized by good

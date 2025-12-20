@@ -7,7 +7,7 @@ year: 2018
 bibkey: srinivas2018merging
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.01604'}]
-tags: [Evaluation, Distance Metric Learning, Datasets, Neural Hashing]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Neural Hashing"]
 short_authors: Kavitha Srinivas, Abraham Gale, Julian Dolby
 ---
 Merging datasets is a key operation for data analytics. A frequent

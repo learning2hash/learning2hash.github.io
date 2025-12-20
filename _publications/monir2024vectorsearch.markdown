@@ -8,7 +8,7 @@ year: 2024
 bibkey: monir2024vectorsearch
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.17383'}]
-tags: [Text Retrieval, Scalability, Neural Hashing, Datasets]
+tags: ["Datasets", "Neural Hashing", "Scalability", "Text Retrieval"]
 short_authors: Monir et al.
 ---
 Traditional retrieval methods have been essential for assessing document

@@ -9,7 +9,7 @@ bibkey: diwan2022why
 citations: 14
 additional_links: [{name: Code, url: 'https://github.com/ajd12342/why-winoground-hard'},
   {name: Paper, url: 'https://arxiv.org/abs/2211.00768'}]
-tags: [EMNLP, Image Retrieval, Datasets]
+tags: ["Datasets", "EMNLP", "Image Retrieval"]
 short_authors: Diwan et al.
 ---
 Recent visuolinguistic pre-trained models show promising progress on various

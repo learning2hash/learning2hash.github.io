@@ -7,7 +7,7 @@ year: 2017
 bibkey: sicre2017unsupervised
 citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.03755'}]
-tags: [Evaluation, Supervised, Image Retrieval, CVPR, Unsupervised]
+tags: ["CVPR", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Sicre et al.
 ---
 Part-based image classification aims at representing categories by small sets

@@ -7,7 +7,7 @@ year: 2019
 bibkey: "sim\xE9oni2019local"
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.06358'}]
-tags: [Evaluation, CVPR, Image Retrieval]
+tags: ["CVPR", "Evaluation", "Image Retrieval"]
 short_authors: "Oriane Sim\xE9oni, Yannis Avrithis, Ondrej Chum"
 ---
 We propose a novel method of deep spatial matching (DSM) for image retrieval.

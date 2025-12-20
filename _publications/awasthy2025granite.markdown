@@ -11,7 +11,7 @@ bibkey: awasthy2025granite
 citations: 0
 additional_links: [{name: Code, url: 'https://huggingface.co/collections/ibm-granite'},
   {name: Paper, url: 'https://arxiv.org/abs/2502.20204'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Awasthy et al.
 ---
 We introduce the Granite Embedding models, a family of encoder-based

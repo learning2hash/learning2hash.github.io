@@ -7,7 +7,7 @@ year: 2023
 bibkey: zhu2023fashion
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.08902'}]
-tags: [Image Retrieval, Datasets]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Zhu et al.
 ---
 Fashion image retrieval task aims to search relevant clothing items of a

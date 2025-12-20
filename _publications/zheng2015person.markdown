@@ -7,7 +7,7 @@ year: 2015
 bibkey: zheng2015person
 citations: 63
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1502.02171'}]
-tags: [Supervised, Image Retrieval, Datasets, Unsupervised]
+tags: ["Datasets", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Zheng et al.
 ---
 For long time, person re-identification and image search are two separately

@@ -8,7 +8,7 @@ year: 2023
 bibkey: liu2023semdiff
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.01463'}]
-tags: [Evaluation, Graph-based ANN, Tools & Libraries]
+tags: ["Evaluation", "Graph Based ANN", "Tools & Libraries"]
 short_authors: Liu et al.
 ---
 Binary similarity detection is a critical technique that has been applied in

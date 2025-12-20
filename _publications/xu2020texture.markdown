@@ -7,7 +7,7 @@ year: 2020
 bibkey: xu2020texture
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.13240'}]
-tags: [Evaluation, Tools & Libraries, Datasets]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Xu et al.
 ---
 Patch-based methods and deep networks have been employed to tackle image

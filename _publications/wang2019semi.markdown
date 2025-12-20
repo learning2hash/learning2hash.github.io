@@ -7,7 +7,7 @@ year: 2019
 bibkey: wang2019semi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.10514'}]
-tags: [Evaluation, Supervised, Neural Hashing, Datasets, Scalability, Tools & Libraries]
+tags: ["Datasets", "Evaluation", "Neural Hashing", "Scalability", "Supervised"]
 short_authors: Wang et al.
 ---
 Semi-supervised learning (SSL) provides a powerful framework for leveraging

@@ -8,7 +8,7 @@ year: 2022
 bibkey: hu2022content
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.04201'}]
-tags: [Evaluation, Re-ranking, Distance Metric Learning, Datasets, Hybrid ANN Methods]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Hu et al.
 ---
 In this work, we present a method for landmark retrieval that utilizes global

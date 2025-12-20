@@ -7,7 +7,7 @@ year: 2018
 bibkey: schlegel2018adding
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.06690'}]
-tags: [Evaluation, Image Retrieval, Distance Metric Learning, Datasets, ICRA]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "ICRA", "Image Retrieval"]
 short_authors: Dominik Schlegel, Giorgio Grisetti
 ---
 In this paper we propose an approach to embed continuous and selector cues in

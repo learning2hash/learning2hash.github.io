@@ -8,7 +8,7 @@ year: 2022
 bibkey: gao2022long
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.15162'}]
-tags: [Hashing Methods, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Hashing Methods"]
 short_authors: Gao et al.
 ---
 Existing Cross Modal Hashing (CMH) methods are mainly designed for balanced

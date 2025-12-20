@@ -8,7 +8,7 @@ year: 2021
 bibkey: salhagalvan2021cold
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.01053'}]
-tags: [Tools & Libraries, RecSys]
+tags: ["Tools & Libraries"]
 short_authors: Salha-Galvan et al.
 ---
 On an artist's profile page, music streaming services frequently recommend a

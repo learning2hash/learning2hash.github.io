@@ -10,7 +10,7 @@ year: 2021
 bibkey: zang2021photochat
 citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.01453'}]
-tags: [Evaluation, Image Retrieval, Datasets, ACL]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Zang et al.
 ---
 We present a new human-human dialogue dataset - PhotoChat, the first dataset

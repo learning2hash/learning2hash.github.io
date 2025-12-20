@@ -8,8 +8,7 @@ year: 2021
 bibkey: chen2021dvhn
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.04937'}]
-tags: [Compact Codes, Evaluation, Neural Hashing, Efficiency, Datasets, Memory Efficiency,
-  Scalability, Tools & Libraries, Hashing Methods]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Memory Efficiency", "Neural Hashing"]
 short_authors: Chen et al.
 ---
 In this paper, we make the very first attempt to investigate the integration

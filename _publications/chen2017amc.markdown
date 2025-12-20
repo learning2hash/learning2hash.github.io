@@ -7,7 +7,7 @@ year: 2017
 bibkey: chen2017amc
 citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.00763'}]
-tags: [CVPR, Image Retrieval, Datasets]
+tags: ["CVPR", "Datasets", "Image Retrieval"]
 short_authors: Chen et al.
 ---
 Given a user's query, traditional image search systems rank images according

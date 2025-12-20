@@ -9,8 +9,7 @@ bibkey: he2024hybridhash
 citations: 14
 additional_links: [{name: Code, url: 'https://github.com/shuaichaochao/HybridHash'},
   {name: Paper, url: 'https://arxiv.org/abs/2405.07524'}]
-tags: [Image Retrieval, Neural Hashing, Hashing Methods, Scalability, Datasets, Evaluation,
-  Multimodal Retrieval]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Neural Hashing"]
 short_authors: Chao He, Hongxi Wei
 ---
 Deep image hashing aims to map input images into simple binary hash codes via

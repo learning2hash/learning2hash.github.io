@@ -8,7 +8,7 @@ year: 2024
 bibkey: wang2024learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.17490'}]
-tags: [Distance Metric Learning, Image Retrieval, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Wang et al.
 ---
 Structuring latent representations in a hierarchical manner enables models to

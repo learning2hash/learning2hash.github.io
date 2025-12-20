@@ -8,7 +8,7 @@ year: 2015
 bibkey: neelakantan2015efficient
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1504.06654'}]
-tags: [Scalability, Efficiency]
+tags: ["Efficiency", "Scalability"]
 short_authors: Neelakantan et al.
 ---
 There is rising interest in vector-space word embeddings and their use in

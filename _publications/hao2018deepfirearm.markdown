@@ -8,7 +8,7 @@ year: 2018
 bibkey: hao2018deepfirearm
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.02984'}]
-tags: [Evaluation, Distance Metric Learning, Image Retrieval, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Hao et al.
 ---
 There are great demands for automatically regulating inappropriate appearance

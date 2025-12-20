@@ -9,7 +9,7 @@ bibkey: li2024making
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/FlagOpen/FlagEmbedding'},
   {name: Paper, url: 'https://arxiv.org/abs/2409.15700'}]
-tags: [Evaluation, Tools & Libraries, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Li et al.
 ---
 Large language models (LLMs) with decoder-only architectures demonstrate

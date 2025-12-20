@@ -8,7 +8,7 @@ year: 2023
 bibkey: um2023vector
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.05118'}]
-tags: [Evaluation, Similarity Search]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: Daniel H. Um, David A. Knowles, Gail E. Kaiser
 ---
 This paper demonstrates the utility of organized numerical representations of

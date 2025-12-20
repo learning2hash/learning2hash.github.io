@@ -10,7 +10,7 @@ year: 2021
 bibkey: maillard2021multi
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.00117'}]
-tags: [Evaluation, Few-shot & Zero-shot, ACL]
+tags: ["Evaluation", "Few Shot & Zero Shot"]
 short_authors: Maillard et al.
 ---
 Retrieving relevant contexts from a large corpus is a crucial step for tasks

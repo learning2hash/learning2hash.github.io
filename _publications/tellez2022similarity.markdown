@@ -8,7 +8,7 @@ year: 2022
 bibkey: tellez2022similarity
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.07917'}]
-tags: [Evaluation, Similarity Search]
+tags: ["Evaluation", "Similarity Search"]
 short_authors: Eric S. Tellez, Guillermo Ruiz
 ---
 This manuscript introduces an autotuned algorithm for searching nearest

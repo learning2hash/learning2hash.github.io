@@ -7,7 +7,7 @@ year: 2019
 bibkey: ozaki2019large
 citations: 28
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.04087'}]
-tags: [Re-ranking, Distance Metric Learning, Datasets, Scalability, Hybrid ANN Methods]
+tags: ["Datasets", "Distance Metric Learning", "Hybrid ANN Methods", "Re-Ranking", "Scalability"]
 short_authors: Kohei Ozaki, Shuhei Yokoo
 ---
 The Google-Landmarks-v2 dataset is the biggest worldwide landmarks dataset

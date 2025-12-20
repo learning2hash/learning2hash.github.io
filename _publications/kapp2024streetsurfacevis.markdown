@@ -8,7 +8,7 @@ year: 2024
 bibkey: kapp2024streetsurfacevis
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.21454'}]
-tags: [Datasets, Similarity Search]
+tags: ["Datasets", "Similarity Search"]
 short_authors: Kapp et al.
 ---
 Road unevenness significantly impacts the safety and comfort of traffic

@@ -8,8 +8,7 @@ year: 2023
 bibkey: wei2023chain
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.18926'}]
-tags: [Compact Codes, Evaluation, Video Retrieval, Supervised, Self-Supervised, Datasets,
-  Tools & Libraries, Hashing Methods]
+tags: ["Datasets", "Hashing Methods", "Self-Supervised", "Supervised", "Video Retrieval"]
 short_authors: Wei et al.
 ---
 Compressing videos into binary codes can improve retrieval speed and reduce

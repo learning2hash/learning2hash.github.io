@@ -8,7 +8,7 @@ year: 2022
 bibkey: erhardt2022logic
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.00200'}]
-tags: [Tools & Libraries]
+tags: ["Tools & Libraries"]
 short_authors: Erhardt et al.
 ---
 Logic Mill is a scalable and openly accessible software system that

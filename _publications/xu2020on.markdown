@@ -8,8 +8,7 @@ year: 2020
 bibkey: xu2020on
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.04101'}]
-tags: [Evaluation, Few-shot & Zero-shot, Neural Hashing, Datasets, Scalability, Tools
-    & Libraries, Large-Scale Search, Hashing Methods]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Hashing Methods", "Large Scale Search", "Neural Hashing"]
 short_authors: Xu et al.
 ---
 In this paper, we study learning semantic representations for million-scale

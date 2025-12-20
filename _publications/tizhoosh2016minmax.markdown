@@ -7,7 +7,7 @@ year: 2016
 bibkey: tizhoosh2016minmax
 citations: 38
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.00318'}]
-tags: [Image Retrieval, Datasets]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Tizhoosh et al.
 ---
 Content-based medical image retrieval can support diagnostic decisions by

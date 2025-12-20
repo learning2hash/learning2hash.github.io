@@ -8,8 +8,7 @@ year: 2023
 bibkey: li2023challenging
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.13197'}]
-tags: [Evaluation, Supervised, Few-shot & Zero-shot, Datasets, Scalability, Unsupervised,
-  Tools & Libraries]
+tags: ["Datasets", "Few Shot & Zero Shot", "Scalability", "Supervised", "Unsupervised"]
 short_authors: Li et al.
 ---
 Recently, various studies have been directed towards exploring dense passage

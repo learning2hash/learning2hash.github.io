@@ -7,7 +7,7 @@ year: 2017
 bibkey: jin2017deep
 citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.03332'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Jin et al.
 ---
 Person re-identification task has been greatly boosted by deep convolutional

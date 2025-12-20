@@ -8,7 +8,7 @@ bibkey: choudhury2021the
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/subhc/clever'}, {name: Paper,
     url: 'https://arxiv.org/abs/2111.03651'}]
-tags: [Datasets, Multimodal Retrieval]
+tags: ["Datasets", "Multimodal Retrieval"]
 short_authors: Choudhury et al.
 ---
 Most of us are not experts in specific fields, such as ornithology.

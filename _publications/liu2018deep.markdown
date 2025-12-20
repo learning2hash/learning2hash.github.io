@@ -7,7 +7,7 @@ year: 2018
 bibkey: liu2018deep
 citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.01496'}]
-tags: [Quantization, Datasets, Robustness]
+tags: ["Datasets", "Quantization", "Robustness"]
 short_authors: Liu et al.
 ---
 We present a lossy image compression method based on deep convolutional

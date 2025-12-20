@@ -7,7 +7,7 @@ year: 2019
 bibkey: xu2019robust
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.07076'}]
-tags: [Evaluation, Distance Metric Learning, Datasets, Robustness]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Robustness"]
 short_authors: Xu et al.
 ---
 In recent years, the learned local descriptors have outperformed handcrafted

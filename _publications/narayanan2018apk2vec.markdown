@@ -8,8 +8,7 @@ year: 2018
 bibkey: narayanan2018apk2vec
 citations: 29
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.05693'}]
-tags: [Evaluation, Supervised, Scalability, Tools & Libraries, Hashing Methods, Recommender
-    Systems]
+tags: ["Evaluation", "Hashing Methods", "Recommender Systems", "Supervised", "Tools & Libraries"]
 short_authors: Narayanan et al.
 ---
 Building behavior profiles of Android applications (apps) with holistic, rich

@@ -7,8 +7,7 @@ year: 2017
 bibkey: qi2017an
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.07750'}]
-tags: [Evaluation, Image Retrieval, Neural Hashing, Efficiency, Datasets, Hashing
-    Methods]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing"]
 short_authors: Heng Qi, Wu Liu, Liang Liu
 ---
 Mobile visual search applications are emerging that enable users to sense

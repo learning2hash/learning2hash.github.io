@@ -7,7 +7,7 @@ year: 2020
 bibkey: li2020sea
 citations: 53
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.12091'}]
-tags: [Video Retrieval, Evaluation]
+tags: ["Evaluation", "Video Retrieval"]
 short_authors: Li et al.
 ---
 Retrieving unlabeled videos by textual queries, known as Ad-hoc Video Search

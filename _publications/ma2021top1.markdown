@@ -8,7 +8,7 @@ year: 2021
 bibkey: ma2021top1
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.01677'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Zhuoran Ma, Majing Lou, Xuan Ouyang
 ---
 In this paper, we describe the solution to the QQ Browser 2021 Ai Algorithm

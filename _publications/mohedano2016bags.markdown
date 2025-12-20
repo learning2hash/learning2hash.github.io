@@ -9,7 +9,7 @@ year: 2016
 bibkey: mohedano2016bags
 citations: 155
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.04653'}]
-tags: [Evaluation, Hybrid ANN Methods, Re-ranking, Multimodal Retrieval]
+tags: ["Evaluation", "Hybrid ANN Methods", "Multimodal Retrieval", "Re-Ranking"]
 short_authors: Mohedano et al.
 ---
 This work proposes a simple instance retrieval pipeline based on encoding the

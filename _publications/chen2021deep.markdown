@@ -8,7 +8,7 @@ year: 2021
 bibkey: chen2021deep
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.11282'}]
-tags: [Evaluation, Image Retrieval, Neural Hashing, Efficiency, Survey Paper]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Neural Hashing", "Survey Paper"]
 short_authors: Chen et al.
 ---
 In recent years a vast amount of visual content has been generated and shared

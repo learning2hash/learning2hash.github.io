@@ -8,7 +8,7 @@ year: 2020
 bibkey: singh2020robust
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.01887'}]
-tags: [Hashing Methods]
+tags: ["Hashing Methods"]
 short_authors: Priyanka Singh
 ---
 The Internet has been weaponized to carry out cybercriminal activities at an

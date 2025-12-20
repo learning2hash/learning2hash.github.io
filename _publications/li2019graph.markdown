@@ -7,7 +7,7 @@ year: 2019
 bibkey: li2019graph
 citations: 234
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.12787'}]
-tags: [Supervised, Graph-based ANN, Similarity Search]
+tags: ["Graph Based ANN", "Similarity Search", "Supervised"]
 short_authors: Li et al.
 ---
 This paper addresses the challenging problem of retrieval and matching of

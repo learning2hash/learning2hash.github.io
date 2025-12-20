@@ -7,7 +7,7 @@ year: 2023
 bibkey: weng2023constant
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.03612'}]
-tags: [Compact Codes, Datasets, Efficiency]
+tags: ["Compact Codes", "Datasets", "Efficiency"]
 short_authors: Weng et al.
 ---
 Representing visual data using compact binary codes is attracting increasing

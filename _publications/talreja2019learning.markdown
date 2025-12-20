@@ -8,8 +8,7 @@ year: 2019
 bibkey: talreja2019learning
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.04149'}]
-tags: [Compact Codes, Evaluation, Neural Hashing, Datasets, Tools & Libraries, Hashing
-    Methods]
+tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Neural Hashing"]
 short_authors: Talreja et al.
 ---
 In this paper, we propose a novel multimodal deep hashing neural decoder

@@ -8,8 +8,7 @@ year: 2024
 bibkey: jiang2024arnet
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.11551'}]
-tags: [Evaluation, Supervised, Image Retrieval, Distance Metric Learning, Self-Supervised,
-  Datasets, Scalability, Tools & Libraries]
+tags: ["Distance Metric Learning", "Image Retrieval", "Scalability", "Self-Supervised", "Supervised"]
 short_authors: Jiang et al.
 ---
 Fine-Grained Sketch-Based Image Retrieval (FG-SBIR) aims to minimize the

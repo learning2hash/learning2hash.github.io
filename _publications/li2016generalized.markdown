@@ -7,7 +7,7 @@ year: 2016
 bibkey: li2016generalized
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.09283'}]
-tags: [Hashing Methods, Datasets]
+tags: ["Datasets", "Hashing Methods"]
 short_authors: Ping Li
 ---
 Following the very recent line of work on the ``generalized min-max'' (GMM)

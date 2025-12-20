@@ -7,7 +7,7 @@ year: 2024
 bibkey: grosjean2024fine
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.07513'}]
-tags: [Text Retrieval, Self-Supervised]
+tags: ["Self-Supervised", "Text Retrieval"]
 short_authors: Juri Grosjean, Jannis Vamvas
 ---
 Encoder models trained for the embedding of sentences or short documents have

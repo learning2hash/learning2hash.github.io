@@ -8,7 +8,7 @@ year: 2025
 bibkey: kovalev2025building
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.12879'}]
-tags: [Evaluation, Few-shot & Zero-shot, Datasets, Tools & Libraries, Text Retrieval]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval", "Tools & Libraries"]
 short_authors: Kovalev et al.
 ---
 We introduce RusBEIR, a comprehensive benchmark designed for zero-shot

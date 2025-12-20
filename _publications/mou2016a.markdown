@@ -7,7 +7,7 @@ year: 2016
 bibkey: mou2016a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.04571'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation, Efficiency]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Wenlong Mou, Liwei Wang
 ---
 Near neighbor problems are fundamental in algorithms for high-dimensional

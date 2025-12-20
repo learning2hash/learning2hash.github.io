@@ -7,7 +7,7 @@ year: 2024
 bibkey: mehrotra2024building
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.04357'}]
-tags: [Re-ranking, Datasets]
+tags: ["Datasets", "Re-Ranking"]
 short_authors: Harshit Mehrotra, Jamie Callan, Zhen Fan
 ---
 The ClueWeb22 dataset containing nearly 10 billion documents was released in

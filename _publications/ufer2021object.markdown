@@ -8,7 +8,7 @@ year: 2021
 bibkey: ufer2021object
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.06935'}]
-tags: [Datasets, Similarity Search]
+tags: ["Datasets", "Similarity Search"]
 short_authors: "Nikolai Ufer, Sabine Lang, Bj\xF6rn Ommer"
 ---
 The search for specific objects or motifs is essential to art history as both

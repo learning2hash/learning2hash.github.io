@@ -9,8 +9,7 @@ bibkey: mikriukov2022deep
 citations: 20
 additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/duch'}, {name: Paper,
     url: 'https://arxiv.org/abs/2201.08125'}]
-tags: [Evaluation, Supervised, Image Retrieval, Similarity Search, Robustness, Multimodal
-    Retrieval, Scalability, Unsupervised, Hashing Methods]
+tags: ["Hashing Methods", "Image Retrieval", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: "Georgii Mikriukov, Mahdyar Ravanbakhsh, Beg\xFCm Demir"
 ---
 Due to the availability of large-scale multi-modal data (e.g., satellite

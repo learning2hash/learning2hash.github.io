@@ -8,7 +8,7 @@ year: 2021
 bibkey: gurawa2021drug
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.13047'}]
-tags: [Scalability, Recommender Systems]
+tags: ["Recommender Systems", "Scalability"]
 short_authors: Prakhar Gurawa, Matthias Nickles
 ---
 The paper utilizes the graph embeddings generated for entities of a large

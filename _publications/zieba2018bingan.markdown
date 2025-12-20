@@ -7,7 +7,7 @@ year: 2018
 bibkey: zieba2018bingan
 citations: 38
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.06778'}]
-tags: [Hashing Methods, Robustness]
+tags: ["Hashing Methods", "Robustness"]
 short_authors: Zieba et al.
 ---
 In this paper, we propose a novel regularization method for Generative

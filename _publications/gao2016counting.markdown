@@ -7,7 +7,7 @@ year: 2016
 bibkey: gao2016counting
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.01109'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Gao et al.
 ---
 Event retrieval and recognition in a large corpus of videos necessitates a

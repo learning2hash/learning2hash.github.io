@@ -8,7 +8,7 @@ year: 2019
 bibkey: wang2019centroid
 citations: 102
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.02375'}]
-tags: [Evaluation, Distance Metric Learning, ICASSP, Few-shot & Zero-shot]
+tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "ICASSP"]
 short_authors: Wang et al.
 ---
 Speaker embedding models that utilize neural networks to map utterances to a

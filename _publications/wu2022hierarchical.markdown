@@ -7,7 +7,7 @@ year: 2022
 bibkey: wu2022hierarchical
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.11209'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Survey Paper]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Survey Paper"]
 short_authors: Wei Wu, Bin Li
 ---
 Data similarity (or distance) computation is a fundamental research topic

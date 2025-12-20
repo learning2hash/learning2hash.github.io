@@ -9,8 +9,7 @@ year: 2020
 bibkey: dadaneh2020pairwise
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.10477'}]
-tags: [Evaluation, Supervised, Neural Hashing, Similarity Search, Scalability, UAI,
-  Tools & Libraries, Hashing Methods, Text Retrieval]
+tags: ["Hashing Methods", "Neural Hashing", "Similarity Search", "Supervised", "Text Retrieval"]
 short_authors: Dadaneh et al.
 ---
 Semantic hashing has become a crucial component of fast similarity search in

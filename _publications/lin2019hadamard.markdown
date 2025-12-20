@@ -8,8 +8,7 @@ bibkey: lin2019hadamard
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/lmbxmu/mycode'}, {name: Paper,
     url: 'https://arxiv.org/abs/1905.04454'}]
-tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Efficiency, Scalability,
-  Hashing Methods, Locality Sensitive Hashing]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing", "Supervised"]
 short_authors: Lin et al.
 ---
 Online image hashing has attracted increasing research attention recently,

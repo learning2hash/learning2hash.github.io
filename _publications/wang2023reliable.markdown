@@ -8,8 +8,7 @@ year: 2023
 bibkey: wang2023reliable
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.12658'}]
-tags: [Evaluation, Image Retrieval, Neural Hashing, Efficiency, Datasets, Robustness,
-  Hashing Methods]
+tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness"]
 short_authors: Wang et al.
 ---
 Deep hashing has been extensively applied to massive image retrieval due to

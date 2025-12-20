@@ -7,7 +7,7 @@ year: 2023
 bibkey: kim2023contrastive
 citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.00775'}]
-tags: [Evaluation, ICCV, Few-shot & Zero-shot, Self-Supervised, Text Retrieval]
+tags: ["Evaluation", "Few Shot & Zero Shot", "ICCV", "Self-Supervised", "Text Retrieval"]
 short_authors: Dahun Kim, Anelia Angelova, Weicheng Kuo
 ---
 We present Contrastive Feature Masking Vision Transformer (CFM-ViT) - an

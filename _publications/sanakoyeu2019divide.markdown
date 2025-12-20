@@ -7,7 +7,7 @@ year: 2019
 bibkey: sanakoyeu2019divide
 citations: 113
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.05990'}]
-tags: [Evaluation, Distance Metric Learning, CVPR, Datasets]
+tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Sanakoyeu et al.
 ---
 Learning the embedding space, where semantically similar objects are located

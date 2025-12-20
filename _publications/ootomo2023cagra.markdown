@@ -8,7 +8,7 @@ year: 2023
 bibkey: ootomo2023cagra
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.15136'}]
-tags: [Evaluation, Graph-based ANN, Recommender Systems, Efficiency]
+tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Recommender Systems"]
 short_authors: Ootomo et al.
 ---
 Approximate Nearest Neighbor Search (ANNS) plays a critical role in various

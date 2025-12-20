@@ -7,7 +7,7 @@ year: 2024
 bibkey: jang2024mate
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.09541'}]
-tags: [Evaluation, Multimodal Retrieval]
+tags: ["Evaluation", "Multimodal Retrieval"]
 short_authors: Jang et al.
 ---
 While advancements in Vision Language Models (VLMs) have significantly

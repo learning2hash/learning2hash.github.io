@@ -9,8 +9,7 @@ year: 2024
 bibkey: tian2024fusionanns
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.16576'}]
-tags: [Evaluation, Re-ranking, Efficiency, Datasets, Scalability, Large-Scale Search,
-  Recommender Systems, Hybrid ANN Methods]
+tags: ["Datasets", "Efficiency", "Hybrid ANN Methods", "Large Scale Search", "Re-Ranking"]
 short_authors: Tian et al.
 ---
 Approximate nearest neighbor search (ANNS) has emerged as a crucial component

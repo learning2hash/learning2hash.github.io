@@ -9,7 +9,7 @@ year: 2016
 bibkey: zhang2016neural
 citations: 44
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.06792'}]
-tags: [Evaluation, Neural Hashing, Survey Paper]
+tags: ["Evaluation", "Neural Hashing", "Survey Paper"]
 short_authors: Zhang et al.
 ---
 A recent "third wave" of Neural Network (NN) approaches now delivers

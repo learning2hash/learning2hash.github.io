@@ -8,7 +8,7 @@ year: 2022
 bibkey: primus2022improving
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.11460'}]
-tags: [Evaluation, Neural Hashing, Datasets, Audio Retrieval]
+tags: ["Audio Retrieval", "Datasets", "Evaluation", "Neural Hashing"]
 short_authors: Paul Primus, Gerhard Widmer
 ---
 The absence of large labeled datasets remains a significant challenge in many

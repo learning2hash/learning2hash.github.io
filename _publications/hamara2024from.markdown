@@ -8,7 +8,7 @@ year: 2024
 bibkey: hamara2024from
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.10528'}]
-tags: [Few-shot & Zero-shot, Multimodal Retrieval]
+tags: ["Few Shot & Zero Shot", "Multimodal Retrieval"]
 short_authors: Andrew Hamara, Pablo Rivas
 ---
 This study investigates ImageBind's ability to generate meaningful fused

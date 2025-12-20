@@ -7,7 +7,7 @@ year: 2017
 bibkey: hussein2017unified
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.02148'}]
-tags: [Video Retrieval, Distance Metric Learning, CVPR, Datasets]
+tags: ["CVPR", "Datasets", "Distance Metric Learning", "Video Retrieval"]
 short_authors: Noureldien Hussein, Efstratios Gavves, Arnold W. M. Smeulders
 ---
 Event detection in unconstrained videos is conceived as a content-based video

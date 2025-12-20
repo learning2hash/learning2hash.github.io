@@ -7,8 +7,7 @@ year: 2025
 bibkey: liu2025supervised
 citations: 1438
 additional_links: [{name: Paper, url: 'http://www.ee.columbia.edu/~wliu/CVPR12_ksh.pdf'}]
-tags: [Compact Codes, Evaluation, Supervised, Scalability, CVPR, Unsupervised, Hashing
-    Methods]
+tags: ["CVPR", "Compact Codes", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Liu et al.
 ---
 Recent years have witnessed the growing popularity of

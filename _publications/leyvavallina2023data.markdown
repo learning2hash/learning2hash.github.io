@@ -8,8 +8,7 @@ bibkey: leyvavallina2023data
 citations: 40
 additional_links: [{name: Code, url: 'https://github.com/marialeyvallina/generalized_contrastive_loss'},
   {name: Paper, url: 'https://arxiv.org/abs/2303.11739'}]
-tags: [Re-ranking, Distance Metric Learning, Datasets, Scalability, CVPR, Hybrid ANN
-    Methods]
+tags: ["CVPR", "Datasets", "Distance Metric Learning", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Maria Leyva-Vallina, Nicola Strisciuglio, Nicolai Petkov
 ---
 Visual place recognition (VPR) is a fundamental task of computer vision for

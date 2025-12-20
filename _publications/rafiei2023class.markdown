@@ -7,7 +7,7 @@ year: 2023
 bibkey: rafiei2023class
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.11734'}]
-tags: [Evaluation, Supervised, Image Retrieval, Neural Hashing, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Mehdi Rafiei, Alexandros Iosifidis
 ---
 Using a discriminative representation obtained by supervised deep learning

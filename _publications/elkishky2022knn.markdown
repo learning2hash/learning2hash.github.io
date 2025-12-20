@@ -10,7 +10,7 @@ bibkey: elkishky2022knn
 citations: 1
 additional_links: [{name: Code, url: 'https://huggingface.co/datasets/Twitter/TwitterFollowGraph'},
   {name: Paper, url: 'https://arxiv.org/abs/2205.06205'}]
-tags: [Evaluation, Recommender Systems, Similarity Search, Datasets]
+tags: ["Datasets", "Evaluation", "Recommender Systems", "Similarity Search"]
 short_authors: El-Kishky et al.
 ---
 Candidate retrieval is the first stage in recommendation systems, where a

@@ -7,7 +7,7 @@ year: 2018
 bibkey: imani2018deep
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.03514'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Imani et al.
 ---
 Query expansion is a method for alleviating the vocabulary mismatch problem

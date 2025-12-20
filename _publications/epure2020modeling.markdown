@@ -8,7 +8,7 @@ year: 2020
 bibkey: epure2020modeling
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.06325'}]
-tags: [EMNLP, Evaluation, Supervised, Unsupervised]
+tags: ["EMNLP", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: Epure et al.
 ---
 The music genre perception expressed through human annotations of artists or

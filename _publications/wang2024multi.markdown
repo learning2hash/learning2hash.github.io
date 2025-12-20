@@ -7,7 +7,7 @@ year: 2024
 bibkey: wang2024multi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.16111'}]
-tags: [Text Retrieval]
+tags: ["Text Retrieval"]
 short_authors: Ni Wang, Dongliang Liao, Xing Xu
 ---
 Currently, in the field of video-text retrieval, there are many

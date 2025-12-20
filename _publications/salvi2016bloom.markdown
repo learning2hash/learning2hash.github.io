@@ -7,7 +7,7 @@ year: 2016
 bibkey: salvi2016bloom
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.00957'}]
-tags: [Evaluation, Image Retrieval, Efficiency, Datasets, Hashing Methods]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval"]
 short_authors: Salvi et al.
 ---
 This paper presents a novel method for efficient image retrieval, based on a

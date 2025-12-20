@@ -8,7 +8,7 @@ year: 2018
 bibkey: artetxe2018margin
 citations: 154
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.01136'}]
-tags: [Distance Metric Learning, Evaluation, ACL]
+tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Mikel Artetxe, Holger Schwenk
 ---
 Machine translation is highly sensitive to the size and quality of the

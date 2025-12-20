@@ -7,7 +7,7 @@ year: 2025
 bibkey: manohar2025range
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.13245'}]
-tags: [Evaluation, Graph-based ANN, Datasets]
+tags: ["Datasets", "Evaluation", "Graph Based ANN"]
 short_authors: Magdalen Dobson Manohar, Taekseung Kim, Guy E. Blelloch
 ---
 Retrieving points based on proximity in a high-dimensional vector space is a

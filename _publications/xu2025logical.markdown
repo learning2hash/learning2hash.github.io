@@ -10,7 +10,7 @@ bibkey: xu2025logical
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/xgl-git/NS-IR-main'}, {name: Paper,
     url: 'https://arxiv.org/abs/2505.22299'}]
-tags: [Evaluation, Few-shot & Zero-shot, Re-ranking, Datasets, ACL]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Re-Ranking"]
 short_authors: Xu et al.
 ---
 Information retrieval plays a crucial role in resource localization. Current dense retrievers retrieve the relevant documents within a corpus via embedding similarities, which compute similarities between dense vectors mainly depending on word co-occurrence between queries and documents, but overlook the real query intents.

@@ -8,7 +8,7 @@ year: 2019
 bibkey: wiggers2019image
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.09513'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Wiggers et al.
 ---
 This paper presents a novel approach for image retrieval and pattern spotting

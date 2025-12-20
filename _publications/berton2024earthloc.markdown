@@ -8,7 +8,7 @@ bibkey: berton2024earthloc
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/gmberton/EarthLoc'}, {name: Paper,
     url: 'https://arxiv.org/abs/2403.06758'}]
-tags: [Evaluation, Image Retrieval, Efficiency, Datasets, CVPR]
+tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Berton et al.
 ---
 Astronaut photography, spanning six decades of human spaceflight, presents a

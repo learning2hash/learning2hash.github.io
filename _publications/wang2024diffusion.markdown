@@ -8,7 +8,7 @@ bibkey: wang2024diffusion
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/baaivision/DIVA'}, {name: Paper,
     url: 'https://arxiv.org/abs/2407.20171'}]
-tags: [Evaluation, Supervised, Few-shot & Zero-shot, Self-Supervised, Tools & Libraries]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Self-Supervised", "Supervised", "Tools & Libraries"]
 short_authors: Wang et al.
 ---
 Contrastive Language-Image Pre-training (CLIP), which excels at abstracting

@@ -8,7 +8,7 @@ year: 2021
 bibkey: phan2021deepface
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.04016'}]
-tags: [Evaluation, Re-ranking, Distance Metric Learning, Robustness, Hybrid ANN Methods]
+tags: ["Distance Metric Learning", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Robustness"]
 short_authors: Hai Phan, Anh Nguyen
 ---
 Face identification (FI) is ubiquitous and drives many high-stake decisions

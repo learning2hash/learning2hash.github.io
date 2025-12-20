@@ -8,7 +8,7 @@ year: 2025
 bibkey: pauleve2025locality
 citations: 295
 additional_links: [{name: Paper, url: 'https://hal.inria.fr/inria-00567191/document'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation]
+tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Loic Pauleve, Jegou, Amsaleg
 ---
 It is well known that high-dimensional nearest-neighbor retrieval is very expensive. Dramatic performance gains are obtained using

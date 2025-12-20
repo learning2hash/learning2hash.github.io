@@ -7,7 +7,7 @@ year: 2020
 bibkey: sumbul2020deep
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.01613'}]
-tags: [Hashing Methods, Image Retrieval, Neural Hashing]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: "Gencer Sumbul, Jian Kang, Beg\xFCm Demir"
 ---
 This chapter presents recent advances in content based image search and

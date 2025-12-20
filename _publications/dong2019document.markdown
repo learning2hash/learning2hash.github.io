@@ -9,8 +9,7 @@ year: 2019
 bibkey: dong2019document
 citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.11078'}]
-tags: [Compact Codes, Evaluation, Supervised, Efficiency, Datasets, Scalability, Unsupervised,
-  Hashing Methods, EMNLP]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Dong et al.
 ---
 Hashing is promising for large-scale information retrieval tasks thanks to

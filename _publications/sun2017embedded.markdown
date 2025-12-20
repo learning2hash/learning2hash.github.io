@@ -8,7 +8,7 @@ year: 2017
 bibkey: sun2017embedded
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.06368'}]
-tags: [Distance Metric Learning, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Sun et al.
 ---
 A robust and informative local shape descriptor plays an important role in

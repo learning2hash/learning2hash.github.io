@@ -8,7 +8,7 @@ year: 2017
 bibkey: zhu2017deep
 citations: 81
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.04858'}]
-tags: [Distance Metric Learning, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Zhu et al.
 ---
 Person Re-IDentification (Re-ID) aims to match person images captured from

@@ -7,7 +7,7 @@ year: 2021
 bibkey: castellano2021a
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.06234'}]
-tags: [Datasets, Neural Hashing]
+tags: ["Datasets", "Neural Hashing"]
 short_authors: Giovanna Castellano, Gennaro Vessio
 ---
 Clustering artworks is difficult for several reasons. On the one hand,

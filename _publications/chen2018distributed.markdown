@@ -8,8 +8,7 @@ year: 2018
 bibkey: chen2018distributed
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.04918'}]
-tags: [Evaluation, Efficiency, Datasets, Scalability, Tools & Libraries, Hashing Methods,
-  KDD, Recommender Systems]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "KDD"]
 short_authors: Chen et al.
 ---
 Collaborative filtering, especially latent factor model, has been popularly

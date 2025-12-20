@@ -9,7 +9,7 @@ bibkey: li2021more
 citations: 23
 additional_links: [{name: Code, url: 'https://github.com/thunlp/DANCE'}, {name: Paper,
     url: 'https://arxiv.org/abs/2107.07773'}]
-tags: [Text Retrieval, Self-Supervised, Evaluation, SIGIR]
+tags: ["Evaluation", "SIGIR", "Self-Supervised", "Text Retrieval"]
 short_authors: Li et al.
 ---
 Dense retrieval conducts text retrieval in the embedding space and has shown

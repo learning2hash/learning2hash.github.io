@@ -9,7 +9,7 @@ year: 2024
 bibkey: li2024revolutionizing
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.17274'}]
-tags: [Image Retrieval, Efficiency, Multimodal Retrieval, Tools & Libraries, SIGIR]
+tags: ["Efficiency", "Image Retrieval", "Multimodal Retrieval", "SIGIR", "Tools & Libraries"]
 short_authors: Li et al.
 ---
 Text-to-image retrieval is a fundamental task in multimedia processing,

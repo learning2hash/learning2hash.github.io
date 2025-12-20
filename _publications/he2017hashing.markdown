@@ -7,7 +7,7 @@ year: 2017
 bibkey: he2017hashing
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.08562'}]
-tags: [Evaluation, Image Retrieval, Re-ranking, Hashing Methods, Hybrid ANN Methods]
+tags: ["Evaluation", "Hashing Methods", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
 short_authors: He et al.
 ---
 Hashing, or learning binary embeddings of data, is frequently used in nearest

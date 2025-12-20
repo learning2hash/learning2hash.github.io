@@ -9,7 +9,7 @@ bibkey: feng2024improving
 citations: 6
 additional_links: [{name: Code, url: 'https://github.com/BUAADreamer/SPN4CIR'}, {
     name: Paper, url: 'https://arxiv.org/abs/2404.11317'}]
-tags: [Image Retrieval, Few-shot & Zero-shot, Self-Supervised, Datasets, Tools & Libraries]
+tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised", "Tools & Libraries"]
 short_authors: Zhangchi Feng, Richong Zhang, Zhijie Nie
 ---
 The Composed Image Retrieval (CIR) task aims to retrieve target images using

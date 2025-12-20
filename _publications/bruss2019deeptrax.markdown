@@ -9,7 +9,7 @@ year: 2019
 bibkey: bruss2019deeptrax
 citations: 38
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.07225'}]
-tags: [ICML, Graph-based ANN, Tools & Libraries, Datasets]
+tags: ["Datasets", "Graph Based ANN", "ICML", "Tools & Libraries"]
 short_authors: Bruss et al.
 ---
 Financial transactions can be considered edges in a heterogeneous graph

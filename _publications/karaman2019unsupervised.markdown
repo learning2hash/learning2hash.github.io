@@ -7,9 +7,7 @@ year: 2019
 bibkey: karaman2019unsupervised
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.01545'}]
-tags: [Graph-based ANN, Re-ranking, Image Retrieval, Hashing Methods, Scalability,
-  Memory Efficiency, Supervised, Unsupervised, Datasets, Compact Codes, Hybrid ANN
-    Methods, Multimodal Retrieval]
+tags: ["Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Supervised", "Unsupervised"]
 short_authors: Karaman et al.
 ---
 We propose an unsupervised hashing method which aims to produce binary codes

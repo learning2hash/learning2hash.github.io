@@ -7,7 +7,7 @@ year: 2017
 bibkey: newmangriffis2017second
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.08488'}]
-tags: [Distance Metric Learning, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Denis Newman-Griffis, Eric Fosler-Lussier
 ---
 We introduce second-order vector representations of words, induced from

@@ -8,7 +8,7 @@ year: 2022
 bibkey: fang2022a
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.05321'}]
-tags: [Evaluation, Recommender Systems, Neural Hashing, Datasets]
+tags: ["Datasets", "Evaluation", "Neural Hashing", "Recommender Systems"]
 short_authors: Fang et al.
 ---
 Deep learning recommendation models (DLRMs) have been widely applied in

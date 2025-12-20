@@ -8,7 +8,7 @@ year: 2023
 bibkey: wang2023fashionlogo
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.09012'}]
-tags: [Evaluation, CIKM, Datasets]
+tags: ["CIKM", "Datasets", "Evaluation"]
 short_authors: Wang et al.
 ---
 Logo embedding models convert the product logos in images into vectors,

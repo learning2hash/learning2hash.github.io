@@ -8,8 +8,7 @@ year: 2023
 bibkey: shvetsova2023in
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.08928'}]
-tags: [Video Retrieval, Evaluation, ICCV, Few-shot & Zero-shot, Datasets, Scalability,
-  Tools & Libraries]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "ICCV", "Video Retrieval"]
 short_authors: Shvetsova et al.
 ---
 Large-scale noisy web image-text datasets have been proven to be efficient

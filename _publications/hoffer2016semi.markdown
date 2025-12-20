@@ -7,7 +7,7 @@ year: 2016
 bibkey: hoffer2016semi
 citations: 28
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.01449'}]
-tags: [Supervised, Neural Hashing]
+tags: ["Neural Hashing", "Supervised"]
 short_authors: Elad Hoffer, Nir Ailon
 ---
 Deep networks are successfully used as classification models yielding

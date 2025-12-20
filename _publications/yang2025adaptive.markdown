@@ -8,8 +8,7 @@ year: 2025
 bibkey: yang2025adaptive
 citations: 9
 additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content_CVPRW_2019/papers/CEFRL/Yang_Adaptive_Labeling_for_Deep_Learning_to_Hash_CVPRW_2019_paper.pdf'}]
-tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Neural Hashing, Efficiency,
-  Scalability, CVPR, Hashing Methods]
+tags: ["Compact Codes", "Efficiency", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Huei-Fang Yang, Tu, Chen
 ---
 Hash function learning has been widely used for largescale image retrieval because of the efficiency of computation and storage. We introduce AdaLabelHash, a binary

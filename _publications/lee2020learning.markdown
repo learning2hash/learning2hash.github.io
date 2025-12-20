@@ -7,7 +7,7 @@ year: 2020
 bibkey: lee2020learning
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.12624'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Lee et al.
 ---
 Open-domain question answering can be reformulated as a phrase retrieval

@@ -9,7 +9,7 @@ year: 2023
 bibkey: zou2023interfacing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.07532'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Zou et al.
 ---
 Foundation models possess strong capabilities in reasoning and memorizing

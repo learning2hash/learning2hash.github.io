@@ -10,8 +10,7 @@ year: 2021
 bibkey: chen2021multimodal
 citations: 63
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.12671'}]
-tags: [Video Retrieval, ICCV, Supervised, Few-shot & Zero-shot, Self-Supervised, Datasets,
-  Tools & Libraries]
+tags: ["Datasets", "Few Shot & Zero Shot", "Self-Supervised", "Supervised", "Video Retrieval"]
 short_authors: Chen et al.
 ---
 Multimodal self-supervised learning is getting more and more attention as it

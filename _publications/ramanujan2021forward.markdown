@@ -8,7 +8,7 @@ year: 2021
 bibkey: ramanujan2021forward
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.02805'}]
-tags: [Scalability, Evaluation, Tools & Libraries, Datasets]
+tags: ["Datasets", "Evaluation", "Scalability", "Tools & Libraries"]
 short_authors: Ramanujan et al.
 ---
 In visual retrieval systems, updating the embedding model requires

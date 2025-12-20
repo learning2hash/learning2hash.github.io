@@ -8,8 +8,7 @@ year: 2023
 bibkey: wei2023attribute
 citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.12894'}]
-tags: [Supervised, Image Retrieval, Neural Hashing, Datasets, Scalability, Unsupervised,
-  Hashing Methods]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Wei et al.
 ---
 Our work focuses on tackling large-scale fine-grained image retrieval as

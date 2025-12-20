@@ -7,7 +7,7 @@ year: 2022
 bibkey: qiao2022dual
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.11154'}]
-tags: [Text Retrieval, Datasets, Efficiency]
+tags: ["Datasets", "Efficiency", "Text Retrieval"]
 short_authors: Qiao et al.
 ---
 This paper proposes a dual skipping guidance scheme with hybrid scoring to

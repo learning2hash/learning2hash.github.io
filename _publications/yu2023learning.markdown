@@ -7,7 +7,7 @@ year: 2023
 bibkey: yu2023learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.13275'}]
-tags: [Scalability, Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Yu et al.
 ---
 The gap between low-level visual signals and high-level semantics has been

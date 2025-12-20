@@ -7,7 +7,7 @@ year: 2023
 bibkey: yoon2023search
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.08750'}]
-tags: [Evaluation, Multimodal Retrieval, Datasets, Few-shot & Zero-shot]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval"]
 short_authors: Yoon et al.
 ---
 Embeddings extracted by pre-trained Large Language Models (LLMs) have

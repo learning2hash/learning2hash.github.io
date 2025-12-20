@@ -8,8 +8,7 @@ bibkey: huang2020probability
 citations: 44
 additional_links: [{name: Code, url: 'https://github.com/fuxianghuang1/PWCF'}, {name: Paper,
     url: 'https://arxiv.org/abs/2003.03293'}]
-tags: [Compact Codes, Evaluation, Image Retrieval, Distance Metric Learning, Quantization,
-  CVPR]
+tags: ["CVPR", "Compact Codes", "Distance Metric Learning", "Image Retrieval", "Quantization"]
 short_authors: Huang et al.
 ---
 Domain adaptive image retrieval includes single-domain retrieval and

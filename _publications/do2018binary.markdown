@@ -9,8 +9,7 @@ year: 2018
 bibkey: do2018binary
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.07437'}]
-tags: [Compact Codes, Evaluation, Image Retrieval, Neural Hashing, Datasets, Quantization,
-  Tools & Libraries, Hashing Methods]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization"]
 short_authors: Do et al.
 ---
 Learning compact binary codes for image retrieval task using deep neural

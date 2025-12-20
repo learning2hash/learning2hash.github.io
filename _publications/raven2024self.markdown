@@ -7,7 +7,7 @@ year: 2024
 bibkey: raven2024self
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.00751'}]
-tags: [Evaluation, Supervised, Datasets, Self-Supervised]
+tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised"]
 short_authors: Tim Raven, Arthur Matei, Gernot A. Fink
 ---
 While methods based on Vision Transformers (ViT) have achieved

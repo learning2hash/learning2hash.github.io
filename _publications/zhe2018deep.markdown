@@ -7,8 +7,7 @@ year: 2018
 bibkey: zhe2018deep
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.04137'}]
-tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Neural Hashing, Distance
-    Metric Learning, Scalability, Hashing Methods]
+tags: ["Distance Metric Learning", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Xuefei Zhe, Shifeng Chen, Hong Yan
 ---
 Deep supervised hashing has emerged as an influential solution to large-scale

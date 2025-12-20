@@ -7,7 +7,7 @@ year: 2020
 bibkey: ko2020embedding
 citations: 48
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.02546'}]
-tags: [Distance Metric Learning, CVPR, Image Retrieval, Re-ranking]
+tags: ["CVPR", "Distance Metric Learning", "Image Retrieval", "Re-Ranking"]
 short_authors: Byungsoo Ko, Geonmo Gu
 ---
 Learning the distance metric between pairs of samples has been studied for

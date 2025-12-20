@@ -7,8 +7,7 @@ year: 2023
 bibkey: peer2023towards
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.05358'}]
-tags: [Evaluation, Supervised, Re-ranking, Graph-based ANN, Datasets, Unsupervised,
-  Hybrid ANN Methods]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Supervised", "Unsupervised"]
 short_authors: Marco Peer, Florian Kleber, Robert Sablatnig
 ---
 This paper presents an unsupervised approach for writer retrieval based on

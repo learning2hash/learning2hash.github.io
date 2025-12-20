@@ -7,7 +7,7 @@ year: 2018
 bibkey: raff2018toward
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.05055'}]
-tags: [Distance Metric Learning, Vector Indexing, Datasets, Efficiency]
+tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Vector Indexing"]
 short_authors: Edward Raff, Charles Nicholas
 ---
 In this work we explore the use of metric index structures, which accelerate

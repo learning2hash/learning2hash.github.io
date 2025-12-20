@@ -7,7 +7,7 @@ year: 2021
 bibkey: silva2021a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.12788'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Alfredo Silva, Marcelo Mendoza
 ---
 Word embeddings are vital descriptors of words in unigram representations of

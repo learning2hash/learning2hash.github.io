@@ -7,7 +7,7 @@ year: 2016
 bibkey: mitra2016a
 citations: 103
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.01137'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Mitra et al.
 ---
 A fundamental goal of search engines is to identify, given a query, documents

@@ -8,7 +8,7 @@ bibkey: zhai2024self
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/SAM-RAG/SAM_RAG'}, {name: Paper,
     url: 'https://arxiv.org/abs/2410.11321'}]
-tags: [Evaluation, Multimodal Retrieval]
+tags: ["Evaluation", "Multimodal Retrieval"]
 short_authors: Wenjia Zhai
 ---
 Traditional Retrieval-Augmented Generation (RAG) methods are limited by their

@@ -7,7 +7,7 @@ year: 2018
 bibkey: garg2018stochastic
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.03911'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Supervised, Unsupervised]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Supervised", "Unsupervised"]
 short_authors: Sahil Garg, Greg Ver Steeg, Aram Galstyan
 ---
 Natural language processing often involves computations with semantic or

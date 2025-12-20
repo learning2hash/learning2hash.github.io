@@ -9,7 +9,7 @@ bibkey: wang2022smiletrack
 citations: 10
 additional_links: [{name: Code, url: 'https://github.com/pingyang1117/SMILEtrack_Official'},
   {name: Paper, url: 'https://arxiv.org/abs/2211.08824'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Wang et al.
 ---
 Despite recent progress in Multiple Object Tracking (MOT), several obstacles

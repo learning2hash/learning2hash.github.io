@@ -8,7 +8,7 @@ year: 2022
 bibkey: shao2022johnson
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.01006'}]
-tags: [Hashing Methods, Evaluation]
+tags: ["Evaluation", "Hashing Methods"]
 short_authors: Zhen Shao
 ---
 This paper investigates theoretical properties of subsampling and hashing as

@@ -8,7 +8,7 @@ year: 2021
 bibkey: jeong2021asmr
 citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.04533'}]
-tags: [Distance Metric Learning, ICCV, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation", "ICCV"]
 short_authors: Boseung Jeong, Jicheol Park, Suha Kwak
 ---
 Attribute-based person search is the task of finding person images that are

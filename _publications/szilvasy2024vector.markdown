@@ -7,7 +7,7 @@ year: 2024
 bibkey: szilvasy2024vector
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.10746'}]
-tags: [Evaluation, Vector Indexing, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Vector Indexing"]
 short_authors: "Gergely Szilvasy, Pierre-Emmanuel Mazar\xE9, Matthijs Douze"
 ---
 In recent years, the dominant accuracy metric for vector search is the recall

@@ -8,7 +8,7 @@ bibkey: shenbin2024implicitslim
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/ilya-shenbin/ImplicitSLIM'},
   {name: Paper, url: 'https://arxiv.org/abs/2406.00198'}]
-tags: [Evaluation, Supervised, Unsupervised, Recommender Systems]
+tags: ["Evaluation", "Recommender Systems", "Supervised", "Unsupervised"]
 short_authors: Ilya Shenbin, Sergey Nikolenko
 ---
 We present ImplicitSLIM, a novel unsupervised learning approach for sparse

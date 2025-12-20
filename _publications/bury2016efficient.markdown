@@ -7,8 +7,7 @@ year: 2016
 bibkey: bury2016efficient
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.03949'}]
-tags: [Similarity Search, Efficiency, Datasets, Hashing Methods, Locality Sensitive
-    Hashing]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search"]
 short_authors: Marc Bury, Chris Schwiegelshohn, Mara Sorella
 ---
 The Jaccard index is an important similarity measure for item sets and

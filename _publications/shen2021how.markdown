@@ -9,7 +9,7 @@ bibkey: shen2021how
 citations: 152
 additional_links: [{name: Code, url: 'https://github.com/clip-vil/CLIP-ViL'}, {name: Paper,
     url: 'https://arxiv.org/abs/2107.06383'}]
-tags: [Scalability, Evaluation, Few-shot & Zero-shot]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Scalability"]
 short_authors: Shen et al.
 ---
 Most existing Vision-and-Language (V&L) models rely on pre-trained visual

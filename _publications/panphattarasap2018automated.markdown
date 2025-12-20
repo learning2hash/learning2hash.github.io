@@ -9,7 +9,7 @@ year: 2018
 bibkey: panphattarasap2018automated
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.00788'}]
-tags: [Scalability, Evaluation, IROS]
+tags: ["Evaluation", "IROS", "Scalability"]
 short_authors: Pilailuck Panphattarasap, Andrew Calway
 ---
 We describe a novel approach to image based localisation in urban

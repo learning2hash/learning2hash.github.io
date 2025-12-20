@@ -8,8 +8,7 @@ year: 2020
 bibkey: biswas2020approximate
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.08851'}]
-tags: [Tree-based ANN, Evaluation, Similarity Search, Efficiency, Graph-based ANN,
-  Datasets]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Similarity Search", "Tree Based ANN"]
 short_authors: Chandan Biswas, Debasis Ganguly, Ujjwal Bhattacharya
 ---
 Amidst an increasing number of infected cases during the Covid-19 pandemic,

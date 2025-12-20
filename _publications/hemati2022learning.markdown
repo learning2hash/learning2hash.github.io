@@ -8,8 +8,7 @@ year: 2022
 bibkey: hemati2022learning
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.13653'}]
-tags: [Evaluation, Image Retrieval, Similarity Search, Efficiency, Datasets, Memory
-    Efficiency, Tools & Libraries]
+tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Memory Efficiency"]
 short_authors: Hemati et al.
 ---
 Learning suitable Whole slide images (WSIs) representations for efficient

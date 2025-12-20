@@ -7,7 +7,7 @@ year: 2020
 bibkey: mandal2020a
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.00677'}]
-tags: [Hashing Methods, Evaluation, Datasets, Multimodal Retrieval]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Multimodal Retrieval"]
 short_authors: Devraj Mandal, Soma Biswas
 ---
 Cross-modal retrieval deals with retrieving relevant items from one modality,

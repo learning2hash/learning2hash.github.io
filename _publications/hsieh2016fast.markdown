@@ -8,7 +8,7 @@ year: 2016
 bibkey: hsieh2016fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1601.06342'}]
-tags: [Hashing Methods, Evaluation, Compact Codes, Memory Efficiency]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Memory Efficiency"]
 short_authors: Sung-Hsien Hsieh, Chun-Shien Lu, Soo-Chang Pei
 ---
 Binary embedding of high-dimensional data aims to produce low-dimensional

@@ -7,7 +7,7 @@ year: 2017
 bibkey: wang2017a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.06903'}]
-tags: [Evaluation, Datasets, Neural Hashing]
+tags: ["Datasets", "Evaluation", "Neural Hashing"]
 short_authors: Wang et al.
 ---
 We propose a family of near-metrics based on local graph diffusion to capture

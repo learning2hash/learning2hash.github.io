@@ -8,7 +8,7 @@ year: 2024
 bibkey: gonzalezsoler2024tatttrn
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.07571'}]
-tags: [Evaluation, Supervised, Unsupervised]
+tags: ["Evaluation", "Supervised", "Unsupervised"]
 short_authors: Gonzalez-Soler et al.
 ---
 Tattoos have been used effectively as soft biometrics to assist law

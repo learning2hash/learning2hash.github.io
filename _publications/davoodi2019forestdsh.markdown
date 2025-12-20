@@ -8,7 +8,7 @@ year: 2019
 bibkey: davoodi2019forestdsh
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.04559'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Tools & Libraries, Evaluation]
+tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
 short_authors: Davoodi et al.
 ---
 In this paper, we consider the problem of classification of \(M\) high

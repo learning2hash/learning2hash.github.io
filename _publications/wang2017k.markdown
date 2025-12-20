@@ -7,7 +7,7 @@ year: 2017
 bibkey: wang2017k
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.07863'}]
-tags: [Evaluation, Supervised, Datasets, Neural Hashing]
+tags: ["Datasets", "Evaluation", "Neural Hashing", "Supervised"]
 short_authors: Zhiguo Wang, Wael Hamza, Linfeng Song
 ---
 In recent years, many deep-learning based models are proposed for text

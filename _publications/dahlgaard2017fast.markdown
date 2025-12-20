@@ -8,7 +8,7 @@ year: 2017
 bibkey: dahlgaard2017fast
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.04370'}]
-tags: [Scalability, Locality Sensitive Hashing, Similarity Search]
+tags: ["Locality-Sensitive-Hashing", "Scalability", "Similarity Search"]
 short_authors: Dahlgaard et al.
 ---
 We consider the \(\textit\{Similarity Sketching\}\) problem: Given a universe

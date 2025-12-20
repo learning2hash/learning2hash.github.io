@@ -7,7 +7,7 @@ year: 2023
 bibkey: liu2023attribute
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.17374'}]
-tags: [Evaluation, Recommender Systems, Datasets]
+tags: ["Datasets", "Evaluation", "Recommender Systems"]
 short_authors: Liu et al.
 ---
 Although multi-interest recommenders have achieved significant progress in

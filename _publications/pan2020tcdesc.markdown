@@ -7,7 +7,7 @@ year: 2020
 bibkey: pan2020tcdesc
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.03254'}]
-tags: [Distance Metric Learning, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Pan et al.
 ---
 Triplet loss is widely used for learning local descriptors from image patch.

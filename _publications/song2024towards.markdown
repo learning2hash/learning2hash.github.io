@@ -8,7 +8,7 @@ year: 2024
 bibkey: song2024towards
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.23715'}]
-tags: [Self-Supervised, Evaluation, Robustness]
+tags: ["Evaluation", "Robustness", "Self-Supervised"]
 short_authors: Song et al.
 ---
 Cross-modal text-molecule retrieval model aims to learn a shared feature

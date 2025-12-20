@@ -7,7 +7,7 @@ year: 2016
 bibkey: murray2016interferences
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.08194'}]
-tags: [Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Murray et al.
 ---
 We consider the design of an image representation that embeds and aggregates

@@ -7,8 +7,7 @@ year: 2022
 bibkey: shi2022efficient
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.10232'}]
-tags: [Evaluation, Supervised, Efficiency, Neural Hashing, Datasets, Quantization,
-  Multimodal Retrieval, Hashing Methods]
+tags: ["Datasets", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Quantization"]
 short_authors: Yang Shi, Young-Joo Chung
 ---
 Cross-modal retrieval aims to search for data with similar semantic meanings

@@ -9,7 +9,7 @@ year: 2019
 bibkey: rahmani2019category
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.13376'}]
-tags: [Scalability, Recommender Systems, SIGIR, Datasets]
+tags: ["Datasets", "Recommender Systems", "SIGIR", "Scalability"]
 short_authors: Rahmani et al.
 ---
 Recently, Point of interest (POI) recommendation has gained ever-increasing

@@ -8,7 +8,7 @@ year: 2019
 bibkey: oguni2019character
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.05171'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Masaki Oguni, Yohei Seki, Yu Hirate
 ---
 In user-generated recipe websites, users post their-original recipes. Some

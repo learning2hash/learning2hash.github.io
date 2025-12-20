@@ -8,7 +8,7 @@ year: 2019
 bibkey: bajaj2019relemb
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.06672'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Bajaj et al.
 ---
 Information Retrieval Systems have revolutionized the organization and

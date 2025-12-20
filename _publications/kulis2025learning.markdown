@@ -7,7 +7,7 @@ year: 2025
 bibkey: kulis2025learning
 citations: 807
 additional_links: [{name: Paper, url: 'https://papers.nips.cc/paper/3667-learning-to-hash-with-binary-reconstructive-embeddings.pdf'}]
-tags: [Hashing Methods, Neural Hashing, Scalability, Efficiency]
+tags: ["Efficiency", "Hashing Methods", "Neural Hashing", "Scalability"]
 short_authors: B. Kulis, Darrell
 ---
 Fast retrieval methods are increasingly critical for many large-scale analysis tasks, and there have been

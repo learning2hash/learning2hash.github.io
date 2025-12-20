@@ -7,7 +7,7 @@ year: 2020
 bibkey: maji2020cbir
 citations: 39
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.07877'}]
-tags: [Image Retrieval, Neural Hashing]
+tags: ["Image Retrieval", "Neural Hashing"]
 short_authors: Subhadip Maji, Smarajit Bose
 ---
 In a Content Based Image Retrieval (CBIR) System, the task is to retrieve

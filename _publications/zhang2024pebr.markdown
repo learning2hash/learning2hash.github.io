@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhang2024pebr
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.19349'}]
-tags: [Distance Metric Learning, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Zhang et al.
 ---
 Embedding retrieval aims to learn a shared semantic representation space for

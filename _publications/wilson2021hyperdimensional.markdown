@@ -7,7 +7,7 @@ year: 2021
 bibkey: wilson2021hyperdimensional
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.05341'}]
-tags: [Distance Metric Learning, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Wilson et al.
 ---
 We introduce powerful ideas from Hyperdimensional Computing into the

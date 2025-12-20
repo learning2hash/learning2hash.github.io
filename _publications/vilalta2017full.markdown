@@ -8,7 +8,7 @@ year: 2017
 bibkey: vilalta2017full
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.09872'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Vilalta et al.
 ---
 The current state-of-the-art for image annotation and image retrieval tasks

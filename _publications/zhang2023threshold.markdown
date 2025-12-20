@@ -8,7 +8,7 @@ year: 2023
 bibkey: zhang2023threshold
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.04047'}]
-tags: [Distance Metric Learning, Image Retrieval, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Zhang et al.
 ---
 Existing losses used in deep metric learning (DML) for image retrieval often

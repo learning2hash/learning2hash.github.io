@@ -8,7 +8,7 @@ year: 2020
 bibkey: lee2020disentangled
 citations: 52
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.03720'}]
-tags: [ICASSP, Distance Metric Learning, Similarity Search]
+tags: ["Distance Metric Learning", "ICASSP", "Similarity Search"]
 short_authors: Lee et al.
 ---
 Music similarity search is useful for a variety of creative tasks such as

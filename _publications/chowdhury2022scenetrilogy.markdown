@@ -10,7 +10,7 @@ bibkey: chowdhury2022scenetrilogy
 citations: 3
 additional_links: [{name: Other, url: 'http://www.pinakinathc.me/scenetrilogy'}, {
     name: Paper, url: 'https://arxiv.org/abs/2204.11964'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Chowdhury et al.
 ---
 In this paper, we extend scene understanding to include that of human sketch.

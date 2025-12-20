@@ -9,7 +9,7 @@ year: 2024
 bibkey: aroraa2024smart
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.14698'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Aroraa et al.
 ---
 As user content and queries become increasingly multi-modal, the need for

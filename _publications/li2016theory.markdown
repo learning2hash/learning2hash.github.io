@@ -7,7 +7,7 @@ year: 2016
 bibkey: li2016theory
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.00550'}]
-tags: [Hashing Methods, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Hashing Methods"]
 short_authors: Ping Li, Cun-Hui Zhang
 ---
 We develop some theoretical results for a robust similarity measure named

@@ -8,8 +8,7 @@ year: 2025
 bibkey: zhang2025self
 citations: 352
 additional_links: [{name: Paper, url: 'http://www.dcs.bbk.ac.uk/~dell/publications/dellzhang_sigir2010.pdf'}]
-tags: [Compact Codes, Supervised, Neural Hashing, Similarity Search, Datasets, Scalability,
-  Unsupervised, Hashing Methods, SIGIR]
+tags: ["Datasets", "Hashing Methods", "Neural Hashing", "Similarity Search", "Supervised"]
 short_authors: Zhang et al.
 ---
 The ability of fast similarity search at large scale is of great

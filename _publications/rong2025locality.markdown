@@ -8,7 +8,7 @@ year: 2025
 bibkey: rong2025locality
 citations: 4
 additional_links: [{name: Paper, url: 'http://www.vldb.org/pvldb/vol11/p1674-rong.pdf'}]
-tags: [Re-ranking, Efficiency, Scalability, Hashing Methods, Locality Sensitive Hashing]
+tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Re-Ranking", "Scalability"]
 short_authors: Rong et al.
 ---
 In this work, we report on a novel application of Locality Sensitive

@@ -7,7 +7,7 @@ year: 2021
 bibkey: ma2021rank
 citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.01486'}]
-tags: [Image Retrieval, Neural Hashing, Datasets, Scalability, Hashing Methods]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Cheng Ma, Jiwen Lu, Jie Zhou
 ---
 As hashing becomes an increasingly appealing technique for large-scale image

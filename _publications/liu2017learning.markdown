@@ -7,7 +7,7 @@ year: 2017
 bibkey: liu2017learning
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.08853'}]
-tags: [Evaluation, Recommender Systems, Robustness, Datasets]
+tags: ["Datasets", "Evaluation", "Recommender Systems", "Robustness"]
 short_authors: Liu et al.
 ---
 The wide spread of location-based social networks brings about a huge volume

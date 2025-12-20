@@ -8,7 +8,7 @@ year: 2016
 bibkey: chadha2016voronoi
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.08906'}]
-tags: [Evaluation, Image Retrieval, Neural Hashing, Datasets, Tools & Libraries]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Tools & Libraries"]
 short_authors: Aaron Chadha, Yiannis Andreopoulos
 ---
 We investigate the problem of image retrieval based on visual queries when

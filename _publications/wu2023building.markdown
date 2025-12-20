@@ -10,8 +10,7 @@ bibkey: wu2023building
 citations: 14
 additional_links: [{name: Code, url: 'https://github.com/wengzejia1/Open-VCLIP'},
   {name: Paper, url: 'https://arxiv.org/abs/2310.05010'}]
-tags: [Video Retrieval, Evaluation, Few-shot & Zero-shot, Datasets, Tools & Libraries,
-  Text Retrieval]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval", "Video Retrieval"]
 short_authors: Wu et al.
 ---
 Despite significant results achieved by Contrastive Language-Image

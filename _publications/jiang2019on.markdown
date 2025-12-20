@@ -7,7 +7,7 @@ year: 2019
 bibkey: jiang2019on
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.10951'}]
-tags: [Evaluation, Similarity Search, Memory Efficiency, Scalability, Hashing Methods]
+tags: ["Evaluation", "Hashing Methods", "Memory Efficiency", "Scalability", "Similarity Search"]
 short_authors: Qing-Yuan Jiang, Ming-Wei Li, Wu-Jun Li
 ---
 Due to its low storage cost and fast query speed, hashing has been widely

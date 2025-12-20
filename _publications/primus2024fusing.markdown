@@ -7,7 +7,7 @@ year: 2024
 bibkey: primus2024fusing
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.15897'}]
-tags: [Evaluation, Audio Retrieval]
+tags: ["Audio Retrieval", "Evaluation"]
 short_authors: Paul Primus, Gerhard Widmer
 ---
 Matching raw audio signals with textual descriptions requires understanding

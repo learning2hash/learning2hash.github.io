@@ -9,7 +9,7 @@ year: 2023
 bibkey: liu2023towards
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.17371'}]
-tags: [Scalability, Evaluation, Tools & Libraries, ACL]
+tags: ["Evaluation", "Scalability", "Tools & Libraries"]
 short_authors: Liu et al.
 ---
 Dense retrieval is widely used for entity linking to retrieve entities from

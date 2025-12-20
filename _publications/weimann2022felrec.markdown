@@ -9,7 +9,7 @@ bibkey: weimann2022felrec
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/kweimann/FELRec'}, {name: Paper,
     url: 'https://arxiv.org/abs/2210.16928'}]
-tags: [Recommender Systems, Datasets, Few-shot & Zero-shot]
+tags: ["Datasets", "Few Shot & Zero Shot", "Recommender Systems"]
 short_authors: Kuba Weimann, Tim O. F. Conrad
 ---
 Recommender systems suffer from the cold-start problem whenever a new user

@@ -7,7 +7,7 @@ year: 2016
 bibkey: girdhar2016learning
 citations: 140
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.08637'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Girdhar et al.
 ---
 What is a good vector representation of an object? We believe that it should

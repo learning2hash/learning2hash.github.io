@@ -7,7 +7,7 @@ year: 2017
 bibkey: tan2017where
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.01021'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Tan et al.
 ---
 Image compositing is a method used to generate realistic yet fake imagery by

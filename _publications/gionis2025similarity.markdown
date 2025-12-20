@@ -7,8 +7,7 @@ year: 2025
 bibkey: gionis2025similarity
 citations: 3096
 additional_links: [{name: Paper, url: 'https://dl.acm.org/citation.cfm?id=997857'}]
-tags: [Tree-based ANN, Similarity Search, Distance Metric Learning, Vector Indexing,
-  Hashing Methods]
+tags: ["Distance Metric Learning", "Hashing Methods", "Similarity Search", "Tree Based ANN", "Vector Indexing"]
 short_authors: A. Gionis, Indyk, Motwani
 ---
 The nearest- or near-neighbor query problems arise in a large variety of database applications, usually in the context of similarity searching. Of late, there has been increasing interest in building search/index structures for performing similarity search over high-dimensional data, e.g., image databases, document collections, time-series databases, and genome databases. Unfortunately,

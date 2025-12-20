@@ -7,7 +7,7 @@ year: 2019
 bibkey: vo2019let
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.00793'}]
-tags: [Image Retrieval, Few-shot & Zero-shot]
+tags: ["Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Nam Vo, Lu Jiang, James Hays
 ---
 With a good image understanding capability, can we manipulate the images high

@@ -8,7 +8,7 @@ year: 2020
 bibkey: li2020hierarchical
 citations: 112
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.12566'}]
-tags: [Evaluation, Datasets, Tools & Libraries, Recommender Systems, SIGIR]
+tags: ["Datasets", "Evaluation", "Recommender Systems", "SIGIR", "Tools & Libraries"]
 short_authors: Li et al.
 ---
 Fashion outfit recommendation has attracted increasing attentions from online

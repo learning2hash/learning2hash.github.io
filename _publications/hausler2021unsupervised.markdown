@@ -7,7 +7,7 @@ year: 2021
 bibkey: hausler2021unsupervised
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.04701'}]
-tags: [Evaluation, Supervised, Unsupervised, Datasets]
+tags: ["Datasets", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: Stephen Hausler, Tobias Fischer, Michael Milford
 ---
 A recent approach to the Visual Place Recognition (VPR) problem has been to

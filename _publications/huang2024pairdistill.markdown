@@ -9,7 +9,7 @@ bibkey: huang2024pairdistill
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/MiuLab/PairDistill'}, {name: Paper,
     url: 'https://arxiv.org/abs/2410.01383'}]
-tags: [Evaluation, Re-ranking, Datasets, EMNLP, Hybrid ANN Methods]
+tags: ["Datasets", "EMNLP", "Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Chao-Wei Huang, Yun-Nung Chen
 ---
 Effective information retrieval (IR) from vast datasets relies on advanced

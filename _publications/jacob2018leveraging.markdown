@@ -7,7 +7,7 @@ year: 2018
 bibkey: jacob2018leveraging
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.08991'}]
-tags: [Evaluation, Tools & Libraries, Datasets, Image Retrieval]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Jacob et al.
 ---
 Most image retrieval methods use global features that aggregate local

@@ -8,7 +8,7 @@ year: 2017
 bibkey: magliani2017a
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.05754'}]
-tags: [Datasets]
+tags: ["Datasets"]
 short_authors: Federico Magliani, Navid Mahmoudian Bidgoli, Andrea Prati
 ---
 The current state of the research in landmark recognition highlights the good

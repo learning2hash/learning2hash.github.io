@@ -8,7 +8,7 @@ year: 2022
 bibkey: bao2022mmfl
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.15128'}]
-tags: [Tools & Libraries, Datasets, Image Retrieval]
+tags: ["Datasets", "Image Retrieval", "Tools & Libraries"]
 short_authors: Bao et al.
 ---
 Instance-level image retrieval in fashion is a challenging issue owing to its

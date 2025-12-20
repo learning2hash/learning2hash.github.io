@@ -7,7 +7,7 @@ year: 2018
 bibkey: alhalah2018traversing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.00202'}]
-tags: [Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Ziad Al-Halah, Andreas M. Lehrmann, Leonid Sigal
 ---
 We introduce the first work to tackle the image retrieval problem as a

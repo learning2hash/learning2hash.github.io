@@ -7,7 +7,7 @@ year: 2019
 bibkey: cao2019image
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.03924'}]
-tags: [Hashing Methods, Image Retrieval, Datasets]
+tags: ["Datasets", "Hashing Methods", "Image Retrieval"]
 short_authors: Cao et al.
 ---
 An image retrieval method based on convolution neural network and dimension

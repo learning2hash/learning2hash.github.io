@@ -8,7 +8,7 @@ bibkey: liu2019lending
 citations: 269
 additional_links: [{name: Code, url: 'https://github.com/Liumouliu/OriCNN'}, {name: Paper,
     url: 'https://arxiv.org/abs/1903.12351'}]
-tags: [Evaluation, Neural Hashing, Datasets, Scalability, CVPR]
+tags: ["CVPR", "Datasets", "Evaluation", "Neural Hashing", "Scalability"]
 short_authors: Liu Liu, Hongdong Li
 ---
 This paper studies image-based geo-localization (IBL) problem using

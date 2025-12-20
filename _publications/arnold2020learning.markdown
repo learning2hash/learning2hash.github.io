@@ -8,7 +8,7 @@ year: 2020
 bibkey: arnold2020learning
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.00835'}]
-tags: [Self-Supervised, Supervised, Tools & Libraries]
+tags: ["Self-Supervised", "Supervised", "Tools & Libraries"]
 short_authors: Arnold et al.
 ---
 We present Contextual Discourse Vectors (CDV), a distributed document

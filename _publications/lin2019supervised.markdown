@@ -8,8 +8,7 @@ bibkey: lin2019supervised
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/lmbxmu/mycode/tree/master/2018ACMMM_HCOH'},
   {name: Paper, url: 'https://arxiv.org/abs/1905.03694'}]
-tags: [Compact Codes, Evaluation, Supervised, Datasets, Robustness, Scalability, Unsupervised,
-  Hashing Methods, Locality Sensitive Hashing]
+tags: ["Datasets", "Hashing Methods", "Robustness", "Supervised", "Unsupervised"]
 short_authors: Lin et al.
 ---
 In recent years, binary code learning, a.k.a hashing, has received extensive

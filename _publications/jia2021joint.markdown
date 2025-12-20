@@ -8,8 +8,7 @@ year: 2021
 bibkey: jia2021joint
 citations: 53
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.12673'}]
-tags: [Evaluation, Supervised, ICCV, Self-Supervised, Scalability, Tools & Libraries,
-  Hashing Methods]
+tags: ["Evaluation", "Hashing Methods", "ICCV", "Self-Supervised", "Supervised"]
 short_authors: Jia et al.
 ---
 This paper studies the problem of novel category discovery on single- and

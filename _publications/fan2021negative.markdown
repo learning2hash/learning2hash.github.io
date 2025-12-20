@@ -9,7 +9,7 @@ bibkey: fan2021negative
 citations: 1
 additional_links: [{name: Code, url: 'https://github.com/LibertFan/TAGS'}, {name: Paper,
     url: 'https://arxiv.org/abs/2111.03349'}]
-tags: [Distance Metric Learning, Datasets, Robustness, Tools & Libraries, Text Retrieval]
+tags: ["Datasets", "Distance Metric Learning", "Robustness", "Text Retrieval", "Tools & Libraries"]
 short_authors: Fan et al.
 ---
 Matching model is essential for Image-Text Retrieval framework. Existing

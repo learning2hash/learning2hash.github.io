@@ -10,7 +10,7 @@ bibkey: wang2024tpch
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/jankin-wang/TPCH\'}, {name: Paper,
     url: 'https://arxiv.org/abs/2412.18847'}]
-tags: [Evaluation, Efficiency, Datasets, Scalability, Hashing Methods]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Scalability"]
 short_authors: Wang et al.
 ---
 In recent years, anchor and hash-based multi-view clustering methods have

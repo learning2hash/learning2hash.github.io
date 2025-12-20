@@ -8,8 +8,7 @@ year: 2024
 bibkey: sun2024cross
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.14704'}]
-tags: [Evaluation, Image Retrieval, Re-ranking, Efficiency, Distance Metric Learning,
-  Datasets, Text Retrieval, Hybrid ANN Methods]
+tags: ["Datasets", "Efficiency", "Image Retrieval", "Re-Ranking", "Text Retrieval"]
 short_authors: Sun et al.
 ---
 Remote sensing cross-modal text-image retrieval (RSCTIR) has gained attention

@@ -8,7 +8,7 @@ bibkey: ma2020robust
 citations: 9
 additional_links: [{name: Code, url: 'https://github.com/mameng1/GraphLineMatching'},
   {name: Paper, url: 'https://arxiv.org/abs/2004.04993'}]
-tags: [Evaluation, Graph-based ANN]
+tags: ["Evaluation", "Graph Based ANN"]
 short_authors: Quanmeng Ma, Guang Jiang, Dianzhi Lai
 ---
 Line matching plays an essential role in structure from motion (SFM) and

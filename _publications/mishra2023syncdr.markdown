@@ -9,7 +9,7 @@ bibkey: mishra2023syncdr
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/samarth4149/SynCDR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2401.00420'}]
-tags: [Scalability, Distance Metric Learning]
+tags: ["Distance Metric Learning", "Scalability"]
 short_authors: Mishra et al.
 ---
 In cross-domain retrieval, a model is required to identify images from the

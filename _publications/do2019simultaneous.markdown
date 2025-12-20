@@ -7,8 +7,7 @@ year: 2019
 bibkey: do2019simultaneous
 citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.11820'}]
-tags: [Compact Codes, Evaluation, Supervised, Image Retrieval, Datasets, Scalability,
-  Unsupervised, Tools & Libraries, Hashing Methods]
+tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Do et al.
 ---
 Representing images by compact hash codes is an attractive approach for

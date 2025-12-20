@@ -8,7 +8,7 @@ year: 2022
 bibkey: shimizu2022partial
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.06688'}]
-tags: [Evaluation, Image Retrieval]
+tags: ["Evaluation", "Image Retrieval"]
 short_authors: Ryotaro Shimizu, Takuma Nakamura, Masayuki Goto
 ---
 In this study, we propose a technology called the Fashion Intelligence System

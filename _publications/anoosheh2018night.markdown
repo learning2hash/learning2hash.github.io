@@ -7,7 +7,7 @@ year: 2018
 bibkey: anoosheh2018night
 citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.09767'}]
-tags: [Evaluation, Image Retrieval, ICRA, Datasets]
+tags: ["Datasets", "Evaluation", "ICRA", "Image Retrieval"]
 short_authors: Anoosheh et al.
 ---
 Visual localization is a key step in many robotics pipelines, allowing the

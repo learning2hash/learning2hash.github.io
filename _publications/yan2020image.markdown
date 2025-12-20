@@ -7,7 +7,7 @@ year: 2020
 bibkey: yan2020image
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.08049'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Yan et al.
 ---
 Conventional image retrieval techniques for Structure-from-Motion (SfM)

@@ -8,7 +8,7 @@ year: 2019
 bibkey: khaund2019poshaknet
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.04237'}]
-tags: [Image Retrieval, Distance Metric Learning, Datasets, Robustness, Tools & Libraries]
+tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Robustness", "Tools & Libraries"]
 short_authors: Abhigyan Khaund, Daksh Thapar, Aditya Nigam
 ---
 Online garment shopping has gained many customers in recent years. Describing

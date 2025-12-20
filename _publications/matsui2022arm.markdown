@@ -9,7 +9,7 @@ year: 2022
 bibkey: matsui2022arm
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.02505'}]
-tags: [ICASSP, Quantization, Evaluation, Efficiency]
+tags: ["Efficiency", "Evaluation", "ICASSP", "Quantization"]
 short_authors: Matsui et al.
 ---
 We accelerate the 4-bit product quantization (PQ) on the ARM architecture.

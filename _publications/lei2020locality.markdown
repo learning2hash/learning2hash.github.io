@@ -8,8 +8,7 @@ year: 2020
 bibkey: lei2020locality
 citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.05345'}]
-tags: [Distance Metric Learning, Datasets, Tools & Libraries, Hashing Methods, Locality
-    Sensitive Hashing]
+tags: ["Datasets", "Distance Metric Learning", "Hashing Methods", "Locality-Sensitive-Hashing", "Tools & Libraries"]
 short_authors: Lei et al.
 ---
 Locality-Sensitive Hashing (LSH) is one of the most popular methods for

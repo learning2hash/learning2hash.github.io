@@ -8,7 +8,7 @@ year: 2017
 bibkey: tellez2017a
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.10351'}]
-tags: [Evaluation, Graph-based ANN, Datasets, Memory Efficiency]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Memory Efficiency"]
 short_authors: Tellez et al.
 ---
 Near neighbor search (NNS) is a powerful abstraction for data access;

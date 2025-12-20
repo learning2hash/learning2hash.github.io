@@ -8,8 +8,7 @@ year: 2018
 bibkey: song2018self
 citations: 271
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02305'}]
-tags: [Compact Codes, Evaluation, Video Retrieval, Supervised, Self-Supervised, Datasets,
-  Unsupervised, Tools & Libraries, Hashing Methods]
+tags: ["Hashing Methods", "Self-Supervised", "Supervised", "Unsupervised", "Video Retrieval"]
 short_authors: Song et al.
 ---
 Existing video hash functions are built on three isolated stages: frame

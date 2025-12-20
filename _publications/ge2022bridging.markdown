@@ -7,8 +7,7 @@ year: 2022
 bibkey: ge2022bridging
 citations: 117
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.04850'}]
-tags: [Video Retrieval, Evaluation, Few-shot & Zero-shot, Efficiency, Similarity Search,
-  Datasets, CVPR, Text Retrieval]
+tags: ["Datasets", "Efficiency", "Evaluation", "Text Retrieval", "Video Retrieval"]
 short_authors: Ge et al.
 ---
 Pre-training a model to learn transferable video-text representation for

@@ -7,7 +7,7 @@ year: 2022
 bibkey: potje2022learning
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.12016'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Potje et al.
 ---
 Most of the existing handcrafted and learning-based local descriptors are

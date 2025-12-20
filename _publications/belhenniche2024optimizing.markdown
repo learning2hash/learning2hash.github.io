@@ -7,7 +7,7 @@ year: 2024
 bibkey: belhenniche2024optimizing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.18800'}]
-tags: [Scalability, Evaluation, Image Retrieval, Efficiency]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Abdelkader Belhenniche, Roman Chertovskih
 ---
 This article provides a new approach on how to enhance data storage and

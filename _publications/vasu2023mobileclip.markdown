@@ -9,7 +9,7 @@ bibkey: vasu2023mobileclip
 citations: 5
 additional_links: [{name: Code, url: 'https://github.com/apple/ml-mobileclip'}, {
     name: Paper, url: 'https://arxiv.org/abs/2311.17049'}]
-tags: [Evaluation, Few-shot & Zero-shot, Efficiency, Datasets, Robustness]
+tags: ["Datasets", "Efficiency", "Evaluation", "Few Shot & Zero Shot", "Robustness"]
 short_authors: Vasu et al.
 ---
 Contrastive pretraining of image-text foundation models, such as CLIP,

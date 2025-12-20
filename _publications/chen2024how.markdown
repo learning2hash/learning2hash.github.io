@@ -8,7 +8,7 @@ year: 2024
 bibkey: chen2024how
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.07479'}]
-tags: [Text Retrieval, Self-Supervised, CVPR, Efficiency]
+tags: ["CVPR", "Efficiency", "Self-Supervised", "Text Retrieval"]
 short_authors: Chen et al.
 ---
 Dominant dual-encoder models enable efficient image-text retrieval but suffer

@@ -7,7 +7,7 @@ year: 2020
 bibkey: jacob2020diablo
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.14644'}]
-tags: [Evaluation, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Jacob et al.
 ---
 Recent breakthroughs in representation learning of unseen classes and

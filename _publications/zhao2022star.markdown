@@ -8,7 +8,7 @@ year: 2022
 bibkey: zhao2022star
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.06966'}]
-tags: [Video Retrieval, Distance Metric Learning, Tools & Libraries, Evaluation]
+tags: ["Distance Metric Learning", "Evaluation", "Tools & Libraries", "Video Retrieval"]
 short_authors: Zhao et al.
 ---
 We propose a video feature representation learning framework called STAR-GNN,

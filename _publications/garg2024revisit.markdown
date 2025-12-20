@@ -9,7 +9,7 @@ bibkey: garg2024revisit
 citations: 5
 additional_links: [{name: Code, url: 'https://github.com/AnyLoc/Revisit-Anything'},
   {name: Paper, url: 'https://arxiv.org/abs/2409.18049'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Garg et al.
 ---
 Accurately recognizing a revisited place is crucial for embodied agents to

@@ -7,8 +7,7 @@ year: 2016
 bibkey: nouredanesh2016gabor
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.04478'}]
-tags: [Evaluation, Tree-based ANN, Image Retrieval, Datasets, Robustness, Tools &
-    Libraries]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Robustness", "Tree Based ANN"]
 short_authors: Mina Nouredanesh, Hamid R. Tizhoosh, Ershad Banijamali
 ---
 In recent years, advances in medical imaging have led to the emergence of

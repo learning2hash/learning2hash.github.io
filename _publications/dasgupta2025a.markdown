@@ -8,7 +8,7 @@ year: 2025
 bibkey: dasgupta2025a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.10875'}]
-tags: [Recommender Systems]
+tags: ["Recommender Systems"]
 short_authors: Shib Dasgupta, Michael Boratko, Andrew McCallum
 ---
 Personalized item recommendation typically suffers from data sparsity, which

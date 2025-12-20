@@ -10,8 +10,7 @@ bibkey: sain2023clip
 citations: 93
 additional_links: [{name: Other, url: 'https://aneeshan95.github.io/Sketch_LVM/'},
   {name: Paper, url: 'https://arxiv.org/abs/2303.13440'}]
-tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Distance Metric Learning,
-  CVPR]
+tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Sain et al.
 ---
 In this paper, we leverage CLIP for zero-shot sketch based image retrieval

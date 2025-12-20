@@ -8,7 +8,7 @@ year: 2024
 bibkey: shcherbakov2024multi
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.01233'}]
-tags: [Evaluation, LREC, Datasets, Tools & Libraries, COLING]
+tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Viktor Shcherbakov, Fedor Krasnov
 ---
 Product search is uniquely different from search for documents, Internet

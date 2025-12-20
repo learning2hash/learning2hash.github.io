@@ -8,7 +8,7 @@ year: 2020
 bibkey: danovitch2020linking
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.03303'}]
-tags: [Scalability, Evaluation, Tools & Libraries]
+tags: ["Evaluation", "Scalability", "Tools & Libraries"]
 short_authors: Jacob Danovitch
 ---
 Many computational social science projects examine online discourse

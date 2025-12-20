@@ -9,7 +9,7 @@ year: 2023
 bibkey: rajput2023recommender
 citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.05065'}]
-tags: [Scalability, Evaluation, Recommender Systems, Datasets]
+tags: ["Datasets", "Evaluation", "Recommender Systems", "Scalability"]
 short_authors: Rajput et al.
 ---
 Modern recommender systems perform large-scale retrieval by first embedding

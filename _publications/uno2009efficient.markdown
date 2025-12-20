@@ -7,7 +7,7 @@ year: 2009
 bibkey: uno2009efficient
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/0904.3151'}]
-tags: [Locality Sensitive Hashing, Graph-based ANN, Evaluation, Efficiency]
+tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Locality-Sensitive-Hashing"]
 short_authors: Takeaki Uno, Masashi Sugiyama, Koji Tsuda
 ---
 Neighborhood graphs are gaining popularity as a concise data representation

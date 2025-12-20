@@ -8,7 +8,7 @@ bibkey: wang2021scene
 citations: 43
 additional_links: [{name: Code, url: 'https://github.com/lanfeng4659/STR-TDSL'}, {
     name: Paper, url: 'https://arxiv.org/abs/2104.01552'}]
-tags: [Evaluation, Datasets, CVPR, Tools & Libraries, Text Retrieval]
+tags: ["CVPR", "Datasets", "Evaluation", "Text Retrieval", "Tools & Libraries"]
 short_authors: Wang et al.
 ---
 Scene text retrieval aims to localize and search all text instances from an

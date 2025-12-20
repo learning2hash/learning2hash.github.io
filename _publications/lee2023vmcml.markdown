@@ -7,8 +7,7 @@ year: 2023
 bibkey: lee2023vmcml
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.12379'}]
-tags: [Evaluation, Distance Metric Learning, Datasets, Scalability, Tools & Libraries,
-  Recommender Systems]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Scalability", "Tools & Libraries"]
 short_authors: Lee et al.
 ---
 We propose a content-based system for matching video and background music.

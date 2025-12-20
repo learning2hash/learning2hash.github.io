@@ -7,8 +7,7 @@ year: 2022
 bibkey: "almaz\xE1n2022granularity"
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.02254'}]
-tags: [Evaluation, Supervised, Image Retrieval, Few-shot & Zero-shot, Self-Supervised,
-  Unsupervised]
+tags: ["Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: "Almaz\xE1n et al."
 ---
 Strong image search models can be learned for a specific domain, ie. set of

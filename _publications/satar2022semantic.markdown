@@ -7,7 +7,7 @@ year: 2022
 bibkey: satar2022semantic
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.12849'}]
-tags: [Video Retrieval]
+tags: ["Video Retrieval"]
 short_authors: Satar et al.
 ---
 With the emergence of social media, voluminous video clips are uploaded every

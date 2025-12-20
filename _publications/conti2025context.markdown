@@ -11,7 +11,7 @@ bibkey: conti2025context
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/illuin-tech/contextual-embeddings'},
   {name: Paper, url: 'https://arxiv.org/abs/2505.24782'}]
-tags: [EMNLP, Evaluation, Efficiency, Text Retrieval]
+tags: ["EMNLP", "Efficiency", "Evaluation", "Text Retrieval"]
 short_authors: Conti et al.
 ---
 A limitation of modern document retrieval embedding methods is that they typically encode passages (chunks) from the same documents independently, often overlooking crucial contextual information from the rest of the document that could greatly improve individual chunk representations.

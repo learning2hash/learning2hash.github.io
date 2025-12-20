@@ -8,7 +8,7 @@ year: 2019
 bibkey: tanioka2019a
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.01505'}]
-tags: [Evaluation, Image Retrieval, Efficiency, Distance Metric Learning, Datasets]
+tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Hiroki Tanioka
 ---
 Fast and scalable Content-Based Image Retrieval using visual features is

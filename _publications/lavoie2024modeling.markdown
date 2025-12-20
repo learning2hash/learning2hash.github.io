@@ -8,7 +8,7 @@ year: 2024
 bibkey: lavoie2024modeling
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.00740'}]
-tags: [Scalability, Evaluation, Few-shot & Zero-shot]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Scalability"]
 short_authors: Lavoie et al.
 ---
 There are a thousand ways to caption an image. Contrastive Language

@@ -7,8 +7,7 @@ year: 2024
 bibkey: huzaifa2024efsa
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.00139'}]
-tags: [Evaluation, Image Retrieval, Few-shot & Zero-shot, Datasets, Robustness, Multimodal
-    Retrieval, Tools & Libraries, Text Retrieval]
+tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Muhammad Huzaifa, Yova Kementchedjhieva
 ---
 Text-to-image retrieval is a critical task for managing diverse visual

@@ -8,7 +8,7 @@ year: 2024
 bibkey: formal2024splate
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.13950'}]
-tags: [Evaluation, Re-ranking, Efficiency, SIGIR, Hybrid ANN Methods]
+tags: ["Efficiency", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "SIGIR"]
 short_authors: Formal et al.
 ---
 The late interaction paradigm introduced with ColBERT stands out in the

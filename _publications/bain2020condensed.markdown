@@ -7,7 +7,7 @@ year: 2020
 bibkey: bain2020condensed
 citations: 71
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.04208'}]
-tags: [Video Retrieval, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Video Retrieval"]
 short_authors: Bain et al.
 ---
 Our objective in this work is long range understanding of the narrative

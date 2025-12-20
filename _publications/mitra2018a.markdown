@@ -8,7 +8,7 @@ year: 2018
 bibkey: mitra2018a
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.01466'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Mitra et al.
 ---
 We propose a new dataset for learning local image descriptors which can be

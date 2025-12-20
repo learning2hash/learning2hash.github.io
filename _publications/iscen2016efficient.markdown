@@ -8,7 +8,7 @@ year: 2016
 bibkey: iscen2016efficient
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.05113'}]
-tags: [Evaluation, Image Retrieval, Efficiency]
+tags: ["Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Iscen et al.
 ---
 Query expansion is a popular method to improve the quality of image retrieval

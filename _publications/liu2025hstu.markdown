@@ -7,7 +7,7 @@ year: 2025
 bibkey: liu2025hstu
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.10545'}]
-tags: [Evaluation, Survey Paper, Datasets, Tools & Libraries, Recommender Systems]
+tags: ["Datasets", "Evaluation", "Recommender Systems", "Survey Paper", "Tools & Libraries"]
 short_authors: Yijun Liu
 ---
 Recent advances in recommender systems have underscored the complementary strengths of generative modeling and pretrained language models. We propose HSTU-BLaIR, a hybrid framework that augments the Hierarchical Sequential Transduction Unit (HSTU)-based generative recommender with BLaIR, a lightweight contrastive text embedding model. This integration enriches item representations with semantic signals from textual metadata while preserving HSTU's powerful sequence modeling capabilities.

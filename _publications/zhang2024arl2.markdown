@@ -10,7 +10,7 @@ bibkey: zhang2024arl2
 citations: 6
 additional_links: [{name: Code, url: 'https://github.com/zhanglingxi-cs/ARL2'}, {
     name: Paper, url: 'https://arxiv.org/abs/2402.13542'}]
-tags: [Few-shot & Zero-shot, ACL]
+tags: ["Few Shot & Zero Shot"]
 short_authors: Zhang et al.
 ---
 Retrieval-augmented generation enhances large language models (LLMs) by

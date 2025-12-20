@@ -8,8 +8,7 @@ year: 2025
 bibkey: lan2025llave
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2503.04812'}]
-tags: [Video Retrieval, Evaluation, Few-shot & Zero-shot, Efficiency, Self-Supervised,
-  Datasets, Scalability, Tools & Libraries, Text Retrieval, EMNLP, ACL]
+tags: ["Datasets", "Efficiency", "Few Shot & Zero Shot", "Text Retrieval", "Video Retrieval"]
 short_authors: Lan et al.
 ---
 Universal multimodal embedding models play a critical role in tasks such as

@@ -10,8 +10,7 @@ year: 2023
 bibkey: coleman2023unified
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.12102'}]
-tags: [Evaluation, Datasets, Scalability, Tools & Libraries, Large-Scale Search, NeurIPS,
-  Recommender Systems]
+tags: ["Datasets", "Evaluation", "Large Scale Search", "Recommender Systems", "Scalability"]
 short_authors: Coleman et al.
 ---
 Learning high-quality feature embeddings efficiently and effectively is

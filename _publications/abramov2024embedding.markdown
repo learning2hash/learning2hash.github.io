@@ -7,7 +7,7 @@ year: 2024
 bibkey: abramov2024embedding
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.14975'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Evgeny Abramov, Nikolai Palchikov
 ---
 Most modern Integrated Development Environments (IDEs) and code editors have

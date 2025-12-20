@@ -7,7 +7,7 @@ year: 2024
 bibkey: li2024multimodal
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.14880'}]
-tags: [Text Retrieval, Self-Supervised]
+tags: ["Self-Supervised", "Text Retrieval"]
 short_authors: Li et al.
 ---
 Retrieval-based multi-image question answering (QA) task involves retrieving

@@ -7,7 +7,7 @@ year: 2019
 bibkey: magliani2019an
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.08668'}]
-tags: [Evaluation, Locality Sensitive Hashing, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Locality-Sensitive-Hashing"]
 short_authors: Magliani et al.
 ---
 The application of the diffusion in many computer vision and artificial

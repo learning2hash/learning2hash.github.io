@@ -7,7 +7,7 @@ year: 2019
 bibkey: badamdorj2019fast
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.07899'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Badamdorj et al.
 ---
 The indexing and searching of historical documents have garnered attention in

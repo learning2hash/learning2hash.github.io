@@ -7,7 +7,7 @@ year: 2019
 bibkey: harpeled2019near
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.02640'}]
-tags: [Locality Sensitive Hashing, Evaluation, Efficiency]
+tags: ["Efficiency", "Evaluation", "Locality-Sensitive-Hashing"]
 short_authors: Sariel Har-Peled, Sepideh Mahabadi
 ---
 \(\newcommand\{\ball\}\{\mathbb\{B\}\}\newcommand\{\dsQ\}\{\{\mathcal\{Q\}\}\}\newcommand\{\dsS\}\{\{\mathcal\{S\}\}\}\)In

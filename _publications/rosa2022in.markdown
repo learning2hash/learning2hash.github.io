@@ -9,7 +9,7 @@ bibkey: rosa2022in
 citations: 6
 additional_links: [{name: Code, url: 'https://github.com/guilhermemr04/scaling-zero-shot-retrieval.git'},
   {name: Paper, url: 'https://arxiv.org/abs/2212.06121'}]
-tags: [Evaluation, Few-shot & Zero-shot]
+tags: ["Evaluation", "Few Shot & Zero Shot"]
 short_authors: Rosa et al.
 ---
 Bi-encoders and cross-encoders are widely used in many state-of-the-art

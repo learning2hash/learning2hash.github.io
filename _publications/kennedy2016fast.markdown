@@ -7,7 +7,7 @@ year: 2016
 bibkey: kennedy2016fast
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.06922'}]
-tags: [Hashing Methods, Locality Sensitive Hashing]
+tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Christopher Kennedy, Rachel Ward
 ---
 We provide a variant of cross-polytope locality sensitive hashing with

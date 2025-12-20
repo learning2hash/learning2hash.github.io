@@ -7,7 +7,7 @@ year: 2021
 bibkey: shafiei2021colored
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.07611'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Shafiei et al.
 ---
 The Kimia Path24 dataset has been introduced as a classification and

@@ -7,7 +7,7 @@ year: 2018
 bibkey: huynh2018fast
 citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.08639'}]
-tags: [Hashing Methods, Distance Metric Learning, Quantization]
+tags: ["Distance Metric Learning", "Hashing Methods", "Quantization"]
 short_authors: Thang Huynh, Rayan Saab
 ---
 This paper deals with two related problems, namely distance-preserving binary

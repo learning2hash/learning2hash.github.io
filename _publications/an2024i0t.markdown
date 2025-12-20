@@ -7,8 +7,7 @@ year: 2024
 bibkey: an2024i0t
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.14384'}]
-tags: [Evaluation, Few-shot & Zero-shot, Self-Supervised, Tools & Libraries, Text
-    Retrieval]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Self-Supervised", "Text Retrieval", "Tools & Libraries"]
 short_authors: An et al.
 ---
 Contrastive Language-Image Pretraining (CLIP) enables zero-shot inference in

@@ -7,7 +7,7 @@ year: 2020
 bibkey: feng2020universal
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.08628'}]
-tags: [Image Retrieval, Datasets]
+tags: ["Datasets", "Image Retrieval"]
 short_authors: Yang Feng, Yubao Liu, Jiebo Luo
 ---
 Medical Image Retrieval (MIR) helps doctors quickly find similar patients'

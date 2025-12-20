@@ -8,8 +8,7 @@ year: 2024
 bibkey: chowdhury2024nearest
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.24114'}]
-tags: [Evaluation, Image Retrieval, Datasets, Multimodal Retrieval, Scalability, Text
-    Retrieval, EMNLP]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Chowdhury et al.
 ---
 Multimodal models leverage large-scale pre-training to achieve strong but

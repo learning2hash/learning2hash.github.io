@@ -8,7 +8,7 @@ year: 2020
 bibkey: liang2020embedding
 citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.10270'}]
-tags: [Evaluation, Few-shot & Zero-shot, Efficiency, Datasets]
+tags: ["Datasets", "Efficiency", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Liang et al.
 ---
 Passage retrieval addresses the problem of locating relevant passages,

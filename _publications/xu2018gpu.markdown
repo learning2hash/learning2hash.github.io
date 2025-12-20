@@ -7,7 +7,7 @@ year: 2018
 bibkey: xu2018gpu
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.08995'}]
-tags: [Hashing Methods, Tree-based ANN, Scalability]
+tags: ["Hashing Methods", "Scalability", "Tree Based ANN"]
 short_authors: Tao Xu, Kun Sun, Wenbing Tao
 ---
 Image feature point matching is a key step in Structure from Motion(SFM).

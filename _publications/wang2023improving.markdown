@@ -9,7 +9,7 @@ year: 2023
 bibkey: wang2023improving
 citations: 50
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.00368'}]
-tags: [Evaluation, Supervised, Distance Metric Learning, Datasets, ACL]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Supervised"]
 short_authors: Wang et al.
 ---
 In this paper, we introduce a novel and simple method for obtaining

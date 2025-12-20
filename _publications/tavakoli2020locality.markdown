@@ -8,7 +8,7 @@ year: 2020
 bibkey: tavakoli2020locality
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.02094'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Datasets]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Neda Tavakoli
 ---
 Bidirectional Long Short-Term Memory (LSTM) is a special kind of Recurrent

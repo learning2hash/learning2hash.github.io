@@ -8,7 +8,7 @@ year: 2016
 bibkey: paulin2016convolutional
 citations: 64
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.00438'}]
-tags: [Evaluation, Supervised, Image Retrieval, Datasets, Unsupervised]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Paulin et al.
 ---
 Convolutional neural networks (CNNs) have recently received a lot of

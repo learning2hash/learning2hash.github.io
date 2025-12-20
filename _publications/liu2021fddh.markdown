@@ -8,8 +8,7 @@ bibkey: liu2021fddh
 citations: 60
 additional_links: [{name: Code, url: 'https://github.com/starxliu/FDDH'}, {name: Paper,
     url: 'https://arxiv.org/abs/2105.07128'}]
-tags: [Evaluation, Efficiency, Similarity Search, Datasets, Quantization, Multimodal
-    Retrieval, Scalability, Hashing Methods]
+tags: ["Efficiency", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Similarity Search"]
 short_authors: Xin Liu, Xingzhi Wang, Yiu-Ming Cheung
 ---
 Cross-modal hashing, favored for its effectiveness and efficiency, has

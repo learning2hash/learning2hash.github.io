@@ -9,7 +9,7 @@ year: 2022
 bibkey: pouyan2022shadfa
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.07822'}]
-tags: [Evaluation, Recommender Systems, Datasets]
+tags: ["Datasets", "Evaluation", "Recommender Systems"]
 short_authors: Pouyan et al.
 ---
 Movies are a great source of entertainment. However, the problem arises when

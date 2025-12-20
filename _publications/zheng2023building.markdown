@@ -9,7 +9,7 @@ year: 2023
 bibkey: zheng2023building
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.13677'}]
-tags: [Evaluation, Datasets, Hashing Methods, Locality Sensitive Hashing, SIGIR]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "SIGIR"]
 short_authors: Zheng et al.
 ---
 To retrieve personalized campaigns and creatives while protecting user

@@ -7,7 +7,7 @@ year: 2021
 bibkey: godi2021movingfashion
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.02627'}]
-tags: [Evaluation, Datasets]
+tags: ["Datasets", "Evaluation"]
 short_authors: Godi et al.
 ---
 Retrieving clothes which are worn in social media videos (Instagram, TikTok)

@@ -7,7 +7,7 @@ year: 2018
 bibkey: zhu2018attention
 citations: 92
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.00288'}]
-tags: [Scalability, Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Zhu et al.
 ---
 Visual place recognition is challenging in the urban environment and is

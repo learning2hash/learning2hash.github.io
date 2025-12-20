@@ -8,7 +8,7 @@ year: 2024
 bibkey: maniparambil2024harnessing
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.19425'}]
-tags: [Text Retrieval, Tools & Libraries, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Few Shot & Zero Shot", "Text Retrieval", "Tools & Libraries"]
 short_authors: Maniparambil et al.
 ---
 Recent contrastive multimodal vision-language models like CLIP have

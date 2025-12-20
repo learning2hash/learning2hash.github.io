@@ -9,7 +9,7 @@ bibkey: le2020city
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/canhld94/Daejeon520'}, {
     name: Paper, url: 'https://arxiv.org/abs/2009.09255'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Duc Canh Le, Chan Hyun Youn
 ---
 Visual place recognition is the task of recognizing a place depicted in an

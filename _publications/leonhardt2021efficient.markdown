@@ -7,7 +7,7 @@ year: 2021
 bibkey: leonhardt2021efficient
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.06051'}]
-tags: [Evaluation, Efficiency, Datasets, Scalability, Hybrid ANN Methods]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hybrid ANN Methods", "Scalability"]
 short_authors: Leonhardt et al.
 ---
 Neural document ranking approaches, specifically transformer models, have

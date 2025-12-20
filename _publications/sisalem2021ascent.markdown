@@ -7,7 +7,7 @@ year: 2021
 bibkey: sisalem2021ascent
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.00957'}]
-tags: [Recommender Systems, Similarity Search]
+tags: ["Recommender Systems", "Similarity Search"]
 short_authors: T. Si-Salem, G. Neglia, D. Carra
 ---
 Similarity search is a key operation in multimedia retrieval systems and

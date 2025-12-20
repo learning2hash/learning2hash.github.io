@@ -11,7 +11,7 @@ bibkey: yang2023batchsampler
 citations: 8
 additional_links: [{name: Code, url: 'https://github.com/THUDM/BatchSampler\'}, {
     name: Paper, url: 'https://arxiv.org/abs/2306.03355'}]
-tags: [Evaluation, Supervised, Self-Supervised, Graph-based ANN, Datasets, KDD]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Self-Supervised", "Supervised"]
 short_authors: Yang et al.
 ---
 In-Batch contrastive learning is a state-of-the-art self-supervised method

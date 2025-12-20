@@ -7,8 +7,7 @@ year: 2018
 bibkey: jin2018unsupervised
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.06911'}]
-tags: [Supervised, Image Retrieval, Efficiency, Neural Hashing, Datasets, Quantization,
-  Scalability, Unsupervised, Hashing Methods]
+tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Sheng Jin
 ---
 In recent years, deep hashing methods have been proved to be efficient since

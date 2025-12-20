@@ -8,7 +8,7 @@ year: 2016
 bibkey: arandjelovic2016learnt
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.00560'}]
-tags: [CVPR]
+tags: ["CVPR"]
 short_authors: Ognjen Arandjelovic
 ---
 We are interested in identity-based retrieval of face sets from large

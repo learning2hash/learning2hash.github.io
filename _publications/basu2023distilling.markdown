@@ -8,7 +8,7 @@ year: 2023
 bibkey: basu2023distilling
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.09233'}]
-tags: [Text Retrieval, Evaluation, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
 short_authors: Basu et al.
 ---
 Image-text contrastive models like CLIP have wide applications in zero-shot

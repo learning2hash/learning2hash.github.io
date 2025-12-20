@@ -8,8 +8,7 @@ year: 2022
 bibkey: gupta2022learning
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.11485'}]
-tags: [Efficiency, Similarity Search, Datasets, Tools & Libraries, Hashing Methods,
-  Locality Sensitive Hashing, AAAI]
+tags: ["AAAI", "Datasets", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Vinayak Gupta, Srikanta Bedathur, Abir de
 ---
 Recent developments in predictive modeling using marked temporal point

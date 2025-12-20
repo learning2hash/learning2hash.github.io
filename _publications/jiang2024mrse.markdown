@@ -8,7 +8,7 @@ year: 2024
 bibkey: jiang2024mrse
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.14968'}]
-tags: [Scalability, Evaluation, Datasets, Robustness]
+tags: ["Datasets", "Evaluation", "Robustness", "Scalability"]
 short_authors: Jiang et al.
 ---
 Providing high-quality item recall for text queries is crucial in large-scale

@@ -7,7 +7,7 @@ year: 2016
 bibkey: morris2016faster
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.00064'}]
-tags: [Hashing Methods, Evaluation, Tools & Libraries]
+tags: ["Evaluation", "Hashing Methods", "Tools & Libraries"]
 short_authors: Morris et al.
 ---
 While state-of-the-art kernels for graphs with discrete labels scale well to

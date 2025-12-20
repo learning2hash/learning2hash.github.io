@@ -7,7 +7,7 @@ year: 2016
 bibkey: parker2016the
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.03986'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Parker et al.
 ---
 Accuracy, descriptor size, and the time required for extraction and matching

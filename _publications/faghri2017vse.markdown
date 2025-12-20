@@ -7,7 +7,7 @@ year: 2017
 bibkey: faghri2017vse
 citations: 578
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.05612'}]
-tags: [Evaluation, Image Retrieval, Datasets, Multimodal Retrieval]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Faghri et al.
 ---
 We present a new technique for learning visual-semantic embeddings for

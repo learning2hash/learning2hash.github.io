@@ -8,8 +8,7 @@ year: 2024
 bibkey: gusak2024rece
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.02354'}]
-tags: [Evaluation, Recommender Systems, Datasets, Memory Efficiency, Scalability,
-  Hashing Methods, Locality Sensitive Hashing, CIKM]
+tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems", "Scalability"]
 short_authors: Gusak et al.
 ---
 Scalability is a major challenge in modern recommender systems. In sequential

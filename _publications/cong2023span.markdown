@@ -7,7 +7,7 @@ year: 2023
 bibkey: cong2023span
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.00590'}]
-tags: [Evaluation, Image Retrieval, Self-Supervised, Datasets, Tools & Libraries]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Self-Supervised", "Tools & Libraries"]
 short_authors: Cong et al.
 ---
 Learning similarity between scene graphs and images aims to estimate a

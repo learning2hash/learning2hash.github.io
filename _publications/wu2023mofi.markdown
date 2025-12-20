@@ -9,7 +9,7 @@ bibkey: wu2023mofi
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/apple/ml-mofi'}, {name: Paper,
     url: 'https://arxiv.org/abs/2306.07952'}]
-tags: [Evaluation, Supervised, Image Retrieval, Few-shot & Zero-shot, Datasets, Scalability]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Supervised"]
 short_authors: Wu et al.
 ---
 We present MOFI, Manifold OF Images, a new vision foundation model designed

@@ -7,7 +7,7 @@ year: 2017
 bibkey: razeghi2017privacy
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.10297'}]
-tags: [Hashing Methods, Evaluation, Tools & Libraries, Similarity Search]
+tags: ["Evaluation", "Hashing Methods", "Similarity Search", "Tools & Libraries"]
 short_authors: Razeghi et al.
 ---
 In this paper, we consider a privacy preserving encoding framework for

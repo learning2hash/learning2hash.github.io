@@ -8,7 +8,7 @@ year: 2024
 bibkey: liu2024discrete
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.08206'}]
-tags: [Efficiency, Recommender Systems, Memory Efficiency]
+tags: ["Efficiency", "Memory Efficiency", "Recommender Systems"]
 short_authors: Liu et al.
 ---
 Incorporating item content information into click-through rate (CTR)

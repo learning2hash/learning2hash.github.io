@@ -7,7 +7,7 @@ year: 2021
 bibkey: cao2021metric
 citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.08397'}]
-tags: [Distance Metric Learning, Tools & Libraries, Evaluation, Robustness]
+tags: ["Distance Metric Learning", "Evaluation", "Robustness", "Tools & Libraries"]
 short_authors: Cao et al.
 ---
 Detecting facial forgery images and videos is an increasingly important topic

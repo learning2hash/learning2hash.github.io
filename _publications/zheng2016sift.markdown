@@ -7,7 +7,7 @@ year: 2016
 bibkey: zheng2016sift
 citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.01807'}]
-tags: [Evaluation, Image Retrieval, Datasets, Survey Paper]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Survey Paper"]
 short_authors: Liang Zheng, Yi Yang, Qi Tian
 ---
 In the early days, content-based image retrieval (CBIR) was studied with

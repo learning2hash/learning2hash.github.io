@@ -8,7 +8,7 @@ year: 2021
 bibkey: macdonald2021on
 citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.11480'}]
-tags: [Vector Indexing, Efficiency, CIKM, Similarity Search]
+tags: ["CIKM", "Efficiency", "Similarity Search", "Vector Indexing"]
 short_authors: Craig MacDonald, Nicola Tonellotto
 ---
 Dense retrieval, which describes the use of contextualised language models

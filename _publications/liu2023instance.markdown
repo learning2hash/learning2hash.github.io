@@ -8,7 +8,7 @@ year: 2023
 bibkey: liu2023instance
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.04239'}]
-tags: [Evaluation, Datasets, Multimodal Retrieval]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval"]
 short_authors: Liu et al.
 ---
 3D cross-modal retrieval is gaining attention in the multimedia community.

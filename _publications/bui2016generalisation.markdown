@@ -7,7 +7,7 @@ year: 2016
 bibkey: bui2016generalisation
 citations: 55
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.05301'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Bui et al.
 ---
 We propose and evaluate several triplet CNN architectures for measuring the

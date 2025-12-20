@@ -7,7 +7,7 @@ year: 2019
 bibkey: bachmann2019the
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.11453'}]
-tags: [Distance Metric Learning, Vector Indexing, Similarity Search]
+tags: ["Distance Metric Learning", "Similarity Search", "Vector Indexing"]
 short_authors: "J\xF6rg P. Bachmann"
 ---
 A common approach to implementing similarity search applications is the usage

@@ -9,7 +9,7 @@ bibkey: mikriukov2022an
 citations: 7
 additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/chnr'}, {name: Paper,
     url: 'https://arxiv.org/abs/2202.13117'}]
-tags: [Supervised, Robustness, Unsupervised, Hashing Methods, Text Retrieval]
+tags: ["Hashing Methods", "Robustness", "Supervised", "Text Retrieval", "Unsupervised"]
 short_authors: "Georgii Mikriukov, Mahdyar Ravanbakhsh, Beg\xFCm Demir"
 ---
 The development of accurate and scalable cross-modal image-text retrieval

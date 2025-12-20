@@ -8,8 +8,7 @@ year: 2022
 bibkey: aksoy2022satellite
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.10830'}]
-tags: [Image Retrieval, Efficiency, Neural Hashing, Similarity Search, Distance Metric
-    Learning, Scalability, Hashing Methods]
+tags: ["Distance Metric Learning", "Efficiency", "Hashing Methods", "Image Retrieval", "Similarity Search"]
 short_authors: Aksoy et al.
 ---
 The growing operational capability of global Earth Observation (EO) creates

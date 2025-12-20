@@ -7,7 +7,7 @@ year: 2017
 bibkey: yao2017one
 citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.00811'}]
-tags: [Image Retrieval, Efficiency, Datasets, Scalability, Tools & Libraries]
+tags: ["Datasets", "Efficiency", "Image Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Yao et al.
 ---
 Fine-Grained Visual Categorization (FGVC) has achieved significant progress

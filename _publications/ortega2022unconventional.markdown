@@ -8,7 +8,7 @@ year: 2022
 bibkey: ortega2022unconventional
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.02734'}]
-tags: [Vector Indexing, Datasets, Similarity Search]
+tags: ["Datasets", "Similarity Search", "Vector Indexing"]
 short_authors: Ortega et al.
 ---
 Similarity search based on a distance function in metric spaces is a

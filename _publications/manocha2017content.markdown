@@ -9,7 +9,7 @@ year: 2017
 bibkey: manocha2017content
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1710.10974'}]
-tags: [ICASSP, Distance Metric Learning]
+tags: ["Distance Metric Learning", "ICASSP"]
 short_authors: Manocha et al.
 ---
 In this paper, we focus on the problem of content-based retrieval for audio,

@@ -8,7 +8,7 @@ year: 2022
 bibkey: duan2022multi
 citations: 48
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.00048'}]
-tags: [Evaluation, CVPR, Few-shot & Zero-shot]
+tags: ["CVPR", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Duan et al.
 ---
 Aligning signals from different modalities is an important step in

@@ -7,7 +7,7 @@ year: 2016
 bibkey: do2016learning
 citations: 167
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.05140'}]
-tags: [Compact Codes, Evaluation, Supervised, Datasets, Unsupervised, Hashing Methods]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Thanh-Toan Do, Anh-Dzung Doan, Ngai-Man Cheung
 ---
 This work proposes deep network models and learning algorithms for

@@ -7,7 +7,7 @@ year: 2019
 bibkey: lee2019contextualized
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.02896'}]
-tags: [Scalability, Efficiency]
+tags: ["Efficiency", "Scalability"]
 short_authors: Lee et al.
 ---
 Open-domain question answering can be formulated as a phrase retrieval

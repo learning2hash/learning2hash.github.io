@@ -7,7 +7,7 @@ year: 2022
 bibkey: luo2022a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.08053'}]
-tags: [Tools & Libraries, Few-shot & Zero-shot, Datasets]
+tags: ["Datasets", "Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Xukun Luo, Ping Wang
 ---
 Relation Extraction (RE) refers to extracting the relation triples in the

@@ -7,7 +7,7 @@ year: 2016
 bibkey: kimothi2016distributed
 citations: 55
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.05949'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: Kimothi et al.
 ---
 Biological sequence comparison is a key step in inferring the relatedness of

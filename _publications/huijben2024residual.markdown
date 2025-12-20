@@ -8,7 +8,7 @@ year: 2024
 bibkey: huijben2024residual
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.14732'}]
-tags: [Datasets, Quantization]
+tags: ["Datasets", "Quantization"]
 short_authors: Huijben et al.
 ---
 Vector quantization is a fundamental operation for data compression and

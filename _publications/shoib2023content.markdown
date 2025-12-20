@@ -7,7 +7,7 @@ year: 2023
 bibkey: shoib2023content
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.07540'}]
-tags: [Evaluation, Image Retrieval, Datasets]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Shoib et al.
 ---
 Jewellery item retrieval is regularly used to find what people want on online

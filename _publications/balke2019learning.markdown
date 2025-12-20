@@ -7,7 +7,7 @@ year: 2019
 bibkey: balke2019learning
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.10996'}]
-tags: [Robustness, Multimodal Retrieval]
+tags: ["Multimodal Retrieval", "Robustness"]
 short_authors: Balke et al.
 ---
 Connecting large libraries of digitized audio recordings to their

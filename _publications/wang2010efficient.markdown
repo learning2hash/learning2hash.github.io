@@ -7,7 +7,7 @@ year: 2010
 bibkey: wang2010efficient
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1011.2807'}]
-tags: [Datasets, Efficiency]
+tags: ["Datasets", "Efficiency"]
 short_authors: Wang et al.
 ---
 The K-Nearest Neighbor (KNN) join is an expensive but important operation in

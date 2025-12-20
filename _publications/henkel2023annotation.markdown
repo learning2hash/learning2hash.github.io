@@ -8,7 +8,7 @@ bibkey: henkel2023annotation
 citations: 3
 additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/ANNEAL'}, {name: Paper,
     url: 'https://arxiv.org/abs/2306.11605'}]
-tags: [Distance Metric Learning, RSS, Image Retrieval]
+tags: ["Distance Metric Learning", "Image Retrieval", "RSS"]
 short_authors: Henkel et al.
 ---
 Deep metric learning (DML) based methods have been found very effective for

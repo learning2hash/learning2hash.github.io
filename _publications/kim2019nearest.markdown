@@ -8,7 +8,7 @@ year: 2019
 bibkey: kim2019nearest
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.09799'}]
-tags: [Hashing Methods, Evaluation]
+tags: ["Evaluation", "Hashing Methods"]
 short_authors: Sunwoo Kim, Minje Kim
 ---
 We propose an iteration-free source separation algorithm based on

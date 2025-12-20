@@ -7,7 +7,7 @@ year: 2016
 bibkey: spring2016scalable
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.08194'}]
-tags: [Evaluation, Neural Hashing, Efficiency, Datasets, Scalability, Hashing Methods]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing", "Scalability"]
 short_authors: Ryan Spring, Anshumali Shrivastava
 ---
 Current deep learning architectures are growing larger in order to learn from

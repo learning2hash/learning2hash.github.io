@@ -8,7 +8,7 @@ year: 2016
 bibkey: malkov2016efficient
 citations: 185
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.09320'}]
-tags: [Evaluation, Graph-based ANN, Efficiency]
+tags: ["Efficiency", "Evaluation", "Graph Based ANN"]
 short_authors: Yu. A. Malkov, D. A. Yashunin
 ---
 We present a new approach for the approximate K-nearest neighbor search based

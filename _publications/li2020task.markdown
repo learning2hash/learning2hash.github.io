@@ -7,8 +7,7 @@ year: 2020
 bibkey: li2020task
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.00197'}]
-tags: [Compact Codes, Evaluation, Supervised, Efficiency, Datasets, Multimodal Retrieval,
-  Unsupervised, Tools & Libraries, Hashing Methods]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Multimodal Retrieval", "Supervised"]
 short_authors: Li et al.
 ---
 Supervised cross-modal hashing aims to embed the semantic correlations of

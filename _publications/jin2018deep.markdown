@@ -7,8 +7,7 @@ year: 2018
 bibkey: jin2018deep
 citations: 93
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.02459'}]
-tags: [Evaluation, Image Retrieval, Efficiency, Neural Hashing, Similarity Search,
-  Datasets, Tools & Libraries, Hashing Methods]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Jin et al.
 ---
 Hashing has attracted increasing research attentions in recent years due to

@@ -7,7 +7,7 @@ year: 2019
 bibkey: regmi2019bridging
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.11045'}]
-tags: [ICCV, Datasets]
+tags: ["Datasets", "ICCV"]
 short_authors: Krishna Regmi, Mubarak Shah
 ---
 The visual entities in cross-view images exhibit drastic domain changes due

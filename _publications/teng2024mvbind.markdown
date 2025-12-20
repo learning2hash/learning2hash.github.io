@@ -9,8 +9,7 @@ year: 2024
 bibkey: teng2024mvbind
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.09286'}]
-tags: [Evaluation, Supervised, Self-Supervised, Datasets, Multimodal Retrieval, Recommender
-    Systems]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Teng et al.
 ---
 Recent years have witnessed the rapid development of short videos, which

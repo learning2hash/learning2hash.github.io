@@ -7,7 +7,7 @@ year: 2020
 bibkey: ahle2020similarity
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.12608'}]
-tags: [Similarity Search, Efficiency]
+tags: ["Efficiency", "Similarity Search"]
 short_authors: Thomas D. Ahle, Francesco Silvestri
 ---
 Tensor Core Units (TCUs) are hardware accelerators developed for deep neural

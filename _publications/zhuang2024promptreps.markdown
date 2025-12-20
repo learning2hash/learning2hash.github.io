@@ -9,8 +9,7 @@ year: 2024
 bibkey: zhuang2024promptreps
 citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.18424'}]
-tags: [Evaluation, Supervised, Re-ranking, Neural Hashing, Few-shot & Zero-shot, Datasets,
-  Unsupervised, Text Retrieval, EMNLP, Hybrid ANN Methods]
+tags: ["Evaluation", "Re-Ranking", "Supervised", "Text Retrieval", "Unsupervised"]
 short_authors: Zhuang et al.
 ---
 Utilizing large language models (LLMs) for zero-shot document ranking is done

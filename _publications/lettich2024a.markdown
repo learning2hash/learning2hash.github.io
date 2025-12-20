@@ -9,7 +9,7 @@ year: 2024
 bibkey: lettich2024a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.01739'}]
-tags: [Uncategorized]
+tags: ["Uncategorized"]
 short_authors: Richard Lettich
 ---
 We introduce a decomposition method for the distributed calculation of exact

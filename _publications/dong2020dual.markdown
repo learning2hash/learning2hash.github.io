@@ -8,7 +8,7 @@ year: 2020
 bibkey: dong2020dual
 citations: 197
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.05381'}]
-tags: [Video Retrieval, Evaluation, Datasets]
+tags: ["Datasets", "Evaluation", "Video Retrieval"]
 short_authors: Dong et al.
 ---
 This paper attacks the challenging problem of video retrieval by text. In

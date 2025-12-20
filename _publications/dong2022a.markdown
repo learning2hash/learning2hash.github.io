@@ -8,7 +8,7 @@ year: 2022
 bibkey: dong2022a
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.01095'}]
-tags: [Hashing Methods, Locality Sensitive Hashing, Evaluation]
+tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Xingbo Dong, Zhe Jin, Koksheik Wong
 ---
 Hashing technology gains much attention in protecting the biometric template

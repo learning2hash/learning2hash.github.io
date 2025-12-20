@@ -7,7 +7,7 @@ year: 2020
 bibkey: gerritse2020graph
 citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.02843'}]
-tags: [Graph-based ANN, Re-ranking, Hybrid ANN Methods]
+tags: ["Graph Based ANN", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Emma J. Gerritse, Faegheh Hasibi, Arjen P. de Vries
 ---
 In this research, we improve upon the current state of the art in entity

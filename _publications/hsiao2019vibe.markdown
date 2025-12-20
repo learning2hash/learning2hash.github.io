@@ -7,7 +7,7 @@ year: 2019
 bibkey: hsiao2019vibe
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.06697'}]
-tags: [CVPR, Recommender Systems, Datasets]
+tags: ["CVPR", "Datasets", "Recommender Systems"]
 short_authors: Wei-Lin Hsiao, Kristen Grauman
 ---
 Body shape plays an important role in determining what garments will best

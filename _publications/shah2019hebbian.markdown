@@ -7,7 +7,7 @@ year: 2019
 bibkey: shah2019hebbian
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.08037'}]
-tags: [Evaluation, Graph-based ANN, Recommender Systems]
+tags: ["Evaluation", "Graph Based ANN", "Recommender Systems"]
 short_authors: Shalin Shah, Venkataramana Kini
 ---
 Representation learning has recently been successfully used to create vector

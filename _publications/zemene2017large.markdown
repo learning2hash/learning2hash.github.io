@@ -8,7 +8,7 @@ year: 2017
 bibkey: zemene2017large
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.01238'}]
-tags: [Scalability, Tools & Libraries, Datasets]
+tags: ["Datasets", "Scalability", "Tools & Libraries"]
 short_authors: Zemene et al.
 ---
 This paper presents a new approach for the challenging problem of

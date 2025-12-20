@@ -7,8 +7,7 @@ year: 2025
 bibkey: wang2025sequential
 citations: 319
 additional_links: [{name: Paper, url: 'http://machinelearning.wustl.edu/mlpapers/paper_files/icml2010_WangKC10.pdf'}]
-tags: [Compact Codes, Evaluation, Supervised, Efficiency, Similarity Search, Datasets,
-  Unsupervised, Hashing Methods, Locality Sensitive Hashing]
+tags: ["Compact Codes", "Datasets", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: J. Wang, Kumar, Chang
 ---
 Hashing based Approximate Nearest Neighbor

@@ -10,7 +10,7 @@ bibkey: dong2021fine
 citations: 40
 additional_links: [{name: Code, url: 'https://github.com/maryeon/asenpp'}, {name: Paper,
     url: 'https://arxiv.org/abs/2104.02429'}]
-tags: [Re-ranking, Hybrid ANN Methods, Datasets]
+tags: ["Datasets", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Dong et al.
 ---
 This paper strives to predict fine-grained fashion similarity. In this

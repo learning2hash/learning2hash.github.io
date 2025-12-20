@@ -8,7 +8,7 @@ year: 2021
 bibkey: "wo\u017Aniak2021hex2vec"
 citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.00970'}]
-tags: [Evaluation]
+tags: ["Evaluation"]
 short_authors: "Szymon Wo\u017Aniak, Piotr Szyma\u0144ski"
 ---
 Representation learning of spatial and geographic data is a rapidly

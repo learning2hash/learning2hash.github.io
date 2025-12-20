@@ -10,7 +10,7 @@ bibkey: lu2023uniadapter
 citations: 20
 additional_links: [{name: Code, url: 'https://github.com/RERV/UniAdapter'}, {name: Paper,
     url: 'https://arxiv.org/abs/2302.06605'}]
-tags: [Text Retrieval, Evaluation, Scalability, Memory Efficiency]
+tags: ["Evaluation", "Memory Efficiency", "Scalability", "Text Retrieval"]
 short_authors: Lu et al.
 ---
 Large-scale vision-language pre-trained models have shown promising

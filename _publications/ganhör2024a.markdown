@@ -9,7 +9,7 @@ year: 2024
 bibkey: "ganh\xF6r2024a"
 citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.17864'}]
-tags: [Evaluation, Datasets, Scalability, RecSys, Recommender Systems]
+tags: ["Datasets", "Evaluation", "Recommender Systems", "Scalability"]
 short_authors: "Ganh\xF6r et al."
 ---
 Most recommender systems adopt collaborative filtering (CF) and provide
