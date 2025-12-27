@@ -8,7 +8,7 @@ year: 2017
 bibkey: xu2017iterative
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.09862'}]
-tags: ["Datasets", "Image Retrieval", "Re-Ranking", "Supervised", "Unsupervised"]
+tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Xu et al.
 ---
 Existing manifold learning methods are not appropriate for image retrieval
