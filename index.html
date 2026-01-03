@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <!-- _includes/head.html -->
+<head>
+  <!-- begin code v 7.0 -->
+  <span id="wts2185304"></span>
+  <script>
+  var wts7 = {};
+  wts7.invisible='';
+  wts7.page_name='';
+  wts7.group_name='';
+  wts7.conversion_number='';
+  wts7.user_id='';
+  var wts=document.createElement('script');wts.async=true;
+  wts.src='https://app.ardalio.com/wts7.js';document.head.appendChild(wts);
+  wts.onload = function(){ wtsl7(2185304,4); };
+  </script><noscript><img src="https://app.ardalio.com/7/4/2185304.png"></noscript>
+  <!-- end code v 7.0 -->
+
+ <!-- MathJax -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        // Only process elements with this class:
+        processHtmlClass: 'mathjax-content',
+        // And explicitly skip anything marked as no-mathjax
+        ignoreHtmlClass: 'no-mathjax'
+      }
+    };
+  </script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ✅ Manual SEO keywords (specific to Learning to Hash) -->
+  <meta name="keywords" content="learning to hash, machine learning, hashing, approximate nearest neighbour search, ANN, LSH, locality sensitive hashing, vector quantization, deep hashing, binary embeddings, information retrieval, similarity search">
+
+  <!-- ✅ Jekyll SEO plugin (title, description, canonical, OG/Twitter, JSON-LD) -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Awesome Papers on Learning to Hash: A Curated, Evolving Resource | Awesome Learning to Hash</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Awesome Papers on Learning to Hash: A Curated, Evolving Resource" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Explore recent research in learning to hash, including key publications, topic tags, taxonomy-driven organization, real-world applications, and community contributions — a living literature review for approximate nearest neighbour methods." />
+<meta property="og:description" content="Explore recent research in learning to hash, including key publications, topic tags, taxonomy-driven organization, real-world applications, and community contributions — a living literature review for approximate nearest neighbour methods." />
+<link rel="canonical" href="https://learning2hash.github.io/" />
+<meta property="og:url" content="https://learning2hash.github.io/" />
+<meta property="og:site_name" content="Awesome Learning to Hash" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Awesome Papers on Learning to Hash: A Curated, Evolving Resource" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Explore recent research in learning to hash, including key publications, topic tags, taxonomy-driven organization, real-world applications, and community contributions — a living literature review for approximate nearest neighbour methods.","headline":"Awesome Papers on Learning to Hash: A Curated, Evolving Resource","name":"Awesome Learning to Hash","url":"https://learning2hash.github.io/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="search" href="/public/opensearchdescription.xml" type="application/opensearchdescription+xml" title="learning2hash" />
+
+  <!-- ✅ Single, modern jQuery + DataTables -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" defer></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" defer></script>
+
+  <!-- Optional sanity log -->
+  <script defer>
+    window.addEventListener('DOMContentLoaded', () => {
+      console.log('jQuery:', jQuery?.fn?.jquery);
+      console.log('DataTables loaded:', !!jQuery?.fn?.dataTable);
+    });
+  </script>
+</head>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <body class="theme-base-0c layout-reverse">
+
+    <!-- Ribbon -->
+<a href='/contributing.html' class='ribbon'>Add your paper to Learning2Hash</a>
+
+<!-- Sidebar -->
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">Awesome Learning to Hash</a>
+      </h1>
+      <p class="lead">A Webpage dedicated to the latest research on Hash Function Learning. Maintained by <a href="https://www.buymeacoffee.com/sjmoran">Sean Moran</a>.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div class="sidebar-item">
+        <p style="font-size: 12px">
+          Search related work
+          <input type="text" id="searchTarget" size="16" />
+          <button type="button" onClick="search();">Go</button>
+        </p>
+      </div>
+
+      <!-- NOTE: use quoted comparisons for page.url -->
+      <a class="sidebar-nav-item"
+         href="/papers.html">All Papers</a>
+      <a class="sidebar-nav-item"
+         href="/tags.html">Papers by Tag</a>
+      <a class="sidebar-nav-item"
+         href="/tsne-viz.html">2D Map of Papers</a>
+      <a class="sidebar-nav-item"
+         href="/topic-viz.html">Topic Explorer</a>
+      <a class="sidebar-nav-item"
+         href="/opensource.html">Tools Explorer</a>
+      <a class="sidebar-nav-item"
+         href="/author-viz.html">Author Explorer</a>
+      <a class="sidebar-nav-item"
+         href="/tutorial.html">Tutorial</a>
+      <a class="sidebar-nav-item"
+         href="/resources.html">Resources, Courses &amp; Events</a>
+      <a class="sidebar-nav-item"
+         href="/contributing.html">Contributing</a>
+    </nav>
+
+    <!-- ===== Stay Updated (minimal block) ===== -->
+    <hr style="border:none; border-top:1px solid #d8dee9; margin:0.75rem 0;" />
+    <div class="sidebar-item" aria-label="Stay updated">
+      <h3 style="margin:0 0 0.25rem 0; font-size:1rem;">Stay Updated</h3>
+      <ul style="list-style:none; padding-left:0; margin:0;">
+        <li style="margin:0.35rem 0;">
+          <a class="sidebar-nav-item" href="/feed/publications.xml"
+             rel="alternate" type="application/rss+xml">📰 RSS Feed</a>
+        </li>
+      </ul>
+    </div>
+    <!-- ===== End Stay Updated ===== -->
+
+    <div class="sidebar-item">
+      <p style="font-size: 12px">
+        Contact <a href="https://sjmoran.github.io">Sean Moran</a> about this survey or website.
+        <span style="font-size: 9px">
+          Made with <a href="https://jekyllrb.com">Jekyll</a> and
+          <a href="https://github.com/poole/hyde">Hyde</a>.
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<style>
+/* === Scrollable Right Sidebar (wider, matches Awesome LLM Papers) === */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 1.5rem 1.25rem;
+  box-sizing: border-box;
+  background-color: #7da2b3;
+  scrollbar-gutter: stable;
+
+  /* wider: 260–420px instead of 240–340px */
+  width: clamp(260px, 30vw, 420px);
+  max-width: clamp(260px, 30vw, 420px);
+}
+
+/* Allow normal flow inside sticky container */
+.sidebar .container.sidebar-sticky {
+  position: relative;
+  max-height: none;
+  overflow: visible;
+}
+
+/* Optional: prettier scrollbar */
+.sidebar::-webkit-scrollbar { width: 8px; }
+.sidebar::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.25); border-radius: 4px; }
+.sidebar::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.4); }
+
+/* Match content offset */
+.main, .content {
+  margin-right: clamp(260px, 30vw, 420px);
+}
+
+/* Mobile view: sidebar collapses */
+@media (max-width: 880px) {
+  .sidebar {
+    position: static;
+    height: auto;
+    width: auto;
+    max-width: none;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  }
+  .main, .content {
+    margin-right: 0 !important;
+  }
+}
+</style>
+
+<script defer>
+document.addEventListener('DOMContentLoaded', function () {
+  // ---- Search ----
+  function doSearch() {
+    const el = document.getElementById('searchTarget');
+    if (!el) return;
+    const q = el.value.trim();
+    try { if (typeof ga === 'function') ga('send', 'event', 'search', 'search', q); } catch(e) {}
+    window.location = "/papers.html#" + encodeURIComponent(q);
+  }
+
+  if (window.jQuery) {
+    $('#searchTarget').on('keydown', function (e) {
+      if (e.key === 'Enter') doSearch();
+    });
+    document.querySelector('.sidebar-item button')?.addEventListener('click', doSearch);
+  } else {
+    const input = document.getElementById('searchTarget');
+    const btn = document.querySelector('.sidebar-item button');
+    if (input) {
+      input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') doSearch();
+      });
+    }
+    if (btn) btn.addEventListener('click', doSearch);
+  }
+
+  window.search = doSearch;
+
+  // ---- Match content margin to actual sidebar width ----
+  const sb = document.querySelector('.sidebar');
+  const mains = document.querySelectorAll('.main, .content');
+  function syncSidebarWidth() {
+    if (!sb) return;
+    const w = sb.offsetWidth + 'px';
+    mains.forEach(m => m && (m.style.marginRight = w));
+  }
+  syncSidebarWidth();
+  window.addEventListener('resize', syncSidebarWidth);
+});
+</script>
+
+
+    <div class="content container mathjax-content">
+      <h1 style="font-size: 2em; margin-bottom: 0.3em;">Awesome Papers on Learning to Hash</h1>
+<p style="font-size: 1.2em;">
+  A curated and continuously updated collection of scholarly research on Learning to Hash, structured to support systematic exploration and academic inquiry.
+</p>
+
+<hr />
+<p>
+  <strong>
+    <a target="_blank" href="http://arxiv.org/abs/2510.04127">
+      Learning-Based Hashing for ANN Search: Foundations and Early Advances
+    </a>
+    <span style="background-color:#dc2626; color:#fff; font-size:0.8em; padding:2px 6px; border-radius:4px; margin-left:6px;">
+      NEW
+    </span>
+  </strong><br />
+  Sean Moran.<br />
+  <em>2025</em><br />
+  <span style="color:#4b5563;">
+    An accessible introduction to the field of learning-based hashing and a synthesis of its early core advances, bridging projection, quantisation, and supervised approaches for efficient similarity search.
+  </span>
+</p>
+
+<style>
+.tag-cloud {
+  display:flex;
+  flex-wrap:wrap;
+  gap:.5rem .75rem;
+  margin:.4rem 0 .8rem;
+}
+.tag-cloud a {
+  text-decoration:none;
+  border-radius:999px;
+  padding:.15rem .45rem;
+  background:#f6f7f9;
+  border:1px solid #e6e8ec;
+  display:inline-flex;
+  align-items:center;
+  gap:.35rem;
+  font-size:.75rem;
+  line-height:1.1;
+  color:#6b7280;
+  font-weight:500;
+}
+.tag-cloud a:hover { background:#f0f3f7; color:#4b5563; }
+.tag-cloud a:focus { outline:none; box-shadow:0 0 0 3px rgba(26,115,232,.25); }
+.tag-cloud a,
+.tag-cloud a:link,
+.tag-cloud a:visited,
+.tag-cloud a:hover,
+.tag-cloud a:active {
+  color:#6b7280 !important;
+  text-decoration:none !important;
+}
+</style>
+
+<hr />
+
+<h3 id="browse-papers-by-tag">Browse Papers by Tag</h3>
+
+<p>Explore the latest research by browsing papers categorized by tags. Select a tag below to dive deeper into specific topics within the field of learning to hash:</p>
+
+<div class="tag-cloud">
+
+
+
+
+  <a href="/tags.html#AAAI">AAAI</a>
+
+  <a href="/tags.html#Audio%20Retrieval">Audio Retrieval</a>
+
+  <a href="/tags.html#CIKM">CIKM</a>
+
+  <a href="/tags.html#CVPR">CVPR</a>
+
+  <a href="/tags.html#Compact%20Codes">Compact Codes</a>
+
+  <a href="/tags.html#Datasets">Datasets</a>
+
+  <a href="/tags.html#Distance%20Metric%20Learning">Distance Metric Learning</a>
+
+  <a href="/tags.html#EMNLP">EMNLP</a>
+
+  <a href="/tags.html#Efficiency">Efficiency</a>
+
+  <a href="/tags.html#Evaluation">Evaluation</a>
+
+  <a href="/tags.html#Few%20Shot%20&amp;%20Zero%20Shot">Few Shot &amp; Zero Shot</a>
+
+  <a href="/tags.html#Graph%20Based%20ANN">Graph Based ANN</a>
+
+  <a href="/tags.html#Hashing%20Methods">Hashing Methods</a>
+
+  <a href="/tags.html#Hybrid%20ANN%20Methods">Hybrid ANN Methods</a>
+
+  <a href="/tags.html#ICASSP">ICASSP</a>
+
+  <a href="/tags.html#ICCV">ICCV</a>
+
+  <a href="/tags.html#ICML">ICML</a>
+
+  <a href="/tags.html#ICRA">ICRA</a>
+
+  <a href="/tags.html#IJCAI">IJCAI</a>
+
+  <a href="/tags.html#IROS">IROS</a>
+
+  <a href="/tags.html#Image%20Retrieval">Image Retrieval</a>
+
+  <a href="/tags.html#Interspeech">Interspeech</a>
+
+  <a href="/tags.html#KDD">KDD</a>
+
+  <a href="/tags.html#Large%20Scale%20Search">Large Scale Search</a>
+
+  <a href="/tags.html#Locality-Sensitive-Hashing">Locality-Sensitive-Hashing</a>
+
+  <a href="/tags.html#Memory%20Efficiency">Memory Efficiency</a>
+
+  <a href="/tags.html#Multimodal%20Retrieval">Multimodal Retrieval</a>
+
+  <a href="/tags.html#NAACL">NAACL</a>
+
+  <a href="/tags.html#NEURIPS">NEURIPS</a>
+
+  <a href="/tags.html#Neural%20Hashing">Neural Hashing</a>
+
+  <a href="/tags.html#Privacy%20&amp;%20Security">Privacy &amp; Security</a>
+
+  <a href="/tags.html#Quantization">Quantization</a>
+
+  <a href="/tags.html#RSS">RSS</a>
+
+  <a href="/tags.html#Re-Ranking">Re-Ranking</a>
+
+  <a href="/tags.html#Recommender%20Systems">Recommender Systems</a>
+
+  <a href="/tags.html#Robustness">Robustness</a>
+
+  <a href="/tags.html#SIGIR">SIGIR</a>
+
+  <a href="/tags.html#Scalability">Scalability</a>
+
+  <a href="/tags.html#Self-Supervised">Self-Supervised</a>
+
+  <a href="/tags.html#Similarity%20Search">Similarity Search</a>
+
+  <a href="/tags.html#Supervised">Supervised</a>
+
+  <a href="/tags.html#Survey%20Paper">Survey Paper</a>
+
+  <a href="/tags.html#Text%20Retrieval">Text Retrieval</a>
+
+  <a href="/tags.html#Tools%20&amp;%20Libraries">Tools &amp; Libraries</a>
+
+  <a href="/tags.html#Tree%20Based%20ANN">Tree Based ANN</a>
+
+  <a href="/tags.html#Uncategorized">Uncategorized</a>
+
+  <a href="/tags.html#Unsupervised">Unsupervised</a>
+
+  <a href="/tags.html#Vector%20Indexing">Vector Indexing</a>
+
+  <a href="/tags.html#Video%20Retrieval">Video Retrieval</a>
+
+</div>
+<hr />
+
+<h3 id="what-this-site-offers">What This Site Offers</h3>
+<ul style="font-size: 1em;">
+  <li>🔍 Access over 3,000 curated publications, organized by topic and methodological taxonomy</li>
+  <li>📈 Identify emerging trends in supervised, unsupervised, deep, and quantized hashing methods</li>
+  <li>🧠 Examine real-world applications including audio retrieval, source code search, and geospatial monitoring</li>
+  <li>📎 Contribute to the resource by submitting new papers or updates</li>
+</ul>
+
+<hr />
+
+<h3 id="what-is-learning-to-hash">What is Learning to Hash?</h3>
+<p>
+<a href="https://en.wikipedia.org/wiki/Nearest_neighbor_search">Nearest neighbour search</a> involves retrieving similar items from large datasets, often in high-dimensional spaces. <strong>Learning to Hash (L2H)</strong> enhances this process by learning compact representations—typically binary codes, but sometimes real-valued or quantized forms—that preserve semantic or structural similarity. These representations enable fast and memory-efficient approximate retrieval by avoiding exhaustive comparisons.
+</p>
+
+<p>
+Learning to Hash techniques underpin a broad range of applications, including large-scale multimedia retrieval, recommendation systems, source code search, scientific data mining, and real-time anomaly detection.
+</p>
+
+<h4 id="selected-applications">Selected Applications</h4>
+<ul>
+  <li><strong><a href="https://arxiv.org/abs/2111.04473">Source Code Search</a></strong> – MinHash applied to large-scale code recommendation</li>
+  <li><strong><a href="https://openreview.net/pdf?id=rkgNKkHtvB">Efficient Transformers</a></strong> – Locality-Sensitive Hashing (LSH) for computational efficiency</li>
+  <li><strong><a href="https://eng.uber.com/lsh/">Fraud Detection</a></strong> – Spatial anomaly detection using LSH at Uber</li>
+  <li><strong><a href="https://www.aclweb.org/anthology/P14-5007">Event Tracking</a></strong> – Social media monitoring through similarity-preserving hashing</li>
+  <li><strong><a href="https://ai.google/research/pubs/pub34634">Image Retrieval</a></strong> – Scalable visual indexing with LSH at Google</li>
+</ul>
+
+<hr />
+
+<h3 id="how-hashing-works">How Hashing Works</h3>
+<p>
+Learning to hash involves training a model to encode data points into compact representations, often binary hash codes. These are used to index items into hash tables. During retrieval, only a subset of nearby buckets are examined, significantly reducing the search space compared to exhaustive nearest neighbour methods.
+</p>
+
+<p align="center">
+  <img src="/public/media/hashing.png?raw=true" alt="Locality Sensitive Hashing (LSH)" width="600" style="max-width: 100%; border-radius: 10px;" />
+  <br /><em>Example of LSH in action, from the <a href="https://learning2hash.github.io/cite.html">PhD thesis of Sean Moran</a>.</em>
+</p>
+
+<hr />
+
+<h3 id="contribute-to-the-collection">Contribute to the Collection</h3>
+<p>
+This site is maintained as a community-driven literature review. If you have authored or come across a relevant paper, we encourage you to contribute via our submission form or GitHub pull request. See the <a href="contributing.html">Contributing</a> page for details.
+</p>
+
+<p>
+To explore further, view the full set of indexed papers on the <a href="/papers.html">All Papers</a> page, or visit the <a href="/resources.html">Resources</a> section for foundational materials and curated tools.
+</p>
+
+<hr />
+
+<p style="font-size: 0.9em;">Copyright © <a href="https://sjmoran.github.io/">Sean Moran</a> 2025. All opinions are my own. If you find this resource helpful, a <a href="https://www.buymeacoffee.com/sjmoran" target="_blank" style="color:#2563eb; text-decoration:none;">coffee ☕</a> is always appreciated to support its upkeep. </p>
+
+    </div>
+
+  </body>
+</html>
