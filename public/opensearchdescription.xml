@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Learning2Hash</ShortName>
+  <LongName>Machine Learning for Hashing Papers</LongName>
+  <Description>Search Papers in Machine Learning for Hashing</Description>
+  <Contact></Contact>
+  <Url type="text/html" method="get" template="https://learning2hash.github.io/papers.html#{searchTerms}"></Url>
+  <Image height="16" width="16" type="image/png">https://learning2hash.github.io/public/favicon.ico</Image>
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  <Language>en-us</Language>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>

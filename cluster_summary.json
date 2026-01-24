@@ -1,0 +1,222 @@
+{
+  "0": [
+    {
+      "tag": "hashing",
+      "count": 0.132
+    },
+    {
+      "tag": "hash",
+      "count": 0.093
+    },
+    {
+      "tag": "code",
+      "count": 0.07
+    },
+    {
+      "tag": "binary",
+      "count": 0.056
+    },
+    {
+      "tag": "deep",
+      "count": 0.04
+    }
+  ],
+  "3": [
+    {
+      "tag": "algorithm",
+      "count": 0.055
+    },
+    {
+      "tag": "neighbor",
+      "count": 0.049
+    },
+    {
+      "tag": "search",
+      "count": 0.048
+    },
+    {
+      "tag": "nearest",
+      "count": 0.039
+    },
+    {
+      "tag": "lsh",
+      "count": 0.035
+    }
+  ],
+  "2": [
+    {
+      "tag": "image",
+      "count": 0.053
+    },
+    {
+      "tag": "metric",
+      "count": 0.047
+    },
+    {
+      "tag": "learning",
+      "count": 0.037
+    },
+    {
+      "tag": "class",
+      "count": 0.03
+    },
+    {
+      "tag": "sample",
+      "count": 0.027
+    }
+  ],
+  "9": [
+    {
+      "tag": "document",
+      "count": 0.084
+    },
+    {
+      "tag": "dense",
+      "count": 0.046
+    },
+    {
+      "tag": "word",
+      "count": 0.033
+    },
+    {
+      "tag": "model",
+      "count": 0.033
+    },
+    {
+      "tag": "language",
+      "count": 0.031
+    }
+  ],
+  "8": [
+    {
+      "tag": "clip",
+      "count": 0.059
+    },
+    {
+      "tag": "text",
+      "count": 0.056
+    },
+    {
+      "tag": "image",
+      "count": 0.049
+    },
+    {
+      "tag": "visual",
+      "count": 0.038
+    },
+    {
+      "tag": "caption",
+      "count": 0.033
+    }
+  ],
+  "4": [
+    {
+      "tag": "video",
+      "count": 0.158
+    },
+    {
+      "tag": "audio",
+      "count": 0.059
+    },
+    {
+      "tag": "music",
+      "count": 0.058
+    },
+    {
+      "tag": "temporal",
+      "count": 0.027
+    },
+    {
+      "tag": "frame",
+      "count": 0.025
+    }
+  ],
+  "6": [
+    {
+      "tag": "descriptor",
+      "count": 0.081
+    },
+    {
+      "tag": "image",
+      "count": 0.059
+    },
+    {
+      "tag": "place",
+      "count": 0.048
+    },
+    {
+      "tag": "feature",
+      "count": 0.041
+    },
+    {
+      "tag": "local",
+      "count": 0.038
+    }
+  ],
+  "5": [
+    {
+      "tag": "recommendation",
+      "count": 0.06
+    },
+    {
+      "tag": "graph",
+      "count": 0.055
+    },
+    {
+      "tag": "item",
+      "count": 0.046
+    },
+    {
+      "tag": "user",
+      "count": 0.043
+    },
+    {
+      "tag": "embedding",
+      "count": 0.038
+    }
+  ],
+  "1": [
+    {
+      "tag": "image",
+      "count": 0.054
+    },
+    {
+      "tag": "fashion",
+      "count": 0.038
+    },
+    {
+      "tag": "cir",
+      "count": 0.027
+    },
+    {
+      "tag": "multimodal",
+      "count": 0.027
+    },
+    {
+      "tag": "text",
+      "count": 0.026
+    }
+  ],
+  "7": [
+    {
+      "tag": "person",
+      "count": 0.094
+    },
+    {
+      "tag": "sketch",
+      "count": 0.092
+    },
+    {
+      "tag": "sbir",
+      "count": 0.038
+    },
+    {
+      "tag": "feature",
+      "count": 0.03
+    },
+    {
+      "tag": "image",
+      "count": 0.027
+    }
+  ]
+}
